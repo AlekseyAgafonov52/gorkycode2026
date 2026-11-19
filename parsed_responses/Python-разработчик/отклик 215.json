@@ -1,0 +1,237 @@
+{
+  "candidate_id": 215,
+  "resume_title": "Middle+ Python разработчик | Python developer (Django, FastAPI, Docker, PostgreSQL, Redis, Kafka)",
+  "cover_letter": null,
+  "experience_total_months": 79,
+  "similar_experience_months": 79,
+  "work_experience": [
+    {
+      "start_date": "2024-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 33,
+      "organization": "Организация 1",
+      "position": "Python разработчик",
+      "employer_details": [
+        "Москваwww.terralink.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Мобильный корпоративный портал для Терралинка и Мираторг\nhttps://tl-razrabotka.ru/solutions/mobile-portal/\nДва параллельных корпоративных портала для крупных производственных компаний: новости, опросы, онбординг, вакансии, справочник сотрудников, благодарности, чат-боты и бронирование рабочих мест.\nЧто делал:\n1. Спроектировал и реализовал REST API мобильного приложения на Django REST\n2. Поддерживал стабильную работу API при 40 000 активных пользователей\n3. Настроил деплой на Linux сервер\n4. Сократил время ответа ключевых эндпоинтов на 40%\n5. Довел покрытие тестами до 70%\n6. Работал с мониторингом сервиса (Prometheus, Grafana) для контроля производительности эндпоинтов\nСтек: Python, Django (DRF), asyncio, PostgreSQL, Kafka, Redis, Docker, WebSockets\n-----------------------\nHR платформа на базе ИИ\nhttps://tl-razrabotka.ru/solutions/hr/\nИИ-инструмент для массового найма: ускоряет подбор и адаптацию кандидатов за счёт автоматизации первичного отбора.\nИзначально занимался разработкой MVP, в качестве одного backend разработчика.\nПосле успешного показа, проект продолжил существование. В дальнейшем команда увеличилась\nЧто делал:\n1. Реализовал микросервис, включая интеграцию с S3 для хранения резюме\n2. Покрыл ключевую бизнес-логику автотестами\n3. Довел покрытие тестами до 90%\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, S3, Kubernetes\nКоманда: 5 backend, 3 frontend, 1 designer",
+      "original": "Фев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nМоскваwww.terralink.ru\nИнформационные технологии, системная интеграция, интернет\nPython разработчик\nМобильный корпоративный портал для Терралинка и Мираторг\nhttps://tl-razrabotka.ru/solutions/mobile-portal/\nДва параллельных корпоративных портала для крупных производственных компаний: новости, опросы, онбординг, вакансии, справочник сотрудников, благодарности, чат-боты и бронирование рабочих мест.\nЧто делал:\n1. Спроектировал и реализовал REST API мобильного приложения на Django REST\n2. Поддерживал стабильную работу API при 40 000 активных пользователей\n3. Настроил деплой на Linux сервер\n4. Сократил время ответа ключевых эндпоинтов на 40%\n5. Довел покрытие тестами до 70%\n6. Работал с мониторингом сервиса (Prometheus, Grafana) для контроля производительности эндпоинтов\nСтек: Python, Django (DRF), asyncio, PostgreSQL, Kafka, Redis, Docker, WebSockets\n-----------------------\nHR платформа на базе ИИ\nhttps://tl-razrabotka.ru/solutions/hr/\nИИ-инструмент для массового найма: ускоряет подбор и адаптацию кандидатов за счёт автоматизации первичного отбора.\nИзначально занимался разработкой MVP, в качестве одного backend разработчика.\nПосле успешного показа, проект продолжил существование. В дальнейшем команда увеличилась\nЧто делал:\n1. Реализовал микросервис, включая интеграцию с S3 для хранения резюме\n2. Покрыл ключевую бизнес-логику автотестами\n3. Довел покрытие тестами до 90%\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, S3, Kubernetes\nКоманда: 5 backend, 3 frontend, 1 designer"
+    },
+    {
+      "start_date": "2020-04",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 47,
+      "organization": "Организация 2",
+      "position": "Python разработчик",
+      "employer_details": [],
+      "description": "Разработка для частных заказчиков\nПрофиль: https://kwork.ru/user/justlike420\nВыполнял заказы следующего характера:\n1. Выполнил 184 заказа со 100% соблюдением сроков\n2. Разработал и запустил под ключ более 20 веб-приложений на Django для малого бизнеса\n3. Автоматизировал рутинные бизнес-процессы заказчиков и реализовал парсеры данных под конкретные задачи\n4. Разработал более 50 Telegram-ботов\n5. Выступал ментором для начинающих разработчиков — разбор кода, помощь с архитектурными решениями\n6. Занимался поиском и устранением багов и доработкой существующих кодовых баз клиентов\nСтек: Python, Django (DRF), FastAPI, Aiogram, Docker, Celery, Git, SQLAlchemy, PostgreSQL, Redis",
+      "original": "Апр 2020 -\nФев 2024\n3 года 11 мес\nОрганизация 2\nPython разработчик\nРазработка для частных заказчиков\nПрофиль: https://kwork.ru/user/justlike420\nВыполнял заказы следующего характера:\n1. Выполнил 184 заказа со 100% соблюдением сроков\n2. Разработал и запустил под ключ более 20 веб-приложений на Django для малого бизнеса\n3. Автоматизировал рутинные бизнес-процессы заказчиков и реализовал парсеры данных под конкретные задачи\n4. Разработал более 50 Telegram-ботов\n5. Выступал ментором для начинающих разработчиков — разбор кода, помощь с архитектурными решениями\n6. Занимался поиском и устранением багов и доработкой существующих кодовых баз клиентов\nСтек: Python, Django (DRF), FastAPI, Aiogram, Docker, Celery, Git, SQLAlchemy, PostgreSQL, Redis"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Asyncio",
+      "level": "advanced",
+      "original": "Asyncio"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "Backend",
+      "level": "advanced",
+      "original": "Backend"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "Highload",
+      "level": "advanced",
+      "original": "Highload"
+    },
+    {
+      "name": "Swagger",
+      "level": "advanced",
+      "original": "Swagger"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "Microservices",
+      "level": "advanced",
+      "original": "Microservices"
+    },
+    {
+      "name": "Английский язык",
+      "level": "intermediate",
+      "original": "Английский язык"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Github: https://github.com/JustLike420\nTelegram: https://t.me/Squishy666\nBackend-разработчик с 6,5-летним опытом, специализируюсь на Python (Django/DRF, FastAPI) и проектировании высоконагруженных REST API. Есть опыт полного цикла — от архитектуры сервиса до продакшена и мониторинга — как в продуктовой разработке, так и в 184 проектах на фрилансе с разным уровнем legacy-кода.\nBackend: Django, Django REST Framework, Django Ninja, Django Channels, FastAPI\nORM: SQLAlchemy, Django ORM, Tortoise ORM, peewee\nИнфраструктура: Docker, Kubernetes, Nginx, Gunicorn/Uvicorn, GitLab CI/CD, Prometheus, Grafana\nДанные: PostgreSQL, MySQL, MSSQL, Redis, MongoDB; точечно — ClickHouse, Elasticsearch, Neo4j\nПрочее: Aiogram (Telegram-боты), Selenium, BeautifulSoup (парсинг), scikit-learn (базовые ML-задачи)\nДополнительно: базовое понимание C, C++ (Qt), C#, JavaScript; сейчас изучаю Go.",
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "МИРЭА - Российский технический университет",
+      "details": [
+        "Информационные системы и технологии, Проектирование и обслуживание высоконагруженных информационных систем"
+      ],
+      "year": 2026,
+      "level": "Высшее образование (Магистр)",
+      "original": "МИРЭА - Российский технический университет\nИнформационные системы и технологии, Проектирование и обслуживание высоконагруженных информационных систем\n•\n2026\n•\nВысшее образование (Магистр)"
+    },
+    {
+      "institution": "МИРЭА - Российский технический университет",
+      "details": [
+        "Информационные системы и технологии, Технологии разработки безопасного программного обеспечения"
+      ],
+      "year": 2024,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "МИРЭА - Российский технический университет\nИнформационные системы и технологии, Технологии разработки безопасного программного обеспечения\n•\n2024\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Нет",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №215\nРезюме: Middle+ Python разработчик | Python developer (Django, FastAPI, Docker, PostgreSQL, Redis, Kafka)",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 6 лет 7 месяцев\nОпыт в похожих должностях:6 лет 7 месяцев\nФев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nМоскваwww.terralink.ru\nИнформационные технологии, системная интеграция, интернет\nPython разработчик\nМобильный корпоративный портал для Терралинка и Мираторг\nhttps://tl-razrabotka.ru/solutions/mobile-portal/\nДва параллельных корпоративных портала для крупных производственных компаний: новости, опросы, онбординг, вакансии, справочник сотрудников, благодарности, чат-боты и бронирование рабочих мест.\nЧто делал:\n1. Спроектировал и реализовал REST API мобильного приложения на Django REST\n2. Поддерживал стабильную работу API при 40 000 активных пользователей\n3. Настроил деплой на Linux сервер\n4. Сократил время ответа ключевых эндпоинтов на 40%\n5. Довел покрытие тестами до 70%\n6. Работал с мониторингом сервиса (Prometheus, Grafana) для контроля производительности эндпоинтов\nСтек: Python, Django (DRF), asyncio, PostgreSQL, Kafka, Redis, Docker, WebSockets\n-----------------------\nHR платформа на базе ИИ\nhttps://tl-razrabotka.ru/solutions/hr/\nИИ-инструмент для массового найма: ускоряет подбор и адаптацию кандидатов за счёт автоматизации первичного отбора.\nИзначально занимался разработкой MVP, в качестве одного backend разработчика.\nПосле успешного показа, проект продолжил существование. В дальнейшем команда увеличилась\nЧто делал:\n1. Реализовал микросервис, включая интеграцию с S3 для хранения резюме\n2. Покрыл ключевую бизнес-логику автотестами\n3. Довел покрытие тестами до 90%\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, S3, Kubernetes\nКоманда: 5 backend, 3 frontend, 1 designer\nАпр 2020 -\nФев 2024\n3 года 11 мес\nОрганизация 2\nPython разработчик\nРазработка для частных заказчиков\nПрофиль: https://kwork.ru/user/justlike420\nВыполнял заказы следующего характера:\n1. Выполнил 184 заказа со 100% соблюдением сроков\n2. Разработал и запустил под ключ более 20 веб-приложений на Django для малого бизнеса\n3. Автоматизировал рутинные бизнес-процессы заказчиков и реализовал парсеры данных под конкретные задачи\n4. Разработал более 50 Telegram-ботов\n5. Выступал ментором для начинающих разработчиков — разбор кода, помощь с архитектурными решениями\n6. Занимался поиском и устранением багов и доработкой существующих кодовых баз клиентов\nСтек: Python, Django (DRF), FastAPI, Aiogram, Docker, Celery, Git, SQLAlchemy, PostgreSQL, Redis",
+    "skills": "Продвинутый уровень\nPython\nDjango Rest Framework\nFastAPI\nGit\nSQL\nPostgreSQL\nDocker\nRedis\nApache Kafka\nRabbitMQ\nAsyncio\nLinux\nNoSQL\nCelery\nDjango\nBackend\nREST\nREST API\nNginx\nSQLAlchemy\nCI/CD\nGitlab\nPytest\nKubernetes\nHighload\nSwagger\nPrometheus\nGrafana\nMicroservices\nСредний уровень\nАнглийский язык",
+    "languages": "Родной\nРусский",
+    "about_me": "Github: https://github.com/JustLike420\nTelegram: https://t.me/Squishy666\nBackend-разработчик с 6,5-летним опытом, специализируюсь на Python (Django/DRF, FastAPI) и проектировании высоконагруженных REST API. Есть опыт полного цикла — от архитектуры сервиса до продакшена и мониторинга — как в продуктовой разработке, так и в 184 проектах на фрилансе с разным уровнем legacy-кода.\nBackend: Django, Django REST Framework, Django Ninja, Django Channels, FastAPI\nORM: SQLAlchemy, Django ORM, Tortoise ORM, peewee\nИнфраструктура: Docker, Kubernetes, Nginx, Gunicorn/Uvicorn, GitLab CI/CD, Prometheus, Grafana\nДанные: PostgreSQL, MySQL, MSSQL, Redis, MongoDB; точечно — ClickHouse, Elasticsearch, Neo4j\nПрочее: Aiogram (Telegram-боты), Selenium, BeautifulSoup (парсинг), scikit-learn (базовые ML-задачи)\nДополнительно: базовое понимание C, C++ (Qt), C#, JavaScript; сейчас изучаю Go.",
+    "education": "Уровень\nВысшее образование (Магистр)\nМИРЭА - Российский технический университет\nИнформационные системы и технологии, Проектирование и обслуживание высоконагруженных информационных систем\n•\n2026\n•\nВысшее образование (Магистр)\nМИРЭА - Российский технический университет\nИнформационные системы и технологии, Технологии разработки безопасного программного обеспечения\n•\n2024\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №215\nРезюме: Middle+ Python разработчик | Python developer (Django, FastAPI, Docker, PostgreSQL, Redis, Kafka)\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 6 лет 7 месяцев\nОпыт в похожих должностях:6 лет 7 месяцев\nФев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nМоскваwww.terralink.ru\nИнформационные технологии, системная интеграция, интернет\nPython разработчик\nМобильный корпоративный портал для Терралинка и Мираторг\nhttps://tl-razrabotka.ru/solutions/mobile-portal/\nДва параллельных корпоративных портала для крупных производственных компаний: новости, опросы, онбординг, вакансии, справочник сотрудников, благодарности, чат-боты и бронирование рабочих мест.\nЧто делал:\n1. Спроектировал и реализовал REST API мобильного приложения на Django REST\n2. Поддерживал стабильную работу API при 40 000 активных пользователей\n3. Настроил деплой на Linux сервер\n4. Сократил время ответа ключевых эндпоинтов на 40%\n5. Довел покрытие тестами до 70%\n6. Работал с мониторингом сервиса (Prometheus, Grafana) для контроля производительности эндпоинтов\nСтек: Python, Django (DRF), asyncio, PostgreSQL, Kafka, Redis, Docker, WebSockets\n-----------------------\nHR платформа на базе ИИ\nhttps://tl-razrabotka.ru/solutions/hr/\nИИ-инструмент для массового найма: ускоряет подбор и адаптацию кандидатов за счёт автоматизации первичного отбора.\nИзначально занимался разработкой MVP, в качестве одного backend разработчика.\nПосле успешного показа, проект продолжил существование. В дальнейшем команда увеличилась\nЧто делал:\n1. Реализовал микросервис, включая интеграцию с S3 для хранения резюме\n2. Покрыл ключевую бизнес-логику автотестами\n3. Довел покрытие тестами до 90%\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, S3, Kubernetes\nКоманда: 5 backend, 3 frontend, 1 designer\nАпр 2020 -\nФев 2024\n3 года 11 мес\nОрганизация 2\nPython разработчик\nРазработка для частных заказчиков\nПрофиль: https://kwork.ru/user/justlike420\nВыполнял заказы следующего характера:\n1. Выполнил 184 заказа со 100% соблюдением сроков\n2. Разработал и запустил под ключ более 20 веб-приложений на Django для малого бизнеса\n3. Автоматизировал рутинные бизнес-процессы заказчиков и реализовал парсеры данных под конкретные задачи\n4. Разработал более 50 Telegram-ботов\n5. Выступал ментором для начинающих разработчиков — разбор кода, помощь с архитектурными решениями\n6. Занимался поиском и устранением багов и доработкой существующих кодовых баз клиентов\nСтек: Python, Django (DRF), FastAPI, Aiogram, Docker, Celery, Git, SQLAlchemy, PostgreSQL, Redis\n\nНавыки\nПродвинутый уровень\nPython\nDjango Rest Framework\nFastAPI\nGit\nSQL\nPostgreSQL\nDocker\nRedis\nApache Kafka\nRabbitMQ\nAsyncio\nLinux\nNoSQL\nCelery\nDjango\nBackend\nREST\nREST API\nNginx\nSQLAlchemy\nCI/CD\nGitlab\nPytest\nKubernetes\nHighload\nSwagger\nPrometheus\nGrafana\nMicroservices\nСредний уровень\nАнглийский язык\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nGithub: https://github.com/JustLike420\nTelegram: https://t.me/Squishy666\nBackend-разработчик с 6,5-летним опытом, специализируюсь на Python (Django/DRF, FastAPI) и проектировании высоконагруженных REST API. Есть опыт полного цикла — от архитектуры сервиса до продакшена и мониторинга — как в продуктовой разработке, так и в 184 проектах на фрилансе с разным уровнем legacy-кода.\nBackend: Django, Django REST Framework, Django Ninja, Django Channels, FastAPI\nORM: SQLAlchemy, Django ORM, Tortoise ORM, peewee\nИнфраструктура: Docker, Kubernetes, Nginx, Gunicorn/Uvicorn, GitLab CI/CD, Prometheus, Grafana\nДанные: PostgreSQL, MySQL, MSSQL, Redis, MongoDB; точечно — ClickHouse, Elasticsearch, Neo4j\nПрочее: Aiogram (Telegram-боты), Selenium, BeautifulSoup (парсинг), scikit-learn (базовые ML-задачи)\nДополнительно: базовое понимание C, C++ (Qt), C#, JavaScript; сейчас изучаю Go.\n\nОбразование\nУровень\nВысшее образование (Магистр)\nМИРЭА - Российский технический университет\nИнформационные системы и технологии, Проектирование и обслуживание высоконагруженных информационных систем\n•\n2026\n•\nВысшее образование (Магистр)\nМИРЭА - Российский технический университет\nИнформационные системы и технологии, Технологии разработки безопасного программного обеспечения\n•\n2024\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет\n"
+}

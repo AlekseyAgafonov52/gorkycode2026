@@ -1,0 +1,240 @@
+{
+  "candidate_id": 263,
+  "resume_title": "Data Scientist",
+  "cover_letter": "Здравствуйте,\nМеня зовут Бoриc Caжин, заинтересовала ваша вакансия. Я уверен, что мой опыт и профессиональные навыки могут быть полезны на этой позиции. Буду рад связаться с вами и обсудить детали вакансии в любое время.\nСвязаться со мной можно в TG - https://t.me/brs_szhn или по почте: brs.szhn@gmail.com",
+  "experience_total_months": 51,
+  "similar_experience_months": 51,
+  "work_experience": [
+    {
+      "start_date": "2023-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 44,
+      "organization": "Организация 1",
+      "position": "Data Scientist",
+      "employer_details": [],
+      "description": "- Разработал и внедрил модель прогнозирования спроса для 100+ складов (CatBoost + Prophet), которая по результатам A/B-теста увеличила выручку на 11% и автоматизировала работу категорийных менеджеров.\n- Построил модель прогнозирования оттока клиентов (ROC-AUC 0.89), запустил ежедневный скоринг для выявления рисковых клиентов и проведения точечных ретеншн-акций. По результатам A/B-теста модель показала снижение оттока на 9%.\n- Провел кластеризацию клиентской базы (DBSCAN) по 7k анкетам, выделил 5 сегментов для формирования персональных маркетинговых стратегий.\n- Участвовал в полном цикле ML-проектов: от сбора требований и EDA до внедрения и мониторинга моделей в продакшене\nСтек:\n- ML: CatBoost, Prophet, Scikit-learn, Pandas, NumPy\n- MLOps & DevOps: MLflow, Kubeflow, Airflow, Docker, Kubernetes, Bitbucket\n- Data Engineering & Big Data: Hadoop (HDFS), Spark, Hive, Parquet\n- Data Analysis & Visualization: Jupyter, Seaborn, Matplotlib\n- Infrastructure & Tools: Jira, Confluence, HDFS",
+      "original": "Мар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nData Scientist\n- Разработал и внедрил модель прогнозирования спроса для 100+ складов (CatBoost + Prophet), которая по результатам A/B-теста увеличила выручку на 11% и автоматизировала работу категорийных менеджеров.\n- Построил модель прогнозирования оттока клиентов (ROC-AUC 0.89), запустил ежедневный скоринг для выявления рисковых клиентов и проведения точечных ретеншн-акций. По результатам A/B-теста модель показала снижение оттока на 9%.\n- Провел кластеризацию клиентской базы (DBSCAN) по 7k анкетам, выделил 5 сегментов для формирования персональных маркетинговых стратегий.\n- Участвовал в полном цикле ML-проектов: от сбора требований и EDA до внедрения и мониторинга моделей в продакшене\nСтек:\n- ML: CatBoost, Prophet, Scikit-learn, Pandas, NumPy\n- MLOps & DevOps: MLflow, Kubeflow, Airflow, Docker, Kubernetes, Bitbucket\n- Data Engineering & Big Data: Hadoop (HDFS), Spark, Hive, Parquet\n- Data Analysis & Visualization: Jupyter, Seaborn, Matplotlib\n- Infrastructure & Tools: Jira, Confluence, HDFS"
+    },
+    {
+      "start_date": "2022-08",
+      "end_date": "2023-03",
+      "is_current": false,
+      "duration_months": 8,
+      "organization": "Организация 2",
+      "position": "Data Scientist",
+      "employer_details": [],
+      "description": "- Провел тщательный анализ данных (EDA), благодаря чему были предложены новые фичи для модели прогнозирования веса льда на ЛЭП, которые позволили уменьшить количество ложных выездов аварийных бригад на 8%.\n- Полностью разработал модель многоклассовой классификации типов льда, достигнув точности 80.7% (F1-score) и улучшив предыдущий результат на 9.5%, а также снизив затраты на физические датчики на 24%.\nСтек:\n- ML: CatBoost, XGBoost, Time Series Transformer, PyTorch\n- MLOps: MLflow, Airflow, Gitlab\n- Data Engineering: Clickhouse, PostgreSQL\n- Data Analysis & Visualization: Jupyter, Seaborn, Matplotlib",
+      "original": "Авг 2022 -\nМар 2023\n8 мес\nОрганизация 2\nData Scientist\n- Провел тщательный анализ данных (EDA), благодаря чему были предложены новые фичи для модели прогнозирования веса льда на ЛЭП, которые позволили уменьшить количество ложных выездов аварийных бригад на 8%.\n- Полностью разработал модель многоклассовой классификации типов льда, достигнув точности 80.7% (F1-score) и улучшив предыдущий результат на 9.5%, а также снизив затраты на физические датчики на 24%.\nСтек:\n- ML: CatBoost, XGBoost, Time Series Transformer, PyTorch\n- MLOps: MLflow, Airflow, Gitlab\n- Data Engineering: Clickhouse, PostgreSQL\n- Data Analysis & Visualization: Jupyter, Seaborn, Matplotlib"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Big Data",
+      "level": "advanced",
+      "original": "Big Data"
+    },
+    {
+      "name": "XGBoost",
+      "level": "advanced",
+      "original": "XGBoost"
+    },
+    {
+      "name": "PyTorch",
+      "level": "advanced",
+      "original": "PyTorch"
+    },
+    {
+      "name": "SciPy",
+      "level": "advanced",
+      "original": "SciPy"
+    },
+    {
+      "name": "Plotly",
+      "level": "advanced",
+      "original": "Plotly"
+    },
+    {
+      "name": "Hadoop",
+      "level": "advanced",
+      "original": "Hadoop"
+    },
+    {
+      "name": "Jupyter Notebook",
+      "level": "advanced",
+      "original": "Jupyter Notebook"
+    },
+    {
+      "name": "Теория вероятностей",
+      "level": "advanced",
+      "original": "Теория вероятностей"
+    },
+    {
+      "name": "ETL",
+      "level": "advanced",
+      "original": "ETL"
+    },
+    {
+      "name": "Deep Learning",
+      "level": "advanced",
+      "original": "Deep Learning"
+    },
+    {
+      "name": "NumPy",
+      "level": "advanced",
+      "original": "Numpy"
+    },
+    {
+      "name": "pandas",
+      "level": "advanced",
+      "original": "pandas"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "seaborn",
+      "level": "advanced",
+      "original": "Seaborn"
+    },
+    {
+      "name": "LightGBM",
+      "level": "advanced",
+      "original": "LightGBM"
+    },
+    {
+      "name": "CatBoost",
+      "level": "advanced",
+      "original": "CatBoost"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "scikit-learn",
+      "level": "advanced",
+      "original": "Scikit-learn"
+    },
+    {
+      "name": "matplotlib",
+      "level": "advanced",
+      "original": "Matplotlib"
+    },
+    {
+      "name": "TensorFlow",
+      "level": "advanced",
+      "original": "TensorFlow"
+    },
+    {
+      "name": "Временные ряды",
+      "level": "advanced",
+      "original": "Временные ряды"
+    },
+    {
+      "name": "Apache Spark",
+      "level": "advanced",
+      "original": "Apache Spark"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Apache Airflow",
+      "level": "advanced",
+      "original": "Apache Airflow"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "MLflow",
+      "level": "advanced",
+      "original": "MLflow"
+    },
+    {
+      "name": "Классическое машинное обучение",
+      "level": "advanced",
+      "original": "Классическое машинное обучение"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Data Scientist с опытом полного цикла разработки ML-моделей, от исследования до внедрения (прогноз спроса, отток клиентов). Ключевой результат: увеличение выручки на 11% за счет автоматизации прогнозирования на 100+ складах. Опыт успешного участия в хакатонах (10-е место из 118 на Data Fusion, разработка AI-ассистента для e-commerce на IT Purple Hack) демонстрирует навык быстрого прототипирования и решения задач в сжатые сроки.",
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "Национальный исследовательский университет ИТМО, Санкт-Петербург",
+      "details": [
+        "AI Talent Hub, Искусственный интеллект"
+      ],
+      "year": 2027,
+      "level": "Высшее образование (Магистр)",
+      "original": "Национальный исследовательский университет ИТМО, Санкт-Петербург\nAI Talent Hub, Искусственный интеллект\n•\n2027\n•\nВысшее образование (Магистр)"
+    },
+    {
+      "institution": "Воронежский государственный университет, Воронеж",
+      "details": [
+        "ПММ, Прикладная математика и информатика"
+      ],
+      "year": 2025,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Воронежский государственный университет, Воронеж\nПММ, Прикладная математика и информатика\n•\n2025\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №263\nРезюме: Data Scientist",
+    "cover_letter": "Здравствуйте,\nМеня зовут Бoриc Caжин, заинтересовала ваша вакансия. Я уверен, что мой опыт и профессиональные навыки могут быть полезны на этой позиции. Буду рад связаться с вами и обсудить детали вакансии в любое время.\nСвязаться со мной можно в TG - https://t.me/brs_szhn или по почте: brs.szhn@gmail.com",
+    "experience": "Опыт работы: 4 года 3 месяца\nОпыт в похожих должностях:4 года 3 месяца\nМар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nData Scientist\n- Разработал и внедрил модель прогнозирования спроса для 100+ складов (CatBoost + Prophet), которая по результатам A/B-теста увеличила выручку на 11% и автоматизировала работу категорийных менеджеров.\n- Построил модель прогнозирования оттока клиентов (ROC-AUC 0.89), запустил ежедневный скоринг для выявления рисковых клиентов и проведения точечных ретеншн-акций. По результатам A/B-теста модель показала снижение оттока на 9%.\n- Провел кластеризацию клиентской базы (DBSCAN) по 7k анкетам, выделил 5 сегментов для формирования персональных маркетинговых стратегий.\n- Участвовал в полном цикле ML-проектов: от сбора требований и EDA до внедрения и мониторинга моделей в продакшене\nСтек:\n- ML: CatBoost, Prophet, Scikit-learn, Pandas, NumPy\n- MLOps & DevOps: MLflow, Kubeflow, Airflow, Docker, Kubernetes, Bitbucket\n- Data Engineering & Big Data: Hadoop (HDFS), Spark, Hive, Parquet\n- Data Analysis & Visualization: Jupyter, Seaborn, Matplotlib\n- Infrastructure & Tools: Jira, Confluence, HDFS\nАвг 2022 -\nМар 2023\n8 мес\nОрганизация 2\nData Scientist\n- Провел тщательный анализ данных (EDA), благодаря чему были предложены новые фичи для модели прогнозирования веса льда на ЛЭП, которые позволили уменьшить количество ложных выездов аварийных бригад на 8%.\n- Полностью разработал модель многоклассовой классификации типов льда, достигнув точности 80.7% (F1-score) и улучшив предыдущий результат на 9.5%, а также снизив затраты на физические датчики на 24%.\nСтек:\n- ML: CatBoost, XGBoost, Time Series Transformer, PyTorch\n- MLOps: MLflow, Airflow, Gitlab\n- Data Engineering: Clickhouse, PostgreSQL\n- Data Analysis & Visualization: Jupyter, Seaborn, Matplotlib",
+    "skills": "Продвинутый уровень\nPython\nBig Data\nXGBoost\nPyTorch\nSciPy\nPlotly\nHadoop\nJupyter Notebook\nТеория вероятностей\nETL\nDeep Learning\nNumpy\npandas\nClickhouse\nSeaborn\nLightGBM\nCatBoost\nPostgreSQL\nSQL\nScikit-learn\nMatplotlib\nTensorFlow\nВременные ряды\nApache Spark\nDocker\nDocker-compose\nApache Airflow\nKubernetes\nMLflow\nКлассическое машинное обучение",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Data Scientist с опытом полного цикла разработки ML-моделей, от исследования до внедрения (прогноз спроса, отток клиентов). Ключевой результат: увеличение выручки на 11% за счет автоматизации прогнозирования на 100+ складах. Опыт успешного участия в хакатонах (10-е место из 118 на Data Fusion, разработка AI-ассистента для e-commerce на IT Purple Hack) демонстрирует навык быстрого прототипирования и решения задач в сжатые сроки.",
+    "education": "Уровень\nВысшее образование (Магистр)\nНациональный исследовательский университет ИТМО, Санкт-Петербург\nAI Talent Hub, Искусственный интеллект\n•\n2027\n•\nВысшее образование (Магистр)\nВоронежский государственный университет, Воронеж\nПММ, Прикладная математика и информатика\n•\n2025\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №263\nРезюме: Data Scientist\n\nСопроводительное письмо\nЗдравствуйте,\nМеня зовут Бoриc Caжин, заинтересовала ваша вакансия. Я уверен, что мой опыт и профессиональные навыки могут быть полезны на этой позиции. Буду рад связаться с вами и обсудить детали вакансии в любое время.\nСвязаться со мной можно в TG - https://t.me/brs_szhn или по почте: brs.szhn@gmail.com\n\nОпыт работы\nОпыт работы: 4 года 3 месяца\nОпыт в похожих должностях:4 года 3 месяца\nМар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nData Scientist\n- Разработал и внедрил модель прогнозирования спроса для 100+ складов (CatBoost + Prophet), которая по результатам A/B-теста увеличила выручку на 11% и автоматизировала работу категорийных менеджеров.\n- Построил модель прогнозирования оттока клиентов (ROC-AUC 0.89), запустил ежедневный скоринг для выявления рисковых клиентов и проведения точечных ретеншн-акций. По результатам A/B-теста модель показала снижение оттока на 9%.\n- Провел кластеризацию клиентской базы (DBSCAN) по 7k анкетам, выделил 5 сегментов для формирования персональных маркетинговых стратегий.\n- Участвовал в полном цикле ML-проектов: от сбора требований и EDA до внедрения и мониторинга моделей в продакшене\nСтек:\n- ML: CatBoost, Prophet, Scikit-learn, Pandas, NumPy\n- MLOps & DevOps: MLflow, Kubeflow, Airflow, Docker, Kubernetes, Bitbucket\n- Data Engineering & Big Data: Hadoop (HDFS), Spark, Hive, Parquet\n- Data Analysis & Visualization: Jupyter, Seaborn, Matplotlib\n- Infrastructure & Tools: Jira, Confluence, HDFS\nАвг 2022 -\nМар 2023\n8 мес\nОрганизация 2\nData Scientist\n- Провел тщательный анализ данных (EDA), благодаря чему были предложены новые фичи для модели прогнозирования веса льда на ЛЭП, которые позволили уменьшить количество ложных выездов аварийных бригад на 8%.\n- Полностью разработал модель многоклассовой классификации типов льда, достигнув точности 80.7% (F1-score) и улучшив предыдущий результат на 9.5%, а также снизив затраты на физические датчики на 24%.\nСтек:\n- ML: CatBoost, XGBoost, Time Series Transformer, PyTorch\n- MLOps: MLflow, Airflow, Gitlab\n- Data Engineering: Clickhouse, PostgreSQL\n- Data Analysis & Visualization: Jupyter, Seaborn, Matplotlib\n\nНавыки\nПродвинутый уровень\nPython\nBig Data\nXGBoost\nPyTorch\nSciPy\nPlotly\nHadoop\nJupyter Notebook\nТеория вероятностей\nETL\nDeep Learning\nNumpy\npandas\nClickhouse\nSeaborn\nLightGBM\nCatBoost\nPostgreSQL\nSQL\nScikit-learn\nMatplotlib\nTensorFlow\nВременные ряды\nApache Spark\nDocker\nDocker-compose\nApache Airflow\nKubernetes\nMLflow\nКлассическое машинное обучение\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nData Scientist с опытом полного цикла разработки ML-моделей, от исследования до внедрения (прогноз спроса, отток клиентов). Ключевой результат: увеличение выручки на 11% за счет автоматизации прогнозирования на 100+ складах. Опыт успешного участия в хакатонах (10-е место из 118 на Data Fusion, разработка AI-ассистента для e-commerce на IT Purple Hack) демонстрирует навык быстрого прототипирования и решения задач в сжатые сроки.\n\nОбразование\nУровень\nВысшее образование (Магистр)\nНациональный исследовательский университет ИТМО, Санкт-Петербург\nAI Talent Hub, Искусственный интеллект\n•\n2027\n•\nВысшее образование (Магистр)\nВоронежский государственный университет, Воронеж\nПММ, Прикладная математика и информатика\n•\n2025\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

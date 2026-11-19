@@ -1,0 +1,112 @@
+{
+  "candidate_id": 354,
+  "resume_title": "Программист-разработчик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "MySQL",
+      "level": "intermediate",
+      "original": "MySQL"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "Java",
+      "level": "basic",
+      "original": "Java"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "CSS",
+      "level": "basic",
+      "original": "CSS"
+    },
+    {
+      "name": "HTML",
+      "level": "basic",
+      "original": "HTML"
+    },
+    {
+      "name": "PHP",
+      "level": "basic",
+      "original": "PHP"
+    },
+    {
+      "name": "JavaScript",
+      "level": "basic",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Веб-программирование",
+      "level": "basic",
+      "original": "Веб-программирование"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "1С",
+      "level": "basic",
+      "original": "1С"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "ГБПОУ Нижегородский радиотехнический колледж",
+      "details": [
+        "Информационные системы и программирование, Программист"
+      ],
+      "year": 2025,
+      "level": "Среднее специальное образование",
+      "original": "ГБПОУ Нижегородский радиотехнический колледж\nИнформационные системы и программирование, Программист\n•\n2025\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Не готова к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №354\nРезюме: Программист-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Средний уровень\nGit\nMySQL\nSQL\nБазовый уровень\nJava\nPython\nCSS\nHTML\nPHP\nJavaScript\nВеб-программирование\nPostgreSQL\n1С",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее специальное образование\nГБПОУ Нижегородский радиотехнический колледж\nИнформационные системы и программирование, Программист\n•\n2025\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №354\nРезюме: Программист-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nСредний уровень\nGit\nMySQL\nSQL\nБазовый уровень\nJava\nPython\nCSS\nHTML\nPHP\nJavaScript\nВеб-программирование\nPostgreSQL\n1С\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее специальное образование\nГБПОУ Нижегородский радиотехнический колледж\nИнформационные системы и программирование, Программист\n•\n2025\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

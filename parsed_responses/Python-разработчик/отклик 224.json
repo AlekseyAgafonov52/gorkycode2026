@@ -1,0 +1,165 @@
+{
+  "candidate_id": 224,
+  "resume_title": "Backend Python Developer",
+  "cover_letter": "Меня зовут Александр, и я хотел бы выразить свою заинтересованность в вакансии в вашей компании. У меня есть опыт работы с разработкой и поддержкой микросервисов на FastAPI, а также с интеграцией сторонних API и оптимизацией производительности.\nВ своей предыдущей роли я успешно разработал RESTful API для управления товарами и заказами, а также внедрил аутентификацию и интеграцию с платежными системами. Я также уделяю большое внимание качеству кода и тестированию, что подтверждается увеличением покрытия тестами на 42%.\nЯ уверен, что мой опыт и навыки в области Python, FastAPI и работы с базами данных PostgreSQL могут быть полезны вашей команде. Буду рад обсудить, как я могу внести свой вклад в развитие вашего проекта.\nСпасибо за ваше время и внимание. С нетерпением жду возможности пообщаться.\nС уважением, Афанасьев Александр.",
+  "experience_total_months": 52,
+  "similar_experience_months": 52,
+  "work_experience": [
+    {
+      "start_date": "2024-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 33,
+      "organization": "Организация 1",
+      "position": "Backend Python Developer",
+      "employer_details": [
+        "Москва"
+      ],
+      "description": "Внутренний портал для ВТБ банка.\nStack: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docke-Compose, pydantic, pytest, asyncio, Redis, GitHub, RabbitMQ.\nРазработка RESTful API для внутреннего портала банка (интеграция с внешними сервисами, рассылки, кэширование).\nОптимизация сортировки контента → ускорение обработки данных.\nВнедрил асинхронные задачи через RabbitMQ, что снизило нагрузку на сервер.\nПокрытие кода юнит-тестами (pytest), код-ревью, поддержка асинхронного кода.\nКонтейнеризация (Docker) и автоматизация процессов",
+      "original": "Фев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nМосква\nBackend Python Developer\nВнутренний портал для ВТБ банка.\nStack: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docke-Compose, pydantic, pytest, asyncio, Redis, GitHub, RabbitMQ.\nРазработка RESTful API для внутреннего портала банка (интеграция с внешними сервисами, рассылки, кэширование).\nОптимизация сортировки контента → ускорение обработки данных.\nВнедрил асинхронные задачи через RabbitMQ, что снизило нагрузку на сервер.\nПокрытие кода юнит-тестами (pytest), код-ревью, поддержка асинхронного кода.\nКонтейнеризация (Docker) и автоматизация процессов"
+    },
+    {
+      "start_date": "2022-07",
+      "end_date": "2024-01",
+      "is_current": false,
+      "duration_months": 19,
+      "organization": "Организация 2",
+      "position": "Backend Python Developer",
+      "employer_details": [
+        "Нефтеюганскwww.energosfera.ru/",
+        "Электроника, приборостроение, бытовая техника, компьютеры и оргтехника"
+      ],
+      "description": "Онлайн магазин промышленного и бытового электрооборудования.\nСтек технологий: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Docker-Compose, Pytest, Redis, Git, pydantic, asyncio.\nРазработка микросервисов для онлайн-магазина (управление товарами, заказами, аутентификация).\nИнтеграция платёжных систем и сторонних API.\nОптимизация ORM-запросов, повышение покрытия тестами на 25%.\nПоднял покрытие тестами с 50% до 82% (pytest).\nНастройка CI/CD (укажите инструменты: GitHub Actions/GitLab CI).",
+      "original": "Июл 2022 -\nЯнв 2024\n1 год 7 мес\nОрганизация 2\nНефтеюганскwww.energosfera.ru/\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nBackend Python Developer\nОнлайн магазин промышленного и бытового электрооборудования.\nСтек технологий: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Docker-Compose, Pytest, Redis, Git, pydantic, asyncio.\nРазработка микросервисов для онлайн-магазина (управление товарами, заказами, аутентификация).\nИнтеграция платёжных систем и сторонних API.\nОптимизация ORM-запросов, повышение покрытия тестами на 25%.\nПоднял покрытие тестами с 50% до 82% (pytest).\nНастройка CI/CD (укажите инструменты: GitHub Actions/GitLab CI)."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Работа с базами данных",
+      "level": "advanced",
+      "original": "Работа с базами данных"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Базы данных",
+      "level": "advanced",
+      "original": "Базы данных"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Асинхронное программирование",
+      "level": "advanced",
+      "original": "Асинхронное программирование"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Selenium",
+      "level": "advanced",
+      "original": "Selenium"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Backend: FastAPI, REST API, WebSockets, asyncio, threading\nБазы данных: PostgreSQL, SQLAlchemy, Alembic, Redis\nDevOps: Docker, Docker-Compose, CI/CD (GitHub Actions)\nТестирование: pytest, unit/integration tests, selenium\nДругое: Git, JWT/OAuth2, Pydantic, RabbitMQ",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Лицей №5 г.Нефтеюганск",
+      "details": [
+        "Оператор ЭВМ."
+      ],
+      "year": 2011,
+      "level": "Среднее специальное образование",
+      "original": "Лицей №5 г.Нефтеюганск\nОператор ЭВМ.\n•\n2011\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №224\nРезюме: Backend Python Developer",
+    "cover_letter": "Меня зовут Александр, и я хотел бы выразить свою заинтересованность в вакансии в вашей компании. У меня есть опыт работы с разработкой и поддержкой микросервисов на FastAPI, а также с интеграцией сторонних API и оптимизацией производительности.\nВ своей предыдущей роли я успешно разработал RESTful API для управления товарами и заказами, а также внедрил аутентификацию и интеграцию с платежными системами. Я также уделяю большое внимание качеству кода и тестированию, что подтверждается увеличением покрытия тестами на 42%.\nЯ уверен, что мой опыт и навыки в области Python, FastAPI и работы с базами данных PostgreSQL могут быть полезны вашей команде. Буду рад обсудить, как я могу внести свой вклад в развитие вашего проекта.\nСпасибо за ваше время и внимание. С нетерпением жду возможности пообщаться.\nС уважением, Афанасьев Александр.",
+    "experience": "Опыт работы: 4 года 4 месяца\nОпыт в похожих должностях:4 года 4 месяца\nФев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nМосква\nBackend Python Developer\nВнутренний портал для ВТБ банка.\nStack: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docke-Compose, pydantic, pytest, asyncio, Redis, GitHub, RabbitMQ.\nРазработка RESTful API для внутреннего портала банка (интеграция с внешними сервисами, рассылки, кэширование).\nОптимизация сортировки контента → ускорение обработки данных.\nВнедрил асинхронные задачи через RabbitMQ, что снизило нагрузку на сервер.\nПокрытие кода юнит-тестами (pytest), код-ревью, поддержка асинхронного кода.\nКонтейнеризация (Docker) и автоматизация процессов\nИюл 2022 -\nЯнв 2024\n1 год 7 мес\nОрганизация 2\nНефтеюганскwww.energosfera.ru/\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nBackend Python Developer\nОнлайн магазин промышленного и бытового электрооборудования.\nСтек технологий: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Docker-Compose, Pytest, Redis, Git, pydantic, asyncio.\nРазработка микросервисов для онлайн-магазина (управление товарами, заказами, аутентификация).\nИнтеграция платёжных систем и сторонних API.\nОптимизация ORM-запросов, повышение покрытия тестами на 25%.\nПоднял покрытие тестами с 50% до 82% (pytest).\nНастройка CI/CD (укажите инструменты: GitHub Actions/GitLab CI).",
+    "skills": "Продвинутый уровень\nPython\nFastAPI\nSQL\nPostgreSQL\nGit\nРабота с базами данных\nDocker\nБазы данных\nRedis\nSQLAlchemy\nDocker-compose\nCI/CD\nАсинхронное программирование\nREST API\nPytest\nRabbitMQ\nSelenium",
+    "languages": "Родной\nРусский",
+    "about_me": "Backend: FastAPI, REST API, WebSockets, asyncio, threading\nБазы данных: PostgreSQL, SQLAlchemy, Alembic, Redis\nDevOps: Docker, Docker-Compose, CI/CD (GitHub Actions)\nТестирование: pytest, unit/integration tests, selenium\nДругое: Git, JWT/OAuth2, Pydantic, RabbitMQ",
+    "education": "Уровень\nСреднее специальное образование\nЛицей №5 г.Нефтеюганск\nОператор ЭВМ.\n•\n2011\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №224\nРезюме: Backend Python Developer\n\nСопроводительное письмо\nМеня зовут Александр, и я хотел бы выразить свою заинтересованность в вакансии в вашей компании. У меня есть опыт работы с разработкой и поддержкой микросервисов на FastAPI, а также с интеграцией сторонних API и оптимизацией производительности.\nВ своей предыдущей роли я успешно разработал RESTful API для управления товарами и заказами, а также внедрил аутентификацию и интеграцию с платежными системами. Я также уделяю большое внимание качеству кода и тестированию, что подтверждается увеличением покрытия тестами на 42%.\nЯ уверен, что мой опыт и навыки в области Python, FastAPI и работы с базами данных PostgreSQL могут быть полезны вашей команде. Буду рад обсудить, как я могу внести свой вклад в развитие вашего проекта.\nСпасибо за ваше время и внимание. С нетерпением жду возможности пообщаться.\nС уважением, Афанасьев Александр.\n\nОпыт работы\nОпыт работы: 4 года 4 месяца\nОпыт в похожих должностях:4 года 4 месяца\nФев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nМосква\nBackend Python Developer\nВнутренний портал для ВТБ банка.\nStack: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docke-Compose, pydantic, pytest, asyncio, Redis, GitHub, RabbitMQ.\nРазработка RESTful API для внутреннего портала банка (интеграция с внешними сервисами, рассылки, кэширование).\nОптимизация сортировки контента → ускорение обработки данных.\nВнедрил асинхронные задачи через RabbitMQ, что снизило нагрузку на сервер.\nПокрытие кода юнит-тестами (pytest), код-ревью, поддержка асинхронного кода.\nКонтейнеризация (Docker) и автоматизация процессов\nИюл 2022 -\nЯнв 2024\n1 год 7 мес\nОрганизация 2\nНефтеюганскwww.energosfera.ru/\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nBackend Python Developer\nОнлайн магазин промышленного и бытового электрооборудования.\nСтек технологий: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Docker-Compose, Pytest, Redis, Git, pydantic, asyncio.\nРазработка микросервисов для онлайн-магазина (управление товарами, заказами, аутентификация).\nИнтеграция платёжных систем и сторонних API.\nОптимизация ORM-запросов, повышение покрытия тестами на 25%.\nПоднял покрытие тестами с 50% до 82% (pytest).\nНастройка CI/CD (укажите инструменты: GitHub Actions/GitLab CI).\n\nНавыки\nПродвинутый уровень\nPython\nFastAPI\nSQL\nPostgreSQL\nGit\nРабота с базами данных\nDocker\nБазы данных\nRedis\nSQLAlchemy\nDocker-compose\nCI/CD\nАсинхронное программирование\nREST API\nPytest\nRabbitMQ\nSelenium\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nBackend: FastAPI, REST API, WebSockets, asyncio, threading\nБазы данных: PostgreSQL, SQLAlchemy, Alembic, Redis\nDevOps: Docker, Docker-Compose, CI/CD (GitHub Actions)\nТестирование: pytest, unit/integration tests, selenium\nДругое: Git, JWT/OAuth2, Pydantic, RabbitMQ\n\nОбразование\nУровень\nСреднее специальное образование\nЛицей №5 г.Нефтеюганск\nОператор ЭВМ.\n•\n2011\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

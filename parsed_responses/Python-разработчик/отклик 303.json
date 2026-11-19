@@ -1,0 +1,201 @@
+{
+  "candidate_id": 303,
+  "resume_title": "Python Developer",
+  "cover_letter": null,
+  "experience_total_months": 59,
+  "similar_experience_months": 59,
+  "work_experience": [
+    {
+      "start_date": "2023-04",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 43,
+      "organization": "Организация 1",
+      "position": "Python Developer",
+      "employer_details": [],
+      "description": "Работал в команде разработки корпоративного мессенджера ''Пачка'' насчитывающий 150000+ постоянных юзеров.\n— Занимался улучшением и созданием инструментов при работе с системными ошибками и перформансом\n— Увеличил покрытие тестами сервисов до ~80% в рамках работы\n— Инициировал и описал концепт ведения тасок в jira, минимизировав нарушение рабочих процессов\n— Масштабировал приложения, работал над процессом перехода монолита к гибриду\n— Работал над оптимизацией сценариев пользователей, интеграция с BI-системой\n— Разработка внешних интеграций\nСтек: Python, FastAPI, Kubernetes, Helm Charts, pytest, mypy, Redis, MongoDB, Celery, Prometheus, Grafana, RabbitMQ, Docker, PostgreSQL, Elastic Stack(ELK), SQLAlchemy, CI/CD, jira, ClickHouse",
+      "original": "Апр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nPython Developer\nРаботал в команде разработки корпоративного мессенджера ''Пачка'' насчитывающий 150000+ постоянных юзеров.\n— Занимался улучшением и созданием инструментов при работе с системными ошибками и перформансом\n— Увеличил покрытие тестами сервисов до ~80% в рамках работы\n— Инициировал и описал концепт ведения тасок в jira, минимизировав нарушение рабочих процессов\n— Масштабировал приложения, работал над процессом перехода монолита к гибриду\n— Работал над оптимизацией сценариев пользователей, интеграция с BI-системой\n— Разработка внешних интеграций\nСтек: Python, FastAPI, Kubernetes, Helm Charts, pytest, mypy, Redis, MongoDB, Celery, Prometheus, Grafana, RabbitMQ, Docker, PostgreSQL, Elastic Stack(ELK), SQLAlchemy, CI/CD, jira, ClickHouse"
+    },
+    {
+      "start_date": "2021-12",
+      "end_date": "2023-04",
+      "is_current": false,
+      "duration_months": 17,
+      "organization": "Организация 2",
+      "position": "Python Developer",
+      "employer_details": [],
+      "description": "Работал в команде разработки python проектов с нуля, а так же интеграция/поддержка разного рода корпоративных систем.\n— Планирование архитектуры приложения, выбор технологий\n— Поддержка существующих проектов, багфикс, рефакторинг проблемных мест\n— Оптимизация приложения, работа с ускорением приложения\n— Разработка сервиса для аналитики, написание ETL процессов для работы с данными\n— Реализация системы для оперативного информирования сервисной команды\nСтек: Python, Django, Django rest Framework, Celery, RabbitMQ, MySQL, PostgreSQL, MongoDB, Docker",
+      "original": "Дек 2021 -\nАпр 2023\n1 год 5 мес\nОрганизация 2\nPython Developer\nРаботал в команде разработки python проектов с нуля, а так же интеграция/поддержка разного рода корпоративных систем.\n— Планирование архитектуры приложения, выбор технологий\n— Поддержка существующих проектов, багфикс, рефакторинг проблемных мест\n— Оптимизация приложения, работа с ускорением приложения\n— Разработка сервиса для аналитики, написание ETL процессов для работы с данными\n— Реализация системы для оперативного информирования сервисной команды\nСтек: Python, Django, Django rest Framework, Celery, RabbitMQ, MySQL, PostgreSQL, MongoDB, Docker"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "Английский язык",
+      "level": null,
+      "original": "Английский язык"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "aiohttp",
+      "level": null,
+      "original": "aiohttp"
+    },
+    {
+      "name": "Jira",
+      "level": null,
+      "original": "jira"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": null,
+      "original": "Elasticsearch"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "SOLID",
+      "level": null,
+      "original": "SOLID"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "GitLab CI",
+      "level": null,
+      "original": "GitLab CI"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": null,
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Unit Testing",
+      "level": null,
+      "original": "Unit Testing"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Привет! я python developer с более чем 3+ опытом работы в разработке. Мои ценности ориентированы на решение проблем команды,\nбизнеса и клиентов. Обладаю пониманием обширным количеством технологий, которые помогают мне двигать команду и продукт.\nСтремлюсь находить и решать ошибки в проекте и улучшать перформанс. Имею большой опыт в разработке, поддержании и улучшением\nстабильности продукта.\nДля связи со мной ТГ: @gleb_202020",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №303\nРезюме: Python Developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 11 месяцев\nОпыт в похожих должностях:4 года 11 месяцев\nАпр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nPython Developer\nРаботал в команде разработки корпоративного мессенджера ''Пачка'' насчитывающий 150000+ постоянных юзеров.\n— Занимался улучшением и созданием инструментов при работе с системными ошибками и перформансом\n— Увеличил покрытие тестами сервисов до ~80% в рамках работы\n— Инициировал и описал концепт ведения тасок в jira, минимизировав нарушение рабочих процессов\n— Масштабировал приложения, работал над процессом перехода монолита к гибриду\n— Работал над оптимизацией сценариев пользователей, интеграция с BI-системой\n— Разработка внешних интеграций\nСтек: Python, FastAPI, Kubernetes, Helm Charts, pytest, mypy, Redis, MongoDB, Celery, Prometheus, Grafana, RabbitMQ, Docker, PostgreSQL, Elastic Stack(ELK), SQLAlchemy, CI/CD, jira, ClickHouse\nДек 2021 -\nАпр 2023\n1 год 5 мес\nОрганизация 2\nPython Developer\nРаботал в команде разработки python проектов с нуля, а так же интеграция/поддержка разного рода корпоративных систем.\n— Планирование архитектуры приложения, выбор технологий\n— Поддержка существующих проектов, багфикс, рефакторинг проблемных мест\n— Оптимизация приложения, работа с ускорением приложения\n— Разработка сервиса для аналитики, написание ETL процессов для работы с данными\n— Реализация системы для оперативного информирования сервисной команды\nСтек: Python, Django, Django rest Framework, Celery, RabbitMQ, MySQL, PostgreSQL, MongoDB, Docker",
+    "skills": "Python\nSQL\nMySQL\nGit\nLinux\nАнглийский язык\nPostgreSQL\nDjango Framework\nDjango Rest Framework\nCelery\nGitHub\naiohttp\njira\nDocker\nRedis\nElasticsearch\nREST\nMongoDB\nSOLID\nNginx\nGitLab CI\nRabbitMQ\nUnit Testing\nFastAPI\nPytest\nSQLAlchemy",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Привет! я python developer с более чем 3+ опытом работы в разработке. Мои ценности ориентированы на решение проблем команды,\nбизнеса и клиентов. Обладаю пониманием обширным количеством технологий, которые помогают мне двигать команду и продукт.\nСтремлюсь находить и решать ошибки в проекте и улучшать перформанс. Имею большой опыт в разработке, поддержании и улучшением\nстабильности продукта.\nДля связи со мной ТГ: @gleb_202020",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №303\nРезюме: Python Developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 11 месяцев\nОпыт в похожих должностях:4 года 11 месяцев\nАпр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nPython Developer\nРаботал в команде разработки корпоративного мессенджера ''Пачка'' насчитывающий 150000+ постоянных юзеров.\n— Занимался улучшением и созданием инструментов при работе с системными ошибками и перформансом\n— Увеличил покрытие тестами сервисов до ~80% в рамках работы\n— Инициировал и описал концепт ведения тасок в jira, минимизировав нарушение рабочих процессов\n— Масштабировал приложения, работал над процессом перехода монолита к гибриду\n— Работал над оптимизацией сценариев пользователей, интеграция с BI-системой\n— Разработка внешних интеграций\nСтек: Python, FastAPI, Kubernetes, Helm Charts, pytest, mypy, Redis, MongoDB, Celery, Prometheus, Grafana, RabbitMQ, Docker, PostgreSQL, Elastic Stack(ELK), SQLAlchemy, CI/CD, jira, ClickHouse\nДек 2021 -\nАпр 2023\n1 год 5 мес\nОрганизация 2\nPython Developer\nРаботал в команде разработки python проектов с нуля, а так же интеграция/поддержка разного рода корпоративных систем.\n— Планирование архитектуры приложения, выбор технологий\n— Поддержка существующих проектов, багфикс, рефакторинг проблемных мест\n— Оптимизация приложения, работа с ускорением приложения\n— Разработка сервиса для аналитики, написание ETL процессов для работы с данными\n— Реализация системы для оперативного информирования сервисной команды\nСтек: Python, Django, Django rest Framework, Celery, RabbitMQ, MySQL, PostgreSQL, MongoDB, Docker\n\nНавыки\nPython\nSQL\nMySQL\nGit\nLinux\nАнглийский язык\nPostgreSQL\nDjango Framework\nDjango Rest Framework\nCelery\nGitHub\naiohttp\njira\nDocker\nRedis\nElasticsearch\nREST\nMongoDB\nSOLID\nNginx\nGitLab CI\nRabbitMQ\nUnit Testing\nFastAPI\nPytest\nSQLAlchemy\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nПривет! я python developer с более чем 3+ опытом работы в разработке. Мои ценности ориентированы на решение проблем команды,\nбизнеса и клиентов. Обладаю пониманием обширным количеством технологий, которые помогают мне двигать команду и продукт.\nСтремлюсь находить и решать ошибки в проекте и улучшать перформанс. Имею большой опыт в разработке, поддержании и улучшением\nстабильности продукта.\nДля связи со мной ТГ: @gleb_202020\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

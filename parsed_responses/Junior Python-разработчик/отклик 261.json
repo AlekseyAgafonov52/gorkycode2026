@@ -1,0 +1,157 @@
+{
+  "candidate_id": 261,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Добрый день,\nМожно ли рассмотреть неполную занятость?",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Английский язык",
+      "level": "intermediate",
+      "original": "Английский язык"
+    },
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "ООП",
+      "level": null,
+      "original": "ООП"
+    },
+    {
+      "name": "Git / GitHub",
+      "level": null,
+      "original": "Git / GitHub"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "Google Colab",
+      "level": null,
+      "original": "Google Colab"
+    },
+    {
+      "name": "Тестирование API",
+      "level": null,
+      "original": "Тестирование API"
+    },
+    {
+      "name": "CRUD",
+      "level": null,
+      "original": "CRUD"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "Docker Compose",
+      "level": null,
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "Английский — B1 — Средний",
+      "level": null,
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Академические проекты\nРазработка REST API для управления данными:\n• Интеграция с базой данных PostgreSQL.\n• Реализация CRUD-операций\n• Тестирование API с использованием Postman.\nКурсовой проект: Проектирование базы данных\n• Проектирование реляционной БД (ER-диаграмма, нормализация)\n• PostgreSQL: транзакции, оптимизация SQL-запросов\nOne-Time Secret — backend веб-сервис одноразового доступа\n• REST API с бизнес-логикой одноразового чтения и транзакционной целостностью\n• Стек: Python, Django, Django REST Framework, PostgreSQL, pytest\nАнализ отзывов городских служб (практика 2025)\n• Тональный анализ (RuBERT) и тематическое моделирование (BERTopic)\n• Классификация отзывов и выявление проблемных тем\nВеб-сервис - Асинхронный API для обработки данных с Celery-воркерами\n• Стек: Python, FastAPI, Celery, Redis, Docker, SQLAlchemy, Alembic",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Нижегородский государственный технический университет имени Р.Е. Алексеева, Нижний Новгород",
+      "details": [
+        "Информатика и вычислительная техника, Интеллектуальные системы обработки информации и управления"
+      ],
+      "year": 2026,
+      "level": "Неоконченное высшее образование",
+      "original": "Нижегородский государственный технический университет имени Р.Е. Алексеева, Нижний Новгород\nИнформатика и вычислительная техника, Интеллектуальные системы обработки информации и управления\n•\n2026\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №261\nРезюме: Python-разработчик",
+    "cover_letter": "Добрый день,\nМожно ли рассмотреть неполную занятость?",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Средний уровень\nАнглийский язык\nУровень не указан\nPython\nLinux\nREST API\nFastAPI\nPostgreSQL\nООП\nGit / GitHub\nSQL\nGoogle Colab\nТестирование API\nCRUD\nCelery\nRedis\nDocker-compose\nDocker\nSQLAlchemy\nDjango Framework\nDjango Rest Framework\nPytest\nАнглийский — B1 — Средний",
+    "languages": "Родной\nРусский",
+    "about_me": "Академические проекты\nРазработка REST API для управления данными:\n• Интеграция с базой данных PostgreSQL.\n• Реализация CRUD-операций\n• Тестирование API с использованием Postman.\nКурсовой проект: Проектирование базы данных\n• Проектирование реляционной БД (ER-диаграмма, нормализация)\n• PostgreSQL: транзакции, оптимизация SQL-запросов\nOne-Time Secret — backend веб-сервис одноразового доступа\n• REST API с бизнес-логикой одноразового чтения и транзакционной целостностью\n• Стек: Python, Django, Django REST Framework, PostgreSQL, pytest\nАнализ отзывов городских служб (практика 2025)\n• Тональный анализ (RuBERT) и тематическое моделирование (BERTopic)\n• Классификация отзывов и выявление проблемных тем\nВеб-сервис - Асинхронный API для обработки данных с Celery-воркерами\n• Стек: Python, FastAPI, Celery, Redis, Docker, SQLAlchemy, Alembic",
+    "education": "Уровень\nНеоконченное высшее образование\nНижегородский государственный технический университет имени Р.Е. Алексеева, Нижний Новгород\nИнформатика и вычислительная техника, Интеллектуальные системы обработки информации и управления\n•\n2026\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №261\nРезюме: Python-разработчик\n\nСопроводительное письмо\nДобрый день,\nМожно ли рассмотреть неполную занятость?\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nСредний уровень\nАнглийский язык\nУровень не указан\nPython\nLinux\nREST API\nFastAPI\nPostgreSQL\nООП\nGit / GitHub\nSQL\nGoogle Colab\nТестирование API\nCRUD\nCelery\nRedis\nDocker-compose\nDocker\nSQLAlchemy\nDjango Framework\nDjango Rest Framework\nPytest\nАнглийский — B1 — Средний\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nАкадемические проекты\nРазработка REST API для управления данными:\n• Интеграция с базой данных PostgreSQL.\n• Реализация CRUD-операций\n• Тестирование API с использованием Postman.\nКурсовой проект: Проектирование базы данных\n• Проектирование реляционной БД (ER-диаграмма, нормализация)\n• PostgreSQL: транзакции, оптимизация SQL-запросов\nOne-Time Secret — backend веб-сервис одноразового доступа\n• REST API с бизнес-логикой одноразового чтения и транзакционной целостностью\n• Стек: Python, Django, Django REST Framework, PostgreSQL, pytest\nАнализ отзывов городских служб (практика 2025)\n• Тональный анализ (RuBERT) и тематическое моделирование (BERTopic)\n• Классификация отзывов и выявление проблемных тем\nВеб-сервис - Асинхронный API для обработки данных с Celery-воркерами\n• Стек: Python, FastAPI, Celery, Redis, Docker, SQLAlchemy, Alembic\n\nОбразование\nУровень\nНеоконченное высшее образование\nНижегородский государственный технический университет имени Р.Е. Алексеева, Нижний Новгород\nИнформатика и вычислительная техника, Интеллектуальные системы обработки информации и управления\n•\n2026\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

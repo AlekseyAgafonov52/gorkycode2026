@@ -1,0 +1,185 @@
+{
+  "candidate_id": 42,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 15,
+  "similar_experience_months": 15,
+  "work_experience": [
+    {
+      "start_date": "2024-03",
+      "end_date": "2025-05",
+      "is_current": false,
+      "duration_months": 15,
+      "organization": "Организация 1",
+      "position": "Frontend Developer",
+      "employer_details": [],
+      "description": "Проект: Веб-приложение для внутреннего управления заказами и клиентской базы (SaaS)\nРазрабатывал и поддерживал компоненты пользовательского интерфейса с использованием React и TypeScript\nВнедрил адаптивную верстку по макетам Figma, обеспечил кроссбраузерную совместимость\nНастроил локальное состояние с помощью React Hooks и Context API для управления данными в приложении\nУчаствовал в создании форм с валидацией на основе библиотеки Formik и Yup\nОптимизировал загрузку ресурсов, внедрил lazy loading для некоторых компонентов\nСовместно с командой использовал Git и GitHub для ведения кода и проведения code review\nРаботал в Agile/Scrum-команде с использованием Jira и Confluence\nТехнологии: React, TypeScript, HTML5, CSS3, styled-components, Git, Formik, Yup, REST API",
+      "original": "Мар 2024 -\nМай 2025\n1 год 3 мес\nОрганизация 1\nFrontend Developer\nПроект: Веб-приложение для внутреннего управления заказами и клиентской базы (SaaS)\nРазрабатывал и поддерживал компоненты пользовательского интерфейса с использованием React и TypeScript\nВнедрил адаптивную верстку по макетам Figma, обеспечил кроссбраузерную совместимость\nНастроил локальное состояние с помощью React Hooks и Context API для управления данными в приложении\nУчаствовал в создании форм с валидацией на основе библиотеки Formik и Yup\nОптимизировал загрузку ресурсов, внедрил lazy loading для некоторых компонентов\nСовместно с командой использовал Git и GitHub для ведения кода и проведения code review\nРаботал в Agile/Scrum-команде с использованием Jira и Confluence\nТехнологии: React, TypeScript, HTML5, CSS3, styled-components, Git, Formik, Yup, REST API"
+    }
+  ],
+  "skills": [
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React"
+    },
+    {
+      "name": "Redux",
+      "level": null,
+      "original": "Redux"
+    },
+    {
+      "name": "Next.js",
+      "level": null,
+      "original": "Next"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "ReactJS"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "SPA",
+      "level": null,
+      "original": "SPA"
+    },
+    {
+      "name": "UX",
+      "level": null,
+      "original": "UX"
+    },
+    {
+      "name": "Webpack",
+      "level": null,
+      "original": "Webpack"
+    },
+    {
+      "name": "UI",
+      "level": null,
+      "original": "UI"
+    },
+    {
+      "name": "SCSS",
+      "level": null,
+      "original": "SCSS"
+    },
+    {
+      "name": "Sass",
+      "level": null,
+      "original": "Sass"
+    },
+    {
+      "name": "styled-components",
+      "level": null,
+      "original": "styled-components"
+    },
+    {
+      "name": "ES6+",
+      "level": null,
+      "original": "ES6+"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React.js"
+    },
+    {
+      "name": "Frontend",
+      "level": null,
+      "original": "Frontend"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "Java Script"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Frontend-разработчик с годом практического опыта в создании современных веб-приложений. Специализируюсь на разработке отзывчивых и удобных интерфейсов с использованием React и TypeScript. Имею опыт работы с управлением состояния через React Hooks и Context API, адаптивной версткой и интеграцией с REST API. Уверенно работаю в командной среде, использую Git и современные инструменты для разработки и контроля качества кода. Готов быстро учиться и развиваться как специалист.\nТехнологический стек:\nJavaScript (ES6+), TypeScript\nReact, React Hooks, Context API\nstyled-components, CSS3, HTML5\nGit, GitHub\nREST API, Axios\nAgile/Scrum (Jira, Confluence)\nКонтакты:\nTg: https://t.me/Montu777",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Белорусский государственный университет информатики и радиоэлектроники, Минск",
+      "details": [
+        "Факультет компьютерного проектирования, Программируемые мобильные системы"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Белорусский государственный университет информатики и радиоэлектроники, Минск\nФакультет компьютерного проектирования, Программируемые мобильные системы\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Беларусь, Россия",
+    "work_permit": "Беларусь, Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №42\nРезюме: Frontend-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 3 месяца\nОпыт в похожих должностях:1 год 3 месяца\nМар 2024 -\nМай 2025\n1 год 3 мес\nОрганизация 1\nFrontend Developer\nПроект: Веб-приложение для внутреннего управления заказами и клиентской базы (SaaS)\nРазрабатывал и поддерживал компоненты пользовательского интерфейса с использованием React и TypeScript\nВнедрил адаптивную верстку по макетам Figma, обеспечил кроссбраузерную совместимость\nНастроил локальное состояние с помощью React Hooks и Context API для управления данными в приложении\nУчаствовал в создании форм с валидацией на основе библиотеки Formik и Yup\nОптимизировал загрузку ресурсов, внедрил lazy loading для некоторых компонентов\nСовместно с командой использовал Git и GitHub для ведения кода и проведения code review\nРаботал в Agile/Scrum-команде с использованием Jira и Confluence\nТехнологии: React, TypeScript, HTML5, CSS3, styled-components, Git, Formik, Yup, REST API",
+    "skills": "TypeScript\nJavaScript\nReact\nRedux\nNext\nHTML\nCSS\nREST API\nReactJS\nGitHub\nFigma\nSPA\nUX\nWebpack\nUI\nSCSS\nSass\nstyled-components\nES6+\nGit\nReact.js\nFrontend\nJava Script",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Frontend-разработчик с годом практического опыта в создании современных веб-приложений. Специализируюсь на разработке отзывчивых и удобных интерфейсов с использованием React и TypeScript. Имею опыт работы с управлением состояния через React Hooks и Context API, адаптивной версткой и интеграцией с REST API. Уверенно работаю в командной среде, использую Git и современные инструменты для разработки и контроля качества кода. Готов быстро учиться и развиваться как специалист.\nТехнологический стек:\nJavaScript (ES6+), TypeScript\nReact, React Hooks, Context API\nstyled-components, CSS3, HTML5\nGit, GitHub\nREST API, Axios\nAgile/Scrum (Jira, Confluence)\nКонтакты:\nTg: https://t.me/Montu777",
+    "education": "Уровень\nВысшее образование\nБелорусский государственный университет информатики и радиоэлектроники, Минск\nФакультет компьютерного проектирования, Программируемые мобильные системы\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nБеларусь, Россия\nРазрешение на работу:\nБеларусь, Россия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №42\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 3 месяца\nОпыт в похожих должностях:1 год 3 месяца\nМар 2024 -\nМай 2025\n1 год 3 мес\nОрганизация 1\nFrontend Developer\nПроект: Веб-приложение для внутреннего управления заказами и клиентской базы (SaaS)\nРазрабатывал и поддерживал компоненты пользовательского интерфейса с использованием React и TypeScript\nВнедрил адаптивную верстку по макетам Figma, обеспечил кроссбраузерную совместимость\nНастроил локальное состояние с помощью React Hooks и Context API для управления данными в приложении\nУчаствовал в создании форм с валидацией на основе библиотеки Formik и Yup\nОптимизировал загрузку ресурсов, внедрил lazy loading для некоторых компонентов\nСовместно с командой использовал Git и GitHub для ведения кода и проведения code review\nРаботал в Agile/Scrum-команде с использованием Jira и Confluence\nТехнологии: React, TypeScript, HTML5, CSS3, styled-components, Git, Formik, Yup, REST API\n\nНавыки\nTypeScript\nJavaScript\nReact\nRedux\nNext\nHTML\nCSS\nREST API\nReactJS\nGitHub\nFigma\nSPA\nUX\nWebpack\nUI\nSCSS\nSass\nstyled-components\nES6+\nGit\nReact.js\nFrontend\nJava Script\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nFrontend-разработчик с годом практического опыта в создании современных веб-приложений. Специализируюсь на разработке отзывчивых и удобных интерфейсов с использованием React и TypeScript. Имею опыт работы с управлением состояния через React Hooks и Context API, адаптивной версткой и интеграцией с REST API. Уверенно работаю в командной среде, использую Git и современные инструменты для разработки и контроля качества кода. Готов быстро учиться и развиваться как специалист.\nТехнологический стек:\nJavaScript (ES6+), TypeScript\nReact, React Hooks, Context API\nstyled-components, CSS3, HTML5\nGit, GitHub\nREST API, Axios\nAgile/Scrum (Jira, Confluence)\nКонтакты:\nTg: https://t.me/Montu777\n\nОбразование\nУровень\nВысшее образование\nБелорусский государственный университет информатики и радиоэлектроники, Минск\nФакультет компьютерного проектирования, Программируемые мобильные системы\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nБеларусь, Россия\nРазрешение на работу:\nБеларусь, Россия\n"
+}

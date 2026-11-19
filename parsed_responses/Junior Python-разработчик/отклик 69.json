@@ -1,0 +1,126 @@
+{
+  "candidate_id": 69,
+  "resume_title": "Data Science, ML intern",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Работа в команде",
+      "level": "intermediate",
+      "original": "Работа в команде"
+    },
+    {
+      "name": "MS Excel",
+      "level": "intermediate",
+      "original": "MS Excel"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "scikit-learn",
+      "level": "basic",
+      "original": "Scikit-learn"
+    },
+    {
+      "name": "Визуализация данных",
+      "level": "basic",
+      "original": "Визуализация данных"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "matplotlib",
+      "level": "basic",
+      "original": "Matplotlib"
+    },
+    {
+      "name": "Английский язык",
+      "level": "basic",
+      "original": "Английский язык"
+    },
+    {
+      "name": "NumPy",
+      "level": "basic",
+      "original": "Numpy"
+    },
+    {
+      "name": "pandas",
+      "level": "basic",
+      "original": "pandas"
+    },
+    {
+      "name": "Linux",
+      "level": "basic",
+      "original": "Linux"
+    },
+    {
+      "name": "seaborn",
+      "level": "basic",
+      "original": "Seaborn"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "НМК",
+      "details": [],
+      "year": 2024,
+      "level": "Среднее специальное образование",
+      "original": "НМК\n2024\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Есть",
+    "medical_book": "Есть"
+  },
+  "original_sections": {
+    "header": "Кандидат №69\nРезюме: Data Science, ML intern",
+    "cover_letter": "Кандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Средний уровень\nРабота в команде\nMS Excel\nБазовый уровень\nPython\nGit\nScikit-learn\nВизуализация данных\nSQL\nMatplotlib\nАнглийский язык\nNumpy\npandas\nLinux\nSeaborn\nDocker",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее специальное образование\nНМК\n2024\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nЕсть\nМедкнижка:\nЕсть"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №69\nРезюме: Data Science, ML intern\n\nСопроводительное письмо\nКандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nСредний уровень\nРабота в команде\nMS Excel\nБазовый уровень\nPython\nGit\nScikit-learn\nВизуализация данных\nSQL\nMatplotlib\nАнглийский язык\nNumpy\npandas\nLinux\nSeaborn\nDocker\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее специальное образование\nНМК\n2024\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nЕсть\nМедкнижка:\nЕсть\n"
+}

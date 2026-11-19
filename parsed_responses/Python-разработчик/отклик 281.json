@@ -1,0 +1,213 @@
+{
+  "candidate_id": 281,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 38,
+  "similar_experience_months": 38,
+  "work_experience": [
+    {
+      "start_date": "2022-08",
+      "end_date": "2025-09",
+      "is_current": false,
+      "duration_months": 38,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "techwizards.ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Основной стек технологий:\n- Backend: Python, FastAPI, SQLAlchemy, Alembic, Pydantic, Django\n- Базы данных: PostgreSQL, MySQL, MongoDB, Redis\n- Очереди / Брокеры сообщений: RabbitMQ, Celery, Kafka\n- Парсинг: playwright, selenium, aiohttp, scrapy\n- Frontend: HTML, CSS, Js/Ts\n- DevTools: CI/CD, Gitea, Gitlab, Linux, корпоративная CRM-система\n- Построение REST API для сервисов\n- Регулярный рефакторинг и доработка модулей для улучшения архитектуры, мониторинг и устранение уязвимостей\n- Разработка и оптимизация запросов к базам данных на PostgreSQL с использованием SQLAlchemy\n- Покрытие кода автотестами с использованием Pytest.\nКрупные запущенные проекты:\nРазработка сервиса доставки \"Китайщина Оригинальная\" (cnoriginal.ru):\n- Backend: FastAPI, Django\n- Telegram Bot: aiogram v.3.15, webapp: html, css, js\n- База данных: MongoDB, Redis\n- Интеграция с Bitrix24\n- Интеграция с Google Sheets (gspread)\nРазработка сервиса речевой аналитики \"VOXIO\" (voxio.ru):\n- Backend: FastAPI\n- Telegram Bot: aiogram v.3.15\n- Использование OpenAI API для транскрибации и анализа записей\n- RabbitMQ для распределения задач\n- База данных: MySQL\n- Интеграция с Bitrix24\n- Интеграция с amoCRM\n- Интеграция с Megafon",
+      "original": "Авг 2022 -\nСен 2025\n3 года 2 мес\nОрганизация 1\ntechwizards.ru/\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nОсновной стек технологий:\n- Backend: Python, FastAPI, SQLAlchemy, Alembic, Pydantic, Django\n- Базы данных: PostgreSQL, MySQL, MongoDB, Redis\n- Очереди / Брокеры сообщений: RabbitMQ, Celery, Kafka\n- Парсинг: playwright, selenium, aiohttp, scrapy\n- Frontend: HTML, CSS, Js/Ts\n- DevTools: CI/CD, Gitea, Gitlab, Linux, корпоративная CRM-система\n- Построение REST API для сервисов\n- Регулярный рефакторинг и доработка модулей для улучшения архитектуры, мониторинг и устранение уязвимостей\n- Разработка и оптимизация запросов к базам данных на PostgreSQL с использованием SQLAlchemy\n- Покрытие кода автотестами с использованием Pytest.\nКрупные запущенные проекты:\nРазработка сервиса доставки \"Китайщина Оригинальная\" (cnoriginal.ru):\n- Backend: FastAPI, Django\n- Telegram Bot: aiogram v.3.15, webapp: html, css, js\n- База данных: MongoDB, Redis\n- Интеграция с Bitrix24\n- Интеграция с Google Sheets (gspread)\nРазработка сервиса речевой аналитики \"VOXIO\" (voxio.ru):\n- Backend: FastAPI\n- Telegram Bot: aiogram v.3.15\n- Использование OpenAI API для транскрибации и анализа записей\n- RabbitMQ для распределения задач\n- База данных: MySQL\n- Интеграция с Bitrix24\n- Интеграция с amoCRM\n- Интеграция с Megafon"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "aiogram",
+      "level": "advanced",
+      "original": "Aiogram"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "pandas",
+      "level": "advanced",
+      "original": "pandas"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Poetry",
+      "level": "advanced",
+      "original": "Poetry"
+    },
+    {
+      "name": "Requests",
+      "level": "advanced",
+      "original": "Requests"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №281\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 2 месяца\nОпыт в похожих должностях:3 года 2 месяца\nАвг 2022 -\nСен 2025\n3 года 2 мес\nОрганизация 1\ntechwizards.ru/\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nОсновной стек технологий:\n- Backend: Python, FastAPI, SQLAlchemy, Alembic, Pydantic, Django\n- Базы данных: PostgreSQL, MySQL, MongoDB, Redis\n- Очереди / Брокеры сообщений: RabbitMQ, Celery, Kafka\n- Парсинг: playwright, selenium, aiohttp, scrapy\n- Frontend: HTML, CSS, Js/Ts\n- DevTools: CI/CD, Gitea, Gitlab, Linux, корпоративная CRM-система\n- Построение REST API для сервисов\n- Регулярный рефакторинг и доработка модулей для улучшения архитектуры, мониторинг и устранение уязвимостей\n- Разработка и оптимизация запросов к базам данных на PostgreSQL с использованием SQLAlchemy\n- Покрытие кода автотестами с использованием Pytest.\nКрупные запущенные проекты:\nРазработка сервиса доставки \"Китайщина Оригинальная\" (cnoriginal.ru):\n- Backend: FastAPI, Django\n- Telegram Bot: aiogram v.3.15, webapp: html, css, js\n- База данных: MongoDB, Redis\n- Интеграция с Bitrix24\n- Интеграция с Google Sheets (gspread)\nРазработка сервиса речевой аналитики \"VOXIO\" (voxio.ru):\n- Backend: FastAPI\n- Telegram Bot: aiogram v.3.15\n- Использование OpenAI API для транскрибации и анализа записей\n- RabbitMQ для распределения задач\n- База данных: MySQL\n- Интеграция с Bitrix24\n- Интеграция с amoCRM\n- Интеграция с Megafon",
+    "skills": "Продвинутый уровень\nPython\nGit\nGitHub\nGitlab\nCI/CD\nDocker\nDocker-compose\nFastAPI\nRabbitMQ\nCelery\nRedis\nApache Kafka\nAiogram\nPostgreSQL\nMySQL\nSQL\nMongoDB\nNoSQL\nHTML\nCSS\nJavaScript\npandas\nSQLAlchemy\nREST API\nPoetry\nRequests\nAPI\nLinux\nClickhouse\nNginx",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №281\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 2 месяца\nОпыт в похожих должностях:3 года 2 месяца\nАвг 2022 -\nСен 2025\n3 года 2 мес\nОрганизация 1\ntechwizards.ru/\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nОсновной стек технологий:\n- Backend: Python, FastAPI, SQLAlchemy, Alembic, Pydantic, Django\n- Базы данных: PostgreSQL, MySQL, MongoDB, Redis\n- Очереди / Брокеры сообщений: RabbitMQ, Celery, Kafka\n- Парсинг: playwright, selenium, aiohttp, scrapy\n- Frontend: HTML, CSS, Js/Ts\n- DevTools: CI/CD, Gitea, Gitlab, Linux, корпоративная CRM-система\n- Построение REST API для сервисов\n- Регулярный рефакторинг и доработка модулей для улучшения архитектуры, мониторинг и устранение уязвимостей\n- Разработка и оптимизация запросов к базам данных на PostgreSQL с использованием SQLAlchemy\n- Покрытие кода автотестами с использованием Pytest.\nКрупные запущенные проекты:\nРазработка сервиса доставки \"Китайщина Оригинальная\" (cnoriginal.ru):\n- Backend: FastAPI, Django\n- Telegram Bot: aiogram v.3.15, webapp: html, css, js\n- База данных: MongoDB, Redis\n- Интеграция с Bitrix24\n- Интеграция с Google Sheets (gspread)\nРазработка сервиса речевой аналитики \"VOXIO\" (voxio.ru):\n- Backend: FastAPI\n- Telegram Bot: aiogram v.3.15\n- Использование OpenAI API для транскрибации и анализа записей\n- RabbitMQ для распределения задач\n- База данных: MySQL\n- Интеграция с Bitrix24\n- Интеграция с amoCRM\n- Интеграция с Megafon\n\nНавыки\nПродвинутый уровень\nPython\nGit\nGitHub\nGitlab\nCI/CD\nDocker\nDocker-compose\nFastAPI\nRabbitMQ\nCelery\nRedis\nApache Kafka\nAiogram\nPostgreSQL\nMySQL\nSQL\nMongoDB\nNoSQL\nHTML\nCSS\nJavaScript\npandas\nSQLAlchemy\nREST API\nPoetry\nRequests\nAPI\nLinux\nClickhouse\nNginx\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

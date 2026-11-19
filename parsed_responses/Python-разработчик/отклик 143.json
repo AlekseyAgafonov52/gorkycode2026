@@ -1,0 +1,239 @@
+{
+  "candidate_id": 143,
+  "resume_title": "Python backend разработчик",
+  "cover_letter": "Telegram - @art_alb_ertov\nДобрый день, меня зовут Артем. Python Backend разработчик. Опыт 3+ года. На прошлом месте работы занимался реализацией основных API и работу с БД, предложил и внедрял новый функционал, уменьшил скорость экспорта сущностей в БД с 23 сек до 5 сек. основной стэк: Django, DRF, Flask, Fastapi, SQLalchemy, Postgresql, docker, git, linux, celery, redis, mongodb, aiogram, pytest.\nИщу новое место работы по причине перехода текущего проекта в стадию поддержки. Мои ценности ориентированы на решение проблем команды, бизнеса и клиентов в порядке приоритетов.\nТакже я стремлюсь к максимально более раннему обнаружению ошибок в проекте, для чего применяю инструменты, наиболее подходящие к каждой конкретной ситуации.\nОпыт в создании и поддержке бэкенд-систем, интеграции с внешними API, оптимизации запросов и работе с очередями задач. Имею опыт контейнеризации и деплоя через Docker, и кэширования данных с помощью Redis.",
+  "experience_total_months": 37,
+  "similar_experience_months": 37,
+  "work_experience": [
+    {
+      "start_date": "2026-04",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 7,
+      "organization": "Организация 1",
+      "position": "Python backend разработчик",
+      "employer_details": [
+        "Тюмень",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Обязанности:\n- Поддержка 4 действующих проектов (аналитика креаторов, backend премиум-магазина одежды, backend сети кофеен с ботами/админками/B2B-маркетом/интеграцией с IIKO, внутренний TG-бот-парсер YouTrack) — обработка 3+ тикетов/день.\n- Спроектировал и самостоятельно реализовал (команда 2 человека) backend мультиплатформенного AI-сервиса генерации фото/видео/текста — web, Telegram Mini App, MAX; интеграция 10+ AI-моделей через провайдера KIE.\n- Настроил и поддерживаю CI/CD: Jenkins pipeline с docker-compose v2, автодеплой по тегам, .sh-скрипты авторазворачивания, smoke-автотесты, github webhooks.\nДостижения:\n- Мигрировал 15 255 пользователей с MongoDB на PostgreSQL без остановки продакшена — с сохранением подписок, 3-уровневой реферальной системы, платёжных данных и идентификаторов; дополнительно восстановил 31 427 реферальных событий, неучтенных при первой миграции.\n- Закрыл несколько узких мест интеграции с CloudPayments (идемпотентность webhook'ов, двухфазная отмена автопродления, восстановление зависших платежей, защита от дублей заказов) — устранил расхождения между БД и платёжным провайдером у 250+ пользователей.\n- Построил слой self-healing credentials поверх 5 парсеров (Wildberries, YouTube, TikTok, Instagram, VK): авто-рефреш WB-сессии через headless-браузер (Playwright), ротация YouTube-ключей по квоте, self-service TikTok OAuth, алерты в Telegram.\n- Нашёл и устранил N+1 в эндпоинте реферальной системы (до ~3850 SQL-запросов на один HTTP-вызов) — свёл к одному запросу с EXISTS/GROUP BY, время ответа сократилось с 5+ сек до долей секунды.\n- Диагностировал и устранил self-DDoS от собственной фоновой Celery-задачи, приводивший к падению API по памяти (OOM) — стабилизировал продакшен за 1 день.\n- Развернул observability-стек с нуля за один день: Grafana Cloud + Alloy v1.5.1 + 3 exporter'а (node/postgres/redis) + Loki, метрики + структурированные логи с корреляцией по request_id.\nСтек:\nPython 3.12, FastAPI, PostgreSQL (SQLAlchemy 2.0 async, Alembic), MongoDB, Redis, ARQ, Celery, Docker/docker-compose v2, Jenkins, Pydantic v2, aiogram, httpx, aiohttp, Dishka (DI), CloudPayments API, Prometheus, Grafana Cloud, Alloy, Loki, KIE API, pytest, Playwright.",
+      "original": "Апр 2026 -\nсейчас\n7 мес\nОрганизация 1\nТюмень\nИнформационные технологии, системная интеграция, интернет\nPython backend разработчик\nОбязанности:\n- Поддержка 4 действующих проектов (аналитика креаторов, backend премиум-магазина одежды, backend сети кофеен с ботами/админками/B2B-маркетом/интеграцией с IIKO, внутренний TG-бот-парсер YouTrack) — обработка 3+ тикетов/день.\n- Спроектировал и самостоятельно реализовал (команда 2 человека) backend мультиплатформенного AI-сервиса генерации фото/видео/текста — web, Telegram Mini App, MAX; интеграция 10+ AI-моделей через провайдера KIE.\n- Настроил и поддерживаю CI/CD: Jenkins pipeline с docker-compose v2, автодеплой по тегам, .sh-скрипты авторазворачивания, smoke-автотесты, github webhooks.\nДостижения:\n- Мигрировал 15 255 пользователей с MongoDB на PostgreSQL без остановки продакшена — с сохранением подписок, 3-уровневой реферальной системы, платёжных данных и идентификаторов; дополнительно восстановил 31 427 реферальных событий, неучтенных при первой миграции.\n- Закрыл несколько узких мест интеграции с CloudPayments (идемпотентность webhook'ов, двухфазная отмена автопродления, восстановление зависших платежей, защита от дублей заказов) — устранил расхождения между БД и платёжным провайдером у 250+ пользователей.\n- Построил слой self-healing credentials поверх 5 парсеров (Wildberries, YouTube, TikTok, Instagram, VK): авто-рефреш WB-сессии через headless-браузер (Playwright), ротация YouTube-ключей по квоте, self-service TikTok OAuth, алерты в Telegram.\n- Нашёл и устранил N+1 в эндпоинте реферальной системы (до ~3850 SQL-запросов на один HTTP-вызов) — свёл к одному запросу с EXISTS/GROUP BY, время ответа сократилось с 5+ сек до долей секунды.\n- Диагностировал и устранил self-DDoS от собственной фоновой Celery-задачи, приводивший к падению API по памяти (OOM) — стабилизировал продакшен за 1 день.\n- Развернул observability-стек с нуля за один день: Grafana Cloud + Alloy v1.5.1 + 3 exporter'а (node/postgres/redis) + Loki, метрики + структурированные логи с корреляцией по request_id.\nСтек:\nPython 3.12, FastAPI, PostgreSQL (SQLAlchemy 2.0 async, Alembic), MongoDB, Redis, ARQ, Celery, Docker/docker-compose v2, Jenkins, Pydantic v2, aiogram, httpx, aiohttp, Dishka (DI), CloudPayments API, Prometheus, Grafana Cloud, Alloy, Loki, KIE API, pytest, Playwright."
+    },
+    {
+      "start_date": "2023-10",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 37,
+      "organization": "Организация 2",
+      "position": "Python backend разработчик",
+      "employer_details": [
+        "Москваgithub.com/artem-sitd"
+      ],
+      "description": "1) CRM system\nhttps://github.com/artem-sitd/CRM\nBackend CRM-система с ролями пользователей, асинхронной обработкой задач и бизнес-логикой.\nСтэк: Python 3.10, Django, PostgreSQL, Celery, Redis, Docker & Docker Compose.\n-----\n2) Video Analytics Telegram Bot\nhttps://github.com/artem-sitd/video_bot\nTelegram-бот, принимает вопросы на естественном языке (RU), преобразует их в формализованный план запроса (LLM) и выполняет агрегации из PostgreSQL. LLM → QueryPlan → SQLAlchemy\nСтэк: aiogram, PostgreSQL, OpenAI API\n-----\n3) Data Synchronization Service\nhttps://github.com/artem-sitd/synchron\nУтилита синхронизации между локальной директорией и облачным хранилищем Яндекс.Диск. Поддерживает автоматическое обновление, удаление и загрузку файлов на основе сравнения имен и хэшей.\nСтэк: python, requests, yandex api.\n-----\n4) Media API\nhttps://github.com/artem-sitd/memes_api\nАсинхронный REST API для работы с медиа-контентом и хранилищем.\nСтэк: Python 3.10+, FastAPI, SQLAlchemy, PostgreSQL, MinIO (S3), Alembic (миграции), Pytest, Docker & Docker Compose.\n-----\nЕще 14+ проектов в моем профиле https://github.com/artem-sitd",
+      "original": "Окт 2023 -\nсейчас\n3 года 1 мес\nОрганизация 2\nМоскваgithub.com/artem-sitd\nPython backend разработчик\n1) CRM system\nhttps://github.com/artem-sitd/CRM\nBackend CRM-система с ролями пользователей, асинхронной обработкой задач и бизнес-логикой.\nСтэк: Python 3.10, Django, PostgreSQL, Celery, Redis, Docker & Docker Compose.\n-----\n2) Video Analytics Telegram Bot\nhttps://github.com/artem-sitd/video_bot\nTelegram-бот, принимает вопросы на естественном языке (RU), преобразует их в формализованный план запроса (LLM) и выполняет агрегации из PostgreSQL. LLM → QueryPlan → SQLAlchemy\nСтэк: aiogram, PostgreSQL, OpenAI API\n-----\n3) Data Synchronization Service\nhttps://github.com/artem-sitd/synchron\nУтилита синхронизации между локальной директорией и облачным хранилищем Яндекс.Диск. Поддерживает автоматическое обновление, удаление и загрузку файлов на основе сравнения имен и хэшей.\nСтэк: python, requests, yandex api.\n-----\n4) Media API\nhttps://github.com/artem-sitd/memes_api\nАсинхронный REST API для работы с медиа-контентом и хранилищем.\nСтэк: Python 3.10+, FastAPI, SQLAlchemy, PostgreSQL, MinIO (S3), Alembic (миграции), Pytest, Docker & Docker Compose.\n-----\nЕще 14+ проектов в моем профиле https://github.com/artem-sitd"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "Redis",
+      "level": "intermediate",
+      "original": "Redis"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "intermediate",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django"
+    },
+    {
+      "name": "MongoDB",
+      "level": "intermediate",
+      "original": "MongoDB"
+    },
+    {
+      "name": "CI/CD",
+      "level": "intermediate",
+      "original": "CI/CD"
+    },
+    {
+      "name": "NoSQL",
+      "level": "intermediate",
+      "original": "NoSQL"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "GitLab",
+      "level": "intermediate",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "intermediate",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "MySQL",
+      "level": "basic",
+      "original": "MySQL"
+    },
+    {
+      "name": "JavaScript",
+      "level": "basic",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Jenkins",
+      "level": "basic",
+      "original": "Jenkins"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Python backend-разработчик. Разрабатываю и поддерживаю API на FastAPI и Django, работаю с PostgreSQL и MongoDB.\nРеализовывал бизнес-логику, CRUD-операции, интеграции с LLM, CLoudPayments, внешними сервисами и Telegram-ботами.\nИмею опыт контейнеризации и деплоя через Docker, Jenkins. уделяю внимание документации, структуре проекта и стабильности работы API.\nTG: @art_alb_ertov",
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "Сибирский государственный автомобильно-дорожный институт",
+      "details": [
+        "Строительство, Управление проектами в строительстве"
+      ],
+      "year": 2020,
+      "level": "Высшее образование (Магистр)",
+      "original": "Сибирский государственный автомобильно-дорожный институт\nСтроительство, Управление проектами в строительстве\n•\n2020\n•\nВысшее образование (Магистр)"
+    },
+    {
+      "institution": "Тобольская государственная социально-педагогическая академия им. Д.И. Менделеева, Тобольск",
+      "details": [
+        "Физико-математический, Информатика"
+      ],
+      "year": 2013,
+      "level": "Высшее образование (Магистр)",
+      "original": "Тобольская государственная социально-педагогическая академия им. Д.И. Менделеева, Тобольск\nФизико-математический, Информатика\n•\n2013\n•\nВысшее образование (Магистр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Есть",
+    "medical_book": "Есть"
+  },
+  "original_sections": {
+    "header": "Кандидат №143\nРезюме: Python backend разработчик",
+    "cover_letter": "Telegram - @art_alb_ertov\nДобрый день, меня зовут Артем. Python Backend разработчик. Опыт 3+ года. На прошлом месте работы занимался реализацией основных API и работу с БД, предложил и внедрял новый функционал, уменьшил скорость экспорта сущностей в БД с 23 сек до 5 сек. основной стэк: Django, DRF, Flask, Fastapi, SQLalchemy, Postgresql, docker, git, linux, celery, redis, mongodb, aiogram, pytest.\nИщу новое место работы по причине перехода текущего проекта в стадию поддержки. Мои ценности ориентированы на решение проблем команды, бизнеса и клиентов в порядке приоритетов.\nТакже я стремлюсь к максимально более раннему обнаружению ошибок в проекте, для чего применяю инструменты, наиболее подходящие к каждой конкретной ситуации.\nОпыт в создании и поддержке бэкенд-систем, интеграции с внешними API, оптимизации запросов и работе с очередями задач. Имею опыт контейнеризации и деплоя через Docker, и кэширования данных с помощью Redis.",
+    "experience": "Опыт работы: 3 года 1 месяц\nОпыт в похожих должностях:3 года 1 месяц\nАпр 2026 -\nсейчас\n7 мес\nОрганизация 1\nТюмень\nИнформационные технологии, системная интеграция, интернет\nPython backend разработчик\nОбязанности:\n- Поддержка 4 действующих проектов (аналитика креаторов, backend премиум-магазина одежды, backend сети кофеен с ботами/админками/B2B-маркетом/интеграцией с IIKO, внутренний TG-бот-парсер YouTrack) — обработка 3+ тикетов/день.\n- Спроектировал и самостоятельно реализовал (команда 2 человека) backend мультиплатформенного AI-сервиса генерации фото/видео/текста — web, Telegram Mini App, MAX; интеграция 10+ AI-моделей через провайдера KIE.\n- Настроил и поддерживаю CI/CD: Jenkins pipeline с docker-compose v2, автодеплой по тегам, .sh-скрипты авторазворачивания, smoke-автотесты, github webhooks.\nДостижения:\n- Мигрировал 15 255 пользователей с MongoDB на PostgreSQL без остановки продакшена — с сохранением подписок, 3-уровневой реферальной системы, платёжных данных и идентификаторов; дополнительно восстановил 31 427 реферальных событий, неучтенных при первой миграции.\n- Закрыл несколько узких мест интеграции с CloudPayments (идемпотентность webhook'ов, двухфазная отмена автопродления, восстановление зависших платежей, защита от дублей заказов) — устранил расхождения между БД и платёжным провайдером у 250+ пользователей.\n- Построил слой self-healing credentials поверх 5 парсеров (Wildberries, YouTube, TikTok, Instagram, VK): авто-рефреш WB-сессии через headless-браузер (Playwright), ротация YouTube-ключей по квоте, self-service TikTok OAuth, алерты в Telegram.\n- Нашёл и устранил N+1 в эндпоинте реферальной системы (до ~3850 SQL-запросов на один HTTP-вызов) — свёл к одному запросу с EXISTS/GROUP BY, время ответа сократилось с 5+ сек до долей секунды.\n- Диагностировал и устранил self-DDoS от собственной фоновой Celery-задачи, приводивший к падению API по памяти (OOM) — стабилизировал продакшен за 1 день.\n- Развернул observability-стек с нуля за один день: Grafana Cloud + Alloy v1.5.1 + 3 exporter'а (node/postgres/redis) + Loki, метрики + структурированные логи с корреляцией по request_id.\nСтек:\nPython 3.12, FastAPI, PostgreSQL (SQLAlchemy 2.0 async, Alembic), MongoDB, Redis, ARQ, Celery, Docker/docker-compose v2, Jenkins, Pydantic v2, aiogram, httpx, aiohttp, Dishka (DI), CloudPayments API, Prometheus, Grafana Cloud, Alloy, Loki, KIE API, pytest, Playwright.\nОкт 2023 -\nсейчас\n3 года 1 мес\nОрганизация 2\nМоскваgithub.com/artem-sitd\nPython backend разработчик\n1) CRM system\nhttps://github.com/artem-sitd/CRM\nBackend CRM-система с ролями пользователей, асинхронной обработкой задач и бизнес-логикой.\nСтэк: Python 3.10, Django, PostgreSQL, Celery, Redis, Docker & Docker Compose.\n-----\n2) Video Analytics Telegram Bot\nhttps://github.com/artem-sitd/video_bot\nTelegram-бот, принимает вопросы на естественном языке (RU), преобразует их в формализованный план запроса (LLM) и выполняет агрегации из PostgreSQL. LLM → QueryPlan → SQLAlchemy\nСтэк: aiogram, PostgreSQL, OpenAI API\n-----\n3) Data Synchronization Service\nhttps://github.com/artem-sitd/synchron\nУтилита синхронизации между локальной директорией и облачным хранилищем Яндекс.Диск. Поддерживает автоматическое обновление, удаление и загрузку файлов на основе сравнения имен и хэшей.\nСтэк: python, requests, yandex api.\n-----\n4) Media API\nhttps://github.com/artem-sitd/memes_api\nАсинхронный REST API для работы с медиа-контентом и хранилищем.\nСтэк: Python 3.10+, FastAPI, SQLAlchemy, PostgreSQL, MinIO (S3), Alembic (миграции), Pytest, Docker & Docker Compose.\n-----\nЕще 14+ проектов в моем профиле https://github.com/artem-sitd",
+    "skills": "Продвинутый уровень\nPython\nPostgreSQL\nFastAPI\nDjango Framework\nDocker\nGit\nSQL\nLinux\nREST API\nFlask\nDjango Rest Framework\nАнглийский язык\nREST\nPytest\nAPI\nООП\nСредний уровень\nRedis\nRabbitMQ\nCelery\nSQLAlchemy\nDjango\nMongoDB\nCI/CD\nNoSQL\nGitHub\nGitlab\nDocker-compose\nБазовый уровень\nMySQL\nJavaScript\nJenkins",
+    "languages": "Родной\nРусский",
+    "about_me": "Python backend-разработчик. Разрабатываю и поддерживаю API на FastAPI и Django, работаю с PostgreSQL и MongoDB.\nРеализовывал бизнес-логику, CRUD-операции, интеграции с LLM, CLoudPayments, внешними сервисами и Telegram-ботами.\nИмею опыт контейнеризации и деплоя через Docker, Jenkins. уделяю внимание документации, структуре проекта и стабильности работы API.\nTG: @art_alb_ertov",
+    "education": "Уровень\nВысшее образование (Магистр)\nСибирский государственный автомобильно-дорожный институт\nСтроительство, Управление проектами в строительстве\n•\n2020\n•\nВысшее образование (Магистр)\nТобольская государственная социально-педагогическая академия им. Д.И. Менделеева, Тобольск\nФизико-математический, Информатика\n•\n2013\n•\nВысшее образование (Магистр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nЕсть\nМедкнижка:\nЕсть"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №143\nРезюме: Python backend разработчик\n\nСопроводительное письмо\nTelegram - @art_alb_ertov\nДобрый день, меня зовут Артем. Python Backend разработчик. Опыт 3+ года. На прошлом месте работы занимался реализацией основных API и работу с БД, предложил и внедрял новый функционал, уменьшил скорость экспорта сущностей в БД с 23 сек до 5 сек. основной стэк: Django, DRF, Flask, Fastapi, SQLalchemy, Postgresql, docker, git, linux, celery, redis, mongodb, aiogram, pytest.\nИщу новое место работы по причине перехода текущего проекта в стадию поддержки. Мои ценности ориентированы на решение проблем команды, бизнеса и клиентов в порядке приоритетов.\nТакже я стремлюсь к максимально более раннему обнаружению ошибок в проекте, для чего применяю инструменты, наиболее подходящие к каждой конкретной ситуации.\nОпыт в создании и поддержке бэкенд-систем, интеграции с внешними API, оптимизации запросов и работе с очередями задач. Имею опыт контейнеризации и деплоя через Docker, и кэширования данных с помощью Redis.\n\nОпыт работы\nОпыт работы: 3 года 1 месяц\nОпыт в похожих должностях:3 года 1 месяц\nАпр 2026 -\nсейчас\n7 мес\nОрганизация 1\nТюмень\nИнформационные технологии, системная интеграция, интернет\nPython backend разработчик\nОбязанности:\n- Поддержка 4 действующих проектов (аналитика креаторов, backend премиум-магазина одежды, backend сети кофеен с ботами/админками/B2B-маркетом/интеграцией с IIKO, внутренний TG-бот-парсер YouTrack) — обработка 3+ тикетов/день.\n- Спроектировал и самостоятельно реализовал (команда 2 человека) backend мультиплатформенного AI-сервиса генерации фото/видео/текста — web, Telegram Mini App, MAX; интеграция 10+ AI-моделей через провайдера KIE.\n- Настроил и поддерживаю CI/CD: Jenkins pipeline с docker-compose v2, автодеплой по тегам, .sh-скрипты авторазворачивания, smoke-автотесты, github webhooks.\nДостижения:\n- Мигрировал 15 255 пользователей с MongoDB на PostgreSQL без остановки продакшена — с сохранением подписок, 3-уровневой реферальной системы, платёжных данных и идентификаторов; дополнительно восстановил 31 427 реферальных событий, неучтенных при первой миграции.\n- Закрыл несколько узких мест интеграции с CloudPayments (идемпотентность webhook'ов, двухфазная отмена автопродления, восстановление зависших платежей, защита от дублей заказов) — устранил расхождения между БД и платёжным провайдером у 250+ пользователей.\n- Построил слой self-healing credentials поверх 5 парсеров (Wildberries, YouTube, TikTok, Instagram, VK): авто-рефреш WB-сессии через headless-браузер (Playwright), ротация YouTube-ключей по квоте, self-service TikTok OAuth, алерты в Telegram.\n- Нашёл и устранил N+1 в эндпоинте реферальной системы (до ~3850 SQL-запросов на один HTTP-вызов) — свёл к одному запросу с EXISTS/GROUP BY, время ответа сократилось с 5+ сек до долей секунды.\n- Диагностировал и устранил self-DDoS от собственной фоновой Celery-задачи, приводивший к падению API по памяти (OOM) — стабилизировал продакшен за 1 день.\n- Развернул observability-стек с нуля за один день: Grafana Cloud + Alloy v1.5.1 + 3 exporter'а (node/postgres/redis) + Loki, метрики + структурированные логи с корреляцией по request_id.\nСтек:\nPython 3.12, FastAPI, PostgreSQL (SQLAlchemy 2.0 async, Alembic), MongoDB, Redis, ARQ, Celery, Docker/docker-compose v2, Jenkins, Pydantic v2, aiogram, httpx, aiohttp, Dishka (DI), CloudPayments API, Prometheus, Grafana Cloud, Alloy, Loki, KIE API, pytest, Playwright.\nОкт 2023 -\nсейчас\n3 года 1 мес\nОрганизация 2\nМоскваgithub.com/artem-sitd\nPython backend разработчик\n1) CRM system\nhttps://github.com/artem-sitd/CRM\nBackend CRM-система с ролями пользователей, асинхронной обработкой задач и бизнес-логикой.\nСтэк: Python 3.10, Django, PostgreSQL, Celery, Redis, Docker & Docker Compose.\n-----\n2) Video Analytics Telegram Bot\nhttps://github.com/artem-sitd/video_bot\nTelegram-бот, принимает вопросы на естественном языке (RU), преобразует их в формализованный план запроса (LLM) и выполняет агрегации из PostgreSQL. LLM → QueryPlan → SQLAlchemy\nСтэк: aiogram, PostgreSQL, OpenAI API\n-----\n3) Data Synchronization Service\nhttps://github.com/artem-sitd/synchron\nУтилита синхронизации между локальной директорией и облачным хранилищем Яндекс.Диск. Поддерживает автоматическое обновление, удаление и загрузку файлов на основе сравнения имен и хэшей.\nСтэк: python, requests, yandex api.\n-----\n4) Media API\nhttps://github.com/artem-sitd/memes_api\nАсинхронный REST API для работы с медиа-контентом и хранилищем.\nСтэк: Python 3.10+, FastAPI, SQLAlchemy, PostgreSQL, MinIO (S3), Alembic (миграции), Pytest, Docker & Docker Compose.\n-----\nЕще 14+ проектов в моем профиле https://github.com/artem-sitd\n\nНавыки\nПродвинутый уровень\nPython\nPostgreSQL\nFastAPI\nDjango Framework\nDocker\nGit\nSQL\nLinux\nREST API\nFlask\nDjango Rest Framework\nАнглийский язык\nREST\nPytest\nAPI\nООП\nСредний уровень\nRedis\nRabbitMQ\nCelery\nSQLAlchemy\nDjango\nMongoDB\nCI/CD\nNoSQL\nGitHub\nGitlab\nDocker-compose\nБазовый уровень\nMySQL\nJavaScript\nJenkins\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nPython backend-разработчик. Разрабатываю и поддерживаю API на FastAPI и Django, работаю с PostgreSQL и MongoDB.\nРеализовывал бизнес-логику, CRUD-операции, интеграции с LLM, CLoudPayments, внешними сервисами и Telegram-ботами.\nИмею опыт контейнеризации и деплоя через Docker, Jenkins. уделяю внимание документации, структуре проекта и стабильности работы API.\nTG: @art_alb_ertov\n\nОбразование\nУровень\nВысшее образование (Магистр)\nСибирский государственный автомобильно-дорожный институт\nСтроительство, Управление проектами в строительстве\n•\n2020\n•\nВысшее образование (Магистр)\nТобольская государственная социально-педагогическая академия им. Д.И. Менделеева, Тобольск\nФизико-математический, Информатика\n•\n2013\n•\nВысшее образование (Магистр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nЕсть\nМедкнижка:\nЕсть\n"
+}

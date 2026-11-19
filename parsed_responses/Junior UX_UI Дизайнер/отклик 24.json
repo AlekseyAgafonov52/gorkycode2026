@@ -1,0 +1,93 @@
+{
+  "candidate_id": 24,
+  "resume_title": "Разработчик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Game Programming",
+      "level": null,
+      "original": "Game Programming"
+    },
+    {
+      "name": "Unity",
+      "level": null,
+      "original": "Unity"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "C++",
+      "level": null,
+      "original": "C++"
+    },
+    {
+      "name": "Web Design",
+      "level": null,
+      "original": "Web Design"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "Разработчик и дизайнер. Могу помочь с разработкой, интерфейсом, тестированием и другими работами. Могу работать удалённо, за 20000 рублей в месяц.\nПрограммы и языки с которыми я знаком:\nUnity, Unreal Engine, Godot, C++, C, C#, Python, Javascript, Django, MySQL, PostgreSQL, HTML, CSS, Figma, Blender, Photoshop.\nПортфолио:\ngithub.com/flumen1/Blog\ngithub.com/flumen1/car\nflumen1.github.io/car/",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Туркменистан",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №24\nРезюме: Разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Game Programming\nUnity\nFigma\nC++\nWeb Design\nHTML\nCSS\nPython\nDjango",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "Разработчик и дизайнер. Могу помочь с разработкой, интерфейсом, тестированием и другими работами. Могу работать удалённо, за 20000 рублей в месяц.\nПрограммы и языки с которыми я знаком:\nUnity, Unreal Engine, Godot, C++, C, C#, Python, Javascript, Django, MySQL, PostgreSQL, HTML, CSS, Figma, Blender, Photoshop.\nПортфолио:\ngithub.com/flumen1/Blog\ngithub.com/flumen1/car\nflumen1.github.io/car/",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nТуркменистан\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №24\nРезюме: Разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nGame Programming\nUnity\nFigma\nC++\nWeb Design\nHTML\nCSS\nPython\nDjango\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\nРазработчик и дизайнер. Могу помочь с разработкой, интерфейсом, тестированием и другими работами. Могу работать удалённо, за 20000 рублей в месяц.\nПрограммы и языки с которыми я знаком:\nUnity, Unreal Engine, Godot, C++, C, C#, Python, Javascript, Django, MySQL, PostgreSQL, HTML, CSS, Figma, Blender, Photoshop.\nПортфолио:\ngithub.com/flumen1/Blog\ngithub.com/flumen1/car\nflumen1.github.io/car/\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nТуркменистан\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,251 @@
+{
+  "candidate_id": 232,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Добрый вечер!\nМеня зовут Расул, я Python-разработчик с 4-летним коммерческим опытом. Работал над проектами разного масштаба от монолитов до микросервисов.\nИзучив описание вашей вакансии, проект показался мне подходящим по стеку и интересным по задачам. Думаю, мой опыт может быть полезен команде. Буду рад обсудить детали и понять, где могу помочь развитию проекта.\nTelegram - @RasulGaleev",
+  "experience_total_months": 57,
+  "similar_experience_months": 57,
+  "work_experience": [
+    {
+      "start_date": "2024-08",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 27,
+      "organization": "Организация 1",
+      "position": "Python Fullstack Developer",
+      "employer_details": [
+        "Красногорск (Московская область)cogu.mosreg.ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разрабатываю бэкенд системы кадрового электронного документооборота (КЭДО) для органов государственного управления Московской области — тысячи пользователей. Команда проекта: 23 человека, Scrum (Jira, Confluence).\nДостижения:\n- Сократил среднее время ответа тяжёлых эндпоинтов API на 2–3 секунды: вынес тяжёлые повторяющиеся запросы к PostgreSQL в Redis-кэш, а длительные операции — в фоновые задачи Celery.\n- Ускорил деплой на четверть: разделил пайплайн GitLab CI/CD на независимые стадии lint / test / build / deploy и добавил кэширование слоёв Docker. Откатов после релизов стало меньше.\nЗадачи:\n- Разработка REST API на Flask, интеграции со сторонними сервисами\n- Бизнес-процессы на Camunda BPM: делегаты для BPMN-процессов, связка с Flask-сервисами\n- Доработка и реализация frontend-компонентов на Angular / TypeScript (NX)\n- Асинхронная обработка и event-driven взаимодействие сервисов: настройка и поддержка RabbitMQ, фоновые задачи на Celery\n- Хранение данных: PostgreSQL, Redis, S3\n- Unit- и integration-тесты на Pytest, код по принципам ООП и SOLID\n- Деплой: Docker, Kubernetes, Nginx, GitLab CI/CD, Linux\nСтек: Python, Flask, Camunda BPM, PostgreSQL, Redis, S3, RabbitMQ, Celery, Pytest, Docker, Kubernetes, Nginx, GitLab CI/CD, Linux, Angular, TypeScript",
+      "original": "Авг 2024 -\nсейчас\n2 года 3 мес\nОрганизация 1\nКрасногорск (Московская область)cogu.mosreg.ru/\nИнформационные технологии, системная интеграция, интернет\nPython Fullstack Developer\nРазрабатываю бэкенд системы кадрового электронного документооборота (КЭДО) для органов государственного управления Московской области — тысячи пользователей. Команда проекта: 23 человека, Scrum (Jira, Confluence).\nДостижения:\n- Сократил среднее время ответа тяжёлых эндпоинтов API на 2–3 секунды: вынес тяжёлые повторяющиеся запросы к PostgreSQL в Redis-кэш, а длительные операции — в фоновые задачи Celery.\n- Ускорил деплой на четверть: разделил пайплайн GitLab CI/CD на независимые стадии lint / test / build / deploy и добавил кэширование слоёв Docker. Откатов после релизов стало меньше.\nЗадачи:\n- Разработка REST API на Flask, интеграции со сторонними сервисами\n- Бизнес-процессы на Camunda BPM: делегаты для BPMN-процессов, связка с Flask-сервисами\n- Доработка и реализация frontend-компонентов на Angular / TypeScript (NX)\n- Асинхронная обработка и event-driven взаимодействие сервисов: настройка и поддержка RabbitMQ, фоновые задачи на Celery\n- Хранение данных: PostgreSQL, Redis, S3\n- Unit- и integration-тесты на Pytest, код по принципам ООП и SOLID\n- Деплой: Docker, Kubernetes, Nginx, GitLab CI/CD, Linux\nСтек: Python, Flask, Camunda BPM, PostgreSQL, Redis, S3, RabbitMQ, Celery, Pytest, Docker, Kubernetes, Nginx, GitLab CI/CD, Linux, Angular, TypeScript"
+    },
+    {
+      "start_date": "2023-03",
+      "end_date": "2024-08",
+      "is_current": false,
+      "duration_months": 18,
+      "organization": "Организация 2",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Москваairpa.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разрабатывал бэкенд MVP-проектов для клиентов AIRPA (заказная разработка с ИИ для бизнеса): веб-приложения, LLM-сервисы, боты для мессенджеров. За время работы: 10+ проектов, команда 6 человек.\nДостижения:\n- Сократил обращения в поддержку на 40%: спроектировал и внедрил RAG-бота на OpenAI + LangChain с индексацией документов в PostgreSQL (pgvector) и retrieval-логикой.\n- Разработал Telegram-бота для московского фестиваля «Театральный бульвар»: бот стабильно работал при тысячах активных пользователей в дни фестиваля.\nЗадачи:\n- Проектирование и разработка REST API на FastAPI (Pydantic) и Django Framework\n- Асинхронная обработка: asyncio, Aiohttp, Celery для фоновых задач, APScheduler для задач по расписанию\n- Микросервисная архитектура с event-driven обменом событиями через Apache Kafka (в одном из проектов)\n- Хранение данных: PostgreSQL (SQLAlchemy), MongoDB, Redis\n- Интеграция LLM в продукты: RAG, OpenAI API, LangChain, pgvector\n- Деплой: Docker, Docker Compose, Kubernetes, Nginx\nСтек: Python, FastAPI, Pydantic, SQLAlchemy, Django Framework, asyncio, Aiohttp, Celery, APScheduler, Apache Kafka, PostgreSQL, pgvector, MongoDB, Redis, LangChain, OpenAI API, RAG, Docker, Kubernetes, Nginx",
+      "original": "Мар 2023 -\nАвг 2024\n1 год 6 мес\nОрганизация 2\nМоскваairpa.ru\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРазрабатывал бэкенд MVP-проектов для клиентов AIRPA (заказная разработка с ИИ для бизнеса): веб-приложения, LLM-сервисы, боты для мессенджеров. За время работы: 10+ проектов, команда 6 человек.\nДостижения:\n- Сократил обращения в поддержку на 40%: спроектировал и внедрил RAG-бота на OpenAI + LangChain с индексацией документов в PostgreSQL (pgvector) и retrieval-логикой.\n- Разработал Telegram-бота для московского фестиваля «Театральный бульвар»: бот стабильно работал при тысячах активных пользователей в дни фестиваля.\nЗадачи:\n- Проектирование и разработка REST API на FastAPI (Pydantic) и Django Framework\n- Асинхронная обработка: asyncio, Aiohttp, Celery для фоновых задач, APScheduler для задач по расписанию\n- Микросервисная архитектура с event-driven обменом событиями через Apache Kafka (в одном из проектов)\n- Хранение данных: PostgreSQL (SQLAlchemy), MongoDB, Redis\n- Интеграция LLM в продукты: RAG, OpenAI API, LangChain, pgvector\n- Деплой: Docker, Docker Compose, Kubernetes, Nginx\nСтек: Python, FastAPI, Pydantic, SQLAlchemy, Django Framework, asyncio, Aiohttp, Celery, APScheduler, Apache Kafka, PostgreSQL, pgvector, MongoDB, Redis, LangChain, OpenAI API, RAG, Docker, Kubernetes, Nginx"
+    },
+    {
+      "start_date": "2022-02",
+      "end_date": "2023-03",
+      "is_current": false,
+      "duration_months": 14,
+      "organization": "Организация 3",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Москваbazazakazov.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Отвечал за сбор и обработку данных в Базе Заказов — крупной российской торгово-поисковой системе и агрегаторе заказов и тендеров для бизнеса. Вместе с командой поддерживал парсеры 200+ внешних источников. Команда проекта: 12 человек.\nДостижения:\n- Ускорил обработку данных на 20%: добавил составные индексы в MySQL и переписал неэффективные запросы.\n- Наладил стабильный сбор данных со сложных динамических сайтов на Selenium / Playwright и Requests.\nЗадачи:\n- Поддержка и доработка парсеров: Requests, BeautifulSoup, Scrapy, Selenium, Playwright\n- Проектирование схемы MySQL, SQL-запросы, индексы\n- Запуск и мониторинг скриптов на Linux-сервере: Bash, systemd\n- Обработка и очистка данных: pandas, NumPy\nСтек: Python, Requests, BeautifulSoup, Selenium, Playwright, Scrapy, MySQL, SQL, pandas, NumPy, Linux, Bash, systemd, Git",
+      "original": "Фев 2022 -\nМар 2023\n1 год 2 мес\nОрганизация 3\nМоскваbazazakazov.ru\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nОтвечал за сбор и обработку данных в Базе Заказов — крупной российской торгово-поисковой системе и агрегаторе заказов и тендеров для бизнеса. Вместе с командой поддерживал парсеры 200+ внешних источников. Команда проекта: 12 человек.\nДостижения:\n- Ускорил обработку данных на 20%: добавил составные индексы в MySQL и переписал неэффективные запросы.\n- Наладил стабильный сбор данных со сложных динамических сайтов на Selenium / Playwright и Requests.\nЗадачи:\n- Поддержка и доработка парсеров: Requests, BeautifulSoup, Scrapy, Selenium, Playwright\n- Проектирование схемы MySQL, SQL-запросы, индексы\n- Запуск и мониторинг скриптов на Linux-сервере: Bash, systemd\n- Обработка и очистка данных: pandas, NumPy\nСтек: Python, Requests, BeautifulSoup, Selenium, Playwright, Scrapy, MySQL, SQL, pandas, NumPy, Linux, Bash, systemd, Git"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "HTTP",
+      "level": "advanced",
+      "original": "HTTP"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "AsyncIO",
+      "level": "advanced",
+      "original": "AsyncIO"
+    },
+    {
+      "name": "await",
+      "level": "advanced",
+      "original": "await"
+    },
+    {
+      "name": "event-driven",
+      "level": "advanced",
+      "original": "event-driven"
+    },
+    {
+      "name": "WebSocket",
+      "level": "advanced",
+      "original": "WebSocket"
+    },
+    {
+      "name": "Python 3.11+",
+      "level": "advanced",
+      "original": "Python 3.11+"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Python backend-разработчик, 4+ года коммерческой разработки. Пишу REST API на FastAPI и Flask, работаю с PostgreSQL, Redis и очередями (RabbitMQ, Kafka, Celery), настраиваю CI/CD в GitLab, деплою в Docker и Kubernetes и активно внедряю AI/ML решения. Есть опыт монолитных и микросервисных проектов с event-driven взаимодействием. Быстро осваиваю новые технологии и методологии разработки, регулярно повышаю квалификацию, читаю актуальные статьи и смотрю интервью по разработке.\nКонтакты:\nTelegram: https://t.me/RasulGaleev\nGitHub: https://github.com/RasulGaleev\nHard Skills:\n• Backend: Python, FastAPI, Flask, Django Framework, SQLAlchemy, Pydantic\n• Базы данных: PostgreSQL, MySQL, MongoDB, Redis, S3\n• Асинхронность и очереди: asyncio, Aiohttp, Celery, APScheduler, RabbitMQ, Apache Kafka, event-driven\n• Инфраструктура: Docker, Docker-Compose, Kubernetes, Nginx, CI/CD, Linux, Bash, Shell, systemd\n• AI / ML и данные: LangChain, LLM, OpenAI API, RAG, pgvector, numpy, pandas\n• Тестирование: Pytest, Unit/Integration Testing, TDD, SOLID, ООП\n• ETL и парсинг: Requests, BeautifulSoup, Selenium, Playwright, Scrapy\n• Frontend: JavaScript, TypeScript, Angular, HTML, CSS\n• Инструменты: Git, GitHub, GitLab, Jira, Confluence, Agile, Scrum",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Казанский авиационный институт, Казань",
+      "details": [
+        "Институт компьютерных технологий и защиты информации, 09.03.02 - Информационные системы и технологии (заочная форма обучения)"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Казанский авиационный институт, Казань\nИнститут компьютерных технологий и защиты информации, 09.03.02 - Информационные системы и технологии (заочная форма обучения)\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №232\nРезюме: Python-разработчик",
+    "cover_letter": "Добрый вечер!\nМеня зовут Расул, я Python-разработчик с 4-летним коммерческим опытом. Работал над проектами разного масштаба от монолитов до микросервисов.\nИзучив описание вашей вакансии, проект показался мне подходящим по стеку и интересным по задачам. Думаю, мой опыт может быть полезен команде. Буду рад обсудить детали и понять, где могу помочь развитию проекта.\nTelegram - @RasulGaleev",
+    "experience": "Опыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:4 года 9 месяцев\nАвг 2024 -\nсейчас\n2 года 3 мес\nОрганизация 1\nКрасногорск (Московская область)cogu.mosreg.ru/\nИнформационные технологии, системная интеграция, интернет\nPython Fullstack Developer\nРазрабатываю бэкенд системы кадрового электронного документооборота (КЭДО) для органов государственного управления Московской области — тысячи пользователей. Команда проекта: 23 человека, Scrum (Jira, Confluence).\nДостижения:\n- Сократил среднее время ответа тяжёлых эндпоинтов API на 2–3 секунды: вынес тяжёлые повторяющиеся запросы к PostgreSQL в Redis-кэш, а длительные операции — в фоновые задачи Celery.\n- Ускорил деплой на четверть: разделил пайплайн GitLab CI/CD на независимые стадии lint / test / build / deploy и добавил кэширование слоёв Docker. Откатов после релизов стало меньше.\nЗадачи:\n- Разработка REST API на Flask, интеграции со сторонними сервисами\n- Бизнес-процессы на Camunda BPM: делегаты для BPMN-процессов, связка с Flask-сервисами\n- Доработка и реализация frontend-компонентов на Angular / TypeScript (NX)\n- Асинхронная обработка и event-driven взаимодействие сервисов: настройка и поддержка RabbitMQ, фоновые задачи на Celery\n- Хранение данных: PostgreSQL, Redis, S3\n- Unit- и integration-тесты на Pytest, код по принципам ООП и SOLID\n- Деплой: Docker, Kubernetes, Nginx, GitLab CI/CD, Linux\nСтек: Python, Flask, Camunda BPM, PostgreSQL, Redis, S3, RabbitMQ, Celery, Pytest, Docker, Kubernetes, Nginx, GitLab CI/CD, Linux, Angular, TypeScript\nМар 2023 -\nАвг 2024\n1 год 6 мес\nОрганизация 2\nМоскваairpa.ru\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРазрабатывал бэкенд MVP-проектов для клиентов AIRPA (заказная разработка с ИИ для бизнеса): веб-приложения, LLM-сервисы, боты для мессенджеров. За время работы: 10+ проектов, команда 6 человек.\nДостижения:\n- Сократил обращения в поддержку на 40%: спроектировал и внедрил RAG-бота на OpenAI + LangChain с индексацией документов в PostgreSQL (pgvector) и retrieval-логикой.\n- Разработал Telegram-бота для московского фестиваля «Театральный бульвар»: бот стабильно работал при тысячах активных пользователей в дни фестиваля.\nЗадачи:\n- Проектирование и разработка REST API на FastAPI (Pydantic) и Django Framework\n- Асинхронная обработка: asyncio, Aiohttp, Celery для фоновых задач, APScheduler для задач по расписанию\n- Микросервисная архитектура с event-driven обменом событиями через Apache Kafka (в одном из проектов)\n- Хранение данных: PostgreSQL (SQLAlchemy), MongoDB, Redis\n- Интеграция LLM в продукты: RAG, OpenAI API, LangChain, pgvector\n- Деплой: Docker, Docker Compose, Kubernetes, Nginx\nСтек: Python, FastAPI, Pydantic, SQLAlchemy, Django Framework, asyncio, Aiohttp, Celery, APScheduler, Apache Kafka, PostgreSQL, pgvector, MongoDB, Redis, LangChain, OpenAI API, RAG, Docker, Kubernetes, Nginx\nФев 2022 -\nМар 2023\n1 год 2 мес\nОрганизация 3\nМоскваbazazakazov.ru\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nОтвечал за сбор и обработку данных в Базе Заказов — крупной российской торгово-поисковой системе и агрегаторе заказов и тендеров для бизнеса. Вместе с командой поддерживал парсеры 200+ внешних источников. Команда проекта: 12 человек.\nДостижения:\n- Ускорил обработку данных на 20%: добавил составные индексы в MySQL и переписал неэффективные запросы.\n- Наладил стабильный сбор данных со сложных динамических сайтов на Selenium / Playwright и Requests.\nЗадачи:\n- Поддержка и доработка парсеров: Requests, BeautifulSoup, Scrapy, Selenium, Playwright\n- Проектирование схемы MySQL, SQL-запросы, индексы\n- Запуск и мониторинг скриптов на Linux-сервере: Bash, systemd\n- Обработка и очистка данных: pandas, NumPy\nСтек: Python, Requests, BeautifulSoup, Selenium, Playwright, Scrapy, MySQL, SQL, pandas, NumPy, Linux, Bash, systemd, Git",
+    "skills": "Продвинутый уровень\nPython\nPostgreSQL\nDocker\nGit\nSQL\nFastAPI\nLinux\nDjango Framework\nREST API\nRedis\nRabbitMQ\nFlask\nSQLAlchemy\nCelery\nCI/CD\nPytest\nKubernetes\nGitHub\nREST\nJavaScript\nООП\nHTTP\nApache Kafka\nGitlab\nAsyncIO\nawait\nevent-driven\nWebSocket\nPython 3.11+\nАнглийский язык",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Python backend-разработчик, 4+ года коммерческой разработки. Пишу REST API на FastAPI и Flask, работаю с PostgreSQL, Redis и очередями (RabbitMQ, Kafka, Celery), настраиваю CI/CD в GitLab, деплою в Docker и Kubernetes и активно внедряю AI/ML решения. Есть опыт монолитных и микросервисных проектов с event-driven взаимодействием. Быстро осваиваю новые технологии и методологии разработки, регулярно повышаю квалификацию, читаю актуальные статьи и смотрю интервью по разработке.\nКонтакты:\nTelegram: https://t.me/RasulGaleev\nGitHub: https://github.com/RasulGaleev\nHard Skills:\n• Backend: Python, FastAPI, Flask, Django Framework, SQLAlchemy, Pydantic\n• Базы данных: PostgreSQL, MySQL, MongoDB, Redis, S3\n• Асинхронность и очереди: asyncio, Aiohttp, Celery, APScheduler, RabbitMQ, Apache Kafka, event-driven\n• Инфраструктура: Docker, Docker-Compose, Kubernetes, Nginx, CI/CD, Linux, Bash, Shell, systemd\n• AI / ML и данные: LangChain, LLM, OpenAI API, RAG, pgvector, numpy, pandas\n• Тестирование: Pytest, Unit/Integration Testing, TDD, SOLID, ООП\n• ETL и парсинг: Requests, BeautifulSoup, Selenium, Playwright, Scrapy\n• Frontend: JavaScript, TypeScript, Angular, HTML, CSS\n• Инструменты: Git, GitHub, GitLab, Jira, Confluence, Agile, Scrum",
+    "education": "Уровень\nВысшее образование\nКазанский авиационный институт, Казань\nИнститут компьютерных технологий и защиты информации, 09.03.02 - Информационные системы и технологии (заочная форма обучения)\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №232\nРезюме: Python-разработчик\n\nСопроводительное письмо\nДобрый вечер!\nМеня зовут Расул, я Python-разработчик с 4-летним коммерческим опытом. Работал над проектами разного масштаба от монолитов до микросервисов.\nИзучив описание вашей вакансии, проект показался мне подходящим по стеку и интересным по задачам. Думаю, мой опыт может быть полезен команде. Буду рад обсудить детали и понять, где могу помочь развитию проекта.\nTelegram - @RasulGaleev\n\nОпыт работы\nОпыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:4 года 9 месяцев\nАвг 2024 -\nсейчас\n2 года 3 мес\nОрганизация 1\nКрасногорск (Московская область)cogu.mosreg.ru/\nИнформационные технологии, системная интеграция, интернет\nPython Fullstack Developer\nРазрабатываю бэкенд системы кадрового электронного документооборота (КЭДО) для органов государственного управления Московской области — тысячи пользователей. Команда проекта: 23 человека, Scrum (Jira, Confluence).\nДостижения:\n- Сократил среднее время ответа тяжёлых эндпоинтов API на 2–3 секунды: вынес тяжёлые повторяющиеся запросы к PostgreSQL в Redis-кэш, а длительные операции — в фоновые задачи Celery.\n- Ускорил деплой на четверть: разделил пайплайн GitLab CI/CD на независимые стадии lint / test / build / deploy и добавил кэширование слоёв Docker. Откатов после релизов стало меньше.\nЗадачи:\n- Разработка REST API на Flask, интеграции со сторонними сервисами\n- Бизнес-процессы на Camunda BPM: делегаты для BPMN-процессов, связка с Flask-сервисами\n- Доработка и реализация frontend-компонентов на Angular / TypeScript (NX)\n- Асинхронная обработка и event-driven взаимодействие сервисов: настройка и поддержка RabbitMQ, фоновые задачи на Celery\n- Хранение данных: PostgreSQL, Redis, S3\n- Unit- и integration-тесты на Pytest, код по принципам ООП и SOLID\n- Деплой: Docker, Kubernetes, Nginx, GitLab CI/CD, Linux\nСтек: Python, Flask, Camunda BPM, PostgreSQL, Redis, S3, RabbitMQ, Celery, Pytest, Docker, Kubernetes, Nginx, GitLab CI/CD, Linux, Angular, TypeScript\nМар 2023 -\nАвг 2024\n1 год 6 мес\nОрганизация 2\nМоскваairpa.ru\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРазрабатывал бэкенд MVP-проектов для клиентов AIRPA (заказная разработка с ИИ для бизнеса): веб-приложения, LLM-сервисы, боты для мессенджеров. За время работы: 10+ проектов, команда 6 человек.\nДостижения:\n- Сократил обращения в поддержку на 40%: спроектировал и внедрил RAG-бота на OpenAI + LangChain с индексацией документов в PostgreSQL (pgvector) и retrieval-логикой.\n- Разработал Telegram-бота для московского фестиваля «Театральный бульвар»: бот стабильно работал при тысячах активных пользователей в дни фестиваля.\nЗадачи:\n- Проектирование и разработка REST API на FastAPI (Pydantic) и Django Framework\n- Асинхронная обработка: asyncio, Aiohttp, Celery для фоновых задач, APScheduler для задач по расписанию\n- Микросервисная архитектура с event-driven обменом событиями через Apache Kafka (в одном из проектов)\n- Хранение данных: PostgreSQL (SQLAlchemy), MongoDB, Redis\n- Интеграция LLM в продукты: RAG, OpenAI API, LangChain, pgvector\n- Деплой: Docker, Docker Compose, Kubernetes, Nginx\nСтек: Python, FastAPI, Pydantic, SQLAlchemy, Django Framework, asyncio, Aiohttp, Celery, APScheduler, Apache Kafka, PostgreSQL, pgvector, MongoDB, Redis, LangChain, OpenAI API, RAG, Docker, Kubernetes, Nginx\nФев 2022 -\nМар 2023\n1 год 2 мес\nОрганизация 3\nМоскваbazazakazov.ru\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nОтвечал за сбор и обработку данных в Базе Заказов — крупной российской торгово-поисковой системе и агрегаторе заказов и тендеров для бизнеса. Вместе с командой поддерживал парсеры 200+ внешних источников. Команда проекта: 12 человек.\nДостижения:\n- Ускорил обработку данных на 20%: добавил составные индексы в MySQL и переписал неэффективные запросы.\n- Наладил стабильный сбор данных со сложных динамических сайтов на Selenium / Playwright и Requests.\nЗадачи:\n- Поддержка и доработка парсеров: Requests, BeautifulSoup, Scrapy, Selenium, Playwright\n- Проектирование схемы MySQL, SQL-запросы, индексы\n- Запуск и мониторинг скриптов на Linux-сервере: Bash, systemd\n- Обработка и очистка данных: pandas, NumPy\nСтек: Python, Requests, BeautifulSoup, Selenium, Playwright, Scrapy, MySQL, SQL, pandas, NumPy, Linux, Bash, systemd, Git\n\nНавыки\nПродвинутый уровень\nPython\nPostgreSQL\nDocker\nGit\nSQL\nFastAPI\nLinux\nDjango Framework\nREST API\nRedis\nRabbitMQ\nFlask\nSQLAlchemy\nCelery\nCI/CD\nPytest\nKubernetes\nGitHub\nREST\nJavaScript\nООП\nHTTP\nApache Kafka\nGitlab\nAsyncIO\nawait\nevent-driven\nWebSocket\nPython 3.11+\nАнглийский язык\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nPython backend-разработчик, 4+ года коммерческой разработки. Пишу REST API на FastAPI и Flask, работаю с PostgreSQL, Redis и очередями (RabbitMQ, Kafka, Celery), настраиваю CI/CD в GitLab, деплою в Docker и Kubernetes и активно внедряю AI/ML решения. Есть опыт монолитных и микросервисных проектов с event-driven взаимодействием. Быстро осваиваю новые технологии и методологии разработки, регулярно повышаю квалификацию, читаю актуальные статьи и смотрю интервью по разработке.\nКонтакты:\nTelegram: https://t.me/RasulGaleev\nGitHub: https://github.com/RasulGaleev\nHard Skills:\n• Backend: Python, FastAPI, Flask, Django Framework, SQLAlchemy, Pydantic\n• Базы данных: PostgreSQL, MySQL, MongoDB, Redis, S3\n• Асинхронность и очереди: asyncio, Aiohttp, Celery, APScheduler, RabbitMQ, Apache Kafka, event-driven\n• Инфраструктура: Docker, Docker-Compose, Kubernetes, Nginx, CI/CD, Linux, Bash, Shell, systemd\n• AI / ML и данные: LangChain, LLM, OpenAI API, RAG, pgvector, numpy, pandas\n• Тестирование: Pytest, Unit/Integration Testing, TDD, SOLID, ООП\n• ETL и парсинг: Requests, BeautifulSoup, Selenium, Playwright, Scrapy\n• Frontend: JavaScript, TypeScript, Angular, HTML, CSS\n• Инструменты: Git, GitHub, GitLab, Jira, Confluence, Agile, Scrum\n\nОбразование\nУровень\nВысшее образование\nКазанский авиационный институт, Казань\nИнститут компьютерных технологий и защиты информации, 09.03.02 - Информационные системы и технологии (заочная форма обучения)\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

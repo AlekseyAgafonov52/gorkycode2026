@@ -1,0 +1,239 @@
+{
+  "candidate_id": 62,
+  "resume_title": "QA Automation (Java) / QA Manual / Тестировщик",
+  "cover_letter": null,
+  "experience_total_months": 45,
+  "similar_experience_months": 45,
+  "work_experience": [
+    {
+      "start_date": "2025-10",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 13,
+      "organization": "Организация 1",
+      "position": "QA",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "A campaign/bulk-messaging platform built for large enterprise clients with a high volume of end users.\nClient-server application with a REST API; user authentication via Keycloak (OAuth2). Development and testing run inside a closed corporate network with no internet access: remote Linux machines, an internal Artifactory instead of public repositories, corporate certificates, and dedicated test environments.\nAPI test automation: Java, JUnit 5, REST Assured, Gradle build (Kotlin DSL), Allure reporting. Built a base test class that obtains a Keycloak token and applies the AllureRestAssured filter, parses endpoint responses, and validates status codes and response bodies. Analyzed test failures and separated real application defects from environment issues (repository access rights, certificates, expired tokens).\nMember of the project's AI adoption pilot group: learning and field-testing AI tools on real testing tasks, then rolling the working practices out to the team.\nKey achievements\nSet up the entire autotest infrastructure from scratch on a remote Linux machine inside the closed network in 3 days: Gradle wrapper pointed at the internal distribution, repositories switched to Artifactory, corporate certificates imported into the JVM truststore, API test framework, and the first green smoke test against the environment.\nWrote a step-by-step deployment guide for the QA team: 10 steps plus appendices explaining the typical errors. A tester can now set up their own working project alone, with no walkthrough from me and no access to anyone else's repository.\nAutomated Allure CLI provisioning with a dedicated Gradle task, because the standard download is blocked inside the network. Report generation now takes three commands.\nDocumented the network restrictions that everyone used to hit on their own: separate access rights per repository, two sets of credentials (one for libraries, one for the Gradle distribution), and certificate handling.\nTech stack: Java, JUnit 5, REST Assured, Gradle (Kotlin DSL), Allure, Keycloak, Artifactory, REST API, Linux, IntelliJ IDEA, Jira, Postman, SQL/PostgreSQL, Kibana, Git, Rancher, k6",
+      "original": "Окт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nQA\nA campaign/bulk-messaging platform built for large enterprise clients with a high volume of end users.\nClient-server application with a REST API; user authentication via Keycloak (OAuth2). Development and testing run inside a closed corporate network with no internet access: remote Linux machines, an internal Artifactory instead of public repositories, corporate certificates, and dedicated test environments.\nAPI test automation: Java, JUnit 5, REST Assured, Gradle build (Kotlin DSL), Allure reporting. Built a base test class that obtains a Keycloak token and applies the AllureRestAssured filter, parses endpoint responses, and validates status codes and response bodies. Analyzed test failures and separated real application defects from environment issues (repository access rights, certificates, expired tokens).\nMember of the project's AI adoption pilot group: learning and field-testing AI tools on real testing tasks, then rolling the working practices out to the team.\nKey achievements\nSet up the entire autotest infrastructure from scratch on a remote Linux machine inside the closed network in 3 days: Gradle wrapper pointed at the internal distribution, repositories switched to Artifactory, corporate certificates imported into the JVM truststore, API test framework, and the first green smoke test against the environment.\nWrote a step-by-step deployment guide for the QA team: 10 steps plus appendices explaining the typical errors. A tester can now set up their own working project alone, with no walkthrough from me and no access to anyone else's repository.\nAutomated Allure CLI provisioning with a dedicated Gradle task, because the standard download is blocked inside the network. Report generation now takes three commands.\nDocumented the network restrictions that everyone used to hit on their own: separate access rights per repository, two sets of credentials (one for libraries, one for the Gradle distribution), and certificate handling.\nTech stack: Java, JUnit 5, REST Assured, Gradle (Kotlin DSL), Allure, Keycloak, Artifactory, REST API, Linux, IntelliJ IDEA, Jira, Postman, SQL/PostgreSQL, Kibana, Git, Rancher, k6"
+    },
+    {
+      "start_date": "2023-08",
+      "end_date": "2024-10",
+      "is_current": false,
+      "duration_months": 15,
+      "organization": "Организация 2",
+      "position": "QA",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Bit2Lend provides crypto-backed loans to individuals and businesses. Users pledge digital assets as collateral and receive financing on transparent and secure terms. After sign-up and collateral deposit, the application is reviewed quickly, and once approved the funds are transferred to the client's account. The platform is GDPR-compliant and uses multi-layer asset protection in partnership with Fireblocks.\nThe product is a high-load microservices application with a client-server architecture, integrated with Spanish banks, which keeps every financial operation compliant and reliable. We built systems for loan liquidation control, risk monitoring, and asset protection.\nResponsibilities\nInvolved in every stage of development, from design through release and support (shift left, shift right). Functional, regression, integration, performance, security, and UX testing. Worked with internal and external integrations and feature toggles. Tested web applications and APIs (REST, SOAP) using Postman, Swagger, and DevTools. Analyzed logs in Jaeger and Kibana.\nAPI/UI test automation\nAPI: Java, TestNG, REST Assured\nUI: Java, Selenium, Selenide, Allure\nBuilt the autotest framework from scratch, wrote custom wrappers, and maintained the test framework. Set up parallel test execution (TestNG), Allure reporting, and CI/CD pipelines in Jenkins.\nWorked with test documentation: checklists, test cases, bug reports (Jira), and test management (Allure). Optimized the regression suite, wrote test plans, and handled test analysis, test design, and task prioritization and distribution.\nWorked with databases: PostgreSQL, DBeaver. Requirements testing (Jira, Confluence) and test environments (GitLab).\nMonitoring and data visualization (Grafana). Worked with the Kafka message broker.\nOnboarding, mentoring, and contributing to the growth of the testing practice.\nTech stack: Java, Selenium, Selenide, Kafka, Kubernetes, PostgreSQL, Jaeger, Grafana",
+      "original": "Авг 2023 -\nОкт 2024\n1 год 3 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nQA\nBit2Lend provides crypto-backed loans to individuals and businesses. Users pledge digital assets as collateral and receive financing on transparent and secure terms. After sign-up and collateral deposit, the application is reviewed quickly, and once approved the funds are transferred to the client's account. The platform is GDPR-compliant and uses multi-layer asset protection in partnership with Fireblocks.\nThe product is a high-load microservices application with a client-server architecture, integrated with Spanish banks, which keeps every financial operation compliant and reliable. We built systems for loan liquidation control, risk monitoring, and asset protection.\nResponsibilities\nInvolved in every stage of development, from design through release and support (shift left, shift right). Functional, regression, integration, performance, security, and UX testing. Worked with internal and external integrations and feature toggles. Tested web applications and APIs (REST, SOAP) using Postman, Swagger, and DevTools. Analyzed logs in Jaeger and Kibana.\nAPI/UI test automation\nAPI: Java, TestNG, REST Assured\nUI: Java, Selenium, Selenide, Allure\nBuilt the autotest framework from scratch, wrote custom wrappers, and maintained the test framework. Set up parallel test execution (TestNG), Allure reporting, and CI/CD pipelines in Jenkins.\nWorked with test documentation: checklists, test cases, bug reports (Jira), and test management (Allure). Optimized the regression suite, wrote test plans, and handled test analysis, test design, and task prioritization and distribution.\nWorked with databases: PostgreSQL, DBeaver. Requirements testing (Jira, Confluence) and test environments (GitLab).\nMonitoring and data visualization (Grafana). Worked with the Kafka message broker.\nOnboarding, mentoring, and contributing to the growth of the testing practice.\nTech stack: Java, Selenium, Selenide, Kafka, Kubernetes, PostgreSQL, Jaeger, Grafana"
+    },
+    {
+      "start_date": "2022-03",
+      "end_date": "2023-08",
+      "is_current": false,
+      "duration_months": 18,
+      "organization": "Организация 3",
+      "position": "QA",
+      "employer_details": [
+        "Сельское хозяйство"
+      ],
+      "description": "A B2B platform that automates the procurement of agricultural products, machinery, and grain. Microservices architecture, client-server interaction.\nThe project helps farmers simplify purchasing and makes deals transparent. Worked in a product team following Scrum.\nResponsibilities\nRequirements review and test documentation (checklists, test cases). Worked with databases: PostgreSQL, SQL queries, data analysis.\nFound and reported bugs, worked with DevTools, tested REST APIs in Postman, maintained bug reports in Jira, and analyzed logs in Kibana.\nManual testing of web applications: functional checks, regression, and integration testing.\nTech stack: Java, Selenium, Selenide, RabbitMQ, Docker, PostgreSQL, Jaeger, Grafana",
+      "original": "Мар 2022 -\nАвг 2023\n1 год 6 мес\nОрганизация 3\nСельское хозяйство\nQA\nA B2B platform that automates the procurement of agricultural products, machinery, and grain. Microservices architecture, client-server interaction.\nThe project helps farmers simplify purchasing and makes deals transparent. Worked in a product team following Scrum.\nResponsibilities\nRequirements review and test documentation (checklists, test cases). Worked with databases: PostgreSQL, SQL queries, data analysis.\nFound and reported bugs, worked with DevTools, tested REST APIs in Postman, maintained bug reports in Jira, and analyzed logs in Kibana.\nManual testing of web applications: functional checks, regression, and integration testing.\nTech stack: Java, Selenium, Selenide, RabbitMQ, Docker, PostgreSQL, Jaeger, Grafana"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "Agile Project Management",
+      "level": "advanced",
+      "original": "Agile Project Management"
+    },
+    {
+      "name": "JSON",
+      "level": "advanced",
+      "original": "JSON"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "DevTools",
+      "level": "advanced",
+      "original": "DevTools"
+    },
+    {
+      "name": "Jaeger",
+      "level": "advanced",
+      "original": "Jaeger"
+    },
+    {
+      "name": "Selenide",
+      "level": "advanced",
+      "original": "Selenide"
+    },
+    {
+      "name": "Allure",
+      "level": "advanced",
+      "original": "Allure"
+    },
+    {
+      "name": "Shift left testing",
+      "level": "advanced",
+      "original": "Shift left testing"
+    },
+    {
+      "name": "QA",
+      "level": "advanced",
+      "original": "QA"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": "advanced",
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "Тестирование",
+      "level": "advanced",
+      "original": "Тестирование"
+    },
+    {
+      "name": "JUnit",
+      "level": "advanced",
+      "original": "JUnit"
+    },
+    {
+      "name": "Rancher",
+      "level": "advanced",
+      "original": "Rancher"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "Apache JMeter",
+      "level": "intermediate",
+      "original": "Jmeter"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "intermediate",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Java",
+      "level": "intermediate",
+      "original": "Java"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "k6",
+      "level": "intermediate",
+      "original": "k6"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Ubuntu",
+      "level": "intermediate",
+      "original": "Ubuntu"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "AQA инженер с опытом в авто-тестировании 3+ лет.\nTelegram: @masqchain",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Volga State University of Telecommunications and Informatics",
+      "details": [
+        "Communication Networks and Switching Systems"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "Volga State University of Telecommunications and Informatics\nCommunication Networks and Switching Systems\n•\n2022\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №62\nРезюме: QA Automation (Java) / QA Manual / Тестировщик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 9 месяцев\nОпыт в похожих должностях:3 года 9 месяцев\nОкт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nQA\nA campaign/bulk-messaging platform built for large enterprise clients with a high volume of end users.\nClient-server application with a REST API; user authentication via Keycloak (OAuth2). Development and testing run inside a closed corporate network with no internet access: remote Linux machines, an internal Artifactory instead of public repositories, corporate certificates, and dedicated test environments.\nAPI test automation: Java, JUnit 5, REST Assured, Gradle build (Kotlin DSL), Allure reporting. Built a base test class that obtains a Keycloak token and applies the AllureRestAssured filter, parses endpoint responses, and validates status codes and response bodies. Analyzed test failures and separated real application defects from environment issues (repository access rights, certificates, expired tokens).\nMember of the project's AI adoption pilot group: learning and field-testing AI tools on real testing tasks, then rolling the working practices out to the team.\nKey achievements\nSet up the entire autotest infrastructure from scratch on a remote Linux machine inside the closed network in 3 days: Gradle wrapper pointed at the internal distribution, repositories switched to Artifactory, corporate certificates imported into the JVM truststore, API test framework, and the first green smoke test against the environment.\nWrote a step-by-step deployment guide for the QA team: 10 steps plus appendices explaining the typical errors. A tester can now set up their own working project alone, with no walkthrough from me and no access to anyone else's repository.\nAutomated Allure CLI provisioning with a dedicated Gradle task, because the standard download is blocked inside the network. Report generation now takes three commands.\nDocumented the network restrictions that everyone used to hit on their own: separate access rights per repository, two sets of credentials (one for libraries, one for the Gradle distribution), and certificate handling.\nTech stack: Java, JUnit 5, REST Assured, Gradle (Kotlin DSL), Allure, Keycloak, Artifactory, REST API, Linux, IntelliJ IDEA, Jira, Postman, SQL/PostgreSQL, Kibana, Git, Rancher, k6\nАвг 2023 -\nОкт 2024\n1 год 3 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nQA\nBit2Lend provides crypto-backed loans to individuals and businesses. Users pledge digital assets as collateral and receive financing on transparent and secure terms. After sign-up and collateral deposit, the application is reviewed quickly, and once approved the funds are transferred to the client's account. The platform is GDPR-compliant and uses multi-layer asset protection in partnership with Fireblocks.\nThe product is a high-load microservices application with a client-server architecture, integrated with Spanish banks, which keeps every financial operation compliant and reliable. We built systems for loan liquidation control, risk monitoring, and asset protection.\nResponsibilities\nInvolved in every stage of development, from design through release and support (shift left, shift right). Functional, regression, integration, performance, security, and UX testing. Worked with internal and external integrations and feature toggles. Tested web applications and APIs (REST, SOAP) using Postman, Swagger, and DevTools. Analyzed logs in Jaeger and Kibana.\nAPI/UI test automation\nAPI: Java, TestNG, REST Assured\nUI: Java, Selenium, Selenide, Allure\nBuilt the autotest framework from scratch, wrote custom wrappers, and maintained the test framework. Set up parallel test execution (TestNG), Allure reporting, and CI/CD pipelines in Jenkins.\nWorked with test documentation: checklists, test cases, bug reports (Jira), and test management (Allure). Optimized the regression suite, wrote test plans, and handled test analysis, test design, and task prioritization and distribution.\nWorked with databases: PostgreSQL, DBeaver. Requirements testing (Jira, Confluence) and test environments (GitLab).\nMonitoring and data visualization (Grafana). Worked with the Kafka message broker.\nOnboarding, mentoring, and contributing to the growth of the testing practice.\nTech stack: Java, Selenium, Selenide, Kafka, Kubernetes, PostgreSQL, Jaeger, Grafana\nМар 2022 -\nАвг 2023\n1 год 6 мес\nОрганизация 3\nСельское хозяйство\nQA\nA B2B platform that automates the procurement of agricultural products, machinery, and grain. Microservices architecture, client-server interaction.\nThe project helps farmers simplify purchasing and makes deals transparent. Worked in a product team following Scrum.\nResponsibilities\nRequirements review and test documentation (checklists, test cases). Worked with databases: PostgreSQL, SQL queries, data analysis.\nFound and reported bugs, worked with DevTools, tested REST APIs in Postman, maintained bug reports in Jira, and analyzed logs in Kibana.\nManual testing of web applications: functional checks, regression, and integration testing.\nTech stack: Java, Selenium, Selenide, RabbitMQ, Docker, PostgreSQL, Jaeger, Grafana",
+    "skills": "Продвинутый уровень\nAtlassian Jira\nPostman\nAgile Project Management\nJSON\nREST\nAPI\nDevTools\nJaeger\nSelenide\nAllure\nShift left testing\nQA\nPostgreSQL\nФункциональное тестирование\nТестирование\nJUnit\nRancher\nСредний уровень\nGit\nJmeter\nSQL\nRabbitMQ\nJava\nDocker\nGitHub\nHTML\nk6\nLinux\nUbuntu",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "AQA инженер с опытом в авто-тестировании 3+ лет.\nTelegram: @masqchain",
+    "education": "Уровень\nВысшее образование\nVolga State University of Telecommunications and Informatics\nCommunication Networks and Switching Systems\n•\n2022\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №62\nРезюме: QA Automation (Java) / QA Manual / Тестировщик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 9 месяцев\nОпыт в похожих должностях:3 года 9 месяцев\nОкт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nQA\nA campaign/bulk-messaging platform built for large enterprise clients with a high volume of end users.\nClient-server application with a REST API; user authentication via Keycloak (OAuth2). Development and testing run inside a closed corporate network with no internet access: remote Linux machines, an internal Artifactory instead of public repositories, corporate certificates, and dedicated test environments.\nAPI test automation: Java, JUnit 5, REST Assured, Gradle build (Kotlin DSL), Allure reporting. Built a base test class that obtains a Keycloak token and applies the AllureRestAssured filter, parses endpoint responses, and validates status codes and response bodies. Analyzed test failures and separated real application defects from environment issues (repository access rights, certificates, expired tokens).\nMember of the project's AI adoption pilot group: learning and field-testing AI tools on real testing tasks, then rolling the working practices out to the team.\nKey achievements\nSet up the entire autotest infrastructure from scratch on a remote Linux machine inside the closed network in 3 days: Gradle wrapper pointed at the internal distribution, repositories switched to Artifactory, corporate certificates imported into the JVM truststore, API test framework, and the first green smoke test against the environment.\nWrote a step-by-step deployment guide for the QA team: 10 steps plus appendices explaining the typical errors. A tester can now set up their own working project alone, with no walkthrough from me and no access to anyone else's repository.\nAutomated Allure CLI provisioning with a dedicated Gradle task, because the standard download is blocked inside the network. Report generation now takes three commands.\nDocumented the network restrictions that everyone used to hit on their own: separate access rights per repository, two sets of credentials (one for libraries, one for the Gradle distribution), and certificate handling.\nTech stack: Java, JUnit 5, REST Assured, Gradle (Kotlin DSL), Allure, Keycloak, Artifactory, REST API, Linux, IntelliJ IDEA, Jira, Postman, SQL/PostgreSQL, Kibana, Git, Rancher, k6\nАвг 2023 -\nОкт 2024\n1 год 3 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nQA\nBit2Lend provides crypto-backed loans to individuals and businesses. Users pledge digital assets as collateral and receive financing on transparent and secure terms. After sign-up and collateral deposit, the application is reviewed quickly, and once approved the funds are transferred to the client's account. The platform is GDPR-compliant and uses multi-layer asset protection in partnership with Fireblocks.\nThe product is a high-load microservices application with a client-server architecture, integrated with Spanish banks, which keeps every financial operation compliant and reliable. We built systems for loan liquidation control, risk monitoring, and asset protection.\nResponsibilities\nInvolved in every stage of development, from design through release and support (shift left, shift right). Functional, regression, integration, performance, security, and UX testing. Worked with internal and external integrations and feature toggles. Tested web applications and APIs (REST, SOAP) using Postman, Swagger, and DevTools. Analyzed logs in Jaeger and Kibana.\nAPI/UI test automation\nAPI: Java, TestNG, REST Assured\nUI: Java, Selenium, Selenide, Allure\nBuilt the autotest framework from scratch, wrote custom wrappers, and maintained the test framework. Set up parallel test execution (TestNG), Allure reporting, and CI/CD pipelines in Jenkins.\nWorked with test documentation: checklists, test cases, bug reports (Jira), and test management (Allure). Optimized the regression suite, wrote test plans, and handled test analysis, test design, and task prioritization and distribution.\nWorked with databases: PostgreSQL, DBeaver. Requirements testing (Jira, Confluence) and test environments (GitLab).\nMonitoring and data visualization (Grafana). Worked with the Kafka message broker.\nOnboarding, mentoring, and contributing to the growth of the testing practice.\nTech stack: Java, Selenium, Selenide, Kafka, Kubernetes, PostgreSQL, Jaeger, Grafana\nМар 2022 -\nАвг 2023\n1 год 6 мес\nОрганизация 3\nСельское хозяйство\nQA\nA B2B platform that automates the procurement of agricultural products, machinery, and grain. Microservices architecture, client-server interaction.\nThe project helps farmers simplify purchasing and makes deals transparent. Worked in a product team following Scrum.\nResponsibilities\nRequirements review and test documentation (checklists, test cases). Worked with databases: PostgreSQL, SQL queries, data analysis.\nFound and reported bugs, worked with DevTools, tested REST APIs in Postman, maintained bug reports in Jira, and analyzed logs in Kibana.\nManual testing of web applications: functional checks, regression, and integration testing.\nTech stack: Java, Selenium, Selenide, RabbitMQ, Docker, PostgreSQL, Jaeger, Grafana\n\nНавыки\nПродвинутый уровень\nAtlassian Jira\nPostman\nAgile Project Management\nJSON\nREST\nAPI\nDevTools\nJaeger\nSelenide\nAllure\nShift left testing\nQA\nPostgreSQL\nФункциональное тестирование\nТестирование\nJUnit\nRancher\nСредний уровень\nGit\nJmeter\nSQL\nRabbitMQ\nJava\nDocker\nGitHub\nHTML\nk6\nLinux\nUbuntu\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nAQA инженер с опытом в авто-тестировании 3+ лет.\nTelegram: @masqchain\n\nОбразование\nУровень\nВысшее образование\nVolga State University of Telecommunications and Informatics\nCommunication Networks and Switching Systems\n•\n2022\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

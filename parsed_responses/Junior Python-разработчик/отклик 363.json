@@ -1,0 +1,239 @@
+{
+  "candidate_id": 363,
+  "resume_title": "Python Backend Developer",
+  "cover_letter": "с вакансией ознакомился)",
+  "experience_total_months": 58,
+  "similar_experience_months": 58,
+  "work_experience": [
+    {
+      "start_date": "2024-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 33,
+      "organization": "Организация 1",
+      "position": "Python Backend Developer",
+      "employer_details": [],
+      "description": "Работал в команде разработки аналитики товарной матрицы, с MAU 50000+\nпредпринимателей.\n1)Используя asyncio оптимизировал обновление каталога товаров на крупном маркетплейсе,\nблагодаря чему удалось уменьшить время работы парсера на 60%\n2) Реализовал интеграцию с Kafka для асинхронной обработки событий, что позволило безопасно\nобрабатывать большие объемы данных.\n3)Произвел интеграцию системы с крупной торговой площадкой, что увеличило охват\nпользователей.\n4(Реализовал CI/CD - механизм автосборки и автодеплоя Docker-контейнеров используя GitHub\nactions, что сократило время развертывания, увеличило частоту обновлений и устранило\nпроблемы, связанные с ошибками ручного деплоя.\nСтек: Python, FastAPI, PostgreSQL, aiohttp, asyncio, asyncpg, SQLAlchemy, Kafka, Celery, Redis,\nDocker, GitLab, pytest, REST",
+      "original": "Фев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nPython Backend Developer\nРаботал в команде разработки аналитики товарной матрицы, с MAU 50000+\nпредпринимателей.\n1)Используя asyncio оптимизировал обновление каталога товаров на крупном маркетплейсе,\nблагодаря чему удалось уменьшить время работы парсера на 60%\n2) Реализовал интеграцию с Kafka для асинхронной обработки событий, что позволило безопасно\nобрабатывать большие объемы данных.\n3)Произвел интеграцию системы с крупной торговой площадкой, что увеличило охват\nпользователей.\n4(Реализовал CI/CD - механизм автосборки и автодеплоя Docker-контейнеров используя GitHub\nactions, что сократило время развертывания, увеличило частоту обновлений и устранило\nпроблемы, связанные с ошибками ручного деплоя.\nСтек: Python, FastAPI, PostgreSQL, aiohttp, asyncio, asyncpg, SQLAlchemy, Kafka, Celery, Redis,\nDocker, GitLab, pytest, REST"
+    },
+    {
+      "start_date": "2022-01",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 26,
+      "organization": "Организация 2",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Екатеринбург"
+      ],
+      "description": "Работал в команде интерграций в b2b платформе-конструкторе телеграм ботов с 6 млнов\nпользователей и 83 тыс активных ботов.\n1)Используя Redis в качестве кэширования сделал кэширование данных в некоторых запросах\nудалось уменьшить время отклика на 40%\n2)Реализовал авторизацию через Telegram (Telegram.init.data)\n3) Отрефакторил скрипт валидации на 2500 строк, увеличив скорость её работы на 30%\nСтек: Python, FastAPI, Aiogram, Redis, Celery, Kafka, REST, PostgreSQL, pytest",
+      "original": "Янв 2022 -\nФев 2024\n2 года 2 мес\nОрганизация 2\nЕкатеринбург\nPython Backend Developer\nРаботал в команде интерграций в b2b платформе-конструкторе телеграм ботов с 6 млнов\nпользователей и 83 тыс активных ботов.\n1)Используя Redis в качестве кэширования сделал кэширование данных в некоторых запросах\nудалось уменьшить время отклика на 40%\n2)Реализовал авторизацию через Telegram (Telegram.init.data)\n3) Отрефакторил скрипт валидации на 2500 строк, увеличив скорость её работы на 30%\nСтек: Python, FastAPI, Aiogram, Redis, Celery, Kafka, REST, PostgreSQL, pytest"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Golang",
+      "level": "advanced",
+      "original": "Golang"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    },
+    {
+      "name": "Эстонский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Эстонский — B1 — Средний"
+    }
+  ],
+  "about_me": "Я человек с критическим, алгоритмическим и бизнес мышлением, то есть тот самый\nинженер. Умею решать настоящие проблемы и задачи. Мне можно написать сразу в телеграм: @georgymrk",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Tartu Ülikool (Тартуский Университет, Эстония, ЕС)",
+      "details": [
+        "Faculty of Social Sciences, Information Technology Systems Development (Разработка ИТ систем)"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Tartu Ülikool (Тартуский Университет, Эстония, ЕС)\nFaculty of Social Sciences, Information Technology Systems Development (Разработка ИТ систем)\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия, Эстония",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №363\nРезюме: Python Backend Developer",
+    "cover_letter": "с вакансией ознакомился)",
+    "experience": "Опыт работы: 4 года 10 месяцев\nОпыт в похожих должностях:4 года 10 месяцев\nФев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nPython Backend Developer\nРаботал в команде разработки аналитики товарной матрицы, с MAU 50000+\nпредпринимателей.\n1)Используя asyncio оптимизировал обновление каталога товаров на крупном маркетплейсе,\nблагодаря чему удалось уменьшить время работы парсера на 60%\n2) Реализовал интеграцию с Kafka для асинхронной обработки событий, что позволило безопасно\nобрабатывать большие объемы данных.\n3)Произвел интеграцию системы с крупной торговой площадкой, что увеличило охват\nпользователей.\n4(Реализовал CI/CD - механизм автосборки и автодеплоя Docker-контейнеров используя GitHub\nactions, что сократило время развертывания, увеличило частоту обновлений и устранило\nпроблемы, связанные с ошибками ручного деплоя.\nСтек: Python, FastAPI, PostgreSQL, aiohttp, asyncio, asyncpg, SQLAlchemy, Kafka, Celery, Redis,\nDocker, GitLab, pytest, REST\nЯнв 2022 -\nФев 2024\n2 года 2 мес\nОрганизация 2\nЕкатеринбург\nPython Backend Developer\nРаботал в команде интерграций в b2b платформе-конструкторе телеграм ботов с 6 млнов\nпользователей и 83 тыс активных ботов.\n1)Используя Redis в качестве кэширования сделал кэширование данных в некоторых запросах\nудалось уменьшить время отклика на 40%\n2)Реализовал авторизацию через Telegram (Telegram.init.data)\n3) Отрефакторил скрипт валидации на 2500 строк, увеличив скорость её работы на 30%\nСтек: Python, FastAPI, Aiogram, Redis, Celery, Kafka, REST, PostgreSQL, pytest",
+    "skills": "Продвинутый уровень\nPython\nPostgreSQL\nFastAPI\nSQL\nGit\nDocker\nDjango Framework\nLinux\nREST API\nRedis\nRabbitMQ\nCelery\nFlask\nCI/CD\nApache Kafka\nAPI\nMySQL\nGitHub\nKubernetes\nDjango Rest Framework\nPytest\nSQLAlchemy\nGolang\nMongoDB\nJavaScript\nАнглийский язык\nGitlab\nNoSQL\nREST\nClickhouse",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nЭстонский — B1 — Средний",
+    "about_me": "Я человек с критическим, алгоритмическим и бизнес мышлением, то есть тот самый\nинженер. Умею решать настоящие проблемы и задачи. Мне можно написать сразу в телеграм: @georgymrk",
+    "education": "Уровень\nВысшее образование\nTartu Ülikool (Тартуский Университет, Эстония, ЕС)\nFaculty of Social Sciences, Information Technology Systems Development (Разработка ИТ систем)\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия, Эстония"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №363\nРезюме: Python Backend Developer\n\nСопроводительное письмо\nс вакансией ознакомился)\n\nОпыт работы\nОпыт работы: 4 года 10 месяцев\nОпыт в похожих должностях:4 года 10 месяцев\nФев 2024 -\nсейчас\n2 года 9 мес\nОрганизация 1\nPython Backend Developer\nРаботал в команде разработки аналитики товарной матрицы, с MAU 50000+\nпредпринимателей.\n1)Используя asyncio оптимизировал обновление каталога товаров на крупном маркетплейсе,\nблагодаря чему удалось уменьшить время работы парсера на 60%\n2) Реализовал интеграцию с Kafka для асинхронной обработки событий, что позволило безопасно\nобрабатывать большие объемы данных.\n3)Произвел интеграцию системы с крупной торговой площадкой, что увеличило охват\nпользователей.\n4(Реализовал CI/CD - механизм автосборки и автодеплоя Docker-контейнеров используя GitHub\nactions, что сократило время развертывания, увеличило частоту обновлений и устранило\nпроблемы, связанные с ошибками ручного деплоя.\nСтек: Python, FastAPI, PostgreSQL, aiohttp, asyncio, asyncpg, SQLAlchemy, Kafka, Celery, Redis,\nDocker, GitLab, pytest, REST\nЯнв 2022 -\nФев 2024\n2 года 2 мес\nОрганизация 2\nЕкатеринбург\nPython Backend Developer\nРаботал в команде интерграций в b2b платформе-конструкторе телеграм ботов с 6 млнов\nпользователей и 83 тыс активных ботов.\n1)Используя Redis в качестве кэширования сделал кэширование данных в некоторых запросах\nудалось уменьшить время отклика на 40%\n2)Реализовал авторизацию через Telegram (Telegram.init.data)\n3) Отрефакторил скрипт валидации на 2500 строк, увеличив скорость её работы на 30%\nСтек: Python, FastAPI, Aiogram, Redis, Celery, Kafka, REST, PostgreSQL, pytest\n\nНавыки\nПродвинутый уровень\nPython\nPostgreSQL\nFastAPI\nSQL\nGit\nDocker\nDjango Framework\nLinux\nREST API\nRedis\nRabbitMQ\nCelery\nFlask\nCI/CD\nApache Kafka\nAPI\nMySQL\nGitHub\nKubernetes\nDjango Rest Framework\nPytest\nSQLAlchemy\nGolang\nMongoDB\nJavaScript\nАнглийский язык\nGitlab\nNoSQL\nREST\nClickhouse\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nЭстонский — B1 — Средний\n\nОбо мне\nЯ человек с критическим, алгоритмическим и бизнес мышлением, то есть тот самый\nинженер. Умею решать настоящие проблемы и задачи. Мне можно написать сразу в телеграм: @georgymrk\n\nОбразование\nУровень\nВысшее образование\nTartu Ülikool (Тартуский Университет, Эстония, ЕС)\nFaculty of Social Sciences, Information Technology Systems Development (Разработка ИТ систем)\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия, Эстония\n"
+}

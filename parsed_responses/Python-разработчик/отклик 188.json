@@ -1,0 +1,109 @@
+{
+  "candidate_id": 188,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 29,
+  "similar_experience_months": 29,
+  "work_experience": [
+    {
+      "start_date": "2024-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 29,
+      "organization": "Организация 1",
+      "position": "разработчик",
+      "employer_details": [
+        "Уфа"
+      ],
+      "description": "разработка сайта на Django.",
+      "original": "Июн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nУфа\nразработчик\nразработка сайта на Django."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django"
+    },
+    {
+      "name": "Разработка ПО",
+      "level": "intermediate",
+      "original": "Разработка ПО"
+    },
+    {
+      "name": "PyQT5",
+      "level": "intermediate",
+      "original": "PyQT5"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "Базы данных",
+      "level": "basic",
+      "original": "Базы данных"
+    },
+    {
+      "name": "Работа с базами данных",
+      "level": "basic",
+      "original": "Работа с базами данных"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Примеры работ:\nсайт: https://wh40k.lv426.tech/\nпроекты на GitHub: https://github.com/LaienSicet",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "академия ВЭГУ",
+      "details": [],
+      "year": 2011,
+      "level": "Высшее образование",
+      "original": "академия ВЭГУ\n2011\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №188\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 2 года 5 месяцев\nОпыт в похожих должностях:2 года 5 месяцев\nИюн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nУфа\nразработчик\nразработка сайта на Django.",
+    "skills": "Средний уровень\nPython\nHTML\nDjango\nРазработка ПО\nPyQT5\nCSS\nБазовый уровень\nSQL\nБазы данных\nРабота с базами данных",
+    "languages": "Родной\nРусский",
+    "about_me": "Примеры работ:\nсайт: https://wh40k.lv426.tech/\nпроекты на GitHub: https://github.com/LaienSicet",
+    "education": "Уровень\nВысшее образование\nакадемия ВЭГУ\n2011\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №188\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 2 года 5 месяцев\nОпыт в похожих должностях:2 года 5 месяцев\nИюн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nУфа\nразработчик\nразработка сайта на Django.\n\nНавыки\nСредний уровень\nPython\nHTML\nDjango\nРазработка ПО\nPyQT5\nCSS\nБазовый уровень\nSQL\nБазы данных\nРабота с базами данных\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nПримеры работ:\nсайт: https://wh40k.lv426.tech/\nпроекты на GitHub: https://github.com/LaienSicet\n\nОбразование\nУровень\nВысшее образование\nакадемия ВЭГУ\n2011\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

@@ -1,0 +1,222 @@
+{
+  "candidate_id": 98,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": "Добрый день!\nРаботал с вашим стеком, заинтересовала вакансия.\nМой телеграмм: @tripforge",
+  "experience_total_months": 66,
+  "similar_experience_months": 66,
+  "work_experience": [
+    {
+      "start_date": "2023-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 41,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Москваl.tinkoff.ru/career.and.vacancies",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Оптимизировал сборку проекта через настройку Webpack, добавив tree-shaking и динамический импорт, что уменьшило размер основного бандла на 45% (с 2.8MB до 1.5MB)\nВнедрил Babel.js и PostCSS, что устранило более 20 критических багов и значительно улучшило кроссбраузерную совместимость приложения, повысив стабильность и пользовательский опыт\nРазработал систему аналитики финансов и смет, добавилвизуализацию доходов и расходов по проектам в виде графиков на Charts.js, а также реализовалвозможность гибкой настройки интерфейса под себя с помощью Drag-and-Drop на react-grid-layout\nПо своей инициативе предложил и внедрил виртуализацию (react-window) и infinity-scroll для нагруженных таблиц, отображающих более 200 строк, так как у бизнеса была потребность в отказе отпагинации. Благодаря данному решению удалось избежать проблемс производительностью и улучшить UX;\nМодернизировал процесс развертывания приложения через оптимизацию CI/CD pipeline’а, что привело к полной автоматизации выпуска обновлений в production-среду\nРеализовал интерактивные таблицы со сложной бизнес-логикойдля отображения различных сущностей с использованием@tanstack/react-table, а также внедрил функционал Drag-and-Drop(DnD) для настройки таблиц под индивидуальные потребностипользователей, позволяя перетаскивать столбцы, скрывать иизменять размер\nТехнологии: React, TypeScript, JavaScript, Redux Toolkit, Webpack, Babel, PostCSS, SCSS, Charts.js, react-grid-layout, react-window, @tanstack/react-table (v8), react-dnd, Jest, React Testing Library, day.js, Intersection Observer API, GitLab CI/CD, Maven, Git, Jira, Figma, Confluence, Scrum\nМой телеграм: @tripforge",
+      "original": "Июн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nМоскваl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nОптимизировал сборку проекта через настройку Webpack, добавив tree-shaking и динамический импорт, что уменьшило размер основного бандла на 45% (с 2.8MB до 1.5MB)\nВнедрил Babel.js и PostCSS, что устранило более 20 критических багов и значительно улучшило кроссбраузерную совместимость приложения, повысив стабильность и пользовательский опыт\nРазработал систему аналитики финансов и смет, добавилвизуализацию доходов и расходов по проектам в виде графиков на Charts.js, а также реализовалвозможность гибкой настройки интерфейса под себя с помощью Drag-and-Drop на react-grid-layout\nПо своей инициативе предложил и внедрил виртуализацию (react-window) и infinity-scroll для нагруженных таблиц, отображающих более 200 строк, так как у бизнеса была потребность в отказе отпагинации. Благодаря данному решению удалось избежать проблемс производительностью и улучшить UX;\nМодернизировал процесс развертывания приложения через оптимизацию CI/CD pipeline’а, что привело к полной автоматизации выпуска обновлений в production-среду\nРеализовал интерактивные таблицы со сложной бизнес-логикойдля отображения различных сущностей с использованием@tanstack/react-table, а также внедрил функционал Drag-and-Drop(DnD) для настройки таблиц под индивидуальные потребностипользователей, позволяя перетаскивать столбцы, скрывать иизменять размер\nТехнологии: React, TypeScript, JavaScript, Redux Toolkit, Webpack, Babel, PostCSS, SCSS, Charts.js, react-grid-layout, react-window, @tanstack/react-table (v8), react-dnd, Jest, React Testing Library, day.js, Intersection Observer API, GitLab CI/CD, Maven, Git, Jira, Figma, Confluence, Scrum\nМой телеграм: @tripforge"
+    },
+    {
+      "start_date": "2021-05",
+      "end_date": "2023-06",
+      "is_current": false,
+      "duration_months": 26,
+      "organization": "Организация 2",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Москваwww.epam-group.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Реализовал JWT-авторизацию и аутентификацию пользователей, сотрудничая с backend-разработчиками, обеспечил обработку ошибок и безопасное хранение данных (React, axios)\nВнедрил code splitting и lazy loading для основных модулей приложения, разбив бандл на оптимальные чанки по размеру, что дополнительно сократило время до интерактивности (TTI) на 45%\nНастроил сборку Webpack с поддержкой TypeScript, SCSS и оптимизацией изображений (конвертация в WebP, автоматическое сжатие), что ускорило первую загрузку сайта с 4.8 до 2.6 секунд\nНастроил Prettier и ESLint для автоматического форматирования и проверки кода, улучшив качество кода\nИспользовал ReduxToolkit для работы с данными и управления состоянием приложений, сотрудничал с backend для интеграции с REST API\nТехнологии: React, TypeScript, JavaScript, Redux Toolkit (RTK Query, createSlice), Webpack, SCSS, Axios, JWT, ESLint (Airbnb config), Prettier, Husky, lint-staged, React.lazy, Suspense, imagemin, WebP, Git, Jira, Bitbucket, Confluence, Microsoft Teams, SAFe.\nМой телеграм: @tripforge",
+      "original": "Май 2021 -\nИюн 2023\n2 года 2 мес\nОрганизация 2\nМоскваwww.epam-group.ru\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРеализовал JWT-авторизацию и аутентификацию пользователей, сотрудничая с backend-разработчиками, обеспечил обработку ошибок и безопасное хранение данных (React, axios)\nВнедрил code splitting и lazy loading для основных модулей приложения, разбив бандл на оптимальные чанки по размеру, что дополнительно сократило время до интерактивности (TTI) на 45%\nНастроил сборку Webpack с поддержкой TypeScript, SCSS и оптимизацией изображений (конвертация в WebP, автоматическое сжатие), что ускорило первую загрузку сайта с 4.8 до 2.6 секунд\nНастроил Prettier и ESLint для автоматического форматирования и проверки кода, улучшив качество кода\nИспользовал ReduxToolkit для работы с данными и управления состоянием приложений, сотрудничал с backend для интеграции с REST API\nТехнологии: React, TypeScript, JavaScript, Redux Toolkit (RTK Query, createSlice), Webpack, SCSS, Axios, JWT, ESLint (Airbnb config), Prettier, Husky, lint-staged, React.lazy, Suspense, imagemin, WebP, Git, Jira, Bitbucket, Confluence, Microsoft Teams, SAFe.\nМой телеграм: @tripforge"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "Node.js",
+      "level": "advanced",
+      "original": "Node.js"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML5"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS3"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "axios",
+      "level": "advanced",
+      "original": "axios"
+    },
+    {
+      "name": "JWT",
+      "level": "advanced",
+      "original": "JWT"
+    },
+    {
+      "name": "ESLint",
+      "level": "advanced",
+      "original": "ESLint"
+    },
+    {
+      "name": "Prettier",
+      "level": "advanced",
+      "original": "Prettier"
+    },
+    {
+      "name": "Husky",
+      "level": "advanced",
+      "original": "Husky"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Babel",
+      "level": "advanced",
+      "original": "Babel"
+    },
+    {
+      "name": "Jest",
+      "level": "advanced",
+      "original": "Jest"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "ES6",
+      "level": "advanced",
+      "original": "ES6"
+    },
+    {
+      "name": "Swagger",
+      "level": "advanced",
+      "original": "Swagger"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "ReactJS"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Frontend",
+      "level": "advanced",
+      "original": "Frontend"
+    },
+    {
+      "name": "Redux",
+      "level": "advanced",
+      "original": "Redux"
+    },
+    {
+      "name": "Webpack",
+      "level": "advanced",
+      "original": "Webpack"
+    },
+    {
+      "name": "SCSS",
+      "level": "advanced",
+      "original": "SCSS"
+    },
+    {
+      "name": "React Testing Library (RTL)",
+      "level": null,
+      "original": "React Testing Library (RTL)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C2",
+      "description": "В совершенстве",
+      "original": "Английский — C2 — В совершенстве"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "Московский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Москва",
+      "details": [
+        "ИУ, Информатика и вычислительная техника"
+      ],
+      "year": 2025,
+      "level": "Высшее образование (Магистр)",
+      "original": "Московский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Москва\nИУ, Информатика и вычислительная техника\n•\n2025\n•\nВысшее образование (Магистр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №98\nРезюме: Frontend-разработчик",
+    "cover_letter": "Добрый день!\nРаботал с вашим стеком, заинтересовала вакансия.\nМой телеграмм: @tripforge",
+    "experience": "Опыт работы: 5 лет 6 месяцев\nОпыт в похожих должностях:5 лет 6 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nМоскваl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nОптимизировал сборку проекта через настройку Webpack, добавив tree-shaking и динамический импорт, что уменьшило размер основного бандла на 45% (с 2.8MB до 1.5MB)\nВнедрил Babel.js и PostCSS, что устранило более 20 критических багов и значительно улучшило кроссбраузерную совместимость приложения, повысив стабильность и пользовательский опыт\nРазработал систему аналитики финансов и смет, добавилвизуализацию доходов и расходов по проектам в виде графиков на Charts.js, а также реализовалвозможность гибкой настройки интерфейса под себя с помощью Drag-and-Drop на react-grid-layout\nПо своей инициативе предложил и внедрил виртуализацию (react-window) и infinity-scroll для нагруженных таблиц, отображающих более 200 строк, так как у бизнеса была потребность в отказе отпагинации. Благодаря данному решению удалось избежать проблемс производительностью и улучшить UX;\nМодернизировал процесс развертывания приложения через оптимизацию CI/CD pipeline’а, что привело к полной автоматизации выпуска обновлений в production-среду\nРеализовал интерактивные таблицы со сложной бизнес-логикойдля отображения различных сущностей с использованием@tanstack/react-table, а также внедрил функционал Drag-and-Drop(DnD) для настройки таблиц под индивидуальные потребностипользователей, позволяя перетаскивать столбцы, скрывать иизменять размер\nТехнологии: React, TypeScript, JavaScript, Redux Toolkit, Webpack, Babel, PostCSS, SCSS, Charts.js, react-grid-layout, react-window, @tanstack/react-table (v8), react-dnd, Jest, React Testing Library, day.js, Intersection Observer API, GitLab CI/CD, Maven, Git, Jira, Figma, Confluence, Scrum\nМой телеграм: @tripforge\nМай 2021 -\nИюн 2023\n2 года 2 мес\nОрганизация 2\nМоскваwww.epam-group.ru\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРеализовал JWT-авторизацию и аутентификацию пользователей, сотрудничая с backend-разработчиками, обеспечил обработку ошибок и безопасное хранение данных (React, axios)\nВнедрил code splitting и lazy loading для основных модулей приложения, разбив бандл на оптимальные чанки по размеру, что дополнительно сократило время до интерактивности (TTI) на 45%\nНастроил сборку Webpack с поддержкой TypeScript, SCSS и оптимизацией изображений (конвертация в WebP, автоматическое сжатие), что ускорило первую загрузку сайта с 4.8 до 2.6 секунд\nНастроил Prettier и ESLint для автоматического форматирования и проверки кода, улучшив качество кода\nИспользовал ReduxToolkit для работы с данными и управления состоянием приложений, сотрудничал с backend для интеграции с REST API\nТехнологии: React, TypeScript, JavaScript, Redux Toolkit (RTK Query, createSlice), Webpack, SCSS, Axios, JWT, ESLint (Airbnb config), Prettier, Husky, lint-staged, React.lazy, Suspense, imagemin, WebP, Git, Jira, Bitbucket, Confluence, Microsoft Teams, SAFe.\nМой телеграм: @tripforge",
+    "skills": "Продвинутый уровень\nJavaScript\nHTML\nGit\nTypeScript\nNode.js\nHTML5\nCSS3\nReact\nSQL\naxios\nJWT\nESLint\nPrettier\nHusky\nGitlab\nBabel\nJest\nLinux\nES6\nSwagger\nReactJS\nGitHub\nFrontend\nRedux\nWebpack\nSCSS\nУровень не указан\nReact Testing Library (RTL)",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C2 — В совершенстве",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование (Магистр)\nМосковский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Москва\nИУ, Информатика и вычислительная техника\n•\n2025\n•\nВысшее образование (Магистр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №98\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nДобрый день!\nРаботал с вашим стеком, заинтересовала вакансия.\nМой телеграмм: @tripforge\n\nОпыт работы\nОпыт работы: 5 лет 6 месяцев\nОпыт в похожих должностях:5 лет 6 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nМоскваl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nОптимизировал сборку проекта через настройку Webpack, добавив tree-shaking и динамический импорт, что уменьшило размер основного бандла на 45% (с 2.8MB до 1.5MB)\nВнедрил Babel.js и PostCSS, что устранило более 20 критических багов и значительно улучшило кроссбраузерную совместимость приложения, повысив стабильность и пользовательский опыт\nРазработал систему аналитики финансов и смет, добавилвизуализацию доходов и расходов по проектам в виде графиков на Charts.js, а также реализовалвозможность гибкой настройки интерфейса под себя с помощью Drag-and-Drop на react-grid-layout\nПо своей инициативе предложил и внедрил виртуализацию (react-window) и infinity-scroll для нагруженных таблиц, отображающих более 200 строк, так как у бизнеса была потребность в отказе отпагинации. Благодаря данному решению удалось избежать проблемс производительностью и улучшить UX;\nМодернизировал процесс развертывания приложения через оптимизацию CI/CD pipeline’а, что привело к полной автоматизации выпуска обновлений в production-среду\nРеализовал интерактивные таблицы со сложной бизнес-логикойдля отображения различных сущностей с использованием@tanstack/react-table, а также внедрил функционал Drag-and-Drop(DnD) для настройки таблиц под индивидуальные потребностипользователей, позволяя перетаскивать столбцы, скрывать иизменять размер\nТехнологии: React, TypeScript, JavaScript, Redux Toolkit, Webpack, Babel, PostCSS, SCSS, Charts.js, react-grid-layout, react-window, @tanstack/react-table (v8), react-dnd, Jest, React Testing Library, day.js, Intersection Observer API, GitLab CI/CD, Maven, Git, Jira, Figma, Confluence, Scrum\nМой телеграм: @tripforge\nМай 2021 -\nИюн 2023\n2 года 2 мес\nОрганизация 2\nМоскваwww.epam-group.ru\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРеализовал JWT-авторизацию и аутентификацию пользователей, сотрудничая с backend-разработчиками, обеспечил обработку ошибок и безопасное хранение данных (React, axios)\nВнедрил code splitting и lazy loading для основных модулей приложения, разбив бандл на оптимальные чанки по размеру, что дополнительно сократило время до интерактивности (TTI) на 45%\nНастроил сборку Webpack с поддержкой TypeScript, SCSS и оптимизацией изображений (конвертация в WebP, автоматическое сжатие), что ускорило первую загрузку сайта с 4.8 до 2.6 секунд\nНастроил Prettier и ESLint для автоматического форматирования и проверки кода, улучшив качество кода\nИспользовал ReduxToolkit для работы с данными и управления состоянием приложений, сотрудничал с backend для интеграции с REST API\nТехнологии: React, TypeScript, JavaScript, Redux Toolkit (RTK Query, createSlice), Webpack, SCSS, Axios, JWT, ESLint (Airbnb config), Prettier, Husky, lint-staged, React.lazy, Suspense, imagemin, WebP, Git, Jira, Bitbucket, Confluence, Microsoft Teams, SAFe.\nМой телеграм: @tripforge\n\nНавыки\nПродвинутый уровень\nJavaScript\nHTML\nGit\nTypeScript\nNode.js\nHTML5\nCSS3\nReact\nSQL\naxios\nJWT\nESLint\nPrettier\nHusky\nGitlab\nBabel\nJest\nLinux\nES6\nSwagger\nReactJS\nGitHub\nFrontend\nRedux\nWebpack\nSCSS\nУровень не указан\nReact Testing Library (RTL)\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C2 — В совершенстве\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование (Магистр)\nМосковский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Москва\nИУ, Информатика и вычислительная техника\n•\n2025\n•\nВысшее образование (Магистр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

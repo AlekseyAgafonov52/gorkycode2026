@@ -1,0 +1,223 @@
+{
+  "candidate_id": 369,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Здравствуйте!\nМеня зовут Роман.\nОткликаюсь на вакансию Junior Python-разработчик(Аналитика данных).\nМой опыт: FastAPI, микросервисы, Django, PostgreSQL, SQLAlchemy, Redis, Docker/K8s.\nПоследний год я работал над миграцией монолита на Django на микросервисы (FastAPI). Дополнительно писал тесты (интеграционные и unit), занимался рефакторингом и оптимизацией, код-ревью. Использую линтеры и типизацию в коде.\nЛюблю сложные технические задачи, аккуратный код и понятную архитектуру.\nГотов присоединиться к команде и обсудить, чем могу быть полезен.",
+  "experience_total_months": 38,
+  "similar_experience_months": 38,
+  "work_experience": [
+    {
+      "start_date": "2023-09",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 38,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Казаньleads.su/",
+        "СМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование"
+      ],
+      "description": "Стек: Python 3.10+, Python 2.7, FastAPI, Django, SQLAlchemy, PostgreSQL, Redis, Docker, Kubernetes, RabbitMQ, Celery, Prometheus, Grafana\n- Разработка и поддержка микросервисов на FastAPI.\n- Рефакторинг легаси-кода.\n- Миграции и дата-миграции на Django\n- Интеграционные и юнит-тесты\n- Миграция микросервиса с Pydantic на Pydantic 2 (для единообразия стеков новых проектов)",
+      "original": "Сен 2023 -\nсейчас\n3 года 2 мес\nОрганизация 1\nКазаньleads.su/\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nPython-разработчик\nСтек: Python 3.10+, Python 2.7, FastAPI, Django, SQLAlchemy, PostgreSQL, Redis, Docker, Kubernetes, RabbitMQ, Celery, Prometheus, Grafana\n- Разработка и поддержка микросервисов на FastAPI.\n- Рефакторинг легаси-кода.\n- Миграции и дата-миграции на Django\n- Интеграционные и юнит-тесты\n- Миграция микросервиса с Pydantic на Pydantic 2 (для единообразия стеков новых проектов)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Оптимизация кода",
+      "level": "advanced",
+      "original": "Оптимизация кода"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Рефакторинг кода",
+      "level": "advanced",
+      "original": "Рефакторинг кода"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Requests",
+      "level": "advanced",
+      "original": "Requests"
+    },
+    {
+      "name": "NoSQL",
+      "level": "intermediate",
+      "original": "NoSQL"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    },
+    {
+      "name": "Redis",
+      "level": "intermediate",
+      "original": "Redis"
+    },
+    {
+      "name": "MongoDB",
+      "level": "intermediate",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Интеграционное тестирование",
+      "level": "intermediate",
+      "original": "Интеграционное тестирование"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "MySQL",
+      "level": "intermediate",
+      "original": "MySQL"
+    },
+    {
+      "name": "Асинхронное программирование",
+      "level": "intermediate",
+      "original": "Асинхронное программирование"
+    },
+    {
+      "name": "Postman",
+      "level": "intermediate",
+      "original": "Postman"
+    },
+    {
+      "name": "JSON",
+      "level": "intermediate",
+      "original": "JSON"
+    },
+    {
+      "name": "SOAP",
+      "level": "intermediate",
+      "original": "SOAP"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST"
+    },
+    {
+      "name": "JSON API",
+      "level": "intermediate",
+      "original": "JSON API"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Нравится Python, изучать новые фреймворки и технологии.\nЛюблю общаться с коллегами, перенимать опыт старших разработчиков.\nЦеню хороший код, отлаженные процессы. Быстро обучаюсь и спокойно отношусь к код-ревью.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Челябинское ВВАКУШ (ВИ)",
+      "details": [
+        "Эксплуатация воздушных судов и организация воздушного движения"
+      ],
+      "year": 2009,
+      "level": "Высшее образование",
+      "original": "Челябинское ВВАКУШ (ВИ)\nЭксплуатация воздушных судов и организация воздушного движения\n•\n2009\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №369\nРезюме: Python-разработчик",
+    "cover_letter": "Здравствуйте!\nМеня зовут Роман.\nОткликаюсь на вакансию Junior Python-разработчик(Аналитика данных).\nМой опыт: FastAPI, микросервисы, Django, PostgreSQL, SQLAlchemy, Redis, Docker/K8s.\nПоследний год я работал над миграцией монолита на Django на микросервисы (FastAPI). Дополнительно писал тесты (интеграционные и unit), занимался рефакторингом и оптимизацией, код-ревью. Использую линтеры и типизацию в коде.\nЛюблю сложные технические задачи, аккуратный код и понятную архитектуру.\nГотов присоединиться к команде и обсудить, чем могу быть полезен.",
+    "experience": "Опыт работы: 3 года 2 месяца\nОпыт в похожих должностях:3 года 2 месяца\nСен 2023 -\nсейчас\n3 года 2 мес\nОрганизация 1\nКазаньleads.su/\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nPython-разработчик\nСтек: Python 3.10+, Python 2.7, FastAPI, Django, SQLAlchemy, PostgreSQL, Redis, Docker, Kubernetes, RabbitMQ, Celery, Prometheus, Grafana\n- Разработка и поддержка микросервисов на FastAPI.\n- Рефакторинг легаси-кода.\n- Миграции и дата-миграции на Django\n- Интеграционные и юнит-тесты\n- Миграция микросервиса с Pydantic на Pydantic 2 (для единообразия стеков новых проектов)",
+    "skills": "Продвинутый уровень\nPython\nGitHub\nDjango Rest Framework\nREST API\nSQLAlchemy\nDjango Framework\nFastAPI\nFlask\nPytest\nОптимизация кода\nGitlab\nDocker-compose\nРефакторинг кода\nООП\nAgile\nAPI\nRequests\nСредний уровень\nNoSQL\nCelery\nRedis\nMongoDB\nИнтеграционное тестирование\nPostgreSQL\nMySQL\nАсинхронное программирование\nPostman\nJSON\nSOAP\nREST\nJSON API",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Нравится Python, изучать новые фреймворки и технологии.\nЛюблю общаться с коллегами, перенимать опыт старших разработчиков.\nЦеню хороший код, отлаженные процессы. Быстро обучаюсь и спокойно отношусь к код-ревью.",
+    "education": "Уровень\nВысшее образование\nЧелябинское ВВАКУШ (ВИ)\nЭксплуатация воздушных судов и организация воздушного движения\n•\n2009\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №369\nРезюме: Python-разработчик\n\nСопроводительное письмо\nЗдравствуйте!\nМеня зовут Роман.\nОткликаюсь на вакансию Junior Python-разработчик(Аналитика данных).\nМой опыт: FastAPI, микросервисы, Django, PostgreSQL, SQLAlchemy, Redis, Docker/K8s.\nПоследний год я работал над миграцией монолита на Django на микросервисы (FastAPI). Дополнительно писал тесты (интеграционные и unit), занимался рефакторингом и оптимизацией, код-ревью. Использую линтеры и типизацию в коде.\nЛюблю сложные технические задачи, аккуратный код и понятную архитектуру.\nГотов присоединиться к команде и обсудить, чем могу быть полезен.\n\nОпыт работы\nОпыт работы: 3 года 2 месяца\nОпыт в похожих должностях:3 года 2 месяца\nСен 2023 -\nсейчас\n3 года 2 мес\nОрганизация 1\nКазаньleads.su/\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nPython-разработчик\nСтек: Python 3.10+, Python 2.7, FastAPI, Django, SQLAlchemy, PostgreSQL, Redis, Docker, Kubernetes, RabbitMQ, Celery, Prometheus, Grafana\n- Разработка и поддержка микросервисов на FastAPI.\n- Рефакторинг легаси-кода.\n- Миграции и дата-миграции на Django\n- Интеграционные и юнит-тесты\n- Миграция микросервиса с Pydantic на Pydantic 2 (для единообразия стеков новых проектов)\n\nНавыки\nПродвинутый уровень\nPython\nGitHub\nDjango Rest Framework\nREST API\nSQLAlchemy\nDjango Framework\nFastAPI\nFlask\nPytest\nОптимизация кода\nGitlab\nDocker-compose\nРефакторинг кода\nООП\nAgile\nAPI\nRequests\nСредний уровень\nNoSQL\nCelery\nRedis\nMongoDB\nИнтеграционное тестирование\nPostgreSQL\nMySQL\nАсинхронное программирование\nPostman\nJSON\nSOAP\nREST\nJSON API\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nНравится Python, изучать новые фреймворки и технологии.\nЛюблю общаться с коллегами, перенимать опыт старших разработчиков.\nЦеню хороший код, отлаженные процессы. Быстро обучаюсь и спокойно отношусь к код-ревью.\n\nОбразование\nУровень\nВысшее образование\nЧелябинское ВВАКУШ (ВИ)\nЭксплуатация воздушных судов и организация воздушного движения\n•\n2009\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

@@ -1,0 +1,207 @@
+{
+  "candidate_id": 89,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 41,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2023-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 41,
+      "organization": "Организация 1",
+      "position": "Backend Engineer",
+      "employer_details": [
+        "Елизово"
+      ],
+      "description": "I am a software engineer with extensive experience in building reliable and scalable automation solutions for the food delivery and service industry. I have successfully developed automation systems for Master Kebab, integrating with the iiko provider to streamline operations from order processing to delivery.\nMy expertise includes:\n- Building Telegram bots for customer and courier interaction\n- Automating courier logistics and dispatch workflows\n- Creating HR management tools\n- Developing loyalty systems and integration with map services\n- Implementing notification services, SMS gateways, and payment system integrations\nI have delivered software with a 99.99% success rate and high system stability. My platforms have handled over 100,000+ completed orders, and the number is rapidly growing.\nI thrive in fast-paced environments, value clean and maintainable code, and focus on creating products that solve real business problems with measurable impact.",
+      "original": "Июн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nЕлизово\nBackend Engineer\nI am a software engineer with extensive experience in building reliable and scalable automation solutions for the food delivery and service industry. I have successfully developed automation systems for Master Kebab, integrating with the iiko provider to streamline operations from order processing to delivery.\nMy expertise includes:\n- Building Telegram bots for customer and courier interaction\n- Automating courier logistics and dispatch workflows\n- Creating HR management tools\n- Developing loyalty systems and integration with map services\n- Implementing notification services, SMS gateways, and payment system integrations\nI have delivered software with a 99.99% success rate and high system stability. My platforms have handled over 100,000+ completed orders, and the number is rapidly growing.\nI thrive in fast-paced environments, value clean and maintainable code, and focus on creating products that solve real business problems with measurable impact."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Telegram Bot",
+      "level": "advanced",
+      "original": "Telegram Bot"
+    },
+    {
+      "name": "Telegram Web Apps",
+      "level": "advanced",
+      "original": "Telegram Web Apps"
+    },
+    {
+      "name": "Microservice",
+      "level": "advanced",
+      "original": "Microservice"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "AWS",
+      "level": "advanced",
+      "original": "AWS"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Kiss",
+      "level": "advanced",
+      "original": "Kiss"
+    },
+    {
+      "name": "Dry",
+      "level": "advanced",
+      "original": "Dry"
+    },
+    {
+      "name": "SOLID",
+      "level": "advanced",
+      "original": "SOLID"
+    },
+    {
+      "name": "OOP",
+      "level": "advanced",
+      "original": "OOP"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "AI-Integrations",
+      "level": "advanced",
+      "original": "AI-Integrations"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "WebSocket",
+      "level": "advanced",
+      "original": "Websockets"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Agile/Scrum",
+      "level": "advanced",
+      "original": "Agile/Scrum"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Tashkent financial institute",
+      "details": [
+        "Banking, Banking"
+      ],
+      "year": 2023,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Tashkent financial institute\nBanking, Banking\n•\n2023\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия, Узбекистан",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №89\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 5 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nЕлизово\nBackend Engineer\nI am a software engineer with extensive experience in building reliable and scalable automation solutions for the food delivery and service industry. I have successfully developed automation systems for Master Kebab, integrating with the iiko provider to streamline operations from order processing to delivery.\nMy expertise includes:\n- Building Telegram bots for customer and courier interaction\n- Automating courier logistics and dispatch workflows\n- Creating HR management tools\n- Developing loyalty systems and integration with map services\n- Implementing notification services, SMS gateways, and payment system integrations\nI have delivered software with a 99.99% success rate and high system stability. My platforms have handled over 100,000+ completed orders, and the number is rapidly growing.\nI thrive in fast-paced environments, value clean and maintainable code, and focus on creating products that solve real business problems with measurable impact.",
+    "skills": "Продвинутый уровень\nPython\nDjango\nDjango Framework\nFlask\nFastAPI\nTelegram Bot\nTelegram Web Apps\nMicroservice\nPostgreSQL\nDocker\nMongoDB\nAWS\nRabbitMQ\nGit\nGitHub\nGitlab\nCelery\nKiss\nDry\nSOLID\nOOP\nNginx\nAI-Integrations\nLinux\nWebsockets\nCI/CD\nAgile/Scrum",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nTashkent financial institute\nBanking, Banking\n•\n2023\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия, Узбекистан\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №89\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 5 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nЕлизово\nBackend Engineer\nI am a software engineer with extensive experience in building reliable and scalable automation solutions for the food delivery and service industry. I have successfully developed automation systems for Master Kebab, integrating with the iiko provider to streamline operations from order processing to delivery.\nMy expertise includes:\n- Building Telegram bots for customer and courier interaction\n- Automating courier logistics and dispatch workflows\n- Creating HR management tools\n- Developing loyalty systems and integration with map services\n- Implementing notification services, SMS gateways, and payment system integrations\nI have delivered software with a 99.99% success rate and high system stability. My platforms have handled over 100,000+ completed orders, and the number is rapidly growing.\nI thrive in fast-paced environments, value clean and maintainable code, and focus on creating products that solve real business problems with measurable impact.\n\nНавыки\nПродвинутый уровень\nPython\nDjango\nDjango Framework\nFlask\nFastAPI\nTelegram Bot\nTelegram Web Apps\nMicroservice\nPostgreSQL\nDocker\nMongoDB\nAWS\nRabbitMQ\nGit\nGitHub\nGitlab\nCelery\nKiss\nDry\nSOLID\nOOP\nNginx\nAI-Integrations\nLinux\nWebsockets\nCI/CD\nAgile/Scrum\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nTashkent financial institute\nBanking, Banking\n•\n2023\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия, Узбекистан\nРазрешение на работу:\nРоссия\n"
+}

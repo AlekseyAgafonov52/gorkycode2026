@@ -1,0 +1,179 @@
+{
+  "candidate_id": 288,
+  "resume_title": "Разработчик",
+  "cover_letter": "ИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было",
+  "experience_total_months": 298,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-12",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 11,
+      "organization": "Организация 1",
+      "position": "бэкенд разработчик",
+      "employer_details": [],
+      "description": "- Написание программного кода\n- Исправление выявленных багов",
+      "original": "Дек 2025 -\nсейчас\n11 мес\nОрганизация 1\nбэкенд разработчик\n- Написание программного кода\n- Исправление выявленных багов"
+    },
+    {
+      "start_date": "2001-10",
+      "end_date": "2025-08",
+      "is_current": false,
+      "duration_months": 287,
+      "organization": "Организация 2",
+      "position": "Технический специалист",
+      "employer_details": [
+        "Нижний Новгородwww.rfc.nnov.ru",
+        "Телекоммуникации, связь"
+      ],
+      "description": "Осуществление радиоконтроля.\nАвтоматизация делопроизводства.",
+      "original": "Окт 2001 -\nАвг 2025\n23 года 11 мес\nОрганизация 2\nНижний Новгородwww.rfc.nnov.ru\nТелекоммуникации, связь\nТехнический специалист\nОсуществление радиоконтроля.\nАвтоматизация делопроизводства."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Поиск информации в интернет",
+      "level": "intermediate",
+      "original": "Поиск информации в интернет"
+    },
+    {
+      "name": "OSINT",
+      "level": "intermediate",
+      "original": "OSINT"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "basic",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "GitLab CI",
+      "level": "basic",
+      "original": "GitLab CI"
+    },
+    {
+      "name": "Selenium",
+      "level": "basic",
+      "original": "Selenium"
+    },
+    {
+      "name": "beautifulsoup",
+      "level": "basic",
+      "original": "beautifulsoup"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "JWT",
+      "level": "basic",
+      "original": "JWT"
+    },
+    {
+      "name": "Celery",
+      "level": "basic",
+      "original": "Celery"
+    },
+    {
+      "name": "Redis",
+      "level": "basic",
+      "original": "Redis"
+    },
+    {
+      "name": "API",
+      "level": "basic",
+      "original": "API"
+    },
+    {
+      "name": "Linux",
+      "level": "basic",
+      "original": "Linux"
+    },
+    {
+      "name": "Английский",
+      "level": null,
+      "original": "Английский"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Ключевые навыки\nPython, FastAPI, Pydantic, SQLAlchemy, Alembic, PostgreSQL, Redis, Celery, ARQ, JWT, pytest, Docker (+Docker API), Docker Compose, GitLab CI, Git, GitHub Projects, LangChain/LangGraph, networkx, n8n, HTML/CSS, JS, Scrapy, httpx, MinIO, Prometheus, Grafana, OpenTelemetry (trace-id), Jaeger, uv, ruff, mypy.\nОпыт работы\nBackend-разработчик – ООО «Стади Ниндзя» (удалённо / гибрид)\n2025 – 2026\nРазработка и улучшение API-контрактов, создание бэкенд-сервисов бизнес-логики (монолит + микросервисы).\nPostgreSQL, Redis, ARQ; использование LangGraph/LangChain для ИИ-агентов.\nDocker API, GitHub Projects, ежедневные отчёты, еженедельные встречи.\nРезультат: задачи приняты без замечаний, есть рекомендательное письмо.\nPet-проекты\nSentinel (pet, 2026–): Scrapy-пайплайн, PostgreSQL/JSONB, MinIO (raw), Redis; Prometheus + Grafana; trace-id через OpenTelemetry → Jaeger; Docker Compose, GitLab CI.\nАвтоматизация документов с GUI: PyQT5 + openpyxl + python-docx + PostgreSQL.\nПарсер юрлиц/ИП: BeautifulSoup, Selenium, asyncio, схема Data Vault в PostgreSQL, Docker Compose, GitLab CI, графы networkx.\nРазвёртывание n8n на сервере, интеграция email/Telegram.\nО себе\nBackend-разработчик с коммерческим опытом создания API, микросервисов и бизнес-логики на Python/FastAPI. Работал в распределённой команде (GitHub Projects, ежедневные отчёты, еженедельные митинги). В pet-проекте Sentinel — парсинг данных с метриками, trace-id и трассировкой через OpenTelemetry/Jaeger. Имею положительное рекомендательное письмо. Усидчив, пунктуален, адаптируем, мотивирован. Рассматриваю любые форматы сотрудничества (полная — более желательно, частичная, ГПХ, разовые задачи).",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Орловский государственный университет им. И.С. Тургенева, Орел",
+      "details": [
+        "Многоканальные телекоммуникационные системы, Системы проводной связи"
+      ],
+      "year": 2001,
+      "level": "Высшее образование",
+      "original": "Орловский государственный университет им. И.С. Тургенева, Орел\nМногоканальные телекоммуникационные системы, Системы проводной связи\n•\n2001\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B, C",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №288\nРезюме: Разработчик",
+    "cover_letter": "ИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было",
+    "experience": "Опыт работы: 24 года 10 месяцев\nДек 2025 -\nсейчас\n11 мес\nОрганизация 1\nбэкенд разработчик\n- Написание программного кода\n- Исправление выявленных багов\nОкт 2001 -\nАвг 2025\n23 года 11 мес\nОрганизация 2\nНижний Новгородwww.rfc.nnov.ru\nТелекоммуникации, связь\nТехнический специалист\nОсуществление радиоконтроля.\nАвтоматизация делопроизводства.",
+    "skills": "Средний уровень\nПоиск информации в интернет\nOSINT\nFastAPI\nSQLAlchemy\nБазовый уровень\nPython\nPostgreSQL\nGit\nDocker-compose\nGitLab CI\nSelenium\nbeautifulsoup\nDocker\nSQL\nJWT\nCelery\nRedis\nAPI\nLinux\nУровень не указан\nАнглийский",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Ключевые навыки\nPython, FastAPI, Pydantic, SQLAlchemy, Alembic, PostgreSQL, Redis, Celery, ARQ, JWT, pytest, Docker (+Docker API), Docker Compose, GitLab CI, Git, GitHub Projects, LangChain/LangGraph, networkx, n8n, HTML/CSS, JS, Scrapy, httpx, MinIO, Prometheus, Grafana, OpenTelemetry (trace-id), Jaeger, uv, ruff, mypy.\nОпыт работы\nBackend-разработчик – ООО «Стади Ниндзя» (удалённо / гибрид)\n2025 – 2026\nРазработка и улучшение API-контрактов, создание бэкенд-сервисов бизнес-логики (монолит + микросервисы).\nPostgreSQL, Redis, ARQ; использование LangGraph/LangChain для ИИ-агентов.\nDocker API, GitHub Projects, ежедневные отчёты, еженедельные встречи.\nРезультат: задачи приняты без замечаний, есть рекомендательное письмо.\nPet-проекты\nSentinel (pet, 2026–): Scrapy-пайплайн, PostgreSQL/JSONB, MinIO (raw), Redis; Prometheus + Grafana; trace-id через OpenTelemetry → Jaeger; Docker Compose, GitLab CI.\nАвтоматизация документов с GUI: PyQT5 + openpyxl + python-docx + PostgreSQL.\nПарсер юрлиц/ИП: BeautifulSoup, Selenium, asyncio, схема Data Vault в PostgreSQL, Docker Compose, GitLab CI, графы networkx.\nРазвёртывание n8n на сервере, интеграция email/Telegram.\nО себе\nBackend-разработчик с коммерческим опытом создания API, микросервисов и бизнес-логики на Python/FastAPI. Работал в распределённой команде (GitHub Projects, ежедневные отчёты, еженедельные митинги). В pet-проекте Sentinel — парсинг данных с метриками, trace-id и трассировкой через OpenTelemetry/Jaeger. Имею положительное рекомендательное письмо. Усидчив, пунктуален, адаптируем, мотивирован. Рассматриваю любые форматы сотрудничества (полная — более желательно, частичная, ГПХ, разовые задачи).",
+    "education": "Уровень\nВысшее образование\nОрловский государственный университет им. И.С. Тургенева, Орел\nМногоканальные телекоммуникационные системы, Системы проводной связи\n•\n2001\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B, C"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №288\nРезюме: Разработчик\n\nСопроводительное письмо\nИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было\n\nОпыт работы\nОпыт работы: 24 года 10 месяцев\nДек 2025 -\nсейчас\n11 мес\nОрганизация 1\nбэкенд разработчик\n- Написание программного кода\n- Исправление выявленных багов\nОкт 2001 -\nАвг 2025\n23 года 11 мес\nОрганизация 2\nНижний Новгородwww.rfc.nnov.ru\nТелекоммуникации, связь\nТехнический специалист\nОсуществление радиоконтроля.\nАвтоматизация делопроизводства.\n\nНавыки\nСредний уровень\nПоиск информации в интернет\nOSINT\nFastAPI\nSQLAlchemy\nБазовый уровень\nPython\nPostgreSQL\nGit\nDocker-compose\nGitLab CI\nSelenium\nbeautifulsoup\nDocker\nSQL\nJWT\nCelery\nRedis\nAPI\nLinux\nУровень не указан\nАнглийский\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nКлючевые навыки\nPython, FastAPI, Pydantic, SQLAlchemy, Alembic, PostgreSQL, Redis, Celery, ARQ, JWT, pytest, Docker (+Docker API), Docker Compose, GitLab CI, Git, GitHub Projects, LangChain/LangGraph, networkx, n8n, HTML/CSS, JS, Scrapy, httpx, MinIO, Prometheus, Grafana, OpenTelemetry (trace-id), Jaeger, uv, ruff, mypy.\nОпыт работы\nBackend-разработчик – ООО «Стади Ниндзя» (удалённо / гибрид)\n2025 – 2026\nРазработка и улучшение API-контрактов, создание бэкенд-сервисов бизнес-логики (монолит + микросервисы).\nPostgreSQL, Redis, ARQ; использование LangGraph/LangChain для ИИ-агентов.\nDocker API, GitHub Projects, ежедневные отчёты, еженедельные встречи.\nРезультат: задачи приняты без замечаний, есть рекомендательное письмо.\nPet-проекты\nSentinel (pet, 2026–): Scrapy-пайплайн, PostgreSQL/JSONB, MinIO (raw), Redis; Prometheus + Grafana; trace-id через OpenTelemetry → Jaeger; Docker Compose, GitLab CI.\nАвтоматизация документов с GUI: PyQT5 + openpyxl + python-docx + PostgreSQL.\nПарсер юрлиц/ИП: BeautifulSoup, Selenium, asyncio, схема Data Vault в PostgreSQL, Docker Compose, GitLab CI, графы networkx.\nРазвёртывание n8n на сервере, интеграция email/Telegram.\nО себе\nBackend-разработчик с коммерческим опытом создания API, микросервисов и бизнес-логики на Python/FastAPI. Работал в распределённой команде (GitHub Projects, ежедневные отчёты, еженедельные митинги). В pet-проекте Sentinel — парсинг данных с метриками, trace-id и трассировкой через OpenTelemetry/Jaeger. Имею положительное рекомендательное письмо. Усидчив, пунктуален, адаптируем, мотивирован. Рассматриваю любые форматы сотрудничества (полная — более желательно, частичная, ГПХ, разовые задачи).\n\nОбразование\nУровень\nВысшее образование\nОрловский государственный университет им. И.С. Тургенева, Орел\nМногоканальные телекоммуникационные системы, Системы проводной связи\n•\n2001\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B, C\n"
+}

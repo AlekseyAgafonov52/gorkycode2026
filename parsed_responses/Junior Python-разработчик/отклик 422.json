@@ -1,0 +1,238 @@
+{
+  "candidate_id": 422,
+  "resume_title": "Middle Python Backend Developer",
+  "cover_letter": "Здравствуйте,",
+  "experience_total_months": 62,
+  "similar_experience_months": 62,
+  "work_experience": [
+    {
+      "start_date": "2023-11",
+      "end_date": "2026-06",
+      "is_current": false,
+      "duration_months": 32,
+      "organization": "Организация 1",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Москва"
+      ],
+      "description": "Разработка внутренних сервисов для автоматизации сельскохозяйственных процессов и аналитики.\nОсновные задачи:\n- Разработал backend-сервис учета сырья и готовой продукции.\n- Реализовал микросервисную архитектуру с использованием FastAPI, PostgreSQL, SQLAlchemy и Kafka.\n- Разработал модуль расчета норм внесения удобрений.\n- Реализовал GPS-мониторинг сельскохозяйственной техники.\n- Разработал сервис построения и анализа маршрутов с использованием PostGIS, GeoPandas и Isochrone API.\n- Участвовал в разработке AI-модуля агроаналитики на базе PyTorch и TensorFlow.\n- Проектировал REST API для взаимодействия между сервисами.\n- Оптимизировал SQL-запросы и структуру хранения данных.\nСтек: Python, FastAPI, SQLAlchemy, PostgreSQL, Kafka, Docker, Redis, PostGIS, GeoPandas, Plotly, PyTorch, TensorFlow",
+      "original": "Ноя 2023 -\nИюн 2026\n2 года 8 мес\nОрганизация 1\nМосква\nPython Backend Developer\nРазработка внутренних сервисов для автоматизации сельскохозяйственных процессов и аналитики.\nОсновные задачи:\n- Разработал backend-сервис учета сырья и готовой продукции.\n- Реализовал микросервисную архитектуру с использованием FastAPI, PostgreSQL, SQLAlchemy и Kafka.\n- Разработал модуль расчета норм внесения удобрений.\n- Реализовал GPS-мониторинг сельскохозяйственной техники.\n- Разработал сервис построения и анализа маршрутов с использованием PostGIS, GeoPandas и Isochrone API.\n- Участвовал в разработке AI-модуля агроаналитики на базе PyTorch и TensorFlow.\n- Проектировал REST API для взаимодействия между сервисами.\n- Оптимизировал SQL-запросы и структуру хранения данных.\nСтек: Python, FastAPI, SQLAlchemy, PostgreSQL, Kafka, Docker, Redis, PostGIS, GeoPandas, Plotly, PyTorch, TensorFlow"
+    },
+    {
+      "start_date": "2022-06",
+      "end_date": "2023-09",
+      "is_current": false,
+      "duration_months": 16,
+      "organization": "Организация 2",
+      "position": "Python Backend Developer",
+      "employer_details": [],
+      "description": "Разработка backend-части корпоративной системы для сети автосервисов Fit Service.\nОсновные задачи:\n- Разрабатывал новые backend-модули и REST API.\n- Реализовал сервис формирования списка станций с сортировкой по расстоянию до пользователя.\n- Исправил обработку вложений различных типов в корпоративном чате.\n- Реализовал передачу дополнительных данных в модуле заказ-нарядов (стоимость, валюта и связанные параметры).\n- Работал с интеграциями через Kafka и RabbitMQ.\n- Разрабатывал SQLAlchemy-модели и оптимизировал взаимодействие с PostgreSQL.\n- Исправлял производственные баги и участвовал в развитии продукта.\nСтек: Python, PostgreSQL, SQLAlchemy, Redis, Kafka, RabbitMQ, REST API.",
+      "original": "Июн 2022 -\nСен 2023\n1 год 4 мес\nОрганизация 2\nPython Backend Developer\nРазработка backend-части корпоративной системы для сети автосервисов Fit Service.\nОсновные задачи:\n- Разрабатывал новые backend-модули и REST API.\n- Реализовал сервис формирования списка станций с сортировкой по расстоянию до пользователя.\n- Исправил обработку вложений различных типов в корпоративном чате.\n- Реализовал передачу дополнительных данных в модуле заказ-нарядов (стоимость, валюта и связанные параметры).\n- Работал с интеграциями через Kafka и RabbitMQ.\n- Разрабатывал SQLAlchemy-модели и оптимизировал взаимодействие с PostgreSQL.\n- Исправлял производственные баги и участвовал в развитии продукта.\nСтек: Python, PostgreSQL, SQLAlchemy, Redis, Kafka, RabbitMQ, REST API."
+    },
+    {
+      "start_date": "2021-04",
+      "end_date": "2022-06",
+      "is_current": false,
+      "duration_months": 15,
+      "organization": "Организация 3",
+      "position": "Python Backend Developer",
+      "employer_details": [],
+      "description": "Разработка backend-решений для проекта hh.ru.\nОсновные задачи:\n- Разрабатывал функциональность личного кабинета пользователей.\n- Участвовал в развитии поисковых настроек и системы фильтрации.\n- Оптимизировал SQL-запросы и работу базы данных.\n- Разрабатывал backend-компоненты на Django.\n- Работал в команде по Agile-процессам.\nСтек: Python, Django, PostgreSQL, SQLAlchemy, Docker, HTML, JavaScript.",
+      "original": "Апр 2021 -\nИюн 2022\n1 год 3 мес\nОрганизация 3\nPython Backend Developer\nРазработка backend-решений для проекта hh.ru.\nОсновные задачи:\n- Разрабатывал функциональность личного кабинета пользователей.\n- Участвовал в развитии поисковых настроек и системы фильтрации.\n- Оптимизировал SQL-запросы и работу базы данных.\n- Разрабатывал backend-компоненты на Django.\n- Работал в команде по Agile-процессам.\nСтек: Python, Django, PostgreSQL, SQLAlchemy, Docker, HTML, JavaScript."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "PostGis",
+      "level": "advanced",
+      "original": "PostGis"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "aiogram",
+      "level": "advanced",
+      "original": "aiogram"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "geopandas",
+      "level": "advanced",
+      "original": "geopandas"
+    },
+    {
+      "name": "Poetry",
+      "level": "advanced",
+      "original": "Poetry"
+    },
+    {
+      "name": "Requests",
+      "level": "advanced",
+      "original": "Requests"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "gRPC",
+      "level": "advanced",
+      "original": "gRPC"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "Английский язык - B2",
+      "level": "advanced",
+      "original": "Английский язык - B2"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Системный дизайн",
+      "level": "advanced",
+      "original": "Системный дизайн"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "VueJS"
+    },
+    {
+      "name": "Node.js",
+      "level": "advanced",
+      "original": "Node.js"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Backend-разработчик с 4+ годами коммерческого опыта разработки на Python. Разрабатывал микросервисные приложения, REST API, геоинформационные сервисы, ERP-системы и AI-модули. Имею опыт проектирования backend-сервисов, оптимизации SQL-запросов, интеграции внешних API и работы с высоконагруженными компонентами.\nОсновной стек: Python, FastAPI, Django, PostgreSQL, SQLAlchemy, Redis, Kafka, RabbitMQ, Docker.\nПишу поддерживаемый код, быстро погружаюсь в предметную область и умею самостоятельно доводить задачи до результата. Ценю качественную архитектуру, code review и командную разработку.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Ижевский государственный технический университет имени М.Т. Калашников, Ижевск",
+      "details": [
+        "«Информационные технологии», Информационные системы и технологии"
+      ],
+      "year": 2027,
+      "level": "Высшее образование",
+      "original": "Ижевский государственный технический университет имени М.Т. Калашников, Ижевск\n«Информационные технологии», Информационные системы и технологии\n•\n2027\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №422\nРезюме: Middle Python Backend Developer",
+    "cover_letter": "Здравствуйте,",
+    "experience": "Опыт работы: 5 лет 2 месяца\nОпыт в похожих должностях:5 лет 2 месяца\nНоя 2023 -\nИюн 2026\n2 года 8 мес\nОрганизация 1\nМосква\nPython Backend Developer\nРазработка внутренних сервисов для автоматизации сельскохозяйственных процессов и аналитики.\nОсновные задачи:\n- Разработал backend-сервис учета сырья и готовой продукции.\n- Реализовал микросервисную архитектуру с использованием FastAPI, PostgreSQL, SQLAlchemy и Kafka.\n- Разработал модуль расчета норм внесения удобрений.\n- Реализовал GPS-мониторинг сельскохозяйственной техники.\n- Разработал сервис построения и анализа маршрутов с использованием PostGIS, GeoPandas и Isochrone API.\n- Участвовал в разработке AI-модуля агроаналитики на базе PyTorch и TensorFlow.\n- Проектировал REST API для взаимодействия между сервисами.\n- Оптимизировал SQL-запросы и структуру хранения данных.\nСтек: Python, FastAPI, SQLAlchemy, PostgreSQL, Kafka, Docker, Redis, PostGIS, GeoPandas, Plotly, PyTorch, TensorFlow\nИюн 2022 -\nСен 2023\n1 год 4 мес\nОрганизация 2\nPython Backend Developer\nРазработка backend-части корпоративной системы для сети автосервисов Fit Service.\nОсновные задачи:\n- Разрабатывал новые backend-модули и REST API.\n- Реализовал сервис формирования списка станций с сортировкой по расстоянию до пользователя.\n- Исправил обработку вложений различных типов в корпоративном чате.\n- Реализовал передачу дополнительных данных в модуле заказ-нарядов (стоимость, валюта и связанные параметры).\n- Работал с интеграциями через Kafka и RabbitMQ.\n- Разрабатывал SQLAlchemy-модели и оптимизировал взаимодействие с PostgreSQL.\n- Исправлял производственные баги и участвовал в развитии продукта.\nСтек: Python, PostgreSQL, SQLAlchemy, Redis, Kafka, RabbitMQ, REST API.\nАпр 2021 -\nИюн 2022\n1 год 3 мес\nОрганизация 3\nPython Backend Developer\nРазработка backend-решений для проекта hh.ru.\nОсновные задачи:\n- Разрабатывал функциональность личного кабинета пользователей.\n- Участвовал в развитии поисковых настроек и системы фильтрации.\n- Оптимизировал SQL-запросы и работу базы данных.\n- Разрабатывал backend-компоненты на Django.\n- Работал в команде по Agile-процессам.\nСтек: Python, Django, PostgreSQL, SQLAlchemy, Docker, HTML, JavaScript.",
+    "skills": "Продвинутый уровень\nPython\nNoSQL\nGitHub\nPytest\nAgile\nCelery\nSQLAlchemy\nFlask\nFastAPI\nDjango Rest Framework\nPostGis\nRedis\nApache Kafka\nGrafana\naiogram\nPostgreSQL\ngeopandas\nPoetry\nRequests\nREST API\ngRPC\nPostman\nАнглийский язык - B2\nMongoDB\nСистемный дизайн\nReact\nJavaScript\nTypeScript\nVueJS\nNode.js",
+    "languages": "Родной\nРусский",
+    "about_me": "Backend-разработчик с 4+ годами коммерческого опыта разработки на Python. Разрабатывал микросервисные приложения, REST API, геоинформационные сервисы, ERP-системы и AI-модули. Имею опыт проектирования backend-сервисов, оптимизации SQL-запросов, интеграции внешних API и работы с высоконагруженными компонентами.\nОсновной стек: Python, FastAPI, Django, PostgreSQL, SQLAlchemy, Redis, Kafka, RabbitMQ, Docker.\nПишу поддерживаемый код, быстро погружаюсь в предметную область и умею самостоятельно доводить задачи до результата. Ценю качественную архитектуру, code review и командную разработку.",
+    "education": "Уровень\nВысшее образование\nИжевский государственный технический университет имени М.Т. Калашников, Ижевск\n«Информационные технологии», Информационные системы и технологии\n•\n2027\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №422\nРезюме: Middle Python Backend Developer\n\nСопроводительное письмо\nЗдравствуйте,\n\nОпыт работы\nОпыт работы: 5 лет 2 месяца\nОпыт в похожих должностях:5 лет 2 месяца\nНоя 2023 -\nИюн 2026\n2 года 8 мес\nОрганизация 1\nМосква\nPython Backend Developer\nРазработка внутренних сервисов для автоматизации сельскохозяйственных процессов и аналитики.\nОсновные задачи:\n- Разработал backend-сервис учета сырья и готовой продукции.\n- Реализовал микросервисную архитектуру с использованием FastAPI, PostgreSQL, SQLAlchemy и Kafka.\n- Разработал модуль расчета норм внесения удобрений.\n- Реализовал GPS-мониторинг сельскохозяйственной техники.\n- Разработал сервис построения и анализа маршрутов с использованием PostGIS, GeoPandas и Isochrone API.\n- Участвовал в разработке AI-модуля агроаналитики на базе PyTorch и TensorFlow.\n- Проектировал REST API для взаимодействия между сервисами.\n- Оптимизировал SQL-запросы и структуру хранения данных.\nСтек: Python, FastAPI, SQLAlchemy, PostgreSQL, Kafka, Docker, Redis, PostGIS, GeoPandas, Plotly, PyTorch, TensorFlow\nИюн 2022 -\nСен 2023\n1 год 4 мес\nОрганизация 2\nPython Backend Developer\nРазработка backend-части корпоративной системы для сети автосервисов Fit Service.\nОсновные задачи:\n- Разрабатывал новые backend-модули и REST API.\n- Реализовал сервис формирования списка станций с сортировкой по расстоянию до пользователя.\n- Исправил обработку вложений различных типов в корпоративном чате.\n- Реализовал передачу дополнительных данных в модуле заказ-нарядов (стоимость, валюта и связанные параметры).\n- Работал с интеграциями через Kafka и RabbitMQ.\n- Разрабатывал SQLAlchemy-модели и оптимизировал взаимодействие с PostgreSQL.\n- Исправлял производственные баги и участвовал в развитии продукта.\nСтек: Python, PostgreSQL, SQLAlchemy, Redis, Kafka, RabbitMQ, REST API.\nАпр 2021 -\nИюн 2022\n1 год 3 мес\nОрганизация 3\nPython Backend Developer\nРазработка backend-решений для проекта hh.ru.\nОсновные задачи:\n- Разрабатывал функциональность личного кабинета пользователей.\n- Участвовал в развитии поисковых настроек и системы фильтрации.\n- Оптимизировал SQL-запросы и работу базы данных.\n- Разрабатывал backend-компоненты на Django.\n- Работал в команде по Agile-процессам.\nСтек: Python, Django, PostgreSQL, SQLAlchemy, Docker, HTML, JavaScript.\n\nНавыки\nПродвинутый уровень\nPython\nNoSQL\nGitHub\nPytest\nAgile\nCelery\nSQLAlchemy\nFlask\nFastAPI\nDjango Rest Framework\nPostGis\nRedis\nApache Kafka\nGrafana\naiogram\nPostgreSQL\ngeopandas\nPoetry\nRequests\nREST API\ngRPC\nPostman\nАнглийский язык - B2\nMongoDB\nСистемный дизайн\nReact\nJavaScript\nTypeScript\nVueJS\nNode.js\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nBackend-разработчик с 4+ годами коммерческого опыта разработки на Python. Разрабатывал микросервисные приложения, REST API, геоинформационные сервисы, ERP-системы и AI-модули. Имею опыт проектирования backend-сервисов, оптимизации SQL-запросов, интеграции внешних API и работы с высоконагруженными компонентами.\nОсновной стек: Python, FastAPI, Django, PostgreSQL, SQLAlchemy, Redis, Kafka, RabbitMQ, Docker.\nПишу поддерживаемый код, быстро погружаюсь в предметную область и умею самостоятельно доводить задачи до результата. Ценю качественную архитектуру, code review и командную разработку.\n\nОбразование\nУровень\nВысшее образование\nИжевский государственный технический университет имени М.Т. Калашников, Ижевск\n«Информационные технологии», Информационные системы и технологии\n•\n2027\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

@@ -1,0 +1,141 @@
+{
+  "candidate_id": 311,
+  "resume_title": "Junior Backend разработчик на Python",
+  "cover_letter": "Здравствуйте! все мои навыки и проекты указаны в резюме. Я открыт для вопросов и диалога.",
+  "experience_total_months": 12,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-07",
+      "end_date": "2026-01",
+      "is_current": false,
+      "duration_months": 7,
+      "organization": "Организация 1",
+      "position": "Fullstack-разработчик",
+      "employer_details": [],
+      "description": "Социальная сеть для научного сообщества (MVP проекта)\n- Реализовал систему пользователей с аутентификацией через JWT\n- Разработал ленту постов, систему комментариев и сообществ\n- Создал чаты с использованием MongoDB для кэширования сообщений, ленты и сессий.\n- Интегрировал DRF для API, использовал Asyncio для асинхронных запросов к API.\n- Подключил DeepSeek API для ML-функционала\n- Front: использовал Bootstrap для быстрого прототипирования, так как упор сделан на Backend.(планируется переход на react.js)\nТехнологический стек:\n- Backend: Python, Django, Django REST Framework\n- Databases: , MongoDB (кеш/чаты), SQLite ( в дальнейшем планируется переход на PostgreSQL)\n- Frontend: Bootstrap 5, JavaScript, AJAX, JWT Authentication\n- Additional: DeepSeek API (ML-функционал)\nСсылка на GitHub: https://github.com/SchekaturovAA/-AxonHorizon---Social-Network-for-the-Scientific-Community.git;",
+      "original": "Июл 2025 -\nЯнв 2026\n7 мес\nОрганизация 1\nFullstack-разработчик\nСоциальная сеть для научного сообщества (MVP проекта)\n- Реализовал систему пользователей с аутентификацией через JWT\n- Разработал ленту постов, систему комментариев и сообществ\n- Создал чаты с использованием MongoDB для кэширования сообщений, ленты и сессий.\n- Интегрировал DRF для API, использовал Asyncio для асинхронных запросов к API.\n- Подключил DeepSeek API для ML-функционала\n- Front: использовал Bootstrap для быстрого прототипирования, так как упор сделан на Backend.(планируется переход на react.js)\nТехнологический стек:\n- Backend: Python, Django, Django REST Framework\n- Databases: , MongoDB (кеш/чаты), SQLite ( в дальнейшем планируется переход на PostgreSQL)\n- Frontend: Bootstrap 5, JavaScript, AJAX, JWT Authentication\n- Additional: DeepSeek API (ML-функционал)\nСсылка на GitHub: https://github.com/SchekaturovAA/-AxonHorizon---Social-Network-for-the-Scientific-Community.git;"
+    },
+    {
+      "start_date": "2025-01",
+      "end_date": "2025-05",
+      "is_current": false,
+      "duration_months": 5,
+      "organization": "Организация 2",
+      "position": "Fullstack-разработчик",
+      "employer_details": [],
+      "description": "Разработал агрегатор ИИ-инструментов\n- Полностью функционирующий сервис с регистрацией и авторизацией\n- Система категорий и избранного для пользователей\n- Возможность оценки и рейтинга нейросетей\nСтек: Django, SQLite, Bootstrap\nGitHub: https://github.com/SchekaturovAA/Agregator_AI.git",
+      "original": "Янв 2025 -\nМай 2025\n5 мес\nОрганизация 2\nFullstack-разработчик\nРазработал агрегатор ИИ-инструментов\n- Полностью функционирующий сервис с регистрацией и авторизацией\n- Система категорий и избранного для пользователей\n- Возможность оценки и рейтинга нейросетей\nСтек: Django, SQLite, Bootstrap\nGitHub: https://github.com/SchekaturovAA/Agregator_AI.git"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "basic",
+      "original": "JavaScript"
+    },
+    {
+      "name": "HTML",
+      "level": "basic",
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "Английский язык",
+      "level": "basic",
+      "original": "Английский язык"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "REST API",
+      "level": "basic",
+      "original": "REST"
+    },
+    {
+      "name": "Django",
+      "level": "basic",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "mlops",
+      "level": "basic",
+      "original": "mlops"
+    },
+    {
+      "name": "MongoDB",
+      "level": "basic",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "basic",
+      "original": "Django Rest Framework"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    }
+  ],
+  "about_me": "Прошел курсы по Fullstack-разработке на Python (11 месяцев интенсивной практики). За это время глубоко изучил Django-экосистему, REST API, различные базы данных и принципы построения масштабируемых приложений.\nТак же интересуюсь MLops, работой с LLM. Есть опыт развертки Mistral-7B на личном ноутбуке с GPU(CUDA). Освоено ускорение разработки с помощью ИИ.\nТехнический опыт: смотрите проекты на GitHub.\nЛокация: готов к переезду (Самара, Москва, др.)\nМотивация: амбициозен, стремлюсь к профессиональному росту в сильной команде. Хочу создавать масштабные, глубокие и ценные проекты, которые помогут людям.\nЛичные качества: целеустремленность, быстрая обучаемость, ответственность, а также искреннее желание создавать что-то интересное.\nGitHub: https://github.com/SchekaturovAA?tab=repositories;",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Астраханский инженерно-строительный институт, Астрахань",
+      "details": [
+        "Пожарная безопасность, Водоснабжение и водоотведение"
+      ],
+      "year": 2021,
+      "level": "Неоконченное высшее образование",
+      "original": "Астраханский инженерно-строительный институт, Астрахань\nПожарная безопасность, Водоснабжение и водоотведение\n•\n2021\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №311\nРезюме: Junior Backend разработчик на Python",
+    "cover_letter": "Здравствуйте! все мои навыки и проекты указаны в резюме. Я открыт для вопросов и диалога.",
+    "experience": "Опыт работы: 1 год\nИюл 2025 -\nЯнв 2026\n7 мес\nОрганизация 1\nFullstack-разработчик\nСоциальная сеть для научного сообщества (MVP проекта)\n- Реализовал систему пользователей с аутентификацией через JWT\n- Разработал ленту постов, систему комментариев и сообществ\n- Создал чаты с использованием MongoDB для кэширования сообщений, ленты и сессий.\n- Интегрировал DRF для API, использовал Asyncio для асинхронных запросов к API.\n- Подключил DeepSeek API для ML-функционала\n- Front: использовал Bootstrap для быстрого прототипирования, так как упор сделан на Backend.(планируется переход на react.js)\nТехнологический стек:\n- Backend: Python, Django, Django REST Framework\n- Databases: , MongoDB (кеш/чаты), SQLite ( в дальнейшем планируется переход на PostgreSQL)\n- Frontend: Bootstrap 5, JavaScript, AJAX, JWT Authentication\n- Additional: DeepSeek API (ML-функционал)\nСсылка на GitHub: https://github.com/SchekaturovAA/-AxonHorizon---Social-Network-for-the-Scientific-Community.git;\nЯнв 2025 -\nМай 2025\n5 мес\nОрганизация 2\nFullstack-разработчик\nРазработал агрегатор ИИ-инструментов\n- Полностью функционирующий сервис с регистрацией и авторизацией\n- Система категорий и избранного для пользователей\n- Возможность оценки и рейтинга нейросетей\nСтек: Django, SQLite, Bootstrap\nGitHub: https://github.com/SchekaturovAA/Agregator_AI.git",
+    "skills": "Базовый уровень\nJavaScript\nHTML\nGit\nАнглийский язык\nSQL\nPython\nREST\nDjango Framework\nDocker\nmlops\nMongoDB\nDjango Rest Framework",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный",
+    "about_me": "Прошел курсы по Fullstack-разработке на Python (11 месяцев интенсивной практики). За это время глубоко изучил Django-экосистему, REST API, различные базы данных и принципы построения масштабируемых приложений.\nТак же интересуюсь MLops, работой с LLM. Есть опыт развертки Mistral-7B на личном ноутбуке с GPU(CUDA). Освоено ускорение разработки с помощью ИИ.\nТехнический опыт: смотрите проекты на GitHub.\nЛокация: готов к переезду (Самара, Москва, др.)\nМотивация: амбициозен, стремлюсь к профессиональному росту в сильной команде. Хочу создавать масштабные, глубокие и ценные проекты, которые помогут людям.\nЛичные качества: целеустремленность, быстрая обучаемость, ответственность, а также искреннее желание создавать что-то интересное.\nGitHub: https://github.com/SchekaturovAA?tab=repositories;",
+    "education": "Уровень\nНеоконченное высшее образование\nАстраханский инженерно-строительный институт, Астрахань\nПожарная безопасность, Водоснабжение и водоотведение\n•\n2021\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №311\nРезюме: Junior Backend разработчик на Python\n\nСопроводительное письмо\nЗдравствуйте! все мои навыки и проекты указаны в резюме. Я открыт для вопросов и диалога.\n\nОпыт работы\nОпыт работы: 1 год\nИюл 2025 -\nЯнв 2026\n7 мес\nОрганизация 1\nFullstack-разработчик\nСоциальная сеть для научного сообщества (MVP проекта)\n- Реализовал систему пользователей с аутентификацией через JWT\n- Разработал ленту постов, систему комментариев и сообществ\n- Создал чаты с использованием MongoDB для кэширования сообщений, ленты и сессий.\n- Интегрировал DRF для API, использовал Asyncio для асинхронных запросов к API.\n- Подключил DeepSeek API для ML-функционала\n- Front: использовал Bootstrap для быстрого прототипирования, так как упор сделан на Backend.(планируется переход на react.js)\nТехнологический стек:\n- Backend: Python, Django, Django REST Framework\n- Databases: , MongoDB (кеш/чаты), SQLite ( в дальнейшем планируется переход на PostgreSQL)\n- Frontend: Bootstrap 5, JavaScript, AJAX, JWT Authentication\n- Additional: DeepSeek API (ML-функционал)\nСсылка на GitHub: https://github.com/SchekaturovAA/-AxonHorizon---Social-Network-for-the-Scientific-Community.git;\nЯнв 2025 -\nМай 2025\n5 мес\nОрганизация 2\nFullstack-разработчик\nРазработал агрегатор ИИ-инструментов\n- Полностью функционирующий сервис с регистрацией и авторизацией\n- Система категорий и избранного для пользователей\n- Возможность оценки и рейтинга нейросетей\nСтек: Django, SQLite, Bootstrap\nGitHub: https://github.com/SchekaturovAA/Agregator_AI.git\n\nНавыки\nБазовый уровень\nJavaScript\nHTML\nGit\nАнглийский язык\nSQL\nPython\nREST\nDjango Framework\nDocker\nmlops\nMongoDB\nDjango Rest Framework\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный\n\nОбо мне\nПрошел курсы по Fullstack-разработке на Python (11 месяцев интенсивной практики). За это время глубоко изучил Django-экосистему, REST API, различные базы данных и принципы построения масштабируемых приложений.\nТак же интересуюсь MLops, работой с LLM. Есть опыт развертки Mistral-7B на личном ноутбуке с GPU(CUDA). Освоено ускорение разработки с помощью ИИ.\nТехнический опыт: смотрите проекты на GitHub.\nЛокация: готов к переезду (Самара, Москва, др.)\nМотивация: амбициозен, стремлюсь к профессиональному росту в сильной команде. Хочу создавать масштабные, глубокие и ценные проекты, которые помогут людям.\nЛичные качества: целеустремленность, быстрая обучаемость, ответственность, а также искреннее желание создавать что-то интересное.\nGitHub: https://github.com/SchekaturovAA?tab=repositories;\n\nОбразование\nУровень\nНеоконченное высшее образование\nАстраханский инженерно-строительный институт, Астрахань\nПожарная безопасность, Водоснабжение и водоотведение\n•\n2021\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

@@ -1,0 +1,224 @@
+{
+  "candidate_id": 51,
+  "resume_title": "Python Backend-разработчик",
+  "cover_letter": "Здравствуйте!\nУ меня есть практический опыт вывода рабочих проектов в продакшен. Я самостоятельно закрываю задачи от написания кода до настройки инфраструктуры и CI/CD:\nTelegram-агрегатор (мой live-проект): Есть база активных пользователей (~20 человек). Настроил асинхронный парсинг , кэширование (Redis) , фоновые задачи (RabbitMQ) и БД (PostgreSQL). Оркестрация через Docker Compose , автодеплой через GitHub Actions.\nКоммерческий опыт: Развернул production-окружение для веб-приложения на Linux VPS (Ubuntu, Docker, Nginx, Cloudflare).\nМой стек: Python, FastAPI, Asyncio, PostgreSQL (SQLAlchemy), Redis, RabbitMQ, Docker, Git.\nGitHub: https://github.com/ArchilGelenidze\nTelegram: @ArchilGe",
+  "experience_total_months": 38,
+  "similar_experience_months": 38,
+  "work_experience": [
+    {
+      "start_date": "2026-03",
+      "end_date": "2026-08",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Финансовый сектор"
+      ],
+      "description": "- Разрабатывал и поддерживал backend на Python/Django в крупной production-кодовой базе.\n- Интегрировал внешние платёжные системы и провайдеров по REST API.\n- Реализовывал бизнес-логику платёжных транзакций: формирование запросов, обработку ответов, статусов и ошибок.\n- Разрабатывал и дорабатывал callbacks/webhooks для корректного обновления состояний транзакций.\n- Анализировал документацию сторонних API и адаптировал интеграции под требования платёжных партнёров.\n- Тестировал API-интеграции и различные сценарии проведения транзакций через Postman.\nСтек: Python, Django, Django REST Framework (DRF), PostgreSQL, Celery, Redis, Docker, Nginx, Linux, Git, Postman.",
+      "original": "Мар 2026 -\nАвг 2026\n6 мес\nОрганизация 1\nФинансовый сектор\nPython-разработчик\n- Разрабатывал и поддерживал backend на Python/Django в крупной production-кодовой базе.\n- Интегрировал внешние платёжные системы и провайдеров по REST API.\n- Реализовывал бизнес-логику платёжных транзакций: формирование запросов, обработку ответов, статусов и ошибок.\n- Разрабатывал и дорабатывал callbacks/webhooks для корректного обновления состояний транзакций.\n- Анализировал документацию сторонних API и адаптировал интеграции под требования платёжных партнёров.\n- Тестировал API-интеграции и различные сценарии проведения транзакций через Postman.\nСтек: Python, Django, Django REST Framework (DRF), PostgreSQL, Celery, Redis, Docker, Nginx, Linux, Git, Postman."
+    },
+    {
+      "start_date": "2023-07",
+      "end_date": "2026-03",
+      "is_current": false,
+      "duration_months": 33,
+      "organization": "Организация 2",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "- Реализовал полноценный (production-ready) веб-сервис, на данный момент 700+ уникальных пользователей - https://aggregator.ge\n- В процессе разработки проекта, обнаружил критическую уязвимость в сети крупной АЗС, помог им закрыть дыру в безопасности, из-за которой могла произойти утечка данных пользователей по всей стране.\n- Разработал полностью асинхронный REST API на FastAPI для эффективного сбора и отдачи данных по курсам валют, цен на драгоценные металлы а так же цен на популярных АЗС с учетом программ лояльности.\n- Интегрировал в backend AI-ассистента на базе OpenAI API с поддержкой function calling и потоковой генерации ответов через SSE.\n- Реализовал authentication/authorization на FastAPI: registration, login, logout, protected endpoints, JWT access tokens, refresh token rotation и session revocation.\n- Добавил email verification и password reset через одноразовые hashed tokens с expiration.\n- Реализовал систему парсинга, агрегации данных и ежедневной самоочистки базы с использованием Celery и RabbitMQ в качестве брокера сообщений.\n- Спроектировал взаимодействие с PostgreSQL через SQLAlchemy, обеспечив асинхронную работу с базой данных и оптимизацию периодических задач.\n- Полностью контейнеризовал бэкенд-инфраструктуру (API, воркеры Celery, RabbitMQ, БД), обеспечив развертывание и связь всех компонентов через Docker Compose.\n- Развернул серверную часть на Hetzner VPS с использованием Nginx в качестве прокси-сервера.\n- Интегрировал клиентскую часть (SPA на React + Vite), созданную с помощью Cursor / Codex и размещенную на Cloudflare Pages.\nСтек технологий:\nBackend: Python (Async), FastAPI, PostgreSQL, SQLAlchemy, Celery, RabbitMQ, Docker, Docker Compose, Nginx.\nFrontend: Cursor AI, Codex, React, Vite, Cloudflare Pages.\nРазовый коммерческий заказ - https://giorgikhelidze.com\n- С нуля развернул production-окружение на Linux VPS (Ubuntu): контейнеризировал приложение в Docker, подключил домен через Cloudflare (HTTPS) и настроил веб-сервер Nginx\nСтек: Linux (Ubuntu), Docker, Nginx, Cloudflare\nTelegram-бот агрегатор курсов валют: https://t.me/ge_curr_bot\nРеализовал асинхронный парсер, подключил брокер очередей RabbitMQ для фоновых задач, внедрил Redis-кэширование, организовал сбор пользовательской аналитики через Middleware (с сохранением в PostgreSQL), настроил мультиязычность интерфейса и оркестрировал всю экосистему через Docker Compose. Внедрил CI/CD пайплайн ускорив скорость развертывания кода более чем в 2 раза (GitHub Actions): настроил автоматическую проверку качества кода и безопасный деплой Docker-контейнеров на удаленный сервер по SSH.\nСтек: Python, Aiogram, Babel (i18n), PostgreSQL, SQLAlchemy, Redis, RabbitMQ, Docker Compose\nПет проект - https://github.com/ArchilGelenidze/FastAPI_social_net\n- Спроектировал бэкенд на FastAPI с реализацией CRUD-операций и безопасной JWT-аутентификацией.\n- Настроил взаимодействие с PostgreSQL (SQLAlchemy + Alembic).\n- Выстроил CI/CD пайплайн в GitHub Actions для прогона автотестов (Pytest) и бесшовного деплоя на удаленный сервер (Nginx + Uvicorn + HTTPS).\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, JWT, Pytest, Docker, Docker Compose, GitHub Actions (CI/CD), Nginx, Uvicorn/Gunicorn.\nПрофиль Github: https://github.com/ArchilGelenidze\nТелеграм: https://t.me/Archil_Gln",
+      "original": "Июл 2023 -\nМар 2026\n2 года 9 мес\nОрганизация 2\nPython-разработчик\n- Реализовал полноценный (production-ready) веб-сервис, на данный момент 700+ уникальных пользователей - https://aggregator.ge\n- В процессе разработки проекта, обнаружил критическую уязвимость в сети крупной АЗС, помог им закрыть дыру в безопасности, из-за которой могла произойти утечка данных пользователей по всей стране.\n- Разработал полностью асинхронный REST API на FastAPI для эффективного сбора и отдачи данных по курсам валют, цен на драгоценные металлы а так же цен на популярных АЗС с учетом программ лояльности.\n- Интегрировал в backend AI-ассистента на базе OpenAI API с поддержкой function calling и потоковой генерации ответов через SSE.\n- Реализовал authentication/authorization на FastAPI: registration, login, logout, protected endpoints, JWT access tokens, refresh token rotation и session revocation.\n- Добавил email verification и password reset через одноразовые hashed tokens с expiration.\n- Реализовал систему парсинга, агрегации данных и ежедневной самоочистки базы с использованием Celery и RabbitMQ в качестве брокера сообщений.\n- Спроектировал взаимодействие с PostgreSQL через SQLAlchemy, обеспечив асинхронную работу с базой данных и оптимизацию периодических задач.\n- Полностью контейнеризовал бэкенд-инфраструктуру (API, воркеры Celery, RabbitMQ, БД), обеспечив развертывание и связь всех компонентов через Docker Compose.\n- Развернул серверную часть на Hetzner VPS с использованием Nginx в качестве прокси-сервера.\n- Интегрировал клиентскую часть (SPA на React + Vite), созданную с помощью Cursor / Codex и размещенную на Cloudflare Pages.\nСтек технологий:\nBackend: Python (Async), FastAPI, PostgreSQL, SQLAlchemy, Celery, RabbitMQ, Docker, Docker Compose, Nginx.\nFrontend: Cursor AI, Codex, React, Vite, Cloudflare Pages.\nРазовый коммерческий заказ - https://giorgikhelidze.com\n- С нуля развернул production-окружение на Linux VPS (Ubuntu): контейнеризировал приложение в Docker, подключил домен через Cloudflare (HTTPS) и настроил веб-сервер Nginx\nСтек: Linux (Ubuntu), Docker, Nginx, Cloudflare\nTelegram-бот агрегатор курсов валют: https://t.me/ge_curr_bot\nРеализовал асинхронный парсер, подключил брокер очередей RabbitMQ для фоновых задач, внедрил Redis-кэширование, организовал сбор пользовательской аналитики через Middleware (с сохранением в PostgreSQL), настроил мультиязычность интерфейса и оркестрировал всю экосистему через Docker Compose. Внедрил CI/CD пайплайн ускорив скорость развертывания кода более чем в 2 раза (GitHub Actions): настроил автоматическую проверку качества кода и безопасный деплой Docker-контейнеров на удаленный сервер по SSH.\nСтек: Python, Aiogram, Babel (i18n), PostgreSQL, SQLAlchemy, Redis, RabbitMQ, Docker Compose\nПет проект - https://github.com/ArchilGelenidze/FastAPI_social_net\n- Спроектировал бэкенд на FastAPI с реализацией CRUD-операций и безопасной JWT-аутентификацией.\n- Настроил взаимодействие с PostgreSQL (SQLAlchemy + Alembic).\n- Выстроил CI/CD пайплайн в GitHub Actions для прогона автотестов (Pytest) и бесшовного деплоя на удаленный сервер (Nginx + Uvicorn + HTTPS).\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, JWT, Pytest, Docker, Docker Compose, GitHub Actions (CI/CD), Nginx, Uvicorn/Gunicorn.\nПрофиль Github: https://github.com/ArchilGelenidze\nТелеграм: https://t.me/Archil_Gln"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Selenium",
+      "level": "advanced",
+      "original": "Selenium"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Ubuntu Server",
+      "level": "advanced",
+      "original": "Ubuntu Server"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "HTML/CSS",
+      "level": "advanced",
+      "original": "HTML/CSS"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "Asyncio",
+      "level": "advanced",
+      "original": "Asyncio"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "OpenAI API",
+      "level": "advanced",
+      "original": "OpenAI API"
+    },
+    {
+      "name": "Codex",
+      "level": "advanced",
+      "original": "Codex"
+    },
+    {
+      "name": "JWT",
+      "level": "advanced",
+      "original": "JWT"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    },
+    {
+      "name": "Грузинский",
+      "level": "C2",
+      "description": "В совершенстве",
+      "original": "Грузинский — C2 — В совершенстве"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Tbilisi State University",
+      "details": [
+        "Психология"
+      ],
+      "year": 2022,
+      "level": "Неоконченное высшее образование",
+      "original": "Tbilisi State University\nПсихология\n•\n2022\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Беларусь, Грузия, Казахстан, Россия",
+    "driving": "Нет своей машины, права категории B",
+    "self_employment": "Нет",
+    "medical_book": "Есть"
+  },
+  "original_sections": {
+    "header": "Кандидат №51\nРезюме: Python Backend-разработчик",
+    "cover_letter": "Здравствуйте!\nУ меня есть практический опыт вывода рабочих проектов в продакшен. Я самостоятельно закрываю задачи от написания кода до настройки инфраструктуры и CI/CD:\nTelegram-агрегатор (мой live-проект): Есть база активных пользователей (~20 человек). Настроил асинхронный парсинг , кэширование (Redis) , фоновые задачи (RabbitMQ) и БД (PostgreSQL). Оркестрация через Docker Compose , автодеплой через GitHub Actions.\nКоммерческий опыт: Развернул production-окружение для веб-приложения на Linux VPS (Ubuntu, Docker, Nginx, Cloudflare).\nМой стек: Python, FastAPI, Asyncio, PostgreSQL (SQLAlchemy), Redis, RabbitMQ, Docker, Git.\nGitHub: https://github.com/ArchilGelenidze\nTelegram: @ArchilGe",
+    "experience": "Опыт работы: 3 года 2 месяца\nОпыт в похожих должностях:3 года 2 месяца\nМар 2026 -\nАвг 2026\n6 мес\nОрганизация 1\nФинансовый сектор\nPython-разработчик\n- Разрабатывал и поддерживал backend на Python/Django в крупной production-кодовой базе.\n- Интегрировал внешние платёжные системы и провайдеров по REST API.\n- Реализовывал бизнес-логику платёжных транзакций: формирование запросов, обработку ответов, статусов и ошибок.\n- Разрабатывал и дорабатывал callbacks/webhooks для корректного обновления состояний транзакций.\n- Анализировал документацию сторонних API и адаптировал интеграции под требования платёжных партнёров.\n- Тестировал API-интеграции и различные сценарии проведения транзакций через Postman.\nСтек: Python, Django, Django REST Framework (DRF), PostgreSQL, Celery, Redis, Docker, Nginx, Linux, Git, Postman.\nИюл 2023 -\nМар 2026\n2 года 9 мес\nОрганизация 2\nPython-разработчик\n- Реализовал полноценный (production-ready) веб-сервис, на данный момент 700+ уникальных пользователей - https://aggregator.ge\n- В процессе разработки проекта, обнаружил критическую уязвимость в сети крупной АЗС, помог им закрыть дыру в безопасности, из-за которой могла произойти утечка данных пользователей по всей стране.\n- Разработал полностью асинхронный REST API на FastAPI для эффективного сбора и отдачи данных по курсам валют, цен на драгоценные металлы а так же цен на популярных АЗС с учетом программ лояльности.\n- Интегрировал в backend AI-ассистента на базе OpenAI API с поддержкой function calling и потоковой генерации ответов через SSE.\n- Реализовал authentication/authorization на FastAPI: registration, login, logout, protected endpoints, JWT access tokens, refresh token rotation и session revocation.\n- Добавил email verification и password reset через одноразовые hashed tokens с expiration.\n- Реализовал систему парсинга, агрегации данных и ежедневной самоочистки базы с использованием Celery и RabbitMQ в качестве брокера сообщений.\n- Спроектировал взаимодействие с PostgreSQL через SQLAlchemy, обеспечив асинхронную работу с базой данных и оптимизацию периодических задач.\n- Полностью контейнеризовал бэкенд-инфраструктуру (API, воркеры Celery, RabbitMQ, БД), обеспечив развертывание и связь всех компонентов через Docker Compose.\n- Развернул серверную часть на Hetzner VPS с использованием Nginx в качестве прокси-сервера.\n- Интегрировал клиентскую часть (SPA на React + Vite), созданную с помощью Cursor / Codex и размещенную на Cloudflare Pages.\nСтек технологий:\nBackend: Python (Async), FastAPI, PostgreSQL, SQLAlchemy, Celery, RabbitMQ, Docker, Docker Compose, Nginx.\nFrontend: Cursor AI, Codex, React, Vite, Cloudflare Pages.\nРазовый коммерческий заказ - https://giorgikhelidze.com\n- С нуля развернул production-окружение на Linux VPS (Ubuntu): контейнеризировал приложение в Docker, подключил домен через Cloudflare (HTTPS) и настроил веб-сервер Nginx\nСтек: Linux (Ubuntu), Docker, Nginx, Cloudflare\nTelegram-бот агрегатор курсов валют: https://t.me/ge_curr_bot\nРеализовал асинхронный парсер, подключил брокер очередей RabbitMQ для фоновых задач, внедрил Redis-кэширование, организовал сбор пользовательской аналитики через Middleware (с сохранением в PostgreSQL), настроил мультиязычность интерфейса и оркестрировал всю экосистему через Docker Compose. Внедрил CI/CD пайплайн ускорив скорость развертывания кода более чем в 2 раза (GitHub Actions): настроил автоматическую проверку качества кода и безопасный деплой Docker-контейнеров на удаленный сервер по SSH.\nСтек: Python, Aiogram, Babel (i18n), PostgreSQL, SQLAlchemy, Redis, RabbitMQ, Docker Compose\nПет проект - https://github.com/ArchilGelenidze/FastAPI_social_net\n- Спроектировал бэкенд на FastAPI с реализацией CRUD-операций и безопасной JWT-аутентификацией.\n- Настроил взаимодействие с PostgreSQL (SQLAlchemy + Alembic).\n- Выстроил CI/CD пайплайн в GitHub Actions для прогона автотестов (Pytest) и бесшовного деплоя на удаленный сервер (Nginx + Uvicorn + HTTPS).\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, JWT, Pytest, Docker, Docker Compose, GitHub Actions (CI/CD), Nginx, Uvicorn/Gunicorn.\nПрофиль Github: https://github.com/ArchilGelenidze\nТелеграм: https://t.me/Archil_Gln",
+    "skills": "Продвинутый уровень\nPython\nSQL\nPostgreSQL\nFastAPI\nООП\nSQLAlchemy\nNginx\nPytest\nSelenium\nPostman\nDocker\nDocker-compose\nLinux\nUbuntu Server\nGitHub\nCI/CD\nREST API\nHTML/CSS\nGit\nAPI\nRedis\nNoSQL\nAsyncio\nRabbitMQ\nOpenAI API\nCodex\nJWT",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nГрузинский — C2 — В совершенстве",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nНеоконченное высшее образование\nTbilisi State University\nПсихология\n•\n2022\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nБеларусь, Грузия, Казахстан, Россия\nОпыт вождения:\nНет своей машины, права категории B\nСамозанятость:\nНет\nМедкнижка:\nЕсть"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №51\nРезюме: Python Backend-разработчик\n\nСопроводительное письмо\nЗдравствуйте!\nУ меня есть практический опыт вывода рабочих проектов в продакшен. Я самостоятельно закрываю задачи от написания кода до настройки инфраструктуры и CI/CD:\nTelegram-агрегатор (мой live-проект): Есть база активных пользователей (~20 человек). Настроил асинхронный парсинг , кэширование (Redis) , фоновые задачи (RabbitMQ) и БД (PostgreSQL). Оркестрация через Docker Compose , автодеплой через GitHub Actions.\nКоммерческий опыт: Развернул production-окружение для веб-приложения на Linux VPS (Ubuntu, Docker, Nginx, Cloudflare).\nМой стек: Python, FastAPI, Asyncio, PostgreSQL (SQLAlchemy), Redis, RabbitMQ, Docker, Git.\nGitHub: https://github.com/ArchilGelenidze\nTelegram: @ArchilGe\n\nОпыт работы\nОпыт работы: 3 года 2 месяца\nОпыт в похожих должностях:3 года 2 месяца\nМар 2026 -\nАвг 2026\n6 мес\nОрганизация 1\nФинансовый сектор\nPython-разработчик\n- Разрабатывал и поддерживал backend на Python/Django в крупной production-кодовой базе.\n- Интегрировал внешние платёжные системы и провайдеров по REST API.\n- Реализовывал бизнес-логику платёжных транзакций: формирование запросов, обработку ответов, статусов и ошибок.\n- Разрабатывал и дорабатывал callbacks/webhooks для корректного обновления состояний транзакций.\n- Анализировал документацию сторонних API и адаптировал интеграции под требования платёжных партнёров.\n- Тестировал API-интеграции и различные сценарии проведения транзакций через Postman.\nСтек: Python, Django, Django REST Framework (DRF), PostgreSQL, Celery, Redis, Docker, Nginx, Linux, Git, Postman.\nИюл 2023 -\nМар 2026\n2 года 9 мес\nОрганизация 2\nPython-разработчик\n- Реализовал полноценный (production-ready) веб-сервис, на данный момент 700+ уникальных пользователей - https://aggregator.ge\n- В процессе разработки проекта, обнаружил критическую уязвимость в сети крупной АЗС, помог им закрыть дыру в безопасности, из-за которой могла произойти утечка данных пользователей по всей стране.\n- Разработал полностью асинхронный REST API на FastAPI для эффективного сбора и отдачи данных по курсам валют, цен на драгоценные металлы а так же цен на популярных АЗС с учетом программ лояльности.\n- Интегрировал в backend AI-ассистента на базе OpenAI API с поддержкой function calling и потоковой генерации ответов через SSE.\n- Реализовал authentication/authorization на FastAPI: registration, login, logout, protected endpoints, JWT access tokens, refresh token rotation и session revocation.\n- Добавил email verification и password reset через одноразовые hashed tokens с expiration.\n- Реализовал систему парсинга, агрегации данных и ежедневной самоочистки базы с использованием Celery и RabbitMQ в качестве брокера сообщений.\n- Спроектировал взаимодействие с PostgreSQL через SQLAlchemy, обеспечив асинхронную работу с базой данных и оптимизацию периодических задач.\n- Полностью контейнеризовал бэкенд-инфраструктуру (API, воркеры Celery, RabbitMQ, БД), обеспечив развертывание и связь всех компонентов через Docker Compose.\n- Развернул серверную часть на Hetzner VPS с использованием Nginx в качестве прокси-сервера.\n- Интегрировал клиентскую часть (SPA на React + Vite), созданную с помощью Cursor / Codex и размещенную на Cloudflare Pages.\nСтек технологий:\nBackend: Python (Async), FastAPI, PostgreSQL, SQLAlchemy, Celery, RabbitMQ, Docker, Docker Compose, Nginx.\nFrontend: Cursor AI, Codex, React, Vite, Cloudflare Pages.\nРазовый коммерческий заказ - https://giorgikhelidze.com\n- С нуля развернул production-окружение на Linux VPS (Ubuntu): контейнеризировал приложение в Docker, подключил домен через Cloudflare (HTTPS) и настроил веб-сервер Nginx\nСтек: Linux (Ubuntu), Docker, Nginx, Cloudflare\nTelegram-бот агрегатор курсов валют: https://t.me/ge_curr_bot\nРеализовал асинхронный парсер, подключил брокер очередей RabbitMQ для фоновых задач, внедрил Redis-кэширование, организовал сбор пользовательской аналитики через Middleware (с сохранением в PostgreSQL), настроил мультиязычность интерфейса и оркестрировал всю экосистему через Docker Compose. Внедрил CI/CD пайплайн ускорив скорость развертывания кода более чем в 2 раза (GitHub Actions): настроил автоматическую проверку качества кода и безопасный деплой Docker-контейнеров на удаленный сервер по SSH.\nСтек: Python, Aiogram, Babel (i18n), PostgreSQL, SQLAlchemy, Redis, RabbitMQ, Docker Compose\nПет проект - https://github.com/ArchilGelenidze/FastAPI_social_net\n- Спроектировал бэкенд на FastAPI с реализацией CRUD-операций и безопасной JWT-аутентификацией.\n- Настроил взаимодействие с PostgreSQL (SQLAlchemy + Alembic).\n- Выстроил CI/CD пайплайн в GitHub Actions для прогона автотестов (Pytest) и бесшовного деплоя на удаленный сервер (Nginx + Uvicorn + HTTPS).\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, JWT, Pytest, Docker, Docker Compose, GitHub Actions (CI/CD), Nginx, Uvicorn/Gunicorn.\nПрофиль Github: https://github.com/ArchilGelenidze\nТелеграм: https://t.me/Archil_Gln\n\nНавыки\nПродвинутый уровень\nPython\nSQL\nPostgreSQL\nFastAPI\nООП\nSQLAlchemy\nNginx\nPytest\nSelenium\nPostman\nDocker\nDocker-compose\nLinux\nUbuntu Server\nGitHub\nCI/CD\nREST API\nHTML/CSS\nGit\nAPI\nRedis\nNoSQL\nAsyncio\nRabbitMQ\nOpenAI API\nCodex\nJWT\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nГрузинский — C2 — В совершенстве\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nНеоконченное высшее образование\nTbilisi State University\nПсихология\n•\n2022\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nБеларусь, Грузия, Казахстан, Россия\nОпыт вождения:\nНет своей машины, права категории B\nСамозанятость:\nНет\nМедкнижка:\nЕсть\n"
+}

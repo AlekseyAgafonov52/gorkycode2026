@@ -1,0 +1,263 @@
+{
+  "candidate_id": 261,
+  "resume_title": "Backend разработчик. Python",
+  "cover_letter": "Добрый день!\nМеня зовут Карен, я backend developer на Python. Пишу вам, чтобы откликнуться на вакансию разработчика.\nЯ ищу возможность работать над интересными задачами и расти в профессиональном плане — уверен, что мой опыт и подход к работе будут полезны вашей команде. В разработке я уже 4 года, до этого более 10 лет работал в другой сфере, но сейчас полностью сосредоточен на разработке ПО.\nРаботал с FastAPI и Flask, использовал базы данных Postgres, ClickHouse, MySQL и MongoDB, хорошо знаком с Alembic, SQLAlchemy и SQL. Также имею опыт работы с Git, Docker, Linux и Nginx.\nНа последнем проекте занимался разработкой системы управления NGFW (new generation firewall). Одной из самых интересных задач была реализация правил фильтрации трафика на уровнях L3/L4 и L7 — задача требовала глубокого погружения в домен и аккуратного подхода к реализации.\nБуду рад обсудить, как могу быть полезен вашей команде, и узнать, какие возможности для роста и развития есть в вашей компании.",
+  "experience_total_months": 70,
+  "similar_experience_months": 70,
+  "work_experience": [
+    {
+      "start_date": "2025-05",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 18,
+      "organization": "Организация 1",
+      "position": "Backend-разработчик",
+      "employer_details": [
+        "www.kaspersky.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разработка backend части системы управления NGFW (Next-generation firewall).\nВзаимодействие с бизнесом, QA, аналитиками и фронтенд командой, а так же смежными командами. Настройка логирования. Создание документации API. Написание различных скриптов, в том числе на bash, и инструкций к ним. Настройка процесса прохождения кода через окружения: local / staging / production. Упаковка приложения в deb-пакет и развертывание в среде Linux.. Администрирование Linux сервера. GitLab. Code review.\nPython, FastAPI, PostgreSQL, ClickHouse, Alembic, SQL, SQLAlchemy, Git, Docker, Linux, bash.",
+      "original": "Май 2025 -\nсейчас\n1 год 6 мес\nОрганизация 1\nwww.kaspersky.ru\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик\nРазработка backend части системы управления NGFW (Next-generation firewall).\nВзаимодействие с бизнесом, QA, аналитиками и фронтенд командой, а так же смежными командами. Настройка логирования. Создание документации API. Написание различных скриптов, в том числе на bash, и инструкций к ним. Настройка процесса прохождения кода через окружения: local / staging / production. Упаковка приложения в deb-пакет и развертывание в среде Linux.. Администрирование Linux сервера. GitLab. Code review.\nPython, FastAPI, PostgreSQL, ClickHouse, Alembic, SQL, SQLAlchemy, Git, Docker, Linux, bash."
+    },
+    {
+      "start_date": "2024-05",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 2",
+      "position": "MTS Digital. NGFW Team. Software developer. Python.",
+      "employer_details": [
+        "Россияwww.mts.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разработка бэкенд части системы управления NGFW (Next-generation firewall) Взаимодействие с бизнесом, аналитиками, QA, DevOps и фронтенд командой. Упаковка приложения в deb-пакет и развертывание в среде Linux. Code review. Gitlab.\nPython, FastAPI, PostgreSQL, ClickHouse, Alembic, Asyncio, Pydantic, SQL, SQLAlchemy, Git, Docker, Linux, Nginx.",
+      "original": "Май 2024 -\nАпр 2025\n1 год\nОрганизация 2\nРоссияwww.mts.ru\nИнформационные технологии, системная интеграция, интернет\nMTS Digital. NGFW Team. Software developer. Python.\nРазработка бэкенд части системы управления NGFW (Next-generation firewall) Взаимодействие с бизнесом, аналитиками, QA, DevOps и фронтенд командой. Упаковка приложения в deb-пакет и развертывание в среде Linux. Code review. Gitlab.\nPython, FastAPI, PostgreSQL, ClickHouse, Alembic, Asyncio, Pydantic, SQL, SQLAlchemy, Git, Docker, Linux, Nginx."
+    },
+    {
+      "start_date": "2022-03",
+      "end_date": "2024-05",
+      "is_current": false,
+      "duration_months": 27,
+      "organization": "Организация 3",
+      "position": "Разработчик программного обеспечения. Python.",
+      "employer_details": [
+        "цож.рф"
+      ],
+      "description": "Разработка бекэнд части веб приложения для управления многоквартирными домами.\nВзаимодействие с бизнесом, аналитиками, QA и UI. Оценка технического долга, планирование, рефакторинг. Оптимизация производительности. Code review. Реализация телеграм-бота.\nPython, FastAPI, PostgreSQL, Alembic, SQLAlchemy, Git, Docker, Linux, Nginx, MongoDB, RabbitMQ, Redis, Celery, Excel.",
+      "original": "Мар 2022 -\nМай 2024\n2 года 3 мес\nОрганизация 3\nцож.рф\nРазработчик программного обеспечения. Python.\nРазработка бекэнд части веб приложения для управления многоквартирными домами.\nВзаимодействие с бизнесом, аналитиками, QA и UI. Оценка технического долга, планирование, рефакторинг. Оптимизация производительности. Code review. Реализация телеграм-бота.\nPython, FastAPI, PostgreSQL, Alembic, SQLAlchemy, Git, Docker, Linux, Nginx, MongoDB, RabbitMQ, Redis, Celery, Excel."
+    },
+    {
+      "start_date": "2021-01",
+      "end_date": "2022-03",
+      "is_current": false,
+      "duration_months": 15,
+      "organization": "Организация 4",
+      "position": "Разработчик программного обеспечения",
+      "employer_details": [
+        "sti-partners.ru"
+      ],
+      "description": "Самостоятельная реализация backend и frontend частей веб-приложения, а так же деплой на сервере. Взаимодействие с бизнесом. Оценка временных и финансовых затрат на каждый проект.\nPython, Flask, PostgreSQL, SQLAlchemy, Jinja, HTML, CSS, JavaScript, Bootstrap, Git, Docker, Linux, Nginx.",
+      "original": "Янв 2021 -\nМар 2022\n1 год 3 мес\nОрганизация 4\nsti-partners.ru\nРазработчик программного обеспечения\nСамостоятельная реализация backend и frontend частей веб-приложения, а так же деплой на сервере. Взаимодействие с бизнесом. Оценка временных и финансовых затрат на каждый проект.\nPython, Flask, PostgreSQL, SQLAlchemy, Jinja, HTML, CSS, JavaScript, Bootstrap, Git, Docker, Linux, Nginx."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Flask",
+      "level": null,
+      "original": "Flask"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "pandas",
+      "level": null,
+      "original": "pandas"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Bootstrap",
+      "level": null,
+      "original": "Bootstrap"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "Telegram Bot API",
+      "level": null,
+      "original": "Telegram Bot API"
+    },
+    {
+      "name": "Английский язык",
+      "level": null,
+      "original": "Английский язык"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": null,
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Clickhouse",
+      "level": null,
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Golang",
+      "level": null,
+      "original": "Golang"
+    },
+    {
+      "name": "PyCharm",
+      "level": null,
+      "original": "PyCharm"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "Postman",
+      "level": null,
+      "original": "Postman"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "MVC",
+      "level": null,
+      "original": "MVC"
+    },
+    {
+      "name": "Asyncio",
+      "level": null,
+      "original": "Asyncio"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Свободное время провожу в своей мастерской, играю в футбол и настольный теннис.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Российский государственный университет нефти и газа им. И.М. Губкина",
+      "details": [
+        "Проектирование, сооружение и эксплуатация систем трубопроводного транспорта, Инженер"
+      ],
+      "year": 2010,
+      "level": "Высшее образование",
+      "original": "Российский государственный университет нефти и газа им. И.М. Губкина\nПроектирование, сооружение и эксплуатация систем трубопроводного транспорта, Инженер\n•\n2010\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №261\nРезюме: Backend разработчик. Python",
+    "cover_letter": "Добрый день!\nМеня зовут Карен, я backend developer на Python. Пишу вам, чтобы откликнуться на вакансию разработчика.\nЯ ищу возможность работать над интересными задачами и расти в профессиональном плане — уверен, что мой опыт и подход к работе будут полезны вашей команде. В разработке я уже 4 года, до этого более 10 лет работал в другой сфере, но сейчас полностью сосредоточен на разработке ПО.\nРаботал с FastAPI и Flask, использовал базы данных Postgres, ClickHouse, MySQL и MongoDB, хорошо знаком с Alembic, SQLAlchemy и SQL. Также имею опыт работы с Git, Docker, Linux и Nginx.\nНа последнем проекте занимался разработкой системы управления NGFW (new generation firewall). Одной из самых интересных задач была реализация правил фильтрации трафика на уровнях L3/L4 и L7 — задача требовала глубокого погружения в домен и аккуратного подхода к реализации.\nБуду рад обсудить, как могу быть полезен вашей команде, и узнать, какие возможности для роста и развития есть в вашей компании.",
+    "experience": "Опыт работы: 5 лет 10 месяцев\nОпыт в похожих должностях:5 лет 10 месяцев\nМай 2025 -\nсейчас\n1 год 6 мес\nОрганизация 1\nwww.kaspersky.ru\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик\nРазработка backend части системы управления NGFW (Next-generation firewall).\nВзаимодействие с бизнесом, QA, аналитиками и фронтенд командой, а так же смежными командами. Настройка логирования. Создание документации API. Написание различных скриптов, в том числе на bash, и инструкций к ним. Настройка процесса прохождения кода через окружения: local / staging / production. Упаковка приложения в deb-пакет и развертывание в среде Linux.. Администрирование Linux сервера. GitLab. Code review.\nPython, FastAPI, PostgreSQL, ClickHouse, Alembic, SQL, SQLAlchemy, Git, Docker, Linux, bash.\nМай 2024 -\nАпр 2025\n1 год\nОрганизация 2\nРоссияwww.mts.ru\nИнформационные технологии, системная интеграция, интернет\nMTS Digital. NGFW Team. Software developer. Python.\nРазработка бэкенд части системы управления NGFW (Next-generation firewall) Взаимодействие с бизнесом, аналитиками, QA, DevOps и фронтенд командой. Упаковка приложения в deb-пакет и развертывание в среде Linux. Code review. Gitlab.\nPython, FastAPI, PostgreSQL, ClickHouse, Alembic, Asyncio, Pydantic, SQL, SQLAlchemy, Git, Docker, Linux, Nginx.\nМар 2022 -\nМай 2024\n2 года 3 мес\nОрганизация 3\nцож.рф\nРазработчик программного обеспечения. Python.\nРазработка бекэнд части веб приложения для управления многоквартирными домами.\nВзаимодействие с бизнесом, аналитиками, QA и UI. Оценка технического долга, планирование, рефакторинг. Оптимизация производительности. Code review. Реализация телеграм-бота.\nPython, FastAPI, PostgreSQL, Alembic, SQLAlchemy, Git, Docker, Linux, Nginx, MongoDB, RabbitMQ, Redis, Celery, Excel.\nЯнв 2021 -\nМар 2022\n1 год 3 мес\nОрганизация 4\nsti-partners.ru\nРазработчик программного обеспечения\nСамостоятельная реализация backend и frontend частей веб-приложения, а так же деплой на сервере. Взаимодействие с бизнесом. Оценка временных и финансовых затрат на каждый проект.\nPython, Flask, PostgreSQL, SQLAlchemy, Jinja, HTML, CSS, JavaScript, Bootstrap, Git, Docker, Linux, Nginx.",
+    "skills": "Python\nFlask\nSQL\nPostgreSQL\nMySQL\nSQLAlchemy\npandas\nGit\nCSS\nHTML\nBootstrap\nJavaScript\nTelegram Bot API\nАнглийский язык\nLinux\nNginx\nDocker\nMongoDB\nRabbitMQ\nFastAPI\nClickhouse\nGolang\nPyCharm\nREST API\nPytest\nPostman\nGitlab\nGitHub\nMVC\nAsyncio",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Свободное время провожу в своей мастерской, играю в футбол и настольный теннис.",
+    "education": "Уровень\nВысшее образование\nРоссийский государственный университет нефти и газа им. И.М. Губкина\nПроектирование, сооружение и эксплуатация систем трубопроводного транспорта, Инженер\n•\n2010\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №261\nРезюме: Backend разработчик. Python\n\nСопроводительное письмо\nДобрый день!\nМеня зовут Карен, я backend developer на Python. Пишу вам, чтобы откликнуться на вакансию разработчика.\nЯ ищу возможность работать над интересными задачами и расти в профессиональном плане — уверен, что мой опыт и подход к работе будут полезны вашей команде. В разработке я уже 4 года, до этого более 10 лет работал в другой сфере, но сейчас полностью сосредоточен на разработке ПО.\nРаботал с FastAPI и Flask, использовал базы данных Postgres, ClickHouse, MySQL и MongoDB, хорошо знаком с Alembic, SQLAlchemy и SQL. Также имею опыт работы с Git, Docker, Linux и Nginx.\nНа последнем проекте занимался разработкой системы управления NGFW (new generation firewall). Одной из самых интересных задач была реализация правил фильтрации трафика на уровнях L3/L4 и L7 — задача требовала глубокого погружения в домен и аккуратного подхода к реализации.\nБуду рад обсудить, как могу быть полезен вашей команде, и узнать, какие возможности для роста и развития есть в вашей компании.\n\nОпыт работы\nОпыт работы: 5 лет 10 месяцев\nОпыт в похожих должностях:5 лет 10 месяцев\nМай 2025 -\nсейчас\n1 год 6 мес\nОрганизация 1\nwww.kaspersky.ru\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик\nРазработка backend части системы управления NGFW (Next-generation firewall).\nВзаимодействие с бизнесом, QA, аналитиками и фронтенд командой, а так же смежными командами. Настройка логирования. Создание документации API. Написание различных скриптов, в том числе на bash, и инструкций к ним. Настройка процесса прохождения кода через окружения: local / staging / production. Упаковка приложения в deb-пакет и развертывание в среде Linux.. Администрирование Linux сервера. GitLab. Code review.\nPython, FastAPI, PostgreSQL, ClickHouse, Alembic, SQL, SQLAlchemy, Git, Docker, Linux, bash.\nМай 2024 -\nАпр 2025\n1 год\nОрганизация 2\nРоссияwww.mts.ru\nИнформационные технологии, системная интеграция, интернет\nMTS Digital. NGFW Team. Software developer. Python.\nРазработка бэкенд части системы управления NGFW (Next-generation firewall) Взаимодействие с бизнесом, аналитиками, QA, DevOps и фронтенд командой. Упаковка приложения в deb-пакет и развертывание в среде Linux. Code review. Gitlab.\nPython, FastAPI, PostgreSQL, ClickHouse, Alembic, Asyncio, Pydantic, SQL, SQLAlchemy, Git, Docker, Linux, Nginx.\nМар 2022 -\nМай 2024\n2 года 3 мес\nОрганизация 3\nцож.рф\nРазработчик программного обеспечения. Python.\nРазработка бекэнд части веб приложения для управления многоквартирными домами.\nВзаимодействие с бизнесом, аналитиками, QA и UI. Оценка технического долга, планирование, рефакторинг. Оптимизация производительности. Code review. Реализация телеграм-бота.\nPython, FastAPI, PostgreSQL, Alembic, SQLAlchemy, Git, Docker, Linux, Nginx, MongoDB, RabbitMQ, Redis, Celery, Excel.\nЯнв 2021 -\nМар 2022\n1 год 3 мес\nОрганизация 4\nsti-partners.ru\nРазработчик программного обеспечения\nСамостоятельная реализация backend и frontend частей веб-приложения, а так же деплой на сервере. Взаимодействие с бизнесом. Оценка временных и финансовых затрат на каждый проект.\nPython, Flask, PostgreSQL, SQLAlchemy, Jinja, HTML, CSS, JavaScript, Bootstrap, Git, Docker, Linux, Nginx.\n\nНавыки\nPython\nFlask\nSQL\nPostgreSQL\nMySQL\nSQLAlchemy\npandas\nGit\nCSS\nHTML\nBootstrap\nJavaScript\nTelegram Bot API\nАнглийский язык\nLinux\nNginx\nDocker\nMongoDB\nRabbitMQ\nFastAPI\nClickhouse\nGolang\nPyCharm\nREST API\nPytest\nPostman\nGitlab\nGitHub\nMVC\nAsyncio\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nСвободное время провожу в своей мастерской, играю в футбол и настольный теннис.\n\nОбразование\nУровень\nВысшее образование\nРоссийский государственный университет нефти и газа им. И.М. Губкина\nПроектирование, сооружение и эксплуатация систем трубопроводного транспорта, Инженер\n•\n2010\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

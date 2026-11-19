@@ -1,0 +1,175 @@
+{
+  "candidate_id": 29,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 72,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2022-09",
+      "end_date": "2024-12",
+      "is_current": false,
+      "duration_months": 28,
+      "organization": "Организация 1",
+      "position": "ИТ-инженер",
+      "employer_details": [],
+      "description": "Проект: Образовательная веб-платформа с микросервисной архитектурой.\nОбязанности:\n-Разработка нового функционала по требованиям\n-Кроссбраузерная и адаптивная верстка по Figma\n-Рефакторинг и поддержка кастомной UI-библиотеки\n-Code review и участие в планировании\n-Покрытие кода unit- и e2e-тестами (Jest, Cypress, Playwright)\n-Интеграция с REST и GraphQL API\nСтек: JavaScript, TypeScript, React, MobX, Tailwind, Node.js, Express, GraphQL,Docker, Git",
+      "original": "Сен 2022 -\nДек 2024\n2 года 4 мес\nОрганизация 1\nИТ-инженер\nПроект: Образовательная веб-платформа с микросервисной архитектурой.\nОбязанности:\n-Разработка нового функционала по требованиям\n-Кроссбраузерная и адаптивная верстка по Figma\n-Рефакторинг и поддержка кастомной UI-библиотеки\n-Code review и участие в планировании\n-Покрытие кода unit- и e2e-тестами (Jest, Cypress, Playwright)\n-Интеграция с REST и GraphQL API\nСтек: JavaScript, TypeScript, React, MobX, Tailwind, Node.js, Express, GraphQL,Docker, Git"
+    },
+    {
+      "start_date": "2018-12",
+      "end_date": "2022-07",
+      "is_current": false,
+      "duration_months": 44,
+      "organization": "Организация 2",
+      "position": "Разработчик пользовательских интерфейсов",
+      "employer_details": [],
+      "description": "Проект: Корпоративные веб-приложения под внутренние бизнес-процессы (B2B, CRM, административные панели).\nОбязанности:\n- Разработка клиентской и серверной логики (frontend + backend)\n- Создание адаптивных интерфейсов и их интеграция с REST API\n- Участие в проектировании архитектуры, выборе технологий\n- Менторство младших разработчиков, ревью кода\n- Написание автотестов (unit и selenium)\n- Интеграция с OAuth\nСтек: JavaScript, TypeScript, React, Angular, Redux, Webpack, Gulp, Node.js, Express,\nNestJS, MongoDB, REST API, OAuth, GitHub, GitLab, Jenkins, Postman, Jest, Selenium",
+      "original": "Дек 2018 -\nИюл 2022\n3 года 8 мес\nОрганизация 2\nРазработчик пользовательских интерфейсов\nПроект: Корпоративные веб-приложения под внутренние бизнес-процессы (B2B, CRM, административные панели).\nОбязанности:\n- Разработка клиентской и серверной логики (frontend + backend)\n- Создание адаптивных интерфейсов и их интеграция с REST API\n- Участие в проектировании архитектуры, выборе технологий\n- Менторство младших разработчиков, ревью кода\n- Написание автотестов (unit и selenium)\n- Интеграция с OAuth\nСтек: JavaScript, TypeScript, React, Angular, Redux, Webpack, Gulp, Node.js, Express,\nNestJS, MongoDB, REST API, OAuth, GitHub, GitLab, Jenkins, Postman, Jest, Selenium"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML5"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS3"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "Node.js",
+      "level": null,
+      "original": "Node.js"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React"
+    },
+    {
+      "name": "Английский язык",
+      "level": null,
+      "original": "Английский язык"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JS"
+    },
+    {
+      "name": "Разработка ПО",
+      "level": null,
+      "original": "Разработка ПО"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React.js"
+    },
+    {
+      "name": "UX",
+      "level": null,
+      "original": "UX"
+    },
+    {
+      "name": "Redux",
+      "level": null,
+      "original": "Redux"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "MobX",
+      "level": null,
+      "original": "MobX"
+    },
+    {
+      "name": "Next.js",
+      "level": null,
+      "original": "Next.js"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Информационные технологии",
+      "level": null,
+      "original": "Информационные технологии"
+    },
+    {
+      "name": "SSR",
+      "level": null,
+      "original": "SSR"
+    },
+    {
+      "name": "UI",
+      "level": null,
+      "original": "UI"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Увлечён разработкой, предпочитаю работать с современным стеком, уверенно работаю с задачами любой сложности на фронтенде, также имею опыт создания backend-части. Нравится разбираться в бизнес-логике и предлагать улучшения. Открыт к новым задачам, командам и технологиям.",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Дзержинский политехнический институт (филиал) Нижегородского государственного технического университета им. Р.Е. Алексеева, Дзержинск (Нижегородская область)",
+      "details": [
+        "Прикладная математика и информатика"
+      ],
+      "year": 2018,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Дзержинский политехнический институт (филиал) Нижегородского государственного технического университета им. Р.Е. Алексеева, Дзержинск (Нижегородская область)\nПрикладная математика и информатика\n•\n2018\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №29\nРезюме: Frontend-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 6 лет\nСен 2022 -\nДек 2024\n2 года 4 мес\nОрганизация 1\nИТ-инженер\nПроект: Образовательная веб-платформа с микросервисной архитектурой.\nОбязанности:\n-Разработка нового функционала по требованиям\n-Кроссбраузерная и адаптивная верстка по Figma\n-Рефакторинг и поддержка кастомной UI-библиотеки\n-Code review и участие в планировании\n-Покрытие кода unit- и e2e-тестами (Jest, Cypress, Playwright)\n-Интеграция с REST и GraphQL API\nСтек: JavaScript, TypeScript, React, MobX, Tailwind, Node.js, Express, GraphQL,Docker, Git\nДек 2018 -\nИюл 2022\n3 года 8 мес\nОрганизация 2\nРазработчик пользовательских интерфейсов\nПроект: Корпоративные веб-приложения под внутренние бизнес-процессы (B2B, CRM, административные панели).\nОбязанности:\n- Разработка клиентской и серверной логики (frontend + backend)\n- Создание адаптивных интерфейсов и их интеграция с REST API\n- Участие в проектировании архитектуры, выборе технологий\n- Менторство младших разработчиков, ревью кода\n- Написание автотестов (unit и selenium)\n- Интеграция с OAuth\nСтек: JavaScript, TypeScript, React, Angular, Redux, Webpack, Gulp, Node.js, Express,\nNestJS, MongoDB, REST API, OAuth, GitHub, GitLab, Jenkins, Postman, Jest, Selenium",
+    "skills": "JavaScript\nHTML5\nGit\nCSS3\nTypeScript\nNode.js\nReact\nАнглийский язык\nJS\nРазработка ПО\nReact.js\nUX\nRedux\nMongoDB\nMobX\nNext.js\nHTML\nИнформационные технологии\nSSR\nUI",
+    "languages": "Родной\nРусский",
+    "about_me": "Увлечён разработкой, предпочитаю работать с современным стеком, уверенно работаю с задачами любой сложности на фронтенде, также имею опыт создания backend-части. Нравится разбираться в бизнес-логике и предлагать улучшения. Открыт к новым задачам, командам и технологиям.",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nДзержинский политехнический институт (филиал) Нижегородского государственного технического университета им. Р.Е. Алексеева, Дзержинск (Нижегородская область)\nПрикладная математика и информатика\n•\n2018\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №29\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 6 лет\nСен 2022 -\nДек 2024\n2 года 4 мес\nОрганизация 1\nИТ-инженер\nПроект: Образовательная веб-платформа с микросервисной архитектурой.\nОбязанности:\n-Разработка нового функционала по требованиям\n-Кроссбраузерная и адаптивная верстка по Figma\n-Рефакторинг и поддержка кастомной UI-библиотеки\n-Code review и участие в планировании\n-Покрытие кода unit- и e2e-тестами (Jest, Cypress, Playwright)\n-Интеграция с REST и GraphQL API\nСтек: JavaScript, TypeScript, React, MobX, Tailwind, Node.js, Express, GraphQL,Docker, Git\nДек 2018 -\nИюл 2022\n3 года 8 мес\nОрганизация 2\nРазработчик пользовательских интерфейсов\nПроект: Корпоративные веб-приложения под внутренние бизнес-процессы (B2B, CRM, административные панели).\nОбязанности:\n- Разработка клиентской и серверной логики (frontend + backend)\n- Создание адаптивных интерфейсов и их интеграция с REST API\n- Участие в проектировании архитектуры, выборе технологий\n- Менторство младших разработчиков, ревью кода\n- Написание автотестов (unit и selenium)\n- Интеграция с OAuth\nСтек: JavaScript, TypeScript, React, Angular, Redux, Webpack, Gulp, Node.js, Express,\nNestJS, MongoDB, REST API, OAuth, GitHub, GitLab, Jenkins, Postman, Jest, Selenium\n\nНавыки\nJavaScript\nHTML5\nGit\nCSS3\nTypeScript\nNode.js\nReact\nАнглийский язык\nJS\nРазработка ПО\nReact.js\nUX\nRedux\nMongoDB\nMobX\nNext.js\nHTML\nИнформационные технологии\nSSR\nUI\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nУвлечён разработкой, предпочитаю работать с современным стеком, уверенно работаю с задачами любой сложности на фронтенде, также имею опыт создания backend-части. Нравится разбираться в бизнес-логике и предлагать улучшения. Открыт к новым задачам, командам и технологиям.\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nДзержинский политехнический институт (филиал) Нижегородского государственного технического университета им. Р.Е. Алексеева, Дзержинск (Нижегородская область)\nПрикладная математика и информатика\n•\n2018\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

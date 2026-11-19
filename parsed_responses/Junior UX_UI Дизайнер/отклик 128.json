@@ -1,0 +1,244 @@
+{
+  "candidate_id": 128,
+  "resume_title": "Клинический психолог",
+  "cover_letter": null,
+  "experience_total_months": 28,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2022-06",
+      "end_date": "2023-05",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 1",
+      "position": "Продавец-кассир",
+      "employer_details": [
+        "Россияwww.X5.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Продажи",
+      "original": "Июн 2022 -\nМай 2023\n1 год\nОрганизация 1\nРоссияwww.X5.ru\nИнформационные технологии, системная интеграция, интернет\nПродавец-кассир\nПродажи"
+    },
+    {
+      "start_date": "2021-09",
+      "end_date": "2021-12",
+      "is_current": false,
+      "duration_months": 4,
+      "organization": "Организация 2",
+      "position": "Продавец универсал",
+      "employer_details": [
+        "Чебоксарыwww.gloria-jeans.ru",
+        "Розничная торговля"
+      ],
+      "description": "Продажи",
+      "original": "Сен 2021 -\nДек 2021\n4 мес\nОрганизация 2\nЧебоксарыwww.gloria-jeans.ru\nРозничная торговля\nПродавец универсал\nПродажи"
+    },
+    {
+      "start_date": "2021-09",
+      "end_date": "2021-12",
+      "is_current": false,
+      "duration_months": 4,
+      "organization": "Организация 3",
+      "position": "Продавец-кассир,, сотрудник сто",
+      "employer_details": [
+        "Чебоксары",
+        "Розничная торговля"
+      ],
+      "description": "Продажи",
+      "original": "Сен 2021 -\nДек 2021\n4 мес\nОрганизация 3\nЧебоксары\nРозничная торговля\nПродавец-кассир,, сотрудник сто\nПродажи"
+    },
+    {
+      "start_date": "2017-09",
+      "end_date": "2018-08",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 4",
+      "position": "Продавец-консультант",
+      "employer_details": [
+        "www.joinfashioninditex.com",
+        "Розничная торговля"
+      ],
+      "description": "Работа в зале,на кассе,на складе.\nЗамечаний не было в процессе работы.Порученную работу выполнял добросовестно и вовремя.Ответственный и коммуникабельный.",
+      "original": "Сен 2017 -\nАвг 2018\n1 год\nОрганизация 4\nwww.joinfashioninditex.com\nРозничная торговля\nПродавец-консультант\nРабота в зале,на кассе,на складе.\nЗамечаний не было в процессе работы.Порученную работу выполнял добросовестно и вовремя.Ответственный и коммуникабельный."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Деловое общение",
+      "level": "advanced",
+      "original": "Деловое общение"
+    },
+    {
+      "name": "Активные продажи",
+      "level": "advanced",
+      "original": "Активные продажи"
+    },
+    {
+      "name": "Навыки продаж",
+      "level": "advanced",
+      "original": "Навыки продаж"
+    },
+    {
+      "name": "Психология",
+      "level": "advanced",
+      "original": "Психология"
+    },
+    {
+      "name": "Figma",
+      "level": "advanced",
+      "original": "Figma"
+    },
+    {
+      "name": "Веб-дизайн",
+      "level": "advanced",
+      "original": "Веб-дизайн"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": "advanced",
+      "original": "Adobe Photoshop"
+    },
+    {
+      "name": "Дизайн интерфейсов",
+      "level": "advanced",
+      "original": "Дизайн интерфейсов"
+    },
+    {
+      "name": "Web Design",
+      "level": "advanced",
+      "original": "Web Design"
+    },
+    {
+      "name": "Прототипирование",
+      "level": "advanced",
+      "original": "Прототипирование"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": "advanced",
+      "original": "Adobe Illustrator"
+    },
+    {
+      "name": "Клиническая психология",
+      "level": "advanced",
+      "original": "Клиническая психология"
+    },
+    {
+      "name": "Доброжелательность",
+      "level": null,
+      "original": "Доброжелательность"
+    },
+    {
+      "name": "Ответственность",
+      "level": null,
+      "original": "Ответственность"
+    },
+    {
+      "name": "Коммуникабельность",
+      "level": null,
+      "original": "Коммуникабельность"
+    },
+    {
+      "name": "Пользователь ПК",
+      "level": null,
+      "original": "Пользователь ПК"
+    },
+    {
+      "name": "Работа в команде",
+      "level": null,
+      "original": "Работа в команде"
+    },
+    {
+      "name": "Грамотная речь",
+      "level": null,
+      "original": "Грамотная речь"
+    },
+    {
+      "name": "Работоспособность",
+      "level": null,
+      "original": "Работоспособность"
+    },
+    {
+      "name": "Наука",
+      "level": null,
+      "original": "Наука"
+    },
+    {
+      "name": "Стрессоустойчивость",
+      "level": null,
+      "original": "Стрессоустойчивость"
+    },
+    {
+      "name": "Ux/ui design",
+      "level": null,
+      "original": "Ux/ui design"
+    },
+    {
+      "name": "Ux/ui дизайн",
+      "level": null,
+      "original": "Ux/ui дизайн"
+    },
+    {
+      "name": "Ux/ui дизайнер",
+      "level": null,
+      "original": "Ux/ui дизайнер"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Здравствуйте! Я окончил высшее учебное заведение ЧГУ им. Ульянова по специальности: \"Клиническая психология\", а так же курсы дополнительного образования по специальности: \"Педагогика и психология\". Дата получения образования: 2021 год. Владею английским языком на уровне B1-B2 (Intermediate). Так же окончил курсы от Stepik и Яндекс Практикум по специальности: \"UX/UI дизайнер\" в 2023 году. Владею на очень хорошем уровне программами Figma и Adobe Photoshop.\nHello! I graduated from the higher educational institution of ChSU named after. Ulyanov in the specialty: “Clinical Psychology”, as well as additional education courses in the specialty: “Pedagogy and Psychology”. Date of completion of education: 2021. I speak English at the B1-B2 (Intermediate) level. He also completed courses from Stepik and Yandex Workshop in the specialty: “UX/UI designer” in 2023. I have a very good command of Figma and Adobe Photoshop programs.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Чувашский государственный университет им. И.Н. Ульянова, Чебоксары",
+      "details": [
+        "ФУиСТ, Клиническая психология"
+      ],
+      "year": 2021,
+      "level": "Высшее образование",
+      "original": "Чувашский государственный университет им. И.Н. Ульянова, Чебоксары\nФУиСТ, Клиническая психология\n•\n2021\n•\nВысшее образование"
+    },
+    {
+      "institution": "Чувашский государственный университет им. И.Н. Ульянова, Чебоксары",
+      "details": [
+        "ФУиСТ, Дошкольная педагогика и психология"
+      ],
+      "year": 2021,
+      "level": "Высшее образование",
+      "original": "Чувашский государственный университет им. И.Н. Ульянова, Чебоксары\nФУиСТ, Дошкольная педагогика и психология\n•\n2021\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №128\nРезюме: Клинический психолог",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 2 года 4 месяца\nИюн 2022 -\nМай 2023\n1 год\nОрганизация 1\nРоссияwww.X5.ru\nИнформационные технологии, системная интеграция, интернет\nПродавец-кассир\nПродажи\nСен 2021 -\nДек 2021\n4 мес\nОрганизация 2\nЧебоксарыwww.gloria-jeans.ru\nРозничная торговля\nПродавец универсал\nПродажи\nСен 2021 -\nДек 2021\n4 мес\nОрганизация 3\nЧебоксары\nРозничная торговля\nПродавец-кассир,, сотрудник сто\nПродажи\nСен 2017 -\nАвг 2018\n1 год\nОрганизация 4\nwww.joinfashioninditex.com\nРозничная торговля\nПродавец-консультант\nРабота в зале,на кассе,на складе.\nЗамечаний не было в процессе работы.Порученную работу выполнял добросовестно и вовремя.Ответственный и коммуникабельный.",
+    "skills": "Продвинутый уровень\nДеловое общение\nАктивные продажи\nНавыки продаж\nПсихология\nFigma\nВеб-дизайн\nAdobe Photoshop\nДизайн интерфейсов\nWeb Design\nПрототипирование\nAdobe Illustrator\nКлиническая психология\nУровень не указан\nДоброжелательность\nОтветственность\nКоммуникабельность\nПользователь ПК\nРабота в команде\nГрамотная речь\nРаботоспособность\nНаука\nСтрессоустойчивость\nUx/ui design\nUx/ui дизайн\nUx/ui дизайнер",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Здравствуйте! Я окончил высшее учебное заведение ЧГУ им. Ульянова по специальности: \"Клиническая психология\", а так же курсы дополнительного образования по специальности: \"Педагогика и психология\". Дата получения образования: 2021 год. Владею английским языком на уровне B1-B2 (Intermediate). Так же окончил курсы от Stepik и Яндекс Практикум по специальности: \"UX/UI дизайнер\" в 2023 году. Владею на очень хорошем уровне программами Figma и Adobe Photoshop.\nHello! I graduated from the higher educational institution of ChSU named after. Ulyanov in the specialty: “Clinical Psychology”, as well as additional education courses in the specialty: “Pedagogy and Psychology”. Date of completion of education: 2021. I speak English at the B1-B2 (Intermediate) level. He also completed courses from Stepik and Yandex Workshop in the specialty: “UX/UI designer” in 2023. I have a very good command of Figma and Adobe Photoshop programs.",
+    "education": "Уровень\nВысшее образование\nЧувашский государственный университет им. И.Н. Ульянова, Чебоксары\nФУиСТ, Клиническая психология\n•\n2021\n•\nВысшее образование\nЧувашский государственный университет им. И.Н. Ульянова, Чебоксары\nФУиСТ, Дошкольная педагогика и психология\n•\n2021\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №128\nРезюме: Клинический психолог\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 2 года 4 месяца\nИюн 2022 -\nМай 2023\n1 год\nОрганизация 1\nРоссияwww.X5.ru\nИнформационные технологии, системная интеграция, интернет\nПродавец-кассир\nПродажи\nСен 2021 -\nДек 2021\n4 мес\nОрганизация 2\nЧебоксарыwww.gloria-jeans.ru\nРозничная торговля\nПродавец универсал\nПродажи\nСен 2021 -\nДек 2021\n4 мес\nОрганизация 3\nЧебоксары\nРозничная торговля\nПродавец-кассир,, сотрудник сто\nПродажи\nСен 2017 -\nАвг 2018\n1 год\nОрганизация 4\nwww.joinfashioninditex.com\nРозничная торговля\nПродавец-консультант\nРабота в зале,на кассе,на складе.\nЗамечаний не было в процессе работы.Порученную работу выполнял добросовестно и вовремя.Ответственный и коммуникабельный.\n\nНавыки\nПродвинутый уровень\nДеловое общение\nАктивные продажи\nНавыки продаж\nПсихология\nFigma\nВеб-дизайн\nAdobe Photoshop\nДизайн интерфейсов\nWeb Design\nПрототипирование\nAdobe Illustrator\nКлиническая психология\nУровень не указан\nДоброжелательность\nОтветственность\nКоммуникабельность\nПользователь ПК\nРабота в команде\nГрамотная речь\nРаботоспособность\nНаука\nСтрессоустойчивость\nUx/ui design\nUx/ui дизайн\nUx/ui дизайнер\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nЗдравствуйте! Я окончил высшее учебное заведение ЧГУ им. Ульянова по специальности: \"Клиническая психология\", а так же курсы дополнительного образования по специальности: \"Педагогика и психология\". Дата получения образования: 2021 год. Владею английским языком на уровне B1-B2 (Intermediate). Так же окончил курсы от Stepik и Яндекс Практикум по специальности: \"UX/UI дизайнер\" в 2023 году. Владею на очень хорошем уровне программами Figma и Adobe Photoshop.\nHello! I graduated from the higher educational institution of ChSU named after. Ulyanov in the specialty: “Clinical Psychology”, as well as additional education courses in the specialty: “Pedagogy and Psychology”. Date of completion of education: 2021. I speak English at the B1-B2 (Intermediate) level. He also completed courses from Stepik and Yandex Workshop in the specialty: “UX/UI designer” in 2023. I have a very good command of Figma and Adobe Photoshop programs.\n\nОбразование\nУровень\nВысшее образование\nЧувашский государственный университет им. И.Н. Ульянова, Чебоксары\nФУиСТ, Клиническая психология\n•\n2021\n•\nВысшее образование\nЧувашский государственный университет им. И.Н. Ульянова, Чебоксары\nФУиСТ, Дошкольная педагогика и психология\n•\n2021\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

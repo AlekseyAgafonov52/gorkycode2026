@@ -1,0 +1,240 @@
+{
+  "candidate_id": 92,
+  "resume_title": "Fullstack-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 40,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 21,
+      "organization": "Организация 1",
+      "position": "Fullstack-разработчик",
+      "employer_details": [
+        "kwork.ru/user/nkl708"
+      ],
+      "description": "- Разработал MVP SEO-плагина на WordPress для коммерческого клиента (React + PHP): админ-панель, интеграция с WordPress API, управление мета-шаблонами\n- Выполнял проекты по доработке сайтов на WordPress и Bitrix: интеграция аналитики, исправление багов, доработка функционала",
+      "original": "Фев 2025 -\nсейчас\n1 год 9 мес\nОрганизация 1\nkwork.ru/user/nkl708\nFullstack-разработчик\n- Разработал MVP SEO-плагина на WordPress для коммерческого клиента (React + PHP): админ-панель, интеграция с WordPress API, управление мета-шаблонами\n- Выполнял проекты по доработке сайтов на WordPress и Bitrix: интеграция аналитики, исправление багов, доработка функционала"
+    },
+    {
+      "start_date": "2023-08",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 21,
+      "organization": "Организация 2",
+      "position": "Fullstack-разработчик",
+      "employer_details": [
+        "Новосибирск"
+      ],
+      "description": "Разработал веб-приложение для агрегации и анализа новостных данных\n- Спроектировал backend на Django REST Framework с асинхронными задачами через Celery\n- Создал адаптивный frontend на Angular\n- Настроил CI/CD (Docker, GitHub Actions, Sentry), покрыл код тестами (pytest, линтеры ruff/mypy)",
+      "original": "Авг 2023 -\nАпр 2025\n1 год 9 мес\nОрганизация 2\nНовосибирск\nFullstack-разработчик\nРазработал веб-приложение для агрегации и анализа новостных данных\n- Спроектировал backend на Django REST Framework с асинхронными задачами через Celery\n- Создал адаптивный frontend на Angular\n- Настроил CI/CD (Docker, GitHub Actions, Sentry), покрыл код тестами (pytest, линтеры ruff/mypy)"
+    },
+    {
+      "start_date": "2023-07",
+      "end_date": "2025-01",
+      "is_current": false,
+      "duration_months": 19,
+      "organization": "Организация 3",
+      "position": "Bitrix Support Developer",
+      "employer_details": [
+        "Москваwww.zenden.ru",
+        "Розничная торговля"
+      ],
+      "description": "- Работал на первой линии технической поддержки корпоративного портала Bitrix24 для ~4000 сотрудников\n- Обрабатывал обращения пользователей: самостоятельно решал технические задачи, передавал запросы в профильные отделы при необходимости\n- Дорабатывал функционал самого портала и оперативно исправлял баги\n- Систематизировал типовые ошибки и самостоятельно решал рутинные задачи, разгрузив основной отдел разработки",
+      "original": "Июл 2023 -\nЯнв 2025\n1 год 7 мес\nОрганизация 3\nМоскваwww.zenden.ru\nРозничная торговля\nBitrix Support Developer\n- Работал на первой линии технической поддержки корпоративного портала Bitrix24 для ~4000 сотрудников\n- Обрабатывал обращения пользователей: самостоятельно решал технические задачи, передавал запросы в профильные отделы при необходимости\n- Дорабатывал функционал самого портала и оперативно исправлял баги\n- Систематизировал типовые ошибки и самостоятельно решал рутинные задачи, разгрузив основной отдел разработки"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML5"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS3"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React"
+    },
+    {
+      "name": "PHP",
+      "level": null,
+      "original": "PHP"
+    },
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Angular",
+      "level": null,
+      "original": "Angular"
+    },
+    {
+      "name": "CI/CD",
+      "level": null,
+      "original": "CI/CD"
+    },
+    {
+      "name": "Flask",
+      "level": null,
+      "original": "Flask"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "1С-Битрикс",
+      "level": null,
+      "original": "1С-Битрикс"
+    },
+    {
+      "name": "Битрикс24",
+      "level": null,
+      "original": "Битрикс24"
+    },
+    {
+      "name": "Wordpress",
+      "level": null,
+      "original": "Wordpress"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "Django Rest Framework"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    },
+    {
+      "name": "Греческий",
+      "level": "A1",
+      "description": "Начальный",
+      "original": "Греческий — A1 — Начальный"
+    }
+  ],
+  "about_me": "Разбираюсь в продукте и бизнес-логике, чтобы делать качественные решения. Умею работать как по готовым ТЗ, так и с неопределённостью — составлять требования, оценивать сроки, приоритизировать фичи",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Новосибирский государственный технический университет, Новосибирск",
+      "details": [
+        "АВТФ, Информатика и вычислительная техника"
+      ],
+      "year": 2024,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Новосибирский государственный технический университет, Новосибирск\nАВТФ, Информатика и вычислительная техника\n•\n2024\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Есть",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №92\nРезюме: Fullstack-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 4 месяца\nФев 2025 -\nсейчас\n1 год 9 мес\nОрганизация 1\nkwork.ru/user/nkl708\nFullstack-разработчик\n- Разработал MVP SEO-плагина на WordPress для коммерческого клиента (React + PHP): админ-панель, интеграция с WordPress API, управление мета-шаблонами\n- Выполнял проекты по доработке сайтов на WordPress и Bitrix: интеграция аналитики, исправление багов, доработка функционала\nАвг 2023 -\nАпр 2025\n1 год 9 мес\nОрганизация 2\nНовосибирск\nFullstack-разработчик\nРазработал веб-приложение для агрегации и анализа новостных данных\n- Спроектировал backend на Django REST Framework с асинхронными задачами через Celery\n- Создал адаптивный frontend на Angular\n- Настроил CI/CD (Docker, GitHub Actions, Sentry), покрыл код тестами (pytest, линтеры ruff/mypy)\nИюл 2023 -\nЯнв 2025\n1 год 7 мес\nОрганизация 3\nМоскваwww.zenden.ru\nРозничная торговля\nBitrix Support Developer\n- Работал на первой линии технической поддержки корпоративного портала Bitrix24 для ~4000 сотрудников\n- Обрабатывал обращения пользователей: самостоятельно решал технические задачи, передавал запросы в профильные отделы при необходимости\n- Дорабатывал функционал самого портала и оперативно исправлял баги\n- Систематизировал типовые ошибки и самостоятельно решал рутинные задачи, разгрузив основной отдел разработки",
+    "skills": "HTML5\nMySQL\nCSS3\nPostgreSQL\nReact\nPHP\nPython\nDjango Framework\nLinux\nSQL\nDocker\nREST API\nRedis\nJavaScript\nTypeScript\nGit\nAngular\nCI/CD\nFlask\nFastAPI\nNginx\nCelery\nPytest\n1С-Битрикс\nБитрикс24\nWordpress\nDjango Rest Framework",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний\nГреческий — A1 — Начальный",
+    "about_me": "Разбираюсь в продукте и бизнес-логике, чтобы делать качественные решения. Умею работать как по готовым ТЗ, так и с неопределённостью — составлять требования, оценивать сроки, приоритизировать фичи",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nНовосибирский государственный технический университет, Новосибирск\nАВТФ, Информатика и вычислительная техника\n•\n2024\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nЕсть\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №92\nРезюме: Fullstack-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 4 месяца\nФев 2025 -\nсейчас\n1 год 9 мес\nОрганизация 1\nkwork.ru/user/nkl708\nFullstack-разработчик\n- Разработал MVP SEO-плагина на WordPress для коммерческого клиента (React + PHP): админ-панель, интеграция с WordPress API, управление мета-шаблонами\n- Выполнял проекты по доработке сайтов на WordPress и Bitrix: интеграция аналитики, исправление багов, доработка функционала\nАвг 2023 -\nАпр 2025\n1 год 9 мес\nОрганизация 2\nНовосибирск\nFullstack-разработчик\nРазработал веб-приложение для агрегации и анализа новостных данных\n- Спроектировал backend на Django REST Framework с асинхронными задачами через Celery\n- Создал адаптивный frontend на Angular\n- Настроил CI/CD (Docker, GitHub Actions, Sentry), покрыл код тестами (pytest, линтеры ruff/mypy)\nИюл 2023 -\nЯнв 2025\n1 год 7 мес\nОрганизация 3\nМоскваwww.zenden.ru\nРозничная торговля\nBitrix Support Developer\n- Работал на первой линии технической поддержки корпоративного портала Bitrix24 для ~4000 сотрудников\n- Обрабатывал обращения пользователей: самостоятельно решал технические задачи, передавал запросы в профильные отделы при необходимости\n- Дорабатывал функционал самого портала и оперативно исправлял баги\n- Систематизировал типовые ошибки и самостоятельно решал рутинные задачи, разгрузив основной отдел разработки\n\nНавыки\nHTML5\nMySQL\nCSS3\nPostgreSQL\nReact\nPHP\nPython\nDjango Framework\nLinux\nSQL\nDocker\nREST API\nRedis\nJavaScript\nTypeScript\nGit\nAngular\nCI/CD\nFlask\nFastAPI\nNginx\nCelery\nPytest\n1С-Битрикс\nБитрикс24\nWordpress\nDjango Rest Framework\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\nГреческий — A1 — Начальный\n\nОбо мне\nРазбираюсь в продукте и бизнес-логике, чтобы делать качественные решения. Умею работать как по готовым ТЗ, так и с неопределённостью — составлять требования, оценивать сроки, приоритизировать фичи\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nНовосибирский государственный технический университет, Новосибирск\nАВТФ, Информатика и вычислительная техника\n•\n2024\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nЕсть\nМедкнижка:\nНет\n"
+}

@@ -1,0 +1,227 @@
+{
+  "candidate_id": 124,
+  "resume_title": "QA Engineer/Тестировщик",
+  "cover_letter": "Здравствуйте, ознакомился с вакансией , готов обсудить",
+  "experience_total_months": 39,
+  "similar_experience_months": 39,
+  "work_experience": [
+    {
+      "start_date": "2023-03",
+      "end_date": "2025-06",
+      "is_current": false,
+      "duration_months": 28,
+      "organization": "Организация 1",
+      "position": "QA Engineer",
+      "employer_details": [
+        "apteka366.ru",
+        "Медицина, фармацевтика, аптеки"
+      ],
+      "description": "О проекте:\nРазработка омниканальной платформы: веб-сайт и мобильное приложение для поиска, заказа и оплаты товаров, с интеграцией с офлайн-аптеками и складом. Более 15 000 наименований, 2000 аптек, синхронизация заказов, статусов, бонусной программы и уведомлений.\nМои задачи:\nТестирование: веб и мобильное приложение (Android/iOS), API и интеграции\nСценарии: поиск, регистрация, корзина, заказы, бонусы, уведомления\nAPI-тесты: Postman, Swagger UI — заказы, доставка, профиль\nИнтеграции: Kafka, Redis, Elasticsearch, RabbitMQ\nЛогирование: Kibana (ошибки, таймауты), DevTools, Charles, Proxyman\nРегрессии и smoke-тесты перед релизами, участие в UAT\nРабота с багами и документацией: Jira, Confluence, Figma, DBeaver\nДостижения:\nТестировал функциональность заказов и оплат в условиях высокой нагрузки\nУчаствовал в запуске push-уведомлений в приложении\nОперативно выявлял и воспроизводил инциденты прод-среды\nСтек: Postman, Swagger, Kibana, Kafka, Jira, Charles Proxy, Proxyman, DevTools, Android Studio, Xcode, PostgreSQL, Redis, Elasticsearch, RabbitMQ, GitLab CI, Docker, Kubernetes, Allure, Figma",
+      "original": "Мар 2023 -\nИюн 2025\n2 года 4 мес\nОрганизация 1\napteka366.ru\nМедицина, фармацевтика, аптеки\nQA Engineer\nО проекте:\nРазработка омниканальной платформы: веб-сайт и мобильное приложение для поиска, заказа и оплаты товаров, с интеграцией с офлайн-аптеками и складом. Более 15 000 наименований, 2000 аптек, синхронизация заказов, статусов, бонусной программы и уведомлений.\nМои задачи:\nТестирование: веб и мобильное приложение (Android/iOS), API и интеграции\nСценарии: поиск, регистрация, корзина, заказы, бонусы, уведомления\nAPI-тесты: Postman, Swagger UI — заказы, доставка, профиль\nИнтеграции: Kafka, Redis, Elasticsearch, RabbitMQ\nЛогирование: Kibana (ошибки, таймауты), DevTools, Charles, Proxyman\nРегрессии и smoke-тесты перед релизами, участие в UAT\nРабота с багами и документацией: Jira, Confluence, Figma, DBeaver\nДостижения:\nТестировал функциональность заказов и оплат в условиях высокой нагрузки\nУчаствовал в запуске push-уведомлений в приложении\nОперативно выявлял и воспроизводил инциденты прод-среды\nСтек: Postman, Swagger, Kibana, Kafka, Jira, Charles Proxy, Proxyman, DevTools, Android Studio, Xcode, PostgreSQL, Redis, Elasticsearch, RabbitMQ, GitLab CI, Docker, Kubernetes, Allure, Figma"
+    },
+    {
+      "start_date": "2022-04",
+      "end_date": "2023-02",
+      "is_current": false,
+      "duration_months": 11,
+      "organization": "Организация 2",
+      "position": "QA Engineer",
+      "employer_details": [
+        "www.amoCRM.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "О проекте:\nРазвитие веб-версии amoCRM и мобильного приложения. Мультиканальные коммуникации\n(email, WhatsApp, Telegram, звонки), автоматизация продаж, воронки, виджеты и отчёты.\nИнтеграции с 1С, Zapier, телефонией.\nМои задачи:\nФункциональное тестирование: web, mobile (iOS, Android), API\nAPI: Postman, Swagger, проверка endpoint'ов, webhooks, JSON-структуры\nИнтеграции: Kafka (лиды, события), Kibana (ошибки, таймауты)\nМобильное тестирование: push, звонки, deeplink, click-to-call\nDevTools, Charles, Proxyman — анализ сетевого трафика\nСоздание чек-листов, тест-кейсов, баг-репортов (TestRail, Jira)\nРабота с требованиями и UX-макетами (Figma, Confluence)\nSmoke/регрессии, релизы, участие в UAT\nДостижения:\nПокрыл тестами более 400 пользовательских сценариев\nВыявил критические баги в автозадачах и мультиканальных чатах\nТестировал функциональность интеграций с телефонией и API\nСтек: Postman, Swagger, Kafka, Kibana, DevTools, Jira, Charles, Proxyman, Android Studio, Xcode,\nFigma, DBeaver, GitLab CI, Docker, Allure",
+      "original": "Апр 2022 -\nФев 2023\n11 мес\nОрганизация 2\nwww.amoCRM.ru\nИнформационные технологии, системная интеграция, интернет\nQA Engineer\nО проекте:\nРазвитие веб-версии amoCRM и мобильного приложения. Мультиканальные коммуникации\n(email, WhatsApp, Telegram, звонки), автоматизация продаж, воронки, виджеты и отчёты.\nИнтеграции с 1С, Zapier, телефонией.\nМои задачи:\nФункциональное тестирование: web, mobile (iOS, Android), API\nAPI: Postman, Swagger, проверка endpoint'ов, webhooks, JSON-структуры\nИнтеграции: Kafka (лиды, события), Kibana (ошибки, таймауты)\nМобильное тестирование: push, звонки, deeplink, click-to-call\nDevTools, Charles, Proxyman — анализ сетевого трафика\nСоздание чек-листов, тест-кейсов, баг-репортов (TestRail, Jira)\nРабота с требованиями и UX-макетами (Figma, Confluence)\nSmoke/регрессии, релизы, участие в UAT\nДостижения:\nПокрыл тестами более 400 пользовательских сценариев\nВыявил критические баги в автозадачах и мультиканальных чатах\nТестировал функциональность интеграций с телефонией и API\nСтек: Postman, Swagger, Kafka, Kibana, DevTools, Jira, Charles, Proxyman, Android Studio, Xcode,\nFigma, DBeaver, GitLab CI, Docker, Allure"
+    }
+  ],
+  "skills": [
+    {
+      "name": "QA",
+      "level": "advanced",
+      "original": "QA"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Redmine",
+      "level": "advanced",
+      "original": "Redmine"
+    },
+    {
+      "name": "Trello",
+      "level": "advanced",
+      "original": "Trello"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Android SDK",
+      "level": "advanced",
+      "original": "Android SDK"
+    },
+    {
+      "name": "Android Studio",
+      "level": "advanced",
+      "original": "Android Studio"
+    },
+    {
+      "name": "MS Visual Studio",
+      "level": "advanced",
+      "original": "MS Visual Studio"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "Insomnia",
+      "level": "advanced",
+      "original": "Insomnia"
+    },
+    {
+      "name": "Test IT",
+      "level": "advanced",
+      "original": "Test IT"
+    },
+    {
+      "name": "Charles",
+      "level": "advanced",
+      "original": "Charles"
+    },
+    {
+      "name": "Amplitude",
+      "level": "advanced",
+      "original": "Amplitude"
+    },
+    {
+      "name": "Яндекс.Метрика",
+      "level": "advanced",
+      "original": "Яндекс.Метрика"
+    },
+    {
+      "name": "Google Tag Manager",
+      "level": "advanced",
+      "original": "Google Tag Manager"
+    },
+    {
+      "name": "Mindbox",
+      "level": "advanced",
+      "original": "Mindbox"
+    },
+    {
+      "name": "Notion",
+      "level": "advanced",
+      "original": "Notion"
+    },
+    {
+      "name": "Browser Stack",
+      "level": "advanced",
+      "original": "Browser Stack"
+    },
+    {
+      "name": "DevTools",
+      "level": "advanced",
+      "original": "DevTools"
+    },
+    {
+      "name": "TestRail",
+      "level": "advanced",
+      "original": "TestRail"
+    },
+    {
+      "name": "Unix",
+      "level": "advanced",
+      "original": "Unix"
+    },
+    {
+      "name": "Allure",
+      "level": "advanced",
+      "original": "Allure"
+    },
+    {
+      "name": "Kafka",
+      "level": "advanced",
+      "original": "Kafka"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Selenium",
+      "level": "advanced",
+      "original": "Selenium"
+    },
+    {
+      "name": "Kibana",
+      "level": "advanced",
+      "original": "Kibana"
+    },
+    {
+      "name": "Swagger",
+      "level": "advanced",
+      "original": "Swagger"
+    },
+    {
+      "name": "Proxyman",
+      "level": "advanced",
+      "original": "Proxyman"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": "advanced",
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "Тестирование API",
+      "level": "advanced",
+      "original": "Тестирование API"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "QA Engineer с 3-летним опытом тестирования веб и мобильных приложений (iOS/Android), API и микросервисных интеграций.\nРаботал в e-commerce и CRM-платформах (amoCRM, Аптечная сеть 36,6). Уверенно\nиспользую Postman, Swagger, Kibana, Kafka, DevTools, Charles, Jira.\nИщу команду, где смогу развиваться в направлении AQA и влиять на качество продукта на всех этапах SDLC.",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №124\nРезюме: QA Engineer/Тестировщик",
+    "cover_letter": "Здравствуйте, ознакомился с вакансией , готов обсудить",
+    "experience": "Опыт работы: 3 года 3 месяца\nОпыт в похожих должностях:3 года 3 месяца\nМар 2023 -\nИюн 2025\n2 года 4 мес\nОрганизация 1\napteka366.ru\nМедицина, фармацевтика, аптеки\nQA Engineer\nО проекте:\nРазработка омниканальной платформы: веб-сайт и мобильное приложение для поиска, заказа и оплаты товаров, с интеграцией с офлайн-аптеками и складом. Более 15 000 наименований, 2000 аптек, синхронизация заказов, статусов, бонусной программы и уведомлений.\nМои задачи:\nТестирование: веб и мобильное приложение (Android/iOS), API и интеграции\nСценарии: поиск, регистрация, корзина, заказы, бонусы, уведомления\nAPI-тесты: Postman, Swagger UI — заказы, доставка, профиль\nИнтеграции: Kafka, Redis, Elasticsearch, RabbitMQ\nЛогирование: Kibana (ошибки, таймауты), DevTools, Charles, Proxyman\nРегрессии и smoke-тесты перед релизами, участие в UAT\nРабота с багами и документацией: Jira, Confluence, Figma, DBeaver\nДостижения:\nТестировал функциональность заказов и оплат в условиях высокой нагрузки\nУчаствовал в запуске push-уведомлений в приложении\nОперативно выявлял и воспроизводил инциденты прод-среды\nСтек: Postman, Swagger, Kibana, Kafka, Jira, Charles Proxy, Proxyman, DevTools, Android Studio, Xcode, PostgreSQL, Redis, Elasticsearch, RabbitMQ, GitLab CI, Docker, Kubernetes, Allure, Figma\nАпр 2022 -\nФев 2023\n11 мес\nОрганизация 2\nwww.amoCRM.ru\nИнформационные технологии, системная интеграция, интернет\nQA Engineer\nО проекте:\nРазвитие веб-версии amoCRM и мобильного приложения. Мультиканальные коммуникации\n(email, WhatsApp, Telegram, звонки), автоматизация продаж, воронки, виджеты и отчёты.\nИнтеграции с 1С, Zapier, телефонией.\nМои задачи:\nФункциональное тестирование: web, mobile (iOS, Android), API\nAPI: Postman, Swagger, проверка endpoint'ов, webhooks, JSON-структуры\nИнтеграции: Kafka (лиды, события), Kibana (ошибки, таймауты)\nМобильное тестирование: push, звонки, deeplink, click-to-call\nDevTools, Charles, Proxyman — анализ сетевого трафика\nСоздание чек-листов, тест-кейсов, баг-репортов (TestRail, Jira)\nРабота с требованиями и UX-макетами (Figma, Confluence)\nSmoke/регрессии, релизы, участие в UAT\nДостижения:\nПокрыл тестами более 400 пользовательских сценариев\nВыявил критические баги в автозадачах и мультиканальных чатах\nТестировал функциональность интеграций с телефонией и API\nСтек: Postman, Swagger, Kafka, Kibana, DevTools, Jira, Charles, Proxyman, Android Studio, Xcode,\nFigma, DBeaver, GitLab CI, Docker, Allure",
+    "skills": "Продвинутый уровень\nQA\nSQL\nRedmine\nTrello\nGit\nAndroid SDK\nAndroid Studio\nMS Visual Studio\nPostman\nInsomnia\nTest IT\nCharles\nAmplitude\nЯндекс.Метрика\nGoogle Tag Manager\nMindbox\nNotion\nBrowser Stack\nDevTools\nTestRail\nUnix\nAllure\nKafka\nPostgreSQL\nSelenium\nKibana\nSwagger\nProxyman\nФункциональное тестирование\nТестирование API",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "QA Engineer с 3-летним опытом тестирования веб и мобильных приложений (iOS/Android), API и микросервисных интеграций.\nРаботал в e-commerce и CRM-платформах (amoCRM, Аптечная сеть 36,6). Уверенно\nиспользую Postman, Swagger, Kibana, Kafka, DevTools, Charles, Jira.\nИщу команду, где смогу развиваться в направлении AQA и влиять на качество продукта на всех этапах SDLC.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №124\nРезюме: QA Engineer/Тестировщик\n\nСопроводительное письмо\nЗдравствуйте, ознакомился с вакансией , готов обсудить\n\nОпыт работы\nОпыт работы: 3 года 3 месяца\nОпыт в похожих должностях:3 года 3 месяца\nМар 2023 -\nИюн 2025\n2 года 4 мес\nОрганизация 1\napteka366.ru\nМедицина, фармацевтика, аптеки\nQA Engineer\nО проекте:\nРазработка омниканальной платформы: веб-сайт и мобильное приложение для поиска, заказа и оплаты товаров, с интеграцией с офлайн-аптеками и складом. Более 15 000 наименований, 2000 аптек, синхронизация заказов, статусов, бонусной программы и уведомлений.\nМои задачи:\nТестирование: веб и мобильное приложение (Android/iOS), API и интеграции\nСценарии: поиск, регистрация, корзина, заказы, бонусы, уведомления\nAPI-тесты: Postman, Swagger UI — заказы, доставка, профиль\nИнтеграции: Kafka, Redis, Elasticsearch, RabbitMQ\nЛогирование: Kibana (ошибки, таймауты), DevTools, Charles, Proxyman\nРегрессии и smoke-тесты перед релизами, участие в UAT\nРабота с багами и документацией: Jira, Confluence, Figma, DBeaver\nДостижения:\nТестировал функциональность заказов и оплат в условиях высокой нагрузки\nУчаствовал в запуске push-уведомлений в приложении\nОперативно выявлял и воспроизводил инциденты прод-среды\nСтек: Postman, Swagger, Kibana, Kafka, Jira, Charles Proxy, Proxyman, DevTools, Android Studio, Xcode, PostgreSQL, Redis, Elasticsearch, RabbitMQ, GitLab CI, Docker, Kubernetes, Allure, Figma\nАпр 2022 -\nФев 2023\n11 мес\nОрганизация 2\nwww.amoCRM.ru\nИнформационные технологии, системная интеграция, интернет\nQA Engineer\nО проекте:\nРазвитие веб-версии amoCRM и мобильного приложения. Мультиканальные коммуникации\n(email, WhatsApp, Telegram, звонки), автоматизация продаж, воронки, виджеты и отчёты.\nИнтеграции с 1С, Zapier, телефонией.\nМои задачи:\nФункциональное тестирование: web, mobile (iOS, Android), API\nAPI: Postman, Swagger, проверка endpoint'ов, webhooks, JSON-структуры\nИнтеграции: Kafka (лиды, события), Kibana (ошибки, таймауты)\nМобильное тестирование: push, звонки, deeplink, click-to-call\nDevTools, Charles, Proxyman — анализ сетевого трафика\nСоздание чек-листов, тест-кейсов, баг-репортов (TestRail, Jira)\nРабота с требованиями и UX-макетами (Figma, Confluence)\nSmoke/регрессии, релизы, участие в UAT\nДостижения:\nПокрыл тестами более 400 пользовательских сценариев\nВыявил критические баги в автозадачах и мультиканальных чатах\nТестировал функциональность интеграций с телефонией и API\nСтек: Postman, Swagger, Kafka, Kibana, DevTools, Jira, Charles, Proxyman, Android Studio, Xcode,\nFigma, DBeaver, GitLab CI, Docker, Allure\n\nНавыки\nПродвинутый уровень\nQA\nSQL\nRedmine\nTrello\nGit\nAndroid SDK\nAndroid Studio\nMS Visual Studio\nPostman\nInsomnia\nTest IT\nCharles\nAmplitude\nЯндекс.Метрика\nGoogle Tag Manager\nMindbox\nNotion\nBrowser Stack\nDevTools\nTestRail\nUnix\nAllure\nKafka\nPostgreSQL\nSelenium\nKibana\nSwagger\nProxyman\nФункциональное тестирование\nТестирование API\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nQA Engineer с 3-летним опытом тестирования веб и мобильных приложений (iOS/Android), API и микросервисных интеграций.\nРаботал в e-commerce и CRM-платформах (amoCRM, Аптечная сеть 36,6). Уверенно\nиспользую Postman, Swagger, Kibana, Kafka, DevTools, Charles, Jira.\nИщу команду, где смогу развиваться в направлении AQA и влиять на качество продукта на всех этапах SDLC.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

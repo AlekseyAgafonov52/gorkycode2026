@@ -1,0 +1,176 @@
+{
+  "candidate_id": 88,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Здравствуйте!\nМеня заинтересовала вакансия Junior Python-разработчик (Аналитика данных). Мой основной фокус — построение отказоустойчивых систем с чистой архитектурой, и, судя по описанию стека, мой опыт может быть вам полезен.\nПочему стоит обратить внимание на мой профиль:\n* Проектирование сложных систем: Я с нуля разработал и вывел в продакшн полноценный SSO / Authorization Server (OAuth2.1, OIDC). Это не просто CRUD, а работа с жизненным циклом токенов, безопасностью и высокой нагрузкой.\n* Архитектурный подход: В работе использую связку Clean Architecture + DDD + CQRS. Верю, что код должен быть предсказуемым, а бизнес-логика — отделенной от инфраструктуры.\n* Стек и данные: Свободно владею FastAPI и PostgreSQL. Имею опыт оптимизации запросов, работы с индексами и обеспечения ACID-свойств в транзакциях.\n* Event-Driven дизайн: Настраивал асинхронную обработку событий через Kafka и кэширование в Redis. Понимаю, как масштабировать систему без потери консистентности.\nРазворачиваю проекты через Docker, умею в HAProxy и не боюсь брать на себя ответственность за технические решения на всех этапах — от схемы БД до деплоя.\nБуду рад обсудить, как мой опыт проектирования защищенных систем поможет вашей команде решать текущие задачи.\nСсылка на портфолио: https://poqweity.chickenkiller.com/\nTG: @kamw0rks",
+  "experience_total_months": 52,
+  "similar_experience_months": 52,
+  "work_experience": [
+    {
+      "start_date": "2024-06",
+      "end_date": "2026-08",
+      "is_current": false,
+      "duration_months": 27,
+      "organization": "Организация 1",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Москваpoqweity.chickenkiller.com/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разработал SSO-сервис на Python с поддержкой OAuth 2.1 / OpenID Connect.\nhttps://poqweity.chickenkiller.com\nhttps://github.com/daron035/SSO\nСтек: FastAPI, PostgreSQL, Redis, Kafka, Docker, HAProxy,\nOAuth 2.1, OpenID Connect.\n— Security & Protocols: Внедрил стандарты OAuth 2.1 и OIDC (Authorization Code + PKCE). Реализовал механизм ротации Refresh-токенов в Redis проверку JWT микросервисами по публичному ключу (RS256).\n— Архитектура: Clean Architecture, DDD - 4 layered (domain, application, infrastructure, presentation).\n— Event-Driven Architecture (EDA): Настроил асинхронную обработку событий через Kafka.\n— Интеграции: Добавил поддержку External IDP (Google Login) и реализовал полноценный UI для сервера авторизации и тестового клиента на SvelteKit.\n— DevOps: Docker Compose + HAProxy как Reverse Proxy для маршрутизации трафика и SSL-терминации.",
+      "original": "Июн 2024 -\nАвг 2026\n2 года 3 мес\nОрганизация 1\nМоскваpoqweity.chickenkiller.com/\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРазработал SSO-сервис на Python с поддержкой OAuth 2.1 / OpenID Connect.\nhttps://poqweity.chickenkiller.com\nhttps://github.com/daron035/SSO\nСтек: FastAPI, PostgreSQL, Redis, Kafka, Docker, HAProxy,\nOAuth 2.1, OpenID Connect.\n— Security & Protocols: Внедрил стандарты OAuth 2.1 и OIDC (Authorization Code + PKCE). Реализовал механизм ротации Refresh-токенов в Redis проверку JWT микросервисами по публичному ключу (RS256).\n— Архитектура: Clean Architecture, DDD - 4 layered (domain, application, infrastructure, presentation).\n— Event-Driven Architecture (EDA): Настроил асинхронную обработку событий через Kafka.\n— Интеграции: Добавил поддержку External IDP (Google Login) и реализовал полноценный UI для сервера авторизации и тестового клиента на SvelteKit.\n— DevOps: Docker Compose + HAProxy как Reverse Proxy для маршрутизации трафика и SSL-терминации."
+    },
+    {
+      "start_date": "2022-05",
+      "end_date": "2024-06",
+      "is_current": false,
+      "duration_months": 26,
+      "organization": "Организация 2",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Санкт-Петербургzamok-box.ru",
+        "Металлургия, металлообработка"
+      ],
+      "description": "Стек: Django, Django REST Framework, PostgreSQL, React, Three.js, React Native.\n— Автоматизировал работу с номенклатурой: разработал сервис на Django для менеджеров. Система нормализует ввод менеджеров и приводит наименования деталей к стандартам ГОСТ, что ускорило обработку заказов.\n— Спроектировал структуру базы данных PostgreSQL для хранения номенклатуры продукции, характеристик изделий и производственных данных.\n— 3D-визуализация: реализовал просмотр 3D-моделей изделий в браузере (React + Three.js + DRF API), что позволило клиентам оценивать габариты и пропорции продукции до производства.\n— Разработал кроссплатформенное мобильное приложение для цеха и склада на React Native.\n— Реализовал систему генерации и сканирования QR-кодов для отслеживания\n— Ответственный за настройку CI/CD (Jenkins) и автоматизацию деплоя.",
+      "original": "Май 2022 -\nИюн 2024\n2 года 2 мес\nОрганизация 2\nСанкт-Петербургzamok-box.ru\nМеталлургия, металлообработка\nPython Backend Developer\nСтек: Django, Django REST Framework, PostgreSQL, React, Three.js, React Native.\n— Автоматизировал работу с номенклатурой: разработал сервис на Django для менеджеров. Система нормализует ввод менеджеров и приводит наименования деталей к стандартам ГОСТ, что ускорило обработку заказов.\n— Спроектировал структуру базы данных PostgreSQL для хранения номенклатуры продукции, характеристик изделий и производственных данных.\n— 3D-визуализация: реализовал просмотр 3D-моделей изделий в браузере (React + Three.js + DRF API), что позволило клиентам оценивать габариты и пропорции продукции до производства.\n— Разработал кроссплатформенное мобильное приложение для цеха и склада на React Native.\n— Реализовал систему генерации и сканирования QR-кодов для отслеживания\n— Ответственный за настройку CI/CD (Jenkins) и автоматизацию деплоя."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "HTTP",
+      "level": "advanced",
+      "original": "HTTP"
+    },
+    {
+      "name": "Kafka",
+      "level": "advanced",
+      "original": "Kafka"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Clean Architecture",
+      "level": "advanced",
+      "original": "Clean Architecture"
+    },
+    {
+      "name": "Apache Airflow",
+      "level": "advanced",
+      "original": "Apache Airflow"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Telegram: @kamw0rks",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Санкт-Петербургский горный университет императрицы Екатерины II, Санкт-Петербург",
+      "details": [
+        "Электроэнергетика"
+      ],
+      "year": 2021,
+      "level": "Неоконченное высшее образование",
+      "original": "Санкт-Петербургский горный университет императрицы Екатерины II, Санкт-Петербург\nЭлектроэнергетика\n•\n2021\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №88\nРезюме: Python-разработчик",
+    "cover_letter": "Здравствуйте!\nМеня заинтересовала вакансия Junior Python-разработчик (Аналитика данных). Мой основной фокус — построение отказоустойчивых систем с чистой архитектурой, и, судя по описанию стека, мой опыт может быть вам полезен.\nПочему стоит обратить внимание на мой профиль:\n* Проектирование сложных систем: Я с нуля разработал и вывел в продакшн полноценный SSO / Authorization Server (OAuth2.1, OIDC). Это не просто CRUD, а работа с жизненным циклом токенов, безопасностью и высокой нагрузкой.\n* Архитектурный подход: В работе использую связку Clean Architecture + DDD + CQRS. Верю, что код должен быть предсказуемым, а бизнес-логика — отделенной от инфраструктуры.\n* Стек и данные: Свободно владею FastAPI и PostgreSQL. Имею опыт оптимизации запросов, работы с индексами и обеспечения ACID-свойств в транзакциях.\n* Event-Driven дизайн: Настраивал асинхронную обработку событий через Kafka и кэширование в Redis. Понимаю, как масштабировать систему без потери консистентности.\nРазворачиваю проекты через Docker, умею в HAProxy и не боюсь брать на себя ответственность за технические решения на всех этапах — от схемы БД до деплоя.\nБуду рад обсудить, как мой опыт проектирования защищенных систем поможет вашей команде решать текущие задачи.\nСсылка на портфолио: https://poqweity.chickenkiller.com/\nTG: @kamw0rks",
+    "experience": "Опыт работы: 4 года 4 месяца\nОпыт в похожих должностях:4 года 4 месяца\nИюн 2024 -\nАвг 2026\n2 года 3 мес\nОрганизация 1\nМоскваpoqweity.chickenkiller.com/\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРазработал SSO-сервис на Python с поддержкой OAuth 2.1 / OpenID Connect.\nhttps://poqweity.chickenkiller.com\nhttps://github.com/daron035/SSO\nСтек: FastAPI, PostgreSQL, Redis, Kafka, Docker, HAProxy,\nOAuth 2.1, OpenID Connect.\n— Security & Protocols: Внедрил стандарты OAuth 2.1 и OIDC (Authorization Code + PKCE). Реализовал механизм ротации Refresh-токенов в Redis проверку JWT микросервисами по публичному ключу (RS256).\n— Архитектура: Clean Architecture, DDD - 4 layered (domain, application, infrastructure, presentation).\n— Event-Driven Architecture (EDA): Настроил асинхронную обработку событий через Kafka.\n— Интеграции: Добавил поддержку External IDP (Google Login) и реализовал полноценный UI для сервера авторизации и тестового клиента на SvelteKit.\n— DevOps: Docker Compose + HAProxy как Reverse Proxy для маршрутизации трафика и SSL-терминации.\nМай 2022 -\nИюн 2024\n2 года 2 мес\nОрганизация 2\nСанкт-Петербургzamok-box.ru\nМеталлургия, металлообработка\nPython Backend Developer\nСтек: Django, Django REST Framework, PostgreSQL, React, Three.js, React Native.\n— Автоматизировал работу с номенклатурой: разработал сервис на Django для менеджеров. Система нормализует ввод менеджеров и приводит наименования деталей к стандартам ГОСТ, что ускорило обработку заказов.\n— Спроектировал структуру базы данных PostgreSQL для хранения номенклатуры продукции, характеристик изделий и производственных данных.\n— 3D-визуализация: реализовал просмотр 3D-моделей изделий в браузере (React + Three.js + DRF API), что позволило клиентам оценивать габариты и пропорции продукции до производства.\n— Разработал кроссплатформенное мобильное приложение для цеха и склада на React Native.\n— Реализовал систему генерации и сканирования QR-кодов для отслеживания\n— Ответственный за настройку CI/CD (Jenkins) и автоматизацию деплоя.",
+    "skills": "Продвинутый уровень\nPython\nREST API\nNoSQL\nMongoDB\nSQLAlchemy\nFastAPI\nPostgreSQL\nSQL\nDocker\nApache Kafka\nReact\nRedis\nLinux\nGrafana\nHTTP\nKafka\nGit\nClean Architecture\nApache Airflow",
+    "languages": "Родной\nРусский",
+    "about_me": "Telegram: @kamw0rks",
+    "education": "Уровень\nНеоконченное высшее образование\nСанкт-Петербургский горный университет императрицы Екатерины II, Санкт-Петербург\nЭлектроэнергетика\n•\n2021\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №88\nРезюме: Python-разработчик\n\nСопроводительное письмо\nЗдравствуйте!\nМеня заинтересовала вакансия Junior Python-разработчик (Аналитика данных). Мой основной фокус — построение отказоустойчивых систем с чистой архитектурой, и, судя по описанию стека, мой опыт может быть вам полезен.\nПочему стоит обратить внимание на мой профиль:\n* Проектирование сложных систем: Я с нуля разработал и вывел в продакшн полноценный SSO / Authorization Server (OAuth2.1, OIDC). Это не просто CRUD, а работа с жизненным циклом токенов, безопасностью и высокой нагрузкой.\n* Архитектурный подход: В работе использую связку Clean Architecture + DDD + CQRS. Верю, что код должен быть предсказуемым, а бизнес-логика — отделенной от инфраструктуры.\n* Стек и данные: Свободно владею FastAPI и PostgreSQL. Имею опыт оптимизации запросов, работы с индексами и обеспечения ACID-свойств в транзакциях.\n* Event-Driven дизайн: Настраивал асинхронную обработку событий через Kafka и кэширование в Redis. Понимаю, как масштабировать систему без потери консистентности.\nРазворачиваю проекты через Docker, умею в HAProxy и не боюсь брать на себя ответственность за технические решения на всех этапах — от схемы БД до деплоя.\nБуду рад обсудить, как мой опыт проектирования защищенных систем поможет вашей команде решать текущие задачи.\nСсылка на портфолио: https://poqweity.chickenkiller.com/\nTG: @kamw0rks\n\nОпыт работы\nОпыт работы: 4 года 4 месяца\nОпыт в похожих должностях:4 года 4 месяца\nИюн 2024 -\nАвг 2026\n2 года 3 мес\nОрганизация 1\nМоскваpoqweity.chickenkiller.com/\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРазработал SSO-сервис на Python с поддержкой OAuth 2.1 / OpenID Connect.\nhttps://poqweity.chickenkiller.com\nhttps://github.com/daron035/SSO\nСтек: FastAPI, PostgreSQL, Redis, Kafka, Docker, HAProxy,\nOAuth 2.1, OpenID Connect.\n— Security & Protocols: Внедрил стандарты OAuth 2.1 и OIDC (Authorization Code + PKCE). Реализовал механизм ротации Refresh-токенов в Redis проверку JWT микросервисами по публичному ключу (RS256).\n— Архитектура: Clean Architecture, DDD - 4 layered (domain, application, infrastructure, presentation).\n— Event-Driven Architecture (EDA): Настроил асинхронную обработку событий через Kafka.\n— Интеграции: Добавил поддержку External IDP (Google Login) и реализовал полноценный UI для сервера авторизации и тестового клиента на SvelteKit.\n— DevOps: Docker Compose + HAProxy как Reverse Proxy для маршрутизации трафика и SSL-терминации.\nМай 2022 -\nИюн 2024\n2 года 2 мес\nОрганизация 2\nСанкт-Петербургzamok-box.ru\nМеталлургия, металлообработка\nPython Backend Developer\nСтек: Django, Django REST Framework, PostgreSQL, React, Three.js, React Native.\n— Автоматизировал работу с номенклатурой: разработал сервис на Django для менеджеров. Система нормализует ввод менеджеров и приводит наименования деталей к стандартам ГОСТ, что ускорило обработку заказов.\n— Спроектировал структуру базы данных PostgreSQL для хранения номенклатуры продукции, характеристик изделий и производственных данных.\n— 3D-визуализация: реализовал просмотр 3D-моделей изделий в браузере (React + Three.js + DRF API), что позволило клиентам оценивать габариты и пропорции продукции до производства.\n— Разработал кроссплатформенное мобильное приложение для цеха и склада на React Native.\n— Реализовал систему генерации и сканирования QR-кодов для отслеживания\n— Ответственный за настройку CI/CD (Jenkins) и автоматизацию деплоя.\n\nНавыки\nПродвинутый уровень\nPython\nREST API\nNoSQL\nMongoDB\nSQLAlchemy\nFastAPI\nPostgreSQL\nSQL\nDocker\nApache Kafka\nReact\nRedis\nLinux\nGrafana\nHTTP\nKafka\nGit\nClean Architecture\nApache Airflow\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nTelegram: @kamw0rks\n\nОбразование\nУровень\nНеоконченное высшее образование\nСанкт-Петербургский горный университет императрицы Екатерины II, Санкт-Петербург\nЭлектроэнергетика\n•\n2021\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

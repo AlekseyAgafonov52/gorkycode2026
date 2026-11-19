@@ -1,0 +1,221 @@
+{
+  "candidate_id": 85,
+  "resume_title": "C#/.NET-разработчик",
+  "cover_letter": "Здравствуйте, очень заинтересована в вакансии. Прилагаю свое резюме для ознакомления. Буду рада возможности обсудить, как я могу быть полезна вашей компании.",
+  "experience_total_months": 19,
+  "similar_experience_months": 8,
+  "work_experience": [
+    {
+      "start_date": "2026-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 8,
+      "organization": "Организация 1",
+      "position": "Программист SQL + C#",
+      "employer_details": [],
+      "description": "Разрабатываю хранимые процедуры на языке SQL, делаю оптимизацию, интеграцию с 1С.",
+      "original": "Мар 2026 -\nсейчас\n8 мес\nОрганизация 1\nПрограммист SQL + C#\nРазрабатываю хранимые процедуры на языке SQL, делаю оптимизацию, интеграцию с 1С."
+    },
+    {
+      "start_date": "2025-04",
+      "end_date": "2026-03",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 2",
+      "position": "C#/.NET-разработчик",
+      "employer_details": [],
+      "description": "Разрабатывала Web Api, перерабатывала старый код, добавляла новые фичи. Дорабатывала клиента на react. Реализация функциональности и логики программы в соответствии с техническим заданием и архитектурными решениями.",
+      "original": "Апр 2025 -\nМар 2026\n1 год\nОрганизация 2\nC#/.NET-разработчик\nРазрабатывала Web Api, перерабатывала старый код, добавляла новые фичи. Дорабатывала клиента на react. Реализация функциональности и логики программы в соответствии с техническим заданием и архитектурными решениями."
+    }
+  ],
+  "skills": [
+    {
+      "name": "С#",
+      "level": "advanced",
+      "original": "С#"
+    },
+    {
+      "name": "Web API",
+      "level": "advanced",
+      "original": "Web API"
+    },
+    {
+      "name": "MS Visual Studio",
+      "level": "advanced",
+      "original": "MS Visual Studio"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Avalonia",
+      "level": "advanced",
+      "original": "Avalonia"
+    },
+    {
+      "name": "Entity Framework",
+      "level": "advanced",
+      "original": "Entity Framework"
+    },
+    {
+      "name": "MVVM",
+      "level": "advanced",
+      "original": "MVVM"
+    },
+    {
+      "name": "Математический анализ",
+      "level": "advanced",
+      "original": "Математический анализ"
+    },
+    {
+      "name": "LINQ",
+      "level": "advanced",
+      "original": "LINQ"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Разработка ПО",
+      "level": "advanced",
+      "original": "Разработка ПО"
+    },
+    {
+      "name": "Обучение и развитие",
+      "level": "advanced",
+      "original": "Обучение и развитие"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "VueJS"
+    },
+    {
+      "name": "Visual Studio C#",
+      "level": "advanced",
+      "original": "Visual Studio C#"
+    },
+    {
+      "name": "UML",
+      "level": "advanced",
+      "original": "UML"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "C#",
+      "level": "advanced",
+      "original": "C#"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "ASP.NET MVC",
+      "level": "intermediate",
+      "original": "ASP.NET MVC"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "Kotlin",
+      "level": "intermediate",
+      "original": "Kotlin"
+    },
+    {
+      "name": "Ruby On Rails",
+      "level": "intermediate",
+      "original": "Ruby On Rails"
+    },
+    {
+      "name": "C/C++",
+      "level": "intermediate",
+      "original": "C/C++"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "С отличием закончила ГБПОУ НГК по специальности «Информационные системы и программирование».\nОсновные навыки:\nЯП: C#, C, SQL/T-SQL, Kotlin, XAML/HTML (+CSS)\nПлатформы и инструменты: Avalonia, Jetpack Compose, ASP.NET\nАрхитектуры и паттерны: MVVM, MVC, AAA (юнит-тесты)\nСреды разработки: Visual Studio, Visual Studio Code, Android Studio, IntelliJ IDEA (есть опыт)\nСУБД: MS SQL Server, DBeaver, PostgreSQL\nСКВ: GitHub, GitLab, Gogs\nПрочее: Microsoft Office, 1C:Предприятие, Adobe Photoshop, Adobe Illustrator, WEEEK (менеджер управления проектами), Lucid и Draw.io (erd и uml-диаграмы), Figma\n– Хорошие знания компьютерных сетей, модели OSI, TCP/IP, сетевых протоколов\n– Есть опыт работы с API, умею получать и отправлять запросы JSON.\n– Умею использовать LINQ-запросы\n– Есть опыт программирования задач математического моделирования\n– Есть опыт в разработке консольных приложений на ЯП С и С#\n– Опыт в разработке мобильных приложений (Jetpack Compose)\n– Опыт в разработке настольных приложений (Avalonia)\n– Опыт работы c веб-сайтом на ASP.NET\nБольше моих проектов можно увидеть на GitHub (https://github.com/OtterUnderwater)",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Нижегородский губернский колледж",
+      "details": [
+        "Информационные системы и программирование"
+      ],
+      "year": 2025,
+      "level": "Среднее специальное образование",
+      "original": "Нижегородский губернский колледж\nИнформационные системы и программирование\n•\n2025\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готова к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №85\nРезюме: C#/.NET-разработчик",
+    "cover_letter": "Здравствуйте, очень заинтересована в вакансии. Прилагаю свое резюме для ознакомления. Буду рада возможности обсудить, как я могу быть полезна вашей компании.",
+    "experience": "Опыт работы: 1 год 7 месяцев\nОпыт в похожих должностях:8 месяцев\nМар 2026 -\nсейчас\n8 мес\nОрганизация 1\nПрограммист SQL + C#\nРазрабатываю хранимые процедуры на языке SQL, делаю оптимизацию, интеграцию с 1С.\nАпр 2025 -\nМар 2026\n1 год\nОрганизация 2\nC#/.NET-разработчик\nРазрабатывала Web Api, перерабатывала старый код, добавляла новые фичи. Дорабатывала клиента на react. Реализация функциональности и логики программы в соответствии с техническим заданием и архитектурными решениями.",
+    "skills": "Продвинутый уровень\nС#\nWeb API\nMS Visual Studio\nDocker\nSQL\nAvalonia\nEntity Framework\nMVVM\nМатематический анализ\nLINQ\nREST API\nPostgreSQL\nJavaScript\nTypeScript\nLinux\nРазработка ПО\nОбучение и развитие\nVueJS\nVisual Studio C#\nUML\nООП\nC#\nGit\nСредний уровень\nASP.NET MVC\nPython\nKotlin\nRuby On Rails\nC/C++",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "С отличием закончила ГБПОУ НГК по специальности «Информационные системы и программирование».\nОсновные навыки:\nЯП: C#, C, SQL/T-SQL, Kotlin, XAML/HTML (+CSS)\nПлатформы и инструменты: Avalonia, Jetpack Compose, ASP.NET\nАрхитектуры и паттерны: MVVM, MVC, AAA (юнит-тесты)\nСреды разработки: Visual Studio, Visual Studio Code, Android Studio, IntelliJ IDEA (есть опыт)\nСУБД: MS SQL Server, DBeaver, PostgreSQL\nСКВ: GitHub, GitLab, Gogs\nПрочее: Microsoft Office, 1C:Предприятие, Adobe Photoshop, Adobe Illustrator, WEEEK (менеджер управления проектами), Lucid и Draw.io (erd и uml-диаграмы), Figma\n– Хорошие знания компьютерных сетей, модели OSI, TCP/IP, сетевых протоколов\n– Есть опыт работы с API, умею получать и отправлять запросы JSON.\n– Умею использовать LINQ-запросы\n– Есть опыт программирования задач математического моделирования\n– Есть опыт в разработке консольных приложений на ЯП С и С#\n– Опыт в разработке мобильных приложений (Jetpack Compose)\n– Опыт в разработке настольных приложений (Avalonia)\n– Опыт работы c веб-сайтом на ASP.NET\nБольше моих проектов можно увидеть на GitHub (https://github.com/OtterUnderwater)",
+    "education": "Уровень\nСреднее специальное образование\nНижегородский губернский колледж\nИнформационные системы и программирование\n•\n2025\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №85\nРезюме: C#/.NET-разработчик\n\nСопроводительное письмо\nЗдравствуйте, очень заинтересована в вакансии. Прилагаю свое резюме для ознакомления. Буду рада возможности обсудить, как я могу быть полезна вашей компании.\n\nОпыт работы\nОпыт работы: 1 год 7 месяцев\nОпыт в похожих должностях:8 месяцев\nМар 2026 -\nсейчас\n8 мес\nОрганизация 1\nПрограммист SQL + C#\nРазрабатываю хранимые процедуры на языке SQL, делаю оптимизацию, интеграцию с 1С.\nАпр 2025 -\nМар 2026\n1 год\nОрганизация 2\nC#/.NET-разработчик\nРазрабатывала Web Api, перерабатывала старый код, добавляла новые фичи. Дорабатывала клиента на react. Реализация функциональности и логики программы в соответствии с техническим заданием и архитектурными решениями.\n\nНавыки\nПродвинутый уровень\nС#\nWeb API\nMS Visual Studio\nDocker\nSQL\nAvalonia\nEntity Framework\nMVVM\nМатематический анализ\nLINQ\nREST API\nPostgreSQL\nJavaScript\nTypeScript\nLinux\nРазработка ПО\nОбучение и развитие\nVueJS\nVisual Studio C#\nUML\nООП\nC#\nGit\nСредний уровень\nASP.NET MVC\nPython\nKotlin\nRuby On Rails\nC/C++\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nС отличием закончила ГБПОУ НГК по специальности «Информационные системы и программирование».\nОсновные навыки:\nЯП: C#, C, SQL/T-SQL, Kotlin, XAML/HTML (+CSS)\nПлатформы и инструменты: Avalonia, Jetpack Compose, ASP.NET\nАрхитектуры и паттерны: MVVM, MVC, AAA (юнит-тесты)\nСреды разработки: Visual Studio, Visual Studio Code, Android Studio, IntelliJ IDEA (есть опыт)\nСУБД: MS SQL Server, DBeaver, PostgreSQL\nСКВ: GitHub, GitLab, Gogs\nПрочее: Microsoft Office, 1C:Предприятие, Adobe Photoshop, Adobe Illustrator, WEEEK (менеджер управления проектами), Lucid и Draw.io (erd и uml-диаграмы), Figma\n– Хорошие знания компьютерных сетей, модели OSI, TCP/IP, сетевых протоколов\n– Есть опыт работы с API, умею получать и отправлять запросы JSON.\n– Умею использовать LINQ-запросы\n– Есть опыт программирования задач математического моделирования\n– Есть опыт в разработке консольных приложений на ЯП С и С#\n– Опыт в разработке мобильных приложений (Jetpack Compose)\n– Опыт в разработке настольных приложений (Avalonia)\n– Опыт работы c веб-сайтом на ASP.NET\nБольше моих проектов можно увидеть на GitHub (https://github.com/OtterUnderwater)\n\nОбразование\nУровень\nСреднее специальное образование\nНижегородский губернский колледж\nИнформационные системы и программирование\n•\n2025\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

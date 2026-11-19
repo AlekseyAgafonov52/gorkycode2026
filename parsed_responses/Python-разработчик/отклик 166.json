@@ -1,0 +1,214 @@
+{
+  "candidate_id": 166,
+  "resume_title": "Python developer",
+  "cover_letter": null,
+  "experience_total_months": 55,
+  "similar_experience_months": 55,
+  "work_experience": [
+    {
+      "start_date": "2020-10",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 55,
+      "organization": "Организация 1",
+      "position": "Python developer",
+      "employer_details": [
+        "Москва"
+      ],
+      "description": "IT компания, предоставляющая решения для автоматизации бизнес-процессов в различных отраслях.\nПроект: Платформа для онлайн-магазина\nОбязанности:\nРазработка микросервисной архитектуры платформы на FastAPI\nПроектирование и реализация API для управления товарами и заказами\nИнтеграция платежных систем и сервисов доставки\nОптимизация производительности и масштабирование сервисов\nНаписание автоматических тестов и документации\nДостижения:\nУвеличил производительность API на 40% за счет оптимизации запросов и кэширования\nСократил время развертывания с 40 до 15 минут через улучшение CI/CD пайплайнов\nВнедрил систему мониторинга с использованием Prometheus и Grafana, сократившую время обнаружения проблем на 60%\nСоздал переиспользуемые компоненты, ускорившие разработку новых функций на 30%\nПроект: Платформа для фитнес-центра\nОбязанности:\nРазработка backend-части системы на Django\nПроектирование схемы базы данных и API\nРеализация бизнес-логики управления тренировками и абонементами\nИнтеграция внешних сервисов (SMS, email, платежи)\nОбеспечение безопасности и защиты данных\nДостижения:\nАвтоматизировал 90% рутинных операций фитнес-центра\nСократил количество ошибок при бронировании на 80%\nУвеличил конверсию онлайн-записи на тренировки на 45%\nВнедрил систему автоматических уведомлений, повысившую посещаемость на 25%\nСтек технологий: Python 3.10, FastAPI, Django, Django REST Framework, Swagger/OpenAPI, PostgreSQL, Pytest, Unittest, Celery, Redis, Docker, Kubernetes, Prometheus, Grafana, ELK, GitLab CI/CD, RabbitMQ",
+      "original": "Окт 2020 -\nАпр 2025\n4 года 7 мес\nОрганизация 1\nМосква\nPython developer\nIT компания, предоставляющая решения для автоматизации бизнес-процессов в различных отраслях.\nПроект: Платформа для онлайн-магазина\nОбязанности:\nРазработка микросервисной архитектуры платформы на FastAPI\nПроектирование и реализация API для управления товарами и заказами\nИнтеграция платежных систем и сервисов доставки\nОптимизация производительности и масштабирование сервисов\nНаписание автоматических тестов и документации\nДостижения:\nУвеличил производительность API на 40% за счет оптимизации запросов и кэширования\nСократил время развертывания с 40 до 15 минут через улучшение CI/CD пайплайнов\nВнедрил систему мониторинга с использованием Prometheus и Grafana, сократившую время обнаружения проблем на 60%\nСоздал переиспользуемые компоненты, ускорившие разработку новых функций на 30%\nПроект: Платформа для фитнес-центра\nОбязанности:\nРазработка backend-части системы на Django\nПроектирование схемы базы данных и API\nРеализация бизнес-логики управления тренировками и абонементами\nИнтеграция внешних сервисов (SMS, email, платежи)\nОбеспечение безопасности и защиты данных\nДостижения:\nАвтоматизировал 90% рутинных операций фитнес-центра\nСократил количество ошибок при бронировании на 80%\nУвеличил конверсию онлайн-записи на тренировки на 45%\nВнедрил систему автоматических уведомлений, повысившую посещаемость на 25%\nСтек технологий: Python 3.10, FastAPI, Django, Django REST Framework, Swagger/OpenAPI, PostgreSQL, Pytest, Unittest, Celery, Redis, Docker, Kubernetes, Prometheus, Grafana, ELK, GitLab CI/CD, RabbitMQ"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "celary",
+      "level": "advanced",
+      "original": "celary"
+    },
+    {
+      "name": "radis",
+      "level": "advanced",
+      "original": "radis"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "advanced",
+      "original": "Elasticsearch"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "Scrum",
+      "level": "advanced",
+      "original": "Scrum"
+    },
+    {
+      "name": "GitLab CI",
+      "level": "advanced",
+      "original": "GitLab CI"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "aws",
+      "level": "advanced",
+      "original": "aws"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Владивостокский государственный университет (экс ВГУЭС — Владивостокский государственный университет экономики и сервиса), Владивосток",
+      "details": [],
+      "year": 2015,
+      "level": "Среднее специальное образование",
+      "original": "Владивостокский государственный университет (экс ВГУЭС — Владивостокский государственный университет экономики и сервиса), Владивосток\n2015\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №166\nРезюме: Python developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 7 месяцев\nОпыт в похожих должностях:4 года 7 месяцев\nОкт 2020 -\nАпр 2025\n4 года 7 мес\nОрганизация 1\nМосква\nPython developer\nIT компания, предоставляющая решения для автоматизации бизнес-процессов в различных отраслях.\nПроект: Платформа для онлайн-магазина\nОбязанности:\nРазработка микросервисной архитектуры платформы на FastAPI\nПроектирование и реализация API для управления товарами и заказами\nИнтеграция платежных систем и сервисов доставки\nОптимизация производительности и масштабирование сервисов\nНаписание автоматических тестов и документации\nДостижения:\nУвеличил производительность API на 40% за счет оптимизации запросов и кэширования\nСократил время развертывания с 40 до 15 минут через улучшение CI/CD пайплайнов\nВнедрил систему мониторинга с использованием Prometheus и Grafana, сократившую время обнаружения проблем на 60%\nСоздал переиспользуемые компоненты, ускорившие разработку новых функций на 30%\nПроект: Платформа для фитнес-центра\nОбязанности:\nРазработка backend-части системы на Django\nПроектирование схемы базы данных и API\nРеализация бизнес-логики управления тренировками и абонементами\nИнтеграция внешних сервисов (SMS, email, платежи)\nОбеспечение безопасности и защиты данных\nДостижения:\nАвтоматизировал 90% рутинных операций фитнес-центра\nСократил количество ошибок при бронировании на 80%\nУвеличил конверсию онлайн-записи на тренировки на 45%\nВнедрил систему автоматических уведомлений, повысившую посещаемость на 25%\nСтек технологий: Python 3.10, FastAPI, Django, Django REST Framework, Swagger/OpenAPI, PostgreSQL, Pytest, Unittest, Celery, Redis, Docker, Kubernetes, Prometheus, Grafana, ELK, GitLab CI/CD, RabbitMQ",
+    "skills": "Продвинутый уровень\nPython\nFastAPI\nDjango Framework\nDjango Rest Framework\nRabbitMQ\nREST API\ncelary\nradis\nSQLAlchemy\nPytest\nSQL\nDocker\nGitlab\nPrometheus\nGrafana\nElasticsearch\nAtlassian Jira\nDocker-compose\nApache Kafka\nPostgreSQL\nGit\nAgile\nScrum\nGitLab CI\nLinux\nMongoDB\nNginx\nKubernetes\nClickhouse\naws",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее специальное образование\nВладивостокский государственный университет (экс ВГУЭС — Владивостокский государственный университет экономики и сервиса), Владивосток\n2015\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №166\nРезюме: Python developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 7 месяцев\nОпыт в похожих должностях:4 года 7 месяцев\nОкт 2020 -\nАпр 2025\n4 года 7 мес\nОрганизация 1\nМосква\nPython developer\nIT компания, предоставляющая решения для автоматизации бизнес-процессов в различных отраслях.\nПроект: Платформа для онлайн-магазина\nОбязанности:\nРазработка микросервисной архитектуры платформы на FastAPI\nПроектирование и реализация API для управления товарами и заказами\nИнтеграция платежных систем и сервисов доставки\nОптимизация производительности и масштабирование сервисов\nНаписание автоматических тестов и документации\nДостижения:\nУвеличил производительность API на 40% за счет оптимизации запросов и кэширования\nСократил время развертывания с 40 до 15 минут через улучшение CI/CD пайплайнов\nВнедрил систему мониторинга с использованием Prometheus и Grafana, сократившую время обнаружения проблем на 60%\nСоздал переиспользуемые компоненты, ускорившие разработку новых функций на 30%\nПроект: Платформа для фитнес-центра\nОбязанности:\nРазработка backend-части системы на Django\nПроектирование схемы базы данных и API\nРеализация бизнес-логики управления тренировками и абонементами\nИнтеграция внешних сервисов (SMS, email, платежи)\nОбеспечение безопасности и защиты данных\nДостижения:\nАвтоматизировал 90% рутинных операций фитнес-центра\nСократил количество ошибок при бронировании на 80%\nУвеличил конверсию онлайн-записи на тренировки на 45%\nВнедрил систему автоматических уведомлений, повысившую посещаемость на 25%\nСтек технологий: Python 3.10, FastAPI, Django, Django REST Framework, Swagger/OpenAPI, PostgreSQL, Pytest, Unittest, Celery, Redis, Docker, Kubernetes, Prometheus, Grafana, ELK, GitLab CI/CD, RabbitMQ\n\nНавыки\nПродвинутый уровень\nPython\nFastAPI\nDjango Framework\nDjango Rest Framework\nRabbitMQ\nREST API\ncelary\nradis\nSQLAlchemy\nPytest\nSQL\nDocker\nGitlab\nPrometheus\nGrafana\nElasticsearch\nAtlassian Jira\nDocker-compose\nApache Kafka\nPostgreSQL\nGit\nAgile\nScrum\nGitLab CI\nLinux\nMongoDB\nNginx\nKubernetes\nClickhouse\naws\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее специальное образование\nВладивостокский государственный университет (экс ВГУЭС — Владивостокский государственный университет экономики и сервиса), Владивосток\n2015\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

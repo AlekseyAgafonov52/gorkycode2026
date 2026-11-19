@@ -1,0 +1,204 @@
+{
+  "candidate_id": 36,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": "Здравствуйте,\nМне интересная ваша вакансия и хотелось бы поработать с вами. Последние 3 года разрабатывал интернет-магазины, корпоративные сайты и сервисы на Vue и Nuxt 2/3. Есть опыт разработки SRM систем, порталов, опыт фуллстек разработки. Общий опыт коммерческой разработки 5 лет. Буду рад присоединиться к вашей команде.\nВот мои лучшие работы:\nhttps://m.persona-detstvo.ru/\nhttp://vzdh.rocks/\nhttps://botanicamall.ru/\nВсе мои работы здесь:\nhttps://fomichev.dev/\nС уважением,\nФомичёв Антон\ntg: https://t.me/Satoshi_1",
+  "experience_total_months": 77,
+  "similar_experience_months": 77,
+  "work_experience": [
+    {
+      "start_date": "2022-09",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 50,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик (Vue / Nuxt)",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Верстка и разработка фронтенда интернет-магазинов, сервисов и корпоративных сайтов",
+      "original": "Сен 2022 -\nсейчас\n4 года 2 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик (Vue / Nuxt)\nВерстка и разработка фронтенда интернет-магазинов, сервисов и корпоративных сайтов"
+    },
+    {
+      "start_date": "2021-10",
+      "end_date": "2022-08",
+      "is_current": false,
+      "duration_months": 11,
+      "organization": "Организация 2",
+      "position": "HTML-верстальщик / Frontend-разработчик",
+      "employer_details": [
+        "Нижний Новгородriverstart.ru/"
+      ],
+      "description": "Верстка",
+      "original": "Окт 2021 -\nАвг 2022\n11 мес\nОрганизация 2\nНижний Новгородriverstart.ru/\nHTML-верстальщик / Frontend-разработчик\nВерстка"
+    },
+    {
+      "start_date": "2020-04",
+      "end_date": "2021-07",
+      "is_current": false,
+      "duration_months": 16,
+      "organization": "Организация 3",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Нижний Новгородvzdh.rocks"
+      ],
+      "description": "Верстка сайтов по макету, поддержка",
+      "original": "Апр 2020 -\nИюл 2021\n1 год 4 мес\nОрганизация 3\nНижний Новгородvzdh.rocks\nFrontend-разработчик\nВерстка сайтов по макету, поддержка"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML5"
+    },
+    {
+      "name": "Gulp",
+      "level": "advanced",
+      "original": "Gulp"
+    },
+    {
+      "name": "Nuxt",
+      "level": "advanced",
+      "original": "Nuxt"
+    },
+    {
+      "name": "SCSS",
+      "level": "advanced",
+      "original": "scss"
+    },
+    {
+      "name": "Верстка",
+      "level": "advanced",
+      "original": "Верстка"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "Vue.js"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JS"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "TypeScript",
+      "level": "intermediate",
+      "original": "TypeScript"
+    },
+    {
+      "name": "Node.js",
+      "level": "intermediate",
+      "original": "Node.js"
+    },
+    {
+      "name": "Vite",
+      "level": "intermediate",
+      "original": "Vite"
+    },
+    {
+      "name": "GSAP",
+      "level": "intermediate",
+      "original": "GSAP"
+    },
+    {
+      "name": "CMS Wordpress",
+      "level": "basic",
+      "original": "CMS Wordpress"
+    },
+    {
+      "name": "Webpack",
+      "level": "basic",
+      "original": "Webpack"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "Next.js",
+      "level": "basic",
+      "original": "Next.js"
+    },
+    {
+      "name": "React",
+      "level": "basic",
+      "original": "React"
+    },
+    {
+      "name": "Tailwind",
+      "level": "basic",
+      "original": "Tailwind"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    }
+  ],
+  "about_me": "Frontend-разработчик с опытом 5+ лет.\nОсновной стек: Vue/Nuxt 3 + Typescript.\nЕсть опыт работы в стартапах, в крупных корпоративных проектах. Разрабатывал интернет-магазины, корпоративные сайты и сервисы. Специализируюсь на создании производительных веб-приложений с современным интерфейсом и плавными анимациями (GSAP). Предпочитаю верстать руками с вниманием к деталям, но могу использовать современные UI-фреймворки. Также есть опыт фуллстек-разработки TMA на Node.js\nПортфолио: https://fomichev.dev/",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "НАМТ",
+      "details": [
+        "Программирование"
+      ],
+      "year": 2019,
+      "level": "Среднее специальное образование",
+      "original": "НАМТ\nПрограммирование\n•\n2019\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №36\nРезюме: Frontend-разработчик",
+    "cover_letter": "Здравствуйте,\nМне интересная ваша вакансия и хотелось бы поработать с вами. Последние 3 года разрабатывал интернет-магазины, корпоративные сайты и сервисы на Vue и Nuxt 2/3. Есть опыт разработки SRM систем, порталов, опыт фуллстек разработки. Общий опыт коммерческой разработки 5 лет. Буду рад присоединиться к вашей команде.\nВот мои лучшие работы:\nhttps://m.persona-detstvo.ru/\nhttp://vzdh.rocks/\nhttps://botanicamall.ru/\nВсе мои работы здесь:\nhttps://fomichev.dev/\nС уважением,\nФомичёв Антон\ntg: https://t.me/Satoshi_1",
+    "experience": "Опыт работы: 6 лет 5 месяцев\nОпыт в похожих должностях:6 лет 5 месяцев\nСен 2022 -\nсейчас\n4 года 2 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик (Vue / Nuxt)\nВерстка и разработка фронтенда интернет-магазинов, сервисов и корпоративных сайтов\nОкт 2021 -\nАвг 2022\n11 мес\nОрганизация 2\nНижний Новгородriverstart.ru/\nHTML-верстальщик / Frontend-разработчик\nВерстка\nАпр 2020 -\nИюл 2021\n1 год 4 мес\nОрганизация 3\nНижний Новгородvzdh.rocks\nFrontend-разработчик\nВерстка сайтов по макету, поддержка",
+    "skills": "Продвинутый уровень\nJavaScript\nHTML5\nGulp\nNuxt\nscss\nВерстка\nVue.js\nHTML\nJS\nСредний уровень\nGit\nREST API\nTypeScript\nNode.js\nVite\nGSAP\nБазовый уровень\nCMS Wordpress\nWebpack\nDocker\nNext.js\nReact\nTailwind",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный",
+    "about_me": "Frontend-разработчик с опытом 5+ лет.\nОсновной стек: Vue/Nuxt 3 + Typescript.\nЕсть опыт работы в стартапах, в крупных корпоративных проектах. Разрабатывал интернет-магазины, корпоративные сайты и сервисы. Специализируюсь на создании производительных веб-приложений с современным интерфейсом и плавными анимациями (GSAP). Предпочитаю верстать руками с вниманием к деталям, но могу использовать современные UI-фреймворки. Также есть опыт фуллстек-разработки TMA на Node.js\nПортфолио: https://fomichev.dev/",
+    "education": "Уровень\nСреднее специальное образование\nНАМТ\nПрограммирование\n•\n2019\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №36\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nЗдравствуйте,\nМне интересная ваша вакансия и хотелось бы поработать с вами. Последние 3 года разрабатывал интернет-магазины, корпоративные сайты и сервисы на Vue и Nuxt 2/3. Есть опыт разработки SRM систем, порталов, опыт фуллстек разработки. Общий опыт коммерческой разработки 5 лет. Буду рад присоединиться к вашей команде.\nВот мои лучшие работы:\nhttps://m.persona-detstvo.ru/\nhttp://vzdh.rocks/\nhttps://botanicamall.ru/\nВсе мои работы здесь:\nhttps://fomichev.dev/\nС уважением,\nФомичёв Антон\ntg: https://t.me/Satoshi_1\n\nОпыт работы\nОпыт работы: 6 лет 5 месяцев\nОпыт в похожих должностях:6 лет 5 месяцев\nСен 2022 -\nсейчас\n4 года 2 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик (Vue / Nuxt)\nВерстка и разработка фронтенда интернет-магазинов, сервисов и корпоративных сайтов\nОкт 2021 -\nАвг 2022\n11 мес\nОрганизация 2\nНижний Новгородriverstart.ru/\nHTML-верстальщик / Frontend-разработчик\nВерстка\nАпр 2020 -\nИюл 2021\n1 год 4 мес\nОрганизация 3\nНижний Новгородvzdh.rocks\nFrontend-разработчик\nВерстка сайтов по макету, поддержка\n\nНавыки\nПродвинутый уровень\nJavaScript\nHTML5\nGulp\nNuxt\nscss\nВерстка\nVue.js\nHTML\nJS\nСредний уровень\nGit\nREST API\nTypeScript\nNode.js\nVite\nGSAP\nБазовый уровень\nCMS Wordpress\nWebpack\nDocker\nNext.js\nReact\nTailwind\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный\n\nОбо мне\nFrontend-разработчик с опытом 5+ лет.\nОсновной стек: Vue/Nuxt 3 + Typescript.\nЕсть опыт работы в стартапах, в крупных корпоративных проектах. Разрабатывал интернет-магазины, корпоративные сайты и сервисы. Специализируюсь на создании производительных веб-приложений с современным интерфейсом и плавными анимациями (GSAP). Предпочитаю верстать руками с вниманием к деталям, но могу использовать современные UI-фреймворки. Также есть опыт фуллстек-разработки TMA на Node.js\nПортфолио: https://fomichev.dev/\n\nОбразование\nУровень\nСреднее специальное образование\nНАМТ\nПрограммирование\n•\n2019\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

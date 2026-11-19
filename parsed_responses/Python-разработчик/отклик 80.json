@@ -1,0 +1,244 @@
+{
+  "candidate_id": 80,
+  "resume_title": "Python Developer",
+  "cover_letter": null,
+  "experience_total_months": 39,
+  "similar_experience_months": 7,
+  "work_experience": [
+    {
+      "start_date": "2024-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 32,
+      "organization": "Организация 1",
+      "position": "DevOps / Backend",
+      "employer_details": [
+        "Москваfdctech.com/index.html",
+        "Финансовый сектор"
+      ],
+      "description": "Торговая платформа для международных брокеров, SaaS / White Label.\n- Разработал асинхронного Telegram-бота для учёта времени работы команды над задачами; реализовал мониторинг снимков состояния и оповещения через Telegram.\n- Дорабатываю API и бизнес-логику сервисов на C#. Работаю с Microsoft SQL Server: SQL запросы, хранимые процедуры, изменения схемы и миграции Liquibase.\n- Разработал систему автоматизации тестовых сценариев на Python, Selenium, RabbitMQ и Aiogram с поддержкой параллельных запусков для разных клиентов.\n- Развиваю Page Object Model торгового веб-терминала: типизированные методы, устойчивые UI-локаторы и контрактные проверки сценариев работы с ордерами, позициями и торговой историей.\n- Настраиваю CI/CD в Jenkins и Bitbucket, автоматизирую доставку обновлений с помощью Python и сопровождаю клиентские среды на Windows Server.\n- Работаю над мониторингом Prometheus: HTTP-проверки через Blackbox Exporter, PromQL recording rules и тесты конфигураций. Участвую в добавлении health endpoints в сервисы платформы.\n- Развернул Mantis Bug Tracker, MariaDB и Nginx через Docker Compose. Взаимодействую с иностранными клиентами при диагностике и устранении технических проблем.",
+      "original": "Мар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nМоскваfdctech.com/index.html\nФинансовый сектор\nDevOps / Backend\nТорговая платформа для международных брокеров, SaaS / White Label.\n- Разработал асинхронного Telegram-бота для учёта времени работы команды над задачами; реализовал мониторинг снимков состояния и оповещения через Telegram.\n- Дорабатываю API и бизнес-логику сервисов на C#. Работаю с Microsoft SQL Server: SQL запросы, хранимые процедуры, изменения схемы и миграции Liquibase.\n- Разработал систему автоматизации тестовых сценариев на Python, Selenium, RabbitMQ и Aiogram с поддержкой параллельных запусков для разных клиентов.\n- Развиваю Page Object Model торгового веб-терминала: типизированные методы, устойчивые UI-локаторы и контрактные проверки сценариев работы с ордерами, позициями и торговой историей.\n- Настраиваю CI/CD в Jenkins и Bitbucket, автоматизирую доставку обновлений с помощью Python и сопровождаю клиентские среды на Windows Server.\n- Работаю над мониторингом Prometheus: HTTP-проверки через Blackbox Exporter, PromQL recording rules и тесты конфигураций. Участвую в добавлении health endpoints в сервисы платформы.\n- Развернул Mantis Bug Tracker, MariaDB и Nginx через Docker Compose. Взаимодействую с иностранными клиентами при диагностике и устранении технических проблем."
+    },
+    {
+      "start_date": "2026-05",
+      "end_date": "2026-06",
+      "is_current": false,
+      "duration_months": 2,
+      "organization": "Организация 2",
+      "position": null,
+      "employer_details": [],
+      "description": "fepsk.ru/\nМеталлургия, металлообработка\nПроектная работа по интеграции с Битрикс24\n- Разработал интеграционный сервис для Битрикс24 (Bitrix24 CRM) на Python и FastAPI: приём вебхуков и асинхронные обращения к REST API.\n- Автоматизировал копирование сделок и синхронизацию связанных сделок: стадии, суммы, компании, контакты и пользовательские поля.\n- Подготовил конфигурацию развёртывания с Docker Compose, Gunicorn/Uvicorn и Nginx; добавил pytest-тесты обработки событий и бизнес-логики.",
+      "original": "Май 2026 -\nИюн 2026\n2 мес\nОрганизация 2\nfepsk.ru/\nМеталлургия, металлообработка\nПроектная работа по интеграции с Битрикс24\n- Разработал интеграционный сервис для Битрикс24 (Bitrix24 CRM) на Python и FastAPI: приём вебхуков и асинхронные обращения к REST API.\n- Автоматизировал копирование сделок и синхронизацию связанных сделок: стадии, суммы, компании, контакты и пользовательские поля.\n- Подготовил конфигурацию развёртывания с Docker Compose, Gunicorn/Uvicorn и Nginx; добавил pytest-тесты обработки событий и бизнес-логики."
+    },
+    {
+      "start_date": "2023-07",
+      "end_date": "2024-01",
+      "is_current": false,
+      "duration_months": 7,
+      "organization": "Организация 3",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Москваdev.vvscoin.com/",
+        "Финансовый сектор"
+      ],
+      "description": "Backend платформы обмена криптовалют и Telegram-интеграции.\n- Разработал асинхронный backend на Python и FastAPI: REST API для пользователей и заявок на обмен, схемы валидации Pydantic и операции с данными через SQLAlchemy.\n- Спроектировал PostgreSQL-модель данных со связями один-ко-многим и многие-ко-многим; использовал Alembic для миграций и паттерн Repository для CRUD-операций.\n- Реализовал JWT-аутентификацию, хеширование паролей и подтверждение электронной почты; подключил административный интерфейс SQLAdmin.\n- Добавил кеширование в Redis, получение курсов криптовалют и фоновые задачи для контроля срока действия заявок.\n- Интегрировал API Яндекс Диска для хранения подтверждающих изображений и SMTP для отправки почтовых уведомлений.\n- Написал тесты pytest, контейнеризировал приложение в Docker и развернул его на VPS.\n- Разработал асинхронного Telegram-бота на Aiogram и aiohttp: опрос Google Sheets API, обнаружение новых записей и последовательная отправка статистики в групповой чат.\nДорабатывал существующего бота обмена.\nСтек: Python, FastAPI, asyncio, PostgreSQL, SQLAlchemy, Alembic, Redis, Pydantic, Aiogram, aiohttp, pytest, Docker",
+      "original": "Июл 2023 -\nЯнв 2024\n7 мес\nОрганизация 3\nМоскваdev.vvscoin.com/\nФинансовый сектор\nPython-разработчик\nBackend платформы обмена криптовалют и Telegram-интеграции.\n- Разработал асинхронный backend на Python и FastAPI: REST API для пользователей и заявок на обмен, схемы валидации Pydantic и операции с данными через SQLAlchemy.\n- Спроектировал PostgreSQL-модель данных со связями один-ко-многим и многие-ко-многим; использовал Alembic для миграций и паттерн Repository для CRUD-операций.\n- Реализовал JWT-аутентификацию, хеширование паролей и подтверждение электронной почты; подключил административный интерфейс SQLAdmin.\n- Добавил кеширование в Redis, получение курсов криптовалют и фоновые задачи для контроля срока действия заявок.\n- Интегрировал API Яндекс Диска для хранения подтверждающих изображений и SMTP для отправки почтовых уведомлений.\n- Написал тесты pytest, контейнеризировал приложение в Docker и развернул его на VPS.\n- Разработал асинхронного Telegram-бота на Aiogram и aiohttp: опрос Google Sheets API, обнаружение новых записей и последовательная отправка статистики в групповой чат.\nДорабатывал существующего бота обмена.\nСтек: Python, FastAPI, asyncio, PostgreSQL, SQLAlchemy, Alembic, Redis, Pydantic, Aiogram, aiohttp, pytest, Docker"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Asyncio",
+      "level": null,
+      "original": "Asyncio"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "aiogram",
+      "level": null,
+      "original": "Aiogram"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Alembic",
+      "level": null,
+      "original": "Alembic"
+    },
+    {
+      "name": "Pydantic",
+      "level": null,
+      "original": "Pydantic"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "ООП",
+      "level": null,
+      "original": "ООП"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    },
+    {
+      "name": "CI/CD",
+      "level": null,
+      "original": "CI/CD"
+    },
+    {
+      "name": "Gunicorn",
+      "level": null,
+      "original": "Gunicorn"
+    },
+    {
+      "name": "Unittest",
+      "level": null,
+      "original": "Unittest"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": null,
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Docker Compose",
+      "level": null,
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Jenkins",
+      "level": null,
+      "original": "Jenkins"
+    },
+    {
+      "name": "Zabbix",
+      "level": null,
+      "original": "Zabbix"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "Более 3 лет опыта разработки и сопровождения fintech-продуктов: торговой платформы для брокеров и сервиса обмена криптовалют.\nРазрабатываю асинхронные сервисы и интеграции на Python, REST API на FastAPI, работаю с SQL и реляционными базами данных.\nДополнительный опыт: автоматизация тестирования, CI/CD, мониторинг и развёртывание приложений на Linux и Windows Server. Использую OpenAI Codex для анализа кодовой базы, разработки, подготовки тестов и документации; проверяю предлагаемые изменения и результаты тестирования перед интеграцией.\nКонтакты для связи:\nТел: +7 (989) 113-83-44\nEmail: ebuzuev@gmail.com\nTelegram: https://t.me/EvBuzuev",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Челябинский государственный университет, Челябинск",
+      "details": [
+        "Экономический факультет, Финансы, денежное обращение и кредит"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "Челябинский государственный университет, Челябинск\nЭкономический факультет, Финансы, денежное обращение и кредит\n•\n2022\n•\nВысшее образование"
+    },
+    {
+      "institution": "Sheridan College Institute of Technology and Advanced Learning (Sheridan Davis Campus)",
+      "details": [
+        "Faculty of Applied Science and Technology (Applied Computing and Engineering Sciences), Chemical Engineering Technology"
+      ],
+      "year": 2015,
+      "level": "Высшее образование",
+      "original": "Sheridan College Institute of Technology and Advanced Learning (Sheridan Davis Campus)\nFaculty of Applied Science and Technology (Applied Computing and Engineering Sciences), Chemical Engineering Technology\n•\n2015\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №80\nРезюме: Python Developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 3 месяца\nОпыт в похожих должностях:7 месяцев\nМар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nМоскваfdctech.com/index.html\nФинансовый сектор\nDevOps / Backend\nТорговая платформа для международных брокеров, SaaS / White Label.\n- Разработал асинхронного Telegram-бота для учёта времени работы команды над задачами; реализовал мониторинг снимков состояния и оповещения через Telegram.\n- Дорабатываю API и бизнес-логику сервисов на C#. Работаю с Microsoft SQL Server: SQL запросы, хранимые процедуры, изменения схемы и миграции Liquibase.\n- Разработал систему автоматизации тестовых сценариев на Python, Selenium, RabbitMQ и Aiogram с поддержкой параллельных запусков для разных клиентов.\n- Развиваю Page Object Model торгового веб-терминала: типизированные методы, устойчивые UI-локаторы и контрактные проверки сценариев работы с ордерами, позициями и торговой историей.\n- Настраиваю CI/CD в Jenkins и Bitbucket, автоматизирую доставку обновлений с помощью Python и сопровождаю клиентские среды на Windows Server.\n- Работаю над мониторингом Prometheus: HTTP-проверки через Blackbox Exporter, PromQL recording rules и тесты конфигураций. Участвую в добавлении health endpoints в сервисы платформы.\n- Развернул Mantis Bug Tracker, MariaDB и Nginx через Docker Compose. Взаимодействую с иностранными клиентами при диагностике и устранении технических проблем.\nМай 2026 -\nИюн 2026\n2 мес\nОрганизация 2\nfepsk.ru/\nМеталлургия, металлообработка\nПроектная работа по интеграции с Битрикс24\n- Разработал интеграционный сервис для Битрикс24 (Bitrix24 CRM) на Python и FastAPI: приём вебхуков и асинхронные обращения к REST API.\n- Автоматизировал копирование сделок и синхронизацию связанных сделок: стадии, суммы, компании, контакты и пользовательские поля.\n- Подготовил конфигурацию развёртывания с Docker Compose, Gunicorn/Uvicorn и Nginx; добавил pytest-тесты обработки событий и бизнес-логики.\nИюл 2023 -\nЯнв 2024\n7 мес\nОрганизация 3\nМоскваdev.vvscoin.com/\nФинансовый сектор\nPython-разработчик\nBackend платформы обмена криптовалют и Telegram-интеграции.\n- Разработал асинхронный backend на Python и FastAPI: REST API для пользователей и заявок на обмен, схемы валидации Pydantic и операции с данными через SQLAlchemy.\n- Спроектировал PostgreSQL-модель данных со связями один-ко-многим и многие-ко-многим; использовал Alembic для миграций и паттерн Repository для CRUD-операций.\n- Реализовал JWT-аутентификацию, хеширование паролей и подтверждение электронной почты; подключил административный интерфейс SQLAdmin.\n- Добавил кеширование в Redis, получение курсов криптовалют и фоновые задачи для контроля срока действия заявок.\n- Интегрировал API Яндекс Диска для хранения подтверждающих изображений и SMTP для отправки почтовых уведомлений.\n- Написал тесты pytest, контейнеризировал приложение в Docker и развернул его на VPS.\n- Разработал асинхронного Telegram-бота на Aiogram и aiohttp: опрос Google Sheets API, обнаружение новых записей и последовательная отправка статистики в групповой чат.\nДорабатывал существующего бота обмена.\nСтек: Python, FastAPI, asyncio, PostgreSQL, SQLAlchemy, Alembic, Redis, Pydantic, Aiogram, aiohttp, pytest, Docker",
+    "skills": "Python\nSQLAlchemy\nPostgreSQL\nAsyncio\nRedis\nCelery\nAiogram\nDocker\nAlembic\nPydantic\nPytest\nGit\nNginx\nLinux\nHTML\nООП\nSQL\nREST\nCI/CD\nGunicorn\nUnittest\nREST API\nRabbitMQ\nDocker-compose\nJenkins\nZabbix\nFastAPI",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "Более 3 лет опыта разработки и сопровождения fintech-продуктов: торговой платформы для брокеров и сервиса обмена криптовалют.\nРазрабатываю асинхронные сервисы и интеграции на Python, REST API на FastAPI, работаю с SQL и реляционными базами данных.\nДополнительный опыт: автоматизация тестирования, CI/CD, мониторинг и развёртывание приложений на Linux и Windows Server. Использую OpenAI Codex для анализа кодовой базы, разработки, подготовки тестов и документации; проверяю предлагаемые изменения и результаты тестирования перед интеграцией.\nКонтакты для связи:\nТел: +7 (989) 113-83-44\nEmail: ebuzuev@gmail.com\nTelegram: https://t.me/EvBuzuev",
+    "education": "Уровень\nВысшее образование\nЧелябинский государственный университет, Челябинск\nЭкономический факультет, Финансы, денежное обращение и кредит\n•\n2022\n•\nВысшее образование\nSheridan College Institute of Technology and Advanced Learning (Sheridan Davis Campus)\nFaculty of Applied Science and Technology (Applied Computing and Engineering Sciences), Chemical Engineering Technology\n•\n2015\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [
+    "Не выделена должность в месте работы 2; строки сохранены в description"
+  ],
+  "source_text": "Кандидат №80\nРезюме: Python Developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 3 месяца\nОпыт в похожих должностях:7 месяцев\nМар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nМоскваfdctech.com/index.html\nФинансовый сектор\nDevOps / Backend\nТорговая платформа для международных брокеров, SaaS / White Label.\n- Разработал асинхронного Telegram-бота для учёта времени работы команды над задачами; реализовал мониторинг снимков состояния и оповещения через Telegram.\n- Дорабатываю API и бизнес-логику сервисов на C#. Работаю с Microsoft SQL Server: SQL запросы, хранимые процедуры, изменения схемы и миграции Liquibase.\n- Разработал систему автоматизации тестовых сценариев на Python, Selenium, RabbitMQ и Aiogram с поддержкой параллельных запусков для разных клиентов.\n- Развиваю Page Object Model торгового веб-терминала: типизированные методы, устойчивые UI-локаторы и контрактные проверки сценариев работы с ордерами, позициями и торговой историей.\n- Настраиваю CI/CD в Jenkins и Bitbucket, автоматизирую доставку обновлений с помощью Python и сопровождаю клиентские среды на Windows Server.\n- Работаю над мониторингом Prometheus: HTTP-проверки через Blackbox Exporter, PromQL recording rules и тесты конфигураций. Участвую в добавлении health endpoints в сервисы платформы.\n- Развернул Mantis Bug Tracker, MariaDB и Nginx через Docker Compose. Взаимодействую с иностранными клиентами при диагностике и устранении технических проблем.\nМай 2026 -\nИюн 2026\n2 мес\nОрганизация 2\nfepsk.ru/\nМеталлургия, металлообработка\nПроектная работа по интеграции с Битрикс24\n- Разработал интеграционный сервис для Битрикс24 (Bitrix24 CRM) на Python и FastAPI: приём вебхуков и асинхронные обращения к REST API.\n- Автоматизировал копирование сделок и синхронизацию связанных сделок: стадии, суммы, компании, контакты и пользовательские поля.\n- Подготовил конфигурацию развёртывания с Docker Compose, Gunicorn/Uvicorn и Nginx; добавил pytest-тесты обработки событий и бизнес-логики.\nИюл 2023 -\nЯнв 2024\n7 мес\nОрганизация 3\nМоскваdev.vvscoin.com/\nФинансовый сектор\nPython-разработчик\nBackend платформы обмена криптовалют и Telegram-интеграции.\n- Разработал асинхронный backend на Python и FastAPI: REST API для пользователей и заявок на обмен, схемы валидации Pydantic и операции с данными через SQLAlchemy.\n- Спроектировал PostgreSQL-модель данных со связями один-ко-многим и многие-ко-многим; использовал Alembic для миграций и паттерн Repository для CRUD-операций.\n- Реализовал JWT-аутентификацию, хеширование паролей и подтверждение электронной почты; подключил административный интерфейс SQLAdmin.\n- Добавил кеширование в Redis, получение курсов криптовалют и фоновые задачи для контроля срока действия заявок.\n- Интегрировал API Яндекс Диска для хранения подтверждающих изображений и SMTP для отправки почтовых уведомлений.\n- Написал тесты pytest, контейнеризировал приложение в Docker и развернул его на VPS.\n- Разработал асинхронного Telegram-бота на Aiogram и aiohttp: опрос Google Sheets API, обнаружение новых записей и последовательная отправка статистики в групповой чат.\nДорабатывал существующего бота обмена.\nСтек: Python, FastAPI, asyncio, PostgreSQL, SQLAlchemy, Alembic, Redis, Pydantic, Aiogram, aiohttp, pytest, Docker\n\nНавыки\nPython\nSQLAlchemy\nPostgreSQL\nAsyncio\nRedis\nCelery\nAiogram\nDocker\nAlembic\nPydantic\nPytest\nGit\nNginx\nLinux\nHTML\nООП\nSQL\nREST\nCI/CD\nGunicorn\nUnittest\nREST API\nRabbitMQ\nDocker-compose\nJenkins\nZabbix\nFastAPI\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\nБолее 3 лет опыта разработки и сопровождения fintech-продуктов: торговой платформы для брокеров и сервиса обмена криптовалют.\nРазрабатываю асинхронные сервисы и интеграции на Python, REST API на FastAPI, работаю с SQL и реляционными базами данных.\nДополнительный опыт: автоматизация тестирования, CI/CD, мониторинг и развёртывание приложений на Linux и Windows Server. Использую OpenAI Codex для анализа кодовой базы, разработки, подготовки тестов и документации; проверяю предлагаемые изменения и результаты тестирования перед интеграцией.\nКонтакты для связи:\nТел: +7 (989) 113-83-44\nEmail: ebuzuev@gmail.com\nTelegram: https://t.me/EvBuzuev\n\nОбразование\nУровень\nВысшее образование\nЧелябинский государственный университет, Челябинск\nЭкономический факультет, Финансы, денежное обращение и кредит\n•\n2022\n•\nВысшее образование\nSheridan College Institute of Technology and Advanced Learning (Sheridan Davis Campus)\nFaculty of Applied Science and Technology (Applied Computing and Engineering Sciences), Chemical Engineering Technology\n•\n2015\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

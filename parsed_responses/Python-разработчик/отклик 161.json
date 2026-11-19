@@ -1,0 +1,223 @@
+{
+  "candidate_id": 161,
+  "resume_title": "Senior Python разработчик",
+  "cover_letter": "Здравствуйте! Ознакомился с Вашей вакансией. У меня есть опыт работы со всеми указанными технологиями. Могли бы созвониться и продолжить общение по вакансии? (tg: @petr_nesterr)",
+  "experience_total_months": 69,
+  "similar_experience_months": 69,
+  "work_experience": [
+    {
+      "start_date": "2021-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 69,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Алматы",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Стек:\nPython 3.x, Django, FastAPi, DRF, Kafka, pytest, Docker, Docker-compose, GitLab, Celery, Celery-Beat, Websocket, Postgres, NGINX, AWS (Lambda, S3, EC2, RDS, ELB, SES, SQS, ECS), boto3, SQlAlchemy, Alembic, Pydantic\nЗадачи:\n- Настройка обменников и очередей RabbitMQ\n- Настройка реплик в PostgreSQL\n- Оптимизация работы Celery которая ускорила выполнение групп задач на 30%\n- Написание и оптимизация скриптов для Beautiful Soup\n- Упростил процесс анализа данных для сотрудников, что привело к снижению времени на обработку отчетов на 30%.\n- Настройка кэширования данных в Redis, что уменьшило нагрузку на сервер в среднем на 30%\n- Рефакторинг кода\n- Анализ безопасности приложения и устранение проблем",
+      "original": "Фев 2021 -\nсейчас\n5 лет 9 мес\nОрганизация 1\nАлматы\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nСтек:\nPython 3.x, Django, FastAPi, DRF, Kafka, pytest, Docker, Docker-compose, GitLab, Celery, Celery-Beat, Websocket, Postgres, NGINX, AWS (Lambda, S3, EC2, RDS, ELB, SES, SQS, ECS), boto3, SQlAlchemy, Alembic, Pydantic\nЗадачи:\n- Настройка обменников и очередей RabbitMQ\n- Настройка реплик в PostgreSQL\n- Оптимизация работы Celery которая ускорила выполнение групп задач на 30%\n- Написание и оптимизация скриптов для Beautiful Soup\n- Упростил процесс анализа данных для сотрудников, что привело к снижению времени на обработку отчетов на 30%.\n- Настройка кэширования данных в Redis, что уменьшило нагрузку на сервер в среднем на 30%\n- Рефакторинг кода\n- Анализ безопасности приложения и устранение проблем"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "DRF"
+    },
+    {
+      "name": "Базы данных",
+      "level": "advanced",
+      "original": "Базы данных"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "AWS",
+      "level": "advanced",
+      "original": "AWS"
+    },
+    {
+      "name": "Yandex Cloud",
+      "level": "advanced",
+      "original": "Yandex Cloud"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Backend",
+      "level": "advanced",
+      "original": "Backend"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "HTTP",
+      "level": "advanced",
+      "original": "HTTP"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Kafka",
+      "level": "advanced",
+      "original": "Kafka"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "pandas",
+      "level": "advanced",
+      "original": "pandas"
+    },
+    {
+      "name": "Внутренняя оптимизация сайта",
+      "level": "advanced",
+      "original": "Внутренняя оптимизация сайта"
+    },
+    {
+      "name": "Работа с базами данных",
+      "level": "advanced",
+      "original": "Работа с базами данных"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS"
+    },
+    {
+      "name": "Java",
+      "level": "intermediate",
+      "original": "Java"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Меня зовут Пётр Нестер (@petr_nesterr), я Senior Python разработчик с более чем четырёхлетним опытом коммерческой разработки. Окончил БГУИР по специальности \"Программное обеспечение информационных технологий\" в 2022 году. За это время я успел поработать над несколькими масштабными проектами, где активно применял стек Python и современные технологии.\nМоя основная экспертиза лежит в области backend-разработки на Python с использованием Django, FastAPI, DRF и других фреймворков. Также имею опыт в построении микросервисной архитектуры, оптимизации производительности, работе с брокерами сообщений (Kafka, RabbitMQ), а также настройке CI/CD процессов и деплоя через Docker и Kubernetes. Я знаком с облачной инфраструктурой AWS и активно применяю инструменты для автоматизации и масштабирования.\nМой тг для связи – @petr_nesterr",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Белорусский государственный университет информатики и радиоэлектроники, Минск",
+      "details": [
+        "Факультет компьютерных систем и сетей, Программное обеспечение информационных технологий"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "Белорусский государственный университет информатики и радиоэлектроники, Минск\nФакультет компьютерных систем и сетей, Программное обеспечение информационных технологий\n•\n2022\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Беларусь",
+    "work_permit": "Беларусь, Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №161\nРезюме: Senior Python разработчик",
+    "cover_letter": "Здравствуйте! Ознакомился с Вашей вакансией. У меня есть опыт работы со всеми указанными технологиями. Могли бы созвониться и продолжить общение по вакансии? (tg: @petr_nesterr)",
+    "experience": "Опыт работы: 5 лет 9 месяцев\nОпыт в похожих должностях:5 лет 9 месяцев\nФев 2021 -\nсейчас\n5 лет 9 мес\nОрганизация 1\nАлматы\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nСтек:\nPython 3.x, Django, FastAPi, DRF, Kafka, pytest, Docker, Docker-compose, GitLab, Celery, Celery-Beat, Websocket, Postgres, NGINX, AWS (Lambda, S3, EC2, RDS, ELB, SES, SQS, ECS), boto3, SQlAlchemy, Alembic, Pydantic\nЗадачи:\n- Настройка обменников и очередей RabbitMQ\n- Настройка реплик в PostgreSQL\n- Оптимизация работы Celery которая ускорила выполнение групп задач на 30%\n- Написание и оптимизация скриптов для Beautiful Soup\n- Упростил процесс анализа данных для сотрудников, что привело к снижению времени на обработку отчетов на 30%.\n- Настройка кэширования данных в Redis, что уменьшило нагрузку на сервер в среднем на 30%\n- Рефакторинг кода\n- Анализ безопасности приложения и устранение проблем",
+    "skills": "Продвинутый уровень\nPython\nSQL\nFastAPI\nDjango Framework\nDjango Rest Framework\nDjango\nDRF\nБазы данных\nDocker\nDocker-compose\nAWS\nYandex Cloud\nMongoDB\nRedis\nBackend\nGit\nHTTP\nREST\nLinux\nPostgreSQL\nRabbitMQ\nKafka\nCI/CD\nKubernetes\npandas\nВнутренняя оптимизация сайта\nРабота с базами данных\nHTML\nСредний уровень\nCSS\nJava",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Меня зовут Пётр Нестер (@petr_nesterr), я Senior Python разработчик с более чем четырёхлетним опытом коммерческой разработки. Окончил БГУИР по специальности \"Программное обеспечение информационных технологий\" в 2022 году. За это время я успел поработать над несколькими масштабными проектами, где активно применял стек Python и современные технологии.\nМоя основная экспертиза лежит в области backend-разработки на Python с использованием Django, FastAPI, DRF и других фреймворков. Также имею опыт в построении микросервисной архитектуры, оптимизации производительности, работе с брокерами сообщений (Kafka, RabbitMQ), а также настройке CI/CD процессов и деплоя через Docker и Kubernetes. Я знаком с облачной инфраструктурой AWS и активно применяю инструменты для автоматизации и масштабирования.\nМой тг для связи – @petr_nesterr",
+    "education": "Уровень\nВысшее образование\nБелорусский государственный университет информатики и радиоэлектроники, Минск\nФакультет компьютерных систем и сетей, Программное обеспечение информационных технологий\n•\n2022\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь, Россия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №161\nРезюме: Senior Python разработчик\n\nСопроводительное письмо\nЗдравствуйте! Ознакомился с Вашей вакансией. У меня есть опыт работы со всеми указанными технологиями. Могли бы созвониться и продолжить общение по вакансии? (tg: @petr_nesterr)\n\nОпыт работы\nОпыт работы: 5 лет 9 месяцев\nОпыт в похожих должностях:5 лет 9 месяцев\nФев 2021 -\nсейчас\n5 лет 9 мес\nОрганизация 1\nАлматы\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nСтек:\nPython 3.x, Django, FastAPi, DRF, Kafka, pytest, Docker, Docker-compose, GitLab, Celery, Celery-Beat, Websocket, Postgres, NGINX, AWS (Lambda, S3, EC2, RDS, ELB, SES, SQS, ECS), boto3, SQlAlchemy, Alembic, Pydantic\nЗадачи:\n- Настройка обменников и очередей RabbitMQ\n- Настройка реплик в PostgreSQL\n- Оптимизация работы Celery которая ускорила выполнение групп задач на 30%\n- Написание и оптимизация скриптов для Beautiful Soup\n- Упростил процесс анализа данных для сотрудников, что привело к снижению времени на обработку отчетов на 30%.\n- Настройка кэширования данных в Redis, что уменьшило нагрузку на сервер в среднем на 30%\n- Рефакторинг кода\n- Анализ безопасности приложения и устранение проблем\n\nНавыки\nПродвинутый уровень\nPython\nSQL\nFastAPI\nDjango Framework\nDjango Rest Framework\nDjango\nDRF\nБазы данных\nDocker\nDocker-compose\nAWS\nYandex Cloud\nMongoDB\nRedis\nBackend\nGit\nHTTP\nREST\nLinux\nPostgreSQL\nRabbitMQ\nKafka\nCI/CD\nKubernetes\npandas\nВнутренняя оптимизация сайта\nРабота с базами данных\nHTML\nСредний уровень\nCSS\nJava\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nМеня зовут Пётр Нестер (@petr_nesterr), я Senior Python разработчик с более чем четырёхлетним опытом коммерческой разработки. Окончил БГУИР по специальности \"Программное обеспечение информационных технологий\" в 2022 году. За это время я успел поработать над несколькими масштабными проектами, где активно применял стек Python и современные технологии.\nМоя основная экспертиза лежит в области backend-разработки на Python с использованием Django, FastAPI, DRF и других фреймворков. Также имею опыт в построении микросервисной архитектуры, оптимизации производительности, работе с брокерами сообщений (Kafka, RabbitMQ), а также настройке CI/CD процессов и деплоя через Docker и Kubernetes. Я знаком с облачной инфраструктурой AWS и активно применяю инструменты для автоматизации и масштабирования.\nМой тг для связи – @petr_nesterr\n\nОбразование\nУровень\nВысшее образование\nБелорусский государственный университет информатики и радиоэлектроники, Минск\nФакультет компьютерных систем и сетей, Программное обеспечение информационных технологий\n•\n2022\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь, Россия\n"
+}

@@ -1,0 +1,141 @@
+{
+  "candidate_id": 197,
+  "resume_title": "Junior Python разработчик",
+  "cover_letter": null,
+  "experience_total_months": 41,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2023-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 41,
+      "organization": "Организация 1",
+      "position": "Асессор",
+      "employer_details": [
+        "Москва"
+      ],
+      "description": "- Анализ результатов работы алгоритмов;\n- Разметка ошибок;\n- Оценка контента;\n- Проверка соблюдения требований качества.",
+      "original": "Июн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nМосква\nАсессор\n- Анализ результатов работы алгоритмов;\n- Разметка ошибок;\n- Оценка контента;\n- Проверка соблюдения требований качества."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "Redis",
+      "level": "basic",
+      "original": "Redis"
+    },
+    {
+      "name": "Celery",
+      "level": "basic",
+      "original": "Celery"
+    },
+    {
+      "name": "pytest",
+      "level": "basic",
+      "original": "Pytest"
+    },
+    {
+      "name": "Linux",
+      "level": "basic",
+      "original": "Linux"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "tg: @v_amanova\nИщу позицию Junior Python разработчика в команде, где смогу применять и развивать навыки backend-разработки с использованием Python, FastAPI, SQL и Docker.\nПроекты:\nEcoTrack - Веб-приложение для мониторинга качества воздуха\nGitHub: github.com/vilenaamanova/ecotrack\nВеб-сервис, позволяющий пользователям отслеживать качество воздуха в реальном времени по интерактивной карте.\nТехнологии:\n- Frontend: React, Leaflet.\n- Backend: Python, FastAPI.\n- Данные: OpenWeather API.\nНавыки:\n- Full-stack разработка (React, FastAPI).\n- Интеграция с API (OpenWeather).\n- Обработка и визуализация данных.",
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "ПИШ ИТМО",
+      "details": [
+        "Разработчик ПО"
+      ],
+      "year": 2025,
+      "level": "Высшее образование (Магистр)",
+      "original": "ПИШ ИТМО\nРазработчик ПО\n•\n2025\n•\nВысшее образование (Магистр)"
+    },
+    {
+      "institution": "Казанский (Приволжский) федеральный университет, Казань",
+      "details": [
+        "Институт физики, Радиофизика"
+      ],
+      "year": 2021,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Казанский (Приволжский) федеральный университет, Казань\nИнститут физики, Радиофизика\n•\n2021\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готова к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №197\nРезюме: Junior Python разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 5 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nМосква\nАсессор\n- Анализ результатов работы алгоритмов;\n- Разметка ошибок;\n- Оценка контента;\n- Проверка соблюдения требований качества.",
+    "skills": "Продвинутый уровень\nАнглийский язык\nСредний уровень\nPython\nPostgreSQL\nGit\nFastAPI\nSQL\nSQLAlchemy\nБазовый уровень\nDocker\nRedis\nCelery\nPytest\nLinux",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "tg: @v_amanova\nИщу позицию Junior Python разработчика в команде, где смогу применять и развивать навыки backend-разработки с использованием Python, FastAPI, SQL и Docker.\nПроекты:\nEcoTrack - Веб-приложение для мониторинга качества воздуха\nGitHub: github.com/vilenaamanova/ecotrack\nВеб-сервис, позволяющий пользователям отслеживать качество воздуха в реальном времени по интерактивной карте.\nТехнологии:\n- Frontend: React, Leaflet.\n- Backend: Python, FastAPI.\n- Данные: OpenWeather API.\nНавыки:\n- Full-stack разработка (React, FastAPI).\n- Интеграция с API (OpenWeather).\n- Обработка и визуализация данных.",
+    "education": "Уровень\nВысшее образование (Магистр)\nПИШ ИТМО\nРазработчик ПО\n•\n2025\n•\nВысшее образование (Магистр)\nКазанский (Приволжский) федеральный университет, Казань\nИнститут физики, Радиофизика\n•\n2021\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №197\nРезюме: Junior Python разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 5 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nМосква\nАсессор\n- Анализ результатов работы алгоритмов;\n- Разметка ошибок;\n- Оценка контента;\n- Проверка соблюдения требований качества.\n\nНавыки\nПродвинутый уровень\nАнглийский язык\nСредний уровень\nPython\nPostgreSQL\nGit\nFastAPI\nSQL\nSQLAlchemy\nБазовый уровень\nDocker\nRedis\nCelery\nPytest\nLinux\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\ntg: @v_amanova\nИщу позицию Junior Python разработчика в команде, где смогу применять и развивать навыки backend-разработки с использованием Python, FastAPI, SQL и Docker.\nПроекты:\nEcoTrack - Веб-приложение для мониторинга качества воздуха\nGitHub: github.com/vilenaamanova/ecotrack\nВеб-сервис, позволяющий пользователям отслеживать качество воздуха в реальном времени по интерактивной карте.\nТехнологии:\n- Frontend: React, Leaflet.\n- Backend: Python, FastAPI.\n- Данные: OpenWeather API.\nНавыки:\n- Full-stack разработка (React, FastAPI).\n- Интеграция с API (OpenWeather).\n- Обработка и визуализация данных.\n\nОбразование\nУровень\nВысшее образование (Магистр)\nПИШ ИТМО\nРазработчик ПО\n•\n2025\n•\nВысшее образование (Магистр)\nКазанский (Приволжский) федеральный университет, Казань\nИнститут физики, Радиофизика\n•\n2021\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

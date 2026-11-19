@@ -1,0 +1,82 @@
+{
+  "candidate_id": 34,
+  "resume_title": "Fullstack-разработчик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "PHP",
+      "level": null,
+      "original": "PHP"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "phpMyAdmin",
+      "level": null,
+      "original": "phpMyAdmin"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Я — талантливый разработчик, владеющий как frontend, так и backend технологиями. Ваш арсенал включает PHP, HTML, CSS, JavaScript и TypeScript для создания современных веб-интерфейсов. Python позволяет решать задачи, требующие гибкости и автоматизации, а знание Git и phpMyAdmin обеспечивает эффективную работу с кодом и базами данных. Смог создать сайт, где можно создать рекламу с помощью ИИ - master-r.su.",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №34\nРезюме: Fullstack-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "PHP\nHTML\nCSS\nJavaScript\nTypeScript\nPython\nGit\nphpMyAdmin",
+    "languages": "Родной\nРусский",
+    "about_me": "Я — талантливый разработчик, владеющий как frontend, так и backend технологиями. Ваш арсенал включает PHP, HTML, CSS, JavaScript и TypeScript для создания современных веб-интерфейсов. Python позволяет решать задачи, требующие гибкости и автоматизации, а знание Git и phpMyAdmin обеспечивает эффективную работу с кодом и базами данных. Смог создать сайт, где можно создать рекламу с помощью ИИ - master-r.su.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №34\nРезюме: Fullstack-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nPHP\nHTML\nCSS\nJavaScript\nTypeScript\nPython\nGit\nphpMyAdmin\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nЯ — талантливый разработчик, владеющий как frontend, так и backend технологиями. Ваш арсенал включает PHP, HTML, CSS, JavaScript и TypeScript для создания современных веб-интерфейсов. Python позволяет решать задачи, требующие гибкости и автоматизации, а знание Git и phpMyAdmin обеспечивает эффективную работу с кодом и базами данных. Смог создать сайт, где можно создать рекламу с помощью ИИ - master-r.su.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

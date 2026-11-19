@@ -1,0 +1,226 @@
+{
+  "candidate_id": 285,
+  "resume_title": "Программист",
+  "cover_letter": "ИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было",
+  "experience_total_months": 55,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2022-04",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 55,
+      "organization": "Организация 1",
+      "position": "специалист-стажер",
+      "employer_details": [
+        "Нижний Новгородwww.gazgroup.ru",
+        "Автомобильный бизнес"
+      ],
+      "description": "Разработка автоматизированной системы электронного документооборота на языке C#, связанной с программой DocsVision 5.5, формулировка запросов на MS SQL\nПроходил курсы \"Oracle Database 12c R2: SQL and PL/SQL Fundamentals\", \"Программирование на С# с использованием Microsoft .NET Framework 4\", \"Программирование на С#. Продвинутый уровень – часть I\", \"Программирование на С#. Продвинутый уровень – часть II\"\nПобедитель хакатона \"Академия IT\" ООО \"ГАЗ-ИТСЕРВИС\"",
+      "original": "Апр 2022 -\nсейчас\n4 года 7 мес\nОрганизация 1\nНижний Новгородwww.gazgroup.ru\nАвтомобильный бизнес\nспециалист-стажер\nРазработка автоматизированной системы электронного документооборота на языке C#, связанной с программой DocsVision 5.5, формулировка запросов на MS SQL\nПроходил курсы \"Oracle Database 12c R2: SQL and PL/SQL Fundamentals\", \"Программирование на С# с использованием Microsoft .NET Framework 4\", \"Программирование на С#. Продвинутый уровень – часть I\", \"Программирование на С#. Продвинутый уровень – часть II\"\nПобедитель хакатона \"Академия IT\" ООО \"ГАЗ-ИТСЕРВИС\""
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "Работа с базами данных",
+      "level": null,
+      "original": "Работа с базами данных"
+    },
+    {
+      "name": "Аналитическое мышление",
+      "level": null,
+      "original": "Аналитическое мышление"
+    },
+    {
+      "name": "C++",
+      "level": null,
+      "original": "C++"
+    },
+    {
+      "name": "C/C++",
+      "level": null,
+      "original": "C/C++"
+    },
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "C#",
+      "level": null,
+      "original": "C#"
+    },
+    {
+      "name": "MS SQL",
+      "level": null,
+      "original": "MS SQL"
+    },
+    {
+      "name": "Базы данных",
+      "level": null,
+      "original": "Базы данных"
+    },
+    {
+      "name": "СУБД",
+      "level": null,
+      "original": "СУБД"
+    },
+    {
+      "name": "MS Visual Studio",
+      "level": null,
+      "original": "MS Visual Studio"
+    },
+    {
+      "name": "Qt",
+      "level": null,
+      "original": "Qt"
+    },
+    {
+      "name": "Java",
+      "level": null,
+      "original": "Java"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "ООП",
+      "level": null,
+      "original": "ООП"
+    },
+    {
+      "name": ".NET Framework",
+      "level": null,
+      "original": ".NET Framework"
+    },
+    {
+      "name": ".NET Core",
+      "level": null,
+      "original": ".NET Core"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "ADO.NET",
+      "level": null,
+      "original": "ADO.NET"
+    },
+    {
+      "name": "pandas",
+      "level": null,
+      "original": "pandas"
+    },
+    {
+      "name": "NumPy",
+      "level": null,
+      "original": "Numpy"
+    },
+    {
+      "name": "ASP.NET",
+      "level": null,
+      "original": "ASP.NET"
+    },
+    {
+      "name": "1С",
+      "level": null,
+      "original": "1С"
+    },
+    {
+      "name": "1С программирование",
+      "level": null,
+      "original": "1С программирование"
+    },
+    {
+      "name": "Оптимизация кода",
+      "level": null,
+      "original": "Оптимизация кода"
+    },
+    {
+      "name": "Обновление конфигурации 1С",
+      "level": null,
+      "original": "Обновление конфигурации 1С"
+    },
+    {
+      "name": "1С: Предприятие 8",
+      "level": null,
+      "original": "1С: Предприятие 8"
+    },
+    {
+      "name": "простые формы",
+      "level": null,
+      "original": "простые формы"
+    },
+    {
+      "name": "печатные формы",
+      "level": null,
+      "original": "печатные формы"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "ОС, C++, Java, Microsoft C-SHARP, Microsoft Windows, PostgreSQL, SQL",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Вятский государственный университет",
+      "details": [
+        "Vysshee программист"
+      ],
+      "year": 2021,
+      "level": "Высшее образование",
+      "original": "Вятский государственный университет\nVysshee программист\n•\n2021\n•\nВысшее образование"
+    },
+    {
+      "institution": "Вятский государственный университет",
+      "details": [
+        "Высшее"
+      ],
+      "year": 2021,
+      "level": "Высшее образование",
+      "original": "Вятский государственный университет\nВысшее\n•\n2021\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №285\nРезюме: Программист",
+    "cover_letter": "ИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было",
+    "experience": "Опыт работы: 4 года 7 месяцев\nАпр 2022 -\nсейчас\n4 года 7 мес\nОрганизация 1\nНижний Новгородwww.gazgroup.ru\nАвтомобильный бизнес\nспециалист-стажер\nРазработка автоматизированной системы электронного документооборота на языке C#, связанной с программой DocsVision 5.5, формулировка запросов на MS SQL\nПроходил курсы \"Oracle Database 12c R2: SQL and PL/SQL Fundamentals\", \"Программирование на С# с использованием Microsoft .NET Framework 4\", \"Программирование на С#. Продвинутый уровень – часть I\", \"Программирование на С#. Продвинутый уровень – часть II\"\nПобедитель хакатона \"Академия IT\" ООО \"ГАЗ-ИТСЕРВИС\"",
+    "skills": "SQL\nРабота с базами данных\nАналитическое мышление\nC++\nC/C++\nPython\nPostgreSQL\nC#\nMS SQL\nБазы данных\nСУБД\nMS Visual Studio\nQt\nJava\nLinux\nООП\n.NET Framework\n.NET Core\nGit\nADO.NET\npandas\nNumpy\nASP.NET\n1С\n1С программирование\nОптимизация кода\nОбновление конфигурации 1С\n1С: Предприятие 8\nпростые формы\nпечатные формы",
+    "languages": "Родной\nРусский",
+    "about_me": "ОС, C++, Java, Microsoft C-SHARP, Microsoft Windows, PostgreSQL, SQL",
+    "education": "Уровень\nВысшее образование\nВятский государственный университет\nVysshee программист\n•\n2021\n•\nВысшее образование\nВятский государственный университет\nВысшее\n•\n2021\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №285\nРезюме: Программист\n\nСопроводительное письмо\nИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было\n\nОпыт работы\nОпыт работы: 4 года 7 месяцев\nАпр 2022 -\nсейчас\n4 года 7 мес\nОрганизация 1\nНижний Новгородwww.gazgroup.ru\nАвтомобильный бизнес\nспециалист-стажер\nРазработка автоматизированной системы электронного документооборота на языке C#, связанной с программой DocsVision 5.5, формулировка запросов на MS SQL\nПроходил курсы \"Oracle Database 12c R2: SQL and PL/SQL Fundamentals\", \"Программирование на С# с использованием Microsoft .NET Framework 4\", \"Программирование на С#. Продвинутый уровень – часть I\", \"Программирование на С#. Продвинутый уровень – часть II\"\nПобедитель хакатона \"Академия IT\" ООО \"ГАЗ-ИТСЕРВИС\"\n\nНавыки\nSQL\nРабота с базами данных\nАналитическое мышление\nC++\nC/C++\nPython\nPostgreSQL\nC#\nMS SQL\nБазы данных\nСУБД\nMS Visual Studio\nQt\nJava\nLinux\nООП\n.NET Framework\n.NET Core\nGit\nADO.NET\npandas\nNumpy\nASP.NET\n1С\n1С программирование\nОптимизация кода\nОбновление конфигурации 1С\n1С: Предприятие 8\nпростые формы\nпечатные формы\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nОС, C++, Java, Microsoft C-SHARP, Microsoft Windows, PostgreSQL, SQL\n\nОбразование\nУровень\nВысшее образование\nВятский государственный университет\nVysshee программист\n•\n2021\n•\nВысшее образование\nВятский государственный университет\nВысшее\n•\n2021\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

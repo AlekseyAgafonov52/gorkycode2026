@@ -1,0 +1,248 @@
+{
+  "candidate_id": 180,
+  "resume_title": "Python Backend Developer | Data Analyst | QA",
+  "cover_letter": null,
+  "experience_total_months": 39,
+  "similar_experience_months": 39,
+  "work_experience": [
+    {
+      "start_date": "2023-03",
+      "end_date": "2024-12",
+      "is_current": false,
+      "duration_months": 22,
+      "organization": "Организация 1",
+      "position": "Python Developer",
+      "employer_details": [
+        "Москваrtk-soft.ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разработка высоконагруженной платформы для автоматизации бизнес-процессов крупного предприятия.\nКлючевые достижения:\nСпроектировал и внедрил микросервисную архитектуру на основе FastAPI и Kafka, что позволило горизонтально масштабировать систему и повысить отказоустойчивость.\nОптимизация производительности: Сократил время выполнения ключевых SQL-запросов на 40% за счет глубокой оптимизации (шардирование, индексы, анализ через EXPLAIN ANALYZE). Реализовал кэширование в Redis, снизив нагрузку на БД на 60%.\nРазработка RPA-решений: Полностью автоматизировал процесс согласования отпусков через интеграцию с Telegram Bot API и 1C (с использованием aiohttp и asyncio), что сократило manual труд на 30%.\nML-интеграция: Внедрил сервис для классификации входящих обращений с использованием BERT (transformers, PyTorch) и векторной БД Qdrant, автоматизируя маршрутизацию заявок.\nИнфраструктура: Полностью перевел проекты на Docker и Kubernetes (k8s), настроил CI/CD в GitLab для автоматического тестирования и деплоя в Yandex Cloud. Настроил мониторинг через Grafana и Prometheus.\nСтек: Python, FastAPI, SQLAlchemy, AIOHTTP, Asyncio, PostgreSQL, Kafka, Redis, Docker, Kubernetes, Yandex Cloud, GitLab CI/CD, PyTorch, Scikit-learn, Pandas, Polars.",
+      "original": "Мар 2023 -\nДек 2024\n1 год 10 мес\nОрганизация 1\nМоскваrtk-soft.ru/\nИнформационные технологии, системная интеграция, интернет\nPython Developer\nРазработка высоконагруженной платформы для автоматизации бизнес-процессов крупного предприятия.\nКлючевые достижения:\nСпроектировал и внедрил микросервисную архитектуру на основе FastAPI и Kafka, что позволило горизонтально масштабировать систему и повысить отказоустойчивость.\nОптимизация производительности: Сократил время выполнения ключевых SQL-запросов на 40% за счет глубокой оптимизации (шардирование, индексы, анализ через EXPLAIN ANALYZE). Реализовал кэширование в Redis, снизив нагрузку на БД на 60%.\nРазработка RPA-решений: Полностью автоматизировал процесс согласования отпусков через интеграцию с Telegram Bot API и 1C (с использованием aiohttp и asyncio), что сократило manual труд на 30%.\nML-интеграция: Внедрил сервис для классификации входящих обращений с использованием BERT (transformers, PyTorch) и векторной БД Qdrant, автоматизируя маршрутизацию заявок.\nИнфраструктура: Полностью перевел проекты на Docker и Kubernetes (k8s), настроил CI/CD в GitLab для автоматического тестирования и деплоя в Yandex Cloud. Настроил мониторинг через Grafana и Prometheus.\nСтек: Python, FastAPI, SQLAlchemy, AIOHTTP, Asyncio, PostgreSQL, Kafka, Redis, Docker, Kubernetes, Yandex Cloud, GitLab CI/CD, PyTorch, Scikit-learn, Pandas, Polars."
+    },
+    {
+      "start_date": "2022-06",
+      "end_date": "2023-03",
+      "is_current": false,
+      "duration_months": 10,
+      "organization": "Организация 2",
+      "position": "Python Developer / ML Engineer",
+      "employer_details": [
+        "Москваonline.top-academy.ru/"
+      ],
+      "description": "Разработка образовательных программ и внутренней IT-инфраструктуры с элементами Data Science.\nКлючевые достижения:\nРазработал и запустил курс по \"Промышленной разработке на Python и основам MLOps\".\nСоздал ML-модель для прогнозирования успеваемости студентов на основе их активности, используя Pandas, Matplotlib и CatBoost.\nПостроил асинхронного Telegram-бота на Aiogram для проверки заданий с интеграцией в OpenAI GPT API для генерации персональных рекомендаций.\nВнедрил систему Docker-контейнеризации для учебных сред, унифицировав процесс запуска проектов.\nСтек: Python, Django, Flask, PostgreSQL, Docker, RabbitMQ, Celery, Aiogram, Pandas, Sklearn, CatBoost, OpenAI API.",
+      "original": "Июн 2022 -\nМар 2023\n10 мес\nОрганизация 2\nМоскваonline.top-academy.ru/\nPython Developer / ML Engineer\nРазработка образовательных программ и внутренней IT-инфраструктуры с элементами Data Science.\nКлючевые достижения:\nРазработал и запустил курс по \"Промышленной разработке на Python и основам MLOps\".\nСоздал ML-модель для прогнозирования успеваемости студентов на основе их активности, используя Pandas, Matplotlib и CatBoost.\nПостроил асинхронного Telegram-бота на Aiogram для проверки заданий с интеграцией в OpenAI GPT API для генерации персональных рекомендаций.\nВнедрил систему Docker-контейнеризации для учебных сред, унифицировав процесс запуска проектов.\nСтек: Python, Django, Flask, PostgreSQL, Docker, RabbitMQ, Celery, Aiogram, Pandas, Sklearn, CatBoost, OpenAI API."
+    },
+    {
+      "start_date": "2021-10",
+      "end_date": "2022-05",
+      "is_current": false,
+      "duration_months": 8,
+      "organization": "Организация 3",
+      "position": "Full-Stack Python Developer",
+      "employer_details": [
+        "Москваwww.itrex.ru",
+        "Услуги для бизнеса"
+      ],
+      "description": "Разработка и поддержка веб-сервисов для внутренних и клиентских нужд.\nКлючевые достижения:\nРазработал систему интеграции с API переводчиков (Google Translate, Yandex.Translate) и платежных систем (YooKassa, Stripe).\nСпроектировал и реализовал ETL-пайплайны для обработки лингвистических данных с использованием Apache Airflow.\nОптимизировал работу основного приложения, снизив время ответа API на 35% за счет индексации БД и кэширования.\nРеализовал панель управления на Vue.js (знания уровня чтения/доработки кода) для отображения аналитики переводов.\nСтек: Python, Django, Flask, PostgreSQL, Vue.js, Docker, Apache Airflow, REST API, Pandas, BeautifulSoup.",
+      "original": "Окт 2021 -\nМай 2022\n8 мес\nОрганизация 3\nМоскваwww.itrex.ru\nУслуги для бизнеса\nFull-Stack Python Developer\nРазработка и поддержка веб-сервисов для внутренних и клиентских нужд.\nКлючевые достижения:\nРазработал систему интеграции с API переводчиков (Google Translate, Yandex.Translate) и платежных систем (YooKassa, Stripe).\nСпроектировал и реализовал ETL-пайплайны для обработки лингвистических данных с использованием Apache Airflow.\nОптимизировал работу основного приложения, снизив время ответа API на 35% за счет индексации БД и кэширования.\nРеализовал панель управления на Vue.js (знания уровня чтения/доработки кода) для отображения аналитики переводов.\nСтек: Python, Django, Flask, PostgreSQL, Vue.js, Docker, Apache Airflow, REST API, Pandas, BeautifulSoup."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "MS SQL",
+      "level": null,
+      "original": "MS SQL"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": null,
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Flask",
+      "level": null,
+      "original": "Flask"
+    },
+    {
+      "name": "Kafka",
+      "level": null,
+      "original": "Kafka"
+    },
+    {
+      "name": "Data Analysis",
+      "level": null,
+      "original": "Data Analysis"
+    },
+    {
+      "name": "Clickhouse",
+      "level": null,
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "pandas",
+      "level": null,
+      "original": "pandas"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "DevOps",
+      "level": null,
+      "original": "DevOps"
+    },
+    {
+      "name": "NoSQL",
+      "level": null,
+      "original": "NoSQL"
+    },
+    {
+      "name": "Kanban",
+      "level": null,
+      "original": "Kanban"
+    },
+    {
+      "name": "MSSQL",
+      "level": null,
+      "original": "MSSQL"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Backend",
+      "level": null,
+      "original": "Backend"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Уважаемые рекрутеры, для оперативной связи прошу использовать Telegram.\nИщу позиции: Python Backend Developer | Data Analyst | QA\nПримечание: направления ML/MLOps в данный момент не рассматриваю\nКонтакты:\nTelegram: @EvilResurgence\nvlad.shagay01@gmail.com\nНавыки:\nPython (asyncio, aiohttp), FastAPI, Django, Flask, PostgreSQL, Redis, Kafka, Docker, Kubernetes, AWS, GitLab CI/CD, PyTorch, Pandas, Git, Linux.\nКлючевые проекты:\n- Разработка ML-пайплаина с нуля (FastAPI, PyTorch, Kubernetes)\n- Оптимизация API: увеличение с 200 до 1200 RPS\n- Внедрение MLOps: CI/CD для автоматического переобучения моделей",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "РГСУ",
+      "details": [],
+      "year": 2023,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "РГСУ\n2023\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №180\nРезюме: Python Backend Developer | Data Analyst | QA",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 3 месяца\nОпыт в похожих должностях:3 года 3 месяца\nМар 2023 -\nДек 2024\n1 год 10 мес\nОрганизация 1\nМоскваrtk-soft.ru/\nИнформационные технологии, системная интеграция, интернет\nPython Developer\nРазработка высоконагруженной платформы для автоматизации бизнес-процессов крупного предприятия.\nКлючевые достижения:\nСпроектировал и внедрил микросервисную архитектуру на основе FastAPI и Kafka, что позволило горизонтально масштабировать систему и повысить отказоустойчивость.\nОптимизация производительности: Сократил время выполнения ключевых SQL-запросов на 40% за счет глубокой оптимизации (шардирование, индексы, анализ через EXPLAIN ANALYZE). Реализовал кэширование в Redis, снизив нагрузку на БД на 60%.\nРазработка RPA-решений: Полностью автоматизировал процесс согласования отпусков через интеграцию с Telegram Bot API и 1C (с использованием aiohttp и asyncio), что сократило manual труд на 30%.\nML-интеграция: Внедрил сервис для классификации входящих обращений с использованием BERT (transformers, PyTorch) и векторной БД Qdrant, автоматизируя маршрутизацию заявок.\nИнфраструктура: Полностью перевел проекты на Docker и Kubernetes (k8s), настроил CI/CD в GitLab для автоматического тестирования и деплоя в Yandex Cloud. Настроил мониторинг через Grafana и Prometheus.\nСтек: Python, FastAPI, SQLAlchemy, AIOHTTP, Asyncio, PostgreSQL, Kafka, Redis, Docker, Kubernetes, Yandex Cloud, GitLab CI/CD, PyTorch, Scikit-learn, Pandas, Polars.\nИюн 2022 -\nМар 2023\n10 мес\nОрганизация 2\nМоскваonline.top-academy.ru/\nPython Developer / ML Engineer\nРазработка образовательных программ и внутренней IT-инфраструктуры с элементами Data Science.\nКлючевые достижения:\nРазработал и запустил курс по \"Промышленной разработке на Python и основам MLOps\".\nСоздал ML-модель для прогнозирования успеваемости студентов на основе их активности, используя Pandas, Matplotlib и CatBoost.\nПостроил асинхронного Telegram-бота на Aiogram для проверки заданий с интеграцией в OpenAI GPT API для генерации персональных рекомендаций.\nВнедрил систему Docker-контейнеризации для учебных сред, унифицировав процесс запуска проектов.\nСтек: Python, Django, Flask, PostgreSQL, Docker, RabbitMQ, Celery, Aiogram, Pandas, Sklearn, CatBoost, OpenAI API.\nОкт 2021 -\nМай 2022\n8 мес\nОрганизация 3\nМоскваwww.itrex.ru\nУслуги для бизнеса\nFull-Stack Python Developer\nРазработка и поддержка веб-сервисов для внутренних и клиентских нужд.\nКлючевые достижения:\nРазработал систему интеграции с API переводчиков (Google Translate, Yandex.Translate) и платежных систем (YooKassa, Stripe).\nСпроектировал и реализовал ETL-пайплайны для обработки лингвистических данных с использованием Apache Airflow.\nОптимизировал работу основного приложения, снизив время ответа API на 35% за счет индексации БД и кэширования.\nРеализовал панель управления на Vue.js (знания уровня чтения/доработки кода) для отображения аналитики переводов.\nСтек: Python, Django, Flask, PostgreSQL, Vue.js, Docker, Apache Airflow, REST API, Pandas, BeautifulSoup.",
+    "skills": "Python\nSQL\nPostgreSQL\nLinux\nGit\nDjango Framework\nDocker\nMySQL\nRedis\nMS SQL\nMongoDB\nRabbitMQ\nHTML\nFlask\nKafka\nData Analysis\nClickhouse\nNginx\nAPI\nGitlab\npandas\nCelery\nGitHub\nDevOps\nNoSQL\nKanban\nMSSQL\nREST API\nBackend\nREST",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Уважаемые рекрутеры, для оперативной связи прошу использовать Telegram.\nИщу позиции: Python Backend Developer | Data Analyst | QA\nПримечание: направления ML/MLOps в данный момент не рассматриваю\nКонтакты:\nTelegram: @EvilResurgence\nvlad.shagay01@gmail.com\nНавыки:\nPython (asyncio, aiohttp), FastAPI, Django, Flask, PostgreSQL, Redis, Kafka, Docker, Kubernetes, AWS, GitLab CI/CD, PyTorch, Pandas, Git, Linux.\nКлючевые проекты:\n- Разработка ML-пайплаина с нуля (FastAPI, PyTorch, Kubernetes)\n- Оптимизация API: увеличение с 200 до 1200 RPS\n- Внедрение MLOps: CI/CD для автоматического переобучения моделей",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nРГСУ\n2023\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №180\nРезюме: Python Backend Developer | Data Analyst | QA\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 3 месяца\nОпыт в похожих должностях:3 года 3 месяца\nМар 2023 -\nДек 2024\n1 год 10 мес\nОрганизация 1\nМоскваrtk-soft.ru/\nИнформационные технологии, системная интеграция, интернет\nPython Developer\nРазработка высоконагруженной платформы для автоматизации бизнес-процессов крупного предприятия.\nКлючевые достижения:\nСпроектировал и внедрил микросервисную архитектуру на основе FastAPI и Kafka, что позволило горизонтально масштабировать систему и повысить отказоустойчивость.\nОптимизация производительности: Сократил время выполнения ключевых SQL-запросов на 40% за счет глубокой оптимизации (шардирование, индексы, анализ через EXPLAIN ANALYZE). Реализовал кэширование в Redis, снизив нагрузку на БД на 60%.\nРазработка RPA-решений: Полностью автоматизировал процесс согласования отпусков через интеграцию с Telegram Bot API и 1C (с использованием aiohttp и asyncio), что сократило manual труд на 30%.\nML-интеграция: Внедрил сервис для классификации входящих обращений с использованием BERT (transformers, PyTorch) и векторной БД Qdrant, автоматизируя маршрутизацию заявок.\nИнфраструктура: Полностью перевел проекты на Docker и Kubernetes (k8s), настроил CI/CD в GitLab для автоматического тестирования и деплоя в Yandex Cloud. Настроил мониторинг через Grafana и Prometheus.\nСтек: Python, FastAPI, SQLAlchemy, AIOHTTP, Asyncio, PostgreSQL, Kafka, Redis, Docker, Kubernetes, Yandex Cloud, GitLab CI/CD, PyTorch, Scikit-learn, Pandas, Polars.\nИюн 2022 -\nМар 2023\n10 мес\nОрганизация 2\nМоскваonline.top-academy.ru/\nPython Developer / ML Engineer\nРазработка образовательных программ и внутренней IT-инфраструктуры с элементами Data Science.\nКлючевые достижения:\nРазработал и запустил курс по \"Промышленной разработке на Python и основам MLOps\".\nСоздал ML-модель для прогнозирования успеваемости студентов на основе их активности, используя Pandas, Matplotlib и CatBoost.\nПостроил асинхронного Telegram-бота на Aiogram для проверки заданий с интеграцией в OpenAI GPT API для генерации персональных рекомендаций.\nВнедрил систему Docker-контейнеризации для учебных сред, унифицировав процесс запуска проектов.\nСтек: Python, Django, Flask, PostgreSQL, Docker, RabbitMQ, Celery, Aiogram, Pandas, Sklearn, CatBoost, OpenAI API.\nОкт 2021 -\nМай 2022\n8 мес\nОрганизация 3\nМоскваwww.itrex.ru\nУслуги для бизнеса\nFull-Stack Python Developer\nРазработка и поддержка веб-сервисов для внутренних и клиентских нужд.\nКлючевые достижения:\nРазработал систему интеграции с API переводчиков (Google Translate, Yandex.Translate) и платежных систем (YooKassa, Stripe).\nСпроектировал и реализовал ETL-пайплайны для обработки лингвистических данных с использованием Apache Airflow.\nОптимизировал работу основного приложения, снизив время ответа API на 35% за счет индексации БД и кэширования.\nРеализовал панель управления на Vue.js (знания уровня чтения/доработки кода) для отображения аналитики переводов.\nСтек: Python, Django, Flask, PostgreSQL, Vue.js, Docker, Apache Airflow, REST API, Pandas, BeautifulSoup.\n\nНавыки\nPython\nSQL\nPostgreSQL\nLinux\nGit\nDjango Framework\nDocker\nMySQL\nRedis\nMS SQL\nMongoDB\nRabbitMQ\nHTML\nFlask\nKafka\nData Analysis\nClickhouse\nNginx\nAPI\nGitlab\npandas\nCelery\nGitHub\nDevOps\nNoSQL\nKanban\nMSSQL\nREST API\nBackend\nREST\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nУважаемые рекрутеры, для оперативной связи прошу использовать Telegram.\nИщу позиции: Python Backend Developer | Data Analyst | QA\nПримечание: направления ML/MLOps в данный момент не рассматриваю\nКонтакты:\nTelegram: @EvilResurgence\nvlad.shagay01@gmail.com\nНавыки:\nPython (asyncio, aiohttp), FastAPI, Django, Flask, PostgreSQL, Redis, Kafka, Docker, Kubernetes, AWS, GitLab CI/CD, PyTorch, Pandas, Git, Linux.\nКлючевые проекты:\n- Разработка ML-пайплаина с нуля (FastAPI, PyTorch, Kubernetes)\n- Оптимизация API: увеличение с 200 до 1200 RPS\n- Внедрение MLOps: CI/CD для автоматического переобучения моделей\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nРГСУ\n2023\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

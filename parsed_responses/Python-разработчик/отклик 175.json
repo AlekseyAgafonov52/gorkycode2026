@@ -1,0 +1,203 @@
+{
+  "candidate_id": 175,
+  "resume_title": "Python Backend Developer",
+  "cover_letter": null,
+  "experience_total_months": 60,
+  "similar_experience_months": 60,
+  "work_experience": [
+    {
+      "start_date": "2021-11",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 60,
+      "organization": "Организация 1",
+      "position": "Backend-разработчик",
+      "employer_details": [
+        "Набережные Челныalabuga.ru",
+        "Государственные организации"
+      ],
+      "description": "- Работал в ССР (служба стратегического развития)\nРазработка образовательных бизнес-симуляций (50k+ пользователей) на микросервисной архитектуре.\n1. Снизил нагрузку на серверы Alabuga Trucks: рефакторинг асинхронных Celery-воркеров + кэширование в Redis → CPU utilization 78% → 32%\n2. Инициировал версионирование API (v1 → v2) для Business Cats: backward compatibility через Pydantic-валидаторы + миграция данных → -40% времени адаптации клиентов\n3. Мультиплеер \"Битва дронов\nРеализовал WebSocket-модуль для онлайн-игры (FastAPI + Starlette), обеспечив стабильную работу при 1k+ одновременных подключений.\nПровел нагрузочное тестирование через Locust, оптимизировав потребление памяти на 50% за счет перехода на MessagePack.\nИнтегрировал бэкенд с Unity-клиентом, сократив время разработки фич на 20%.\n4. Реализовал динамический балансировщик для Business Cats: интеграция FastAPI-сервиса с ML-моделями (NumPy) и BI-системой (ClickHouse)\nСтек:\nPython 3.10+, FastAPI, SQLAlchemy, PostgreSQL, Redis, Celery + RabbitMQ, WebSocket, Docker, Prometheus/Grafana, pytest, Locust",
+      "original": "Ноя 2021 -\nсейчас\n5 лет\nОрганизация 1\nНабережные Челныalabuga.ru\nГосударственные организации\nBackend-разработчик\n- Работал в ССР (служба стратегического развития)\nРазработка образовательных бизнес-симуляций (50k+ пользователей) на микросервисной архитектуре.\n1. Снизил нагрузку на серверы Alabuga Trucks: рефакторинг асинхронных Celery-воркеров + кэширование в Redis → CPU utilization 78% → 32%\n2. Инициировал версионирование API (v1 → v2) для Business Cats: backward compatibility через Pydantic-валидаторы + миграция данных → -40% времени адаптации клиентов\n3. Мультиплеер \"Битва дронов\nРеализовал WebSocket-модуль для онлайн-игры (FastAPI + Starlette), обеспечив стабильную работу при 1k+ одновременных подключений.\nПровел нагрузочное тестирование через Locust, оптимизировав потребление памяти на 50% за счет перехода на MessagePack.\nИнтегрировал бэкенд с Unity-клиентом, сократив время разработки фич на 20%.\n4. Реализовал динамический балансировщик для Business Cats: интеграция FastAPI-сервиса с ML-моделями (NumPy) и BI-системой (ClickHouse)\nСтек:\nPython 3.10+, FastAPI, SQLAlchemy, PostgreSQL, Redis, Celery + RabbitMQ, WebSocket, Docker, Prometheus/Grafana, pytest, Locust"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "СУБД",
+      "level": "advanced",
+      "original": "СУБД"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Базы данных",
+      "level": "advanced",
+      "original": "Базы данных"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Alembic",
+      "level": "advanced",
+      "original": "Alembic"
+    },
+    {
+      "name": "WebSocket",
+      "level": "advanced",
+      "original": "WebSocket"
+    },
+    {
+      "name": "Английский язык",
+      "level": "intermediate",
+      "original": "Английский язык"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "RESTful API"
+    },
+    {
+      "name": "pytest",
+      "level": "intermediate",
+      "original": "Pytest"
+    },
+    {
+      "name": "Unit Testing",
+      "level": "intermediate",
+      "original": "Unit Testing"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "intermediate",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    },
+    {
+      "name": "Prometheus",
+      "level": "intermediate",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Grafana",
+      "level": "intermediate",
+      "original": "Grafana"
+    },
+    {
+      "name": "Locust",
+      "level": "intermediate",
+      "original": "Locust"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "tg - @bymooly\nemail - prusarch@mail.ru\ngit - https://github.com/lansqe",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Самарский национальный исследовательский университет имени академика С.П. Королева, Самара",
+      "details": [
+        "Прикладная математика и программирование, Прикладная математика и программирование"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "Самарский национальный исследовательский университет имени академика С.П. Королева, Самара\nПрикладная математика и программирование, Прикладная математика и программирование\n•\n2022\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №175\nРезюме: Python Backend Developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 5 лет\nОпыт в похожих должностях:5 лет\nНоя 2021 -\nсейчас\n5 лет\nОрганизация 1\nНабережные Челныalabuga.ru\nГосударственные организации\nBackend-разработчик\n- Работал в ССР (служба стратегического развития)\nРазработка образовательных бизнес-симуляций (50k+ пользователей) на микросервисной архитектуре.\n1. Снизил нагрузку на серверы Alabuga Trucks: рефакторинг асинхронных Celery-воркеров + кэширование в Redis → CPU utilization 78% → 32%\n2. Инициировал версионирование API (v1 → v2) для Business Cats: backward compatibility через Pydantic-валидаторы + миграция данных → -40% времени адаптации клиентов\n3. Мультиплеер \"Битва дронов\nРеализовал WebSocket-модуль для онлайн-игры (FastAPI + Starlette), обеспечив стабильную работу при 1k+ одновременных подключений.\nПровел нагрузочное тестирование через Locust, оптимизировав потребление памяти на 50% за счет перехода на MessagePack.\nИнтегрировал бэкенд с Unity-клиентом, сократив время разработки фич на 20%.\n4. Реализовал динамический балансировщик для Business Cats: интеграция FastAPI-сервиса с ML-моделями (NumPy) и BI-системой (ClickHouse)\nСтек:\nPython 3.10+, FastAPI, SQLAlchemy, PostgreSQL, Redis, Celery + RabbitMQ, WebSocket, Docker, Prometheus/Grafana, pytest, Locust",
+    "skills": "Продвинутый уровень\nGit\nPostgreSQL\nPython\nSQL\nСУБД\nDocker\nRedis\nAPI\nGitHub\nREST API\nFastAPI\nRabbitMQ\nLinux\nБазы данных\nSQLAlchemy\nAlembic\nWebSocket\nСредний уровень\nАнглийский язык\nRESTful API\nPytest\nUnit Testing\nClickhouse\nCelery\nPrometheus\nGrafana\nLocust",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "tg - @bymooly\nemail - prusarch@mail.ru\ngit - https://github.com/lansqe",
+    "education": "Уровень\nВысшее образование\nСамарский национальный исследовательский университет имени академика С.П. Королева, Самара\nПрикладная математика и программирование, Прикладная математика и программирование\n•\n2022\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №175\nРезюме: Python Backend Developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 5 лет\nОпыт в похожих должностях:5 лет\nНоя 2021 -\nсейчас\n5 лет\nОрганизация 1\nНабережные Челныalabuga.ru\nГосударственные организации\nBackend-разработчик\n- Работал в ССР (служба стратегического развития)\nРазработка образовательных бизнес-симуляций (50k+ пользователей) на микросервисной архитектуре.\n1. Снизил нагрузку на серверы Alabuga Trucks: рефакторинг асинхронных Celery-воркеров + кэширование в Redis → CPU utilization 78% → 32%\n2. Инициировал версионирование API (v1 → v2) для Business Cats: backward compatibility через Pydantic-валидаторы + миграция данных → -40% времени адаптации клиентов\n3. Мультиплеер \"Битва дронов\nРеализовал WebSocket-модуль для онлайн-игры (FastAPI + Starlette), обеспечив стабильную работу при 1k+ одновременных подключений.\nПровел нагрузочное тестирование через Locust, оптимизировав потребление памяти на 50% за счет перехода на MessagePack.\nИнтегрировал бэкенд с Unity-клиентом, сократив время разработки фич на 20%.\n4. Реализовал динамический балансировщик для Business Cats: интеграция FastAPI-сервиса с ML-моделями (NumPy) и BI-системой (ClickHouse)\nСтек:\nPython 3.10+, FastAPI, SQLAlchemy, PostgreSQL, Redis, Celery + RabbitMQ, WebSocket, Docker, Prometheus/Grafana, pytest, Locust\n\nНавыки\nПродвинутый уровень\nGit\nPostgreSQL\nPython\nSQL\nСУБД\nDocker\nRedis\nAPI\nGitHub\nREST API\nFastAPI\nRabbitMQ\nLinux\nБазы данных\nSQLAlchemy\nAlembic\nWebSocket\nСредний уровень\nАнглийский язык\nRESTful API\nPytest\nUnit Testing\nClickhouse\nCelery\nPrometheus\nGrafana\nLocust\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\ntg - @bymooly\nemail - prusarch@mail.ru\ngit - https://github.com/lansqe\n\nОбразование\nУровень\nВысшее образование\nСамарский национальный исследовательский университет имени академика С.П. Королева, Самара\nПрикладная математика и программирование, Прикладная математика и программирование\n•\n2022\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

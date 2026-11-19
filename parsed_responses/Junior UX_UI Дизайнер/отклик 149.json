@@ -1,0 +1,220 @@
+{
+  "candidate_id": 149,
+  "resume_title": "Fullstack-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 29,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2024-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 29,
+      "organization": "Организация 1",
+      "position": "Fullstack-разработчик",
+      "employer_details": [],
+      "description": "Веб-разработка и программирование",
+      "original": "Июн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nFullstack-разработчик\nВеб-разработка и программирование"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Разработка фирменного стиля",
+      "level": "advanced",
+      "original": "Разработка фирменного стиля"
+    },
+    {
+      "name": "Разработка логотипов",
+      "level": "advanced",
+      "original": "Разработка логотипов"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Figma",
+      "level": "advanced",
+      "original": "Figma"
+    },
+    {
+      "name": "UI/UX",
+      "level": "advanced",
+      "original": "UI/UX"
+    },
+    {
+      "name": "БЭМ",
+      "level": "advanced",
+      "original": "БЭМ"
+    },
+    {
+      "name": "Адаптивный дизайн",
+      "level": "advanced",
+      "original": "Адаптивный дизайн"
+    },
+    {
+      "name": "Кроссбраузерная верстка",
+      "level": "advanced",
+      "original": "Кроссбраузерная верстка"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML5"
+    },
+    {
+      "name": "Bootstrap",
+      "level": "advanced",
+      "original": "Bootstrap"
+    },
+    {
+      "name": "Фреймворки",
+      "level": "advanced",
+      "original": "Фреймворки"
+    },
+    {
+      "name": "Умение разбираться в чужом коде",
+      "level": "advanced",
+      "original": "Умение разбираться в чужом коде"
+    },
+    {
+      "name": "Программирование",
+      "level": "advanced",
+      "original": "Программирование"
+    },
+    {
+      "name": "Адаптивная верстка",
+      "level": "advanced",
+      "original": "Адаптивная верстка"
+    },
+    {
+      "name": "Node.js",
+      "level": "intermediate",
+      "original": "Node.js"
+    },
+    {
+      "name": "Next.js",
+      "level": "intermediate",
+      "original": "Next.js"
+    },
+    {
+      "name": "Брендинг",
+      "level": "intermediate",
+      "original": "Брендинг"
+    },
+    {
+      "name": "Дизайн",
+      "level": "intermediate",
+      "original": "Дизайн"
+    },
+    {
+      "name": "Blender",
+      "level": "intermediate",
+      "original": "Blender"
+    },
+    {
+      "name": "npm",
+      "level": "intermediate",
+      "original": "npm"
+    },
+    {
+      "name": "Базы данных",
+      "level": "intermediate",
+      "original": "Базы данных"
+    },
+    {
+      "name": "Английский язык",
+      "level": "intermediate",
+      "original": "Английский язык"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "React",
+      "level": "intermediate",
+      "original": "ReactJS"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "PHP",
+      "level": "intermediate",
+      "original": "PHP"
+    },
+    {
+      "name": "jQuery",
+      "level": "intermediate",
+      "original": "jQuery"
+    },
+    {
+      "name": "MySQL",
+      "level": "intermediate",
+      "original": "MySQL"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "IT-школа Академия Топ",
+      "details": [
+        "Разработка, Веб-разработка"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "IT-школа Академия Топ\nРазработка, Веб-разработка\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №149\nРезюме: Fullstack-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 2 года 5 месяцев\nИюн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nFullstack-разработчик\nВеб-разработка и программирование",
+    "skills": "Продвинутый уровень\nРазработка фирменного стиля\nРазработка логотипов\nJavaScript\nFigma\nUI/UX\nБЭМ\nАдаптивный дизайн\nКроссбраузерная верстка\nHTML\nHTML5\nBootstrap\nФреймворки\nУмение разбираться в чужом коде\nПрограммирование\nАдаптивная верстка\nСредний уровень\nNode.js\nNext.js\nБрендинг\nДизайн\nBlender\nnpm\nБазы данных\nАнглийский язык\nООП\nReactJS\nGit\nPHP\njQuery\nMySQL\nLinux",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nIT-школа Академия Топ\nРазработка, Веб-разработка\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №149\nРезюме: Fullstack-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 2 года 5 месяцев\nИюн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nFullstack-разработчик\nВеб-разработка и программирование\n\nНавыки\nПродвинутый уровень\nРазработка фирменного стиля\nРазработка логотипов\nJavaScript\nFigma\nUI/UX\nБЭМ\nАдаптивный дизайн\nКроссбраузерная верстка\nHTML\nHTML5\nBootstrap\nФреймворки\nУмение разбираться в чужом коде\nПрограммирование\nАдаптивная верстка\nСредний уровень\nNode.js\nNext.js\nБрендинг\nДизайн\nBlender\nnpm\nБазы данных\nАнглийский язык\nООП\nReactJS\nGit\nPHP\njQuery\nMySQL\nLinux\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nIT-школа Академия Топ\nРазработка, Веб-разработка\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

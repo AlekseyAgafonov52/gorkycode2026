@@ -1,0 +1,237 @@
+{
+  "candidate_id": 371,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Телеграм: @temophy\nТелефон: +7 910 592 6725\nЗдравствуйте! Я Python-разработчик с опытом разработки и поддержки высоконагруженных сервисов более 5 лет.\nЗанимаюсь автоматизацией, объединением разрозненных решений и повышением стабильности приложений под высокой нагрузкой.\nПривык работать с существующим и legacy кодом, быстро разбираться в задачах и доставлять обновления в срок.\nОчень заинтересовала ваша вакансия, было бы интересно ближе познакомиться с командой и проектом.",
+  "experience_total_months": 60,
+  "similar_experience_months": 60,
+  "work_experience": [
+    {
+      "start_date": "2023-08",
+      "end_date": "2026-07",
+      "is_current": false,
+      "duration_months": 36,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Санкт-Петербургwww.reksoft.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Работал по специальности Python-разработчика с проектами ритейла, издательскими компаниями и интернет магазинами. Автоматизировал и упрощал множество legacy-процессов, объединял разрозненные проекты в единые системы. Стек: Python, FastAPI, SQL, PostgreSQL, RabbitMQ, Apache Kafka, Celery, RabbitMQ, Redis, MongoDB, Kubernetes, Docker, Pytest и тд.\n1. Автоматизировал контроль документов в проекте медиакомпании, сократил ручную работу и ускорил процессы анализа документов (Python, PostgreSQL, FastAPI, Apache Kafka).\n2. Решил проблему ошибок и сбоев под высокой нагрузкой на сервис, потери при большом количестве запросов сократились до нуля (Kubernetes, PostgreSQL, Docker, Python, Apache Kafka, FastAPI).\n3. Задержки при большой нагрузке сократились в 2-3 раза за счёт переноса тяжёлых операций в фоновые процессы (Python, PostgreSQL, RabbitMQ, Django Framework, FastAPI).\n4. Создал способ сбора и обработки информации для отчетов, в разы ускорив подготовку документации для бизнеса (Python, FastAPI, PostgreSQL, Redis).\n5. Усовершенствовал и упростил логику обработки заказов магазина, уменьшив количество сбоев в системе на 20-30% (RabbitMQ, Python, FastAPI, Celery, Pytest).\n6. Перенёс записи заказов из старой MySQL базы данных в PostgreSQL и создал проверки целостности, сервис стал работать быстрее на 10-20% (PostgreSQL, SQL, Python, FastAPI, Apache Kafka, Clickhouse).\n7. Внедрил единые правила обработки данных между частями приложения, что упростило поддержку и развитие системы (RabbitMQ, Python, Pytest, SQL, FastAPI).\n8. Оптимизировал загрузку товаров из внешних систем, ускорив обработку в 1.5 раза и убрав регулярные ошибки (Python, PostgreSQL, Apache Kafka).\n9. Реализовал сервис администрирования для технической поддержки, сотрудники получили удобный мониторинг (FastAPI, PostgreSQL, Python, SQLAlchemy, Pytest).\n10. Упростил большой старый проект, настроил все части приложения и работу с базой данных, благодаря чему сайт ускорился в ~2 раза (FastAPI, Python, Apache Kafka, PostgreSQL, Docker, MongoDB, Clickhouse).\n11. Решил проблему метрик производительности, что позволило в разы быстрее выявлять потенциально слабые места (Python, FastAPI, Prometheus, Grafana, MongoDB, Apache Kafka)",
+      "original": "Авг 2023 -\nИюл 2026\n3 года\nОрганизация 1\nСанкт-Петербургwww.reksoft.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nРаботал по специальности Python-разработчика с проектами ритейла, издательскими компаниями и интернет магазинами. Автоматизировал и упрощал множество legacy-процессов, объединял разрозненные проекты в единые системы. Стек: Python, FastAPI, SQL, PostgreSQL, RabbitMQ, Apache Kafka, Celery, RabbitMQ, Redis, MongoDB, Kubernetes, Docker, Pytest и тд.\n1. Автоматизировал контроль документов в проекте медиакомпании, сократил ручную работу и ускорил процессы анализа документов (Python, PostgreSQL, FastAPI, Apache Kafka).\n2. Решил проблему ошибок и сбоев под высокой нагрузкой на сервис, потери при большом количестве запросов сократились до нуля (Kubernetes, PostgreSQL, Docker, Python, Apache Kafka, FastAPI).\n3. Задержки при большой нагрузке сократились в 2-3 раза за счёт переноса тяжёлых операций в фоновые процессы (Python, PostgreSQL, RabbitMQ, Django Framework, FastAPI).\n4. Создал способ сбора и обработки информации для отчетов, в разы ускорив подготовку документации для бизнеса (Python, FastAPI, PostgreSQL, Redis).\n5. Усовершенствовал и упростил логику обработки заказов магазина, уменьшив количество сбоев в системе на 20-30% (RabbitMQ, Python, FastAPI, Celery, Pytest).\n6. Перенёс записи заказов из старой MySQL базы данных в PostgreSQL и создал проверки целостности, сервис стал работать быстрее на 10-20% (PostgreSQL, SQL, Python, FastAPI, Apache Kafka, Clickhouse).\n7. Внедрил единые правила обработки данных между частями приложения, что упростило поддержку и развитие системы (RabbitMQ, Python, Pytest, SQL, FastAPI).\n8. Оптимизировал загрузку товаров из внешних систем, ускорив обработку в 1.5 раза и убрав регулярные ошибки (Python, PostgreSQL, Apache Kafka).\n9. Реализовал сервис администрирования для технической поддержки, сотрудники получили удобный мониторинг (FastAPI, PostgreSQL, Python, SQLAlchemy, Pytest).\n10. Упростил большой старый проект, настроил все части приложения и работу с базой данных, благодаря чему сайт ускорился в ~2 раза (FastAPI, Python, Apache Kafka, PostgreSQL, Docker, MongoDB, Clickhouse).\n11. Решил проблему метрик производительности, что позволило в разы быстрее выявлять потенциально слабые места (Python, FastAPI, Prometheus, Grafana, MongoDB, Apache Kafka)"
+    },
+    {
+      "start_date": "2021-08",
+      "end_date": "2023-07",
+      "is_current": false,
+      "duration_months": 24,
+      "organization": "Организация 2",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Москваwww.avito.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Как Python-разработчик работал со службами недвижимости, логистики, отчетности и метрик. Разрабатывал IT-решения, которые были направлены на оптимизацию бизнес-процессов и повышение эффективности команды IT-специалистов. Стек: Python, FastAPI, Django Framework, PostgreSQL, RabbitMQ, Apache Kafka, Redis, Celery, Docker, Pytest, CI/CD и тд.\n1. Задержки при большой нагрузке сократились в 2-3 раза за счёт переноса тяжёлых операций в фоновые процессы в сервисе доставок (Python, RabbitMQ, Django Framework, FastAPI).\n2. Время онбординга застройщиков сократилось примерно в 1.5 раза за счёт внедрения единого способа выгрузки объектов недвижимости для партнёрских фирм (REST, Python, PostgreSQL, FastAPI, Pytest).\n3. Ошибки сократились в полтора раза благодаря тому, что сократил потери данных при большом количестве запросов к БД (SQL, PostgreSQL, SQLAlchemy, Python).\n4. Для проекта недвижимости внедрил контроль версий загрузок и отчёты о качестве данных, поддержка стала работать на 20-30% быстрее (Python, FastAPI, Redis, PostgreSQL).\n5. Качество и скорость доставок увеличились за счёт разработки рейтингового сервиса для курьерской службы (Python, Celery, PostgreSQL, FastAPI, Apache Kafka).\n6. Создал систему обновления и тестирования отказоустойчивости для одного из сервисов, чтобы не тратить время на ручные обновления (CI/CD, Git, Docker, Pytest, Jenkins).\n7. Решил проблему метрик производительности, что позволило в разы быстрее выявлять потенциально слабые места (Python, FastAPI, Prometheus, Grafana, MongoDB, Apache Kafka).",
+      "original": "Авг 2021 -\nИюл 2023\n2 года\nОрганизация 2\nМоскваwww.avito.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nКак Python-разработчик работал со службами недвижимости, логистики, отчетности и метрик. Разрабатывал IT-решения, которые были направлены на оптимизацию бизнес-процессов и повышение эффективности команды IT-специалистов. Стек: Python, FastAPI, Django Framework, PostgreSQL, RabbitMQ, Apache Kafka, Redis, Celery, Docker, Pytest, CI/CD и тд.\n1. Задержки при большой нагрузке сократились в 2-3 раза за счёт переноса тяжёлых операций в фоновые процессы в сервисе доставок (Python, RabbitMQ, Django Framework, FastAPI).\n2. Время онбординга застройщиков сократилось примерно в 1.5 раза за счёт внедрения единого способа выгрузки объектов недвижимости для партнёрских фирм (REST, Python, PostgreSQL, FastAPI, Pytest).\n3. Ошибки сократились в полтора раза благодаря тому, что сократил потери данных при большом количестве запросов к БД (SQL, PostgreSQL, SQLAlchemy, Python).\n4. Для проекта недвижимости внедрил контроль версий загрузок и отчёты о качестве данных, поддержка стала работать на 20-30% быстрее (Python, FastAPI, Redis, PostgreSQL).\n5. Качество и скорость доставок увеличились за счёт разработки рейтингового сервиса для курьерской службы (Python, Celery, PostgreSQL, FastAPI, Apache Kafka).\n6. Создал систему обновления и тестирования отказоустойчивости для одного из сервисов, чтобы не тратить время на ручные обновления (CI/CD, Git, Docker, Pytest, Jenkins).\n7. Решил проблему метрик производительности, что позволило в разы быстрее выявлять потенциально слабые места (Python, FastAPI, Prometheus, Grafana, MongoDB, Apache Kafka)."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Google API",
+      "level": "advanced",
+      "original": "Google API"
+    },
+    {
+      "name": "Unit Testing",
+      "level": "advanced",
+      "original": "Unit Testing"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "SOLID",
+      "level": "advanced",
+      "original": "SOLID"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "intermediate",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "MongoDB",
+      "level": "intermediate",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Jenkins",
+      "level": "intermediate",
+      "original": "Jenkins"
+    },
+    {
+      "name": "Amazon Web Services",
+      "level": "intermediate",
+      "original": "Amazon Web Services"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Телеграм: @temophy\nТелефон: +7 910 592 6725\nWhatsApp: +7 910 592 6725\nПочта: temophyy@gmail.com\nОпыт работы\n• Рексофт, 3 года, Python-разработчик (Python, FastAPI, Apache Kafka).\n• Авито, 1.5 года, Python-разработчик (FastAPI, PostgreSQL, Python).\nМой технологический стек\n• Python, FastAPI, SQLAlchemy, Django Framework, Pytest, SOLID.\n• PostgreSQL, SQL, NoSQL, MongoDB, Redis.\n• Celery, Prometheus, Grafana.\n• RabbitMQ, Apache Kafka.\n• CI/CD, Amazon Web Services, Linux, Git, Gitlab, GitHub.\n• Docker, Kubernetes, Jenkins.\n• Atlassian Jira, Google API, REST.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Московский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Москва",
+      "details": [
+        "Информатика и управление, Программное обеспечение ЭВМ, информационные технологии"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "Московский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Москва\nИнформатика и управление, Программное обеспечение ЭВМ, информационные технологии\n•\n2022\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №371\nРезюме: Python-разработчик",
+    "cover_letter": "Телеграм: @temophy\nТелефон: +7 910 592 6725\nЗдравствуйте! Я Python-разработчик с опытом разработки и поддержки высоконагруженных сервисов более 5 лет.\nЗанимаюсь автоматизацией, объединением разрозненных решений и повышением стабильности приложений под высокой нагрузкой.\nПривык работать с существующим и legacy кодом, быстро разбираться в задачах и доставлять обновления в срок.\nОчень заинтересовала ваша вакансия, было бы интересно ближе познакомиться с командой и проектом.",
+    "experience": "Опыт работы: 5 лет\nОпыт в похожих должностях:5 лет\nАвг 2023 -\nИюл 2026\n3 года\nОрганизация 1\nСанкт-Петербургwww.reksoft.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nРаботал по специальности Python-разработчика с проектами ритейла, издательскими компаниями и интернет магазинами. Автоматизировал и упрощал множество legacy-процессов, объединял разрозненные проекты в единые системы. Стек: Python, FastAPI, SQL, PostgreSQL, RabbitMQ, Apache Kafka, Celery, RabbitMQ, Redis, MongoDB, Kubernetes, Docker, Pytest и тд.\n1. Автоматизировал контроль документов в проекте медиакомпании, сократил ручную работу и ускорил процессы анализа документов (Python, PostgreSQL, FastAPI, Apache Kafka).\n2. Решил проблему ошибок и сбоев под высокой нагрузкой на сервис, потери при большом количестве запросов сократились до нуля (Kubernetes, PostgreSQL, Docker, Python, Apache Kafka, FastAPI).\n3. Задержки при большой нагрузке сократились в 2-3 раза за счёт переноса тяжёлых операций в фоновые процессы (Python, PostgreSQL, RabbitMQ, Django Framework, FastAPI).\n4. Создал способ сбора и обработки информации для отчетов, в разы ускорив подготовку документации для бизнеса (Python, FastAPI, PostgreSQL, Redis).\n5. Усовершенствовал и упростил логику обработки заказов магазина, уменьшив количество сбоев в системе на 20-30% (RabbitMQ, Python, FastAPI, Celery, Pytest).\n6. Перенёс записи заказов из старой MySQL базы данных в PostgreSQL и создал проверки целостности, сервис стал работать быстрее на 10-20% (PostgreSQL, SQL, Python, FastAPI, Apache Kafka, Clickhouse).\n7. Внедрил единые правила обработки данных между частями приложения, что упростило поддержку и развитие системы (RabbitMQ, Python, Pytest, SQL, FastAPI).\n8. Оптимизировал загрузку товаров из внешних систем, ускорив обработку в 1.5 раза и убрав регулярные ошибки (Python, PostgreSQL, Apache Kafka).\n9. Реализовал сервис администрирования для технической поддержки, сотрудники получили удобный мониторинг (FastAPI, PostgreSQL, Python, SQLAlchemy, Pytest).\n10. Упростил большой старый проект, настроил все части приложения и работу с базой данных, благодаря чему сайт ускорился в ~2 раза (FastAPI, Python, Apache Kafka, PostgreSQL, Docker, MongoDB, Clickhouse).\n11. Решил проблему метрик производительности, что позволило в разы быстрее выявлять потенциально слабые места (Python, FastAPI, Prometheus, Grafana, MongoDB, Apache Kafka)\nАвг 2021 -\nИюл 2023\n2 года\nОрганизация 2\nМоскваwww.avito.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nКак Python-разработчик работал со службами недвижимости, логистики, отчетности и метрик. Разрабатывал IT-решения, которые были направлены на оптимизацию бизнес-процессов и повышение эффективности команды IT-специалистов. Стек: Python, FastAPI, Django Framework, PostgreSQL, RabbitMQ, Apache Kafka, Redis, Celery, Docker, Pytest, CI/CD и тд.\n1. Задержки при большой нагрузке сократились в 2-3 раза за счёт переноса тяжёлых операций в фоновые процессы в сервисе доставок (Python, RabbitMQ, Django Framework, FastAPI).\n2. Время онбординга застройщиков сократилось примерно в 1.5 раза за счёт внедрения единого способа выгрузки объектов недвижимости для партнёрских фирм (REST, Python, PostgreSQL, FastAPI, Pytest).\n3. Ошибки сократились в полтора раза благодаря тому, что сократил потери данных при большом количестве запросов к БД (SQL, PostgreSQL, SQLAlchemy, Python).\n4. Для проекта недвижимости внедрил контроль версий загрузок и отчёты о качестве данных, поддержка стала работать на 20-30% быстрее (Python, FastAPI, Redis, PostgreSQL).\n5. Качество и скорость доставок увеличились за счёт разработки рейтингового сервиса для курьерской службы (Python, Celery, PostgreSQL, FastAPI, Apache Kafka).\n6. Создал систему обновления и тестирования отказоустойчивости для одного из сервисов, чтобы не тратить время на ручные обновления (CI/CD, Git, Docker, Pytest, Jenkins).\n7. Решил проблему метрик производительности, что позволило в разы быстрее выявлять потенциально слабые места (Python, FastAPI, Prometheus, Grafana, MongoDB, Apache Kafka).",
+    "skills": "Продвинутый уровень\nPython\nPostgreSQL\nFastAPI\nSQLAlchemy\nGit\nGitlab\nRedis\nRabbitMQ\nApache Kafka\nSQL\nPrometheus\nGrafana\nDjango Framework\nDjango Rest Framework\nCelery\nDocker\nDocker-compose\nPytest\nLinux\nCI/CD\nGoogle API\nUnit Testing\nNoSQL\nAtlassian Jira\nSOLID\nClickhouse\nСредний уровень\nKubernetes\nMongoDB\nJenkins\nAmazon Web Services",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Телеграм: @temophy\nТелефон: +7 910 592 6725\nWhatsApp: +7 910 592 6725\nПочта: temophyy@gmail.com\nОпыт работы\n• Рексофт, 3 года, Python-разработчик (Python, FastAPI, Apache Kafka).\n• Авито, 1.5 года, Python-разработчик (FastAPI, PostgreSQL, Python).\nМой технологический стек\n• Python, FastAPI, SQLAlchemy, Django Framework, Pytest, SOLID.\n• PostgreSQL, SQL, NoSQL, MongoDB, Redis.\n• Celery, Prometheus, Grafana.\n• RabbitMQ, Apache Kafka.\n• CI/CD, Amazon Web Services, Linux, Git, Gitlab, GitHub.\n• Docker, Kubernetes, Jenkins.\n• Atlassian Jira, Google API, REST.",
+    "education": "Уровень\nВысшее образование\nМосковский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Москва\nИнформатика и управление, Программное обеспечение ЭВМ, информационные технологии\n•\n2022\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №371\nРезюме: Python-разработчик\n\nСопроводительное письмо\nТелеграм: @temophy\nТелефон: +7 910 592 6725\nЗдравствуйте! Я Python-разработчик с опытом разработки и поддержки высоконагруженных сервисов более 5 лет.\nЗанимаюсь автоматизацией, объединением разрозненных решений и повышением стабильности приложений под высокой нагрузкой.\nПривык работать с существующим и legacy кодом, быстро разбираться в задачах и доставлять обновления в срок.\nОчень заинтересовала ваша вакансия, было бы интересно ближе познакомиться с командой и проектом.\n\nОпыт работы\nОпыт работы: 5 лет\nОпыт в похожих должностях:5 лет\nАвг 2023 -\nИюл 2026\n3 года\nОрганизация 1\nСанкт-Петербургwww.reksoft.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nРаботал по специальности Python-разработчика с проектами ритейла, издательскими компаниями и интернет магазинами. Автоматизировал и упрощал множество legacy-процессов, объединял разрозненные проекты в единые системы. Стек: Python, FastAPI, SQL, PostgreSQL, RabbitMQ, Apache Kafka, Celery, RabbitMQ, Redis, MongoDB, Kubernetes, Docker, Pytest и тд.\n1. Автоматизировал контроль документов в проекте медиакомпании, сократил ручную работу и ускорил процессы анализа документов (Python, PostgreSQL, FastAPI, Apache Kafka).\n2. Решил проблему ошибок и сбоев под высокой нагрузкой на сервис, потери при большом количестве запросов сократились до нуля (Kubernetes, PostgreSQL, Docker, Python, Apache Kafka, FastAPI).\n3. Задержки при большой нагрузке сократились в 2-3 раза за счёт переноса тяжёлых операций в фоновые процессы (Python, PostgreSQL, RabbitMQ, Django Framework, FastAPI).\n4. Создал способ сбора и обработки информации для отчетов, в разы ускорив подготовку документации для бизнеса (Python, FastAPI, PostgreSQL, Redis).\n5. Усовершенствовал и упростил логику обработки заказов магазина, уменьшив количество сбоев в системе на 20-30% (RabbitMQ, Python, FastAPI, Celery, Pytest).\n6. Перенёс записи заказов из старой MySQL базы данных в PostgreSQL и создал проверки целостности, сервис стал работать быстрее на 10-20% (PostgreSQL, SQL, Python, FastAPI, Apache Kafka, Clickhouse).\n7. Внедрил единые правила обработки данных между частями приложения, что упростило поддержку и развитие системы (RabbitMQ, Python, Pytest, SQL, FastAPI).\n8. Оптимизировал загрузку товаров из внешних систем, ускорив обработку в 1.5 раза и убрав регулярные ошибки (Python, PostgreSQL, Apache Kafka).\n9. Реализовал сервис администрирования для технической поддержки, сотрудники получили удобный мониторинг (FastAPI, PostgreSQL, Python, SQLAlchemy, Pytest).\n10. Упростил большой старый проект, настроил все части приложения и работу с базой данных, благодаря чему сайт ускорился в ~2 раза (FastAPI, Python, Apache Kafka, PostgreSQL, Docker, MongoDB, Clickhouse).\n11. Решил проблему метрик производительности, что позволило в разы быстрее выявлять потенциально слабые места (Python, FastAPI, Prometheus, Grafana, MongoDB, Apache Kafka)\nАвг 2021 -\nИюл 2023\n2 года\nОрганизация 2\nМоскваwww.avito.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nКак Python-разработчик работал со службами недвижимости, логистики, отчетности и метрик. Разрабатывал IT-решения, которые были направлены на оптимизацию бизнес-процессов и повышение эффективности команды IT-специалистов. Стек: Python, FastAPI, Django Framework, PostgreSQL, RabbitMQ, Apache Kafka, Redis, Celery, Docker, Pytest, CI/CD и тд.\n1. Задержки при большой нагрузке сократились в 2-3 раза за счёт переноса тяжёлых операций в фоновые процессы в сервисе доставок (Python, RabbitMQ, Django Framework, FastAPI).\n2. Время онбординга застройщиков сократилось примерно в 1.5 раза за счёт внедрения единого способа выгрузки объектов недвижимости для партнёрских фирм (REST, Python, PostgreSQL, FastAPI, Pytest).\n3. Ошибки сократились в полтора раза благодаря тому, что сократил потери данных при большом количестве запросов к БД (SQL, PostgreSQL, SQLAlchemy, Python).\n4. Для проекта недвижимости внедрил контроль версий загрузок и отчёты о качестве данных, поддержка стала работать на 20-30% быстрее (Python, FastAPI, Redis, PostgreSQL).\n5. Качество и скорость доставок увеличились за счёт разработки рейтингового сервиса для курьерской службы (Python, Celery, PostgreSQL, FastAPI, Apache Kafka).\n6. Создал систему обновления и тестирования отказоустойчивости для одного из сервисов, чтобы не тратить время на ручные обновления (CI/CD, Git, Docker, Pytest, Jenkins).\n7. Решил проблему метрик производительности, что позволило в разы быстрее выявлять потенциально слабые места (Python, FastAPI, Prometheus, Grafana, MongoDB, Apache Kafka).\n\nНавыки\nПродвинутый уровень\nPython\nPostgreSQL\nFastAPI\nSQLAlchemy\nGit\nGitlab\nRedis\nRabbitMQ\nApache Kafka\nSQL\nPrometheus\nGrafana\nDjango Framework\nDjango Rest Framework\nCelery\nDocker\nDocker-compose\nPytest\nLinux\nCI/CD\nGoogle API\nUnit Testing\nNoSQL\nAtlassian Jira\nSOLID\nClickhouse\nСредний уровень\nKubernetes\nMongoDB\nJenkins\nAmazon Web Services\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nТелеграм: @temophy\nТелефон: +7 910 592 6725\nWhatsApp: +7 910 592 6725\nПочта: temophyy@gmail.com\nОпыт работы\n• Рексофт, 3 года, Python-разработчик (Python, FastAPI, Apache Kafka).\n• Авито, 1.5 года, Python-разработчик (FastAPI, PostgreSQL, Python).\nМой технологический стек\n• Python, FastAPI, SQLAlchemy, Django Framework, Pytest, SOLID.\n• PostgreSQL, SQL, NoSQL, MongoDB, Redis.\n• Celery, Prometheus, Grafana.\n• RabbitMQ, Apache Kafka.\n• CI/CD, Amazon Web Services, Linux, Git, Gitlab, GitHub.\n• Docker, Kubernetes, Jenkins.\n• Atlassian Jira, Google API, REST.\n\nОбразование\nУровень\nВысшее образование\nМосковский государственный технический университет имени Н.Э. Баумана (национальный исследовательский университет), Москва\nИнформатика и управление, Программное обеспечение ЭВМ, информационные технологии\n•\n2022\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

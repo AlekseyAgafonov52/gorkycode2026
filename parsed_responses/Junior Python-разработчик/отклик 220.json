@@ -1,0 +1,213 @@
+{
+  "candidate_id": 220,
+  "resume_title": "Programmer",
+  "cover_letter": null,
+  "experience_total_months": 19,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-06",
+      "end_date": "2026-01",
+      "is_current": false,
+      "duration_months": 8,
+      "organization": "Организация 1",
+      "position": "Я работал оператором по обслуживанию клиентов",
+      "employer_details": [
+        "Москва",
+        "Operator"
+      ],
+      "description": null,
+      "original": "Июн 2025 -\nЯнв 2026\n8 мес\nОрганизация 1\nМосква\nOperator\nЯ работал оператором по обслуживанию клиентов"
+    },
+    {
+      "start_date": "2024-11",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 2",
+      "position": "International Operator",
+      "employer_details": [
+        "Нижний Новгород",
+        "Услуги для бизнеса"
+      ],
+      "description": "I worked as an international procurement representative for this company. I was in charge of communicating with companies abroad, to set up meetings and bridge a gap between the companies abroad and our clients.",
+      "original": "Ноя 2024 -\nАпр 2025\n6 мес\nОрганизация 2\nНижний Новгород\nУслуги для бизнеса\nInternational Operator\nI worked as an international procurement representative for this company. I was in charge of communicating with companies abroad, to set up meetings and bridge a gap between the companies abroad and our clients."
+    },
+    {
+      "start_date": "2021-05",
+      "end_date": "2021-09",
+      "is_current": false,
+      "duration_months": 5,
+      "organization": "Организация 3",
+      "position": "Assistant Graphic Designer",
+      "employer_details": [],
+      "description": "I was designing and modifying designs for brands which worked with the company and also with the making process of the brand products.\nЯ разрабатывал и изменял дизайн для брендов, которые сотрудничали с компанией, а также участвовал в процессе создания фирменной продукции.",
+      "original": "Май 2021 -\nСен 2021\n5 мес\nОрганизация 3\nAssistant Graphic Designer\nI was designing and modifying designs for brands which worked with the company and also with the making process of the brand products.\nЯ разрабатывал и изменял дизайн для брендов, которые сотрудничали с компанией, а также участвовал в процессе создания фирменной продукции."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "Обучение и развитие",
+      "level": "advanced",
+      "original": "Обучение и развитие"
+    },
+    {
+      "name": "Веб-программирование",
+      "level": "advanced",
+      "original": "Веб-программирование"
+    },
+    {
+      "name": "Поиск информации в интернет",
+      "level": "advanced",
+      "original": "Поиск информации в интернет"
+    },
+    {
+      "name": "Аналитическое мышление",
+      "level": "advanced",
+      "original": "Аналитическое мышление"
+    },
+    {
+      "name": "1С: Документооборот",
+      "level": "advanced",
+      "original": "1С: Документооборот"
+    },
+    {
+      "name": "Электронная почта",
+      "level": "advanced",
+      "original": "Электронная почта"
+    },
+    {
+      "name": "Информационные технологии",
+      "level": "advanced",
+      "original": "Информационные технологии"
+    },
+    {
+      "name": "Оценка потребностей клиентов",
+      "level": "advanced",
+      "original": "Оценка потребностей клиентов"
+    },
+    {
+      "name": "MS Office",
+      "level": "advanced",
+      "original": "MS Office"
+    },
+    {
+      "name": "MS Excel",
+      "level": "advanced",
+      "original": "MS Excel"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "Java",
+      "level": "intermediate",
+      "original": "Java"
+    },
+    {
+      "name": "MS Visual Studio",
+      "level": "intermediate",
+      "original": "MS Visual Studio"
+    },
+    {
+      "name": "Поисковые системы",
+      "level": "intermediate",
+      "original": "Поисковые системы"
+    },
+    {
+      "name": "СУБД",
+      "level": "intermediate",
+      "original": "СУБД"
+    },
+    {
+      "name": "Знание иностранных языков",
+      "level": "intermediate",
+      "original": "Знание иностранных языков"
+    },
+    {
+      "name": "Администрирование сайтов",
+      "level": "intermediate",
+      "original": "Администрирование сайтов"
+    },
+    {
+      "name": "CRM",
+      "level": "intermediate",
+      "original": "CRM"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Английский",
+      "level": "native",
+      "description": null,
+      "original": "Английский"
+    },
+    {
+      "name": "Немецкий",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Немецкий — B1 — Средний"
+    },
+    {
+      "name": "Русский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Русский — B1 — Средний"
+    }
+  ],
+  "about_me": "I am a real hardworking individual who quickly adapts to new challenges and possesses strong intellectual abilities. I am excellent in both independent and team settings. I am equally comfortable working remotely or in an office. Most importantly, I am open to engaging work experiences that will allow me to further develop my skills and advance my career.\nЯ трудолюбивый человек, который быстро адаптируется к новым вызовам и обладает сильными интеллектуальными способностями. Я преуспеваю как в самостоятельной, так и в командной работе, и мне комфортно работать как удаленно, так и в офисе. Более того, я открыт к интересным рабочим опытам, которые позволят мне развивать свои навыки и продвигаться по карьерной лестнице.",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород",
+      "details": [
+        "Факультет социальных наук, Киберпсихология"
+      ],
+      "year": 2026,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nФакультет социальных наук, Киберпсихология\n•\n2026\n•\nВысшее образование (Бакалавр)"
+    },
+    {
+      "institution": "Lobachevsky University Nizhny Novgorod",
+      "details": [
+        "Institute of Information Technology, Mathematics and Mechanics, Fundamental Informatics and Information Technology"
+      ],
+      "year": 2024,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Lobachevsky University Nizhny Novgorod\nInstitute of Information Technology, Mathematics and Mechanics, Fundamental Informatics and Information Technology\n•\n2024\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Нигерия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №220\nРезюме: Programmer",
+    "cover_letter": "Кандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы",
+    "experience": "Опыт работы: 1 год 7 месяцев\nИюн 2025 -\nЯнв 2026\n8 мес\nОрганизация 1\nМосква\nOperator\nЯ работал оператором по обслуживанию клиентов\nНоя 2024 -\nАпр 2025\n6 мес\nОрганизация 2\nНижний Новгород\nУслуги для бизнеса\nInternational Operator\nI worked as an international procurement representative for this company. I was in charge of communicating with companies abroad, to set up meetings and bridge a gap between the companies abroad and our clients.\nМай 2021 -\nСен 2021\n5 мес\nОрганизация 3\nAssistant Graphic Designer\nI was designing and modifying designs for brands which worked with the company and also with the making process of the brand products.\nЯ разрабатывал и изменял дизайн для брендов, которые сотрудничали с компанией, а также участвовал в процессе создания фирменной продукции.",
+    "skills": "Продвинутый уровень\nPython\nАнглийский язык\nОбучение и развитие\nВеб-программирование\nПоиск информации в интернет\nАналитическое мышление\n1С: Документооборот\nЭлектронная почта\nИнформационные технологии\nОценка потребностей клиентов\nMS Office\nMS Excel\nСредний уровень\nHTML\nJava\nMS Visual Studio\nПоисковые системы\nСУБД\nЗнание иностранных языков\nАдминистрирование сайтов\nCRM",
+    "languages": "Родной\nАнглийский\nДругие языки\nНемецкий — B1 — Средний\nРусский — B1 — Средний",
+    "about_me": "I am a real hardworking individual who quickly adapts to new challenges and possesses strong intellectual abilities. I am excellent in both independent and team settings. I am equally comfortable working remotely or in an office. Most importantly, I am open to engaging work experiences that will allow me to further develop my skills and advance my career.\nЯ трудолюбивый человек, который быстро адаптируется к новым вызовам и обладает сильными интеллектуальными способностями. Я преуспеваю как в самостоятельной, так и в командной работе, и мне комфортно работать как удаленно, так и в офисе. Более того, я открыт к интересным рабочим опытам, которые позволят мне развивать свои навыки и продвигаться по карьерной лестнице.",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nФакультет социальных наук, Киберпсихология\n•\n2026\n•\nВысшее образование (Бакалавр)\nLobachevsky University Nizhny Novgorod\nInstitute of Information Technology, Mathematics and Mechanics, Fundamental Informatics and Information Technology\n•\n2024\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nНигерия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №220\nРезюме: Programmer\n\nСопроводительное письмо\nКандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы\n\nОпыт работы\nОпыт работы: 1 год 7 месяцев\nИюн 2025 -\nЯнв 2026\n8 мес\nОрганизация 1\nМосква\nOperator\nЯ работал оператором по обслуживанию клиентов\nНоя 2024 -\nАпр 2025\n6 мес\nОрганизация 2\nНижний Новгород\nУслуги для бизнеса\nInternational Operator\nI worked as an international procurement representative for this company. I was in charge of communicating with companies abroad, to set up meetings and bridge a gap between the companies abroad and our clients.\nМай 2021 -\nСен 2021\n5 мес\nОрганизация 3\nAssistant Graphic Designer\nI was designing and modifying designs for brands which worked with the company and also with the making process of the brand products.\nЯ разрабатывал и изменял дизайн для брендов, которые сотрудничали с компанией, а также участвовал в процессе создания фирменной продукции.\n\nНавыки\nПродвинутый уровень\nPython\nАнглийский язык\nОбучение и развитие\nВеб-программирование\nПоиск информации в интернет\nАналитическое мышление\n1С: Документооборот\nЭлектронная почта\nИнформационные технологии\nОценка потребностей клиентов\nMS Office\nMS Excel\nСредний уровень\nHTML\nJava\nMS Visual Studio\nПоисковые системы\nСУБД\nЗнание иностранных языков\nАдминистрирование сайтов\nCRM\n\nЯзыки\nРодной\nАнглийский\nДругие языки\nНемецкий — B1 — Средний\nРусский — B1 — Средний\n\nОбо мне\nI am a real hardworking individual who quickly adapts to new challenges and possesses strong intellectual abilities. I am excellent in both independent and team settings. I am equally comfortable working remotely or in an office. Most importantly, I am open to engaging work experiences that will allow me to further develop my skills and advance my career.\nЯ трудолюбивый человек, который быстро адаптируется к новым вызовам и обладает сильными интеллектуальными способностями. Я преуспеваю как в самостоятельной, так и в командной работе, и мне комфортно работать как удаленно, так и в офисе. Более того, я открыт к интересным рабочим опытам, которые позволят мне развивать свои навыки и продвигаться по карьерной лестнице.\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nФакультет социальных наук, Киберпсихология\n•\n2026\n•\nВысшее образование (Бакалавр)\nLobachevsky University Nizhny Novgorod\nInstitute of Information Technology, Mathematics and Mechanics, Fundamental Informatics and Information Technology\n•\n2024\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nНигерия\nРазрешение на работу:\nРоссия\n"
+}

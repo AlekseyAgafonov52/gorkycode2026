@@ -1,0 +1,211 @@
+{
+  "candidate_id": 23,
+  "resume_title": "Инженер-программист",
+  "cover_letter": "Здравствуйте, я бэкенд-разработчик с более чем трех летним опытом работы в\nкоммерческой сфере. Работал как в крупных компаниях, участвовал в различных\nхакатонах. Занимался разработкой приложений для B2B и B2C сегментов. Моя цель —\nпринять участие в проектах, которые открывают новые вызовы и способствуют моему\nпрофессиональному росту. если ссылка на телеграмм не доступна: username(@edgos_prog)\nURL(https://t.me/edgos_prog)",
+  "experience_total_months": 43,
+  "similar_experience_months": 43,
+  "work_experience": [
+    {
+      "start_date": "2023-04",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 25,
+      "organization": "Организация 1",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Краснодар",
+        "Розничная торговля"
+      ],
+      "description": "Magnit.tech\nBackend developer\nАРЕНА - проект, направленный на оптимизацию инвентарного учета и контроля объема\nпродукции на точках по RFID меткам\nМои достижения:\n- Участвовал во внедрение аутентификации\n- Успешная интеграция очереди между высоконагруженными\nсервисами\n- Пересмотр логирования и внедрение новых практик и\nправил, что позволило централизировать логи\n- Написания нескольких сервисов по DDD следуя SOLID\n- Успешная интеграция со сторонними сервисами\n- Многоуровневое тестирование кодовой базы что\nпозволило поднять уровень с 50% до 80% на всех сервисах\n- Переход на ruff и uv, что позволило оптимизировать\nструктуру\n- Написание манифестов для Kubernetes и helm charts\n- Написание универсального пайплайна, что позволило\nсделать централизацию\n- Настройка ELK и подключение алертов\n- Проектировка доменной модели\n- Оптимизация докер образов, что ускорило прохождение\npipeline\n- Настройка кеширования запросов что позволило\nуменьшить количество доп запрос и сэкономить мощности\nСтек:\nFastAPI,Postgres,Celery,Sentry,Grafana,Sqlalchemy,Pydantic,Docker,Kubernetes,Kibana,Opensearch,File.D, GitlabCI,Redis,Kafka,PyTest,Docker-compose MongoDB,helm, werf",
+      "original": "Апр 2023 -\nАпр 2025\n2 года 1 мес\nОрганизация 1\nКраснодар\nРозничная торговля\nPython Backend Developer\nMagnit.tech\nBackend developer\nАРЕНА - проект, направленный на оптимизацию инвентарного учета и контроля объема\nпродукции на точках по RFID меткам\nМои достижения:\n- Участвовал во внедрение аутентификации\n- Успешная интеграция очереди между высоконагруженными\nсервисами\n- Пересмотр логирования и внедрение новых практик и\nправил, что позволило централизировать логи\n- Написания нескольких сервисов по DDD следуя SOLID\n- Успешная интеграция со сторонними сервисами\n- Многоуровневое тестирование кодовой базы что\nпозволило поднять уровень с 50% до 80% на всех сервисах\n- Переход на ruff и uv, что позволило оптимизировать\nструктуру\n- Написание манифестов для Kubernetes и helm charts\n- Написание универсального пайплайна, что позволило\nсделать централизацию\n- Настройка ELK и подключение алертов\n- Проектировка доменной модели\n- Оптимизация докер образов, что ускорило прохождение\npipeline\n- Настройка кеширования запросов что позволило\nуменьшить количество доп запрос и сэкономить мощности\nСтек:\nFastAPI,Postgres,Celery,Sentry,Grafana,Sqlalchemy,Pydantic,Docker,Kubernetes,Kibana,Opensearch,File.D, GitlabCI,Redis,Kafka,PyTest,Docker-compose MongoDB,helm, werf"
+    },
+    {
+      "start_date": "2021-10",
+      "end_date": "2023-03",
+      "is_current": false,
+      "duration_months": 18,
+      "organization": "Организация 2",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Москваl.tinkoff.ru/career.and.vacancies",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "T-Bank\nBackend developer\nСингулярность – проект нацеленный на исследование культуры и анализ кодовой базы\nкомпании\nМои достижения:\n- Внедрил линтер и sonarqube и Bandit в pipeline всей\nкомпании, что повысило качество кода и безопасность и\nввело правило минимального покрытия тестами 80%\n- Конфигурация и настройка Celery для крон задач и\nпредотвращения нагрузки сервиса\n- Настроил Sentry и Grafana для метрик\n- Профилирование и оптимизация API путём устранения\nизбыточных запросов\n- Реализовал систему кэширования посредством Redis что\nпозволило снизить нагрузку на БД значительно\n- Мигрировал легаси-приложение с Django на FastAPI с\nпереходом на асинхронную\nархитектуру и улучшением производительности\nСтек:\nFastAPI, Django, Postgres, Celery, Sentry, Grafana, Docker-compose, Sqlalchemy, Pydantic, Docker,\nKubernetes, Kibana, Elasticsearch, Logstash, Gitlab CI, Redis, RabbitMQ, PyTest",
+      "original": "Окт 2021 -\nМар 2023\n1 год 6 мес\nОрганизация 2\nМоскваl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nT-Bank\nBackend developer\nСингулярность – проект нацеленный на исследование культуры и анализ кодовой базы\nкомпании\nМои достижения:\n- Внедрил линтер и sonarqube и Bandit в pipeline всей\nкомпании, что повысило качество кода и безопасность и\nввело правило минимального покрытия тестами 80%\n- Конфигурация и настройка Celery для крон задач и\nпредотвращения нагрузки сервиса\n- Настроил Sentry и Grafana для метрик\n- Профилирование и оптимизация API путём устранения\nизбыточных запросов\n- Реализовал систему кэширования посредством Redis что\nпозволило снизить нагрузку на БД значительно\n- Мигрировал легаси-приложение с Django на FastAPI с\nпереходом на асинхронную\nархитектуру и улучшением производительности\nСтек:\nFastAPI, Django, Postgres, Celery, Sentry, Grafana, Docker-compose, Sqlalchemy, Pydantic, Docker,\nKubernetes, Kibana, Elasticsearch, Logstash, Gitlab CI, Redis, RabbitMQ, PyTest"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "gRPC",
+      "level": "advanced",
+      "original": "gRPC"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "ELK",
+      "level": "advanced",
+      "original": "ELK"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "advanced",
+      "original": "Elasticsearch"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "GitLab CI",
+      "level": "advanced",
+      "original": "GitLab CI"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Здравствуйте, я бэкенд-разработчик с более чем трех летним опытом работы в\nкоммерческой сфере. Работал как в крупных компаниях, участвовал в различных\nхакатонах. Занимался разработкой приложений для B2B и B2C сегментов. Моя цель —\nпринять участие в проектах, которые открывают новые вызовы и способствуют моему\nпрофессиональному росту. если ссылка на телеграмм не доступна: username(@edgos_prog)\nURL(https://t.me/edgos_prog)",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №23\nРезюме: Инженер-программист",
+    "cover_letter": "Здравствуйте, я бэкенд-разработчик с более чем трех летним опытом работы в\nкоммерческой сфере. Работал как в крупных компаниях, участвовал в различных\nхакатонах. Занимался разработкой приложений для B2B и B2C сегментов. Моя цель —\nпринять участие в проектах, которые открывают новые вызовы и способствуют моему\nпрофессиональному росту. если ссылка на телеграмм не доступна: username(@edgos_prog)\nURL(https://t.me/edgos_prog)",
+    "experience": "Опыт работы: 3 года 7 месяцев\nОпыт в похожих должностях:3 года 7 месяцев\nАпр 2023 -\nАпр 2025\n2 года 1 мес\nОрганизация 1\nКраснодар\nРозничная торговля\nPython Backend Developer\nMagnit.tech\nBackend developer\nАРЕНА - проект, направленный на оптимизацию инвентарного учета и контроля объема\nпродукции на точках по RFID меткам\nМои достижения:\n- Участвовал во внедрение аутентификации\n- Успешная интеграция очереди между высоконагруженными\nсервисами\n- Пересмотр логирования и внедрение новых практик и\nправил, что позволило централизировать логи\n- Написания нескольких сервисов по DDD следуя SOLID\n- Успешная интеграция со сторонними сервисами\n- Многоуровневое тестирование кодовой базы что\nпозволило поднять уровень с 50% до 80% на всех сервисах\n- Переход на ruff и uv, что позволило оптимизировать\nструктуру\n- Написание манифестов для Kubernetes и helm charts\n- Написание универсального пайплайна, что позволило\nсделать централизацию\n- Настройка ELK и подключение алертов\n- Проектировка доменной модели\n- Оптимизация докер образов, что ускорило прохождение\npipeline\n- Настройка кеширования запросов что позволило\nуменьшить количество доп запрос и сэкономить мощности\nСтек:\nFastAPI,Postgres,Celery,Sentry,Grafana,Sqlalchemy,Pydantic,Docker,Kubernetes,Kibana,Opensearch,File.D, GitlabCI,Redis,Kafka,PyTest,Docker-compose MongoDB,helm, werf\nОкт 2021 -\nМар 2023\n1 год 6 мес\nОрганизация 2\nМоскваl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nT-Bank\nBackend developer\nСингулярность – проект нацеленный на исследование культуры и анализ кодовой базы\nкомпании\nМои достижения:\n- Внедрил линтер и sonarqube и Bandit в pipeline всей\nкомпании, что повысило качество кода и безопасность и\nввело правило минимального покрытия тестами 80%\n- Конфигурация и настройка Celery для крон задач и\nпредотвращения нагрузки сервиса\n- Настроил Sentry и Grafana для метрик\n- Профилирование и оптимизация API путём устранения\nизбыточных запросов\n- Реализовал систему кэширования посредством Redis что\nпозволило снизить нагрузку на БД значительно\n- Мигрировал легаси-приложение с Django на FastAPI с\nпереходом на асинхронную\nархитектуру и улучшением производительности\nСтек:\nFastAPI, Django, Postgres, Celery, Sentry, Grafana, Docker-compose, Sqlalchemy, Pydantic, Docker,\nKubernetes, Kibana, Elasticsearch, Logstash, Gitlab CI, Redis, RabbitMQ, PyTest",
+    "skills": "Продвинутый уровень\nPython\nLinux\nSQL\nPostgreSQL\nMySQL\nGit\nDjango Rest Framework\nPytest\nGitlab\nCelery\nMongoDB\nSQLAlchemy\nFastAPI\nClickhouse\ngRPC\nREST API\nDocker\nDocker-compose\nKubernetes\nGrafana\nPrometheus\nELK\nApache Kafka\nRabbitMQ\nElasticsearch\nAPI\nGitLab CI\nDjango Framework",
+    "languages": "Родной\nРусский",
+    "about_me": "Здравствуйте, я бэкенд-разработчик с более чем трех летним опытом работы в\nкоммерческой сфере. Работал как в крупных компаниях, участвовал в различных\nхакатонах. Занимался разработкой приложений для B2B и B2C сегментов. Моя цель —\nпринять участие в проектах, которые открывают новые вызовы и способствуют моему\nпрофессиональному росту. если ссылка на телеграмм не доступна: username(@edgos_prog)\nURL(https://t.me/edgos_prog)",
+    "education": "Уровень\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №23\nРезюме: Инженер-программист\n\nСопроводительное письмо\nЗдравствуйте, я бэкенд-разработчик с более чем трех летним опытом работы в\nкоммерческой сфере. Работал как в крупных компаниях, участвовал в различных\nхакатонах. Занимался разработкой приложений для B2B и B2C сегментов. Моя цель —\nпринять участие в проектах, которые открывают новые вызовы и способствуют моему\nпрофессиональному росту. если ссылка на телеграмм не доступна: username(@edgos_prog)\nURL(https://t.me/edgos_prog)\n\nОпыт работы\nОпыт работы: 3 года 7 месяцев\nОпыт в похожих должностях:3 года 7 месяцев\nАпр 2023 -\nАпр 2025\n2 года 1 мес\nОрганизация 1\nКраснодар\nРозничная торговля\nPython Backend Developer\nMagnit.tech\nBackend developer\nАРЕНА - проект, направленный на оптимизацию инвентарного учета и контроля объема\nпродукции на точках по RFID меткам\nМои достижения:\n- Участвовал во внедрение аутентификации\n- Успешная интеграция очереди между высоконагруженными\nсервисами\n- Пересмотр логирования и внедрение новых практик и\nправил, что позволило централизировать логи\n- Написания нескольких сервисов по DDD следуя SOLID\n- Успешная интеграция со сторонними сервисами\n- Многоуровневое тестирование кодовой базы что\nпозволило поднять уровень с 50% до 80% на всех сервисах\n- Переход на ruff и uv, что позволило оптимизировать\nструктуру\n- Написание манифестов для Kubernetes и helm charts\n- Написание универсального пайплайна, что позволило\nсделать централизацию\n- Настройка ELK и подключение алертов\n- Проектировка доменной модели\n- Оптимизация докер образов, что ускорило прохождение\npipeline\n- Настройка кеширования запросов что позволило\nуменьшить количество доп запрос и сэкономить мощности\nСтек:\nFastAPI,Postgres,Celery,Sentry,Grafana,Sqlalchemy,Pydantic,Docker,Kubernetes,Kibana,Opensearch,File.D, GitlabCI,Redis,Kafka,PyTest,Docker-compose MongoDB,helm, werf\nОкт 2021 -\nМар 2023\n1 год 6 мес\nОрганизация 2\nМоскваl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nT-Bank\nBackend developer\nСингулярность – проект нацеленный на исследование культуры и анализ кодовой базы\nкомпании\nМои достижения:\n- Внедрил линтер и sonarqube и Bandit в pipeline всей\nкомпании, что повысило качество кода и безопасность и\nввело правило минимального покрытия тестами 80%\n- Конфигурация и настройка Celery для крон задач и\nпредотвращения нагрузки сервиса\n- Настроил Sentry и Grafana для метрик\n- Профилирование и оптимизация API путём устранения\nизбыточных запросов\n- Реализовал систему кэширования посредством Redis что\nпозволило снизить нагрузку на БД значительно\n- Мигрировал легаси-приложение с Django на FastAPI с\nпереходом на асинхронную\nархитектуру и улучшением производительности\nСтек:\nFastAPI, Django, Postgres, Celery, Sentry, Grafana, Docker-compose, Sqlalchemy, Pydantic, Docker,\nKubernetes, Kibana, Elasticsearch, Logstash, Gitlab CI, Redis, RabbitMQ, PyTest\n\nНавыки\nПродвинутый уровень\nPython\nLinux\nSQL\nPostgreSQL\nMySQL\nGit\nDjango Rest Framework\nPytest\nGitlab\nCelery\nMongoDB\nSQLAlchemy\nFastAPI\nClickhouse\ngRPC\nREST API\nDocker\nDocker-compose\nKubernetes\nGrafana\nPrometheus\nELK\nApache Kafka\nRabbitMQ\nElasticsearch\nAPI\nGitLab CI\nDjango Framework\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nЗдравствуйте, я бэкенд-разработчик с более чем трех летним опытом работы в\nкоммерческой сфере. Работал как в крупных компаниях, участвовал в различных\nхакатонах. Занимался разработкой приложений для B2B и B2C сегментов. Моя цель —\nпринять участие в проектах, которые открывают новые вызовы и способствуют моему\nпрофессиональному росту. если ссылка на телеграмм не доступна: username(@edgos_prog)\nURL(https://t.me/edgos_prog)\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

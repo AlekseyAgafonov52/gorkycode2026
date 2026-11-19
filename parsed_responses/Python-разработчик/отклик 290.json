@@ -1,0 +1,262 @@
+{
+  "candidate_id": 290,
+  "resume_title": "Data Engineer (PostgreSQL, Airflow, ETL, DWH, Clickhouse)",
+  "cover_letter": "Добрый день!\nМеня заинтересовала вакансия Data Engineer в вашей компании, так как я люблю работать с данными и имею опыт в построении аналитических решений.\nКраткое содержание:\n- опыт работы: 3 года\n- основные компетенции: Python, SQL, NoSQL\n- опыт работы с базами данных: PostgreSQL, MongoDB, ClickHouse, BigQuery\n- есть опыт с Airflow, Docker, Hadoop, DWH, Git\n- есть опыт работы в написание ETL-процессов\n- знаком с Spark, Kafka, dbt\nФормат работы: Удалённо\nТГ для связи: @Saneshca\nС уважением, Александр.",
+  "experience_total_months": 46,
+  "similar_experience_months": 8,
+  "work_experience": [
+    {
+      "start_date": "2025-05",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 18,
+      "organization": "Организация 1",
+      "position": "Data Engineer",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разработка и сопровождение production DWH/data pipelines: Python, Airflow, ClickHouse, Redpanda, Kafka Connect, MongoDB CDC, S3, Docker, ELK, Yandex Metrika Logs API, Ozon API, Wildberries API, Telegram / Google Chat alerts.\nРазрабатывал и поддерживал 8 production Airflow DAG-файлов для загрузки данных из Yandex Metrika, Yandex Market, Ozon, Wildberries и сервисных выгрузок в ClickHouse / S3. Настраивал Airflow на сервере, сопровождал окружения с ClickHouse, Redpanda / Kafka Connect и контролировал состояние пайплайнов.\nРеализовал пайплайн Yandex Metrika Logs API → ClickHouse: ежедневная загрузка данных по 17 клиентам, загрузка исторических периодов по диапазону дат, разбиение на ежедневные чанки, streaming-обработка больших выгрузок и защита от duplicate inserts.\nНастраивал CDC-пайплайны MongoDB → Redpanda / Kafka Connect → ClickHouse для аналитического DWH: 13 Kafka Connect-конфигураций, включая 12 MongoDB source-коннекторов и 1 ClickHouse sink-коннектор; CDC-загрузка данных из 11 MongoDB-коллекций, Redpanda topics, ClickHouse Kafka Engine tables, raw tables, materialized views и ReplacingMergeTree для актуального состояния документов.\nПроектировал и дорабатывал ClickHouse DDL для DWH: 20+ таблиц, 10+ materialized views, Kafka Engine ingest-таблицы, MergeTree / ReplacingMergeTree-таблицы, TTL policies, raw-слой, ingest-слой и витрины данных.\nНастроил мониторинг Kafka Connect через Airflow: hourly DAG проверяет Kafka Connect REST API, статусы connectors/tasks, доступность API, invalid JSON, missing tasks и failed-состояния, уведомления в Telegram / Google Chat.\nУчаствовал в security/privacy-улучшениях DWH: убирал PII из CDC-потоков, снижал детализацию чувствительных ошибок в логах/уведомлениях и предотвращал вывод API secrets в Airflow logs.\nРазвивал динамические DAG для маркетплейсов Ozon и Wildberries в S3: автоматизировал загрузку клиентских отзывов, валидацию API-ответов, устойчивые повторные запросы, нормализацию полей и подготовку CSV-файлов для дальнейшей загрузки в хранилище.",
+      "original": "Май 2025 -\nсейчас\n1 год 6 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nData Engineer\nРазработка и сопровождение production DWH/data pipelines: Python, Airflow, ClickHouse, Redpanda, Kafka Connect, MongoDB CDC, S3, Docker, ELK, Yandex Metrika Logs API, Ozon API, Wildberries API, Telegram / Google Chat alerts.\nРазрабатывал и поддерживал 8 production Airflow DAG-файлов для загрузки данных из Yandex Metrika, Yandex Market, Ozon, Wildberries и сервисных выгрузок в ClickHouse / S3. Настраивал Airflow на сервере, сопровождал окружения с ClickHouse, Redpanda / Kafka Connect и контролировал состояние пайплайнов.\nРеализовал пайплайн Yandex Metrika Logs API → ClickHouse: ежедневная загрузка данных по 17 клиентам, загрузка исторических периодов по диапазону дат, разбиение на ежедневные чанки, streaming-обработка больших выгрузок и защита от duplicate inserts.\nНастраивал CDC-пайплайны MongoDB → Redpanda / Kafka Connect → ClickHouse для аналитического DWH: 13 Kafka Connect-конфигураций, включая 12 MongoDB source-коннекторов и 1 ClickHouse sink-коннектор; CDC-загрузка данных из 11 MongoDB-коллекций, Redpanda topics, ClickHouse Kafka Engine tables, raw tables, materialized views и ReplacingMergeTree для актуального состояния документов.\nПроектировал и дорабатывал ClickHouse DDL для DWH: 20+ таблиц, 10+ materialized views, Kafka Engine ingest-таблицы, MergeTree / ReplacingMergeTree-таблицы, TTL policies, raw-слой, ingest-слой и витрины данных.\nНастроил мониторинг Kafka Connect через Airflow: hourly DAG проверяет Kafka Connect REST API, статусы connectors/tasks, доступность API, invalid JSON, missing tasks и failed-состояния, уведомления в Telegram / Google Chat.\nУчаствовал в security/privacy-улучшениях DWH: убирал PII из CDC-потоков, снижал детализацию чувствительных ошибок в логах/уведомлениях и предотвращал вывод API secrets в Airflow logs.\nРазвивал динамические DAG для маркетплейсов Ozon и Wildberries в S3: автоматизировал загрузку клиентских отзывов, валидацию API-ответов, устойчивые повторные запросы, нормализацию полей и подготовку CSV-файлов для дальнейшей загрузки в хранилище."
+    },
+    {
+      "start_date": "2024-09",
+      "end_date": "2025-05",
+      "is_current": false,
+      "duration_months": 9,
+      "organization": "Организация 2",
+      "position": "Data Engineer",
+      "employer_details": [
+        "Санкт-Петербургvaliotti.com/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Проекты по разработке и поддержке ETL/ELT-процессов, DWH-витрин и API-интеграций: Python, SQL, PostgreSQL, Airflow, BigQuery, Docker, GitLab, GCP, Flask, Fivetran, Google Sheets, API.\nРазрабатывал и поддерживал пайплайны для DWH и Google Sheets на Airflow: 10 production DAG с ежедневным расписанием, около 48 task instances и 7 источников данных, включая Facebook Ads, Google Ads, LinkedIn Ads, TikTok Ads, Yandex Metrica и production-реплику PostgreSQL.\nВ рамках этих пайплайнов разрабатывал и дорабатывал SQL-слой для рекламной аналитики: около 25 постоянных SQL-объектов, включая таблицы, views, materialized views и финальные витрины данных.\nУчаствовал в ELT-проекте на BigQuery / GCP для заказчика из медицинской сферы: дорабатывал Flask/GCP-сервисы для обработки XLS/XLSX/CSV-файлов, загрузки в GCS / BigQuery, PHI-шифрования и трансформации отчётов.\nРаботал с Fivetran и BigQuery: анализировал загружаемые данные, отбирал нужные таблицы для витрин и учитывал ограничения бесплатного тарифа Fivetran / free tier.",
+      "original": "Сен 2024 -\nМай 2025\n9 мес\nОрганизация 2\nСанкт-Петербургvaliotti.com/\nИнформационные технологии, системная интеграция, интернет\nData Engineer\nПроекты по разработке и поддержке ETL/ELT-процессов, DWH-витрин и API-интеграций: Python, SQL, PostgreSQL, Airflow, BigQuery, Docker, GitLab, GCP, Flask, Fivetran, Google Sheets, API.\nРазрабатывал и поддерживал пайплайны для DWH и Google Sheets на Airflow: 10 production DAG с ежедневным расписанием, около 48 task instances и 7 источников данных, включая Facebook Ads, Google Ads, LinkedIn Ads, TikTok Ads, Yandex Metrica и production-реплику PostgreSQL.\nВ рамках этих пайплайнов разрабатывал и дорабатывал SQL-слой для рекламной аналитики: около 25 постоянных SQL-объектов, включая таблицы, views, materialized views и финальные витрины данных.\nУчаствовал в ELT-проекте на BigQuery / GCP для заказчика из медицинской сферы: дорабатывал Flask/GCP-сервисы для обработки XLS/XLSX/CSV-файлов, загрузки в GCS / BigQuery, PHI-шифрования и трансформации отчётов.\nРаботал с Fivetran и BigQuery: анализировал загружаемые данные, отбирал нужные таблицы для витрин и учитывал ограничения бесплатного тарифа Fivetran / free tier."
+    },
+    {
+      "start_date": "2024-02",
+      "end_date": "2024-09",
+      "is_current": false,
+      "duration_months": 8,
+      "organization": "Организация 3",
+      "position": "Python Developer / Data Engineer",
+      "employer_details": [],
+      "description": "Проекты по автоматизации сбора, обработки и сопоставления данных: Python, Selenium, BeautifulSoup, HTTP API, JSON, Excel, регулярные выражения.\nАвтоматизировал сопоставление товарных позиций с каталогом onliner.by: нормализовал названия регулярными выражениями, получал URL товаров через API и заполнял данные в веб-интерфейсе. Достиг точности сопоставления более 95%.\nTrade-bot для SteamMarket, автоматизировал торговые операции через HTTP-запросы к API платформы. Реализовал получение данных, выполнение действий по заданным правилам и хранение состояния в JSON-файлах.",
+      "original": "Фев 2024 -\nСен 2024\n8 мес\nОрганизация 3\nPython Developer / Data Engineer\nПроекты по автоматизации сбора, обработки и сопоставления данных: Python, Selenium, BeautifulSoup, HTTP API, JSON, Excel, регулярные выражения.\nАвтоматизировал сопоставление товарных позиций с каталогом onliner.by: нормализовал названия регулярными выражениями, получал URL товаров через API и заполнял данные в веб-интерфейсе. Достиг точности сопоставления более 95%.\nTrade-bot для SteamMarket, автоматизировал торговые операции через HTTP-запросы к API платформы. Реализовал получение данных, выполнение действий по заданным правилам и хранение состояния в JSON-файлах."
+    },
+    {
+      "start_date": "2021-08",
+      "end_date": "2022-08",
+      "is_current": false,
+      "duration_months": 13,
+      "organization": "Организация 4",
+      "position": "Python Developer / Linux System Administrator",
+      "employer_details": [
+        "Витебск",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Внутренний проект: Python, Django, PostgreSQL, SQL, CSV, Linux\nРазработал Django-приложение для просмотра и мониторинга истории звонков компании на основе CSV-логов.\nРеализовал Python-пайплайн импорта данных из CSV в PostgreSQL, настроил структуру таблицы и веб-интерфейс с поиском и фильтрацией записей.",
+      "original": "Авг 2021 -\nАвг 2022\n1 год 1 мес\nОрганизация 4\nВитебск\nИнформационные технологии, системная интеграция, интернет\nPython Developer / Linux System Administrator\nВнутренний проект: Python, Django, PostgreSQL, SQL, CSV, Linux\nРазработал Django-приложение для просмотра и мониторинга истории звонков компании на основе CSV-логов.\nРеализовал Python-пайплайн импорта данных из CSV в PostgreSQL, настроил структуру таблицы и веб-интерфейс с поиском и фильтрацией записей."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "Big Data",
+      "level": "advanced",
+      "original": "Big Data"
+    },
+    {
+      "name": "Анализ данных",
+      "level": "advanced",
+      "original": "Анализ данных"
+    },
+    {
+      "name": "Hadoop",
+      "level": "advanced",
+      "original": "Hadoop"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "ETL",
+      "level": "advanced",
+      "original": "ETL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Базы данных",
+      "level": "advanced",
+      "original": "Базы данных"
+    },
+    {
+      "name": "DWH",
+      "level": "advanced",
+      "original": "DWH"
+    },
+    {
+      "name": "Selenium",
+      "level": "advanced",
+      "original": "Selenium"
+    },
+    {
+      "name": "Apache Airflow",
+      "level": "advanced",
+      "original": "Apache Airflow"
+    },
+    {
+      "name": "Apache Airflow",
+      "level": "advanced",
+      "original": "Airflow"
+    },
+    {
+      "name": "Spark",
+      "level": "advanced",
+      "original": "Spark"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "ELT",
+      "level": "advanced",
+      "original": "ELT"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "DBT",
+      "level": "advanced",
+      "original": "DBT"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "PySpark",
+      "level": "advanced",
+      "original": "PySpark"
+    },
+    {
+      "name": "BigQuery",
+      "level": "advanced",
+      "original": "BigQuery"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Redpanda",
+      "level": "advanced",
+      "original": "Redpanda"
+    },
+    {
+      "name": "pandas",
+      "level": "advanced",
+      "original": "pandas"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "СУБД",
+      "level": "advanced",
+      "original": "СУБД"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Languages: Python, SQL\nDatabases / DWH: ClickHouse, PostgreSQL, BigQuery, MongoDB, MySQL\nData Engineering: ETL, ELT, DWH, CDC, MongoDB CDC, Apache Airflow, Kafka Connect, Redpanda, Apache Kafka, S3\nClickHouse: MergeTree, ReplacingMergeTree, Kafka Engine, materialized views, TTL, raw / ingest / marts layers\nTools / Infra: Docker, Git, GitLab, GitHub, Linux, ELK, Elasticsearch, Kibana\nAPIs: Yandex Metrika Logs API, Yandex Market API, Ozon API, Wildberries API, Google Sheets API\nLearning: dbt, Greenplum",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Витебский государственный технологический университет, Витебск",
+      "details": [
+        "Информационных технологий и робототехники, Инженер Программист"
+      ],
+      "year": 2020,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Витебский государственный технологический университет, Витебск\nИнформационных технологий и робототехники, Инженер Программист\n•\n2020\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Беларусь",
+    "work_permit": "Беларусь, Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": "Есть",
+    "medical_book": "Есть"
+  },
+  "original_sections": {
+    "header": "Кандидат №290\nРезюме: Data Engineer (PostgreSQL, Airflow, ETL, DWH, Clickhouse)",
+    "cover_letter": "Добрый день!\nМеня заинтересовала вакансия Data Engineer в вашей компании, так как я люблю работать с данными и имею опыт в построении аналитических решений.\nКраткое содержание:\n- опыт работы: 3 года\n- основные компетенции: Python, SQL, NoSQL\n- опыт работы с базами данных: PostgreSQL, MongoDB, ClickHouse, BigQuery\n- есть опыт с Airflow, Docker, Hadoop, DWH, Git\n- есть опыт работы в написание ETL-процессов\n- знаком с Spark, Kafka, dbt\nФормат работы: Удалённо\nТГ для связи: @Saneshca\nС уважением, Александр.",
+    "experience": "Опыт работы: 3 года 10 месяцев\nОпыт в похожих должностях:8 месяцев\nМай 2025 -\nсейчас\n1 год 6 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nData Engineer\nРазработка и сопровождение production DWH/data pipelines: Python, Airflow, ClickHouse, Redpanda, Kafka Connect, MongoDB CDC, S3, Docker, ELK, Yandex Metrika Logs API, Ozon API, Wildberries API, Telegram / Google Chat alerts.\nРазрабатывал и поддерживал 8 production Airflow DAG-файлов для загрузки данных из Yandex Metrika, Yandex Market, Ozon, Wildberries и сервисных выгрузок в ClickHouse / S3. Настраивал Airflow на сервере, сопровождал окружения с ClickHouse, Redpanda / Kafka Connect и контролировал состояние пайплайнов.\nРеализовал пайплайн Yandex Metrika Logs API → ClickHouse: ежедневная загрузка данных по 17 клиентам, загрузка исторических периодов по диапазону дат, разбиение на ежедневные чанки, streaming-обработка больших выгрузок и защита от duplicate inserts.\nНастраивал CDC-пайплайны MongoDB → Redpanda / Kafka Connect → ClickHouse для аналитического DWH: 13 Kafka Connect-конфигураций, включая 12 MongoDB source-коннекторов и 1 ClickHouse sink-коннектор; CDC-загрузка данных из 11 MongoDB-коллекций, Redpanda topics, ClickHouse Kafka Engine tables, raw tables, materialized views и ReplacingMergeTree для актуального состояния документов.\nПроектировал и дорабатывал ClickHouse DDL для DWH: 20+ таблиц, 10+ materialized views, Kafka Engine ingest-таблицы, MergeTree / ReplacingMergeTree-таблицы, TTL policies, raw-слой, ingest-слой и витрины данных.\nНастроил мониторинг Kafka Connect через Airflow: hourly DAG проверяет Kafka Connect REST API, статусы connectors/tasks, доступность API, invalid JSON, missing tasks и failed-состояния, уведомления в Telegram / Google Chat.\nУчаствовал в security/privacy-улучшениях DWH: убирал PII из CDC-потоков, снижал детализацию чувствительных ошибок в логах/уведомлениях и предотвращал вывод API secrets в Airflow logs.\nРазвивал динамические DAG для маркетплейсов Ozon и Wildberries в S3: автоматизировал загрузку клиентских отзывов, валидацию API-ответов, устойчивые повторные запросы, нормализацию полей и подготовку CSV-файлов для дальнейшей загрузки в хранилище.\nСен 2024 -\nМай 2025\n9 мес\nОрганизация 2\nСанкт-Петербургvaliotti.com/\nИнформационные технологии, системная интеграция, интернет\nData Engineer\nПроекты по разработке и поддержке ETL/ELT-процессов, DWH-витрин и API-интеграций: Python, SQL, PostgreSQL, Airflow, BigQuery, Docker, GitLab, GCP, Flask, Fivetran, Google Sheets, API.\nРазрабатывал и поддерживал пайплайны для DWH и Google Sheets на Airflow: 10 production DAG с ежедневным расписанием, около 48 task instances и 7 источников данных, включая Facebook Ads, Google Ads, LinkedIn Ads, TikTok Ads, Yandex Metrica и production-реплику PostgreSQL.\nВ рамках этих пайплайнов разрабатывал и дорабатывал SQL-слой для рекламной аналитики: около 25 постоянных SQL-объектов, включая таблицы, views, materialized views и финальные витрины данных.\nУчаствовал в ELT-проекте на BigQuery / GCP для заказчика из медицинской сферы: дорабатывал Flask/GCP-сервисы для обработки XLS/XLSX/CSV-файлов, загрузки в GCS / BigQuery, PHI-шифрования и трансформации отчётов.\nРаботал с Fivetran и BigQuery: анализировал загружаемые данные, отбирал нужные таблицы для витрин и учитывал ограничения бесплатного тарифа Fivetran / free tier.\nФев 2024 -\nСен 2024\n8 мес\nОрганизация 3\nPython Developer / Data Engineer\nПроекты по автоматизации сбора, обработки и сопоставления данных: Python, Selenium, BeautifulSoup, HTTP API, JSON, Excel, регулярные выражения.\nАвтоматизировал сопоставление товарных позиций с каталогом onliner.by: нормализовал названия регулярными выражениями, получал URL товаров через API и заполнял данные в веб-интерфейсе. Достиг точности сопоставления более 95%.\nTrade-bot для SteamMarket, автоматизировал торговые операции через HTTP-запросы к API платформы. Реализовал получение данных, выполнение действий по заданным правилам и хранение состояния в JSON-файлах.\nАвг 2021 -\nАвг 2022\n1 год 1 мес\nОрганизация 4\nВитебск\nИнформационные технологии, системная интеграция, интернет\nPython Developer / Linux System Administrator\nВнутренний проект: Python, Django, PostgreSQL, SQL, CSV, Linux\nРазработал Django-приложение для просмотра и мониторинга истории звонков компании на основе CSV-логов.\nРеализовал Python-пайплайн импорта данных из CSV в PostgreSQL, настроил структуру таблицы и веб-интерфейс с поиском и фильтрацией записей.",
+    "skills": "Продвинутый уровень\nPython\nSQL\nАнглийский язык\nBig Data\nАнализ данных\nHadoop\nPostgreSQL\nETL\nGit\nLinux\nБазы данных\nDWH\nSelenium\nApache Airflow\nAirflow\nSpark\nClickhouse\nELT\nDocker\nCI/CD\nDBT\nApache Kafka\nPySpark\nBigQuery\nREST API\nMongoDB\nRedpanda\npandas\nMySQL\nСУБД",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Languages: Python, SQL\nDatabases / DWH: ClickHouse, PostgreSQL, BigQuery, MongoDB, MySQL\nData Engineering: ETL, ELT, DWH, CDC, MongoDB CDC, Apache Airflow, Kafka Connect, Redpanda, Apache Kafka, S3\nClickHouse: MergeTree, ReplacingMergeTree, Kafka Engine, materialized views, TTL, raw / ingest / marts layers\nTools / Infra: Docker, Git, GitLab, GitHub, Linux, ELK, Elasticsearch, Kibana\nAPIs: Yandex Metrika Logs API, Yandex Market API, Ozon API, Wildberries API, Google Sheets API\nLearning: dbt, Greenplum",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nВитебский государственный технологический университет, Витебск\nИнформационных технологий и робототехники, Инженер Программист\n•\n2020\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь, Россия\nОпыт вождения:\nЕсть своя машина, права категории B\nСамозанятость:\nЕсть\nМедкнижка:\nЕсть"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №290\nРезюме: Data Engineer (PostgreSQL, Airflow, ETL, DWH, Clickhouse)\n\nСопроводительное письмо\nДобрый день!\nМеня заинтересовала вакансия Data Engineer в вашей компании, так как я люблю работать с данными и имею опыт в построении аналитических решений.\nКраткое содержание:\n- опыт работы: 3 года\n- основные компетенции: Python, SQL, NoSQL\n- опыт работы с базами данных: PostgreSQL, MongoDB, ClickHouse, BigQuery\n- есть опыт с Airflow, Docker, Hadoop, DWH, Git\n- есть опыт работы в написание ETL-процессов\n- знаком с Spark, Kafka, dbt\nФормат работы: Удалённо\nТГ для связи: @Saneshca\nС уважением, Александр.\n\nОпыт работы\nОпыт работы: 3 года 10 месяцев\nОпыт в похожих должностях:8 месяцев\nМай 2025 -\nсейчас\n1 год 6 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nData Engineer\nРазработка и сопровождение production DWH/data pipelines: Python, Airflow, ClickHouse, Redpanda, Kafka Connect, MongoDB CDC, S3, Docker, ELK, Yandex Metrika Logs API, Ozon API, Wildberries API, Telegram / Google Chat alerts.\nРазрабатывал и поддерживал 8 production Airflow DAG-файлов для загрузки данных из Yandex Metrika, Yandex Market, Ozon, Wildberries и сервисных выгрузок в ClickHouse / S3. Настраивал Airflow на сервере, сопровождал окружения с ClickHouse, Redpanda / Kafka Connect и контролировал состояние пайплайнов.\nРеализовал пайплайн Yandex Metrika Logs API → ClickHouse: ежедневная загрузка данных по 17 клиентам, загрузка исторических периодов по диапазону дат, разбиение на ежедневные чанки, streaming-обработка больших выгрузок и защита от duplicate inserts.\nНастраивал CDC-пайплайны MongoDB → Redpanda / Kafka Connect → ClickHouse для аналитического DWH: 13 Kafka Connect-конфигураций, включая 12 MongoDB source-коннекторов и 1 ClickHouse sink-коннектор; CDC-загрузка данных из 11 MongoDB-коллекций, Redpanda topics, ClickHouse Kafka Engine tables, raw tables, materialized views и ReplacingMergeTree для актуального состояния документов.\nПроектировал и дорабатывал ClickHouse DDL для DWH: 20+ таблиц, 10+ materialized views, Kafka Engine ingest-таблицы, MergeTree / ReplacingMergeTree-таблицы, TTL policies, raw-слой, ingest-слой и витрины данных.\nНастроил мониторинг Kafka Connect через Airflow: hourly DAG проверяет Kafka Connect REST API, статусы connectors/tasks, доступность API, invalid JSON, missing tasks и failed-состояния, уведомления в Telegram / Google Chat.\nУчаствовал в security/privacy-улучшениях DWH: убирал PII из CDC-потоков, снижал детализацию чувствительных ошибок в логах/уведомлениях и предотвращал вывод API secrets в Airflow logs.\nРазвивал динамические DAG для маркетплейсов Ozon и Wildberries в S3: автоматизировал загрузку клиентских отзывов, валидацию API-ответов, устойчивые повторные запросы, нормализацию полей и подготовку CSV-файлов для дальнейшей загрузки в хранилище.\nСен 2024 -\nМай 2025\n9 мес\nОрганизация 2\nСанкт-Петербургvaliotti.com/\nИнформационные технологии, системная интеграция, интернет\nData Engineer\nПроекты по разработке и поддержке ETL/ELT-процессов, DWH-витрин и API-интеграций: Python, SQL, PostgreSQL, Airflow, BigQuery, Docker, GitLab, GCP, Flask, Fivetran, Google Sheets, API.\nРазрабатывал и поддерживал пайплайны для DWH и Google Sheets на Airflow: 10 production DAG с ежедневным расписанием, около 48 task instances и 7 источников данных, включая Facebook Ads, Google Ads, LinkedIn Ads, TikTok Ads, Yandex Metrica и production-реплику PostgreSQL.\nВ рамках этих пайплайнов разрабатывал и дорабатывал SQL-слой для рекламной аналитики: около 25 постоянных SQL-объектов, включая таблицы, views, materialized views и финальные витрины данных.\nУчаствовал в ELT-проекте на BigQuery / GCP для заказчика из медицинской сферы: дорабатывал Flask/GCP-сервисы для обработки XLS/XLSX/CSV-файлов, загрузки в GCS / BigQuery, PHI-шифрования и трансформации отчётов.\nРаботал с Fivetran и BigQuery: анализировал загружаемые данные, отбирал нужные таблицы для витрин и учитывал ограничения бесплатного тарифа Fivetran / free tier.\nФев 2024 -\nСен 2024\n8 мес\nОрганизация 3\nPython Developer / Data Engineer\nПроекты по автоматизации сбора, обработки и сопоставления данных: Python, Selenium, BeautifulSoup, HTTP API, JSON, Excel, регулярные выражения.\nАвтоматизировал сопоставление товарных позиций с каталогом onliner.by: нормализовал названия регулярными выражениями, получал URL товаров через API и заполнял данные в веб-интерфейсе. Достиг точности сопоставления более 95%.\nTrade-bot для SteamMarket, автоматизировал торговые операции через HTTP-запросы к API платформы. Реализовал получение данных, выполнение действий по заданным правилам и хранение состояния в JSON-файлах.\nАвг 2021 -\nАвг 2022\n1 год 1 мес\nОрганизация 4\nВитебск\nИнформационные технологии, системная интеграция, интернет\nPython Developer / Linux System Administrator\nВнутренний проект: Python, Django, PostgreSQL, SQL, CSV, Linux\nРазработал Django-приложение для просмотра и мониторинга истории звонков компании на основе CSV-логов.\nРеализовал Python-пайплайн импорта данных из CSV в PostgreSQL, настроил структуру таблицы и веб-интерфейс с поиском и фильтрацией записей.\n\nНавыки\nПродвинутый уровень\nPython\nSQL\nАнглийский язык\nBig Data\nАнализ данных\nHadoop\nPostgreSQL\nETL\nGit\nLinux\nБазы данных\nDWH\nSelenium\nApache Airflow\nAirflow\nSpark\nClickhouse\nELT\nDocker\nCI/CD\nDBT\nApache Kafka\nPySpark\nBigQuery\nREST API\nMongoDB\nRedpanda\npandas\nMySQL\nСУБД\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nLanguages: Python, SQL\nDatabases / DWH: ClickHouse, PostgreSQL, BigQuery, MongoDB, MySQL\nData Engineering: ETL, ELT, DWH, CDC, MongoDB CDC, Apache Airflow, Kafka Connect, Redpanda, Apache Kafka, S3\nClickHouse: MergeTree, ReplacingMergeTree, Kafka Engine, materialized views, TTL, raw / ingest / marts layers\nTools / Infra: Docker, Git, GitLab, GitHub, Linux, ELK, Elasticsearch, Kibana\nAPIs: Yandex Metrika Logs API, Yandex Market API, Ozon API, Wildberries API, Google Sheets API\nLearning: dbt, Greenplum\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nВитебский государственный технологический университет, Витебск\nИнформационных технологий и робототехники, Инженер Программист\n•\n2020\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь, Россия\nОпыт вождения:\nЕсть своя машина, права категории B\nСамозанятость:\nЕсть\nМедкнижка:\nЕсть\n"
+}

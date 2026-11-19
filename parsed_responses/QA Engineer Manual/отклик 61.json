@@ -1,0 +1,235 @@
+{
+  "candidate_id": 61,
+  "resume_title": "QA-инженер",
+  "cover_letter": "Здравствуйте! Я заинтересован в данной вакансии. Буду рад обсудить подробности.",
+  "experience_total_months": 22,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2026-07",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 4,
+      "organization": "Организация 1",
+      "position": "электрогазосварщик",
+      "employer_details": [
+        "Краснодар",
+        "Электроника, приборостроение, бытовая техника, компьютеры и оргтехника"
+      ],
+      "description": "сварные работы, контуры заземления",
+      "original": "Июл 2026 -\nсейчас\n4 мес\nОрганизация 1\nКраснодар\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nэлектрогазосварщик\nсварные работы, контуры заземления"
+    },
+    {
+      "start_date": "2025-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 22,
+      "organization": "Организация 2",
+      "position": "Связит, монтажник сетей и подключений",
+      "employer_details": [
+        "Краснодарsm117.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "- Монтаж технологического и промышленного оборудования\n- Чтение строительных чертежей и схем\n- Работа с gpon и оборудованием",
+      "original": "Янв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 2\nКраснодарsm117.ru\nИнформационные технологии, системная интеграция, интернет\nСвязит, монтажник сетей и подключений\n- Монтаж технологического и промышленного оборудования\n- Чтение строительных чертежей и схем\n- Работа с gpon и оборудованием"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Интеграционное тестирование",
+      "level": "advanced",
+      "original": "Интеграционное тестирование"
+    },
+    {
+      "name": "Charles Proxy",
+      "level": "advanced",
+      "original": "Charles Proxy"
+    },
+    {
+      "name": "Proxyman",
+      "level": "advanced",
+      "original": "Proxyman"
+    },
+    {
+      "name": "TestRail",
+      "level": "advanced",
+      "original": "TestRail"
+    },
+    {
+      "name": "CRM",
+      "level": "advanced",
+      "original": "CRM"
+    },
+    {
+      "name": "Scrum",
+      "level": "advanced",
+      "original": "Scrum"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "Wiki",
+      "level": "advanced",
+      "original": "Wiki"
+    },
+    {
+      "name": "Yandex Tracker",
+      "level": "advanced",
+      "original": "Yandex Tracker"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Jira"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "Swagger",
+      "level": "advanced",
+      "original": "Swagger"
+    },
+    {
+      "name": "тестирование мобильных приложений",
+      "level": "advanced",
+      "original": "тестирование мобильных приложений"
+    },
+    {
+      "name": "Кроссбраузерное тестирование",
+      "level": "advanced",
+      "original": "Кроссбраузерное тестирование"
+    },
+    {
+      "name": "DevTools",
+      "level": "advanced",
+      "original": "DevTools"
+    },
+    {
+      "name": "Figma",
+      "level": "advanced",
+      "original": "Figma"
+    },
+    {
+      "name": "Методология тестирования",
+      "level": "advanced",
+      "original": "Методология тестирования"
+    },
+    {
+      "name": "Confluence",
+      "level": "advanced",
+      "original": "Atlassian Confluence"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Firebase",
+      "level": "intermediate",
+      "original": "Firebase"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "intermediate",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "СУБД",
+      "level": "intermediate",
+      "original": "СУБД"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "Grafana",
+      "level": "intermediate",
+      "original": "Grafana"
+    },
+    {
+      "name": "GitLab",
+      "level": "intermediate",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Android Studio",
+      "level": "intermediate",
+      "original": "Android Studio"
+    },
+    {
+      "name": "Xcode",
+      "level": "intermediate",
+      "original": "Xcode"
+    },
+    {
+      "name": "CI/CD",
+      "level": "intermediate",
+      "original": "CI/CD"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "QA-инженер с опытом работы в Agile-среде. Специализируюсь на тщательном тестировании продуктов, уделяя внимание не только очевидным сценариям, но и сложным кейсам. Умею четко формулировать проблемы и находить баланс между качеством и сроками.\nВсегда открыт к новым инструментам и подходам. Мечтаю о проекте, который будет бросать мне вызовы, давая возможность расти как специалисту Мой контакт для связи:\nTelegram @GoodMen077",
+  "education_level": "Среднее образование",
+  "education": [
+    {
+      "institution": "Центр Дополнительного Образования",
+      "details": [],
+      "year": 2026,
+      "level": "Среднее образование",
+      "original": "Центр Дополнительного Образования\n2026\n•\nСреднее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №61\nРезюме: QA-инженер",
+    "cover_letter": "Здравствуйте! Я заинтересован в данной вакансии. Буду рад обсудить подробности.",
+    "experience": "Опыт работы: 1 год 10 месяцев\nИюл 2026 -\nсейчас\n4 мес\nОрганизация 1\nКраснодар\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nэлектрогазосварщик\nсварные работы, контуры заземления\nЯнв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 2\nКраснодарsm117.ru\nИнформационные технологии, системная интеграция, интернет\nСвязит, монтажник сетей и подключений\n- Монтаж технологического и промышленного оборудования\n- Чтение строительных чертежей и схем\n- Работа с gpon и оборудованием",
+    "skills": "Продвинутый уровень\nИнтеграционное тестирование\nCharles Proxy\nProxyman\nTestRail\nCRM\nScrum\nAgile\nWiki\nYandex Tracker\nJira\nAPI\nPostman\nSwagger\nтестирование мобильных приложений\nКроссбраузерное тестирование\nDevTools\nFigma\nМетодология тестирования\nAtlassian Confluence\nAtlassian Jira\nСредний уровень\nFirebase\nPostgreSQL\nClickhouse\nСУБД\nSQL\nGrafana\nGitlab\nAndroid Studio\nXcode\nCI/CD",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "QA-инженер с опытом работы в Agile-среде. Специализируюсь на тщательном тестировании продуктов, уделяя внимание не только очевидным сценариям, но и сложным кейсам. Умею четко формулировать проблемы и находить баланс между качеством и сроками.\nВсегда открыт к новым инструментам и подходам. Мечтаю о проекте, который будет бросать мне вызовы, давая возможность расти как специалисту Мой контакт для связи:\nTelegram @GoodMen077",
+    "education": "Уровень\nСреднее образование\nЦентр Дополнительного Образования\n2026\n•\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №61\nРезюме: QA-инженер\n\nСопроводительное письмо\nЗдравствуйте! Я заинтересован в данной вакансии. Буду рад обсудить подробности.\n\nОпыт работы\nОпыт работы: 1 год 10 месяцев\nИюл 2026 -\nсейчас\n4 мес\nОрганизация 1\nКраснодар\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nэлектрогазосварщик\nсварные работы, контуры заземления\nЯнв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 2\nКраснодарsm117.ru\nИнформационные технологии, системная интеграция, интернет\nСвязит, монтажник сетей и подключений\n- Монтаж технологического и промышленного оборудования\n- Чтение строительных чертежей и схем\n- Работа с gpon и оборудованием\n\nНавыки\nПродвинутый уровень\nИнтеграционное тестирование\nCharles Proxy\nProxyman\nTestRail\nCRM\nScrum\nAgile\nWiki\nYandex Tracker\nJira\nAPI\nPostman\nSwagger\nтестирование мобильных приложений\nКроссбраузерное тестирование\nDevTools\nFigma\nМетодология тестирования\nAtlassian Confluence\nAtlassian Jira\nСредний уровень\nFirebase\nPostgreSQL\nClickhouse\nСУБД\nSQL\nGrafana\nGitlab\nAndroid Studio\nXcode\nCI/CD\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nQA-инженер с опытом работы в Agile-среде. Специализируюсь на тщательном тестировании продуктов, уделяя внимание не только очевидным сценариям, но и сложным кейсам. Умею четко формулировать проблемы и находить баланс между качеством и сроками.\nВсегда открыт к новым инструментам и подходам. Мечтаю о проекте, который будет бросать мне вызовы, давая возможность расти как специалисту Мой контакт для связи:\nTelegram @GoodMen077\n\nОбразование\nУровень\nСреднее образование\nЦентр Дополнительного Образования\n2026\n•\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

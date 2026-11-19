@@ -1,0 +1,110 @@
+{
+  "candidate_id": 342,
+  "resume_title": "Data Engineer",
+  "cover_letter": "take me",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Apache Airflow",
+      "level": "advanced",
+      "original": "Apache Airflow"
+    },
+    {
+      "name": "DWH",
+      "level": "advanced",
+      "original": "DWH"
+    },
+    {
+      "name": "Работа с базами данных",
+      "level": "advanced",
+      "original": "Работа с базами данных"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Базы данных",
+      "level": "intermediate",
+      "original": "Базы данных"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "СУБД",
+      "level": "intermediate",
+      "original": "СУБД"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "pandas",
+      "level": "intermediate",
+      "original": "pandas"
+    },
+    {
+      "name": "MS Excel",
+      "level": "intermediate",
+      "original": "MS Excel"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Telegram: @nevatsok",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Санкт-Петербургский государственный университет, Санкт-Петербург",
+      "details": [],
+      "year": 2023,
+      "level": "Неоконченное высшее образование",
+      "original": "Санкт-Петербургский государственный университет, Санкт-Петербург\n2023\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №342\nРезюме: Data Engineer",
+    "cover_letter": "take me",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nSQL\nPython\nApache Airflow\nDWH\nРабота с базами данных\nСредний уровень\nLinux\nБазы данных\nGit\nСУБД\nPostgreSQL\npandas\nMS Excel",
+    "languages": "Родной\nРусский",
+    "about_me": "Telegram: @nevatsok",
+    "education": "Уровень\nНеоконченное высшее образование\nСанкт-Петербургский государственный университет, Санкт-Петербург\n2023\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №342\nРезюме: Data Engineer\n\nСопроводительное письмо\ntake me\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nSQL\nPython\nApache Airflow\nDWH\nРабота с базами данных\nСредний уровень\nLinux\nБазы данных\nGit\nСУБД\nPostgreSQL\npandas\nMS Excel\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nTelegram: @nevatsok\n\nОбразование\nУровень\nНеоконченное высшее образование\nСанкт-Петербургский государственный университет, Санкт-Петербург\n2023\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

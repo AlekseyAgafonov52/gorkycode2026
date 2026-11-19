@@ -1,0 +1,148 @@
+{
+  "candidate_id": 174,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 17,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-10",
+      "end_date": "2026-09",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "l.tinkoff.ru/career.and.vacancies",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Система мониторинга ссылок\nPython 3.12 · FastAPI · PostgreSQL · SQLAlchemy · Docker\nДвухсервисная система для отслеживания изменений на GitHub и StackOverflow с доставкой уведомлений в Telegram.\nСпроектировал и реализовал scrapper-сервис: периодический опрос GitHub API и StackOverflow API, сохранение состояния ссылок в PostgreSQL через SQLAlchemy ORM\nРеализовал bot-сервис на базе Telegram Bot API: обработка команд пользователя, хранение подписок, отправка уведомлений\nНастроил межсервисное взаимодействие по HTTP через REST API (FastAPI)\nСпроектировал схему базы данных и написал миграции\nНаписал интеграционные тесты с использованием Testcontainers\nНастроил GitLab CI/CD: линтер (black, ruff), запуск тестов",
+      "original": "Окт 2025 -\nСен 2026\n1 год\nОрганизация 1\nl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nСистема мониторинга ссылок\nPython 3.12 · FastAPI · PostgreSQL · SQLAlchemy · Docker\nДвухсервисная система для отслеживания изменений на GitHub и StackOverflow с доставкой уведомлений в Telegram.\nСпроектировал и реализовал scrapper-сервис: периодический опрос GitHub API и StackOverflow API, сохранение состояния ссылок в PostgreSQL через SQLAlchemy ORM\nРеализовал bot-сервис на базе Telegram Bot API: обработка команд пользователя, хранение подписок, отправка уведомлений\nНастроил межсервисное взаимодействие по HTTP через REST API (FastAPI)\nСпроектировал схему базы данных и написал миграции\nНаписал интеграционные тесты с использованием Testcontainers\nНастроил GitLab CI/CD: линтер (black, ruff), запуск тестов"
+    },
+    {
+      "start_date": "2025-05",
+      "end_date": "2025-10",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 2",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "Task Manager API\nPython · Django · Django REST Framework · PostgreSQL · Docker\nREST API для управления задачами с системой авторизации.\nРеализовал CRUD для задач с категориями и статусами\nНастроил JWT-авторизацию\nНаписал сериализаторы и валидацию через DRF\nРазвернул приложение через Docker Compose",
+      "original": "Май 2025 -\nОкт 2025\n6 мес\nОрганизация 2\nPython-разработчик\nTask Manager API\nPython · Django · Django REST Framework · PostgreSQL · Docker\nREST API для управления задачами с системой авторизации.\nРеализовал CRUD для задач с категориями и статусами\nНастроил JWT-авторизацию\nНаписал сериализаторы и валидацию через DRF\nРазвернул приложение через Docker Compose"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "intermediate",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "pytest",
+      "level": "intermediate",
+      "original": "Pytest"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "CI/CD",
+      "level": "basic",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Linux",
+      "level": "basic",
+      "original": "Linux"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Backend-разработчик на Python с опытом проектирования микросервисных систем и REST API. Разрабатываю сервисы на FastAPI, работаю с PostgreSQL, пишу тесты. Активно развиваюсь в направлении backend-разработки, реализовал несколько проектов от идеи до CI/CD.",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Национальный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород",
+      "details": [
+        "Институт информационных технологий, математики и механики, Программная инженерия"
+      ],
+      "year": 2027,
+      "level": "Неоконченное высшее образование",
+      "original": "Национальный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИнститут информационных технологий, математики и механики, Программная инженерия\n•\n2027\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №174\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 5 месяцев\nОкт 2025 -\nСен 2026\n1 год\nОрганизация 1\nl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nСистема мониторинга ссылок\nPython 3.12 · FastAPI · PostgreSQL · SQLAlchemy · Docker\nДвухсервисная система для отслеживания изменений на GitHub и StackOverflow с доставкой уведомлений в Telegram.\nСпроектировал и реализовал scrapper-сервис: периодический опрос GitHub API и StackOverflow API, сохранение состояния ссылок в PostgreSQL через SQLAlchemy ORM\nРеализовал bot-сервис на базе Telegram Bot API: обработка команд пользователя, хранение подписок, отправка уведомлений\nНастроил межсервисное взаимодействие по HTTP через REST API (FastAPI)\nСпроектировал схему базы данных и написал миграции\nНаписал интеграционные тесты с использованием Testcontainers\nНастроил GitLab CI/CD: линтер (black, ruff), запуск тестов\nМай 2025 -\nОкт 2025\n6 мес\nОрганизация 2\nPython-разработчик\nTask Manager API\nPython · Django · Django REST Framework · PostgreSQL · Docker\nREST API для управления задачами с системой авторизации.\nРеализовал CRUD для задач с категориями и статусами\nНастроил JWT-авторизацию\nНаписал сериализаторы и валидацию через DRF\nРазвернул приложение через Docker Compose",
+    "skills": "Средний уровень\nPython\nFastAPI\nDjango Framework\nDjango Rest Framework\nSQLAlchemy\nPostgreSQL\nSQL\nGit\nDocker\nDocker-compose\nPytest\nREST API\nБазовый уровень\nCI/CD\nLinux",
+    "languages": "Родной\nРусский",
+    "about_me": "Backend-разработчик на Python с опытом проектирования микросервисных систем и REST API. Разрабатываю сервисы на FastAPI, работаю с PostgreSQL, пишу тесты. Активно развиваюсь в направлении backend-разработки, реализовал несколько проектов от идеи до CI/CD.",
+    "education": "Уровень\nНеоконченное высшее образование\nНациональный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИнститут информационных технологий, математики и механики, Программная инженерия\n•\n2027\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №174\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 5 месяцев\nОкт 2025 -\nСен 2026\n1 год\nОрганизация 1\nl.tinkoff.ru/career.and.vacancies\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nСистема мониторинга ссылок\nPython 3.12 · FastAPI · PostgreSQL · SQLAlchemy · Docker\nДвухсервисная система для отслеживания изменений на GitHub и StackOverflow с доставкой уведомлений в Telegram.\nСпроектировал и реализовал scrapper-сервис: периодический опрос GitHub API и StackOverflow API, сохранение состояния ссылок в PostgreSQL через SQLAlchemy ORM\nРеализовал bot-сервис на базе Telegram Bot API: обработка команд пользователя, хранение подписок, отправка уведомлений\nНастроил межсервисное взаимодействие по HTTP через REST API (FastAPI)\nСпроектировал схему базы данных и написал миграции\nНаписал интеграционные тесты с использованием Testcontainers\nНастроил GitLab CI/CD: линтер (black, ruff), запуск тестов\nМай 2025 -\nОкт 2025\n6 мес\nОрганизация 2\nPython-разработчик\nTask Manager API\nPython · Django · Django REST Framework · PostgreSQL · Docker\nREST API для управления задачами с системой авторизации.\nРеализовал CRUD для задач с категориями и статусами\nНастроил JWT-авторизацию\nНаписал сериализаторы и валидацию через DRF\nРазвернул приложение через Docker Compose\n\nНавыки\nСредний уровень\nPython\nFastAPI\nDjango Framework\nDjango Rest Framework\nSQLAlchemy\nPostgreSQL\nSQL\nGit\nDocker\nDocker-compose\nPytest\nREST API\nБазовый уровень\nCI/CD\nLinux\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nBackend-разработчик на Python с опытом проектирования микросервисных систем и REST API. Разрабатываю сервисы на FastAPI, работаю с PostgreSQL, пишу тесты. Активно развиваюсь в направлении backend-разработки, реализовал несколько проектов от идеи до CI/CD.\n\nОбразование\nУровень\nНеоконченное высшее образование\nНациональный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИнститут информационных технологий, математики и механики, Программная инженерия\n•\n2027\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

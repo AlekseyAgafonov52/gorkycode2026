@@ -1,0 +1,158 @@
+{
+  "candidate_id": 22,
+  "resume_title": "Программист, разработчик",
+  "cover_letter": null,
+  "experience_total_months": 16,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-02",
+      "end_date": "2026-05",
+      "is_current": false,
+      "duration_months": 16,
+      "organization": "Организация 1",
+      "position": "Web разработчик",
+      "employer_details": [
+        "Тольятти",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "О компании:\nРазработка компьютерного программного обеспечения, включая пользовательские профили и чаты для веб-мессенджеров сторонних компаний.\nДолжностные обязанности:\n-Создание пользовательских интерфейсов – (опыт верстки HTML / HTML, CSS, Flexbox, CSS Grid, JavaScript)\n-Поддержка и развитие существующего функционала пользовательских профилей и веб-чатов для веб-мессенджеров - JavaScript (Promises / async/await / Events); Node.js; REST API\n-Практический опыт разработки frontend части приложений - Vue\n-Рекрут Git-веток, работа с системой контроля версий - GitHub / GitLab\n-Проектирование пользовательских интерфейсов, адаптация интерфейсов под дизайн-макеты - Figma, Tailwind CSS, UX/UI\nHTML, CSS, JavaScript\n-Работа с клиентской и серверной частью – PHP, Node.js, JavaScript\nОбработка данных через API – Rest/ Fetch API, JavaScript\nДостижения за время работы:\n-Сертифицированное Первое место потока, получивший высшую оценку по итогам государственной итоговой защиты, за проект Meetopia и был отмечен в официальных СМИ ТГУ и городском информационном сообществе:\nhttps://t.me/tltvip/59589\nhttps://www.tltsu.ru/news/kuda_poiti_bolse_ne_problema\n-2-е место в конкурсе проектных инициатив «StartUpWeek» в рамках инициативы «Проектива»",
+      "original": "Фев 2025 -\nМай 2026\n1 год 4 мес\nОрганизация 1\nТольятти\nИнформационные технологии, системная интеграция, интернет\nWeb разработчик\nО компании:\nРазработка компьютерного программного обеспечения, включая пользовательские профили и чаты для веб-мессенджеров сторонних компаний.\nДолжностные обязанности:\n-Создание пользовательских интерфейсов – (опыт верстки HTML / HTML, CSS, Flexbox, CSS Grid, JavaScript)\n-Поддержка и развитие существующего функционала пользовательских профилей и веб-чатов для веб-мессенджеров - JavaScript (Promises / async/await / Events); Node.js; REST API\n-Практический опыт разработки frontend части приложений - Vue\n-Рекрут Git-веток, работа с системой контроля версий - GitHub / GitLab\n-Проектирование пользовательских интерфейсов, адаптация интерфейсов под дизайн-макеты - Figma, Tailwind CSS, UX/UI\nHTML, CSS, JavaScript\n-Работа с клиентской и серверной частью – PHP, Node.js, JavaScript\nОбработка данных через API – Rest/ Fetch API, JavaScript\nДостижения за время работы:\n-Сертифицированное Первое место потока, получивший высшую оценку по итогам государственной итоговой защиты, за проект Meetopia и был отмечен в официальных СМИ ТГУ и городском информационном сообществе:\nhttps://t.me/tltvip/59589\nhttps://www.tltsu.ru/news/kuda_poiti_bolse_ne_problema\n-2-е место в конкурсе проектных инициатив «StartUpWeek» в рамках инициативы «Проектива»"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "UI",
+      "level": "intermediate",
+      "original": "UI"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "СSS (Grid, Flexbox)",
+      "level": "intermediate",
+      "original": "СSS (Grid, Flexbox)"
+    },
+    {
+      "name": "JS (Promises / async/await / Events)",
+      "level": "intermediate",
+      "original": "JS (Promises / async/await / Events)"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "Node.js",
+      "level": "basic",
+      "original": "Node.js"
+    },
+    {
+      "name": "GitLab",
+      "level": "basic",
+      "original": "Gitlab"
+    },
+    {
+      "name": "REST API",
+      "level": "basic",
+      "original": "REST API"
+    },
+    {
+      "name": "Vue.js",
+      "level": "basic",
+      "original": "Vue.js"
+    },
+    {
+      "name": "PixelPerfect",
+      "level": "basic",
+      "original": "PixelPerfect"
+    },
+    {
+      "name": "JSON",
+      "level": "basic",
+      "original": "JSON"
+    },
+    {
+      "name": "React",
+      "level": "basic",
+      "original": "React"
+    },
+    {
+      "name": "tailwind",
+      "level": null,
+      "original": "tailwind"
+    },
+    {
+      "name": "SaaS",
+      "level": null,
+      "original": "SaaS"
+    },
+    {
+      "name": "PHP",
+      "level": null,
+      "original": "PHP"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    }
+  ],
+  "about_me": "Готов рассмотреть любые другие направления программирования и освоить любые другие связанные с этим технологии.\nДостижения:\n-Сертифицированное Первое место потока, получивший высшую оценку по итогам государственной итоговой защиты, и был отмечен в официальных СМИ ТГУ и городском информационном сообществе:\nhttps://t.me/tltvip/59589\nhttps://www.tltsu.ru/news/kuda_poiti_bolse_ne_problema\n-2-е место в конкурсе проектных инициатив «StartUpWeek» в рамках инициативы «Проектива»\nПрофессиональные навыки:\n- HTML & CSS (Grid, Flexbox)\n- JS (Promises / async/await / Events)\n- Tailwind\n- VueJS(+vue3-openlayers)\n- API: Fetch, Axios\n- Git & Github & Gitlab\n- Figma, Photoshop\nНавыки работы с ПК:\nУверенная работа в операционной системе.\nУверенная работа с файловой системой и структурирование данных.\nРабота с электронной сортировкой и фильтрацией данных.\nДиагностика и устранение программных неисправностей.\nРабота с браузерами и инструментами разработчика (DevTools).\nРабота с облачными сервисами и сетевыми ресурсами.\nУстановка, настройка и обновление программного обеспечения.\nРабота с офисными приложениями: Word, Excel, PowerPoint.\nПортфолио:\nPetJS:\nhttps://github.com/Nilian-Nikolay/All-pet-JS\nhttps://github.com/Nilian-Nikolay/Editor\nhttps://github.com/Nilian-Nikolay/Super-tic-tac-toe\nВёрстка:\nhttps://github.com/Nilian-Nikolay/PageCRM\nhttps://github.com/Nilian-Nikolay/ya-lending\nhttps://github.com/Nilian-Nikolay/Restaurant\nhttps://github.com/Nilian-Nikolay/Website-layout\nЛичный качества:\nГотовность к переработкам\nУмение работать в команде\nУмение работать в режиме многозадачности\nПунктуальность\nОтветственность\nЦелеустремленность\nАналитический склад ума\nСпособность к непрерывному обучению\nОрганизованность\nСтрессоустойчивость",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Тольяттинский государственный университет, Тольятти",
+      "details": [
+        "09.03.03 Прикладная информатика - Информационные технологии, Разработка программного обеспечения"
+      ],
+      "year": 2026,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Тольяттинский государственный университет, Тольятти\n09.03.03 Прикладная информатика - Информационные технологии, Разработка программного обеспечения\n•\n2026\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №22\nРезюме: Программист, разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 4 месяца\nФев 2025 -\nМай 2026\n1 год 4 мес\nОрганизация 1\nТольятти\nИнформационные технологии, системная интеграция, интернет\nWeb разработчик\nО компании:\nРазработка компьютерного программного обеспечения, включая пользовательские профили и чаты для веб-мессенджеров сторонних компаний.\nДолжностные обязанности:\n-Создание пользовательских интерфейсов – (опыт верстки HTML / HTML, CSS, Flexbox, CSS Grid, JavaScript)\n-Поддержка и развитие существующего функционала пользовательских профилей и веб-чатов для веб-мессенджеров - JavaScript (Promises / async/await / Events); Node.js; REST API\n-Практический опыт разработки frontend части приложений - Vue\n-Рекрут Git-веток, работа с системой контроля версий - GitHub / GitLab\n-Проектирование пользовательских интерфейсов, адаптация интерфейсов под дизайн-макеты - Figma, Tailwind CSS, UX/UI\nHTML, CSS, JavaScript\n-Работа с клиентской и серверной частью – PHP, Node.js, JavaScript\nОбработка данных через API – Rest/ Fetch API, JavaScript\nДостижения за время работы:\n-Сертифицированное Первое место потока, получивший высшую оценку по итогам государственной итоговой защиты, за проект Meetopia и был отмечен в официальных СМИ ТГУ и городском информационном сообществе:\nhttps://t.me/tltvip/59589\nhttps://www.tltsu.ru/news/kuda_poiti_bolse_ne_problema\n-2-е место в конкурсе проектных инициатив «StartUpWeek» в рамках инициативы «Проектива»",
+    "skills": "Средний уровень\nJavaScript\nUI\nGitHub\nСSS (Grid, Flexbox)\nJS (Promises / async/await / Events)\nHTML\nБазовый уровень\nGit\nNode.js\nGitlab\nREST API\nVue.js\nPixelPerfect\nJSON\nReact\nУровень не указан\ntailwind\nSaaS\nPHP",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный",
+    "about_me": "Готов рассмотреть любые другие направления программирования и освоить любые другие связанные с этим технологии.\nДостижения:\n-Сертифицированное Первое место потока, получивший высшую оценку по итогам государственной итоговой защиты, и был отмечен в официальных СМИ ТГУ и городском информационном сообществе:\nhttps://t.me/tltvip/59589\nhttps://www.tltsu.ru/news/kuda_poiti_bolse_ne_problema\n-2-е место в конкурсе проектных инициатив «StartUpWeek» в рамках инициативы «Проектива»\nПрофессиональные навыки:\n- HTML & CSS (Grid, Flexbox)\n- JS (Promises / async/await / Events)\n- Tailwind\n- VueJS(+vue3-openlayers)\n- API: Fetch, Axios\n- Git & Github & Gitlab\n- Figma, Photoshop\nНавыки работы с ПК:\nУверенная работа в операционной системе.\nУверенная работа с файловой системой и структурирование данных.\nРабота с электронной сортировкой и фильтрацией данных.\nДиагностика и устранение программных неисправностей.\nРабота с браузерами и инструментами разработчика (DevTools).\nРабота с облачными сервисами и сетевыми ресурсами.\nУстановка, настройка и обновление программного обеспечения.\nРабота с офисными приложениями: Word, Excel, PowerPoint.\nПортфолио:\nPetJS:\nhttps://github.com/Nilian-Nikolay/All-pet-JS\nhttps://github.com/Nilian-Nikolay/Editor\nhttps://github.com/Nilian-Nikolay/Super-tic-tac-toe\nВёрстка:\nhttps://github.com/Nilian-Nikolay/PageCRM\nhttps://github.com/Nilian-Nikolay/ya-lending\nhttps://github.com/Nilian-Nikolay/Restaurant\nhttps://github.com/Nilian-Nikolay/Website-layout\nЛичный качества:\nГотовность к переработкам\nУмение работать в команде\nУмение работать в режиме многозадачности\nПунктуальность\nОтветственность\nЦелеустремленность\nАналитический склад ума\nСпособность к непрерывному обучению\nОрганизованность\nСтрессоустойчивость",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nТольяттинский государственный университет, Тольятти\n09.03.03 Прикладная информатика - Информационные технологии, Разработка программного обеспечения\n•\n2026\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №22\nРезюме: Программист, разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 4 месяца\nФев 2025 -\nМай 2026\n1 год 4 мес\nОрганизация 1\nТольятти\nИнформационные технологии, системная интеграция, интернет\nWeb разработчик\nО компании:\nРазработка компьютерного программного обеспечения, включая пользовательские профили и чаты для веб-мессенджеров сторонних компаний.\nДолжностные обязанности:\n-Создание пользовательских интерфейсов – (опыт верстки HTML / HTML, CSS, Flexbox, CSS Grid, JavaScript)\n-Поддержка и развитие существующего функционала пользовательских профилей и веб-чатов для веб-мессенджеров - JavaScript (Promises / async/await / Events); Node.js; REST API\n-Практический опыт разработки frontend части приложений - Vue\n-Рекрут Git-веток, работа с системой контроля версий - GitHub / GitLab\n-Проектирование пользовательских интерфейсов, адаптация интерфейсов под дизайн-макеты - Figma, Tailwind CSS, UX/UI\nHTML, CSS, JavaScript\n-Работа с клиентской и серверной частью – PHP, Node.js, JavaScript\nОбработка данных через API – Rest/ Fetch API, JavaScript\nДостижения за время работы:\n-Сертифицированное Первое место потока, получивший высшую оценку по итогам государственной итоговой защиты, за проект Meetopia и был отмечен в официальных СМИ ТГУ и городском информационном сообществе:\nhttps://t.me/tltvip/59589\nhttps://www.tltsu.ru/news/kuda_poiti_bolse_ne_problema\n-2-е место в конкурсе проектных инициатив «StartUpWeek» в рамках инициативы «Проектива»\n\nНавыки\nСредний уровень\nJavaScript\nUI\nGitHub\nСSS (Grid, Flexbox)\nJS (Promises / async/await / Events)\nHTML\nБазовый уровень\nGit\nNode.js\nGitlab\nREST API\nVue.js\nPixelPerfect\nJSON\nReact\nУровень не указан\ntailwind\nSaaS\nPHP\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный\n\nОбо мне\nГотов рассмотреть любые другие направления программирования и освоить любые другие связанные с этим технологии.\nДостижения:\n-Сертифицированное Первое место потока, получивший высшую оценку по итогам государственной итоговой защиты, и был отмечен в официальных СМИ ТГУ и городском информационном сообществе:\nhttps://t.me/tltvip/59589\nhttps://www.tltsu.ru/news/kuda_poiti_bolse_ne_problema\n-2-е место в конкурсе проектных инициатив «StartUpWeek» в рамках инициативы «Проектива»\nПрофессиональные навыки:\n- HTML & CSS (Grid, Flexbox)\n- JS (Promises / async/await / Events)\n- Tailwind\n- VueJS(+vue3-openlayers)\n- API: Fetch, Axios\n- Git & Github & Gitlab\n- Figma, Photoshop\nНавыки работы с ПК:\nУверенная работа в операционной системе.\nУверенная работа с файловой системой и структурирование данных.\nРабота с электронной сортировкой и фильтрацией данных.\nДиагностика и устранение программных неисправностей.\nРабота с браузерами и инструментами разработчика (DevTools).\nРабота с облачными сервисами и сетевыми ресурсами.\nУстановка, настройка и обновление программного обеспечения.\nРабота с офисными приложениями: Word, Excel, PowerPoint.\nПортфолио:\nPetJS:\nhttps://github.com/Nilian-Nikolay/All-pet-JS\nhttps://github.com/Nilian-Nikolay/Editor\nhttps://github.com/Nilian-Nikolay/Super-tic-tac-toe\nВёрстка:\nhttps://github.com/Nilian-Nikolay/PageCRM\nhttps://github.com/Nilian-Nikolay/ya-lending\nhttps://github.com/Nilian-Nikolay/Restaurant\nhttps://github.com/Nilian-Nikolay/Website-layout\nЛичный качества:\nГотовность к переработкам\nУмение работать в команде\nУмение работать в режиме многозадачности\nПунктуальность\nОтветственность\nЦелеустремленность\nАналитический склад ума\nСпособность к непрерывному обучению\nОрганизованность\nСтрессоустойчивость\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nТольяттинский государственный университет, Тольятти\n09.03.03 Прикладная информатика - Информационные технологии, Разработка программного обеспечения\n•\n2026\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

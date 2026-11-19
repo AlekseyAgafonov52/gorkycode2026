@@ -1,0 +1,227 @@
+{
+  "candidate_id": 154,
+  "resume_title": "Python developer",
+  "cover_letter": null,
+  "experience_total_months": 82,
+  "similar_experience_months": 82,
+  "work_experience": [
+    {
+      "start_date": "2020-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 82,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "по большей части писал сайты и парсеры, создавал ботов для telegram. Иногда приходилось заниматься вообще странными вещами типа написания кода на Lua под opencomputers.",
+      "original": "Янв 2020 -\nсейчас\n6 лет 10 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nпо большей части писал сайты и парсеры, создавал ботов для telegram. Иногда приходилось заниматься вообще странными вещами типа написания кода на Lua под opencomputers."
+    },
+    {
+      "start_date": "2021-06",
+      "end_date": "2025-07",
+      "is_current": false,
+      "duration_months": 50,
+      "organization": "Организация 2",
+      "position": "Инженер-программист",
+      "employer_details": [
+        "Екатеринбургbrandpolgroup.com/ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "— Разработка и оптимизация высоконагруженных веб-приложений на Python (Django, Flask, FastAPI), включая проектирование RESTful API и интеграцию с платежными системами, CRM и аналитическими сервисами.\n— Создание сложных парсеров для автоматизированного сбора и обработки данных из веб-источников, API и документов с использованием Scrapy, BeautifulSoup, Selenium, что сократило время обработки данных на 40–70%.\n— Повышение производительности приложений за счёт оптимизации SQL-запросов, кэширования и асинхронных решений (Celery, Redis), улучшив скорость отклика систем на 50%.\n— Разработка ETL-пайплайнов для очистки и структурирования данных, внедрение механизмов валидации и обработки ошибок, что обеспечило точность данных на уровне 99%.\n— Автоматизация рутинных задач (написание скриптов, интеграция CI/CD), что сократило время выпуска обновлений на 30%.\n— Тесное взаимодействие с командами аналитики и продукта для реализации требований бизнеса в рамках Agile-методологий.\nстек:\nразработка:\nPython, Nodejs. Django Framework, SQL, Django Rest Framework, FastAPI, Flask, PostgreSQL, RabbitMQ, Django, Celery, JavaScript, Redis, SQLAlchemy, Pytest, MySQL.\nПрочее:\nGitHub, Git, Linux, Docker-compose, Docker",
+      "original": "Июн 2021 -\nИюл 2025\n4 года 2 мес\nОрганизация 2\nЕкатеринбургbrandpolgroup.com/ru/\nИнформационные технологии, системная интеграция, интернет\nИнженер-программист\n— Разработка и оптимизация высоконагруженных веб-приложений на Python (Django, Flask, FastAPI), включая проектирование RESTful API и интеграцию с платежными системами, CRM и аналитическими сервисами.\n— Создание сложных парсеров для автоматизированного сбора и обработки данных из веб-источников, API и документов с использованием Scrapy, BeautifulSoup, Selenium, что сократило время обработки данных на 40–70%.\n— Повышение производительности приложений за счёт оптимизации SQL-запросов, кэширования и асинхронных решений (Celery, Redis), улучшив скорость отклика систем на 50%.\n— Разработка ETL-пайплайнов для очистки и структурирования данных, внедрение механизмов валидации и обработки ошибок, что обеспечило точность данных на уровне 99%.\n— Автоматизация рутинных задач (написание скриптов, интеграция CI/CD), что сократило время выпуска обновлений на 30%.\n— Тесное взаимодействие с командами аналитики и продукта для реализации требований бизнеса в рамках Agile-методологий.\nстек:\nразработка:\nPython, Nodejs. Django Framework, SQL, Django Rest Framework, FastAPI, Flask, PostgreSQL, RabbitMQ, Django, Celery, JavaScript, Redis, SQLAlchemy, Pytest, MySQL.\nПрочее:\nGitHub, Git, Linux, Docker-compose, Docker"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "JSON API",
+      "level": "advanced",
+      "original": "JSON API"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Data Mining",
+      "level": "advanced",
+      "original": "Data Mining"
+    },
+    {
+      "name": "ORM",
+      "level": "advanced",
+      "original": "ORM"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Scrum",
+      "level": "advanced",
+      "original": "Scrum"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": null,
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №154\nРезюме: Python developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 6 лет 10 месяцев\nОпыт в похожих должностях:6 лет 10 месяцев\nЯнв 2020 -\nсейчас\n6 лет 10 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nпо большей части писал сайты и парсеры, создавал ботов для telegram. Иногда приходилось заниматься вообще странными вещами типа написания кода на Lua под opencomputers.\nИюн 2021 -\nИюл 2025\n4 года 2 мес\nОрганизация 2\nЕкатеринбургbrandpolgroup.com/ru/\nИнформационные технологии, системная интеграция, интернет\nИнженер-программист\n— Разработка и оптимизация высоконагруженных веб-приложений на Python (Django, Flask, FastAPI), включая проектирование RESTful API и интеграцию с платежными системами, CRM и аналитическими сервисами.\n— Создание сложных парсеров для автоматизированного сбора и обработки данных из веб-источников, API и документов с использованием Scrapy, BeautifulSoup, Selenium, что сократило время обработки данных на 40–70%.\n— Повышение производительности приложений за счёт оптимизации SQL-запросов, кэширования и асинхронных решений (Celery, Redis), улучшив скорость отклика систем на 50%.\n— Разработка ETL-пайплайнов для очистки и структурирования данных, внедрение механизмов валидации и обработки ошибок, что обеспечило точность данных на уровне 99%.\n— Автоматизация рутинных задач (написание скриптов, интеграция CI/CD), что сократило время выпуска обновлений на 30%.\n— Тесное взаимодействие с командами аналитики и продукта для реализации требований бизнеса в рамках Agile-методологий.\nстек:\nразработка:\nPython, Nodejs. Django Framework, SQL, Django Rest Framework, FastAPI, Flask, PostgreSQL, RabbitMQ, Django, Celery, JavaScript, Redis, SQLAlchemy, Pytest, MySQL.\nПрочее:\nGitHub, Git, Linux, Docker-compose, Docker",
+    "skills": "Продвинутый уровень\nPython\nDjango Framework\nGit\nSQL\nREST\nDjango Rest Framework\nFastAPI\nFlask\nPostgreSQL\nRabbitMQ\nDocker\nGitHub\nDjango\nREST API\nCelery\nJSON API\nJavaScript\nLinux\nDocker-compose\nData Mining\nORM\nRedis\nSQLAlchemy\nPytest\nMySQL\nCI/CD\nNoSQL\nAPI\nScrum\nMongoDB",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №154\nРезюме: Python developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 6 лет 10 месяцев\nОпыт в похожих должностях:6 лет 10 месяцев\nЯнв 2020 -\nсейчас\n6 лет 10 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nпо большей части писал сайты и парсеры, создавал ботов для telegram. Иногда приходилось заниматься вообще странными вещами типа написания кода на Lua под opencomputers.\nИюн 2021 -\nИюл 2025\n4 года 2 мес\nОрганизация 2\nЕкатеринбургbrandpolgroup.com/ru/\nИнформационные технологии, системная интеграция, интернет\nИнженер-программист\n— Разработка и оптимизация высоконагруженных веб-приложений на Python (Django, Flask, FastAPI), включая проектирование RESTful API и интеграцию с платежными системами, CRM и аналитическими сервисами.\n— Создание сложных парсеров для автоматизированного сбора и обработки данных из веб-источников, API и документов с использованием Scrapy, BeautifulSoup, Selenium, что сократило время обработки данных на 40–70%.\n— Повышение производительности приложений за счёт оптимизации SQL-запросов, кэширования и асинхронных решений (Celery, Redis), улучшив скорость отклика систем на 50%.\n— Разработка ETL-пайплайнов для очистки и структурирования данных, внедрение механизмов валидации и обработки ошибок, что обеспечило точность данных на уровне 99%.\n— Автоматизация рутинных задач (написание скриптов, интеграция CI/CD), что сократило время выпуска обновлений на 30%.\n— Тесное взаимодействие с командами аналитики и продукта для реализации требований бизнеса в рамках Agile-методологий.\nстек:\nразработка:\nPython, Nodejs. Django Framework, SQL, Django Rest Framework, FastAPI, Flask, PostgreSQL, RabbitMQ, Django, Celery, JavaScript, Redis, SQLAlchemy, Pytest, MySQL.\nПрочее:\nGitHub, Git, Linux, Docker-compose, Docker\n\nНавыки\nПродвинутый уровень\nPython\nDjango Framework\nGit\nSQL\nREST\nDjango Rest Framework\nFastAPI\nFlask\nPostgreSQL\nRabbitMQ\nDocker\nGitHub\nDjango\nREST API\nCelery\nJSON API\nJavaScript\nLinux\nDocker-compose\nData Mining\nORM\nRedis\nSQLAlchemy\nPytest\nMySQL\nCI/CD\nNoSQL\nAPI\nScrum\nMongoDB\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\n"
+}

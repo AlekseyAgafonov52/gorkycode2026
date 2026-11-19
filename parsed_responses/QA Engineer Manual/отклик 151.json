@@ -1,0 +1,163 @@
+{
+  "candidate_id": 151,
+  "resume_title": "Manual QA Engineer",
+  "cover_letter": null,
+  "experience_total_months": 41,
+  "similar_experience_months": 41,
+  "work_experience": [
+    {
+      "start_date": "2023-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 41,
+      "organization": "Организация 1",
+      "position": "QA Engineer",
+      "employer_details": [],
+      "description": "Тестирование Web-сайтов, на этапе разработки и ввода в эксплуатацию:\n— Тестирование RestAPI: (Swagger, Postman)\n— Тестирование UI/UX - проведение полного цикла тестирования, включая пользовательские сценарии e2e: (DevTools, Figma)\n— Работа с БД: (PostgreSQL, PgAdmin)\n— Интеграционное тестирование: (интеграция с Картами, с социальными сетями, видео хостингами, платёжными шлюзами)\n— Тестирование алгоритмов генерации видео.\n— Создание чек-листов, тест-кейсов: (TestRail)\n— Заведение баг-репортов: (Jira)\n— Работа с документацией: (Confluence)\n— Подготовка отчётов по результатам тестирования.\n— Взаимодействие с Аналитиками и Разработчиками, для уточнение функциональных требований.\nПроекты:\n1) Корпоративный сайт для промышленной группы Hermes industries.\n2) Онлайн-сервис мульт-поздравлений BigPapaGifts.\nТехнологический стек:\nRestAPI: Postman, Swagger, PostgreSQL, PgAdmin, Test Rail, Figma, DevTools, Jira, Confluence",
+      "original": "Июн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nQA Engineer\nТестирование Web-сайтов, на этапе разработки и ввода в эксплуатацию:\n— Тестирование RestAPI: (Swagger, Postman)\n— Тестирование UI/UX - проведение полного цикла тестирования, включая пользовательские сценарии e2e: (DevTools, Figma)\n— Работа с БД: (PostgreSQL, PgAdmin)\n— Интеграционное тестирование: (интеграция с Картами, с социальными сетями, видео хостингами, платёжными шлюзами)\n— Тестирование алгоритмов генерации видео.\n— Создание чек-листов, тест-кейсов: (TestRail)\n— Заведение баг-репортов: (Jira)\n— Работа с документацией: (Confluence)\n— Подготовка отчётов по результатам тестирования.\n— Взаимодействие с Аналитиками и Разработчиками, для уточнение функциональных требований.\nПроекты:\n1) Корпоративный сайт для промышленной группы Hermes industries.\n2) Онлайн-сервис мульт-поздравлений BigPapaGifts.\nТехнологический стек:\nRestAPI: Postman, Swagger, PostgreSQL, PgAdmin, Test Rail, Figma, DevTools, Jira, Confluence"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Figma",
+      "level": "intermediate",
+      "original": "Figma"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "API",
+      "level": "basic",
+      "original": "API"
+    },
+    {
+      "name": "Postman",
+      "level": "basic",
+      "original": "Postman"
+    },
+    {
+      "name": "Agile",
+      "level": "basic",
+      "original": "Agile"
+    },
+    {
+      "name": "Scrum",
+      "level": "basic",
+      "original": "Scrum"
+    },
+    {
+      "name": "Jira",
+      "level": "basic",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Confluence",
+      "level": "basic",
+      "original": "Atlassian Confluence"
+    },
+    {
+      "name": "TestRail",
+      "level": "basic",
+      "original": "TestRail"
+    },
+    {
+      "name": "Apache JMeter",
+      "level": "basic",
+      "original": "Apache JMeter"
+    },
+    {
+      "name": "DevTools",
+      "level": "basic",
+      "original": "DevTools"
+    },
+    {
+      "name": "Swagger",
+      "level": "basic",
+      "original": "Swagger"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": "basic",
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "PgAdmin",
+      "level": null,
+      "original": "PgAdmin"
+    },
+    {
+      "name": "UI",
+      "level": null,
+      "original": "UI"
+    },
+    {
+      "name": "UX",
+      "level": null,
+      "original": "UX"
+    },
+    {
+      "name": "Кроссбраузерное тестирование",
+      "level": null,
+      "original": "Кроссбраузерное тестирование"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Telegram для связи: @Sokolovsky_98",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Красноярский государственный технический университет, Красноярск",
+      "details": [],
+      "year": 2018,
+      "level": "Высшее образование",
+      "original": "Красноярский государственный технический университет, Красноярск\n2018\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №151\nРезюме: Manual QA Engineer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 5 месяцев\nОпыт в похожих должностях:3 года 5 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nQA Engineer\nТестирование Web-сайтов, на этапе разработки и ввода в эксплуатацию:\n— Тестирование RestAPI: (Swagger, Postman)\n— Тестирование UI/UX - проведение полного цикла тестирования, включая пользовательские сценарии e2e: (DevTools, Figma)\n— Работа с БД: (PostgreSQL, PgAdmin)\n— Интеграционное тестирование: (интеграция с Картами, с социальными сетями, видео хостингами, платёжными шлюзами)\n— Тестирование алгоритмов генерации видео.\n— Создание чек-листов, тест-кейсов: (TestRail)\n— Заведение баг-репортов: (Jira)\n— Работа с документацией: (Confluence)\n— Подготовка отчётов по результатам тестирования.\n— Взаимодействие с Аналитиками и Разработчиками, для уточнение функциональных требований.\nПроекты:\n1) Корпоративный сайт для промышленной группы Hermes industries.\n2) Онлайн-сервис мульт-поздравлений BigPapaGifts.\nТехнологический стек:\nRestAPI: Postman, Swagger, PostgreSQL, PgAdmin, Test Rail, Figma, DevTools, Jira, Confluence",
+    "skills": "Средний уровень\nFigma\nБазовый уровень\nSQL\nAPI\nPostman\nAgile\nScrum\nAtlassian Jira\nAtlassian Confluence\nTestRail\nApache JMeter\nDevTools\nSwagger\nРегрессионное тестирование\nУровень не указан\nPostgreSQL\nDocker\nPgAdmin\nUI\nUX\nКроссбраузерное тестирование",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Telegram для связи: @Sokolovsky_98",
+    "education": "Уровень\nВысшее образование\nКрасноярский государственный технический университет, Красноярск\n2018\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №151\nРезюме: Manual QA Engineer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 5 месяцев\nОпыт в похожих должностях:3 года 5 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nQA Engineer\nТестирование Web-сайтов, на этапе разработки и ввода в эксплуатацию:\n— Тестирование RestAPI: (Swagger, Postman)\n— Тестирование UI/UX - проведение полного цикла тестирования, включая пользовательские сценарии e2e: (DevTools, Figma)\n— Работа с БД: (PostgreSQL, PgAdmin)\n— Интеграционное тестирование: (интеграция с Картами, с социальными сетями, видео хостингами, платёжными шлюзами)\n— Тестирование алгоритмов генерации видео.\n— Создание чек-листов, тест-кейсов: (TestRail)\n— Заведение баг-репортов: (Jira)\n— Работа с документацией: (Confluence)\n— Подготовка отчётов по результатам тестирования.\n— Взаимодействие с Аналитиками и Разработчиками, для уточнение функциональных требований.\nПроекты:\n1) Корпоративный сайт для промышленной группы Hermes industries.\n2) Онлайн-сервис мульт-поздравлений BigPapaGifts.\nТехнологический стек:\nRestAPI: Postman, Swagger, PostgreSQL, PgAdmin, Test Rail, Figma, DevTools, Jira, Confluence\n\nНавыки\nСредний уровень\nFigma\nБазовый уровень\nSQL\nAPI\nPostman\nAgile\nScrum\nAtlassian Jira\nAtlassian Confluence\nTestRail\nApache JMeter\nDevTools\nSwagger\nРегрессионное тестирование\nУровень не указан\nPostgreSQL\nDocker\nPgAdmin\nUI\nUX\nКроссбраузерное тестирование\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nTelegram для связи: @Sokolovsky_98\n\nОбразование\nУровень\nВысшее образование\nКрасноярский государственный технический университет, Красноярск\n2018\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

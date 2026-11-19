@@ -1,0 +1,165 @@
+{
+  "candidate_id": 402,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Здравствуйте!",
+  "experience_total_months": 26,
+  "similar_experience_months": 26,
+  "work_experience": [
+    {
+      "start_date": "2024-09",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 26,
+      "organization": "Организация 1",
+      "position": "Python Backend Developer",
+      "employer_details": [],
+      "description": "Backend-разработка:\nРазработка REST API с использованием FastAPI и асинхронного программирования.\nПроектирование архитектуры приложений с применением многослойной архитектуры и принципов SOLID.\nВнедрение Dependency Injection (Dishka) для создания тестируемого и поддерживаемого кода.\nРабота с данными:\nПроектирование схем БД, написание сложных SQL-запросов и оптимизация производительности.\nИспользование ORM SQLAlchemy 2.0 для взаимодействия с PostgreSQL.\nРеализация механизмов миграции БД с помощью Alembic.\nИнтеграции и взаимодействие:\nРазработка высоконагруженных Telegram-ботов с системами модерации, платежей (YooKassa) и сложными FSM.\nИнтеграция с различными внешними API и сервисами.\nИнфраструктура и DevOps:\nДеплой приложений на VPS под управлением Linux.\nНастройка Nginx, управление процессами с помощью systemd.\nОбеспечение качества:\nПокрытие кода модульными и интеграционными тестами (Pytest).\nРефакторинг и оптимизация существующего кода.",
+      "original": "Сен 2024 -\nсейчас\n2 года 2 мес\nОрганизация 1\nPython Backend Developer\nBackend-разработка:\nРазработка REST API с использованием FastAPI и асинхронного программирования.\nПроектирование архитектуры приложений с применением многослойной архитектуры и принципов SOLID.\nВнедрение Dependency Injection (Dishka) для создания тестируемого и поддерживаемого кода.\nРабота с данными:\nПроектирование схем БД, написание сложных SQL-запросов и оптимизация производительности.\nИспользование ORM SQLAlchemy 2.0 для взаимодействия с PostgreSQL.\nРеализация механизмов миграции БД с помощью Alembic.\nИнтеграции и взаимодействие:\nРазработка высоконагруженных Telegram-ботов с системами модерации, платежей (YooKassa) и сложными FSM.\nИнтеграция с различными внешними API и сервисами.\nИнфраструктура и DevOps:\nДеплой приложений на VPS под управлением Linux.\nНастройка Nginx, управление процессами с помощью systemd.\nОбеспечение качества:\nПокрытие кода модульными и интеграционными тестами (Pytest).\nРефакторинг и оптимизация существующего кода."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "pytest",
+      "level": "intermediate",
+      "original": "Pytest"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "Agile",
+      "level": "intermediate",
+      "original": "Agile"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Redis",
+      "level": "intermediate",
+      "original": "Redis"
+    },
+    {
+      "name": "Dishka",
+      "level": "intermediate",
+      "original": "Dishka"
+    },
+    {
+      "name": "Pydantic",
+      "level": "intermediate",
+      "original": "Pydantic"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "HTTPX",
+      "level": "intermediate",
+      "original": "HTTPX"
+    },
+    {
+      "name": "aiogram3",
+      "level": "intermediate",
+      "original": "aiogram3"
+    },
+    {
+      "name": "asyncio",
+      "level": "intermediate",
+      "original": "asyncio"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "SOLID",
+      "level": "intermediate",
+      "original": "SOLID"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "intermediate",
+      "original": "Docker-compose"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Github: https://github.com/shing3tsuu\nㅡ\nНавыки\nBackend-разработка:\nPython: FastAPI, Httpx, Websockets, Pydantic, JWT,\nOAuth2, Aiogram3 (aiogram- dialog), PyQt6 (ui), dishka.\nБазы данных и кэширование: PostgreSQL, SQLite, alembic\n(миграции), Redis, SQLAlchemy 2.0\nАрхитектура и инфраструктура:\nАрхитектурные паттерны: Луковая архитектура\n(DTO/DAO/Service слои), SOLID, DI-контейнеры\n(Dishka).\nРазвертывание: Docker, Docker-compose, Nginx, Linux\n(Ubuntu)\nКонтроль версий: Git, Github\nТестирование:\nPytest (unit и интеграционное тестирование), requests\nㅡ\nОпыт работы Apata - Messenger\nРазработал с нуля MVP мессенджера со сквозным\nшифрованием, включающий серверную часть и\nкроссплатформенное desktop-приложение на 10к+ строк в\nсумме (ссылка на актуальную версию клиента:\nhttps://drive.google.com/file/d/1F4YENH-dETHyBPEuFgMidS\nPvFN2oX31i/view?usp=drive_link).\nЗадачи, которые я решил:\n• Спроектировал и реализовал работающую систему из двух\nкомпонентов: высоконагруженный сервер (FastAPI, Websockets,\nPosqtgreSQL, Redis) и клиентское приложение (PyQt6, SQLite,\nHttpx).\n• Разработал криптографический протокол (ECDH + AES),\nзащищающий сообщения во время доставки и хранении, сделал\nбеспарольную авторизацию с помощью ECDSA, настроил\nхранение ключей по безопасному путю в ОС (keyring, kek),\nнастроил https (tls 1.2+) на сервере с помощью Nginx.\n• Создал механизм офлайн и онлайн общения в реальном\nвремени через гибрид HTTPS/Websockets, PostgreSQL для\nхранения и подтверждения сообщений, Redis pub/sub для\nмасштабирования.\n• Построил луковую архитектуру с di контейнерами (dishka,\nпозволяющая легко менять и тестировать реализации.\n• Развернул FastAPI сервер на своей VPS с помощью\nDocker-compose, настроил Nginx, забилдил клиент в exe\nприложения для открытого скачивания.\nСтек: Python 3.10+, FastAPI, Httpx, Websockets, JWT, PyQt6,\nPostgreSQL, SQLite, Redis, SQLAlchemy, Pydantic, Asyncio,\nDishka, cryptography.hazmat (AES-GCM, X25519,\nECDSA-SECP256R1).\nБот для публикаций в Telegram-канал\n(Фриланс-проект)\nРазработал многофункционального Telegram-бота с\nсистемой модерации и оплаты для автоматизации\nпубликации контента.\nЗадачи, которые я решил:\n• Реализовал полный цикл работы с контентом: от подачи заявки\nдо автоматической публикации. Хранение данных пользователей\nи постов в Postgresql (которую развернул самостоятельно).\n• Интегрировал платежную систему YooKassa для монетизации\nуслуг канала.\n• Создал удобные интерфейсы для пользователей и\nадминистраторов (Aiogram3/aiogram-dialog).\n• Обеспечил стабильную работу через асинхронную архитектуру\nи кэширование (Asyncio, Redis).\n• Успешно запустил и поддерживаю проект, получаю и вношу\nправки от заказчика\nСтек: Python, Aiogram3 (aiogram-dialog), PostgreSQL, Redis,\nSQLAlchemy, Dishka\nㅡ\nО себе. Всегда стремлюсь получать новые знания, сразу применяя их в\nпрактических решениях. Планирую изучить такие технологий\nкак Celery, Taskiq, RabbitMQ, Kafka. В будущем планирую\nосвоить Java для расширения возможности работать над\nкрупными финтех проектами и трудоустройства.",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №402\nРезюме: Python-разработчик",
+    "cover_letter": "Здравствуйте!",
+    "experience": "Опыт работы: 2 года 2 месяца\nОпыт в похожих должностях:2 года 2 месяца\nСен 2024 -\nсейчас\n2 года 2 мес\nОрганизация 1\nPython Backend Developer\nBackend-разработка:\nРазработка REST API с использованием FastAPI и асинхронного программирования.\nПроектирование архитектуры приложений с применением многослойной архитектуры и принципов SOLID.\nВнедрение Dependency Injection (Dishka) для создания тестируемого и поддерживаемого кода.\nРабота с данными:\nПроектирование схем БД, написание сложных SQL-запросов и оптимизация производительности.\nИспользование ORM SQLAlchemy 2.0 для взаимодействия с PostgreSQL.\nРеализация механизмов миграции БД с помощью Alembic.\nИнтеграции и взаимодействие:\nРазработка высоконагруженных Telegram-ботов с системами модерации, платежей (YooKassa) и сложными FSM.\nИнтеграция с различными внешними API и сервисами.\nИнфраструктура и DevOps:\nДеплой приложений на VPS под управлением Linux.\nНастройка Nginx, управление процессами с помощью systemd.\nОбеспечение качества:\nПокрытие кода модульными и интеграционными тестами (Pytest).\nРефакторинг и оптимизация существующего кода.",
+    "skills": "Средний уровень\nPython\nPytest\nGitHub\nAgile\nPostgreSQL\nSQLAlchemy\nFastAPI\nRedis\nDishka\nPydantic\nDocker\nHTTPX\naiogram3\nasyncio\nSQL\nООП\nSOLID\nGit\nREST API\nCelery\nDocker-compose",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Github: https://github.com/shing3tsuu\nㅡ\nНавыки\nBackend-разработка:\nPython: FastAPI, Httpx, Websockets, Pydantic, JWT,\nOAuth2, Aiogram3 (aiogram- dialog), PyQt6 (ui), dishka.\nБазы данных и кэширование: PostgreSQL, SQLite, alembic\n(миграции), Redis, SQLAlchemy 2.0\nАрхитектура и инфраструктура:\nАрхитектурные паттерны: Луковая архитектура\n(DTO/DAO/Service слои), SOLID, DI-контейнеры\n(Dishka).\nРазвертывание: Docker, Docker-compose, Nginx, Linux\n(Ubuntu)\nКонтроль версий: Git, Github\nТестирование:\nPytest (unit и интеграционное тестирование), requests\nㅡ\nОпыт работы Apata - Messenger\nРазработал с нуля MVP мессенджера со сквозным\nшифрованием, включающий серверную часть и\nкроссплатформенное desktop-приложение на 10к+ строк в\nсумме (ссылка на актуальную версию клиента:\nhttps://drive.google.com/file/d/1F4YENH-dETHyBPEuFgMidS\nPvFN2oX31i/view?usp=drive_link).\nЗадачи, которые я решил:\n• Спроектировал и реализовал работающую систему из двух\nкомпонентов: высоконагруженный сервер (FastAPI, Websockets,\nPosqtgreSQL, Redis) и клиентское приложение (PyQt6, SQLite,\nHttpx).\n• Разработал криптографический протокол (ECDH + AES),\nзащищающий сообщения во время доставки и хранении, сделал\nбеспарольную авторизацию с помощью ECDSA, настроил\nхранение ключей по безопасному путю в ОС (keyring, kek),\nнастроил https (tls 1.2+) на сервере с помощью Nginx.\n• Создал механизм офлайн и онлайн общения в реальном\nвремени через гибрид HTTPS/Websockets, PostgreSQL для\nхранения и подтверждения сообщений, Redis pub/sub для\nмасштабирования.\n• Построил луковую архитектуру с di контейнерами (dishka,\nпозволяющая легко менять и тестировать реализации.\n• Развернул FastAPI сервер на своей VPS с помощью\nDocker-compose, настроил Nginx, забилдил клиент в exe\nприложения для открытого скачивания.\nСтек: Python 3.10+, FastAPI, Httpx, Websockets, JWT, PyQt6,\nPostgreSQL, SQLite, Redis, SQLAlchemy, Pydantic, Asyncio,\nDishka, cryptography.hazmat (AES-GCM, X25519,\nECDSA-SECP256R1).\nБот для публикаций в Telegram-канал\n(Фриланс-проект)\nРазработал многофункционального Telegram-бота с\nсистемой модерации и оплаты для автоматизации\nпубликации контента.\nЗадачи, которые я решил:\n• Реализовал полный цикл работы с контентом: от подачи заявки\nдо автоматической публикации. Хранение данных пользователей\nи постов в Postgresql (которую развернул самостоятельно).\n• Интегрировал платежную систему YooKassa для монетизации\nуслуг канала.\n• Создал удобные интерфейсы для пользователей и\nадминистраторов (Aiogram3/aiogram-dialog).\n• Обеспечил стабильную работу через асинхронную архитектуру\nи кэширование (Asyncio, Redis).\n• Успешно запустил и поддерживаю проект, получаю и вношу\nправки от заказчика\nСтек: Python, Aiogram3 (aiogram-dialog), PostgreSQL, Redis,\nSQLAlchemy, Dishka\nㅡ\nО себе. Всегда стремлюсь получать новые знания, сразу применяя их в\nпрактических решениях. Планирую изучить такие технологий\nкак Celery, Taskiq, RabbitMQ, Kafka. В будущем планирую\nосвоить Java для расширения возможности работать над\nкрупными финтех проектами и трудоустройства.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №402\nРезюме: Python-разработчик\n\nСопроводительное письмо\nЗдравствуйте!\n\nОпыт работы\nОпыт работы: 2 года 2 месяца\nОпыт в похожих должностях:2 года 2 месяца\nСен 2024 -\nсейчас\n2 года 2 мес\nОрганизация 1\nPython Backend Developer\nBackend-разработка:\nРазработка REST API с использованием FastAPI и асинхронного программирования.\nПроектирование архитектуры приложений с применением многослойной архитектуры и принципов SOLID.\nВнедрение Dependency Injection (Dishka) для создания тестируемого и поддерживаемого кода.\nРабота с данными:\nПроектирование схем БД, написание сложных SQL-запросов и оптимизация производительности.\nИспользование ORM SQLAlchemy 2.0 для взаимодействия с PostgreSQL.\nРеализация механизмов миграции БД с помощью Alembic.\nИнтеграции и взаимодействие:\nРазработка высоконагруженных Telegram-ботов с системами модерации, платежей (YooKassa) и сложными FSM.\nИнтеграция с различными внешними API и сервисами.\nИнфраструктура и DevOps:\nДеплой приложений на VPS под управлением Linux.\nНастройка Nginx, управление процессами с помощью systemd.\nОбеспечение качества:\nПокрытие кода модульными и интеграционными тестами (Pytest).\nРефакторинг и оптимизация существующего кода.\n\nНавыки\nСредний уровень\nPython\nPytest\nGitHub\nAgile\nPostgreSQL\nSQLAlchemy\nFastAPI\nRedis\nDishka\nPydantic\nDocker\nHTTPX\naiogram3\nasyncio\nSQL\nООП\nSOLID\nGit\nREST API\nCelery\nDocker-compose\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nGithub: https://github.com/shing3tsuu\nㅡ\nНавыки\nBackend-разработка:\nPython: FastAPI, Httpx, Websockets, Pydantic, JWT,\nOAuth2, Aiogram3 (aiogram- dialog), PyQt6 (ui), dishka.\nБазы данных и кэширование: PostgreSQL, SQLite, alembic\n(миграции), Redis, SQLAlchemy 2.0\nАрхитектура и инфраструктура:\nАрхитектурные паттерны: Луковая архитектура\n(DTO/DAO/Service слои), SOLID, DI-контейнеры\n(Dishka).\nРазвертывание: Docker, Docker-compose, Nginx, Linux\n(Ubuntu)\nКонтроль версий: Git, Github\nТестирование:\nPytest (unit и интеграционное тестирование), requests\nㅡ\nОпыт работы Apata - Messenger\nРазработал с нуля MVP мессенджера со сквозным\nшифрованием, включающий серверную часть и\nкроссплатформенное desktop-приложение на 10к+ строк в\nсумме (ссылка на актуальную версию клиента:\nhttps://drive.google.com/file/d/1F4YENH-dETHyBPEuFgMidS\nPvFN2oX31i/view?usp=drive_link).\nЗадачи, которые я решил:\n• Спроектировал и реализовал работающую систему из двух\nкомпонентов: высоконагруженный сервер (FastAPI, Websockets,\nPosqtgreSQL, Redis) и клиентское приложение (PyQt6, SQLite,\nHttpx).\n• Разработал криптографический протокол (ECDH + AES),\nзащищающий сообщения во время доставки и хранении, сделал\nбеспарольную авторизацию с помощью ECDSA, настроил\nхранение ключей по безопасному путю в ОС (keyring, kek),\nнастроил https (tls 1.2+) на сервере с помощью Nginx.\n• Создал механизм офлайн и онлайн общения в реальном\nвремени через гибрид HTTPS/Websockets, PostgreSQL для\nхранения и подтверждения сообщений, Redis pub/sub для\nмасштабирования.\n• Построил луковую архитектуру с di контейнерами (dishka,\nпозволяющая легко менять и тестировать реализации.\n• Развернул FastAPI сервер на своей VPS с помощью\nDocker-compose, настроил Nginx, забилдил клиент в exe\nприложения для открытого скачивания.\nСтек: Python 3.10+, FastAPI, Httpx, Websockets, JWT, PyQt6,\nPostgreSQL, SQLite, Redis, SQLAlchemy, Pydantic, Asyncio,\nDishka, cryptography.hazmat (AES-GCM, X25519,\nECDSA-SECP256R1).\nБот для публикаций в Telegram-канал\n(Фриланс-проект)\nРазработал многофункционального Telegram-бота с\nсистемой модерации и оплаты для автоматизации\nпубликации контента.\nЗадачи, которые я решил:\n• Реализовал полный цикл работы с контентом: от подачи заявки\nдо автоматической публикации. Хранение данных пользователей\nи постов в Postgresql (которую развернул самостоятельно).\n• Интегрировал платежную систему YooKassa для монетизации\nуслуг канала.\n• Создал удобные интерфейсы для пользователей и\nадминистраторов (Aiogram3/aiogram-dialog).\n• Обеспечил стабильную работу через асинхронную архитектуру\nи кэширование (Asyncio, Redis).\n• Успешно запустил и поддерживаю проект, получаю и вношу\nправки от заказчика\nСтек: Python, Aiogram3 (aiogram-dialog), PostgreSQL, Redis,\nSQLAlchemy, Dishka\nㅡ\nО себе. Всегда стремлюсь получать новые знания, сразу применяя их в\nпрактических решениях. Планирую изучить такие технологий\nкак Celery, Taskiq, RabbitMQ, Kafka. В будущем планирую\nосвоить Java для расширения возможности работать над\nкрупными финтех проектами и трудоустройства.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

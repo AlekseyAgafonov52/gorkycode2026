@@ -1,0 +1,223 @@
+{
+  "candidate_id": 260,
+  "resume_title": "Программист Python",
+  "cover_letter": "Здравствуйте!\nМеня зовут Максим Иванов. Я проявил интерес к вашей вакансии и уверен, что смогу внести значительный вклад в вашу команду.\nСвязаться со мной можно в tg: https://t.me/Ivanov_Maksimm",
+  "experience_total_months": 67,
+  "similar_experience_months": 67,
+  "work_experience": [
+    {
+      "start_date": "2023-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 45,
+      "organization": "Организация 1",
+      "position": "Программист Python",
+      "employer_details": [],
+      "description": "Проект: Система управления заказами для интернет-магазина\nСтек: Python, Django, DRF, PostgreSQL, Redis, Celery, Docker, Gitlab\nДостижения:\n• Реализовал масштабируемую архитектуру для системы управления заказами, увеличив\nпропускную способность в 2 раза;\n• Разработал систему автоматического обновления статусов заказов;\n• Ускорил работу API за счёт оптимизации запросов и работы с базой данных;\n• Использовал Redis Cache для ускорения загрузки страниц на 45%;\n• Покрыл проект тестами на 80%, сильно повысилась стабильность релизов;\n• Активно участвовал в code review и обсуждении архитектуры новых модулей.\nПроект: Социальная сеть PlanetOZ\nСтек: Python, Django, DRF, Wagtail, Litestar, PostgreSQL, SQLAlchemy, Redis, Celery, Docker, GitLab\nДостижения:\n• Написал с нуля микросервис для парсера новостей, которые затем отображались у клиента в приложении;\n• Внедрил Redis-broker для связи парсера и приложения;\n• Переносил существующий функционал с Django на Litestar для оптимизации и масштабирования приложения;\n• Обнаружил и исправил критические баги, снизив количество сбоев на проде.",
+      "original": "Фев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nПрограммист Python\nПроект: Система управления заказами для интернет-магазина\nСтек: Python, Django, DRF, PostgreSQL, Redis, Celery, Docker, Gitlab\nДостижения:\n• Реализовал масштабируемую архитектуру для системы управления заказами, увеличив\nпропускную способность в 2 раза;\n• Разработал систему автоматического обновления статусов заказов;\n• Ускорил работу API за счёт оптимизации запросов и работы с базой данных;\n• Использовал Redis Cache для ускорения загрузки страниц на 45%;\n• Покрыл проект тестами на 80%, сильно повысилась стабильность релизов;\n• Активно участвовал в code review и обсуждении архитектуры новых модулей.\nПроект: Социальная сеть PlanetOZ\nСтек: Python, Django, DRF, Wagtail, Litestar, PostgreSQL, SQLAlchemy, Redis, Celery, Docker, GitLab\nДостижения:\n• Написал с нуля микросервис для парсера новостей, которые затем отображались у клиента в приложении;\n• Внедрил Redis-broker для связи парсера и приложения;\n• Переносил существующий функционал с Django на Litestar для оптимизации и масштабирования приложения;\n• Обнаружил и исправил критические баги, снизив количество сбоев на проде."
+    },
+    {
+      "start_date": "2021-04",
+      "end_date": "2023-02",
+      "is_current": false,
+      "duration_months": 23,
+      "organization": "Организация 2",
+      "position": "Программист Python",
+      "employer_details": [],
+      "description": "Разрабатывал бэкенд часть приложения для поиска увлечений\nСтек: Python, Flask, FastAPI, SQLAlchemy, Redis, Celery, SQLite, Alembic, Linux, Jinja2\nДостижения:\n• Разработал приложение на Flask с авторизацией через Flask-Login;\n• Внедрил формы на WTForms, улучшив безопасность работы с данными;\n• Оптимизировал работу с базой данных с использованием SQLAlchemy, что сократило нагрузку на сервер;\n• Улучшил систему управления профилями пользователей;\n• Обеспечил стабильную работу приложения, исправляя ошибки и оптимизируя производительность.",
+      "original": "Апр 2021 -\nФев 2023\n1 год 11 мес\nОрганизация 2\nПрограммист Python\nРазрабатывал бэкенд часть приложения для поиска увлечений\nСтек: Python, Flask, FastAPI, SQLAlchemy, Redis, Celery, SQLite, Alembic, Linux, Jinja2\nДостижения:\n• Разработал приложение на Flask с авторизацией через Flask-Login;\n• Внедрил формы на WTForms, улучшив безопасность работы с данными;\n• Оптимизировал работу с базой данных с использованием SQLAlchemy, что сократило нагрузку на сервер;\n• Улучшил систему управления профилями пользователей;\n• Обеспечил стабильную работу приложения, исправляя ошибки и оптимизируя производительность."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Flask",
+      "level": null,
+      "original": "Flask"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": null,
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "Asyncio",
+      "level": null,
+      "original": "Asyncio"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "SQLite",
+      "level": null,
+      "original": "SQLite"
+    },
+    {
+      "name": "Alembic",
+      "level": null,
+      "original": "Alembic"
+    },
+    {
+      "name": "Litestar",
+      "level": null,
+      "original": "Litestar"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "WebSocket",
+      "level": null,
+      "original": "WebSockets"
+    },
+    {
+      "name": "Docker Compose",
+      "level": null,
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "DRF"
+    },
+    {
+      "name": "Bootstrap",
+      "level": null,
+      "original": "Bootstrap"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "API Gateway",
+      "level": null,
+      "original": "API Gateway"
+    },
+    {
+      "name": "Wagtail",
+      "level": null,
+      "original": "Wagtail"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Python Backend Developer с 4 годами опыта коммерческой разработки в команде. Работаю над микросервисными приложениями. Использую и владею такими технологиями как\nDjango, Flask, Litestar, PostgreSQL, SQLAlchemy, Celery, Redis, Docker.\nСтремлюсь принимать новые вызовы и всегда готов учиться.\nБуду рад стать частью энергичной и сплоченной команды.\nТелеграм: https://t.me/Ivanov_Maksimm",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Поволжский государственный технологический университет",
+      "details": [],
+      "year": 2024,
+      "level": "Неоконченное высшее образование",
+      "original": "Поволжский государственный технологический университет\n2024\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №260\nРезюме: Программист Python",
+    "cover_letter": "Здравствуйте!\nМеня зовут Максим Иванов. Я проявил интерес к вашей вакансии и уверен, что смогу внести значительный вклад в вашу команду.\nСвязаться со мной можно в tg: https://t.me/Ivanov_Maksimm",
+    "experience": "Опыт работы: 5 лет 7 месяцев\nОпыт в похожих должностях:5 лет 7 месяцев\nФев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nПрограммист Python\nПроект: Система управления заказами для интернет-магазина\nСтек: Python, Django, DRF, PostgreSQL, Redis, Celery, Docker, Gitlab\nДостижения:\n• Реализовал масштабируемую архитектуру для системы управления заказами, увеличив\nпропускную способность в 2 раза;\n• Разработал систему автоматического обновления статусов заказов;\n• Ускорил работу API за счёт оптимизации запросов и работы с базой данных;\n• Использовал Redis Cache для ускорения загрузки страниц на 45%;\n• Покрыл проект тестами на 80%, сильно повысилась стабильность релизов;\n• Активно участвовал в code review и обсуждении архитектуры новых модулей.\nПроект: Социальная сеть PlanetOZ\nСтек: Python, Django, DRF, Wagtail, Litestar, PostgreSQL, SQLAlchemy, Redis, Celery, Docker, GitLab\nДостижения:\n• Написал с нуля микросервис для парсера новостей, которые затем отображались у клиента в приложении;\n• Внедрил Redis-broker для связи парсера и приложения;\n• Переносил существующий функционал с Django на Litestar для оптимизации и масштабирования приложения;\n• Обнаружил и исправил критические баги, снизив количество сбоев на проде.\nАпр 2021 -\nФев 2023\n1 год 11 мес\nОрганизация 2\nПрограммист Python\nРазрабатывал бэкенд часть приложения для поиска увлечений\nСтек: Python, Flask, FastAPI, SQLAlchemy, Redis, Celery, SQLite, Alembic, Linux, Jinja2\nДостижения:\n• Разработал приложение на Flask с авторизацией через Flask-Login;\n• Внедрил формы на WTForms, улучшив безопасность работы с данными;\n• Оптимизировал работу с базой данных с использованием SQLAlchemy, что сократило нагрузку на сервер;\n• Улучшил систему управления профилями пользователей;\n• Обеспечил стабильную работу приложения, исправляя ошибки и оптимизируя производительность.",
+    "skills": "Python\nDjango Framework\nDjango Rest Framework\nFlask\nFastAPI\nLinux\nSQL\nPostgreSQL\nGit\nAPI\nREST\nREST API\nRabbitMQ\nGitHub\nGitlab\nRedis\nCelery\nAsyncio\nSQLAlchemy\nSQLite\nAlembic\nLitestar\nDocker\nWebSockets\nDocker-compose\nDRF\nBootstrap\nHTML\nAPI Gateway\nWagtail",
+    "languages": "Родной\nРусский",
+    "about_me": "Python Backend Developer с 4 годами опыта коммерческой разработки в команде. Работаю над микросервисными приложениями. Использую и владею такими технологиями как\nDjango, Flask, Litestar, PostgreSQL, SQLAlchemy, Celery, Redis, Docker.\nСтремлюсь принимать новые вызовы и всегда готов учиться.\nБуду рад стать частью энергичной и сплоченной команды.\nТелеграм: https://t.me/Ivanov_Maksimm",
+    "education": "Уровень\nНеоконченное высшее образование\nПоволжский государственный технологический университет\n2024\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №260\nРезюме: Программист Python\n\nСопроводительное письмо\nЗдравствуйте!\nМеня зовут Максим Иванов. Я проявил интерес к вашей вакансии и уверен, что смогу внести значительный вклад в вашу команду.\nСвязаться со мной можно в tg: https://t.me/Ivanov_Maksimm\n\nОпыт работы\nОпыт работы: 5 лет 7 месяцев\nОпыт в похожих должностях:5 лет 7 месяцев\nФев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nПрограммист Python\nПроект: Система управления заказами для интернет-магазина\nСтек: Python, Django, DRF, PostgreSQL, Redis, Celery, Docker, Gitlab\nДостижения:\n• Реализовал масштабируемую архитектуру для системы управления заказами, увеличив\nпропускную способность в 2 раза;\n• Разработал систему автоматического обновления статусов заказов;\n• Ускорил работу API за счёт оптимизации запросов и работы с базой данных;\n• Использовал Redis Cache для ускорения загрузки страниц на 45%;\n• Покрыл проект тестами на 80%, сильно повысилась стабильность релизов;\n• Активно участвовал в code review и обсуждении архитектуры новых модулей.\nПроект: Социальная сеть PlanetOZ\nСтек: Python, Django, DRF, Wagtail, Litestar, PostgreSQL, SQLAlchemy, Redis, Celery, Docker, GitLab\nДостижения:\n• Написал с нуля микросервис для парсера новостей, которые затем отображались у клиента в приложении;\n• Внедрил Redis-broker для связи парсера и приложения;\n• Переносил существующий функционал с Django на Litestar для оптимизации и масштабирования приложения;\n• Обнаружил и исправил критические баги, снизив количество сбоев на проде.\nАпр 2021 -\nФев 2023\n1 год 11 мес\nОрганизация 2\nПрограммист Python\nРазрабатывал бэкенд часть приложения для поиска увлечений\nСтек: Python, Flask, FastAPI, SQLAlchemy, Redis, Celery, SQLite, Alembic, Linux, Jinja2\nДостижения:\n• Разработал приложение на Flask с авторизацией через Flask-Login;\n• Внедрил формы на WTForms, улучшив безопасность работы с данными;\n• Оптимизировал работу с базой данных с использованием SQLAlchemy, что сократило нагрузку на сервер;\n• Улучшил систему управления профилями пользователей;\n• Обеспечил стабильную работу приложения, исправляя ошибки и оптимизируя производительность.\n\nНавыки\nPython\nDjango Framework\nDjango Rest Framework\nFlask\nFastAPI\nLinux\nSQL\nPostgreSQL\nGit\nAPI\nREST\nREST API\nRabbitMQ\nGitHub\nGitlab\nRedis\nCelery\nAsyncio\nSQLAlchemy\nSQLite\nAlembic\nLitestar\nDocker\nWebSockets\nDocker-compose\nDRF\nBootstrap\nHTML\nAPI Gateway\nWagtail\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nPython Backend Developer с 4 годами опыта коммерческой разработки в команде. Работаю над микросервисными приложениями. Использую и владею такими технологиями как\nDjango, Flask, Litestar, PostgreSQL, SQLAlchemy, Celery, Redis, Docker.\nСтремлюсь принимать новые вызовы и всегда готов учиться.\nБуду рад стать частью энергичной и сплоченной команды.\nТелеграм: https://t.me/Ivanov_Maksimm\n\nОбразование\nУровень\nНеоконченное высшее образование\nПоволжский государственный технологический университет\n2024\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

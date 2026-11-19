@@ -1,0 +1,214 @@
+{
+  "candidate_id": 287,
+  "resume_title": "Тестировщик",
+  "cover_letter": null,
+  "experience_total_months": 27,
+  "similar_experience_months": 27,
+  "work_experience": [
+    {
+      "start_date": "2023-02",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 27,
+      "organization": "Организация 1",
+      "position": "Qa Engineer",
+      "employer_details": [],
+      "description": "Ручное тестирование web-приложений\n(функциональное, регрессионное, smoke,\nинтеграционное, конфигурационное, UI/UX).\nИспользование Chrome DevTools для отладки\nфронтенда, анализа сетевых запросов и\nпроизводительности.\nТестирование REST API (Postman, Swagger):\nпроверка эндпоинтов, создание коллекций,\nвалидация JSON-схем.\nТестирование CRM-системы, включая валидацию\nбизнес-логики и пользовательских сценариев.\nПроверка интеграций с внешними сервисами.\nРабота с MS SQL:\nНаписание запросов, сравнение данных между UI\nи БД.\nАнализ логов (Sentry, Kibana) для диагностики\nошибок.\nСоздание и поддержка тестовой документации:\nтест-кейсы, чек-листы, баг-репорты (Jira, TestRail).\nУчастие в Agile-процессах:\nпланирование спринтов, ежедневные стендапы,\nретроспективы.",
+      "original": "Фев 2023 -\nАпр 2025\n2 года 3 мес\nОрганизация 1\nQa Engineer\nРучное тестирование web-приложений\n(функциональное, регрессионное, smoke,\nинтеграционное, конфигурационное, UI/UX).\nИспользование Chrome DevTools для отладки\nфронтенда, анализа сетевых запросов и\nпроизводительности.\nТестирование REST API (Postman, Swagger):\nпроверка эндпоинтов, создание коллекций,\nвалидация JSON-схем.\nТестирование CRM-системы, включая валидацию\nбизнес-логики и пользовательских сценариев.\nПроверка интеграций с внешними сервисами.\nРабота с MS SQL:\nНаписание запросов, сравнение данных между UI\nи БД.\nАнализ логов (Sentry, Kibana) для диагностики\nошибок.\nСоздание и поддержка тестовой документации:\nтест-кейсы, чек-листы, баг-репорты (Jira, TestRail).\nУчастие в Agile-процессах:\nпланирование спринтов, ежедневные стендапы,\nретроспективы."
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "JSON API",
+      "level": null,
+      "original": "JSON API"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Chrome DevTools",
+      "level": null,
+      "original": "Chrome DevTools"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "HTTP",
+      "level": null,
+      "original": "HTTP"
+    },
+    {
+      "name": "Postman",
+      "level": null,
+      "original": "Postman"
+    },
+    {
+      "name": "Swagger",
+      "level": null,
+      "original": "Swagger"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "Charles Proxy",
+      "level": null,
+      "original": "Charles Proxy"
+    },
+    {
+      "name": "Android Studio",
+      "level": null,
+      "original": "Android Studio"
+    },
+    {
+      "name": "TestRail",
+      "level": null,
+      "original": "TestRail"
+    },
+    {
+      "name": "Jira",
+      "level": null,
+      "original": "Jira"
+    },
+    {
+      "name": "ELK",
+      "level": null,
+      "original": "ELK"
+    },
+    {
+      "name": "DBeaver",
+      "level": null,
+      "original": "DBeaver"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": null,
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "GitLab CI/CD",
+      "level": null,
+      "original": "GitLab CI/CD"
+    },
+    {
+      "name": "Agile",
+      "level": null,
+      "original": "Agile"
+    },
+    {
+      "name": "Scrum",
+      "level": null,
+      "original": "Scrum"
+    },
+    {
+      "name": "QA",
+      "level": null,
+      "original": "QA"
+    },
+    {
+      "name": "Grafana",
+      "level": null,
+      "original": "Grafana"
+    },
+    {
+      "name": "Sentry",
+      "level": null,
+      "original": "Sentry"
+    },
+    {
+      "name": "gRPC",
+      "level": null,
+      "original": "gRPC"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": null,
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": null,
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Ручное тестирование",
+      "level": null,
+      "original": "Ручное тестирование"
+    },
+    {
+      "name": "Apache JMeter",
+      "level": null,
+      "original": "Apache JMeter"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Санкт-Петербургский колледж информационных технологий, Санкт-Петербург",
+      "details": [
+        "Техническое обслуживание компьютерных сетей и средств вычислительной техники"
+      ],
+      "year": 2014,
+      "level": "Среднее специальное образование",
+      "original": "Санкт-Петербургский колледж информационных технологий, Санкт-Петербург\nТехническое обслуживание компьютерных сетей и средств вычислительной техники\n•\n2014\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №287\nРезюме: Тестировщик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 2 года 3 месяца\nОпыт в похожих должностях:2 года 3 месяца\nФев 2023 -\nАпр 2025\n2 года 3 мес\nОрганизация 1\nQa Engineer\nРучное тестирование web-приложений\n(функциональное, регрессионное, smoke,\nинтеграционное, конфигурационное, UI/UX).\nИспользование Chrome DevTools для отладки\nфронтенда, анализа сетевых запросов и\nпроизводительности.\nТестирование REST API (Postman, Swagger):\nпроверка эндпоинтов, создание коллекций,\nвалидация JSON-схем.\nТестирование CRM-системы, включая валидацию\nбизнес-логики и пользовательских сценариев.\nПроверка интеграций с внешними сервисами.\nРабота с MS SQL:\nНаписание запросов, сравнение данных между UI\nи БД.\nАнализ логов (Sentry, Kibana) для диагностики\nошибок.\nСоздание и поддержка тестовой документации:\nтест-кейсы, чек-листы, баг-репорты (Jira, TestRail).\nУчастие в Agile-процессах:\nпланирование спринтов, ежедневные стендапы,\nретроспективы.",
+    "skills": "SQL\nJSON API\nGit\nChrome DevTools\nAPI\nHTML\nHTTP\nPostman\nSwagger\nFigma\nCharles Proxy\nAndroid Studio\nTestRail\nJira\nELK\nDBeaver\nApache Kafka\nGitLab CI/CD\nAgile\nScrum\nQA\nGrafana\nSentry\ngRPC\nФункциональное тестирование\nРегрессионное тестирование\nDocker\nРучное тестирование\nApache JMeter\nREST API",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее специальное образование\nСанкт-Петербургский колледж информационных технологий, Санкт-Петербург\nТехническое обслуживание компьютерных сетей и средств вычислительной техники\n•\n2014\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №287\nРезюме: Тестировщик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 2 года 3 месяца\nОпыт в похожих должностях:2 года 3 месяца\nФев 2023 -\nАпр 2025\n2 года 3 мес\nОрганизация 1\nQa Engineer\nРучное тестирование web-приложений\n(функциональное, регрессионное, smoke,\nинтеграционное, конфигурационное, UI/UX).\nИспользование Chrome DevTools для отладки\nфронтенда, анализа сетевых запросов и\nпроизводительности.\nТестирование REST API (Postman, Swagger):\nпроверка эндпоинтов, создание коллекций,\nвалидация JSON-схем.\nТестирование CRM-системы, включая валидацию\nбизнес-логики и пользовательских сценариев.\nПроверка интеграций с внешними сервисами.\nРабота с MS SQL:\nНаписание запросов, сравнение данных между UI\nи БД.\nАнализ логов (Sentry, Kibana) для диагностики\nошибок.\nСоздание и поддержка тестовой документации:\nтест-кейсы, чек-листы, баг-репорты (Jira, TestRail).\nУчастие в Agile-процессах:\nпланирование спринтов, ежедневные стендапы,\nретроспективы.\n\nНавыки\nSQL\nJSON API\nGit\nChrome DevTools\nAPI\nHTML\nHTTP\nPostman\nSwagger\nFigma\nCharles Proxy\nAndroid Studio\nTestRail\nJira\nELK\nDBeaver\nApache Kafka\nGitLab CI/CD\nAgile\nScrum\nQA\nGrafana\nSentry\ngRPC\nФункциональное тестирование\nРегрессионное тестирование\nDocker\nРучное тестирование\nApache JMeter\nREST API\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее специальное образование\nСанкт-Петербургский колледж информационных технологий, Санкт-Петербург\nТехническое обслуживание компьютерных сетей и средств вычислительной техники\n•\n2014\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

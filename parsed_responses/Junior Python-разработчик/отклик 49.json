@@ -1,0 +1,212 @@
+{
+  "candidate_id": 49,
+  "resume_title": "Python разработчик",
+  "cover_letter": "Здравствуйте, ознакомился с вакансией - задачи близки моему опыту в backend-разработке на Python. Когда удобно созвониться?",
+  "experience_total_months": 45,
+  "similar_experience_months": 45,
+  "work_experience": [
+    {
+      "start_date": "2023-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 45,
+      "organization": "Организация 1",
+      "position": "Python разработчик",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Основной стек: Python, FastAPI, SQLAlchemy, REST, Django, DRF, SQL, PostgreSQL, Redis, Kafka, ClickHouse, Celery, Docker, CI/CD, Git.\nИз рабочих задач:\n- Разработал внутреннюю CRM на Django: модели, API, интерфейс для менеджеров. Настроил автоматический сбор товаров через Selenium с удалённым управлением парсерами на локальных машинах по SSH.\n- Оптимизировал критичный эндпоинт на таблице ~100 млн строк: устранил N+1, время отклика сократилось в разы.\n- Вынес тяжёлую обработку заказов в фоновые задачи через Celery + Redis, разгрузил основной поток, ускорил отклик API.\n- Автоматизировал сквозной сценарий оформления заказа на внешнем маркетплейсе на Selenium: от каталога до оплаты картой, с автоматическим чтением SMS-подтверждения через GSM-модуль роутера.\n- Покрывал код тестами (pytest, Selenium).\n- Оптимизировал AI-генерацию изображений, сократил расход токенов и снизил стоимость генерации на 30%.",
+      "original": "Фев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython разработчик\nОсновной стек: Python, FastAPI, SQLAlchemy, REST, Django, DRF, SQL, PostgreSQL, Redis, Kafka, ClickHouse, Celery, Docker, CI/CD, Git.\nИз рабочих задач:\n- Разработал внутреннюю CRM на Django: модели, API, интерфейс для менеджеров. Настроил автоматический сбор товаров через Selenium с удалённым управлением парсерами на локальных машинах по SSH.\n- Оптимизировал критичный эндпоинт на таблице ~100 млн строк: устранил N+1, время отклика сократилось в разы.\n- Вынес тяжёлую обработку заказов в фоновые задачи через Celery + Redis, разгрузил основной поток, ускорил отклик API.\n- Автоматизировал сквозной сценарий оформления заказа на внешнем маркетплейсе на Selenium: от каталога до оплаты картой, с автоматическим чтением SMS-подтверждения через GSM-модуль роутера.\n- Покрывал код тестами (pytest, Selenium).\n- Оптимизировал AI-генерацию изображений, сократил расход токенов и снизил стоимость генерации на 30%."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Telegram Bot API",
+      "level": "advanced",
+      "original": "Telegram Bot API"
+    },
+    {
+      "name": "Selenium",
+      "level": "advanced",
+      "original": "Selenium"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "Bash",
+      "level": "advanced",
+      "original": "Bash"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "unittest",
+      "level": "advanced",
+      "original": "unittest"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Email - mih.podzorov@gmail.com\nTelegram - @mishish1",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Московский технический университет связи и информатики, Москва",
+      "details": [
+        "Факультет информационных технологий, Информатика и вычислительная техника"
+      ],
+      "year": 2028,
+      "level": "Высшее образование",
+      "original": "Московский технический университет связи и информатики, Москва\nФакультет информационных технологий, Информатика и вычислительная техника\n•\n2028\n•\nВысшее образование"
+    },
+    {
+      "institution": "Колледж автоматизации информационных технологий № 20",
+      "details": [
+        "Обеспечение информационной безопасности автоматизированных систем"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Колледж автоматизации информационных технологий № 20\nОбеспечение информационной безопасности автоматизированных систем\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №49\nРезюме: Python разработчик",
+    "cover_letter": "Здравствуйте, ознакомился с вакансией - задачи близки моему опыту в backend-разработке на Python. Когда удобно созвониться?",
+    "experience": "Опыт работы: 3 года 9 месяцев\nОпыт в похожих должностях:3 года 9 месяцев\nФев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython разработчик\nОсновной стек: Python, FastAPI, SQLAlchemy, REST, Django, DRF, SQL, PostgreSQL, Redis, Kafka, ClickHouse, Celery, Docker, CI/CD, Git.\nИз рабочих задач:\n- Разработал внутреннюю CRM на Django: модели, API, интерфейс для менеджеров. Настроил автоматический сбор товаров через Selenium с удалённым управлением парсерами на локальных машинах по SSH.\n- Оптимизировал критичный эндпоинт на таблице ~100 млн строк: устранил N+1, время отклика сократилось в разы.\n- Вынес тяжёлую обработку заказов в фоновые задачи через Celery + Redis, разгрузил основной поток, ускорил отклик API.\n- Автоматизировал сквозной сценарий оформления заказа на внешнем маркетплейсе на Selenium: от каталога до оплаты картой, с автоматическим чтением SMS-подтверждения через GSM-модуль роутера.\n- Покрывал код тестами (pytest, Selenium).\n- Оптимизировал AI-генерацию изображений, сократил расход токенов и снизил стоимость генерации на 30%.",
+    "skills": "Продвинутый уровень\nPython\nDjango\nSQL\nRedis\nCelery\nLinux\nCI/CD\nDocker\nPostgreSQL\nООП\nGit\nREST API\nDjango Framework\nGitHub\nDjango Rest Framework\nFastAPI\nTelegram Bot API\nSelenium\nNginx\nBash\nGitlab\nPytest\nNoSQL\nunittest\nGrafana\nApache Kafka",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Email - mih.podzorov@gmail.com\nTelegram - @mishish1",
+    "education": "Уровень\nВысшее образование\nМосковский технический университет связи и информатики, Москва\nФакультет информационных технологий, Информатика и вычислительная техника\n•\n2028\n•\nВысшее образование\nКолледж автоматизации информационных технологий № 20\nОбеспечение информационной безопасности автоматизированных систем\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №49\nРезюме: Python разработчик\n\nСопроводительное письмо\nЗдравствуйте, ознакомился с вакансией - задачи близки моему опыту в backend-разработке на Python. Когда удобно созвониться?\n\nОпыт работы\nОпыт работы: 3 года 9 месяцев\nОпыт в похожих должностях:3 года 9 месяцев\nФев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython разработчик\nОсновной стек: Python, FastAPI, SQLAlchemy, REST, Django, DRF, SQL, PostgreSQL, Redis, Kafka, ClickHouse, Celery, Docker, CI/CD, Git.\nИз рабочих задач:\n- Разработал внутреннюю CRM на Django: модели, API, интерфейс для менеджеров. Настроил автоматический сбор товаров через Selenium с удалённым управлением парсерами на локальных машинах по SSH.\n- Оптимизировал критичный эндпоинт на таблице ~100 млн строк: устранил N+1, время отклика сократилось в разы.\n- Вынес тяжёлую обработку заказов в фоновые задачи через Celery + Redis, разгрузил основной поток, ускорил отклик API.\n- Автоматизировал сквозной сценарий оформления заказа на внешнем маркетплейсе на Selenium: от каталога до оплаты картой, с автоматическим чтением SMS-подтверждения через GSM-модуль роутера.\n- Покрывал код тестами (pytest, Selenium).\n- Оптимизировал AI-генерацию изображений, сократил расход токенов и снизил стоимость генерации на 30%.\n\nНавыки\nПродвинутый уровень\nPython\nDjango\nSQL\nRedis\nCelery\nLinux\nCI/CD\nDocker\nPostgreSQL\nООП\nGit\nREST API\nDjango Framework\nGitHub\nDjango Rest Framework\nFastAPI\nTelegram Bot API\nSelenium\nNginx\nBash\nGitlab\nPytest\nNoSQL\nunittest\nGrafana\nApache Kafka\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nEmail - mih.podzorov@gmail.com\nTelegram - @mishish1\n\nОбразование\nУровень\nВысшее образование\nМосковский технический университет связи и информатики, Москва\nФакультет информационных технологий, Информатика и вычислительная техника\n•\n2028\n•\nВысшее образование\nКолледж автоматизации информационных технологий № 20\nОбеспечение информационной безопасности автоматизированных систем\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,237 @@
+{
+  "candidate_id": 53,
+  "resume_title": "Ux ui дизайнер",
+  "cover_letter": "Здравствуйте. Это моё резюме.\nhttps://ablaze-hickory-332.notion.site/86e6f56425bf479d9f6c50186d9d6b5c\nА это ссылка на проекты, которые пока не опубликовала (в процессе оформления)\nhttps://www.figma.com/file/HMncm63CieNjL11qRcFngk/portfoloio?type=design&node-id=0%3A1&mode=design&t=NoqDkcVcxWoqaWVC-1\nНа данный момент я прохожу стажировку по продуктивогому дизайну, неделю назад закончила стажировку по графическому дизайну в компании \"Аванта\" и есть небольшие реальные проекты. Очень ответственно отношусь к любой работе, постоянно развиваюсь",
+  "experience_total_months": 68,
+  "similar_experience_months": 10,
+  "work_experience": [
+    {
+      "start_date": "2021-05",
+      "end_date": "2023-11",
+      "is_current": false,
+      "duration_months": 31,
+      "organization": "Организация 1",
+      "position": "Менеджер, модератор группы",
+      "employer_details": [],
+      "description": "Создание контента, общение с клиентами, реклама товаров и выкупы из интернет магазинов США",
+      "original": "Май 2021 -\nНоя 2023\n2 года 7 мес\nОрганизация 1\nМенеджер, модератор группы\nСоздание контента, общение с клиентами, реклама товаров и выкупы из интернет магазинов США"
+    },
+    {
+      "start_date": "2023-01",
+      "end_date": "2023-10",
+      "is_current": false,
+      "duration_months": 10,
+      "organization": "Организация 2",
+      "position": "Ux ui дизайнер",
+      "employer_details": [],
+      "description": "Создание интернет магазина мебели",
+      "original": "Янв 2023 -\nОкт 2023\n10 мес\nОрганизация 2\nUx ui дизайнер\nСоздание интернет магазина мебели"
+    },
+    {
+      "start_date": "2017-01",
+      "end_date": "2020-01",
+      "is_current": false,
+      "duration_months": 37,
+      "organization": "Организация 3",
+      "position": "Контент-менеджер",
+      "employer_details": [],
+      "description": "Ведение соц сетей VK, Instagram, telegram",
+      "original": "Янв 2017 -\nЯнв 2020\n3 года 1 мес\nОрганизация 3\nКонтент-менеджер\nВедение соц сетей VK, Instagram, telegram"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Adobe Photoshop",
+      "level": null,
+      "original": "Adobe Photoshop"
+    },
+    {
+      "name": "Web-дизайн",
+      "level": null,
+      "original": "Web-дизайн"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "Веб-дизайн",
+      "level": null,
+      "original": "Веб-дизайн"
+    },
+    {
+      "name": "Дизайн интерфейсов",
+      "level": null,
+      "original": "Дизайн интерфейсов"
+    },
+    {
+      "name": "Web Design",
+      "level": null,
+      "original": "Web Design"
+    },
+    {
+      "name": "Прототипирование",
+      "level": null,
+      "original": "Прототипирование"
+    },
+    {
+      "name": "Tilda",
+      "level": null,
+      "original": "Tilda"
+    },
+    {
+      "name": "Invision",
+      "level": null,
+      "original": "Invision"
+    },
+    {
+      "name": "Google Docs",
+      "level": null,
+      "original": "Google Docs"
+    },
+    {
+      "name": "Создание сайтов",
+      "level": null,
+      "original": "Создание сайтов"
+    },
+    {
+      "name": "Адаптивный дизайн",
+      "level": null,
+      "original": "Адаптивный дизайн"
+    },
+    {
+      "name": "Wireframing",
+      "level": null,
+      "original": "Wireframing"
+    },
+    {
+      "name": "Дизайн",
+      "level": null,
+      "original": "Дизайн"
+    },
+    {
+      "name": "Айдентика",
+      "level": null,
+      "original": "Айдентика"
+    },
+    {
+      "name": "UX",
+      "level": null,
+      "original": "UX"
+    },
+    {
+      "name": "UI",
+      "level": null,
+      "original": "UI"
+    },
+    {
+      "name": "UI Kit",
+      "level": null,
+      "original": "UI Kit"
+    },
+    {
+      "name": "UI/UX",
+      "level": null,
+      "original": "UI/UX"
+    },
+    {
+      "name": "User Flow",
+      "level": null,
+      "original": "User Flow"
+    },
+    {
+      "name": "MS PowerPoint",
+      "level": null,
+      "original": "MS PowerPoint"
+    },
+    {
+      "name": "UX-исследования",
+      "level": null,
+      "original": "UX-исследования"
+    },
+    {
+      "name": "CJM",
+      "level": null,
+      "original": "CJM"
+    },
+    {
+      "name": "Usability",
+      "level": null,
+      "original": "Usability"
+    },
+    {
+      "name": "Подготовка макетов",
+      "level": null,
+      "original": "Подготовка макетов"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": null,
+      "original": "Adobe Illustrator"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    },
+    {
+      "name": "Французский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Французский — A2 — Элементарный"
+    }
+  ],
+  "about_me": "https://www.behance.net/anushgyulumyan",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Uprock",
+      "details": [
+        "Ux ui дизайн, Ux ui дизайнер"
+      ],
+      "year": 2024,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Uprock\nUx ui дизайн, Ux ui дизайнер\n•\n2024\n•\nВысшее образование (Бакалавр)"
+    },
+    {
+      "institution": "Армянский государственний экономический университет",
+      "details": [
+        "Финансы и кредиты, Таможенное дело (специалист таможенного дела)"
+      ],
+      "year": 2010,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Армянский государственний экономический университет\nФинансы и кредиты, Таможенное дело (специалист таможенного дела)\n•\n2010\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готова к командировкам",
+    "citizenship": "Армения",
+    "work_permit": "Армения, Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №53\nРезюме: Ux ui дизайнер",
+    "cover_letter": "Здравствуйте. Это моё резюме.\nhttps://ablaze-hickory-332.notion.site/86e6f56425bf479d9f6c50186d9d6b5c\nА это ссылка на проекты, которые пока не опубликовала (в процессе оформления)\nhttps://www.figma.com/file/HMncm63CieNjL11qRcFngk/portfoloio?type=design&node-id=0%3A1&mode=design&t=NoqDkcVcxWoqaWVC-1\nНа данный момент я прохожу стажировку по продуктивогому дизайну, неделю назад закончила стажировку по графическому дизайну в компании \"Аванта\" и есть небольшие реальные проекты. Очень ответственно отношусь к любой работе, постоянно развиваюсь",
+    "experience": "Опыт работы: 5 лет 8 месяцев\nОпыт в похожих должностях:10 месяцев\nМай 2021 -\nНоя 2023\n2 года 7 мес\nОрганизация 1\nМенеджер, модератор группы\nСоздание контента, общение с клиентами, реклама товаров и выкупы из интернет магазинов США\nЯнв 2023 -\nОкт 2023\n10 мес\nОрганизация 2\nUx ui дизайнер\nСоздание интернет магазина мебели\nЯнв 2017 -\nЯнв 2020\n3 года 1 мес\nОрганизация 3\nКонтент-менеджер\nВедение соц сетей VK, Instagram, telegram",
+    "skills": "Adobe Photoshop\nWeb-дизайн\nFigma\nВеб-дизайн\nДизайн интерфейсов\nWeb Design\nПрототипирование\nTilda\nInvision\nGoogle Docs\nСоздание сайтов\nАдаптивный дизайн\nWireframing\nДизайн\nАйдентика\nUX\nUI\nUI Kit\nUI/UX\nUser Flow\nMS PowerPoint\nUX-исследования\nCJM\nUsability\nПодготовка макетов\nAdobe Illustrator",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nФранцузский — A2 — Элементарный",
+    "about_me": "https://www.behance.net/anushgyulumyan",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nUprock\nUx ui дизайн, Ux ui дизайнер\n•\n2024\n•\nВысшее образование (Бакалавр)\nАрмянский государственний экономический университет\nФинансы и кредиты, Таможенное дело (специалист таможенного дела)\n•\n2010\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готова к командировкам\nГражданство:\nАрмения\nРазрешение на работу:\nАрмения, Россия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №53\nРезюме: Ux ui дизайнер\n\nСопроводительное письмо\nЗдравствуйте. Это моё резюме.\nhttps://ablaze-hickory-332.notion.site/86e6f56425bf479d9f6c50186d9d6b5c\nА это ссылка на проекты, которые пока не опубликовала (в процессе оформления)\nhttps://www.figma.com/file/HMncm63CieNjL11qRcFngk/portfoloio?type=design&node-id=0%3A1&mode=design&t=NoqDkcVcxWoqaWVC-1\nНа данный момент я прохожу стажировку по продуктивогому дизайну, неделю назад закончила стажировку по графическому дизайну в компании \"Аванта\" и есть небольшие реальные проекты. Очень ответственно отношусь к любой работе, постоянно развиваюсь\n\nОпыт работы\nОпыт работы: 5 лет 8 месяцев\nОпыт в похожих должностях:10 месяцев\nМай 2021 -\nНоя 2023\n2 года 7 мес\nОрганизация 1\nМенеджер, модератор группы\nСоздание контента, общение с клиентами, реклама товаров и выкупы из интернет магазинов США\nЯнв 2023 -\nОкт 2023\n10 мес\nОрганизация 2\nUx ui дизайнер\nСоздание интернет магазина мебели\nЯнв 2017 -\nЯнв 2020\n3 года 1 мес\nОрганизация 3\nКонтент-менеджер\nВедение соц сетей VK, Instagram, telegram\n\nНавыки\nAdobe Photoshop\nWeb-дизайн\nFigma\nВеб-дизайн\nДизайн интерфейсов\nWeb Design\nПрототипирование\nTilda\nInvision\nGoogle Docs\nСоздание сайтов\nАдаптивный дизайн\nWireframing\nДизайн\nАйдентика\nUX\nUI\nUI Kit\nUI/UX\nUser Flow\nMS PowerPoint\nUX-исследования\nCJM\nUsability\nПодготовка макетов\nAdobe Illustrator\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nФранцузский — A2 — Элементарный\n\nОбо мне\nhttps://www.behance.net/anushgyulumyan\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nUprock\nUx ui дизайн, Ux ui дизайнер\n•\n2024\n•\nВысшее образование (Бакалавр)\nАрмянский государственний экономический университет\nФинансы и кредиты, Таможенное дело (специалист таможенного дела)\n•\n2010\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готова к командировкам\nГражданство:\nАрмения\nРазрешение на работу:\nАрмения, Россия\n"
+}

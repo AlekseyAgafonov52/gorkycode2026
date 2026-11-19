@@ -1,0 +1,220 @@
+{
+  "candidate_id": 262,
+  "resume_title": "QA engineer",
+  "cover_letter": null,
+  "experience_total_months": 8,
+  "similar_experience_months": 8,
+  "work_experience": [
+    {
+      "start_date": "2024-11",
+      "end_date": "2025-06",
+      "is_current": false,
+      "duration_months": 8,
+      "organization": "Организация 1",
+      "position": "Инженер по тестированию",
+      "employer_details": [
+        "Москва"
+      ],
+      "description": "Проводил комплексное тестирование UI и backend функционала, включая smoke-тесты и регрессионные проверки. Активно работал с API через Postman (REST, SOAP) и Swagger, валидирую JSON/XML ответы. Для проверки данных использую SQL-запросы (SELECT, JOIN). В процессе тестирования применяю Chrome DevTools для анализа frontend и HTTP/HTTPS трафика.\nРаботал в Agile/Scrum средах, использую Jira для трекинга багов и Confluence для документации. Управляю тест-кейсами в Qase. Имею опыт работы с CI/CD инструментами (Jenkins, GitLab CI), а также с системами контроля версий (Git). Тестировал на различных платформах (Linux, Android, iOS), включая мобильное тестирование через эмуляторы. Автоматизировал рутинные задачи с помощью Python. Работал с Docker-контейнерами и message broker (Kafka). Понимаю полный цикл разработки ПО от frontend до backend.\nДостижения:\nУлучшил покрытие тестами – увеличил количество тест-кейсов на 30%, что сократило количество багов в production.\nОптимизировал процесс регрессионного тестирования – создал чек-листы, сократив время проверки на 20%.\nУлучшил коммуникацию между QA и разработчиками – внедрил более детальные баг-репорты, сократив время на исправление дефектов.",
+      "original": "Ноя 2024 -\nИюн 2025\n8 мес\nОрганизация 1\nМосква\nИнженер по тестированию\nПроводил комплексное тестирование UI и backend функционала, включая smoke-тесты и регрессионные проверки. Активно работал с API через Postman (REST, SOAP) и Swagger, валидирую JSON/XML ответы. Для проверки данных использую SQL-запросы (SELECT, JOIN). В процессе тестирования применяю Chrome DevTools для анализа frontend и HTTP/HTTPS трафика.\nРаботал в Agile/Scrum средах, использую Jira для трекинга багов и Confluence для документации. Управляю тест-кейсами в Qase. Имею опыт работы с CI/CD инструментами (Jenkins, GitLab CI), а также с системами контроля версий (Git). Тестировал на различных платформах (Linux, Android, iOS), включая мобильное тестирование через эмуляторы. Автоматизировал рутинные задачи с помощью Python. Работал с Docker-контейнерами и message broker (Kafka). Понимаю полный цикл разработки ПО от frontend до backend.\nДостижения:\nУлучшил покрытие тестами – увеличил количество тест-кейсов на 30%, что сократило количество багов в production.\nОптимизировал процесс регрессионного тестирования – создал чек-листы, сократив время проверки на 20%.\nУлучшил коммуникацию между QA и разработчиками – внедрил более детальные баг-репорты, сократив время на исправление дефектов."
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "Ручное тестирование",
+      "level": "intermediate",
+      "original": "Ручное тестирование"
+    },
+    {
+      "name": "Postman",
+      "level": "intermediate",
+      "original": "Postman"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": "intermediate",
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "Test case",
+      "level": "intermediate",
+      "original": "Test case"
+    },
+    {
+      "name": "Jira",
+      "level": "intermediate",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Английский язык",
+      "level": "intermediate",
+      "original": "Английский язык"
+    },
+    {
+      "name": "JSON",
+      "level": "intermediate",
+      "original": "JSON"
+    },
+    {
+      "name": "Kafka",
+      "level": "intermediate",
+      "original": "Kafka"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "Scrum",
+      "level": "basic",
+      "original": "Scrum"
+    },
+    {
+      "name": "Тестирование",
+      "level": null,
+      "original": "Тестирование"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": null,
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "QA",
+      "level": null,
+      "original": "QA"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "Тестирование пользовательского интерфейса",
+      "level": null,
+      "original": "Тестирование пользовательского интерфейса"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Составление документации",
+      "level": null,
+      "original": "Составление документации"
+    },
+    {
+      "name": "Agile",
+      "level": null,
+      "original": "Agile"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    },
+    {
+      "name": "Проведение тестирований",
+      "level": null,
+      "original": "Проведение тестирований"
+    },
+    {
+      "name": "JSON API",
+      "level": null,
+      "original": "JSON API"
+    },
+    {
+      "name": "Jira",
+      "level": null,
+      "original": "Jira"
+    },
+    {
+      "name": "Confluence",
+      "level": null,
+      "original": "confluence"
+    },
+    {
+      "name": "Android",
+      "level": null,
+      "original": "Android"
+    },
+    {
+      "name": "Swagger",
+      "level": null,
+      "original": "Swagger"
+    },
+    {
+      "name": "Модульное тестирование",
+      "level": null,
+      "original": "Модульное тестирование"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    }
+  ],
+  "about_me": "Молодой и амбициозный QA Engineer с опытом работы в тестировании web- и мобильных приложений.\nВ компании \"Яндекс крауд\" в основном проводил регресс и смоук тестирования, а так же составления чек-листов, тест-кейсов и баг-репортов, приходилось тестировать front, beck, mobil\nЗа всё время работал с такими инструментами:\nAPI тестирование: REST, SOAP, GraphQL (Postman, Swagger, SoapUI)\nБазы данных: SQL (MySQL, PostgreSQL),\nWeb технологии: HTTP/HTTPS, JSON/XML, CSS/HTML\nМобильная разработка: Android Studio, Xcode\nCI/CD: Jenkins, GitLab CI, GitHub Actions\nИнфраструктура: Docker, Kubernetes, Linux\nМетодологии: Agile, Scrum, Kanban\nЯзыки программирования: Python для QA automation\nСистемы мониторинга: Kibana, Sentry, Grafana\nДанные для связи:\nТелеграмм- https://t.me/Parcy14\nПочта: ily.pinaev@yandex.ru",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Северный (Арктический) федеральный университет им. М.В. Ломоносова, Архангельск",
+      "details": [],
+      "year": 2023,
+      "level": "Высшее образование",
+      "original": "Северный (Арктический) федеральный университет им. М.В. Ломоносова, Архангельск\n2023\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №262\nРезюме: QA engineer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 8 месяцев\nОпыт в похожих должностях:8 месяцев\nНоя 2024 -\nИюн 2025\n8 мес\nОрганизация 1\nМосква\nИнженер по тестированию\nПроводил комплексное тестирование UI и backend функционала, включая smoke-тесты и регрессионные проверки. Активно работал с API через Postman (REST, SOAP) и Swagger, валидирую JSON/XML ответы. Для проверки данных использую SQL-запросы (SELECT, JOIN). В процессе тестирования применяю Chrome DevTools для анализа frontend и HTTP/HTTPS трафика.\nРаботал в Agile/Scrum средах, использую Jira для трекинга багов и Confluence для документации. Управляю тест-кейсами в Qase. Имею опыт работы с CI/CD инструментами (Jenkins, GitLab CI), а также с системами контроля версий (Git). Тестировал на различных платформах (Linux, Android, iOS), включая мобильное тестирование через эмуляторы. Автоматизировал рутинные задачи с помощью Python. Работал с Docker-контейнерами и message broker (Kafka). Понимаю полный цикл разработки ПО от frontend до backend.\nДостижения:\nУлучшил покрытие тестами – увеличил количество тест-кейсов на 30%, что сократило количество багов в production.\nОптимизировал процесс регрессионного тестирования – создал чек-листы, сократив время проверки на 20%.\nУлучшил коммуникацию между QA и разработчиками – внедрил более детальные баг-репорты, сократив время на исправление дефектов.",
+    "skills": "Средний уровень\nSQL\nРучное тестирование\nPostman\nРегрессионное тестирование\nTest case\nAtlassian Jira\nREST API\nАнглийский язык\nJSON\nKafka\nБазовый уровень\nPython\nScrum\nУровень не указан\nТестирование\nФункциональное тестирование\nQA\nLinux\nТестирование пользовательского интерфейса\nAPI\nGit\nСоставление документации\nAgile\nPostgreSQL\nREST\nПроведение тестирований\nJSON API\nJira\nconfluence\nAndroid\nSwagger\nМодульное тестирование",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный",
+    "about_me": "Молодой и амбициозный QA Engineer с опытом работы в тестировании web- и мобильных приложений.\nВ компании \"Яндекс крауд\" в основном проводил регресс и смоук тестирования, а так же составления чек-листов, тест-кейсов и баг-репортов, приходилось тестировать front, beck, mobil\nЗа всё время работал с такими инструментами:\nAPI тестирование: REST, SOAP, GraphQL (Postman, Swagger, SoapUI)\nБазы данных: SQL (MySQL, PostgreSQL),\nWeb технологии: HTTP/HTTPS, JSON/XML, CSS/HTML\nМобильная разработка: Android Studio, Xcode\nCI/CD: Jenkins, GitLab CI, GitHub Actions\nИнфраструктура: Docker, Kubernetes, Linux\nМетодологии: Agile, Scrum, Kanban\nЯзыки программирования: Python для QA automation\nСистемы мониторинга: Kibana, Sentry, Grafana\nДанные для связи:\nТелеграмм- https://t.me/Parcy14\nПочта: ily.pinaev@yandex.ru",
+    "education": "Уровень\nВысшее образование\nСеверный (Арктический) федеральный университет им. М.В. Ломоносова, Архангельск\n2023\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №262\nРезюме: QA engineer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 8 месяцев\nОпыт в похожих должностях:8 месяцев\nНоя 2024 -\nИюн 2025\n8 мес\nОрганизация 1\nМосква\nИнженер по тестированию\nПроводил комплексное тестирование UI и backend функционала, включая smoke-тесты и регрессионные проверки. Активно работал с API через Postman (REST, SOAP) и Swagger, валидирую JSON/XML ответы. Для проверки данных использую SQL-запросы (SELECT, JOIN). В процессе тестирования применяю Chrome DevTools для анализа frontend и HTTP/HTTPS трафика.\nРаботал в Agile/Scrum средах, использую Jira для трекинга багов и Confluence для документации. Управляю тест-кейсами в Qase. Имею опыт работы с CI/CD инструментами (Jenkins, GitLab CI), а также с системами контроля версий (Git). Тестировал на различных платформах (Linux, Android, iOS), включая мобильное тестирование через эмуляторы. Автоматизировал рутинные задачи с помощью Python. Работал с Docker-контейнерами и message broker (Kafka). Понимаю полный цикл разработки ПО от frontend до backend.\nДостижения:\nУлучшил покрытие тестами – увеличил количество тест-кейсов на 30%, что сократило количество багов в production.\nОптимизировал процесс регрессионного тестирования – создал чек-листы, сократив время проверки на 20%.\nУлучшил коммуникацию между QA и разработчиками – внедрил более детальные баг-репорты, сократив время на исправление дефектов.\n\nНавыки\nСредний уровень\nSQL\nРучное тестирование\nPostman\nРегрессионное тестирование\nTest case\nAtlassian Jira\nREST API\nАнглийский язык\nJSON\nKafka\nБазовый уровень\nPython\nScrum\nУровень не указан\nТестирование\nФункциональное тестирование\nQA\nLinux\nТестирование пользовательского интерфейса\nAPI\nGit\nСоставление документации\nAgile\nPostgreSQL\nREST\nПроведение тестирований\nJSON API\nJira\nconfluence\nAndroid\nSwagger\nМодульное тестирование\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный\n\nОбо мне\nМолодой и амбициозный QA Engineer с опытом работы в тестировании web- и мобильных приложений.\nВ компании \"Яндекс крауд\" в основном проводил регресс и смоук тестирования, а так же составления чек-листов, тест-кейсов и баг-репортов, приходилось тестировать front, beck, mobil\nЗа всё время работал с такими инструментами:\nAPI тестирование: REST, SOAP, GraphQL (Postman, Swagger, SoapUI)\nБазы данных: SQL (MySQL, PostgreSQL),\nWeb технологии: HTTP/HTTPS, JSON/XML, CSS/HTML\nМобильная разработка: Android Studio, Xcode\nCI/CD: Jenkins, GitLab CI, GitHub Actions\nИнфраструктура: Docker, Kubernetes, Linux\nМетодологии: Agile, Scrum, Kanban\nЯзыки программирования: Python для QA automation\nСистемы мониторинга: Kibana, Sentry, Grafana\nДанные для связи:\nТелеграмм- https://t.me/Parcy14\nПочта: ily.pinaev@yandex.ru\n\nОбразование\nУровень\nВысшее образование\nСеверный (Арктический) федеральный университет им. М.В. Ломоносова, Архангельск\n2023\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

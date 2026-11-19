@@ -1,0 +1,206 @@
+{
+  "candidate_id": 84,
+  "resume_title": "Frontend разработчик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Redux",
+      "level": "advanced",
+      "original": "Redux"
+    },
+    {
+      "name": "Effector",
+      "level": "advanced",
+      "original": "Effector"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "HTTP",
+      "level": "advanced",
+      "original": "HTTP"
+    },
+    {
+      "name": "HTTPS",
+      "level": "advanced",
+      "original": "HTTPS"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "JSON",
+      "level": "advanced",
+      "original": "JSON"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Jira"
+    },
+    {
+      "name": "Confluence",
+      "level": "advanced",
+      "original": "Atlassian Confluence"
+    },
+    {
+      "name": "Scrum",
+      "level": "advanced",
+      "original": "Scrum"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "BEM",
+      "level": "advanced",
+      "original": "BEM"
+    },
+    {
+      "name": "SCSS",
+      "level": "advanced",
+      "original": "SCSS"
+    },
+    {
+      "name": "Apollo",
+      "level": "advanced",
+      "original": "Apollo"
+    },
+    {
+      "name": "Next.js",
+      "level": "advanced",
+      "original": "Next.js"
+    },
+    {
+      "name": "React hook form",
+      "level": "advanced",
+      "original": "React hook form"
+    },
+    {
+      "name": "SaaS",
+      "level": "advanced",
+      "original": "SaaS"
+    },
+    {
+      "name": "GraphQL",
+      "level": "advanced",
+      "original": "GraphQL"
+    },
+    {
+      "name": "UI/UX",
+      "level": "advanced",
+      "original": "UI/UX"
+    },
+    {
+      "name": "Node.js",
+      "level": "advanced",
+      "original": "Node.js"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "VueJS"
+    },
+    {
+      "name": "React Native",
+      "level": "advanced",
+      "original": "React Native"
+    },
+    {
+      "name": "Angular",
+      "level": "advanced",
+      "original": "Angular"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Пишите сразу в телеграм - @velis34",
+  "education_level": "Среднее образование",
+  "education": [
+    {
+      "institution": "РГУФК",
+      "details": [],
+      "year": 2021,
+      "level": "Среднее образование",
+      "original": "РГУФК\n2021\n•\nСреднее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №84\nРезюме: Frontend разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nReact\nTypeScript\nJavaScript\nRedux\nEffector\nREST API\nHTTP\nHTTPS\nGit\nCI/CD\nDocker\nJSON\nAgile\nJira\nAtlassian Confluence\nScrum\nHTML\nCSS\nBEM\nSCSS\nApollo\nNext.js\nReact hook form\nSaaS\nGraphQL\nUI/UX\nNode.js\nVueJS\nReact Native\nAngular",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Пишите сразу в телеграм - @velis34",
+    "education": "Уровень\nСреднее образование\nРГУФК\n2021\n•\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №84\nРезюме: Frontend разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nReact\nTypeScript\nJavaScript\nRedux\nEffector\nREST API\nHTTP\nHTTPS\nGit\nCI/CD\nDocker\nJSON\nAgile\nJira\nAtlassian Confluence\nScrum\nHTML\nCSS\nBEM\nSCSS\nApollo\nNext.js\nReact hook form\nSaaS\nGraphQL\nUI/UX\nNode.js\nVueJS\nReact Native\nAngular\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nПишите сразу в телеграм - @velis34\n\nОбразование\nУровень\nСреднее образование\nРГУФК\n2021\n•\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

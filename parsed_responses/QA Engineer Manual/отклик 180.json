@@ -1,0 +1,236 @@
+{
+  "candidate_id": 180,
+  "resume_title": "QA Engineer / Инженер по тестированию",
+  "cover_letter": null,
+  "experience_total_months": 57,
+  "similar_experience_months": 57,
+  "work_experience": [
+    {
+      "start_date": "2025-10",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 13,
+      "organization": "Организация 1",
+      "position": "QA/AQA Engineer",
+      "employer_details": [],
+      "description": "Описание:\nКросс-платформенное приложение онлайн-кинотеатра. Ответственность за тестирование и релиз приложений.\nОбязанности:\n- Функциональное, регрессионное и smoke-тестирование мобильных приложений (iOS, Android, HarmonyOS, Android TV)\n- Проверка пользовательских сценариев: регистрация, авторизация, просмотр контента, подписки\n- Тестирование UI/UX на соответствие требованиям и макетам\n- Тестирование жизненного цикла приложения\n- Тестирование Flutter-приложения с учётом специфики кроссплатформенной разработки: поведение на разных платформах, работа с нативными модулями, производительность рендеринга\n- Анализировал логи и трассировки в Seq для быстрой локализации причин сбоев на бэкенде.\n- Работа с логами приложения и системными логами, анализ ошибок\n- Проверка через feature flags\n- Ответственность за полный цикл релиза мобильного приложения: тестирование билдов, финальная валидация и подготовка к публикации в App Store, Google Play и Huawei AppGallery\n- Разработка и поддержка автотестов на Python (Pytest, Requests, Pydantic, Allure)\n- Интеграция автотестов в CI/CD (GitLab CI), настройка автоматического запуска и отчетности\nДостижения:\nСнизил количество обращений в техподдержку на 90% за счёт повышения качества тестирования.\nСтек технологий:\nPostman, Swagger, Proxyman, Logcat, Xcode, REST API, iOS, Android, HarmonyOS, Android TV, REST API, RabbitMQ, Redis, Seq, GitLab, CI/CD, Pytest, Requests, Pydantic, Allure, Maestro.",
+      "original": "Окт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nQA/AQA Engineer\nОписание:\nКросс-платформенное приложение онлайн-кинотеатра. Ответственность за тестирование и релиз приложений.\nОбязанности:\n- Функциональное, регрессионное и smoke-тестирование мобильных приложений (iOS, Android, HarmonyOS, Android TV)\n- Проверка пользовательских сценариев: регистрация, авторизация, просмотр контента, подписки\n- Тестирование UI/UX на соответствие требованиям и макетам\n- Тестирование жизненного цикла приложения\n- Тестирование Flutter-приложения с учётом специфики кроссплатформенной разработки: поведение на разных платформах, работа с нативными модулями, производительность рендеринга\n- Анализировал логи и трассировки в Seq для быстрой локализации причин сбоев на бэкенде.\n- Работа с логами приложения и системными логами, анализ ошибок\n- Проверка через feature flags\n- Ответственность за полный цикл релиза мобильного приложения: тестирование билдов, финальная валидация и подготовка к публикации в App Store, Google Play и Huawei AppGallery\n- Разработка и поддержка автотестов на Python (Pytest, Requests, Pydantic, Allure)\n- Интеграция автотестов в CI/CD (GitLab CI), настройка автоматического запуска и отчетности\nДостижения:\nСнизил количество обращений в техподдержку на 90% за счёт повышения качества тестирования.\nСтек технологий:\nPostman, Swagger, Proxyman, Logcat, Xcode, REST API, iOS, Android, HarmonyOS, Android TV, REST API, RabbitMQ, Redis, Seq, GitLab, CI/CD, Pytest, Requests, Pydantic, Allure, Maestro."
+    },
+    {
+      "start_date": "2025-05",
+      "end_date": "2025-10",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 2",
+      "position": "QA Engineer",
+      "employer_details": [
+        "bloomex.ca",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Описание:\nТестирование e-commerce платформ (Shopify) для международных магазинов (NZ, CA). Работа с веб-приложением, оформлением заказов и аналитикой.\nОбязанности:\n- Функциональное и регрессионное тестирование веб-приложения\n- Тестирование checkout-процесса (оформление заказа, доставка, адреса, postal code)\n- Проверка интеграций с аналитикой (GA4, server-side tagging)\n- Анализ сетевых запросов и ошибок в Chrome DevTools\n- Проверка работы API и HTTP-запросов\n- Тестирование POS-системы\n- Воспроизведение и анализ багов на продакшене\n- Взаимодействие с командой разработки и участие в разборе проблем\nСтек технологий:\nDevTools, REST API, GA4, Shopify, Postman, Swagger, POS, Redmine, Wiki, DBeaver.",
+      "original": "Май 2025 -\nОкт 2025\n6 мес\nОрганизация 2\nbloomex.ca\nИнформационные технологии, системная интеграция, интернет\nQA Engineer\nОписание:\nТестирование e-commerce платформ (Shopify) для международных магазинов (NZ, CA). Работа с веб-приложением, оформлением заказов и аналитикой.\nОбязанности:\n- Функциональное и регрессионное тестирование веб-приложения\n- Тестирование checkout-процесса (оформление заказа, доставка, адреса, postal code)\n- Проверка интеграций с аналитикой (GA4, server-side tagging)\n- Анализ сетевых запросов и ошибок в Chrome DevTools\n- Проверка работы API и HTTP-запросов\n- Тестирование POS-системы\n- Воспроизведение и анализ багов на продакшене\n- Взаимодействие с командой разработки и участие в разборе проблем\nСтек технологий:\nDevTools, REST API, GA4, Shopify, Postman, Swagger, POS, Redmine, Wiki, DBeaver."
+    },
+    {
+      "start_date": "2023-02",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 27,
+      "organization": "Организация 3",
+      "position": "QA Engineer",
+      "employer_details": [],
+      "description": "Описание:\nПосле приобретения InStat компанией Hudl перешёл в команду тестирования веб-приложения, предназначенного для анализа спортивных матчей, работы с видео и статистикой.\nОбязанности:\n- Функциональное, регрессионное, интеграционное и smoke-тестирование веб-приложения.\n- Анализ логов через Kibana, DevTools.\n- API-тестирование через Postman и Swagger.\n- Отправка и анализ HTTP-запросов через Postman.\n- Проверка UI/UX на соответствие макетам (Figma).\n- Ведение тестовой документации (Jira, Zephyr Scale), написание тест-кейсов и чек-листов.\n- Проверка работы приложения на различных браузерах (Chrome, Firefox, Safari).\n- Разворачивание тестовых версий в Jenkins.\n- Работа с БД, выполнение SQL-запросов для валидации данных (PostgreSQL, DBeaver).\nДостижения:\n- Внедрил использование инструмента ScreenRec для записи багов и воспроизведения сценариев, что улучшило коммуникацию с разработчиками и ускорило процесс фикса багов.\nСтек технологий:\nSwagger, Jira, Zephyr Scale, Confluence, PostgreSQL, Jenkins, REST API, Kibana, DevTools, Figma, GitLab, DBeaver",
+      "original": "Фев 2023 -\nАпр 2025\n2 года 3 мес\nОрганизация 3\nQA Engineer\nОписание:\nПосле приобретения InStat компанией Hudl перешёл в команду тестирования веб-приложения, предназначенного для анализа спортивных матчей, работы с видео и статистикой.\nОбязанности:\n- Функциональное, регрессионное, интеграционное и smoke-тестирование веб-приложения.\n- Анализ логов через Kibana, DevTools.\n- API-тестирование через Postman и Swagger.\n- Отправка и анализ HTTP-запросов через Postman.\n- Проверка UI/UX на соответствие макетам (Figma).\n- Ведение тестовой документации (Jira, Zephyr Scale), написание тест-кейсов и чек-листов.\n- Проверка работы приложения на различных браузерах (Chrome, Firefox, Safari).\n- Разворачивание тестовых версий в Jenkins.\n- Работа с БД, выполнение SQL-запросов для валидации данных (PostgreSQL, DBeaver).\nДостижения:\n- Внедрил использование инструмента ScreenRec для записи багов и воспроизведения сценариев, что улучшило коммуникацию с разработчиками и ускорило процесс фикса багов.\nСтек технологий:\nSwagger, Jira, Zephyr Scale, Confluence, PostgreSQL, Jenkins, REST API, Kibana, DevTools, Figma, GitLab, DBeaver"
+    },
+    {
+      "start_date": "2022-02",
+      "end_date": "2023-01",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 4",
+      "position": "QA Engineer",
+      "employer_details": [],
+      "description": "Описание:\nРаботал над мобильным приложением InStat, предназначенным для анализа спортивных матчей, просмотра видео и работы со статистикой.\nОбязанности:\n- Функциональное, регрессионное, интеграционное и smoke-тестирование.\n- Анализ логов в Xcode, Android Studio, Charles Proxy.\n- API-тестирование (REST API) через Postman и Swagger.\n- Отправка и анализ HTTP-запросов, работа с Charles Proxy.\n- Проверка кросс-платформенной совместимости (iOS, Android).\n- Проверка UI/UX на соответствие макетам (Figma).\n- Ведение тестовой документации (Jira, Zephyr Scale), написание тест-кейсов и чек-листов.\n- Поиск и воспроизведение багов, заведение баг-репортов.\n- Работа с БД, выполнение SQL-запросов для валидации данных (PostgreSQL, DBeaver).\n- Проверка устойчивости работы приложения при различных условиях сети (разрывы соединения, переключение между Wi-Fi и мобильными данными).\nСтек технологий:\nXcode, Android Studio, Postman, Swagger, Jira, Zephyr Scale, Confluence, PostgreSQL, MongoDB, REST API, Charles Proxy, Figma, GitLab, DBeaver.",
+      "original": "Фев 2022 -\nЯнв 2023\n1 год\nОрганизация 4\nQA Engineer\nОписание:\nРаботал над мобильным приложением InStat, предназначенным для анализа спортивных матчей, просмотра видео и работы со статистикой.\nОбязанности:\n- Функциональное, регрессионное, интеграционное и smoke-тестирование.\n- Анализ логов в Xcode, Android Studio, Charles Proxy.\n- API-тестирование (REST API) через Postman и Swagger.\n- Отправка и анализ HTTP-запросов, работа с Charles Proxy.\n- Проверка кросс-платформенной совместимости (iOS, Android).\n- Проверка UI/UX на соответствие макетам (Figma).\n- Ведение тестовой документации (Jira, Zephyr Scale), написание тест-кейсов и чек-листов.\n- Поиск и воспроизведение багов, заведение баг-репортов.\n- Работа с БД, выполнение SQL-запросов для валидации данных (PostgreSQL, DBeaver).\n- Проверка устойчивости работы приложения при различных условиях сети (разрывы соединения, переключение между Wi-Fi и мобильными данными).\nСтек технологий:\nXcode, Android Studio, Postman, Swagger, Jira, Zephyr Scale, Confluence, PostgreSQL, MongoDB, REST API, Charles Proxy, Figma, GitLab, DBeaver."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Swift",
+      "level": "advanced",
+      "original": "Swift"
+    },
+    {
+      "name": "Manual testing",
+      "level": "advanced",
+      "original": "Manual testing"
+    },
+    {
+      "name": "Ручное тестирование",
+      "level": "advanced",
+      "original": "Ручное тестирование"
+    },
+    {
+      "name": "Тестирование API",
+      "level": "advanced",
+      "original": "Тестирование API"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "DBeaver",
+      "level": "advanced",
+      "original": "DBeaver"
+    },
+    {
+      "name": "Figma",
+      "level": "advanced",
+      "original": "Figma"
+    },
+    {
+      "name": "Kibana",
+      "level": "advanced",
+      "original": "Kibana"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Zephyr Scale",
+      "level": "advanced",
+      "original": "Zephyr Scale"
+    },
+    {
+      "name": "Swagger",
+      "level": "advanced",
+      "original": "Swagger"
+    },
+    {
+      "name": "Android Studio",
+      "level": "advanced",
+      "original": "Android Studio"
+    },
+    {
+      "name": "Xcode",
+      "level": "advanced",
+      "original": "Xcode"
+    },
+    {
+      "name": "Тестирование",
+      "level": "advanced",
+      "original": "Тестирование"
+    },
+    {
+      "name": "SDLC",
+      "level": "advanced",
+      "original": "SDLC"
+    },
+    {
+      "name": "STLC",
+      "level": "advanced",
+      "original": "STLC"
+    },
+    {
+      "name": "Тестирование пользовательского интерфейса",
+      "level": "advanced",
+      "original": "Тестирование пользовательского интерфейса"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "Selenium",
+      "level": "basic",
+      "original": "Selenium"
+    },
+    {
+      "name": "Playwright",
+      "level": "basic",
+      "original": "Playwright"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "GitLab CI",
+      "level": null,
+      "original": "GitLab CI"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "Allure",
+      "level": null,
+      "original": "Allure"
+    },
+    {
+      "name": "Requests",
+      "level": null,
+      "original": "Requests"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "QA инженер с опытом тестирования веб- и мобильных приложений. Ориентирован на результат и улучшение процессов.\nTelegram: gorbunov_27\nMail: playstation.nikita@gmail.com\nСтек технологий:\nXcode, Android Studio, Swagger, Jira, Zephyr Scale, Confluence, PostgreSQL, MongoDB, Jenkins, REST API, Charles Proxy, Figma, GitLab, DBeaver, Postman, Kibana, DevTools.",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Армения, Грузия, Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №180\nРезюме: QA Engineer / Инженер по тестированию",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:4 года 9 месяцев\nОкт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nQA/AQA Engineer\nОписание:\nКросс-платформенное приложение онлайн-кинотеатра. Ответственность за тестирование и релиз приложений.\nОбязанности:\n- Функциональное, регрессионное и smoke-тестирование мобильных приложений (iOS, Android, HarmonyOS, Android TV)\n- Проверка пользовательских сценариев: регистрация, авторизация, просмотр контента, подписки\n- Тестирование UI/UX на соответствие требованиям и макетам\n- Тестирование жизненного цикла приложения\n- Тестирование Flutter-приложения с учётом специфики кроссплатформенной разработки: поведение на разных платформах, работа с нативными модулями, производительность рендеринга\n- Анализировал логи и трассировки в Seq для быстрой локализации причин сбоев на бэкенде.\n- Работа с логами приложения и системными логами, анализ ошибок\n- Проверка через feature flags\n- Ответственность за полный цикл релиза мобильного приложения: тестирование билдов, финальная валидация и подготовка к публикации в App Store, Google Play и Huawei AppGallery\n- Разработка и поддержка автотестов на Python (Pytest, Requests, Pydantic, Allure)\n- Интеграция автотестов в CI/CD (GitLab CI), настройка автоматического запуска и отчетности\nДостижения:\nСнизил количество обращений в техподдержку на 90% за счёт повышения качества тестирования.\nСтек технологий:\nPostman, Swagger, Proxyman, Logcat, Xcode, REST API, iOS, Android, HarmonyOS, Android TV, REST API, RabbitMQ, Redis, Seq, GitLab, CI/CD, Pytest, Requests, Pydantic, Allure, Maestro.\nМай 2025 -\nОкт 2025\n6 мес\nОрганизация 2\nbloomex.ca\nИнформационные технологии, системная интеграция, интернет\nQA Engineer\nОписание:\nТестирование e-commerce платформ (Shopify) для международных магазинов (NZ, CA). Работа с веб-приложением, оформлением заказов и аналитикой.\nОбязанности:\n- Функциональное и регрессионное тестирование веб-приложения\n- Тестирование checkout-процесса (оформление заказа, доставка, адреса, postal code)\n- Проверка интеграций с аналитикой (GA4, server-side tagging)\n- Анализ сетевых запросов и ошибок в Chrome DevTools\n- Проверка работы API и HTTP-запросов\n- Тестирование POS-системы\n- Воспроизведение и анализ багов на продакшене\n- Взаимодействие с командой разработки и участие в разборе проблем\nСтек технологий:\nDevTools, REST API, GA4, Shopify, Postman, Swagger, POS, Redmine, Wiki, DBeaver.\nФев 2023 -\nАпр 2025\n2 года 3 мес\nОрганизация 3\nQA Engineer\nОписание:\nПосле приобретения InStat компанией Hudl перешёл в команду тестирования веб-приложения, предназначенного для анализа спортивных матчей, работы с видео и статистикой.\nОбязанности:\n- Функциональное, регрессионное, интеграционное и smoke-тестирование веб-приложения.\n- Анализ логов через Kibana, DevTools.\n- API-тестирование через Postman и Swagger.\n- Отправка и анализ HTTP-запросов через Postman.\n- Проверка UI/UX на соответствие макетам (Figma).\n- Ведение тестовой документации (Jira, Zephyr Scale), написание тест-кейсов и чек-листов.\n- Проверка работы приложения на различных браузерах (Chrome, Firefox, Safari).\n- Разворачивание тестовых версий в Jenkins.\n- Работа с БД, выполнение SQL-запросов для валидации данных (PostgreSQL, DBeaver).\nДостижения:\n- Внедрил использование инструмента ScreenRec для записи багов и воспроизведения сценариев, что улучшило коммуникацию с разработчиками и ускорило процесс фикса багов.\nСтек технологий:\nSwagger, Jira, Zephyr Scale, Confluence, PostgreSQL, Jenkins, REST API, Kibana, DevTools, Figma, GitLab, DBeaver\nФев 2022 -\nЯнв 2023\n1 год\nОрганизация 4\nQA Engineer\nОписание:\nРаботал над мобильным приложением InStat, предназначенным для анализа спортивных матчей, просмотра видео и работы со статистикой.\nОбязанности:\n- Функциональное, регрессионное, интеграционное и smoke-тестирование.\n- Анализ логов в Xcode, Android Studio, Charles Proxy.\n- API-тестирование (REST API) через Postman и Swagger.\n- Отправка и анализ HTTP-запросов, работа с Charles Proxy.\n- Проверка кросс-платформенной совместимости (iOS, Android).\n- Проверка UI/UX на соответствие макетам (Figma).\n- Ведение тестовой документации (Jira, Zephyr Scale), написание тест-кейсов и чек-листов.\n- Поиск и воспроизведение багов, заведение баг-репортов.\n- Работа с БД, выполнение SQL-запросов для валидации данных (PostgreSQL, DBeaver).\n- Проверка устойчивости работы приложения при различных условиях сети (разрывы соединения, переключение между Wi-Fi и мобильными данными).\nСтек технологий:\nXcode, Android Studio, Postman, Swagger, Jira, Zephyr Scale, Confluence, PostgreSQL, MongoDB, REST API, Charles Proxy, Figma, GitLab, DBeaver.",
+    "skills": "Продвинутый уровень\nSwift\nManual testing\nРучное тестирование\nТестирование API\nSQL\nPostman\nDBeaver\nFigma\nKibana\nMongoDB\nREST API\nPostgreSQL\nZephyr Scale\nSwagger\nAndroid Studio\nXcode\nТестирование\nSDLC\nSTLC\nТестирование пользовательского интерфейса\nБазовый уровень\nGit\nSelenium\nPlaywright\nPython\nУровень не указан\nGitLab CI\nPytest\nAllure\nRequests",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "QA инженер с опытом тестирования веб- и мобильных приложений. Ориентирован на результат и улучшение процессов.\nTelegram: gorbunov_27\nMail: playstation.nikita@gmail.com\nСтек технологий:\nXcode, Android Studio, Swagger, Jira, Zephyr Scale, Confluence, PostgreSQL, MongoDB, Jenkins, REST API, Charles Proxy, Figma, GitLab, DBeaver, Postman, Kibana, DevTools.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nАрмения, Грузия, Россия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №180\nРезюме: QA Engineer / Инженер по тестированию\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:4 года 9 месяцев\nОкт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nQA/AQA Engineer\nОписание:\nКросс-платформенное приложение онлайн-кинотеатра. Ответственность за тестирование и релиз приложений.\nОбязанности:\n- Функциональное, регрессионное и smoke-тестирование мобильных приложений (iOS, Android, HarmonyOS, Android TV)\n- Проверка пользовательских сценариев: регистрация, авторизация, просмотр контента, подписки\n- Тестирование UI/UX на соответствие требованиям и макетам\n- Тестирование жизненного цикла приложения\n- Тестирование Flutter-приложения с учётом специфики кроссплатформенной разработки: поведение на разных платформах, работа с нативными модулями, производительность рендеринга\n- Анализировал логи и трассировки в Seq для быстрой локализации причин сбоев на бэкенде.\n- Работа с логами приложения и системными логами, анализ ошибок\n- Проверка через feature flags\n- Ответственность за полный цикл релиза мобильного приложения: тестирование билдов, финальная валидация и подготовка к публикации в App Store, Google Play и Huawei AppGallery\n- Разработка и поддержка автотестов на Python (Pytest, Requests, Pydantic, Allure)\n- Интеграция автотестов в CI/CD (GitLab CI), настройка автоматического запуска и отчетности\nДостижения:\nСнизил количество обращений в техподдержку на 90% за счёт повышения качества тестирования.\nСтек технологий:\nPostman, Swagger, Proxyman, Logcat, Xcode, REST API, iOS, Android, HarmonyOS, Android TV, REST API, RabbitMQ, Redis, Seq, GitLab, CI/CD, Pytest, Requests, Pydantic, Allure, Maestro.\nМай 2025 -\nОкт 2025\n6 мес\nОрганизация 2\nbloomex.ca\nИнформационные технологии, системная интеграция, интернет\nQA Engineer\nОписание:\nТестирование e-commerce платформ (Shopify) для международных магазинов (NZ, CA). Работа с веб-приложением, оформлением заказов и аналитикой.\nОбязанности:\n- Функциональное и регрессионное тестирование веб-приложения\n- Тестирование checkout-процесса (оформление заказа, доставка, адреса, postal code)\n- Проверка интеграций с аналитикой (GA4, server-side tagging)\n- Анализ сетевых запросов и ошибок в Chrome DevTools\n- Проверка работы API и HTTP-запросов\n- Тестирование POS-системы\n- Воспроизведение и анализ багов на продакшене\n- Взаимодействие с командой разработки и участие в разборе проблем\nСтек технологий:\nDevTools, REST API, GA4, Shopify, Postman, Swagger, POS, Redmine, Wiki, DBeaver.\nФев 2023 -\nАпр 2025\n2 года 3 мес\nОрганизация 3\nQA Engineer\nОписание:\nПосле приобретения InStat компанией Hudl перешёл в команду тестирования веб-приложения, предназначенного для анализа спортивных матчей, работы с видео и статистикой.\nОбязанности:\n- Функциональное, регрессионное, интеграционное и smoke-тестирование веб-приложения.\n- Анализ логов через Kibana, DevTools.\n- API-тестирование через Postman и Swagger.\n- Отправка и анализ HTTP-запросов через Postman.\n- Проверка UI/UX на соответствие макетам (Figma).\n- Ведение тестовой документации (Jira, Zephyr Scale), написание тест-кейсов и чек-листов.\n- Проверка работы приложения на различных браузерах (Chrome, Firefox, Safari).\n- Разворачивание тестовых версий в Jenkins.\n- Работа с БД, выполнение SQL-запросов для валидации данных (PostgreSQL, DBeaver).\nДостижения:\n- Внедрил использование инструмента ScreenRec для записи багов и воспроизведения сценариев, что улучшило коммуникацию с разработчиками и ускорило процесс фикса багов.\nСтек технологий:\nSwagger, Jira, Zephyr Scale, Confluence, PostgreSQL, Jenkins, REST API, Kibana, DevTools, Figma, GitLab, DBeaver\nФев 2022 -\nЯнв 2023\n1 год\nОрганизация 4\nQA Engineer\nОписание:\nРаботал над мобильным приложением InStat, предназначенным для анализа спортивных матчей, просмотра видео и работы со статистикой.\nОбязанности:\n- Функциональное, регрессионное, интеграционное и smoke-тестирование.\n- Анализ логов в Xcode, Android Studio, Charles Proxy.\n- API-тестирование (REST API) через Postman и Swagger.\n- Отправка и анализ HTTP-запросов, работа с Charles Proxy.\n- Проверка кросс-платформенной совместимости (iOS, Android).\n- Проверка UI/UX на соответствие макетам (Figma).\n- Ведение тестовой документации (Jira, Zephyr Scale), написание тест-кейсов и чек-листов.\n- Поиск и воспроизведение багов, заведение баг-репортов.\n- Работа с БД, выполнение SQL-запросов для валидации данных (PostgreSQL, DBeaver).\n- Проверка устойчивости работы приложения при различных условиях сети (разрывы соединения, переключение между Wi-Fi и мобильными данными).\nСтек технологий:\nXcode, Android Studio, Postman, Swagger, Jira, Zephyr Scale, Confluence, PostgreSQL, MongoDB, REST API, Charles Proxy, Figma, GitLab, DBeaver.\n\nНавыки\nПродвинутый уровень\nSwift\nManual testing\nРучное тестирование\nТестирование API\nSQL\nPostman\nDBeaver\nFigma\nKibana\nMongoDB\nREST API\nPostgreSQL\nZephyr Scale\nSwagger\nAndroid Studio\nXcode\nТестирование\nSDLC\nSTLC\nТестирование пользовательского интерфейса\nБазовый уровень\nGit\nSelenium\nPlaywright\nPython\nУровень не указан\nGitLab CI\nPytest\nAllure\nRequests\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nQA инженер с опытом тестирования веб- и мобильных приложений. Ориентирован на результат и улучшение процессов.\nTelegram: gorbunov_27\nMail: playstation.nikita@gmail.com\nСтек технологий:\nXcode, Android Studio, Swagger, Jira, Zephyr Scale, Confluence, PostgreSQL, MongoDB, Jenkins, REST API, Charles Proxy, Figma, GitLab, DBeaver, Postman, Kibana, DevTools.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nАрмения, Грузия, Россия\n"
+}

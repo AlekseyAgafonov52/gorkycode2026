@@ -1,0 +1,114 @@
+{
+  "candidate_id": 177,
+  "resume_title": "Программист-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 58,
+  "similar_experience_months": 58,
+  "work_experience": [
+    {
+      "start_date": "2022-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 58,
+      "organization": "Организация 1",
+      "position": "Программист-разработчик",
+      "employer_details": [],
+      "description": "ApiFlow - тестирование API (аналог Postman)\nPython, FastAPI, SQLite, SQLAlchemy, Pytest, HTML, CSS, JavaScript\nРазработала REST API для автотестирования запросов и сохранения результатов. Реализовала обработку HTTP-запросов, работу с базой данных и веб-интерфейс.\ngithub.com/ilfeza/ApiFlow\nTelegram bot для изучения корейского языка\nPython, Asyncio, Aiogram, SQLite\nРазработала асинхронного бота для запоминания слов с помощью карточек. Реализовала управление списком слов, турниры и лидерборды.\nАвтотестирование\nJava, Selenuim, Junit4, Allure, RestAssured\nРеализовала автотестирование веб-интерфейсов сайтов (Яндекс Маркет и Яндекс Путешествия) и тестировала api.\ngithub.com/ilfeza/TestAutomation\nКультурные объекты России\nPHP, MySQL, Bootstrap\nРазработала сайт для ознакомления с культурными объектами. Работала с большой БД и API Яндекс Карт.",
+      "original": "Янв 2022 -\nсейчас\n4 года 10 мес\nОрганизация 1\nПрограммист-разработчик\nApiFlow - тестирование API (аналог Postman)\nPython, FastAPI, SQLite, SQLAlchemy, Pytest, HTML, CSS, JavaScript\nРазработала REST API для автотестирования запросов и сохранения результатов. Реализовала обработку HTTP-запросов, работу с базой данных и веб-интерфейс.\ngithub.com/ilfeza/ApiFlow\nTelegram bot для изучения корейского языка\nPython, Asyncio, Aiogram, SQLite\nРазработала асинхронного бота для запоминания слов с помощью карточек. Реализовала управление списком слов, турниры и лидерборды.\nАвтотестирование\nJava, Selenuim, Junit4, Allure, RestAssured\nРеализовала автотестирование веб-интерфейсов сайтов (Яндекс Маркет и Яндекс Путешествия) и тестировала api.\ngithub.com/ilfeza/TestAutomation\nКультурные объекты России\nPHP, MySQL, Bootstrap\nРазработала сайт для ознакомления с культурными объектами. Работала с большой БД и API Яндекс Карт."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "Golang",
+      "level": "advanced",
+      "original": "Golang"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "Алгоритмы и структуры данных",
+      "level": "advanced",
+      "original": "Алгоритмы и структуры данных"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Московский политехнический университет, Москва",
+      "details": [
+        "Факультет информационных технологий, Прикладная информатика"
+      ],
+      "year": 2026,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Московский политехнический университет, Москва\nФакультет информационных технологий, Прикладная информатика\n•\n2026\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готова к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №177\nРезюме: Программист-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 10 месяцев\nОпыт в похожих должностях:4 года 10 месяцев\nЯнв 2022 -\nсейчас\n4 года 10 мес\nОрганизация 1\nПрограммист-разработчик\nApiFlow - тестирование API (аналог Postman)\nPython, FastAPI, SQLite, SQLAlchemy, Pytest, HTML, CSS, JavaScript\nРазработала REST API для автотестирования запросов и сохранения результатов. Реализовала обработку HTTP-запросов, работу с базой данных и веб-интерфейс.\ngithub.com/ilfeza/ApiFlow\nTelegram bot для изучения корейского языка\nPython, Asyncio, Aiogram, SQLite\nРазработала асинхронного бота для запоминания слов с помощью карточек. Реализовала управление списком слов, турниры и лидерборды.\nАвтотестирование\nJava, Selenuim, Junit4, Allure, RestAssured\nРеализовала автотестирование веб-интерфейсов сайтов (Яндекс Маркет и Яндекс Путешествия) и тестировала api.\ngithub.com/ilfeza/TestAutomation\nКультурные объекты России\nPHP, MySQL, Bootstrap\nРазработала сайт для ознакомления с культурными объектами. Работала с большой БД и API Яндекс Карт.",
+    "skills": "Продвинутый уровень\nPython\nFastAPI\nPostgreSQL\nMySQL\nGolang\nLinux\nHTML\nNginx\nАнглийский язык\nАлгоритмы и структуры данных",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nМосковский политехнический университет, Москва\nФакультет информационных технологий, Прикладная информатика\n•\n2026\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №177\nРезюме: Программист-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 10 месяцев\nОпыт в похожих должностях:4 года 10 месяцев\nЯнв 2022 -\nсейчас\n4 года 10 мес\nОрганизация 1\nПрограммист-разработчик\nApiFlow - тестирование API (аналог Postman)\nPython, FastAPI, SQLite, SQLAlchemy, Pytest, HTML, CSS, JavaScript\nРазработала REST API для автотестирования запросов и сохранения результатов. Реализовала обработку HTTP-запросов, работу с базой данных и веб-интерфейс.\ngithub.com/ilfeza/ApiFlow\nTelegram bot для изучения корейского языка\nPython, Asyncio, Aiogram, SQLite\nРазработала асинхронного бота для запоминания слов с помощью карточек. Реализовала управление списком слов, турниры и лидерборды.\nАвтотестирование\nJava, Selenuim, Junit4, Allure, RestAssured\nРеализовала автотестирование веб-интерфейсов сайтов (Яндекс Маркет и Яндекс Путешествия) и тестировала api.\ngithub.com/ilfeza/TestAutomation\nКультурные объекты России\nPHP, MySQL, Bootstrap\nРазработала сайт для ознакомления с культурными объектами. Работала с большой БД и API Яндекс Карт.\n\nНавыки\nПродвинутый уровень\nPython\nFastAPI\nPostgreSQL\nMySQL\nGolang\nLinux\nHTML\nNginx\nАнглийский язык\nАлгоритмы и структуры данных\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nМосковский политехнический университет, Москва\nФакультет информационных технологий, Прикладная информатика\n•\n2026\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

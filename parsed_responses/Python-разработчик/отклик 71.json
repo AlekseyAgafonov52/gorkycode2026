@@ -1,0 +1,144 @@
+{
+  "candidate_id": 71,
+  "resume_title": "Python developer",
+  "cover_letter": null,
+  "experience_total_months": 307,
+  "similar_experience_months": 15,
+  "work_experience": [
+    {
+      "start_date": "2023-04",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 43,
+      "organization": "Организация 1",
+      "position": "ведущий инженер по тестированию",
+      "employer_details": [],
+      "description": "разработка автотестов",
+      "original": "Апр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nведущий инженер по тестированию\nразработка автотестов"
+    },
+    {
+      "start_date": "2020-06",
+      "end_date": "2021-08",
+      "is_current": false,
+      "duration_months": 15,
+      "organization": "Организация 2",
+      "position": "Программист-разработчик",
+      "employer_details": [],
+      "description": "разработка на Python",
+      "original": "Июн 2020 -\nАвг 2021\n1 год 3 мес\nОрганизация 2\nПрограммист-разработчик\nразработка на Python"
+    },
+    {
+      "start_date": "2010-07",
+      "end_date": "2018-08",
+      "is_current": false,
+      "duration_months": 98,
+      "organization": "Организация 3",
+      "position": "software developer",
+      "employer_details": [
+        "Нижний Новгород",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Backend development. Python (Django), JavaScript",
+      "original": "Июл 2010 -\nАвг 2018\n8 лет 2 мес\nОрганизация 3\nНижний Новгород\nИнформационные технологии, системная интеграция, интернет\nsoftware developer\nBackend development. Python (Django), JavaScript"
+    },
+    {
+      "start_date": "2006-09",
+      "end_date": "2009-04",
+      "is_current": false,
+      "duration_months": 32,
+      "organization": "Организация 4",
+      "position": "Build Engineer",
+      "employer_details": [],
+      "description": "* UNIX system administration (Linux)\n* Administrating and maintenance of local area computer network (Windows 2000/XP, Linux).\n* Java programming\n* Eclipse IDE\n* Ant\n* Perforce administration\n* Perl & Python programming",
+      "original": "Сен 2006 -\nАпр 2009\n2 года 8 мес\nОрганизация 4\nBuild Engineer\n* UNIX system administration (Linux)\n* Administrating and maintenance of local area computer network (Windows 2000/XP, Linux).\n* Java programming\n* Eclipse IDE\n* Ant\n* Perforce administration\n* Perl & Python programming"
+    },
+    {
+      "start_date": "2005-09",
+      "end_date": "2006-07",
+      "is_current": false,
+      "duration_months": 11,
+      "organization": "Организация 5",
+      "position": "SOFTWARE TESTING ENGINEER",
+      "employer_details": [],
+      "description": "Testing of VoIP-based software (Zultys MX 250 PBX)",
+      "original": "Сен 2005 -\nИюл 2006\n11 мес\nОрганизация 5\nSOFTWARE TESTING ENGINEER\nTesting of VoIP-based software (Zultys MX 250 PBX)"
+    },
+    {
+      "start_date": "2001-04",
+      "end_date": "2005-08",
+      "is_current": false,
+      "duration_months": 53,
+      "organization": "Организация 6",
+      "position": "SYSTEM ADMINISTRATOR",
+      "employer_details": [],
+      "description": "* UNIX system administration (Solaris)\n* Administrating and maintenance of local area computer network (Windows 2000/XP, Solaris, Linux).\n* ClearCase administration",
+      "original": "Апр 2001 -\nАвг 2005\n4 года 5 мес\nОрганизация 6\nSYSTEM ADMINISTRATOR\n* UNIX system administration (Solaris)\n* Administrating and maintenance of local area computer network (Windows 2000/XP, Solaris, Linux).\n* ClearCase administration"
+    },
+    {
+      "start_date": "1996-09",
+      "end_date": "2001-03",
+      "is_current": false,
+      "duration_months": 55,
+      "organization": "Организация 7",
+      "position": "SOFTWARE ENGINEER",
+      "employer_details": [],
+      "description": "* UNIX system administration\n* Oracle DBMS administration (Oracle 7)\n* Web-server administration (Apache), web-design, web-development (CGI, JavaScript)\n* Administrating and maintenance of local area computer network (Windows 9x/NT, NetWare, UNIX, Linux).",
+      "original": "Сен 1996 -\nМар 2001\n4 года 7 мес\nОрганизация 7\nSOFTWARE ENGINEER\n* UNIX system administration\n* Oracle DBMS administration (Oracle 7)\n* Web-server administration (Apache), web-design, web-development (CGI, JavaScript)\n* Administrating and maintenance of local area computer network (Windows 9x/NT, NetWare, UNIX, Linux)."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Исполнительность",
+      "level": null,
+      "original": "Исполнительность"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Operating systems: DOS, Windows 3.11/9x/NT, UNIX (SCO OpenServer 5.0x, Solaris, AIX), Linux\nLanguages & tools: Assembler (Intel x86), C/C++, Shell, Perl, Ruby, Python, PHP, SQL (MySQL, Oracle), PL/SQL, Java, Jython, HTML, JavaScript, Docker\nDatabases: SQL: MySQL, PostgreSQL, Oracle; NoSQL: MongoDB, Cassandra, ElasticSearch\nWeb frameworks: Django, Flask, Tornado\nProtocols: TCP/IP(FTP, HTTP, SMTP, IMAP, POP3, DHCP)\nForeign languages: technical English\nVCS: Git, SVN",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород",
+      "details": [
+        "ВМК"
+      ],
+      "year": 1996,
+      "level": "Высшее образование",
+      "original": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nВМК\n•\n1996\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №71\nРезюме: Python developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 25 лет 7 месяцев\nОпыт в похожих должностях:1 год 3 месяца\nАпр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nведущий инженер по тестированию\nразработка автотестов\nИюн 2020 -\nАвг 2021\n1 год 3 мес\nОрганизация 2\nПрограммист-разработчик\nразработка на Python\nИюл 2010 -\nАвг 2018\n8 лет 2 мес\nОрганизация 3\nНижний Новгород\nИнформационные технологии, системная интеграция, интернет\nsoftware developer\nBackend development. Python (Django), JavaScript\nСен 2006 -\nАпр 2009\n2 года 8 мес\nОрганизация 4\nBuild Engineer\n* UNIX system administration (Linux)\n* Administrating and maintenance of local area computer network (Windows 2000/XP, Linux).\n* Java programming\n* Eclipse IDE\n* Ant\n* Perforce administration\n* Perl & Python programming\nСен 2005 -\nИюл 2006\n11 мес\nОрганизация 5\nSOFTWARE TESTING ENGINEER\nTesting of VoIP-based software (Zultys MX 250 PBX)\nАпр 2001 -\nАвг 2005\n4 года 5 мес\nОрганизация 6\nSYSTEM ADMINISTRATOR\n* UNIX system administration (Solaris)\n* Administrating and maintenance of local area computer network (Windows 2000/XP, Solaris, Linux).\n* ClearCase administration\nСен 1996 -\nМар 2001\n4 года 7 мес\nОрганизация 7\nSOFTWARE ENGINEER\n* UNIX system administration\n* Oracle DBMS administration (Oracle 7)\n* Web-server administration (Apache), web-design, web-development (CGI, JavaScript)\n* Administrating and maintenance of local area computer network (Windows 9x/NT, NetWare, UNIX, Linux).",
+    "skills": "Исполнительность",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Operating systems: DOS, Windows 3.11/9x/NT, UNIX (SCO OpenServer 5.0x, Solaris, AIX), Linux\nLanguages & tools: Assembler (Intel x86), C/C++, Shell, Perl, Ruby, Python, PHP, SQL (MySQL, Oracle), PL/SQL, Java, Jython, HTML, JavaScript, Docker\nDatabases: SQL: MySQL, PostgreSQL, Oracle; NoSQL: MongoDB, Cassandra, ElasticSearch\nWeb frameworks: Django, Flask, Tornado\nProtocols: TCP/IP(FTP, HTTP, SMTP, IMAP, POP3, DHCP)\nForeign languages: technical English\nVCS: Git, SVN",
+    "education": "Уровень\nВысшее образование\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nВМК\n•\n1996\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №71\nРезюме: Python developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 25 лет 7 месяцев\nОпыт в похожих должностях:1 год 3 месяца\nАпр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nведущий инженер по тестированию\nразработка автотестов\nИюн 2020 -\nАвг 2021\n1 год 3 мес\nОрганизация 2\nПрограммист-разработчик\nразработка на Python\nИюл 2010 -\nАвг 2018\n8 лет 2 мес\nОрганизация 3\nНижний Новгород\nИнформационные технологии, системная интеграция, интернет\nsoftware developer\nBackend development. Python (Django), JavaScript\nСен 2006 -\nАпр 2009\n2 года 8 мес\nОрганизация 4\nBuild Engineer\n* UNIX system administration (Linux)\n* Administrating and maintenance of local area computer network (Windows 2000/XP, Linux).\n* Java programming\n* Eclipse IDE\n* Ant\n* Perforce administration\n* Perl & Python programming\nСен 2005 -\nИюл 2006\n11 мес\nОрганизация 5\nSOFTWARE TESTING ENGINEER\nTesting of VoIP-based software (Zultys MX 250 PBX)\nАпр 2001 -\nАвг 2005\n4 года 5 мес\nОрганизация 6\nSYSTEM ADMINISTRATOR\n* UNIX system administration (Solaris)\n* Administrating and maintenance of local area computer network (Windows 2000/XP, Solaris, Linux).\n* ClearCase administration\nСен 1996 -\nМар 2001\n4 года 7 мес\nОрганизация 7\nSOFTWARE ENGINEER\n* UNIX system administration\n* Oracle DBMS administration (Oracle 7)\n* Web-server administration (Apache), web-design, web-development (CGI, JavaScript)\n* Administrating and maintenance of local area computer network (Windows 9x/NT, NetWare, UNIX, Linux).\n\nНавыки\nИсполнительность\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nOperating systems: DOS, Windows 3.11/9x/NT, UNIX (SCO OpenServer 5.0x, Solaris, AIX), Linux\nLanguages & tools: Assembler (Intel x86), C/C++, Shell, Perl, Ruby, Python, PHP, SQL (MySQL, Oracle), PL/SQL, Java, Jython, HTML, JavaScript, Docker\nDatabases: SQL: MySQL, PostgreSQL, Oracle; NoSQL: MongoDB, Cassandra, ElasticSearch\nWeb frameworks: Django, Flask, Tornado\nProtocols: TCP/IP(FTP, HTTP, SMTP, IMAP, POP3, DHCP)\nForeign languages: technical English\nVCS: Git, SVN\n\nОбразование\nУровень\nВысшее образование\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nВМК\n•\n1996\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

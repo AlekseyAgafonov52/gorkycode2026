@@ -1,0 +1,240 @@
+{
+  "candidate_id": 152,
+  "resume_title": "Python разработчик (парсинг, асинхронность, BeautifulSoup4, PostgreSQL, Docker, CI/CD, FastAPI)",
+  "cover_letter": null,
+  "experience_total_months": 74,
+  "similar_experience_months": 74,
+  "work_experience": [
+    {
+      "start_date": "2023-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 41,
+      "organization": "Организация 1",
+      "position": "Python разработчик, Data Engineer",
+      "employer_details": [
+        "Екатеринбург",
+        "Розничная торговля"
+      ],
+      "description": "ОБЯЗАННОСТИ\n- Разработка асинхронных парсеров на основе aiohttp, acincio, сбор и очистка данных, сохранение в PostgreSQL, Redis, Kafka\n- Деплой через CI/CD на тестовый стенд и в продакшен\n- Написание Telegram ботов мониторинга парсинга, интеграция парсеров с Telegram-ботами\n(настройка уведомлений о падениях парсеров, настройка запусков парсеров)\nДОП. ЗАДАЧИ (ДОП. ОТВЕТСТВЕННОСТЬ)\n- Настройка CI/CD через github ворфлоу\n- Разработка масштабируемых парсеров, обертывание их в Docker контейнеры\n- Построение backend-сервисов доставки и обработки данных\n- Тестирование и поддержание самописной библиотеки по парсингу\n- Планирование и руководство малой командой (архитектура, задачи, сроки)\n- Проектирование архитектуры проекта (микросервисы, монолит) и структуры базы данных\n- Написание автотестов для базовой библиотеки по парсингу, а далее и для всех парсеров\n(покрыл около сотни парсеров)\nДОСТИЖЕНИЯ\n- Написал фреймворк с базовой структурой пасрсера, устойчивого к блокировкам, с механизмами обхода: прокси, User-Agent ротация, антикапча, Device fingerprint spoofing\n- Настроил автоматическое обновление данных и оповещение через Telegram при сбоях\n- Добился увеличения устойчивости парсеров: снизил падения из-за блокировок на 60%\n- Оптимизировал парсинг под блокировки: внедрил прокси-пул и антибот-механизмы\nСТЕК\n- Языки и библиотеки: Python, Undetected-chromedriver, Selenium, Playwright, BeautifulSoup4, curl-cffi, SQLAlchemy, Pandas, Numpy, multiprocessing, multithreading, асинхронность (asyncio)\n- Инфраструктура: Git, Docker, Docker-compose, CI/CD (GitHub Actions)\n- Интерфейсы:\n- Боты: Telegram Bot API (Aiogram), Telegram WebApp\n- Web: Flask, Django REST framework (DRF), FastAPI, СSS, HTML, Java Script, Bootstrap\n- Базы данных: PostgreSQL, MongoDB, SQLite, Clickhouse\n- Тестирование: Postman, pytest, allur, CharlesProxy\n- Парсинг, обход защиты: обход капч и блокировок, парсинг защищённых сайтов, Device-fingerprinting, TLS-fingerprinting",
+      "original": "Июн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nЕкатеринбург\nРозничная торговля\nPython разработчик, Data Engineer\nОБЯЗАННОСТИ\n- Разработка асинхронных парсеров на основе aiohttp, acincio, сбор и очистка данных, сохранение в PostgreSQL, Redis, Kafka\n- Деплой через CI/CD на тестовый стенд и в продакшен\n- Написание Telegram ботов мониторинга парсинга, интеграция парсеров с Telegram-ботами\n(настройка уведомлений о падениях парсеров, настройка запусков парсеров)\nДОП. ЗАДАЧИ (ДОП. ОТВЕТСТВЕННОСТЬ)\n- Настройка CI/CD через github ворфлоу\n- Разработка масштабируемых парсеров, обертывание их в Docker контейнеры\n- Построение backend-сервисов доставки и обработки данных\n- Тестирование и поддержание самописной библиотеки по парсингу\n- Планирование и руководство малой командой (архитектура, задачи, сроки)\n- Проектирование архитектуры проекта (микросервисы, монолит) и структуры базы данных\n- Написание автотестов для базовой библиотеки по парсингу, а далее и для всех парсеров\n(покрыл около сотни парсеров)\nДОСТИЖЕНИЯ\n- Написал фреймворк с базовой структурой пасрсера, устойчивого к блокировкам, с механизмами обхода: прокси, User-Agent ротация, антикапча, Device fingerprint spoofing\n- Настроил автоматическое обновление данных и оповещение через Telegram при сбоях\n- Добился увеличения устойчивости парсеров: снизил падения из-за блокировок на 60%\n- Оптимизировал парсинг под блокировки: внедрил прокси-пул и антибот-механизмы\nСТЕК\n- Языки и библиотеки: Python, Undetected-chromedriver, Selenium, Playwright, BeautifulSoup4, curl-cffi, SQLAlchemy, Pandas, Numpy, multiprocessing, multithreading, асинхронность (asyncio)\n- Инфраструктура: Git, Docker, Docker-compose, CI/CD (GitHub Actions)\n- Интерфейсы:\n- Боты: Telegram Bot API (Aiogram), Telegram WebApp\n- Web: Flask, Django REST framework (DRF), FastAPI, СSS, HTML, Java Script, Bootstrap\n- Базы данных: PostgreSQL, MongoDB, SQLite, Clickhouse\n- Тестирование: Postman, pytest, allur, CharlesProxy\n- Парсинг, обход защиты: обход капч и блокировок, парсинг защищённых сайтов, Device-fingerprinting, TLS-fingerprinting"
+    },
+    {
+      "start_date": "2020-09",
+      "end_date": "2023-05",
+      "is_current": false,
+      "duration_months": 33,
+      "organization": "Организация 2",
+      "position": "Python разработчик, Data Engineer",
+      "employer_details": [],
+      "description": "Разработка парсеров и бэкенд сервисов",
+      "original": "Сен 2020 -\nМай 2023\n2 года 9 мес\nОрганизация 2\nPython разработчик, Data Engineer\nРазработка парсеров и бэкенд сервисов"
+    },
+    {
+      "start_date": "2021-11",
+      "end_date": "2022-06",
+      "is_current": false,
+      "duration_months": 8,
+      "organization": "Организация 3",
+      "position": "Backend-разработчик",
+      "employer_details": [],
+      "description": "ОБЯЗАННОСТИ\n- Разработка асинхронного API на Flask для обработки внутренних данных\n- Оптимизация производительности базы данных (PostgreSQL)\nДОСТИЖЕНИЯ\n- Добилась 90% покрытия кода автотестами (pytest), что значительно повысило стабильность системы при релизах\n- Уменьшила время ответа API на 60% за счёт внедрения Redis-кеширования и оптимизации алгоритмов обработки\n- Разработала модуль асинхронной загрузки данных, который позволил сократить общее время обработки на 20%\n- Инициировала внедрение CI/CD-процесса для автоматизации тестирования и деплоя\n- Реализовала систему логирования с уровнями критичности и алертов, упростив процесс диагностики ошибок\n- Участвовала в миграции части бизнес-логики из монолита в микросервис, улучшив масштабируемость проекта\nСТЕК\nPython, Flask, PostgreSQL, Redis, pytest",
+      "original": "Ноя 2021 -\nИюн 2022\n8 мес\nОрганизация 3\nBackend-разработчик\nОБЯЗАННОСТИ\n- Разработка асинхронного API на Flask для обработки внутренних данных\n- Оптимизация производительности базы данных (PostgreSQL)\nДОСТИЖЕНИЯ\n- Добилась 90% покрытия кода автотестами (pytest), что значительно повысило стабильность системы при релизах\n- Уменьшила время ответа API на 60% за счёт внедрения Redis-кеширования и оптимизации алгоритмов обработки\n- Разработала модуль асинхронной загрузки данных, который позволил сократить общее время обработки на 20%\n- Инициировала внедрение CI/CD-процесса для автоматизации тестирования и деплоя\n- Реализовала систему логирования с уровнями критичности и алертов, упростив процесс диагностики ошибок\n- Участвовала в миграции части бизнес-логики из монолита в микросервис, улучшив масштабируемость проекта\nСТЕК\nPython, Flask, PostgreSQL, Redis, pytest"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "ORM",
+      "level": "advanced",
+      "original": "ORM"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Asyncio",
+      "level": "advanced",
+      "original": "Asyncio"
+    },
+    {
+      "name": "Telegram боты",
+      "level": "advanced",
+      "original": "Telegram боты"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Selenium",
+      "level": "advanced",
+      "original": "Selenium"
+    },
+    {
+      "name": "BeautifulSoup4",
+      "level": "advanced",
+      "original": "BeautifulSoup4"
+    },
+    {
+      "name": "Playwright",
+      "level": "advanced",
+      "original": "Playwright"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Pydantic",
+      "level": "advanced",
+      "original": "Pydantic"
+    },
+    {
+      "name": "Requests",
+      "level": "advanced",
+      "original": "Requests"
+    },
+    {
+      "name": "aiohttp",
+      "level": "advanced",
+      "original": "aiohttp"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Рефакторинг кода",
+      "level": "advanced",
+      "original": "Рефакторинг кода"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "MongoDB",
+      "level": "intermediate",
+      "original": "MongoDB"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "intermediate",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Уральский федеральный университет имени первого Президента России Б.Н. Ельцина, Екатеринбург",
+      "details": [
+        "Программная инженерия, Алгоритмы искуственного интеллекта"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Уральский федеральный университет имени первого Президента России Б.Н. Ельцина, Екатеринбург\nПрограммная инженерия, Алгоритмы искуственного интеллекта\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №152\nРезюме: Python разработчик (парсинг, асинхронность, BeautifulSoup4, PostgreSQL, Docker, CI/CD, FastAPI)",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 6 лет 2 месяца\nОпыт в похожих должностях:6 лет 2 месяца\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nЕкатеринбург\nРозничная торговля\nPython разработчик, Data Engineer\nОБЯЗАННОСТИ\n- Разработка асинхронных парсеров на основе aiohttp, acincio, сбор и очистка данных, сохранение в PostgreSQL, Redis, Kafka\n- Деплой через CI/CD на тестовый стенд и в продакшен\n- Написание Telegram ботов мониторинга парсинга, интеграция парсеров с Telegram-ботами\n(настройка уведомлений о падениях парсеров, настройка запусков парсеров)\nДОП. ЗАДАЧИ (ДОП. ОТВЕТСТВЕННОСТЬ)\n- Настройка CI/CD через github ворфлоу\n- Разработка масштабируемых парсеров, обертывание их в Docker контейнеры\n- Построение backend-сервисов доставки и обработки данных\n- Тестирование и поддержание самописной библиотеки по парсингу\n- Планирование и руководство малой командой (архитектура, задачи, сроки)\n- Проектирование архитектуры проекта (микросервисы, монолит) и структуры базы данных\n- Написание автотестов для базовой библиотеки по парсингу, а далее и для всех парсеров\n(покрыл около сотни парсеров)\nДОСТИЖЕНИЯ\n- Написал фреймворк с базовой структурой пасрсера, устойчивого к блокировкам, с механизмами обхода: прокси, User-Agent ротация, антикапча, Device fingerprint spoofing\n- Настроил автоматическое обновление данных и оповещение через Telegram при сбоях\n- Добился увеличения устойчивости парсеров: снизил падения из-за блокировок на 60%\n- Оптимизировал парсинг под блокировки: внедрил прокси-пул и антибот-механизмы\nСТЕК\n- Языки и библиотеки: Python, Undetected-chromedriver, Selenium, Playwright, BeautifulSoup4, curl-cffi, SQLAlchemy, Pandas, Numpy, multiprocessing, multithreading, асинхронность (asyncio)\n- Инфраструктура: Git, Docker, Docker-compose, CI/CD (GitHub Actions)\n- Интерфейсы:\n- Боты: Telegram Bot API (Aiogram), Telegram WebApp\n- Web: Flask, Django REST framework (DRF), FastAPI, СSS, HTML, Java Script, Bootstrap\n- Базы данных: PostgreSQL, MongoDB, SQLite, Clickhouse\n- Тестирование: Postman, pytest, allur, CharlesProxy\n- Парсинг, обход защиты: обход капч и блокировок, парсинг защищённых сайтов, Device-fingerprinting, TLS-fingerprinting\nСен 2020 -\nМай 2023\n2 года 9 мес\nОрганизация 2\nPython разработчик, Data Engineer\nРазработка парсеров и бэкенд сервисов\nНоя 2021 -\nИюн 2022\n8 мес\nОрганизация 3\nBackend-разработчик\nОБЯЗАННОСТИ\n- Разработка асинхронного API на Flask для обработки внутренних данных\n- Оптимизация производительности базы данных (PostgreSQL)\nДОСТИЖЕНИЯ\n- Добилась 90% покрытия кода автотестами (pytest), что значительно повысило стабильность системы при релизах\n- Уменьшила время ответа API на 60% за счёт внедрения Redis-кеширования и оптимизации алгоритмов обработки\n- Разработала модуль асинхронной загрузки данных, который позволил сократить общее время обработки на 20%\n- Инициировала внедрение CI/CD-процесса для автоматизации тестирования и деплоя\n- Реализовала систему логирования с уровнями критичности и алертов, упростив процесс диагностики ошибок\n- Участвовала в миграции части бизнес-логики из монолита в микросервис, улучшив масштабируемость проекта\nСТЕК\nPython, Flask, PostgreSQL, Redis, pytest",
+    "skills": "Продвинутый уровень\nPython\nDocker\nDocker-compose\nREST API\nORM\nCI/CD\nAsyncio\nTelegram боты\nPostman\nPytest\nSelenium\nBeautifulSoup4\nPlaywright\nSQLAlchemy\nPydantic\nRequests\naiohttp\nFastAPI\nРефакторинг кода\nRedis\nGit\nSQL\nDjango Rest Framework\nPostgreSQL\nApache Kafka\nСредний уровень\nMongoDB\nRabbitMQ\nCelery\nJavaScript",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nУральский федеральный университет имени первого Президента России Б.Н. Ельцина, Екатеринбург\nПрограммная инженерия, Алгоритмы искуственного интеллекта\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №152\nРезюме: Python разработчик (парсинг, асинхронность, BeautifulSoup4, PostgreSQL, Docker, CI/CD, FastAPI)\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 6 лет 2 месяца\nОпыт в похожих должностях:6 лет 2 месяца\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nЕкатеринбург\nРозничная торговля\nPython разработчик, Data Engineer\nОБЯЗАННОСТИ\n- Разработка асинхронных парсеров на основе aiohttp, acincio, сбор и очистка данных, сохранение в PostgreSQL, Redis, Kafka\n- Деплой через CI/CD на тестовый стенд и в продакшен\n- Написание Telegram ботов мониторинга парсинга, интеграция парсеров с Telegram-ботами\n(настройка уведомлений о падениях парсеров, настройка запусков парсеров)\nДОП. ЗАДАЧИ (ДОП. ОТВЕТСТВЕННОСТЬ)\n- Настройка CI/CD через github ворфлоу\n- Разработка масштабируемых парсеров, обертывание их в Docker контейнеры\n- Построение backend-сервисов доставки и обработки данных\n- Тестирование и поддержание самописной библиотеки по парсингу\n- Планирование и руководство малой командой (архитектура, задачи, сроки)\n- Проектирование архитектуры проекта (микросервисы, монолит) и структуры базы данных\n- Написание автотестов для базовой библиотеки по парсингу, а далее и для всех парсеров\n(покрыл около сотни парсеров)\nДОСТИЖЕНИЯ\n- Написал фреймворк с базовой структурой пасрсера, устойчивого к блокировкам, с механизмами обхода: прокси, User-Agent ротация, антикапча, Device fingerprint spoofing\n- Настроил автоматическое обновление данных и оповещение через Telegram при сбоях\n- Добился увеличения устойчивости парсеров: снизил падения из-за блокировок на 60%\n- Оптимизировал парсинг под блокировки: внедрил прокси-пул и антибот-механизмы\nСТЕК\n- Языки и библиотеки: Python, Undetected-chromedriver, Selenium, Playwright, BeautifulSoup4, curl-cffi, SQLAlchemy, Pandas, Numpy, multiprocessing, multithreading, асинхронность (asyncio)\n- Инфраструктура: Git, Docker, Docker-compose, CI/CD (GitHub Actions)\n- Интерфейсы:\n- Боты: Telegram Bot API (Aiogram), Telegram WebApp\n- Web: Flask, Django REST framework (DRF), FastAPI, СSS, HTML, Java Script, Bootstrap\n- Базы данных: PostgreSQL, MongoDB, SQLite, Clickhouse\n- Тестирование: Postman, pytest, allur, CharlesProxy\n- Парсинг, обход защиты: обход капч и блокировок, парсинг защищённых сайтов, Device-fingerprinting, TLS-fingerprinting\nСен 2020 -\nМай 2023\n2 года 9 мес\nОрганизация 2\nPython разработчик, Data Engineer\nРазработка парсеров и бэкенд сервисов\nНоя 2021 -\nИюн 2022\n8 мес\nОрганизация 3\nBackend-разработчик\nОБЯЗАННОСТИ\n- Разработка асинхронного API на Flask для обработки внутренних данных\n- Оптимизация производительности базы данных (PostgreSQL)\nДОСТИЖЕНИЯ\n- Добилась 90% покрытия кода автотестами (pytest), что значительно повысило стабильность системы при релизах\n- Уменьшила время ответа API на 60% за счёт внедрения Redis-кеширования и оптимизации алгоритмов обработки\n- Разработала модуль асинхронной загрузки данных, который позволил сократить общее время обработки на 20%\n- Инициировала внедрение CI/CD-процесса для автоматизации тестирования и деплоя\n- Реализовала систему логирования с уровнями критичности и алертов, упростив процесс диагностики ошибок\n- Участвовала в миграции части бизнес-логики из монолита в микросервис, улучшив масштабируемость проекта\nСТЕК\nPython, Flask, PostgreSQL, Redis, pytest\n\nНавыки\nПродвинутый уровень\nPython\nDocker\nDocker-compose\nREST API\nORM\nCI/CD\nAsyncio\nTelegram боты\nPostman\nPytest\nSelenium\nBeautifulSoup4\nPlaywright\nSQLAlchemy\nPydantic\nRequests\naiohttp\nFastAPI\nРефакторинг кода\nRedis\nGit\nSQL\nDjango Rest Framework\nPostgreSQL\nApache Kafka\nСредний уровень\nMongoDB\nRabbitMQ\nCelery\nJavaScript\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nУральский федеральный университет имени первого Президента России Б.Н. Ельцина, Екатеринбург\nПрограммная инженерия, Алгоритмы искуственного интеллекта\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

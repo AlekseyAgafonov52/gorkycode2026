@@ -1,0 +1,214 @@
+{
+  "candidate_id": 258,
+  "resume_title": "Middle Python-разработчик",
+  "cover_letter": "ИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было",
+  "experience_total_months": 42,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2023-05",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 42,
+      "organization": "Организация 1",
+      "position": "Программист разработчик 3кт",
+      "employer_details": [],
+      "description": "Разработка Backend-архитектуры, внедрение AI-решений:\n- Разработка серверной части веб-приложений и высоконагруженных Telegram-ботов (включая Mini Apps) с использованием Python (Django, Aiogram, FastAPI).\n- Полный цикл создания продуктов: от проектирования PoC/MVP для быстрой проверки гипотез до масштабирования в Production.\n- Проектирование и оптимизация схем баз данных (PostgreSQL, MySQL), работа с миграциями и сложными SQL-запросами.\nRAG и ML:\n- Разработал систему умного поиска для образовательной платформы (видеокурсы): реализовал поиск по транскрибациям видео. Использовал гибридный подход (Hybrid Search): BM25 + Vector Search (pgvector) + Reranker.\n- Интеграция LLM (OpenAI API, GigaChat) в бизнес-процессы компании (генерация ответов, саммаризация, классификация).\n- Проведение R&D в области ML: сбор и очистка данных (Web Scraping, Pandas), разработка моделей для предсказания цен на недвижимость (использование NLP для анализа текстовых описаний объектов).\nDevOps и Observability:\n- Настройка мониторинга и логирования с нуля: внедрил стек Grafana + Prometheus + Loki + Alloy.\n- Написал структурированные логи для сервисов, что сократило время разбора инцидентов.\n- Самостоятельный деплой и контейнеризация приложений (Docker, Docker Compose), настройка CI/CD пайплайнов.\nСтек на проектах:\nPython 3.10+, Django, Aiogram, LangChain, PostgreSQL (pgvector), Redis, Pandas, Grafana Stack (Loki, Prometheus, Alloy), Docker, Nginx, Git, Linux.",
+      "original": "Май 2023 -\nсейчас\n3 года 6 мес\nОрганизация 1\nПрограммист разработчик 3кт\nРазработка Backend-архитектуры, внедрение AI-решений:\n- Разработка серверной части веб-приложений и высоконагруженных Telegram-ботов (включая Mini Apps) с использованием Python (Django, Aiogram, FastAPI).\n- Полный цикл создания продуктов: от проектирования PoC/MVP для быстрой проверки гипотез до масштабирования в Production.\n- Проектирование и оптимизация схем баз данных (PostgreSQL, MySQL), работа с миграциями и сложными SQL-запросами.\nRAG и ML:\n- Разработал систему умного поиска для образовательной платформы (видеокурсы): реализовал поиск по транскрибациям видео. Использовал гибридный подход (Hybrid Search): BM25 + Vector Search (pgvector) + Reranker.\n- Интеграция LLM (OpenAI API, GigaChat) в бизнес-процессы компании (генерация ответов, саммаризация, классификация).\n- Проведение R&D в области ML: сбор и очистка данных (Web Scraping, Pandas), разработка моделей для предсказания цен на недвижимость (использование NLP для анализа текстовых описаний объектов).\nDevOps и Observability:\n- Настройка мониторинга и логирования с нуля: внедрил стек Grafana + Prometheus + Loki + Alloy.\n- Написал структурированные логи для сервисов, что сократило время разбора инцидентов.\n- Самостоятельный деплой и контейнеризация приложений (Docker, Docker Compose), настройка CI/CD пайплайнов.\nСтек на проектах:\nPython 3.10+, Django, Aiogram, LangChain, PostgreSQL (pgvector), Redis, Pandas, Grafana Stack (Loki, Prometheus, Alloy), Docker, Nginx, Git, Linux."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PyCharm",
+      "level": "advanced",
+      "original": "PyCharm"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "OpenAI API",
+      "level": "advanced",
+      "original": "OpenAI API"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "aiogram",
+      "level": "advanced",
+      "original": "Aiogram"
+    },
+    {
+      "name": "BeautifulSoup",
+      "level": "advanced",
+      "original": "BeautifulSoup"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Grafana",
+      "level": "intermediate",
+      "original": "Grafana"
+    },
+    {
+      "name": "Prometheus",
+      "level": "intermediate",
+      "original": "Prometheus"
+    },
+    {
+      "name": "LangChain",
+      "level": "intermediate",
+      "original": "LangChain"
+    },
+    {
+      "name": "RAG",
+      "level": "intermediate",
+      "original": "RAG"
+    },
+    {
+      "name": "HuggingFace",
+      "level": "intermediate",
+      "original": "HuggingFace"
+    },
+    {
+      "name": "Flask",
+      "level": "intermediate",
+      "original": "Flask"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Pydantic",
+      "level": "intermediate",
+      "original": "Pydantic"
+    },
+    {
+      "name": "pandas",
+      "level": "intermediate",
+      "original": "pandas"
+    },
+    {
+      "name": "scikit-learn",
+      "level": "intermediate",
+      "original": "Scikit-learn"
+    },
+    {
+      "name": "PGVector",
+      "level": "intermediate",
+      "original": "PGVector"
+    },
+    {
+      "name": "Playwright",
+      "level": "intermediate",
+      "original": "Playwright"
+    },
+    {
+      "name": "Selenium",
+      "level": "intermediate",
+      "original": "Selenium"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "Redis",
+      "level": "basic",
+      "original": "Redis"
+    },
+    {
+      "name": "WebSocket",
+      "level": "basic",
+      "original": "WebSockets"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород",
+      "details": [
+        "Институт экономики и предпринимательства, Прикладная информатика"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут экономики и предпринимательства, Прикладная информатика\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Есть",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №258\nРезюме: Middle Python-разработчик",
+    "cover_letter": "ИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было",
+    "experience": "Опыт работы: 3 года 6 месяцев\nМай 2023 -\nсейчас\n3 года 6 мес\nОрганизация 1\nПрограммист разработчик 3кт\nРазработка Backend-архитектуры, внедрение AI-решений:\n- Разработка серверной части веб-приложений и высоконагруженных Telegram-ботов (включая Mini Apps) с использованием Python (Django, Aiogram, FastAPI).\n- Полный цикл создания продуктов: от проектирования PoC/MVP для быстрой проверки гипотез до масштабирования в Production.\n- Проектирование и оптимизация схем баз данных (PostgreSQL, MySQL), работа с миграциями и сложными SQL-запросами.\nRAG и ML:\n- Разработал систему умного поиска для образовательной платформы (видеокурсы): реализовал поиск по транскрибациям видео. Использовал гибридный подход (Hybrid Search): BM25 + Vector Search (pgvector) + Reranker.\n- Интеграция LLM (OpenAI API, GigaChat) в бизнес-процессы компании (генерация ответов, саммаризация, классификация).\n- Проведение R&D в области ML: сбор и очистка данных (Web Scraping, Pandas), разработка моделей для предсказания цен на недвижимость (использование NLP для анализа текстовых описаний объектов).\nDevOps и Observability:\n- Настройка мониторинга и логирования с нуля: внедрил стек Grafana + Prometheus + Loki + Alloy.\n- Написал структурированные логи для сервисов, что сократило время разбора инцидентов.\n- Самостоятельный деплой и контейнеризация приложений (Docker, Docker Compose), настройка CI/CD пайплайнов.\nСтек на проектах:\nPython 3.10+, Django, Aiogram, LangChain, PostgreSQL (pgvector), Redis, Pandas, Grafana Stack (Loki, Prometheus, Alloy), Docker, Nginx, Git, Linux.",
+    "skills": "Продвинутый уровень\nPython\nPyCharm\nDocker-compose\nOpenAI API\nFastAPI\nAiogram\nBeautifulSoup\nСредний уровень\nGitHub\nDjango Framework\nGit\nPostgreSQL\nDocker\nLinux\nREST API\nGrafana\nPrometheus\nLangChain\nRAG\nHuggingFace\nFlask\nSQLAlchemy\nPydantic\npandas\nScikit-learn\nPGVector\nPlaywright\nSelenium\nООП\nБазовый уровень\nRedis\nWebSockets",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут экономики и предпринимательства, Прикладная информатика\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nЕсть\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №258\nРезюме: Middle Python-разработчик\n\nСопроводительное письмо\nИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было\n\nОпыт работы\nОпыт работы: 3 года 6 месяцев\nМай 2023 -\nсейчас\n3 года 6 мес\nОрганизация 1\nПрограммист разработчик 3кт\nРазработка Backend-архитектуры, внедрение AI-решений:\n- Разработка серверной части веб-приложений и высоконагруженных Telegram-ботов (включая Mini Apps) с использованием Python (Django, Aiogram, FastAPI).\n- Полный цикл создания продуктов: от проектирования PoC/MVP для быстрой проверки гипотез до масштабирования в Production.\n- Проектирование и оптимизация схем баз данных (PostgreSQL, MySQL), работа с миграциями и сложными SQL-запросами.\nRAG и ML:\n- Разработал систему умного поиска для образовательной платформы (видеокурсы): реализовал поиск по транскрибациям видео. Использовал гибридный подход (Hybrid Search): BM25 + Vector Search (pgvector) + Reranker.\n- Интеграция LLM (OpenAI API, GigaChat) в бизнес-процессы компании (генерация ответов, саммаризация, классификация).\n- Проведение R&D в области ML: сбор и очистка данных (Web Scraping, Pandas), разработка моделей для предсказания цен на недвижимость (использование NLP для анализа текстовых описаний объектов).\nDevOps и Observability:\n- Настройка мониторинга и логирования с нуля: внедрил стек Grafana + Prometheus + Loki + Alloy.\n- Написал структурированные логи для сервисов, что сократило время разбора инцидентов.\n- Самостоятельный деплой и контейнеризация приложений (Docker, Docker Compose), настройка CI/CD пайплайнов.\nСтек на проектах:\nPython 3.10+, Django, Aiogram, LangChain, PostgreSQL (pgvector), Redis, Pandas, Grafana Stack (Loki, Prometheus, Alloy), Docker, Nginx, Git, Linux.\n\nНавыки\nПродвинутый уровень\nPython\nPyCharm\nDocker-compose\nOpenAI API\nFastAPI\nAiogram\nBeautifulSoup\nСредний уровень\nGitHub\nDjango Framework\nGit\nPostgreSQL\nDocker\nLinux\nREST API\nGrafana\nPrometheus\nLangChain\nRAG\nHuggingFace\nFlask\nSQLAlchemy\nPydantic\npandas\nScikit-learn\nPGVector\nPlaywright\nSelenium\nООП\nБазовый уровень\nRedis\nWebSockets\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут экономики и предпринимательства, Прикладная информатика\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nЕсть\nМедкнижка:\nНет\n"
+}

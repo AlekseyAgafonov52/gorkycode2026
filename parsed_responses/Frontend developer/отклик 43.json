@@ -1,0 +1,109 @@
+{
+  "candidate_id": 43,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 46,
+  "similar_experience_months": 46,
+  "work_experience": [
+    {
+      "start_date": "2025-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 22,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Москваcryptouch-dev.zapto.org:8443/auth",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "UI функционал\n- Разработка и поддержка клиентской части веб-приложения",
+      "original": "Янв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nМоскваcryptouch-dev.zapto.org:8443/auth\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nUI функционал\n- Разработка и поддержка клиентской части веб-приложения"
+    },
+    {
+      "start_date": "2023-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 46,
+      "organization": "Организация 2",
+      "position": "верстальщик, фронтэнд разработчик",
+      "employer_details": [],
+      "description": "Верстка",
+      "original": "Янв 2023 -\nсейчас\n3 года 10 мес\nОрганизация 2\nверстальщик, фронтэнд разработчик\nВерстка"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML5"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS3"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Vue.js",
+      "level": "intermediate",
+      "original": "Vue.js"
+    },
+    {
+      "name": "TypeScript",
+      "level": "intermediate",
+      "original": "TypeScript"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A1",
+      "description": "Начальный",
+      "original": "Английский — A1 — Начальный"
+    }
+  ],
+  "about_me": "Адаптивная кроссплатформенная верстка по макетам figma.\nПортфолио:\nhttps://k34r.github.io/portfolio/\nОпыт работы\nФриланс | Frontend-разработчик | 2023 – н.в.\n- Разработка SPA на Vue.js + TypeScript.\nУчаствую вот в этом https://cryptouch-dev.zapto.org:8443/auth в качестве frontend разаработчика.\nСтек:\nHTML5 (семантическая, валидная разметка)\nCSS3 (Flexbox, Grid, анимации, переменные)\nSCSS/SASS (миксины, вложенность, модульность)\nJavaScript (ES6+, DOM, события)\nTypeScript\nVue ( Nuxt, Quazar )\nНавыки:\nАдаптивная верстка (Mobile First, медиазапросы, резиновая вёрстка)\nКроссбраузерность ( авто-префиксы, тестирование в разных браузерах )\nPixel Perfect верстка\nДоступность (a11y) (ARIA, семантика, клавиатурная навигация)\nОптимизация (ленивая загрузка, Critical CSS)\nМетодологии (БЭМ, CSS Modules)\nИнструменты:\nFigma , Git , Gulp/Webpack , Docker , BrowserStack , Lighthouse",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Сибирский государственный университет путей сообщения, Новосибирск",
+      "details": [
+        "СДМ, инженер-механик"
+      ],
+      "year": 1996,
+      "level": "Высшее образование",
+      "original": "Сибирский государственный университет путей сообщения, Новосибирск\nСДМ, инженер-механик\n•\n1996\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Нет своей машины, права категории A, B, C, D, E, CE",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №43\nРезюме: Frontend-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 10 месяцев\nОпыт в похожих должностях:3 года 10 месяцев\nЯнв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nМоскваcryptouch-dev.zapto.org:8443/auth\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nUI функционал\n- Разработка и поддержка клиентской части веб-приложения\nЯнв 2023 -\nсейчас\n3 года 10 мес\nОрганизация 2\nверстальщик, фронтэнд разработчик\nВерстка",
+    "skills": "Средний уровень\nHTML5\nCSS3\nJavaScript\nVue.js\nTypeScript",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A1 — Начальный",
+    "about_me": "Адаптивная кроссплатформенная верстка по макетам figma.\nПортфолио:\nhttps://k34r.github.io/portfolio/\nОпыт работы\nФриланс | Frontend-разработчик | 2023 – н.в.\n- Разработка SPA на Vue.js + TypeScript.\nУчаствую вот в этом https://cryptouch-dev.zapto.org:8443/auth в качестве frontend разаработчика.\nСтек:\nHTML5 (семантическая, валидная разметка)\nCSS3 (Flexbox, Grid, анимации, переменные)\nSCSS/SASS (миксины, вложенность, модульность)\nJavaScript (ES6+, DOM, события)\nTypeScript\nVue ( Nuxt, Quazar )\nНавыки:\nАдаптивная верстка (Mobile First, медиазапросы, резиновая вёрстка)\nКроссбраузерность ( авто-префиксы, тестирование в разных браузерах )\nPixel Perfect верстка\nДоступность (a11y) (ARIA, семантика, клавиатурная навигация)\nОптимизация (ленивая загрузка, Critical CSS)\nМетодологии (БЭМ, CSS Modules)\nИнструменты:\nFigma , Git , Gulp/Webpack , Docker , BrowserStack , Lighthouse",
+    "education": "Уровень\nВысшее образование\nСибирский государственный университет путей сообщения, Новосибирск\nСДМ, инженер-механик\n•\n1996\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории A, B, C, D, E, CE"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №43\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 10 месяцев\nОпыт в похожих должностях:3 года 10 месяцев\nЯнв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nМоскваcryptouch-dev.zapto.org:8443/auth\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nUI функционал\n- Разработка и поддержка клиентской части веб-приложения\nЯнв 2023 -\nсейчас\n3 года 10 мес\nОрганизация 2\nверстальщик, фронтэнд разработчик\nВерстка\n\nНавыки\nСредний уровень\nHTML5\nCSS3\nJavaScript\nVue.js\nTypeScript\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A1 — Начальный\n\nОбо мне\nАдаптивная кроссплатформенная верстка по макетам figma.\nПортфолио:\nhttps://k34r.github.io/portfolio/\nОпыт работы\nФриланс | Frontend-разработчик | 2023 – н.в.\n- Разработка SPA на Vue.js + TypeScript.\nУчаствую вот в этом https://cryptouch-dev.zapto.org:8443/auth в качестве frontend разаработчика.\nСтек:\nHTML5 (семантическая, валидная разметка)\nCSS3 (Flexbox, Grid, анимации, переменные)\nSCSS/SASS (миксины, вложенность, модульность)\nJavaScript (ES6+, DOM, события)\nTypeScript\nVue ( Nuxt, Quazar )\nНавыки:\nАдаптивная верстка (Mobile First, медиазапросы, резиновая вёрстка)\nКроссбраузерность ( авто-префиксы, тестирование в разных браузерах )\nPixel Perfect верстка\nДоступность (a11y) (ARIA, семантика, клавиатурная навигация)\nОптимизация (ленивая загрузка, Critical CSS)\nМетодологии (БЭМ, CSS Modules)\nИнструменты:\nFigma , Git , Gulp/Webpack , Docker , BrowserStack , Lighthouse\n\nОбразование\nУровень\nВысшее образование\nСибирский государственный университет путей сообщения, Новосибирск\nСДМ, инженер-механик\n•\n1996\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории A, B, C, D, E, CE\n"
+}

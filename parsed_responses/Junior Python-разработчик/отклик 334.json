@@ -1,0 +1,223 @@
+{
+  "candidate_id": 334,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Здравствуйте. Я python разработчик с опытом pet и учебных проектов, а также опытом фриланса. Заинтересован в вашей вакансии, так как люблю работать с данными и python.",
+  "experience_total_months": 51,
+  "similar_experience_months": 41,
+  "work_experience": [
+    {
+      "start_date": "2026-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 10,
+      "organization": "Организация 1",
+      "position": "Fullstack-разработчик",
+      "employer_details": [],
+      "description": "Разработка микросервиса по распознаванию голоса\nСтек: Python, FastApi, Faster-Whisper, Redis, Celery,\n- Интеграция модели Faster-Whisper для быстрой транскрибации речи\n- Разработка бэкенд архитектуры на FastApi\n- Использование Redis + Celery для БД\n- Разработка базового интерфейса на streamlit\n- Сборка и разворачивание сервиса через docker и docker-compose\n- Написание тестов для проекта через PyTest",
+      "original": "Янв 2026 -\nсейчас\n10 мес\nОрганизация 1\nFullstack-разработчик\nРазработка микросервиса по распознаванию голоса\nСтек: Python, FastApi, Faster-Whisper, Redis, Celery,\n- Интеграция модели Faster-Whisper для быстрой транскрибации речи\n- Разработка бэкенд архитектуры на FastApi\n- Использование Redis + Celery для БД\n- Разработка базового интерфейса на streamlit\n- Сборка и разворачивание сервиса через docker и docker-compose\n- Написание тестов для проекта через PyTest"
+    },
+    {
+      "start_date": "2025-06",
+      "end_date": "2025-12",
+      "is_current": false,
+      "duration_months": 7,
+      "organization": "Организация 2",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "Инференс, тренировка и fine-tuning нейросетей.\n-Обучение TrOCR для определения текста на уличных знаках (Python, PyTorch, OpenCV, datasets, huggingface)\n-Конструирование и обучение нейросети для предсказания шахматных ходов (Python, PyTorch, Numpy, Pandas, ScLearn)\n-Обучение ViT (визуального трансформера ViT-base-pathc-16) под задачу распознавания мусора (transformers,datasets,PyTorch)\n- Файн-тьюнинг DistilBert под задачу сортировки отзывов на IMDB (Transformers, huggingface, PyTorch)",
+      "original": "Июн 2025 -\nДек 2025\n7 мес\nОрганизация 2\nPython-разработчик\nИнференс, тренировка и fine-tuning нейросетей.\n-Обучение TrOCR для определения текста на уличных знаках (Python, PyTorch, OpenCV, datasets, huggingface)\n-Конструирование и обучение нейросети для предсказания шахматных ходов (Python, PyTorch, Numpy, Pandas, ScLearn)\n-Обучение ViT (визуального трансформера ViT-base-pathc-16) под задачу распознавания мусора (transformers,datasets,PyTorch)\n- Файн-тьюнинг DistilBert под задачу сортировки отзывов на IMDB (Transformers, huggingface, PyTorch)"
+    },
+    {
+      "start_date": "2023-09",
+      "end_date": "2025-06",
+      "is_current": false,
+      "duration_months": 22,
+      "organization": "Организация 3",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "Разработка и обучение модели предсказания боестолкновений.\n-Создание модели с помощью Pytorch\n-Создание синтетического датасета с помощью Python и библиотеки JSON\nДипломная работа.",
+      "original": "Сен 2023 -\nИюн 2025\n1 год 10 мес\nОрганизация 3\nPython-разработчик\nРазработка и обучение модели предсказания боестолкновений.\n-Создание модели с помощью Pytorch\n-Создание синтетического датасета с помощью Python и библиотеки JSON\nДипломная работа."
+    },
+    {
+      "start_date": "2019-01",
+      "end_date": "2020-01",
+      "is_current": false,
+      "duration_months": 13,
+      "organization": "Организация 4",
+      "position": "Python-разработчик, C++-разработчик",
+      "employer_details": [],
+      "description": "Разработка системы умного управления траффиком\nСтек: C++, Python, Pytorch, OpenCV\nРазработка системы отслеживания автомобиля на видео и определения его скорости с помощью Opencv\nРазработка модели предсказания трафика (Pytorch), генерация синтетического датасета и обучение.\nНесколько призовых мест на научным выставках. Система была внедрена на ряде перекрестков города.",
+      "original": "Янв 2019 -\nЯнв 2020\n1 год 1 мес\nОрганизация 4\nPython-разработчик, C++-разработчик\nРазработка системы умного управления траффиком\nСтек: C++, Python, Pytorch, OpenCV\nРазработка системы отслеживания автомобиля на видео и определения его скорости с помощью Opencv\nРазработка модели предсказания трафика (Pytorch), генерация синтетического датасета и обучение.\nНесколько призовых мест на научным выставках. Система была внедрена на ряде перекрестков города."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PyTorch",
+      "level": "advanced",
+      "original": "PyTorch"
+    },
+    {
+      "name": "NumPy",
+      "level": "advanced",
+      "original": "Numpy"
+    },
+    {
+      "name": "OpenCV",
+      "level": "advanced",
+      "original": "OpenCV"
+    },
+    {
+      "name": "scikit-learn",
+      "level": "advanced",
+      "original": "Scikit-learn"
+    },
+    {
+      "name": "SciPy",
+      "level": "advanced",
+      "original": "SciPy"
+    },
+    {
+      "name": "LLM",
+      "level": "advanced",
+      "original": "LLM"
+    },
+    {
+      "name": "Jupyter Notebook",
+      "level": "advanced",
+      "original": "Jupyter Notebook"
+    },
+    {
+      "name": "pandas",
+      "level": "advanced",
+      "original": "pandas"
+    },
+    {
+      "name": "matplotlib",
+      "level": "advanced",
+      "original": "Matplotlib"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Deep Learning",
+      "level": "advanced",
+      "original": "Deep Learning"
+    },
+    {
+      "name": "Machine Learning",
+      "level": "advanced",
+      "original": "Machine Learning"
+    },
+    {
+      "name": "pytest",
+      "level": "intermediate",
+      "original": "Pytest"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "ChatGPT",
+      "level": "intermediate",
+      "original": "ChatGPT"
+    },
+    {
+      "name": "Cursor",
+      "level": "intermediate",
+      "original": "Cursor"
+    },
+    {
+      "name": "Gemini",
+      "level": "intermediate",
+      "original": "Gemini"
+    },
+    {
+      "name": "MS SQL",
+      "level": "intermediate",
+      "original": "MS SQL"
+    },
+    {
+      "name": "seaborn",
+      "level": "basic",
+      "original": "Seaborn"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "basic",
+      "original": "Docker-compose"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород",
+      "details": [
+        "Институт Информационных Технологий, Математики и Механики, Прикладная математика и информатика"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут Информационных Технологий, Математики и Механики, Прикладная математика и информатика\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №334\nРезюме: Python-разработчик",
+    "cover_letter": "Здравствуйте. Я python разработчик с опытом pet и учебных проектов, а также опытом фриланса. Заинтересован в вашей вакансии, так как люблю работать с данными и python.",
+    "experience": "Опыт работы: 4 года 3 месяца\nОпыт в похожих должностях:3 года 5 месяцев\nЯнв 2026 -\nсейчас\n10 мес\nОрганизация 1\nFullstack-разработчик\nРазработка микросервиса по распознаванию голоса\nСтек: Python, FastApi, Faster-Whisper, Redis, Celery,\n- Интеграция модели Faster-Whisper для быстрой транскрибации речи\n- Разработка бэкенд архитектуры на FastApi\n- Использование Redis + Celery для БД\n- Разработка базового интерфейса на streamlit\n- Сборка и разворачивание сервиса через docker и docker-compose\n- Написание тестов для проекта через PyTest\nИюн 2025 -\nДек 2025\n7 мес\nОрганизация 2\nPython-разработчик\nИнференс, тренировка и fine-tuning нейросетей.\n-Обучение TrOCR для определения текста на уличных знаках (Python, PyTorch, OpenCV, datasets, huggingface)\n-Конструирование и обучение нейросети для предсказания шахматных ходов (Python, PyTorch, Numpy, Pandas, ScLearn)\n-Обучение ViT (визуального трансформера ViT-base-pathc-16) под задачу распознавания мусора (transformers,datasets,PyTorch)\n- Файн-тьюнинг DistilBert под задачу сортировки отзывов на IMDB (Transformers, huggingface, PyTorch)\nСен 2023 -\nИюн 2025\n1 год 10 мес\nОрганизация 3\nPython-разработчик\nРазработка и обучение модели предсказания боестолкновений.\n-Создание модели с помощью Pytorch\n-Создание синтетического датасета с помощью Python и библиотеки JSON\nДипломная работа.\nЯнв 2019 -\nЯнв 2020\n1 год 1 мес\nОрганизация 4\nPython-разработчик, C++-разработчик\nРазработка системы умного управления траффиком\nСтек: C++, Python, Pytorch, OpenCV\nРазработка системы отслеживания автомобиля на видео и определения его скорости с помощью Opencv\nРазработка модели предсказания трафика (Pytorch), генерация синтетического датасета и обучение.\nНесколько призовых мест на научным выставках. Система была внедрена на ряде перекрестков города.",
+    "skills": "Продвинутый уровень\nPython\nPyTorch\nNumpy\nOpenCV\nScikit-learn\nSciPy\nLLM\nJupyter Notebook\npandas\nMatplotlib\nLinux\nDeep Learning\nMachine Learning\nСредний уровень\nPytest\nGitHub\nPostgreSQL\nFastAPI\nDocker\nChatGPT\nCursor\nGemini\nMS SQL\nБазовый уровень\nSeaborn\nDocker-compose",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут Информационных Технологий, Математики и Механики, Прикладная математика и информатика\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №334\nРезюме: Python-разработчик\n\nСопроводительное письмо\nЗдравствуйте. Я python разработчик с опытом pet и учебных проектов, а также опытом фриланса. Заинтересован в вашей вакансии, так как люблю работать с данными и python.\n\nОпыт работы\nОпыт работы: 4 года 3 месяца\nОпыт в похожих должностях:3 года 5 месяцев\nЯнв 2026 -\nсейчас\n10 мес\nОрганизация 1\nFullstack-разработчик\nРазработка микросервиса по распознаванию голоса\nСтек: Python, FastApi, Faster-Whisper, Redis, Celery,\n- Интеграция модели Faster-Whisper для быстрой транскрибации речи\n- Разработка бэкенд архитектуры на FastApi\n- Использование Redis + Celery для БД\n- Разработка базового интерфейса на streamlit\n- Сборка и разворачивание сервиса через docker и docker-compose\n- Написание тестов для проекта через PyTest\nИюн 2025 -\nДек 2025\n7 мес\nОрганизация 2\nPython-разработчик\nИнференс, тренировка и fine-tuning нейросетей.\n-Обучение TrOCR для определения текста на уличных знаках (Python, PyTorch, OpenCV, datasets, huggingface)\n-Конструирование и обучение нейросети для предсказания шахматных ходов (Python, PyTorch, Numpy, Pandas, ScLearn)\n-Обучение ViT (визуального трансформера ViT-base-pathc-16) под задачу распознавания мусора (transformers,datasets,PyTorch)\n- Файн-тьюнинг DistilBert под задачу сортировки отзывов на IMDB (Transformers, huggingface, PyTorch)\nСен 2023 -\nИюн 2025\n1 год 10 мес\nОрганизация 3\nPython-разработчик\nРазработка и обучение модели предсказания боестолкновений.\n-Создание модели с помощью Pytorch\n-Создание синтетического датасета с помощью Python и библиотеки JSON\nДипломная работа.\nЯнв 2019 -\nЯнв 2020\n1 год 1 мес\nОрганизация 4\nPython-разработчик, C++-разработчик\nРазработка системы умного управления траффиком\nСтек: C++, Python, Pytorch, OpenCV\nРазработка системы отслеживания автомобиля на видео и определения его скорости с помощью Opencv\nРазработка модели предсказания трафика (Pytorch), генерация синтетического датасета и обучение.\nНесколько призовых мест на научным выставках. Система была внедрена на ряде перекрестков города.\n\nНавыки\nПродвинутый уровень\nPython\nPyTorch\nNumpy\nOpenCV\nScikit-learn\nSciPy\nLLM\nJupyter Notebook\npandas\nMatplotlib\nLinux\nDeep Learning\nMachine Learning\nСредний уровень\nPytest\nGitHub\nPostgreSQL\nFastAPI\nDocker\nChatGPT\nCursor\nGemini\nMS SQL\nБазовый уровень\nSeaborn\nDocker-compose\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут Информационных Технологий, Математики и Механики, Прикладная математика и информатика\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

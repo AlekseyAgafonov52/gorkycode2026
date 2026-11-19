@@ -1,0 +1,187 @@
+{
+  "candidate_id": 3,
+  "resume_title": "ML-инженер",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "pandas",
+      "level": null,
+      "original": "pandas"
+    },
+    {
+      "name": "NumPy",
+      "level": null,
+      "original": "Numpy"
+    },
+    {
+      "name": "matplotlib",
+      "level": null,
+      "original": "Matplotlib"
+    },
+    {
+      "name": "scikit-learn",
+      "level": null,
+      "original": "Scikit-learn"
+    },
+    {
+      "name": "ML",
+      "level": null,
+      "original": "ML"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "MLflow",
+      "level": null,
+      "original": "MLflow"
+    },
+    {
+      "name": "XGBoost",
+      "level": null,
+      "original": "XGBoost"
+    },
+    {
+      "name": "LightGBM",
+      "level": null,
+      "original": "LightGBM"
+    },
+    {
+      "name": "CatBoost",
+      "level": null,
+      "original": "CatBoost"
+    },
+    {
+      "name": "NLP",
+      "level": null,
+      "original": "NLP"
+    },
+    {
+      "name": "Data Science",
+      "level": null,
+      "original": "Data Science"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "ООП",
+      "level": null,
+      "original": "ООП"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Machine Learning",
+      "level": null,
+      "original": "Machine Learning"
+    },
+    {
+      "name": "PyTorch",
+      "level": null,
+      "original": "PyTorch"
+    },
+    {
+      "name": "seaborn",
+      "level": null,
+      "original": "Seaborn"
+    },
+    {
+      "name": "Plotly",
+      "level": null,
+      "original": "Plotly"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "Почта: begeshevrashid@gmail.com\nTelegram: @BRSHDid\nGitHub: https://github.com/BRSHD",
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "Филиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород",
+      "details": [
+        "Экономический факультет, Финансовые технологии"
+      ],
+      "year": 2028,
+      "level": "Высшее образование (Магистр)",
+      "original": "Филиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nЭкономический факультет, Финансовые технологии\n•\n2028\n•\nВысшее образование (Магистр)"
+    },
+    {
+      "institution": "Национальный исследовательский университет «Высшая школа экономики», Москва",
+      "details": [
+        "Математика"
+      ],
+      "year": 2026,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Национальный исследовательский университет «Высшая школа экономики», Москва\nМатематика\n•\n2026\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №3\nРезюме: ML-инженер",
+    "cover_letter": "Кандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Python\nSQL\nGit\npandas\nNumpy\nMatplotlib\nScikit-learn\nML\nDocker\nMLflow\nXGBoost\nLightGBM\nCatBoost\nNLP\nData Science\nLinux\nFastAPI\nPostgreSQL\nООП\nREST API\nMachine Learning\nPyTorch\nSeaborn\nPlotly",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "Почта: begeshevrashid@gmail.com\nTelegram: @BRSHDid\nGitHub: https://github.com/BRSHD",
+    "education": "Уровень\nВысшее образование (Магистр)\nФилиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nЭкономический факультет, Финансовые технологии\n•\n2028\n•\nВысшее образование (Магистр)\nНациональный исследовательский университет «Высшая школа экономики», Москва\nМатематика\n•\n2026\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №3\nРезюме: ML-инженер\n\nСопроводительное письмо\nКандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nPython\nSQL\nGit\npandas\nNumpy\nMatplotlib\nScikit-learn\nML\nDocker\nMLflow\nXGBoost\nLightGBM\nCatBoost\nNLP\nData Science\nLinux\nFastAPI\nPostgreSQL\nООП\nREST API\nMachine Learning\nPyTorch\nSeaborn\nPlotly\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\nПочта: begeshevrashid@gmail.com\nTelegram: @BRSHDid\nGitHub: https://github.com/BRSHD\n\nОбразование\nУровень\nВысшее образование (Магистр)\nФилиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nЭкономический факультет, Финансовые технологии\n•\n2028\n•\nВысшее образование (Магистр)\nНациональный исследовательский университет «Высшая школа экономики», Москва\nМатематика\n•\n2026\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

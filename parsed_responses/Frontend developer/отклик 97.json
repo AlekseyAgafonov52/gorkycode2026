@@ -1,0 +1,207 @@
+{
+  "candidate_id": 97,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 42,
+  "similar_experience_months": 42,
+  "work_experience": [
+    {
+      "start_date": "2023-05",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 42,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Минск",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Работал в команде по разработке пользовательского интерфейса проекта в сфере iGaming.\n- Снизил CLS показатель главной страницы до 0.1.\n- Увеличил покрытие юнит тестами ключевые компоненты с ~60 до 85% в рамках работы над рефакторингом.\n- Перенёс и оптимизировал проект с Vue 2 на Vue 3.\n- Внедрил TypeScript для типизации всех новых компонентов.\n- Принял участие в создании удобного UI-кита вместе с дизайнером.\n- Ускорил написание стилей в 4 раза при помощи внедрения универсального SCSS миксина.\n- Уменьшил количество ошибок и настроил конфиг линтера eslint.\n- Применил современные возможности HTML и CSS (анимации, flexbox, grid) для кроссбраузерной адаптивной и Pixel Perfect вёрстки с соблюдением методологии БЭМ.\n- Провёл подробные code-review для поддержаний общего код-стайла.\nСтек: TypeScript, Vue 3 Composition API, Vue Router, Nuxt 3, Webpack/Vite, Vuex/Pinia, SCSS, Jest, REST, Jira, GitLab",
+      "original": "Май 2023 -\nсейчас\n3 года 6 мес\nОрганизация 1\nМинск\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРаботал в команде по разработке пользовательского интерфейса проекта в сфере iGaming.\n- Снизил CLS показатель главной страницы до 0.1.\n- Увеличил покрытие юнит тестами ключевые компоненты с ~60 до 85% в рамках работы над рефакторингом.\n- Перенёс и оптимизировал проект с Vue 2 на Vue 3.\n- Внедрил TypeScript для типизации всех новых компонентов.\n- Принял участие в создании удобного UI-кита вместе с дизайнером.\n- Ускорил написание стилей в 4 раза при помощи внедрения универсального SCSS миксина.\n- Уменьшил количество ошибок и настроил конфиг линтера eslint.\n- Применил современные возможности HTML и CSS (анимации, flexbox, grid) для кроссбраузерной адаптивной и Pixel Perfect вёрстки с соблюдением методологии БЭМ.\n- Провёл подробные code-review для поддержаний общего код-стайла.\nСтек: TypeScript, Vue 3 Composition API, Vue Router, Nuxt 3, Webpack/Vite, Vuex/Pinia, SCSS, Jest, REST, Jira, GitLab"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML5"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS3"
+    },
+    {
+      "name": "Vue.js",
+      "level": null,
+      "original": "VueJS"
+    },
+    {
+      "name": "Vite",
+      "level": null,
+      "original": "Vite"
+    },
+    {
+      "name": "Vue.js 3",
+      "level": null,
+      "original": "Vue 3"
+    },
+    {
+      "name": "Pinia",
+      "level": null,
+      "original": "Pinia"
+    },
+    {
+      "name": "Webpack",
+      "level": null,
+      "original": "Webpack"
+    },
+    {
+      "name": "SCSS",
+      "level": null,
+      "original": "SCSS"
+    },
+    {
+      "name": "Jest",
+      "level": null,
+      "original": "Jest"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Agile",
+      "level": null,
+      "original": "Agile"
+    },
+    {
+      "name": "Vue.js",
+      "level": null,
+      "original": "Vue.js"
+    },
+    {
+      "name": "Node.js",
+      "level": null,
+      "original": "Node.js"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JS"
+    },
+    {
+      "name": "Sass",
+      "level": null,
+      "original": "Sass"
+    },
+    {
+      "name": "Vue.js",
+      "level": null,
+      "original": "vue"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "Nuxt",
+      "level": null,
+      "original": "NuxtJS"
+    },
+    {
+      "name": "SSR",
+      "level": null,
+      "original": "SSR"
+    },
+    {
+      "name": "Работа в команде",
+      "level": null,
+      "original": "Работа в команде"
+    },
+    {
+      "name": "Nuxt",
+      "level": null,
+      "original": "Nuxt.js"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "Vue.js",
+      "level": null,
+      "original": "Vue"
+    },
+    {
+      "name": "UI/UX",
+      "level": null,
+      "original": "UI/UX"
+    },
+    {
+      "name": "Unit Testing",
+      "level": null,
+      "original": "Unit Testing"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Мои ценности ориентированы на решение проблем команды, бизнеса и клиентов в порядке приоритетов.\nОбладаю сильным техническим бекграундом, стремлюсь развивать команду и обеспечиваю стабильность продукта.\nСтек: TypeScript, Vue 3 Composition API, Vue Router, Nuxt 3, Webpack/Vite, Vuex/Pinia, SCSS, Jest, REST, Jira, GitLab\nМне можно писать сразу в телеграм: @gleb_qop",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №97\nРезюме: Frontend-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 6 месяцев\nОпыт в похожих должностях:3 года 6 месяцев\nМай 2023 -\nсейчас\n3 года 6 мес\nОрганизация 1\nМинск\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРаботал в команде по разработке пользовательского интерфейса проекта в сфере iGaming.\n- Снизил CLS показатель главной страницы до 0.1.\n- Увеличил покрытие юнит тестами ключевые компоненты с ~60 до 85% в рамках работы над рефакторингом.\n- Перенёс и оптимизировал проект с Vue 2 на Vue 3.\n- Внедрил TypeScript для типизации всех новых компонентов.\n- Принял участие в создании удобного UI-кита вместе с дизайнером.\n- Ускорил написание стилей в 4 раза при помощи внедрения универсального SCSS миксина.\n- Уменьшил количество ошибок и настроил конфиг линтера eslint.\n- Применил современные возможности HTML и CSS (анимации, flexbox, grid) для кроссбраузерной адаптивной и Pixel Perfect вёрстки с соблюдением методологии БЭМ.\n- Провёл подробные code-review для поддержаний общего код-стайла.\nСтек: TypeScript, Vue 3 Composition API, Vue Router, Nuxt 3, Webpack/Vite, Vuex/Pinia, SCSS, Jest, REST, Jira, GitLab",
+    "skills": "JavaScript\nHTML\nGit\nTypeScript\nHTML5\nCSS3\nVueJS\nVite\nVue 3\nPinia\nWebpack\nSCSS\nJest\nREST API\nAgile\nVue.js\nNode.js\nGitlab\nJS\nSass\nvue\nGitHub\nNuxtJS\nSSR\nРабота в команде\nNuxt.js\nCSS\nVue\nUI/UX\nUnit Testing",
+    "languages": "Родной\nРусский",
+    "about_me": "Мои ценности ориентированы на решение проблем команды, бизнеса и клиентов в порядке приоритетов.\nОбладаю сильным техническим бекграундом, стремлюсь развивать команду и обеспечиваю стабильность продукта.\nСтек: TypeScript, Vue 3 Composition API, Vue Router, Nuxt 3, Webpack/Vite, Vuex/Pinia, SCSS, Jest, REST, Jira, GitLab\nМне можно писать сразу в телеграм: @gleb_qop",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №97\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 6 месяцев\nОпыт в похожих должностях:3 года 6 месяцев\nМай 2023 -\nсейчас\n3 года 6 мес\nОрганизация 1\nМинск\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРаботал в команде по разработке пользовательского интерфейса проекта в сфере iGaming.\n- Снизил CLS показатель главной страницы до 0.1.\n- Увеличил покрытие юнит тестами ключевые компоненты с ~60 до 85% в рамках работы над рефакторингом.\n- Перенёс и оптимизировал проект с Vue 2 на Vue 3.\n- Внедрил TypeScript для типизации всех новых компонентов.\n- Принял участие в создании удобного UI-кита вместе с дизайнером.\n- Ускорил написание стилей в 4 раза при помощи внедрения универсального SCSS миксина.\n- Уменьшил количество ошибок и настроил конфиг линтера eslint.\n- Применил современные возможности HTML и CSS (анимации, flexbox, grid) для кроссбраузерной адаптивной и Pixel Perfect вёрстки с соблюдением методологии БЭМ.\n- Провёл подробные code-review для поддержаний общего код-стайла.\nСтек: TypeScript, Vue 3 Composition API, Vue Router, Nuxt 3, Webpack/Vite, Vuex/Pinia, SCSS, Jest, REST, Jira, GitLab\n\nНавыки\nJavaScript\nHTML\nGit\nTypeScript\nHTML5\nCSS3\nVueJS\nVite\nVue 3\nPinia\nWebpack\nSCSS\nJest\nREST API\nAgile\nVue.js\nNode.js\nGitlab\nJS\nSass\nvue\nGitHub\nNuxtJS\nSSR\nРабота в команде\nNuxt.js\nCSS\nVue\nUI/UX\nUnit Testing\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nМои ценности ориентированы на решение проблем команды, бизнеса и клиентов в порядке приоритетов.\nОбладаю сильным техническим бекграундом, стремлюсь развивать команду и обеспечиваю стабильность продукта.\nСтек: TypeScript, Vue 3 Composition API, Vue Router, Nuxt 3, Webpack/Vite, Vuex/Pinia, SCSS, Jest, REST, Jira, GitLab\nМне можно писать сразу в телеграм: @gleb_qop\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

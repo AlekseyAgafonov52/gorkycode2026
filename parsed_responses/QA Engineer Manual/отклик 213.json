@@ -1,0 +1,236 @@
+{
+  "candidate_id": 213,
+  "resume_title": "Тестировщик",
+  "cover_letter": null,
+  "experience_total_months": 58,
+  "similar_experience_months": 58,
+  "work_experience": [
+    {
+      "start_date": "2024-04",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 31,
+      "organization": "Организация 1",
+      "position": "QA MANUAL",
+      "employer_details": [
+        "Москваrabota.sber.ru/",
+        "Финансовый сектор"
+      ],
+      "description": "СберБизнес Онлайн\nСтек технологий: REST API, GRPC, PostgreSQL, MongoDB, Redis,Kafka , DropApp Kubernetes, Jenkins, Insomnia, Swagger, DevTools, Jira, Jira Zephyr, Pixso, Miro, Charles\nЗадачи:\n- Тестирую требования, валидирую аналитику\n- Тестирование Web , API, mobile\n- Тестирование Frontend UX/UI на соответствие требованиям и макетам.\n- Тестирование Backend REST API через HTTP-запросы Insomnia, Swagger.\n- Тестирование gRPC - методов для проверки корректности согласно требованиям\n- Тестирование интеграций со смежными командами и валидация данных в СУБД PostgreSQL.\n- Тестирование MongoDB для валидации тестовых данных\n- Тестирование нереляционной СУБД Redis\n- Замещаю ЛИДА на время отсутствия.\n- Собираю и готовю релизы в Jira, провожу демо и сопровождаю релиз в ПРОД\n- Просмотр и поиск ошибок в логах DropApp, Grafana, мониторинги.\n- Выполняю интеграционное, функциональное, регрессионное тестирование микросервисов, взаимодействую со смежными командами.\n- Участвую в разработке инновационного продукта для крупных клиентов банка\n- Участвую в дейли, демо,груминг и ретро встречах.\nРезультаты работы:\n- Придумал новую фичу, которую в последствии реализовали\n- Замещал Лида команды тестирования",
+      "original": "Апр 2024 -\nсейчас\n2 года 7 мес\nОрганизация 1\nМоскваrabota.sber.ru/\nФинансовый сектор\nQA MANUAL\nСберБизнес Онлайн\nСтек технологий: REST API, GRPC, PostgreSQL, MongoDB, Redis,Kafka , DropApp Kubernetes, Jenkins, Insomnia, Swagger, DevTools, Jira, Jira Zephyr, Pixso, Miro, Charles\nЗадачи:\n- Тестирую требования, валидирую аналитику\n- Тестирование Web , API, mobile\n- Тестирование Frontend UX/UI на соответствие требованиям и макетам.\n- Тестирование Backend REST API через HTTP-запросы Insomnia, Swagger.\n- Тестирование gRPC - методов для проверки корректности согласно требованиям\n- Тестирование интеграций со смежными командами и валидация данных в СУБД PostgreSQL.\n- Тестирование MongoDB для валидации тестовых данных\n- Тестирование нереляционной СУБД Redis\n- Замещаю ЛИДА на время отсутствия.\n- Собираю и готовю релизы в Jira, провожу демо и сопровождаю релиз в ПРОД\n- Просмотр и поиск ошибок в логах DropApp, Grafana, мониторинги.\n- Выполняю интеграционное, функциональное, регрессионное тестирование микросервисов, взаимодействую со смежными командами.\n- Участвую в разработке инновационного продукта для крупных клиентов банка\n- Участвую в дейли, демо,груминг и ретро встречах.\nРезультаты работы:\n- Придумал новую фичу, которую в последствии реализовали\n- Замещал Лида команды тестирования"
+    },
+    {
+      "start_date": "2022-01",
+      "end_date": "2024-03",
+      "is_current": false,
+      "duration_months": 27,
+      "organization": "Организация 2",
+      "position": "QA ENGINEER",
+      "employer_details": [
+        "Москваwww.rolf.ru"
+      ],
+      "description": "Рольф - крупнейший автодилер. Принимал участие в разработке внутреннего web-продукта для ключевых сотрудников компании с полным циклом взаимодействия автомобиля и клиента - АСП , от записи на мойку до покупки и продажи целых автопарков.\nСтек технологий: Postman, REST API , Swagger, PostgreSQL, DBeaver, Jira, Zephyr, Confluence, GitLab, Kibana, ELK Stack, Kafka,Figma, Jenkis\nЗадачи:\n- Тестирование WEB и API\n- Проведение функционального, регрессионного, smoke тестирования.\n- Просмотр логов (Kibana, ELK Stack), проверка ошибок API и базы данных.\n- API-тестирование (REST API).\n- Отправка и анализ HTTP-запросов\n- Работа с БД PostgreSQL , SQL запросы\n- Проверка взаимодействия сервисов через Kafka.\n- Ведение тестовую документацию в Confluence, Jira Zephyr.\n- Создание баг-репорты, тест-кейсы, чек-листы.\n- Тестирование CRM, маркетплейса, сервисного портала и личного кабинета.\nРезультаты работы:\n-Внедрил ревью тест-кейсов, что позволило сократить количество инцидентов\n-Участие в онбординге новых сотрудников улучшило адаптацию и вовлеченность",
+      "original": "Янв 2022 -\nМар 2024\n2 года 3 мес\nОрганизация 2\nМоскваwww.rolf.ru\nQA ENGINEER\nРольф - крупнейший автодилер. Принимал участие в разработке внутреннего web-продукта для ключевых сотрудников компании с полным циклом взаимодействия автомобиля и клиента - АСП , от записи на мойку до покупки и продажи целых автопарков.\nСтек технологий: Postman, REST API , Swagger, PostgreSQL, DBeaver, Jira, Zephyr, Confluence, GitLab, Kibana, ELK Stack, Kafka,Figma, Jenkis\nЗадачи:\n- Тестирование WEB и API\n- Проведение функционального, регрессионного, smoke тестирования.\n- Просмотр логов (Kibana, ELK Stack), проверка ошибок API и базы данных.\n- API-тестирование (REST API).\n- Отправка и анализ HTTP-запросов\n- Работа с БД PostgreSQL , SQL запросы\n- Проверка взаимодействия сервисов через Kafka.\n- Ведение тестовую документацию в Confluence, Jira Zephyr.\n- Создание баг-репорты, тест-кейсы, чек-листы.\n- Тестирование CRM, маркетплейса, сервисного портала и личного кабинета.\nРезультаты работы:\n-Внедрил ревью тест-кейсов, что позволило сократить количество инцидентов\n-Участие в онбординге новых сотрудников улучшило адаптацию и вовлеченность"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Jira",
+      "level": null,
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": null,
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Kubernetes",
+      "level": null,
+      "original": "Kubernetes"
+    },
+    {
+      "name": "CI/CD",
+      "level": null,
+      "original": "CI/CD"
+    },
+    {
+      "name": "Postman",
+      "level": null,
+      "original": "Postman"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": null,
+      "original": "Elasticsearch"
+    },
+    {
+      "name": "Devtools",
+      "level": null,
+      "original": "Devtools"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Swagger",
+      "level": null,
+      "original": "Swagger"
+    },
+    {
+      "name": "Scrum",
+      "level": null,
+      "original": "Scrum"
+    },
+    {
+      "name": "Charles Proxy",
+      "level": null,
+      "original": "Charles Proxy"
+    },
+    {
+      "name": "DBeaver",
+      "level": null,
+      "original": "DBeaver"
+    },
+    {
+      "name": "BrowserStack",
+      "level": null,
+      "original": "BrowserStack"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "Kibana",
+      "level": null,
+      "original": "Kibana"
+    },
+    {
+      "name": "Android Studio",
+      "level": null,
+      "original": "Android Studio"
+    },
+    {
+      "name": "Тест",
+      "level": null,
+      "original": "Тест"
+    },
+    {
+      "name": "Jenkins",
+      "level": null,
+      "original": "Jenkins"
+    },
+    {
+      "name": "HTTP",
+      "level": null,
+      "original": "HTTP"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "QA",
+      "level": null,
+      "original": "QA"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Zephyr Scale",
+      "level": null,
+      "original": "Zephyr Scale"
+    },
+    {
+      "name": "JSON API",
+      "level": null,
+      "original": "JSON API"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Smoke-тестирование",
+      "level": null,
+      "original": "Smoke-тестирование"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": null,
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "Интеграционное тестирование",
+      "level": null,
+      "original": "Интеграционное тестирование"
+    },
+    {
+      "name": "Приемочное тестирование",
+      "level": null,
+      "original": "Приемочное тестирование"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "QA ENGINEER MANUAL с 3-х летним опытом - стремлюсь развиваться и совершенствоваться. Опыт работы с Postman / Insomnia, Devtools, Dbeaver,MongoDB, Redis, Kafka Offset Explorer, Kibana, Jenkis, Figma, Miro, Pixso\nИщу дальнейшее развитие в AQA.\nJira, Atlassian Confluence, Azure DevOps, Agile, Scrum, Kanban, Postman, Swagger, Allure, Kafka, Jenkis, DevTools, Charles\nProxy, Android Studio, Git , SQL, PostgreSQL, DBeaver, Kibana, Figma, Miro, Pixso\nhttps://t.me/alex045045",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Российский государственный аграрный университет — МСХА имени К.А. Тимирязева, Москва",
+      "details": [
+        "Механика и энергетика, Эксплуатация транспортно-технологических машин и комплексов"
+      ],
+      "year": 2021,
+      "level": "Высшее образование",
+      "original": "Российский государственный аграрный университет — МСХА имени К.А. Тимирязева, Москва\nМеханика и энергетика, Эксплуатация транспортно-технологических машин и комплексов\n•\n2021\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №213\nРезюме: Тестировщик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 10 месяцев\nОпыт в похожих должностях:4 года 10 месяцев\nАпр 2024 -\nсейчас\n2 года 7 мес\nОрганизация 1\nМоскваrabota.sber.ru/\nФинансовый сектор\nQA MANUAL\nСберБизнес Онлайн\nСтек технологий: REST API, GRPC, PostgreSQL, MongoDB, Redis,Kafka , DropApp Kubernetes, Jenkins, Insomnia, Swagger, DevTools, Jira, Jira Zephyr, Pixso, Miro, Charles\nЗадачи:\n- Тестирую требования, валидирую аналитику\n- Тестирование Web , API, mobile\n- Тестирование Frontend UX/UI на соответствие требованиям и макетам.\n- Тестирование Backend REST API через HTTP-запросы Insomnia, Swagger.\n- Тестирование gRPC - методов для проверки корректности согласно требованиям\n- Тестирование интеграций со смежными командами и валидация данных в СУБД PostgreSQL.\n- Тестирование MongoDB для валидации тестовых данных\n- Тестирование нереляционной СУБД Redis\n- Замещаю ЛИДА на время отсутствия.\n- Собираю и готовю релизы в Jira, провожу демо и сопровождаю релиз в ПРОД\n- Просмотр и поиск ошибок в логах DropApp, Grafana, мониторинги.\n- Выполняю интеграционное, функциональное, регрессионное тестирование микросервисов, взаимодействую со смежными командами.\n- Участвую в разработке инновационного продукта для крупных клиентов банка\n- Участвую в дейли, демо,груминг и ретро встречах.\nРезультаты работы:\n- Придумал новую фичу, которую в последствии реализовали\n- Замещал Лида команды тестирования\nЯнв 2022 -\nМар 2024\n2 года 3 мес\nОрганизация 2\nМоскваwww.rolf.ru\nQA ENGINEER\nРольф - крупнейший автодилер. Принимал участие в разработке внутреннего web-продукта для ключевых сотрудников компании с полным циклом взаимодействия автомобиля и клиента - АСП , от записи на мойку до покупки и продажи целых автопарков.\nСтек технологий: Postman, REST API , Swagger, PostgreSQL, DBeaver, Jira, Zephyr, Confluence, GitLab, Kibana, ELK Stack, Kafka,Figma, Jenkis\nЗадачи:\n- Тестирование WEB и API\n- Проведение функционального, регрессионного, smoke тестирования.\n- Просмотр логов (Kibana, ELK Stack), проверка ошибок API и базы данных.\n- API-тестирование (REST API).\n- Отправка и анализ HTTP-запросов\n- Работа с БД PostgreSQL , SQL запросы\n- Проверка взаимодействия сервисов через Kafka.\n- Ведение тестовую документацию в Confluence, Jira Zephyr.\n- Создание баг-репорты, тест-кейсы, чек-листы.\n- Тестирование CRM, маркетплейса, сервисного портала и личного кабинета.\nРезультаты работы:\n-Внедрил ревью тест-кейсов, что позволило сократить количество инцидентов\n-Участие в онбординге новых сотрудников улучшило адаптацию и вовлеченность",
+    "skills": "Atlassian Jira\nApache Kafka\nPostgreSQL\nKubernetes\nCI/CD\nPostman\nElasticsearch\nDevtools\nREST API\nSwagger\nScrum\nCharles Proxy\nDBeaver\nBrowserStack\nFigma\nKibana\nAndroid Studio\nТест\nJenkins\nHTTP\nSQL\nQA\nGit\nZephyr Scale\nJSON API\nHTML\nSmoke-тестирование\nРегрессионное тестирование\nИнтеграционное тестирование\nПриемочное тестирование",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "QA ENGINEER MANUAL с 3-х летним опытом - стремлюсь развиваться и совершенствоваться. Опыт работы с Postman / Insomnia, Devtools, Dbeaver,MongoDB, Redis, Kafka Offset Explorer, Kibana, Jenkis, Figma, Miro, Pixso\nИщу дальнейшее развитие в AQA.\nJira, Atlassian Confluence, Azure DevOps, Agile, Scrum, Kanban, Postman, Swagger, Allure, Kafka, Jenkis, DevTools, Charles\nProxy, Android Studio, Git , SQL, PostgreSQL, DBeaver, Kibana, Figma, Miro, Pixso\nhttps://t.me/alex045045",
+    "education": "Уровень\nВысшее образование\nРоссийский государственный аграрный университет — МСХА имени К.А. Тимирязева, Москва\nМеханика и энергетика, Эксплуатация транспортно-технологических машин и комплексов\n•\n2021\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №213\nРезюме: Тестировщик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 10 месяцев\nОпыт в похожих должностях:4 года 10 месяцев\nАпр 2024 -\nсейчас\n2 года 7 мес\nОрганизация 1\nМоскваrabota.sber.ru/\nФинансовый сектор\nQA MANUAL\nСберБизнес Онлайн\nСтек технологий: REST API, GRPC, PostgreSQL, MongoDB, Redis,Kafka , DropApp Kubernetes, Jenkins, Insomnia, Swagger, DevTools, Jira, Jira Zephyr, Pixso, Miro, Charles\nЗадачи:\n- Тестирую требования, валидирую аналитику\n- Тестирование Web , API, mobile\n- Тестирование Frontend UX/UI на соответствие требованиям и макетам.\n- Тестирование Backend REST API через HTTP-запросы Insomnia, Swagger.\n- Тестирование gRPC - методов для проверки корректности согласно требованиям\n- Тестирование интеграций со смежными командами и валидация данных в СУБД PostgreSQL.\n- Тестирование MongoDB для валидации тестовых данных\n- Тестирование нереляционной СУБД Redis\n- Замещаю ЛИДА на время отсутствия.\n- Собираю и готовю релизы в Jira, провожу демо и сопровождаю релиз в ПРОД\n- Просмотр и поиск ошибок в логах DropApp, Grafana, мониторинги.\n- Выполняю интеграционное, функциональное, регрессионное тестирование микросервисов, взаимодействую со смежными командами.\n- Участвую в разработке инновационного продукта для крупных клиентов банка\n- Участвую в дейли, демо,груминг и ретро встречах.\nРезультаты работы:\n- Придумал новую фичу, которую в последствии реализовали\n- Замещал Лида команды тестирования\nЯнв 2022 -\nМар 2024\n2 года 3 мес\nОрганизация 2\nМоскваwww.rolf.ru\nQA ENGINEER\nРольф - крупнейший автодилер. Принимал участие в разработке внутреннего web-продукта для ключевых сотрудников компании с полным циклом взаимодействия автомобиля и клиента - АСП , от записи на мойку до покупки и продажи целых автопарков.\nСтек технологий: Postman, REST API , Swagger, PostgreSQL, DBeaver, Jira, Zephyr, Confluence, GitLab, Kibana, ELK Stack, Kafka,Figma, Jenkis\nЗадачи:\n- Тестирование WEB и API\n- Проведение функционального, регрессионного, smoke тестирования.\n- Просмотр логов (Kibana, ELK Stack), проверка ошибок API и базы данных.\n- API-тестирование (REST API).\n- Отправка и анализ HTTP-запросов\n- Работа с БД PostgreSQL , SQL запросы\n- Проверка взаимодействия сервисов через Kafka.\n- Ведение тестовую документацию в Confluence, Jira Zephyr.\n- Создание баг-репорты, тест-кейсы, чек-листы.\n- Тестирование CRM, маркетплейса, сервисного портала и личного кабинета.\nРезультаты работы:\n-Внедрил ревью тест-кейсов, что позволило сократить количество инцидентов\n-Участие в онбординге новых сотрудников улучшило адаптацию и вовлеченность\n\nНавыки\nAtlassian Jira\nApache Kafka\nPostgreSQL\nKubernetes\nCI/CD\nPostman\nElasticsearch\nDevtools\nREST API\nSwagger\nScrum\nCharles Proxy\nDBeaver\nBrowserStack\nFigma\nKibana\nAndroid Studio\nТест\nJenkins\nHTTP\nSQL\nQA\nGit\nZephyr Scale\nJSON API\nHTML\nSmoke-тестирование\nРегрессионное тестирование\nИнтеграционное тестирование\nПриемочное тестирование\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nQA ENGINEER MANUAL с 3-х летним опытом - стремлюсь развиваться и совершенствоваться. Опыт работы с Postman / Insomnia, Devtools, Dbeaver,MongoDB, Redis, Kafka Offset Explorer, Kibana, Jenkis, Figma, Miro, Pixso\nИщу дальнейшее развитие в AQA.\nJira, Atlassian Confluence, Azure DevOps, Agile, Scrum, Kanban, Postman, Swagger, Allure, Kafka, Jenkis, DevTools, Charles\nProxy, Android Studio, Git , SQL, PostgreSQL, DBeaver, Kibana, Figma, Miro, Pixso\nhttps://t.me/alex045045\n\nОбразование\nУровень\nВысшее образование\nРоссийский государственный аграрный университет — МСХА имени К.А. Тимирязева, Москва\nМеханика и энергетика, Эксплуатация транспортно-технологических машин и комплексов\n•\n2021\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

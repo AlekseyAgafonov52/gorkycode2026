@@ -1,0 +1,222 @@
+{
+  "candidate_id": 341,
+  "resume_title": "Тестировщик ПО / Manual QA Engineer / Mobile QA Engineer",
+  "cover_letter": null,
+  "experience_total_months": 39,
+  "similar_experience_months": 39,
+  "work_experience": [
+    {
+      "start_date": "2021-11",
+      "end_date": "2025-01",
+      "is_current": false,
+      "duration_months": 39,
+      "organization": "Организация 1",
+      "position": "Middle QA Engineer",
+      "employer_details": [
+        "Новосибирскykky.ru/"
+      ],
+      "description": "- Участие в тестировании fintech-продуктов в сфере микрокредитования (PDL-займы)\n- Комплексное тестирование веб-приложений: frontend, backend и REST API\n- Опыт тестирования микросервисных решений: интеграционное тестирование сервисов, контроль корректности данных, анализ работы системы в целом\n- Работа с API через Postman (создание коллекций, настройка и выполнение запросов)\n- Анализ сетевого трафика с помощью Charles Proxy и Proxyman\n- Анализ и отладка веб-приложений с использованием Chrome DevTools\n- Проверка вёрстки и взаимодействие с макетами в Figma\n- Кроссплатформенное и кроссбраузерное тестирование с использованием BrowserStack\n- Подготовка тестовых данных на dev-средах, работа с админ-панелью\n- Работа с СУБД PostgreSQL через DBeaver, написание SQL-запросов\n- Анализ логов и ошибок в Sentry\n- Мониторинг сообщений в Apache Kafka\n- Создание и поддержка тестовой документации: тест-кейсы, чек-листы в плагине Jira Zephyr Scale\n- Ведение баг-репортов в Jira, отслеживание их исправления\n- Корректировка требований и создание QA-документации в Confluence\n- Работа с бизнес-процессами, описанными в интерактивной онлайн-доске Miro\n- Работа по Scrum, взаимодействие с командой разработки\n- Тестировал мобильные приложения на реальных устройствах на базе iOS и Android\n- Новые билды TestFlight и AppTester\n- Работал с эмуляторами Android Studio и Xcode\n- Debug-меню\n- Крашлитика в Firebase\n- Внедрил чек-листы и тест-кейсы в Zephyr Scale (Jira), что сократило время проверок на 20-30%\n- Инициировал регулярный анализ логов в Sentry для выявления скрытых проблем до выпуска версии, что снизило количество критических багов в продакшене на 15-25%",
+      "original": "Ноя 2021 -\nЯнв 2025\n3 года 3 мес\nОрганизация 1\nНовосибирскykky.ru/\nMiddle QA Engineer\n- Участие в тестировании fintech-продуктов в сфере микрокредитования (PDL-займы)\n- Комплексное тестирование веб-приложений: frontend, backend и REST API\n- Опыт тестирования микросервисных решений: интеграционное тестирование сервисов, контроль корректности данных, анализ работы системы в целом\n- Работа с API через Postman (создание коллекций, настройка и выполнение запросов)\n- Анализ сетевого трафика с помощью Charles Proxy и Proxyman\n- Анализ и отладка веб-приложений с использованием Chrome DevTools\n- Проверка вёрстки и взаимодействие с макетами в Figma\n- Кроссплатформенное и кроссбраузерное тестирование с использованием BrowserStack\n- Подготовка тестовых данных на dev-средах, работа с админ-панелью\n- Работа с СУБД PostgreSQL через DBeaver, написание SQL-запросов\n- Анализ логов и ошибок в Sentry\n- Мониторинг сообщений в Apache Kafka\n- Создание и поддержка тестовой документации: тест-кейсы, чек-листы в плагине Jira Zephyr Scale\n- Ведение баг-репортов в Jira, отслеживание их исправления\n- Корректировка требований и создание QA-документации в Confluence\n- Работа с бизнес-процессами, описанными в интерактивной онлайн-доске Miro\n- Работа по Scrum, взаимодействие с командой разработки\n- Тестировал мобильные приложения на реальных устройствах на базе iOS и Android\n- Новые билды TestFlight и AppTester\n- Работал с эмуляторами Android Studio и Xcode\n- Debug-меню\n- Крашлитика в Firebase\n- Внедрил чек-листы и тест-кейсы в Zephyr Scale (Jira), что сократило время проверок на 20-30%\n- Инициировал регулярный анализ логов в Sentry для выявления скрытых проблем до выпуска версии, что снизило количество критических багов в продакшене на 15-25%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Confluence",
+      "level": "advanced",
+      "original": "Atlassian Confluence"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": "advanced",
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "XML",
+      "level": "advanced",
+      "original": "XML"
+    },
+    {
+      "name": "Scrum",
+      "level": "advanced",
+      "original": "Scrum"
+    },
+    {
+      "name": "СУБД",
+      "level": "advanced",
+      "original": "СУБД"
+    },
+    {
+      "name": "Базы данных",
+      "level": "advanced",
+      "original": "Базы данных"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Ручное тестирование",
+      "level": "advanced",
+      "original": "Ручное тестирование"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "JSON",
+      "level": "advanced",
+      "original": "JSON"
+    },
+    {
+      "name": "Swagger",
+      "level": "advanced",
+      "original": "Swagger"
+    },
+    {
+      "name": "Kafka",
+      "level": "advanced",
+      "original": "Kafka"
+    },
+    {
+      "name": "DevTools",
+      "level": "advanced",
+      "original": "DevTools"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": "advanced",
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "Интеграционное тестирование",
+      "level": "advanced",
+      "original": "Интеграционное тестирование"
+    },
+    {
+      "name": "DBeaver",
+      "level": "advanced",
+      "original": "DBeaver"
+    },
+    {
+      "name": "Jira Zephyr Scale",
+      "level": "advanced",
+      "original": "Jira Zephyr Scale"
+    },
+    {
+      "name": "Charles Proxy",
+      "level": "advanced",
+      "original": "Charles Proxy"
+    },
+    {
+      "name": "Figma",
+      "level": "advanced",
+      "original": "Figma"
+    },
+    {
+      "name": "Proxyman",
+      "level": "advanced",
+      "original": "Proxyman"
+    },
+    {
+      "name": "Miro",
+      "level": "advanced",
+      "original": "Miro"
+    },
+    {
+      "name": "Test case",
+      "level": "advanced",
+      "original": "Test case"
+    },
+    {
+      "name": "Android Studio",
+      "level": "advanced",
+      "original": "Android Studio"
+    },
+    {
+      "name": "Xcode",
+      "level": "advanced",
+      "original": "Xcode"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Инженер по обеспечению качества с более чем 3-х летним опытом тестирования web/mobile приложений и API. Обладаю как опытом командной работы, так и способностью эффективно работать автономно в роли единственного QA на проекте.\nИщу компанию, в которой смог бы развивать профессиональные навыки и быть полезным в развитии компании\nСтек:\n- Postman, REST, API, Charles Proxy, Proxyman, Chrome DevTools, HTTP/HTTPS\n- PostgreSQL, DBeaver, SQL, Sentry, Apache Kafka\n- Jira Zephyr Scale, Jira, Confluence, Figma, AppMetrica\n- Agile, Scrum, Miro\n- Xcode, Android Studio\nКонтакты для связи:\nTelegram: @hugoborzini",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "СГУ имени Н.Г. Чернышевского",
+      "details": [
+        "Геологический, Нефтегазовое дело"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "СГУ имени Н.Г. Чернышевского\nГеологический, Нефтегазовое дело\n•\n2022\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №341\nРезюме: Тестировщик ПО / Manual QA Engineer / Mobile QA Engineer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 3 месяца\nОпыт в похожих должностях:3 года 3 месяца\nНоя 2021 -\nЯнв 2025\n3 года 3 мес\nОрганизация 1\nНовосибирскykky.ru/\nMiddle QA Engineer\n- Участие в тестировании fintech-продуктов в сфере микрокредитования (PDL-займы)\n- Комплексное тестирование веб-приложений: frontend, backend и REST API\n- Опыт тестирования микросервисных решений: интеграционное тестирование сервисов, контроль корректности данных, анализ работы системы в целом\n- Работа с API через Postman (создание коллекций, настройка и выполнение запросов)\n- Анализ сетевого трафика с помощью Charles Proxy и Proxyman\n- Анализ и отладка веб-приложений с использованием Chrome DevTools\n- Проверка вёрстки и взаимодействие с макетами в Figma\n- Кроссплатформенное и кроссбраузерное тестирование с использованием BrowserStack\n- Подготовка тестовых данных на dev-средах, работа с админ-панелью\n- Работа с СУБД PostgreSQL через DBeaver, написание SQL-запросов\n- Анализ логов и ошибок в Sentry\n- Мониторинг сообщений в Apache Kafka\n- Создание и поддержка тестовой документации: тест-кейсы, чек-листы в плагине Jira Zephyr Scale\n- Ведение баг-репортов в Jira, отслеживание их исправления\n- Корректировка требований и создание QA-документации в Confluence\n- Работа с бизнес-процессами, описанными в интерактивной онлайн-доске Miro\n- Работа по Scrum, взаимодействие с командой разработки\n- Тестировал мобильные приложения на реальных устройствах на базе iOS и Android\n- Новые билды TestFlight и AppTester\n- Работал с эмуляторами Android Studio и Xcode\n- Debug-меню\n- Крашлитика в Firebase\n- Внедрил чек-листы и тест-кейсы в Zephyr Scale (Jira), что сократило время проверок на 20-30%\n- Инициировал регулярный анализ логов в Sentry для выявления скрытых проблем до выпуска версии, что снизило количество критических багов в продакшене на 15-25%",
+    "skills": "Продвинутый уровень\nAtlassian Jira\nSQL\nAtlassian Confluence\nФункциональное тестирование\nPostgreSQL\nHTML\nXML\nScrum\nСУБД\nБазы данных\nPostman\nAPI\nРучное тестирование\nREST\nJSON\nSwagger\nKafka\nDevTools\nРегрессионное тестирование\nИнтеграционное тестирование\nDBeaver\nJira Zephyr Scale\nCharles Proxy\nFigma\nProxyman\nMiro\nTest case\nAndroid Studio\nXcode\nLinux",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Инженер по обеспечению качества с более чем 3-х летним опытом тестирования web/mobile приложений и API. Обладаю как опытом командной работы, так и способностью эффективно работать автономно в роли единственного QA на проекте.\nИщу компанию, в которой смог бы развивать профессиональные навыки и быть полезным в развитии компании\nСтек:\n- Postman, REST, API, Charles Proxy, Proxyman, Chrome DevTools, HTTP/HTTPS\n- PostgreSQL, DBeaver, SQL, Sentry, Apache Kafka\n- Jira Zephyr Scale, Jira, Confluence, Figma, AppMetrica\n- Agile, Scrum, Miro\n- Xcode, Android Studio\nКонтакты для связи:\nTelegram: @hugoborzini",
+    "education": "Уровень\nВысшее образование\nСГУ имени Н.Г. Чернышевского\nГеологический, Нефтегазовое дело\n•\n2022\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №341\nРезюме: Тестировщик ПО / Manual QA Engineer / Mobile QA Engineer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 3 месяца\nОпыт в похожих должностях:3 года 3 месяца\nНоя 2021 -\nЯнв 2025\n3 года 3 мес\nОрганизация 1\nНовосибирскykky.ru/\nMiddle QA Engineer\n- Участие в тестировании fintech-продуктов в сфере микрокредитования (PDL-займы)\n- Комплексное тестирование веб-приложений: frontend, backend и REST API\n- Опыт тестирования микросервисных решений: интеграционное тестирование сервисов, контроль корректности данных, анализ работы системы в целом\n- Работа с API через Postman (создание коллекций, настройка и выполнение запросов)\n- Анализ сетевого трафика с помощью Charles Proxy и Proxyman\n- Анализ и отладка веб-приложений с использованием Chrome DevTools\n- Проверка вёрстки и взаимодействие с макетами в Figma\n- Кроссплатформенное и кроссбраузерное тестирование с использованием BrowserStack\n- Подготовка тестовых данных на dev-средах, работа с админ-панелью\n- Работа с СУБД PostgreSQL через DBeaver, написание SQL-запросов\n- Анализ логов и ошибок в Sentry\n- Мониторинг сообщений в Apache Kafka\n- Создание и поддержка тестовой документации: тест-кейсы, чек-листы в плагине Jira Zephyr Scale\n- Ведение баг-репортов в Jira, отслеживание их исправления\n- Корректировка требований и создание QA-документации в Confluence\n- Работа с бизнес-процессами, описанными в интерактивной онлайн-доске Miro\n- Работа по Scrum, взаимодействие с командой разработки\n- Тестировал мобильные приложения на реальных устройствах на базе iOS и Android\n- Новые билды TestFlight и AppTester\n- Работал с эмуляторами Android Studio и Xcode\n- Debug-меню\n- Крашлитика в Firebase\n- Внедрил чек-листы и тест-кейсы в Zephyr Scale (Jira), что сократило время проверок на 20-30%\n- Инициировал регулярный анализ логов в Sentry для выявления скрытых проблем до выпуска версии, что снизило количество критических багов в продакшене на 15-25%\n\nНавыки\nПродвинутый уровень\nAtlassian Jira\nSQL\nAtlassian Confluence\nФункциональное тестирование\nPostgreSQL\nHTML\nXML\nScrum\nСУБД\nБазы данных\nPostman\nAPI\nРучное тестирование\nREST\nJSON\nSwagger\nKafka\nDevTools\nРегрессионное тестирование\nИнтеграционное тестирование\nDBeaver\nJira Zephyr Scale\nCharles Proxy\nFigma\nProxyman\nMiro\nTest case\nAndroid Studio\nXcode\nLinux\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nИнженер по обеспечению качества с более чем 3-х летним опытом тестирования web/mobile приложений и API. Обладаю как опытом командной работы, так и способностью эффективно работать автономно в роли единственного QA на проекте.\nИщу компанию, в которой смог бы развивать профессиональные навыки и быть полезным в развитии компании\nСтек:\n- Postman, REST, API, Charles Proxy, Proxyman, Chrome DevTools, HTTP/HTTPS\n- PostgreSQL, DBeaver, SQL, Sentry, Apache Kafka\n- Jira Zephyr Scale, Jira, Confluence, Figma, AppMetrica\n- Agile, Scrum, Miro\n- Xcode, Android Studio\nКонтакты для связи:\nTelegram: @hugoborzini\n\nОбразование\nУровень\nВысшее образование\nСГУ имени Н.Г. Чернышевского\nГеологический, Нефтегазовое дело\n•\n2022\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

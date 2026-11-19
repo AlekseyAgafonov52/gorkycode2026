@@ -1,0 +1,149 @@
+{
+  "candidate_id": 181,
+  "resume_title": "Java-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 22,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 22,
+      "organization": "Организация 1",
+      "position": "Java-разработчик",
+      "employer_details": [],
+      "description": "Написал микросервисную систему управления банковскими картами на Spring .\nВ приложении было использованы:\nВ для обмена сообщениями между микросервисами использовалась Kafka.\nАутентификация и авторизация на основе JWT-токенов с использованием Spring Security.\nРабота с данными через Spring Data JPA с СУБД PostgreSQL.\nКэширование данных с помощью Redis.\nНаписаны Unit тесты и Mock тесты.\nНаписал собственный Spring Boot Starter.\nНаписал проект для управления банковскими картами, через REST API.\nВ приложении было использованы:\nАутентификация и авторизация на основе JWT-токенов с использованием Spring Security.\nРабота с данными через Spring Data JPA с СУБД PostgreSQL.\nНаписаны тесты.\nРеализована OpenAPI-спецификация через Swagger для документирования API.\nСоздал свой Telegram-бота на Java для автоматизации подсчета производственных показателей и записей их в базу данных.\nИспользовал Spring, Maven, Hibernate развернул бота на сервере с помощью Docker;\nВ качестве базы данных использовался Postgresql;",
+      "original": "Янв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nJava-разработчик\nНаписал микросервисную систему управления банковскими картами на Spring .\nВ приложении было использованы:\nВ для обмена сообщениями между микросервисами использовалась Kafka.\nАутентификация и авторизация на основе JWT-токенов с использованием Spring Security.\nРабота с данными через Spring Data JPA с СУБД PostgreSQL.\nКэширование данных с помощью Redis.\nНаписаны Unit тесты и Mock тесты.\nНаписал собственный Spring Boot Starter.\nНаписал проект для управления банковскими картами, через REST API.\nВ приложении было использованы:\nАутентификация и авторизация на основе JWT-токенов с использованием Spring Security.\nРабота с данными через Spring Data JPA с СУБД PostgreSQL.\nНаписаны тесты.\nРеализована OpenAPI-спецификация через Swagger для документирования API.\nСоздал свой Telegram-бота на Java для автоматизации подсчета производственных показателей и записей их в базу данных.\nИспользовал Spring, Maven, Hibernate развернул бота на сервере с помощью Docker;\nВ качестве базы данных использовался Postgresql;"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "advanced",
+      "original": "Java"
+    },
+    {
+      "name": "Apache Maven",
+      "level": "advanced",
+      "original": "Apache Maven"
+    },
+    {
+      "name": "Intellij IDEA",
+      "level": "advanced",
+      "original": "Intellij IDEA"
+    },
+    {
+      "name": "Hibernate",
+      "level": "advanced",
+      "original": "Hibernate"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Spring Framework",
+      "level": "advanced",
+      "original": "Spring Framework"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "JUnit",
+      "level": "advanced",
+      "original": "JUnit"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "HTTP",
+      "level": "advanced",
+      "original": "HTTP"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Начинающий Java-разработчик с опытом разработки учебных проектов.\nВладею основными технологиями: Java, Spring, Hibernate/JPA, PostgreSQL , Git, Maven,Kafka , Docker, Kubernetes, Linux, Redis.\nРешаю задачки на LeetCode, для улучшение знаний алгоритмов, структур данных и SQL-запросов.\nСтремлюсь присоединиться команде для профессионального роста и участия в реальных проектах.",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Самарский национальный исследовательский университет имени академика С.П. Королева, Самара",
+      "details": [
+        "Естественно-научный, Наноинженер"
+      ],
+      "year": 2024,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Самарский национальный исследовательский университет имени академика С.П. Королева, Самара\nЕстественно-научный, Наноинженер\n•\n2024\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №181\nРезюме: Java-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 10 месяцев\nЯнв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nJava-разработчик\nНаписал микросервисную систему управления банковскими картами на Spring .\nВ приложении было использованы:\nВ для обмена сообщениями между микросервисами использовалась Kafka.\nАутентификация и авторизация на основе JWT-токенов с использованием Spring Security.\nРабота с данными через Spring Data JPA с СУБД PostgreSQL.\nКэширование данных с помощью Redis.\nНаписаны Unit тесты и Mock тесты.\nНаписал собственный Spring Boot Starter.\nНаписал проект для управления банковскими картами, через REST API.\nВ приложении было использованы:\nАутентификация и авторизация на основе JWT-токенов с использованием Spring Security.\nРабота с данными через Spring Data JPA с СУБД PostgreSQL.\nНаписаны тесты.\nРеализована OpenAPI-спецификация через Swagger для документирования API.\nСоздал свой Telegram-бота на Java для автоматизации подсчета производственных показателей и записей их в базу данных.\nИспользовал Spring, Maven, Hibernate развернул бота на сервере с помощью Docker;\nВ качестве базы данных использовался Postgresql;",
+    "skills": "Продвинутый уровень\nJava\nApache Maven\nIntellij IDEA\nHibernate\nPostgreSQL\nSpring Framework\nLinux\nDocker\nREST API\nGit\nАнглийский язык\nJUnit\nООП\nHTTP\nApache Kafka\nRedis\nKubernetes",
+    "languages": "Родной\nРусский",
+    "about_me": "Начинающий Java-разработчик с опытом разработки учебных проектов.\nВладею основными технологиями: Java, Spring, Hibernate/JPA, PostgreSQL , Git, Maven,Kafka , Docker, Kubernetes, Linux, Redis.\nРешаю задачки на LeetCode, для улучшение знаний алгоритмов, структур данных и SQL-запросов.\nСтремлюсь присоединиться команде для профессионального роста и участия в реальных проектах.",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nСамарский национальный исследовательский университет имени академика С.П. Королева, Самара\nЕстественно-научный, Наноинженер\n•\n2024\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №181\nРезюме: Java-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 10 месяцев\nЯнв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nJava-разработчик\nНаписал микросервисную систему управления банковскими картами на Spring .\nВ приложении было использованы:\nВ для обмена сообщениями между микросервисами использовалась Kafka.\nАутентификация и авторизация на основе JWT-токенов с использованием Spring Security.\nРабота с данными через Spring Data JPA с СУБД PostgreSQL.\nКэширование данных с помощью Redis.\nНаписаны Unit тесты и Mock тесты.\nНаписал собственный Spring Boot Starter.\nНаписал проект для управления банковскими картами, через REST API.\nВ приложении было использованы:\nАутентификация и авторизация на основе JWT-токенов с использованием Spring Security.\nРабота с данными через Spring Data JPA с СУБД PostgreSQL.\nНаписаны тесты.\nРеализована OpenAPI-спецификация через Swagger для документирования API.\nСоздал свой Telegram-бота на Java для автоматизации подсчета производственных показателей и записей их в базу данных.\nИспользовал Spring, Maven, Hibernate развернул бота на сервере с помощью Docker;\nВ качестве базы данных использовался Postgresql;\n\nНавыки\nПродвинутый уровень\nJava\nApache Maven\nIntellij IDEA\nHibernate\nPostgreSQL\nSpring Framework\nLinux\nDocker\nREST API\nGit\nАнглийский язык\nJUnit\nООП\nHTTP\nApache Kafka\nRedis\nKubernetes\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНачинающий Java-разработчик с опытом разработки учебных проектов.\nВладею основными технологиями: Java, Spring, Hibernate/JPA, PostgreSQL , Git, Maven,Kafka , Docker, Kubernetes, Linux, Redis.\nРешаю задачки на LeetCode, для улучшение знаний алгоритмов, структур данных и SQL-запросов.\nСтремлюсь присоединиться команде для профессионального роста и участия в реальных проектах.\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nСамарский национальный исследовательский университет имени академика С.П. Королева, Самара\nЕстественно-научный, Наноинженер\n•\n2024\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

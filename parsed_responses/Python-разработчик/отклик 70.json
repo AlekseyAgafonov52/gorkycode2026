@@ -1,0 +1,192 @@
+{
+  "candidate_id": 70,
+  "resume_title": "Python Backend Developer",
+  "cover_letter": "Привет!\nЯ владею всеми указанными навыками (включая те, которые указаны как плюс) и у меня есть опыт решения указанных задач, поэтому хотел бы пообщаться и в дальнейшем работать с вашей командой\nМое резюме: https://disk.yandex.ru/i/a1BrsXLvI4Wy4Q",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "JavaScript",
+      "level": "basic",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Flask",
+      "level": null,
+      "original": "Flask"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "CI/CD",
+      "level": null,
+      "original": "CI/CD"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": null,
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "NoSQL",
+      "level": null,
+      "original": "NoSQL"
+    },
+    {
+      "name": "Kubernetes",
+      "level": null,
+      "original": "Kubernetes"
+    },
+    {
+      "name": "Clickhouse",
+      "level": null,
+      "original": "Clickhouse"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "Agile",
+      "level": null,
+      "original": "Agile"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "Микросервисная архитектура",
+      "level": null,
+      "original": "Микросервисная архитектура"
+    },
+    {
+      "name": "Backend",
+      "level": null,
+      "original": "Backend"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "5 лет обучаюсь и разрабатываю собственные проекты. Делал проекты под нагрузку действующих продуктов. Нравится функциональное программирование / моделирование, и есть несколько своих библиотек под это\nСтек: FastAPI, Django, Django Rest Framework (DRF), Flask, SQLAlchemy, PostgreSQL, MongoDB, Redis, ClickHouse, Apache Kafka, Docker, Kubernetes, Linux, git, Nginx, JavaScript, TypeScript, HTML, CSS\nСайт задеплоеных проектов: https://smolin.space\nCV: https://disk.yandex.ru/i/a1BrsXLvI4Wy4Q\nGithub: https://github.com/emptybutton\nTelegram: https://t.me/submitbutton",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №70\nРезюме: Python Backend Developer",
+    "cover_letter": "Привет!\nЯ владею всеми указанными навыками (включая те, которые указаны как плюс) и у меня есть опыт решения указанных задач, поэтому хотел бы пообщаться и в дальнейшем работать с вашей командой\nМое резюме: https://disk.yandex.ru/i/a1BrsXLvI4Wy4Q",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Средний уровень\nPython\nООП\nБазовый уровень\nGit\nJavaScript\nУровень не указан\nDjango\nPostgreSQL\nRedis\nDocker\nFlask\nNginx\nHTML\nLinux\nCSS\nTypeScript\nCI/CD\nPytest\nFastAPI\nApache Kafka\nSQLAlchemy\nMongoDB\nREST API\nSQL\nNoSQL\nKubernetes\nClickhouse\nAPI\nAgile\nGitlab\nМикросервисная архитектура\nBackend",
+    "languages": "Родной\nРусский",
+    "about_me": "5 лет обучаюсь и разрабатываю собственные проекты. Делал проекты под нагрузку действующих продуктов. Нравится функциональное программирование / моделирование, и есть несколько своих библиотек под это\nСтек: FastAPI, Django, Django Rest Framework (DRF), Flask, SQLAlchemy, PostgreSQL, MongoDB, Redis, ClickHouse, Apache Kafka, Docker, Kubernetes, Linux, git, Nginx, JavaScript, TypeScript, HTML, CSS\nСайт задеплоеных проектов: https://smolin.space\nCV: https://disk.yandex.ru/i/a1BrsXLvI4Wy4Q\nGithub: https://github.com/emptybutton\nTelegram: https://t.me/submitbutton",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №70\nРезюме: Python Backend Developer\n\nСопроводительное письмо\nПривет!\nЯ владею всеми указанными навыками (включая те, которые указаны как плюс) и у меня есть опыт решения указанных задач, поэтому хотел бы пообщаться и в дальнейшем работать с вашей командой\nМое резюме: https://disk.yandex.ru/i/a1BrsXLvI4Wy4Q\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nСредний уровень\nPython\nООП\nБазовый уровень\nGit\nJavaScript\nУровень не указан\nDjango\nPostgreSQL\nRedis\nDocker\nFlask\nNginx\nHTML\nLinux\nCSS\nTypeScript\nCI/CD\nPytest\nFastAPI\nApache Kafka\nSQLAlchemy\nMongoDB\nREST API\nSQL\nNoSQL\nKubernetes\nClickhouse\nAPI\nAgile\nGitlab\nМикросервисная архитектура\nBackend\n\nЯзыки\nРодной\nРусский\n\nОбо мне\n5 лет обучаюсь и разрабатываю собственные проекты. Делал проекты под нагрузку действующих продуктов. Нравится функциональное программирование / моделирование, и есть несколько своих библиотек под это\nСтек: FastAPI, Django, Django Rest Framework (DRF), Flask, SQLAlchemy, PostgreSQL, MongoDB, Redis, ClickHouse, Apache Kafka, Docker, Kubernetes, Linux, git, Nginx, JavaScript, TypeScript, HTML, CSS\nСайт задеплоеных проектов: https://smolin.space\nCV: https://disk.yandex.ru/i/a1BrsXLvI4Wy4Q\nGithub: https://github.com/emptybutton\nTelegram: https://t.me/submitbutton\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

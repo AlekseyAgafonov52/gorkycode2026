@@ -1,0 +1,184 @@
+{
+  "candidate_id": 22,
+  "resume_title": "Программист-разработчик",
+  "cover_letter": "Добрый день, думаю мой опыт может быть вам полезен, жду обратной связи!",
+  "experience_total_months": 70,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2021-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 70,
+      "organization": "Организация 1",
+      "position": "Lead",
+      "employer_details": [],
+      "description": "Разрабатывал торговых ботов и торговые алгоритмы на популярных криптобиржах (binance, bybit, okx). В том числе многопользовательские сайты с ботами, отвечал за backend составляющую.",
+      "original": "Янв 2021 -\nсейчас\n5 лет 10 мес\nОрганизация 1\nLead\nРазрабатывал торговых ботов и торговые алгоритмы на популярных криптобиржах (binance, bybit, okx). В том числе многопользовательские сайты с ботами, отвечал за backend составляющую."
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Работа с базами данных",
+      "level": "advanced",
+      "original": "Работа с базами данных"
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Разработка ПО",
+      "level": "advanced",
+      "original": "Разработка ПО"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Аналитическое мышление",
+      "level": "advanced",
+      "original": "Аналитическое мышление"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Selenium",
+      "level": "advanced",
+      "original": "Selenium"
+    },
+    {
+      "name": "Playwright",
+      "level": "advanced",
+      "original": "Playwright"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Selery",
+      "level": "advanced",
+      "original": "Selery"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "pandas",
+      "level": "advanced",
+      "original": "pandas"
+    },
+    {
+      "name": "NumPy",
+      "level": "advanced",
+      "original": "Numpy"
+    },
+    {
+      "name": "torch",
+      "level": "advanced",
+      "original": "torch"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "intermediate",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "Apache Airflow",
+      "level": "intermediate",
+      "original": "Apache Airflow"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Нижегородский институт управления Российской академии государственной службы при Президенте Российской Федерации, Нижний Новгород",
+      "details": [
+        "Экономический, Финансы и кредит"
+      ],
+      "year": 2021,
+      "level": "Высшее образование",
+      "original": "Нижегородский институт управления Российской академии государственной службы при Президенте Российской Федерации, Нижний Новгород\nЭкономический, Финансы и кредит\n•\n2021\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №22\nРезюме: Программист-разработчик",
+    "cover_letter": "Добрый день, думаю мой опыт может быть вам полезен, жду обратной связи!",
+    "experience": "Опыт работы: 5 лет 10 месяцев\nЯнв 2021 -\nсейчас\n5 лет 10 мес\nОрганизация 1\nLead\nРазрабатывал торговых ботов и торговые алгоритмы на популярных криптобиржах (binance, bybit, okx). В том числе многопользовательские сайты с ботами, отвечал за backend составляющую.",
+    "skills": "Продвинутый уровень\nSQL\nРабота с базами данных\nPython\nРазработка ПО\nAPI\nАналитическое мышление\nNginx\nRedis\nGit\nSelenium\nPlaywright\nFastAPI\nSelery\nFlask\nDjango Framework\nMongoDB\nRabbitMQ\nREST API\npandas\nNumpy\ntorch\nСредний уровень\nLinux\nApache Kafka\nApache Airflow",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nНижегородский институт управления Российской академии государственной службы при Президенте Российской Федерации, Нижний Новгород\nЭкономический, Финансы и кредит\n•\n2021\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №22\nРезюме: Программист-разработчик\n\nСопроводительное письмо\nДобрый день, думаю мой опыт может быть вам полезен, жду обратной связи!\n\nОпыт работы\nОпыт работы: 5 лет 10 месяцев\nЯнв 2021 -\nсейчас\n5 лет 10 мес\nОрганизация 1\nLead\nРазрабатывал торговых ботов и торговые алгоритмы на популярных криптобиржах (binance, bybit, okx). В том числе многопользовательские сайты с ботами, отвечал за backend составляющую.\n\nНавыки\nПродвинутый уровень\nSQL\nРабота с базами данных\nPython\nРазработка ПО\nAPI\nАналитическое мышление\nNginx\nRedis\nGit\nSelenium\nPlaywright\nFastAPI\nSelery\nFlask\nDjango Framework\nMongoDB\nRabbitMQ\nREST API\npandas\nNumpy\ntorch\nСредний уровень\nLinux\nApache Kafka\nApache Airflow\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nНижегородский институт управления Российской академии государственной службы при Президенте Российской Федерации, Нижний Новгород\nЭкономический, Финансы и кредит\n•\n2021\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,213 @@
+{
+  "candidate_id": 45,
+  "resume_title": "Junior разработчик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Ruby On Rails",
+      "level": null,
+      "original": "Ruby On Rails"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Node.js",
+      "level": null,
+      "original": "Node.js"
+    },
+    {
+      "name": "jQuery",
+      "level": null,
+      "original": "jQuery"
+    },
+    {
+      "name": "Ruby",
+      "level": null,
+      "original": "Ruby"
+    },
+    {
+      "name": "Vue.js",
+      "level": null,
+      "original": "Vue.js"
+    },
+    {
+      "name": "Web Application Development",
+      "level": null,
+      "original": "Web Application Development"
+    },
+    {
+      "name": "Express.js",
+      "level": null,
+      "original": "Express.js"
+    },
+    {
+      "name": "MVC",
+      "level": null,
+      "original": "MVC"
+    },
+    {
+      "name": "Bootstrap",
+      "level": null,
+      "original": "Bootstrap"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "Базы данных",
+      "level": null,
+      "original": "Базы данных"
+    },
+    {
+      "name": "ООП",
+      "level": null,
+      "original": "ООП"
+    },
+    {
+      "name": "Canva",
+      "level": null,
+      "original": "Canva"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "JSON API",
+      "level": null,
+      "original": "JSON API"
+    },
+    {
+      "name": "npm",
+      "level": null,
+      "original": "npm"
+    },
+    {
+      "name": "ES6",
+      "level": null,
+      "original": "ES6"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS3"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML5"
+    },
+    {
+      "name": "Ajax",
+      "level": null,
+      "original": "Ajax"
+    },
+    {
+      "name": "Sass",
+      "level": null,
+      "original": "Sass"
+    },
+    {
+      "name": "Английский язык",
+      "level": null,
+      "original": "Английский язык"
+    },
+    {
+      "name": "БЭМ",
+      "level": null,
+      "original": "БЭМ"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    },
+    {
+      "name": "Немецкий",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Немецкий — B1 — Средний"
+    }
+  ],
+  "about_me": "Junior Разработчик с бэкграундом в области дизайна социальных сетей и CMS. Недавний выпускник интенсивного курса Le Wagon Web Development Bootcamp. Стремлюсь привнести креативность и технические навыки в качестве Веб-разработчика. Ключевые навыки: JavaScript, Node.js, Vue.js, Ruby on Rails, PostgreSQL, HTML, CSS, Figma\nLinkedin: linkedin.com/in/valeriia-chavdar/\nGithub: github.com/valerie-ctrl\nПортфолио: troopl.com/valeriiachavdar",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Le Wagon Intensive Coding Bootcamp",
+      "details": [
+        "Web-development, Ruby on Rails"
+      ],
+      "year": 2023,
+      "level": "Среднее специальное образование",
+      "original": "Le Wagon Intensive Coding Bootcamp\nWeb-development, Ruby on Rails\n•\n2023\n•\nСреднее специальное образование"
+    },
+    {
+      "institution": "Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации, Москва",
+      "details": [
+        "Прикладная информатика, Техник-программист"
+      ],
+      "year": 2022,
+      "level": "Среднее специальное образование",
+      "original": "Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации, Москва\nПрикладная информатика, Техник-программист\n•\n2022\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готова к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №45\nРезюме: Junior разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Ruby On Rails\nJavaScript\nGit\nHTML\nPostgreSQL\nNode.js\njQuery\nRuby\nVue.js\nWeb Application Development\nExpress.js\nMVC\nBootstrap\nMongoDB\nБазы данных\nООП\nCanva\nREST API\nJSON API\nnpm\nES6\nCSS\nCSS3\nHTML5\nAjax\nSass\nАнглийский язык\nБЭМ",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\nНемецкий — B1 — Средний",
+    "about_me": "Junior Разработчик с бэкграундом в области дизайна социальных сетей и CMS. Недавний выпускник интенсивного курса Le Wagon Web Development Bootcamp. Стремлюсь привнести креативность и технические навыки в качестве Веб-разработчика. Ключевые навыки: JavaScript, Node.js, Vue.js, Ruby on Rails, PostgreSQL, HTML, CSS, Figma\nLinkedin: linkedin.com/in/valeriia-chavdar/\nGithub: github.com/valerie-ctrl\nПортфолио: troopl.com/valeriiachavdar",
+    "education": "Уровень\nСреднее специальное образование\nLe Wagon Intensive Coding Bootcamp\nWeb-development, Ruby on Rails\n•\n2023\n•\nСреднее специальное образование\nРоссийская академия народного хозяйства и государственной службы при Президенте Российской Федерации, Москва\nПрикладная информатика, Техник-программист\n•\n2022\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №45\nРезюме: Junior разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nRuby On Rails\nJavaScript\nGit\nHTML\nPostgreSQL\nNode.js\njQuery\nRuby\nVue.js\nWeb Application Development\nExpress.js\nMVC\nBootstrap\nMongoDB\nБазы данных\nООП\nCanva\nREST API\nJSON API\nnpm\nES6\nCSS\nCSS3\nHTML5\nAjax\nSass\nАнглийский язык\nБЭМ\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\nНемецкий — B1 — Средний\n\nОбо мне\nJunior Разработчик с бэкграундом в области дизайна социальных сетей и CMS. Недавний выпускник интенсивного курса Le Wagon Web Development Bootcamp. Стремлюсь привнести креативность и технические навыки в качестве Веб-разработчика. Ключевые навыки: JavaScript, Node.js, Vue.js, Ruby on Rails, PostgreSQL, HTML, CSS, Figma\nLinkedin: linkedin.com/in/valeriia-chavdar/\nGithub: github.com/valerie-ctrl\nПортфолио: troopl.com/valeriiachavdar\n\nОбразование\nУровень\nСреднее специальное образование\nLe Wagon Intensive Coding Bootcamp\nWeb-development, Ruby on Rails\n•\n2023\n•\nСреднее специальное образование\nРоссийская академия народного хозяйства и государственной службы при Президенте Российской Федерации, Москва\nПрикладная информатика, Техник-программист\n•\n2022\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

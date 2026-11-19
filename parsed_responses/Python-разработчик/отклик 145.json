@@ -1,0 +1,236 @@
+{
+  "candidate_id": 145,
+  "resume_title": "Python Backend Developer",
+  "cover_letter": "Добрый день, являюсь python backend разработчиком с более чем трехлетним опытом, заинтересован в вашей вакансии.",
+  "experience_total_months": 42,
+  "similar_experience_months": 42,
+  "work_experience": [
+    {
+      "start_date": "2023-03",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 26,
+      "organization": "Организация 1",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Новосибирскwww.nlstar.com",
+        "Розничная торговля"
+      ],
+      "description": "Разработка и поддержка интернет магазина и личного офиса клиента на Django + DRF\n- Перенес отправку email-рассылок в фоновые задачи с помощью Celery и Redis, что сократило время ожидания ответа сервиса с 5-7 секунд до менее чем 1 секунды.\n- Реализовал асинхронную интеграцию (Aiohttp) с API службы доставки, что ускорило процесс оформления заказа на 40% и снизило количество ошибок из-за таймаутов внешнего сервиса.\n- Покрыл критически важную бизнес-логику (обработка платежей, создание заказа) юнит и интеграционными тестами, повысив покрытие кода с 20% до 75%.\n- Перенес хранение и отдачу медиаконтента на AWS S3 сервис, тем самым ускорив загрузку изображений для пользователей на ~50%.\n- Выполнил миграцию и оптимизацию работы около 30 админ-панелей с Django 1.6 на Django 3.8, повысив скорость отклика системы на ~25-30% и значительно улучшив качество взаимодействия с интерфейсом.\n- Спроектировал и внедрил в Django Admin сервис для автоматизации обработки данных из 1С, который позволяет загружать XML-файлы и получать готовую отчетность в формате Excel.\nСтек: Python, Django, Django Rest Framework, MySQL, Redis, AWS S3, Celery, Aiohttp, Requests, Docker, Pytest",
+      "original": "Мар 2023 -\nАпр 2025\n2 года 2 мес\nОрганизация 1\nНовосибирскwww.nlstar.com\nРозничная торговля\nPython Backend Developer\nРазработка и поддержка интернет магазина и личного офиса клиента на Django + DRF\n- Перенес отправку email-рассылок в фоновые задачи с помощью Celery и Redis, что сократило время ожидания ответа сервиса с 5-7 секунд до менее чем 1 секунды.\n- Реализовал асинхронную интеграцию (Aiohttp) с API службы доставки, что ускорило процесс оформления заказа на 40% и снизило количество ошибок из-за таймаутов внешнего сервиса.\n- Покрыл критически важную бизнес-логику (обработка платежей, создание заказа) юнит и интеграционными тестами, повысив покрытие кода с 20% до 75%.\n- Перенес хранение и отдачу медиаконтента на AWS S3 сервис, тем самым ускорив загрузку изображений для пользователей на ~50%.\n- Выполнил миграцию и оптимизацию работы около 30 админ-панелей с Django 1.6 на Django 3.8, повысив скорость отклика системы на ~25-30% и значительно улучшив качество взаимодействия с интерфейсом.\n- Спроектировал и внедрил в Django Admin сервис для автоматизации обработки данных из 1С, который позволяет загружать XML-файлы и получать готовую отчетность в формате Excel.\nСтек: Python, Django, Django Rest Framework, MySQL, Redis, AWS S3, Celery, Aiohttp, Requests, Docker, Pytest"
+    },
+    {
+      "start_date": "2021-11",
+      "end_date": "2023-03",
+      "is_current": false,
+      "duration_months": 17,
+      "organization": "Организация 2",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "США"
+      ],
+      "description": "Разработка и поддержка инфраструктуры для взаимодействия с AI-моделями\nНагрузка: ~50-100 RPS, 8 микросервисов\nСтек: Python, FastAPI, PostgreSQL, Celery, RabbitMQ, Docker, Pytest.\n- Разработал 5 микросервисов на FastAPI для интеграции с AI-моделями.\n- Вынес обработку запросов к AI-моделям в очередь задач RabbitMQ, что позволило обеспечить стабильную работу сервиса при пиковых нагрузках (~100 RPS).\n- Реализовал систему доставки уведомлений о результатах анализа AI-моделей используя Celery и RabbitMQ, значительно снизив нагрузку на API сервиса.\n- Разработал микросервис на FastAPI, который преобразовыает сырые ответы AI-моделей в готовые для отправки пользователю PDF-файлы с отчетами.",
+      "original": "Ноя 2021 -\nМар 2023\n1 год 5 мес\nОрганизация 2\nСША\nPython Backend Developer\nРазработка и поддержка инфраструктуры для взаимодействия с AI-моделями\nНагрузка: ~50-100 RPS, 8 микросервисов\nСтек: Python, FastAPI, PostgreSQL, Celery, RabbitMQ, Docker, Pytest.\n- Разработал 5 микросервисов на FastAPI для интеграции с AI-моделями.\n- Вынес обработку запросов к AI-моделям в очередь задач RabbitMQ, что позволило обеспечить стабильную работу сервиса при пиковых нагрузках (~100 RPS).\n- Реализовал систему доставки уведомлений о результатах анализа AI-моделей используя Celery и RabbitMQ, значительно снизив нагрузку на API сервиса.\n- Разработал микросервис на FastAPI, который преобразовыает сырые ответы AI-моделей в готовые для отправки пользователю PDF-файлы с отчетами."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Монолитная архитектура",
+      "level": null,
+      "original": "Монолитная архитектура"
+    },
+    {
+      "name": "Микросервисная архитектура",
+      "level": null,
+      "original": "Микросервисная архитектура"
+    },
+    {
+      "name": "NoSQL",
+      "level": null,
+      "original": "NoSQL"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "Clickhouse",
+      "level": null,
+      "original": "Clickhouse"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "gRPC",
+      "level": null,
+      "original": "gRPC"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": null,
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Aiohttp",
+      "level": null,
+      "original": "Aiohttp"
+    },
+    {
+      "name": "CI/CD",
+      "level": null,
+      "original": "CI/CD"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "WebSocket",
+      "level": null,
+      "original": "WebSockets"
+    },
+    {
+      "name": "AWS",
+      "level": null,
+      "original": "AWS"
+    },
+    {
+      "name": "Парсинг",
+      "level": null,
+      "original": "Парсинг"
+    },
+    {
+      "name": "Sentry",
+      "level": null,
+      "original": "Sentry"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": null,
+      "original": "Elasticsearch"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "Telegram: @kamilgareev\nПочта: kamalearningandbusiness@gmail.com\nМой стек технологий:\n• Python\n• Django, Django Rest Framework, FastAPI, Flask\n• PostgreSQL, MySQL, Clickhouse, Redis, MongoDB, Django ORM, SQLAlchemy\n• RabbitMQ, Docker, AWS, WebSockets\n• Pytest, Aiohttp, Celery, ElasticSearch\n• Linux, Sentry, Prometheus",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Новосибирский государственный университет, Новосибирск",
+      "details": [
+        "Механико-математический факультет, Прикладная математика и информатика"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Новосибирский государственный университет, Новосибирск\nМеханико-математический факультет, Прикладная математика и информатика\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №145\nРезюме: Python Backend Developer",
+    "cover_letter": "Добрый день, являюсь python backend разработчиком с более чем трехлетним опытом, заинтересован в вашей вакансии.",
+    "experience": "Опыт работы: 3 года 6 месяцев\nОпыт в похожих должностях:3 года 6 месяцев\nМар 2023 -\nАпр 2025\n2 года 2 мес\nОрганизация 1\nНовосибирскwww.nlstar.com\nРозничная торговля\nPython Backend Developer\nРазработка и поддержка интернет магазина и личного офиса клиента на Django + DRF\n- Перенес отправку email-рассылок в фоновые задачи с помощью Celery и Redis, что сократило время ожидания ответа сервиса с 5-7 секунд до менее чем 1 секунды.\n- Реализовал асинхронную интеграцию (Aiohttp) с API службы доставки, что ускорило процесс оформления заказа на 40% и снизило количество ошибок из-за таймаутов внешнего сервиса.\n- Покрыл критически важную бизнес-логику (обработка платежей, создание заказа) юнит и интеграционными тестами, повысив покрытие кода с 20% до 75%.\n- Перенес хранение и отдачу медиаконтента на AWS S3 сервис, тем самым ускорив загрузку изображений для пользователей на ~50%.\n- Выполнил миграцию и оптимизацию работы около 30 админ-панелей с Django 1.6 на Django 3.8, повысив скорость отклика системы на ~25-30% и значительно улучшив качество взаимодействия с интерфейсом.\n- Спроектировал и внедрил в Django Admin сервис для автоматизации обработки данных из 1С, который позволяет загружать XML-файлы и получать готовую отчетность в формате Excel.\nСтек: Python, Django, Django Rest Framework, MySQL, Redis, AWS S3, Celery, Aiohttp, Requests, Docker, Pytest\nНоя 2021 -\nМар 2023\n1 год 5 мес\nОрганизация 2\nСША\nPython Backend Developer\nРазработка и поддержка инфраструктуры для взаимодействия с AI-моделями\nНагрузка: ~50-100 RPS, 8 микросервисов\nСтек: Python, FastAPI, PostgreSQL, Celery, RabbitMQ, Docker, Pytest.\n- Разработал 5 микросервисов на FastAPI для интеграции с AI-моделями.\n- Вынес обработку запросов к AI-моделям в очередь задач RabbitMQ, что позволило обеспечить стабильную работу сервиса при пиковых нагрузках (~100 RPS).\n- Реализовал систему доставки уведомлений о результатах анализа AI-моделей используя Celery и RabbitMQ, значительно снизив нагрузку на API сервиса.\n- Разработал микросервис на FastAPI, который преобразовыает сырые ответы AI-моделей в готовые для отправки пользователю PDF-файлы с отчетами.",
+    "skills": "Продвинутый уровень\nPython\nDjango\nDjango Rest Framework\nFastAPI\nFlask\nAPI\nLinux\nGit\nSQL\nDocker\nООП\nУровень не указан\nREST API\nМонолитная архитектура\nМикросервисная архитектура\nNoSQL\nRedis\nMongoDB\nClickhouse\nSQLAlchemy\ngRPC\nRabbitMQ\nAiohttp\nCI/CD\nPytest\nCelery\nWebSockets\nAWS\nПарсинг\nSentry\nElasticsearch",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "Telegram: @kamilgareev\nПочта: kamalearningandbusiness@gmail.com\nМой стек технологий:\n• Python\n• Django, Django Rest Framework, FastAPI, Flask\n• PostgreSQL, MySQL, Clickhouse, Redis, MongoDB, Django ORM, SQLAlchemy\n• RabbitMQ, Docker, AWS, WebSockets\n• Pytest, Aiohttp, Celery, ElasticSearch\n• Linux, Sentry, Prometheus",
+    "education": "Уровень\nВысшее образование\nНовосибирский государственный университет, Новосибирск\nМеханико-математический факультет, Прикладная математика и информатика\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №145\nРезюме: Python Backend Developer\n\nСопроводительное письмо\nДобрый день, являюсь python backend разработчиком с более чем трехлетним опытом, заинтересован в вашей вакансии.\n\nОпыт работы\nОпыт работы: 3 года 6 месяцев\nОпыт в похожих должностях:3 года 6 месяцев\nМар 2023 -\nАпр 2025\n2 года 2 мес\nОрганизация 1\nНовосибирскwww.nlstar.com\nРозничная торговля\nPython Backend Developer\nРазработка и поддержка интернет магазина и личного офиса клиента на Django + DRF\n- Перенес отправку email-рассылок в фоновые задачи с помощью Celery и Redis, что сократило время ожидания ответа сервиса с 5-7 секунд до менее чем 1 секунды.\n- Реализовал асинхронную интеграцию (Aiohttp) с API службы доставки, что ускорило процесс оформления заказа на 40% и снизило количество ошибок из-за таймаутов внешнего сервиса.\n- Покрыл критически важную бизнес-логику (обработка платежей, создание заказа) юнит и интеграционными тестами, повысив покрытие кода с 20% до 75%.\n- Перенес хранение и отдачу медиаконтента на AWS S3 сервис, тем самым ускорив загрузку изображений для пользователей на ~50%.\n- Выполнил миграцию и оптимизацию работы около 30 админ-панелей с Django 1.6 на Django 3.8, повысив скорость отклика системы на ~25-30% и значительно улучшив качество взаимодействия с интерфейсом.\n- Спроектировал и внедрил в Django Admin сервис для автоматизации обработки данных из 1С, который позволяет загружать XML-файлы и получать готовую отчетность в формате Excel.\nСтек: Python, Django, Django Rest Framework, MySQL, Redis, AWS S3, Celery, Aiohttp, Requests, Docker, Pytest\nНоя 2021 -\nМар 2023\n1 год 5 мес\nОрганизация 2\nСША\nPython Backend Developer\nРазработка и поддержка инфраструктуры для взаимодействия с AI-моделями\nНагрузка: ~50-100 RPS, 8 микросервисов\nСтек: Python, FastAPI, PostgreSQL, Celery, RabbitMQ, Docker, Pytest.\n- Разработал 5 микросервисов на FastAPI для интеграции с AI-моделями.\n- Вынес обработку запросов к AI-моделям в очередь задач RabbitMQ, что позволило обеспечить стабильную работу сервиса при пиковых нагрузках (~100 RPS).\n- Реализовал систему доставки уведомлений о результатах анализа AI-моделей используя Celery и RabbitMQ, значительно снизив нагрузку на API сервиса.\n- Разработал микросервис на FastAPI, который преобразовыает сырые ответы AI-моделей в готовые для отправки пользователю PDF-файлы с отчетами.\n\nНавыки\nПродвинутый уровень\nPython\nDjango\nDjango Rest Framework\nFastAPI\nFlask\nAPI\nLinux\nGit\nSQL\nDocker\nООП\nУровень не указан\nREST API\nМонолитная архитектура\nМикросервисная архитектура\nNoSQL\nRedis\nMongoDB\nClickhouse\nSQLAlchemy\ngRPC\nRabbitMQ\nAiohttp\nCI/CD\nPytest\nCelery\nWebSockets\nAWS\nПарсинг\nSentry\nElasticsearch\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\nTelegram: @kamilgareev\nПочта: kamalearningandbusiness@gmail.com\nМой стек технологий:\n• Python\n• Django, Django Rest Framework, FastAPI, Flask\n• PostgreSQL, MySQL, Clickhouse, Redis, MongoDB, Django ORM, SQLAlchemy\n• RabbitMQ, Docker, AWS, WebSockets\n• Pytest, Aiohttp, Celery, ElasticSearch\n• Linux, Sentry, Prometheus\n\nОбразование\nУровень\nВысшее образование\nНовосибирский государственный университет, Новосибирск\nМеханико-математический факультет, Прикладная математика и информатика\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

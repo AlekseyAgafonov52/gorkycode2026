@@ -1,0 +1,221 @@
+{
+  "candidate_id": 101,
+  "resume_title": "Full-Stack Developer | Python | JavaScript | Web & AI Systems",
+  "cover_letter": null,
+  "experience_total_months": 42,
+  "similar_experience_months": 42,
+  "work_experience": [
+    {
+      "start_date": "2022-02",
+      "end_date": "2025-07",
+      "is_current": false,
+      "duration_months": 42,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Минск",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "ОБО МНЕ\nРазработчик приложений полного цикла с практическим опытом работы на Python и JavaScript. Обладаю навыками разработки как серверной, так и клиентской части, интеграции ИИ, проектирования систем, развертывания и поддержки. С 2020 года активно развиваю свои технические навыки, реализую проекты как самостоятельно, так и в команде. Стремлюсь решать бизнес-задачи с помощью программирования. Открыт к релокации и удаленной работе.",
+      "original": "Фев 2022 -\nИюл 2025\n3 года 6 мес\nОрганизация 1\nМинск\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nОБО МНЕ\nРазработчик приложений полного цикла с практическим опытом работы на Python и JavaScript. Обладаю навыками разработки как серверной, так и клиентской части, интеграции ИИ, проектирования систем, развертывания и поддержки. С 2020 года активно развиваю свои технические навыки, реализую проекты как самостоятельно, так и в команде. Стремлюсь решать бизнес-задачи с помощью программирования. Открыт к релокации и удаленной работе."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "aiohttp",
+      "level": "advanced",
+      "original": "aiohttp"
+    },
+    {
+      "name": "asyncio",
+      "level": "advanced",
+      "original": "asyncio"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Gunicorn",
+      "level": "advanced",
+      "original": "Gunicorn"
+    },
+    {
+      "name": "Telegram",
+      "level": "advanced",
+      "original": "Telegram"
+    },
+    {
+      "name": "Яндекс.Директ",
+      "level": "advanced",
+      "original": "Яндекс.Директ"
+    },
+    {
+      "name": "Flask",
+      "level": "intermediate",
+      "original": "Flask"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "MySQL",
+      "level": "intermediate",
+      "original": "MySQL"
+    },
+    {
+      "name": "Redis",
+      "level": "intermediate",
+      "original": "Redis"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "intermediate",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Nginx",
+      "level": "intermediate",
+      "original": "Nginx"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "Figma",
+      "level": "intermediate",
+      "original": "Figma"
+    },
+    {
+      "name": "Google Ads",
+      "level": "intermediate",
+      "original": "Google Ads"
+    },
+    {
+      "name": "Алгоритмы и структуры данных",
+      "level": "intermediate",
+      "original": "Алгоритмы и структуры данных"
+    },
+    {
+      "name": "Оптимизация кода",
+      "level": "intermediate",
+      "original": "Оптимизация кода"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Разработчик приложений полного цикла с практическим опытом работы на Python и JavaScript. Обладаю навыками разработки как серверной, так и клиентской части, интеграции ИИ, проектирования систем, развертывания и поддержки. С 2020 года активно развиваю свои технические навыки, реализую проекты как самостоятельно, так и в команде. Стремлюсь решать бизнес-задачи с помощью программирования. Открыт к релокации и удаленной работе.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Юриспруденция",
+      "details": [],
+      "year": 2014,
+      "level": "Высшее образование",
+      "original": "Юриспруденция\n2014\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Беларусь",
+    "work_permit": "Беларусь, Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №101\nРезюме: Full-Stack Developer | Python | JavaScript | Web & AI Systems",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 6 месяцев\nОпыт в похожих должностях:3 года 6 месяцев\nФев 2022 -\nИюл 2025\n3 года 6 мес\nОрганизация 1\nМинск\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nОБО МНЕ\nРазработчик приложений полного цикла с практическим опытом работы на Python и JavaScript. Обладаю навыками разработки как серверной, так и клиентской части, интеграции ИИ, проектирования систем, развертывания и поддержки. С 2020 года активно развиваю свои технические навыки, реализую проекты как самостоятельно, так и в команде. Стремлюсь решать бизнес-задачи с помощью программирования. Открыт к релокации и удаленной работе.",
+    "skills": "Продвинутый уровень\nPython\nDjango\nDjango Rest Framework\nFastAPI\naiohttp\nasyncio\nREST API\nJavaScript\nHTML\nCSS\nSQLAlchemy\nCelery\nGunicorn\nTelegram\nЯндекс.Директ\nСредний уровень\nFlask\nSQL\nPostgreSQL\nMySQL\nRedis\nLinux\nDocker\nDocker-compose\nNginx\nGit\nGitHub\nFigma\nGoogle Ads\nАлгоритмы и структуры данных\nОптимизация кода",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Разработчик приложений полного цикла с практическим опытом работы на Python и JavaScript. Обладаю навыками разработки как серверной, так и клиентской части, интеграции ИИ, проектирования систем, развертывания и поддержки. С 2020 года активно развиваю свои технические навыки, реализую проекты как самостоятельно, так и в команде. Стремлюсь решать бизнес-задачи с помощью программирования. Открыт к релокации и удаленной работе.",
+    "education": "Уровень\nВысшее образование\nЮриспруденция\n2014\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь, Россия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №101\nРезюме: Full-Stack Developer | Python | JavaScript | Web & AI Systems\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 6 месяцев\nОпыт в похожих должностях:3 года 6 месяцев\nФев 2022 -\nИюл 2025\n3 года 6 мес\nОрганизация 1\nМинск\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nОБО МНЕ\nРазработчик приложений полного цикла с практическим опытом работы на Python и JavaScript. Обладаю навыками разработки как серверной, так и клиентской части, интеграции ИИ, проектирования систем, развертывания и поддержки. С 2020 года активно развиваю свои технические навыки, реализую проекты как самостоятельно, так и в команде. Стремлюсь решать бизнес-задачи с помощью программирования. Открыт к релокации и удаленной работе.\n\nНавыки\nПродвинутый уровень\nPython\nDjango\nDjango Rest Framework\nFastAPI\naiohttp\nasyncio\nREST API\nJavaScript\nHTML\nCSS\nSQLAlchemy\nCelery\nGunicorn\nTelegram\nЯндекс.Директ\nСредний уровень\nFlask\nSQL\nPostgreSQL\nMySQL\nRedis\nLinux\nDocker\nDocker-compose\nNginx\nGit\nGitHub\nFigma\nGoogle Ads\nАлгоритмы и структуры данных\nОптимизация кода\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nРазработчик приложений полного цикла с практическим опытом работы на Python и JavaScript. Обладаю навыками разработки как серверной, так и клиентской части, интеграции ИИ, проектирования систем, развертывания и поддержки. С 2020 года активно развиваю свои технические навыки, реализую проекты как самостоятельно, так и в команде. Стремлюсь решать бизнес-задачи с помощью программирования. Открыт к релокации и удаленной работе.\n\nОбразование\nУровень\nВысшее образование\nЮриспруденция\n2014\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь, Россия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

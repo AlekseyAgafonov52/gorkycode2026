@@ -1,0 +1,233 @@
+{
+  "candidate_id": 219,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Добрый день!\nЕсли вам нужен вдумчивый и горящий интересом к программированию Python-разработчик, который:\n- Владеет Python, ООП и функциональным программированием,\n- Применяет фреймворки Flask и Django, а также умеет пользоваться Git,\n- Умеет оптимизировать и формировать сложные SQL-запросы,\n- Знает ORM, SQlite3, PostgreSQL, HTML и CSS, Docker и Docker-сompose, CI/CD, GitHub actions,\n- Имеет навыки тестирования веб-приложений,\n- Хочет, как можно быстрее стать частью команды и принести пользу компании, то будет здорово, если вы ознакомитесь с моим резюме и оно подойдет под опубликованную вами вакансию.\nМеня драйвят задачи, которые ставит ваша компания перед специалистом, а информация о компании показалась очень интересной. Хочу присоединиться к вашей команде и стать профи, с которым легко и продуктивно работать! С удовольствием расскажу о себе подробнее в любом удобном для компании формате.\nДмитрий Заберов\n+7 (919) 878-45-04",
+  "experience_total_months": 95,
+  "similar_experience_months": 41,
+  "work_experience": [
+    {
+      "start_date": "2023-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 41,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "- Владею языком программирования Python, работаю с фреймворками Django и Django Rest Framework,Git.\n- Имею навыки построения SQL-запросов, работаю с PostgreSQL,тестирую веб-приложения (unittest, pytest, TDD).\n- Знаю HTML и CSS на уровне внедрения верстки в проект, работа с Bootstrap;\n- Работаю с Docker и Docker-сompose, базово знаю CI/CD.\nРеализовал такие проекты, как:\n► \"Клиент к существующему jsonrpc-сервису\" (https://github.com/Dim-ON1975/jsonrpc_client.git) - Django-проект, при помощи которого используя jsonrpc-2.0 (эндпоинт: https://slb.medv.ru/api/v2/ ) можно вызвать удалённый метод api с использованием для авторизации предоставленной пары сертификат+ключ (т.н. \"двусторонний TLS\"). Стек: Python, Django, JSON-RPC 2.0, тесты (100%).\n► \"Модель сети по продаже электроники\" (https://github.com/Dim-ON1975/electronics_retail_chain.git) - разработка онлайн платформы торговой сети электроники. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Djoser, Docker, Docker Compose, тесты (83%).\n► \"Атомные привычки (трекер полезных привычек)\" (https://gitlab.com/Dim-ON1975/term_paper_zaberov_drf_8_server.git; https://github.com/Dim-ON1975/term_paper_zaberov_drf_7.git) - трекер полезных привычек с отправкой уведомлений в чат телеграм-бота. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Docker, Docker Compose, Nginx, Celery, Celery Beat, тесты (81%).\n► \"Платформа для продажи вещей\" https://gitlab.com/Dim-ON1975/coursework_6_skymarket.git) - сайт объявлений, на котором пользователи могут выставлять и продавать свои товары. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc, drf-spectacular), Djoser, Docker, Docker Compose, Nginx, тесты (92%).\n► \"LMS-система\" (https://github.com/Dim-ON1975/zaberov_dz_24_1.git) - LMS-система для размещения полезных материалов или курсов. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Docker, Docker Compose, тесты.\n► \"Сервис рассылки писем. Блог\" (https://github.com/Dim-ON1975/term_paper_zaberov_django_6.git) - сервис управления рассылками, администрирования и получения статистики. Стек: Python, Django, Bootstrap, psycopg2-binary (PostgreSQL), Redis, Celery, Celery Beat.\n► \"Интернет-магазин электроники\" (https://github.com/Dim-ON1975/zaberov_myshop_19.git) - сайт интернет-магазина электроники с использованием шаблонизации и форм Django для создания фронтенда на базе bootstrap. Стек: Python, Django, Bootstrap, psycopg2-binary (PostgreSQL), Redis, Celery, Celery Beat.\n► \"Вакансии в России\" (https://github.com/Dim-ON1975/term_paper_zaberov_bd_5.git) - программа, которая получает данные о компаниях и вакансиях с сайта hh.ru. Стек: Python, PostgreSQL, tqdm.\n► \"Вакансии в России\" (https://github.com/Dim-ON1975/term_paper_zaberov_oop_4.git) - программа, которая парсит данные о вакансиях с разных платформ в России (hh.ru, superjob.ru). Стек: Python, PostgreSQL, tqdm, тесты (82%).\n► \"Операции по счетам\" (https://github.com/Dim-ON1975/zaberov.dv_kr3.git) - виджет, который показывает несколько последних успешных банковских операций клиента. Стек: Python, тесты (100%).\nСсылки на проекты портфолио представлены в начале описания каждого из проектов.",
+      "original": "Июн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nPython-разработчик\n- Владею языком программирования Python, работаю с фреймворками Django и Django Rest Framework,Git.\n- Имею навыки построения SQL-запросов, работаю с PostgreSQL,тестирую веб-приложения (unittest, pytest, TDD).\n- Знаю HTML и CSS на уровне внедрения верстки в проект, работа с Bootstrap;\n- Работаю с Docker и Docker-сompose, базово знаю CI/CD.\nРеализовал такие проекты, как:\n► \"Клиент к существующему jsonrpc-сервису\" (https://github.com/Dim-ON1975/jsonrpc_client.git) - Django-проект, при помощи которого используя jsonrpc-2.0 (эндпоинт: https://slb.medv.ru/api/v2/ ) можно вызвать удалённый метод api с использованием для авторизации предоставленной пары сертификат+ключ (т.н. \"двусторонний TLS\"). Стек: Python, Django, JSON-RPC 2.0, тесты (100%).\n► \"Модель сети по продаже электроники\" (https://github.com/Dim-ON1975/electronics_retail_chain.git) - разработка онлайн платформы торговой сети электроники. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Djoser, Docker, Docker Compose, тесты (83%).\n► \"Атомные привычки (трекер полезных привычек)\" (https://gitlab.com/Dim-ON1975/term_paper_zaberov_drf_8_server.git; https://github.com/Dim-ON1975/term_paper_zaberov_drf_7.git) - трекер полезных привычек с отправкой уведомлений в чат телеграм-бота. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Docker, Docker Compose, Nginx, Celery, Celery Beat, тесты (81%).\n► \"Платформа для продажи вещей\" https://gitlab.com/Dim-ON1975/coursework_6_skymarket.git) - сайт объявлений, на котором пользователи могут выставлять и продавать свои товары. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc, drf-spectacular), Djoser, Docker, Docker Compose, Nginx, тесты (92%).\n► \"LMS-система\" (https://github.com/Dim-ON1975/zaberov_dz_24_1.git) - LMS-система для размещения полезных материалов или курсов. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Docker, Docker Compose, тесты.\n► \"Сервис рассылки писем. Блог\" (https://github.com/Dim-ON1975/term_paper_zaberov_django_6.git) - сервис управления рассылками, администрирования и получения статистики. Стек: Python, Django, Bootstrap, psycopg2-binary (PostgreSQL), Redis, Celery, Celery Beat.\n► \"Интернет-магазин электроники\" (https://github.com/Dim-ON1975/zaberov_myshop_19.git) - сайт интернет-магазина электроники с использованием шаблонизации и форм Django для создания фронтенда на базе bootstrap. Стек: Python, Django, Bootstrap, psycopg2-binary (PostgreSQL), Redis, Celery, Celery Beat.\n► \"Вакансии в России\" (https://github.com/Dim-ON1975/term_paper_zaberov_bd_5.git) - программа, которая получает данные о компаниях и вакансиях с сайта hh.ru. Стек: Python, PostgreSQL, tqdm.\n► \"Вакансии в России\" (https://github.com/Dim-ON1975/term_paper_zaberov_oop_4.git) - программа, которая парсит данные о вакансиях с разных платформ в России (hh.ru, superjob.ru). Стек: Python, PostgreSQL, tqdm, тесты (82%).\n► \"Операции по счетам\" (https://github.com/Dim-ON1975/zaberov.dv_kr3.git) - виджет, который показывает несколько последних успешных банковских операций клиента. Стек: Python, тесты (100%).\nСсылки на проекты портфолио представлены в начале описания каждого из проектов."
+    },
+    {
+      "start_date": "2018-12",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 95,
+      "organization": "Организация 2",
+      "position": "Учитель информатики",
+      "employer_details": [
+        "Пухляковский"
+      ],
+      "description": "- имею поощрения в виде грамот и благодарственных писем от отдела образования Администрации Усть-Донецкого района, министерства общего и профессионального образования Ростовской области; высшая квал. категория по должности «учитель;\n- обучаю детей (7-11 класс) информатике, привлекаю их к участию в олимпиадах различного уровня (информационные технологии - 1, 3 места), готовлю детей к сдаче ОГЭ и ЕГЭ по информатике(ОГЭ 4,0-5,0 баллов, ЕГЭ 57-83 балла);\n- преподаватель «Код будущего» (Python), все ученики получили сертификаты;\n- оптимизировал процесс сбора, обработки и анализа информации посредством MS Excel; регулярно занимаюсь внедрением автоматизации вычислений при помощи электронных таблиц;\n- внедряю в образовательный процесс современные информационные технологии («Точка роста», «Цифровая образовательная среда»).",
+      "original": "Дек 2018 -\nсейчас\n7 лет 11 мес\nОрганизация 2\nПухляковский\nУчитель информатики\n- имею поощрения в виде грамот и благодарственных писем от отдела образования Администрации Усть-Донецкого района, министерства общего и профессионального образования Ростовской области; высшая квал. категория по должности «учитель;\n- обучаю детей (7-11 класс) информатике, привлекаю их к участию в олимпиадах различного уровня (информационные технологии - 1, 3 места), готовлю детей к сдаче ОГЭ и ЕГЭ по информатике(ОГЭ 4,0-5,0 баллов, ЕГЭ 57-83 балла);\n- преподаватель «Код будущего» (Python), все ученики получили сертификаты;\n- оптимизировал процесс сбора, обработки и анализа информации посредством MS Excel; регулярно занимаюсь внедрением автоматизации вычислений при помощи электронных таблиц;\n- внедряю в образовательный процесс современные информационные технологии («Точка роста», «Цифровая образовательная среда»)."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django"
+    },
+    {
+      "name": "Backend",
+      "level": null,
+      "original": "Backend"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "SQLite",
+      "level": null,
+      "original": "SQLite"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "CI/CD",
+      "level": null,
+      "original": "CI/CD"
+    },
+    {
+      "name": "JWT",
+      "level": null,
+      "original": "JWT"
+    },
+    {
+      "name": "Тестирование web-приложений",
+      "level": null,
+      "original": "Тестирование web-приложений"
+    },
+    {
+      "name": "OAuth2.0",
+      "level": null,
+      "original": "OAuth2.0"
+    },
+    {
+      "name": "Djoser",
+      "level": null,
+      "original": "Djoser"
+    },
+    {
+      "name": "JSON API",
+      "level": null,
+      "original": "JSON API"
+    },
+    {
+      "name": "Bootstrap",
+      "level": null,
+      "original": "Bootstrap"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "DRF"
+    },
+    {
+      "name": "TDD",
+      "level": null,
+      "original": "TDD"
+    },
+    {
+      "name": "ООП",
+      "level": null,
+      "original": "ООП"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "unittest",
+      "level": null,
+      "original": "unittest"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "Высокая скорость печати",
+      "level": null,
+      "original": "Высокая скорость печати"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A1",
+      "description": "Начальный",
+      "original": "Английский — A1 — Начальный"
+    }
+  ],
+  "about_me": "С опытом в области образования и успешным завершением профессиональных курсов по Python-разработке, я обладаю достаточными знаниями и навыками в программировании. Мои коммуникативные способности и умение работать в команде позволяют мне эффективно взаимодействовать с коллегами. Кроме того, моя ответственность, стремление к самосовершенствованию и способность быстро усваивать новые технологии делают меня ценным активом для любого проекта.\nГотов подтвердить свои знания выполнением тестового задания и ответить на дополнительные вопросы.\nТелеграм: https://t.me/informatik_dv",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Донской государственный аграрный университет (п. Персиановский Ростовской области)",
+      "details": [
+        "Агрофак, Технология хранения и переработки растениеводческой продукции (диплом с отличием)"
+      ],
+      "year": 2000,
+      "level": "Высшее образование",
+      "original": "Донской государственный аграрный университет (п. Персиановский Ростовской области)\nАгрофак, Технология хранения и переработки растениеводческой продукции (диплом с отличием)\n•\n2000\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №219\nРезюме: Python-разработчик",
+    "cover_letter": "Добрый день!\nЕсли вам нужен вдумчивый и горящий интересом к программированию Python-разработчик, который:\n- Владеет Python, ООП и функциональным программированием,\n- Применяет фреймворки Flask и Django, а также умеет пользоваться Git,\n- Умеет оптимизировать и формировать сложные SQL-запросы,\n- Знает ORM, SQlite3, PostgreSQL, HTML и CSS, Docker и Docker-сompose, CI/CD, GitHub actions,\n- Имеет навыки тестирования веб-приложений,\n- Хочет, как можно быстрее стать частью команды и принести пользу компании, то будет здорово, если вы ознакомитесь с моим резюме и оно подойдет под опубликованную вами вакансию.\nМеня драйвят задачи, которые ставит ваша компания перед специалистом, а информация о компании показалась очень интересной. Хочу присоединиться к вашей команде и стать профи, с которым легко и продуктивно работать! С удовольствием расскажу о себе подробнее в любом удобном для компании формате.\nДмитрий Заберов\n+7 (919) 878-45-04",
+    "experience": "Опыт работы: 7 лет 11 месяцев\nОпыт в похожих должностях:3 года 5 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nPython-разработчик\n- Владею языком программирования Python, работаю с фреймворками Django и Django Rest Framework,Git.\n- Имею навыки построения SQL-запросов, работаю с PostgreSQL,тестирую веб-приложения (unittest, pytest, TDD).\n- Знаю HTML и CSS на уровне внедрения верстки в проект, работа с Bootstrap;\n- Работаю с Docker и Docker-сompose, базово знаю CI/CD.\nРеализовал такие проекты, как:\n► \"Клиент к существующему jsonrpc-сервису\" (https://github.com/Dim-ON1975/jsonrpc_client.git) - Django-проект, при помощи которого используя jsonrpc-2.0 (эндпоинт: https://slb.medv.ru/api/v2/ ) можно вызвать удалённый метод api с использованием для авторизации предоставленной пары сертификат+ключ (т.н. \"двусторонний TLS\"). Стек: Python, Django, JSON-RPC 2.0, тесты (100%).\n► \"Модель сети по продаже электроники\" (https://github.com/Dim-ON1975/electronics_retail_chain.git) - разработка онлайн платформы торговой сети электроники. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Djoser, Docker, Docker Compose, тесты (83%).\n► \"Атомные привычки (трекер полезных привычек)\" (https://gitlab.com/Dim-ON1975/term_paper_zaberov_drf_8_server.git; https://github.com/Dim-ON1975/term_paper_zaberov_drf_7.git) - трекер полезных привычек с отправкой уведомлений в чат телеграм-бота. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Docker, Docker Compose, Nginx, Celery, Celery Beat, тесты (81%).\n► \"Платформа для продажи вещей\" https://gitlab.com/Dim-ON1975/coursework_6_skymarket.git) - сайт объявлений, на котором пользователи могут выставлять и продавать свои товары. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc, drf-spectacular), Djoser, Docker, Docker Compose, Nginx, тесты (92%).\n► \"LMS-система\" (https://github.com/Dim-ON1975/zaberov_dz_24_1.git) - LMS-система для размещения полезных материалов или курсов. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Docker, Docker Compose, тесты.\n► \"Сервис рассылки писем. Блог\" (https://github.com/Dim-ON1975/term_paper_zaberov_django_6.git) - сервис управления рассылками, администрирования и получения статистики. Стек: Python, Django, Bootstrap, psycopg2-binary (PostgreSQL), Redis, Celery, Celery Beat.\n► \"Интернет-магазин электроники\" (https://github.com/Dim-ON1975/zaberov_myshop_19.git) - сайт интернет-магазина электроники с использованием шаблонизации и форм Django для создания фронтенда на базе bootstrap. Стек: Python, Django, Bootstrap, psycopg2-binary (PostgreSQL), Redis, Celery, Celery Beat.\n► \"Вакансии в России\" (https://github.com/Dim-ON1975/term_paper_zaberov_bd_5.git) - программа, которая получает данные о компаниях и вакансиях с сайта hh.ru. Стек: Python, PostgreSQL, tqdm.\n► \"Вакансии в России\" (https://github.com/Dim-ON1975/term_paper_zaberov_oop_4.git) - программа, которая парсит данные о вакансиях с разных платформ в России (hh.ru, superjob.ru). Стек: Python, PostgreSQL, tqdm, тесты (82%).\n► \"Операции по счетам\" (https://github.com/Dim-ON1975/zaberov.dv_kr3.git) - виджет, который показывает несколько последних успешных банковских операций клиента. Стек: Python, тесты (100%).\nСсылки на проекты портфолио представлены в начале описания каждого из проектов.\nДек 2018 -\nсейчас\n7 лет 11 мес\nОрганизация 2\nПухляковский\nУчитель информатики\n- имею поощрения в виде грамот и благодарственных писем от отдела образования Администрации Усть-Донецкого района, министерства общего и профессионального образования Ростовской области; высшая квал. категория по должности «учитель;\n- обучаю детей (7-11 класс) информатике, привлекаю их к участию в олимпиадах различного уровня (информационные технологии - 1, 3 места), готовлю детей к сдаче ОГЭ и ЕГЭ по информатике(ОГЭ 4,0-5,0 баллов, ЕГЭ 57-83 балла);\n- преподаватель «Код будущего» (Python), все ученики получили сертификаты;\n- оптимизировал процесс сбора, обработки и анализа информации посредством MS Excel; регулярно занимаюсь внедрением автоматизации вычислений при помощи электронных таблиц;\n- внедряю в образовательный процесс современные информационные технологии («Точка роста», «Цифровая образовательная среда»).",
+    "skills": "Python\nPostgreSQL\nGit\nDocker\nRedis\nGitlab\nCelery\nHTML\nDjango\nBackend\nREST API\nGitHub\nAPI\nSQL\nSQLite\nCSS\nCI/CD\nJWT\nТестирование web-приложений\nOAuth2.0\nDjoser\nJSON API\nBootstrap\nDRF\nTDD\nООП\nLinux\nunittest\nPytest\nВысокая скорость печати",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A1 — Начальный",
+    "about_me": "С опытом в области образования и успешным завершением профессиональных курсов по Python-разработке, я обладаю достаточными знаниями и навыками в программировании. Мои коммуникативные способности и умение работать в команде позволяют мне эффективно взаимодействовать с коллегами. Кроме того, моя ответственность, стремление к самосовершенствованию и способность быстро усваивать новые технологии делают меня ценным активом для любого проекта.\nГотов подтвердить свои знания выполнением тестового задания и ответить на дополнительные вопросы.\nТелеграм: https://t.me/informatik_dv",
+    "education": "Уровень\nВысшее образование\nДонской государственный аграрный университет (п. Персиановский Ростовской области)\nАгрофак, Технология хранения и переработки растениеводческой продукции (диплом с отличием)\n•\n2000\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №219\nРезюме: Python-разработчик\n\nСопроводительное письмо\nДобрый день!\nЕсли вам нужен вдумчивый и горящий интересом к программированию Python-разработчик, который:\n- Владеет Python, ООП и функциональным программированием,\n- Применяет фреймворки Flask и Django, а также умеет пользоваться Git,\n- Умеет оптимизировать и формировать сложные SQL-запросы,\n- Знает ORM, SQlite3, PostgreSQL, HTML и CSS, Docker и Docker-сompose, CI/CD, GitHub actions,\n- Имеет навыки тестирования веб-приложений,\n- Хочет, как можно быстрее стать частью команды и принести пользу компании, то будет здорово, если вы ознакомитесь с моим резюме и оно подойдет под опубликованную вами вакансию.\nМеня драйвят задачи, которые ставит ваша компания перед специалистом, а информация о компании показалась очень интересной. Хочу присоединиться к вашей команде и стать профи, с которым легко и продуктивно работать! С удовольствием расскажу о себе подробнее в любом удобном для компании формате.\nДмитрий Заберов\n+7 (919) 878-45-04\n\nОпыт работы\nОпыт работы: 7 лет 11 месяцев\nОпыт в похожих должностях:3 года 5 месяцев\nИюн 2023 -\nсейчас\n3 года 5 мес\nОрганизация 1\nPython-разработчик\n- Владею языком программирования Python, работаю с фреймворками Django и Django Rest Framework,Git.\n- Имею навыки построения SQL-запросов, работаю с PostgreSQL,тестирую веб-приложения (unittest, pytest, TDD).\n- Знаю HTML и CSS на уровне внедрения верстки в проект, работа с Bootstrap;\n- Работаю с Docker и Docker-сompose, базово знаю CI/CD.\nРеализовал такие проекты, как:\n► \"Клиент к существующему jsonrpc-сервису\" (https://github.com/Dim-ON1975/jsonrpc_client.git) - Django-проект, при помощи которого используя jsonrpc-2.0 (эндпоинт: https://slb.medv.ru/api/v2/ ) можно вызвать удалённый метод api с использованием для авторизации предоставленной пары сертификат+ключ (т.н. \"двусторонний TLS\"). Стек: Python, Django, JSON-RPC 2.0, тесты (100%).\n► \"Модель сети по продаже электроники\" (https://github.com/Dim-ON1975/electronics_retail_chain.git) - разработка онлайн платформы торговой сети электроники. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Djoser, Docker, Docker Compose, тесты (83%).\n► \"Атомные привычки (трекер полезных привычек)\" (https://gitlab.com/Dim-ON1975/term_paper_zaberov_drf_8_server.git; https://github.com/Dim-ON1975/term_paper_zaberov_drf_7.git) - трекер полезных привычек с отправкой уведомлений в чат телеграм-бота. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Docker, Docker Compose, Nginx, Celery, Celery Beat, тесты (81%).\n► \"Платформа для продажи вещей\" https://gitlab.com/Dim-ON1975/coursework_6_skymarket.git) - сайт объявлений, на котором пользователи могут выставлять и продавать свои товары. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc, drf-spectacular), Djoser, Docker, Docker Compose, Nginx, тесты (92%).\n► \"LMS-система\" (https://github.com/Dim-ON1975/zaberov_dz_24_1.git) - LMS-система для размещения полезных материалов или курсов. Стек: Python, Django, DRF, django-filter, psycopg2-binary (PostgreSQL), JWT, документирование (DRF-YASG, swagger, redoc), Docker, Docker Compose, тесты.\n► \"Сервис рассылки писем. Блог\" (https://github.com/Dim-ON1975/term_paper_zaberov_django_6.git) - сервис управления рассылками, администрирования и получения статистики. Стек: Python, Django, Bootstrap, psycopg2-binary (PostgreSQL), Redis, Celery, Celery Beat.\n► \"Интернет-магазин электроники\" (https://github.com/Dim-ON1975/zaberov_myshop_19.git) - сайт интернет-магазина электроники с использованием шаблонизации и форм Django для создания фронтенда на базе bootstrap. Стек: Python, Django, Bootstrap, psycopg2-binary (PostgreSQL), Redis, Celery, Celery Beat.\n► \"Вакансии в России\" (https://github.com/Dim-ON1975/term_paper_zaberov_bd_5.git) - программа, которая получает данные о компаниях и вакансиях с сайта hh.ru. Стек: Python, PostgreSQL, tqdm.\n► \"Вакансии в России\" (https://github.com/Dim-ON1975/term_paper_zaberov_oop_4.git) - программа, которая парсит данные о вакансиях с разных платформ в России (hh.ru, superjob.ru). Стек: Python, PostgreSQL, tqdm, тесты (82%).\n► \"Операции по счетам\" (https://github.com/Dim-ON1975/zaberov.dv_kr3.git) - виджет, который показывает несколько последних успешных банковских операций клиента. Стек: Python, тесты (100%).\nСсылки на проекты портфолио представлены в начале описания каждого из проектов.\nДек 2018 -\nсейчас\n7 лет 11 мес\nОрганизация 2\nПухляковский\nУчитель информатики\n- имею поощрения в виде грамот и благодарственных писем от отдела образования Администрации Усть-Донецкого района, министерства общего и профессионального образования Ростовской области; высшая квал. категория по должности «учитель;\n- обучаю детей (7-11 класс) информатике, привлекаю их к участию в олимпиадах различного уровня (информационные технологии - 1, 3 места), готовлю детей к сдаче ОГЭ и ЕГЭ по информатике(ОГЭ 4,0-5,0 баллов, ЕГЭ 57-83 балла);\n- преподаватель «Код будущего» (Python), все ученики получили сертификаты;\n- оптимизировал процесс сбора, обработки и анализа информации посредством MS Excel; регулярно занимаюсь внедрением автоматизации вычислений при помощи электронных таблиц;\n- внедряю в образовательный процесс современные информационные технологии («Точка роста», «Цифровая образовательная среда»).\n\nНавыки\nPython\nPostgreSQL\nGit\nDocker\nRedis\nGitlab\nCelery\nHTML\nDjango\nBackend\nREST API\nGitHub\nAPI\nSQL\nSQLite\nCSS\nCI/CD\nJWT\nТестирование web-приложений\nOAuth2.0\nDjoser\nJSON API\nBootstrap\nDRF\nTDD\nООП\nLinux\nunittest\nPytest\nВысокая скорость печати\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A1 — Начальный\n\nОбо мне\nС опытом в области образования и успешным завершением профессиональных курсов по Python-разработке, я обладаю достаточными знаниями и навыками в программировании. Мои коммуникативные способности и умение работать в команде позволяют мне эффективно взаимодействовать с коллегами. Кроме того, моя ответственность, стремление к самосовершенствованию и способность быстро усваивать новые технологии делают меня ценным активом для любого проекта.\nГотов подтвердить свои знания выполнением тестового задания и ответить на дополнительные вопросы.\nТелеграм: https://t.me/informatik_dv\n\nОбразование\nУровень\nВысшее образование\nДонской государственный аграрный университет (п. Персиановский Ростовской области)\nАгрофак, Технология хранения и переработки растениеводческой продукции (диплом с отличием)\n•\n2000\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

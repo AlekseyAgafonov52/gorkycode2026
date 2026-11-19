@@ -1,0 +1,241 @@
+{
+  "candidate_id": 157,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 22,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 22,
+      "organization": "Организация 1",
+      "position": "Backend Python Developer",
+      "employer_details": [],
+      "description": "Разрабатываю pet-проекты на Python, применяя современные технологии backend-разработки, проектирования API, работы с базами данных и AI.\nСтек: Python 3.12, FastAPI, Django, Flask, Django REST Framework, PostgreSQL, SQLite, SQLAlchemy, Django ORM, Docker, Docker Compose, Git, Linux, pytest, Redis, Celery, OpenAI API, FAISS.\nОсновные проекты:\n1) Корпоративный backend-сервис для публикации микроблогов\nРазработал REST API (10+ эндпоинтов) для публикаций, подписок, лайков и пользовательской ленты.\nСпроектировал реляционную модель PostgreSQL, реализовал асинхронную работу с БД, загрузку медиафайлов и интеграционные тесты.\nСтек: FastAPI, Python 3.12, PostgreSQL, SQLAlchemy Async, Docker, Docker Compose, pytest, REST API\nСсылка: https://github.com/DenisDorokhov1/microblog_service\n2) Megano — онлайн-магазин\nРазработал backend интернет-магазина с REST API, каталогом товаров, корзиной и системой заказов.\nРеализовал аутентификацию, фильтрацию и сортировку каталога, оформление заказов и фоновые задачи через Celery/Redis. Контейнеризировал приложение и настроил запуск через Docker Compose, Gunicorn и Nginx.\nСтек: Django, Django REST Framework, Python, SQLite, Celery, Redis, Docker, Docker Compose, Gunicorn, Nginx\nСсылка: https://github.com/DenisDorokhov1/django_megano_app\n3) Library Management API\nРазработал REST API для управления библиотекой, аналитики читательской активности и системы рекомендаций.\nРеализовал импорт данных из CSV и бизнес-логику учета книг.\nСтек: Flask, SQLAlchemy, SQLite, Docker, Docker Compose\nСсылка: https://github.com/DenisDorokhov1/library_with_orm\n4) Telegram-бот для распознавания архитектурных объектов\nРазработал сервис распознавания изображений с использованием CLIP, DINOv2 и FAISS, интегрировал OpenAI API и Telegram-бота.\nСтек: Python, FAISS, CLIP, DINOv2, OpenAI API, python-telegram-bot, RAG\nСсылка: https://github.com/DenisDorokhov1/deep_learning_project_with_bot\nВесь GitHub: https://github.com/DenisDorokhov1",
+      "original": "Янв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nBackend Python Developer\nРазрабатываю pet-проекты на Python, применяя современные технологии backend-разработки, проектирования API, работы с базами данных и AI.\nСтек: Python 3.12, FastAPI, Django, Flask, Django REST Framework, PostgreSQL, SQLite, SQLAlchemy, Django ORM, Docker, Docker Compose, Git, Linux, pytest, Redis, Celery, OpenAI API, FAISS.\nОсновные проекты:\n1) Корпоративный backend-сервис для публикации микроблогов\nРазработал REST API (10+ эндпоинтов) для публикаций, подписок, лайков и пользовательской ленты.\nСпроектировал реляционную модель PostgreSQL, реализовал асинхронную работу с БД, загрузку медиафайлов и интеграционные тесты.\nСтек: FastAPI, Python 3.12, PostgreSQL, SQLAlchemy Async, Docker, Docker Compose, pytest, REST API\nСсылка: https://github.com/DenisDorokhov1/microblog_service\n2) Megano — онлайн-магазин\nРазработал backend интернет-магазина с REST API, каталогом товаров, корзиной и системой заказов.\nРеализовал аутентификацию, фильтрацию и сортировку каталога, оформление заказов и фоновые задачи через Celery/Redis. Контейнеризировал приложение и настроил запуск через Docker Compose, Gunicorn и Nginx.\nСтек: Django, Django REST Framework, Python, SQLite, Celery, Redis, Docker, Docker Compose, Gunicorn, Nginx\nСсылка: https://github.com/DenisDorokhov1/django_megano_app\n3) Library Management API\nРазработал REST API для управления библиотекой, аналитики читательской активности и системы рекомендаций.\nРеализовал импорт данных из CSV и бизнес-логику учета книг.\nСтек: Flask, SQLAlchemy, SQLite, Docker, Docker Compose\nСсылка: https://github.com/DenisDorokhov1/library_with_orm\n4) Telegram-бот для распознавания архитектурных объектов\nРазработал сервис распознавания изображений с использованием CLIP, DINOv2 и FAISS, интегрировал OpenAI API и Telegram-бота.\nСтек: Python, FAISS, CLIP, DINOv2, OpenAI API, python-telegram-bot, RAG\nСсылка: https://github.com/DenisDorokhov1/deep_learning_project_with_bot\nВесь GitHub: https://github.com/DenisDorokhov1"
+    },
+    {
+      "start_date": "2026-01",
+      "end_date": "2026-06",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 2",
+      "position": "Backend-разработчик, стажер",
+      "employer_details": [],
+      "description": "- Участвовал в разработке интеграционного приложения для предоставления информации и постановки задач сотрудникам.\n- Принимал участие в разработке личного кабинета сотрудника с доступом к связанным проектам и продуктам.\n- Работал в команде совместно с frontend-разработчиками, тестировщиками и UX/UI-дизайнерами.\n- Разрабатывал backend на FastAPI, создавал схемы валидации и передачи данных с использованием Pydantic.\n- Работал по GitFlow: создавал отдельные ветки под задачи, участвовал в code review и интеграции изменений.\n- Контейнеризировал приложения с помощью Docker, запускал backend через Gunicorn.\n- Взаимодействовал с командой при реализации и тестировании функциональности.\nВ результате, реализовано приложение для отслеживания активности сотрудников и работы с задачами. Создан личный кабинет, предоставляющий сотрудникам доступ к связанным продуктам и проектам.\nСтек: Python, FastAPI, Pydantic, Gunicorn, Docker, Git, GitFlow, REST API",
+      "original": "Янв 2026 -\nИюн 2026\n6 мес\nОрганизация 2\nBackend-разработчик, стажер\n- Участвовал в разработке интеграционного приложения для предоставления информации и постановки задач сотрудникам.\n- Принимал участие в разработке личного кабинета сотрудника с доступом к связанным проектам и продуктам.\n- Работал в команде совместно с frontend-разработчиками, тестировщиками и UX/UI-дизайнерами.\n- Разрабатывал backend на FastAPI, создавал схемы валидации и передачи данных с использованием Pydantic.\n- Работал по GitFlow: создавал отдельные ветки под задачи, участвовал в code review и интеграции изменений.\n- Контейнеризировал приложения с помощью Docker, запускал backend через Gunicorn.\n- Взаимодействовал с командой при реализации и тестировании функциональности.\nВ результате, реализовано приложение для отслеживания активности сотрудников и работы с задачами. Создан личный кабинет, предоставляющий сотрудникам доступ к связанным продуктам и проектам.\nСтек: Python, FastAPI, Pydantic, Gunicorn, Docker, Git, GitFlow, REST API"
+    }
+  ],
+  "skills": [
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "ORM",
+      "level": "advanced",
+      "original": "ORM"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Alembic",
+      "level": "advanced",
+      "original": "Alembic"
+    },
+    {
+      "name": "asyncio",
+      "level": "advanced",
+      "original": "asyncio"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Unit Testing",
+      "level": "advanced",
+      "original": "Unit Testing"
+    },
+    {
+      "name": "SOLID",
+      "level": "advanced",
+      "original": "SOLID"
+    },
+    {
+      "name": "DDD",
+      "level": "advanced",
+      "original": "DDD"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Bash",
+      "level": "advanced",
+      "original": "Bash"
+    },
+    {
+      "name": "RAG",
+      "level": "advanced",
+      "original": "RAG"
+    },
+    {
+      "name": "LLM",
+      "level": "advanced",
+      "original": "LLM"
+    },
+    {
+      "name": "логирование",
+      "level": "advanced",
+      "original": "логирование"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Испанский, B2",
+      "level": "advanced",
+      "original": "Испанский, B2"
+    },
+    {
+      "name": "Английский язык, C1",
+      "level": "advanced",
+      "original": "Английский язык, C1"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    },
+    {
+      "name": "Испанский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Испанский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Начинающий backend-разработчик на Python, развиваюсь в создании REST API и серверных приложений.\nЛегко нахожу общий язык с командой, спокойно воспринимаю обратную связь и не боюсь задавать вопросы, когда нужно разобраться в задаче. Быстро погружаюсь в новые технологии и готов самостоятельно разбираться в незнакомой предметной области.\nЛюблю сложные задачи, высокий темп работы и готов много работать, чтобы доводить задачи до результата. Ищу команду, где смогу приносить пользу с первых месяцев и быстро расти как backend-разработчик.\nКонтакты:\nTelegram: @denis_dorokhov1\nEmail: denis_dorokhov_04@mail.ru",
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "Филиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород",
+      "details": [
+        "Факультет гуманитарных наук, Прикладная лингвистика и текстовая аналитика"
+      ],
+      "year": 2026,
+      "level": "Высшее образование (Магистр)",
+      "original": "Филиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nФакультет гуманитарных наук, Прикладная лингвистика и текстовая аналитика\n•\n2026\n•\nВысшее образование (Магистр)"
+    },
+    {
+      "institution": "Национальный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород",
+      "details": [
+        "ИМОМИ, Зарубежное регионоведение"
+      ],
+      "year": 2024,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Национальный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИМОМИ, Зарубежное регионоведение\n•\n2024\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Нет",
+    "medical_book": "Есть"
+  },
+  "original_sections": {
+    "header": "Кандидат №157\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 10 месяцев\nЯнв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nBackend Python Developer\nРазрабатываю pet-проекты на Python, применяя современные технологии backend-разработки, проектирования API, работы с базами данных и AI.\nСтек: Python 3.12, FastAPI, Django, Flask, Django REST Framework, PostgreSQL, SQLite, SQLAlchemy, Django ORM, Docker, Docker Compose, Git, Linux, pytest, Redis, Celery, OpenAI API, FAISS.\nОсновные проекты:\n1) Корпоративный backend-сервис для публикации микроблогов\nРазработал REST API (10+ эндпоинтов) для публикаций, подписок, лайков и пользовательской ленты.\nСпроектировал реляционную модель PostgreSQL, реализовал асинхронную работу с БД, загрузку медиафайлов и интеграционные тесты.\nСтек: FastAPI, Python 3.12, PostgreSQL, SQLAlchemy Async, Docker, Docker Compose, pytest, REST API\nСсылка: https://github.com/DenisDorokhov1/microblog_service\n2) Megano — онлайн-магазин\nРазработал backend интернет-магазина с REST API, каталогом товаров, корзиной и системой заказов.\nРеализовал аутентификацию, фильтрацию и сортировку каталога, оформление заказов и фоновые задачи через Celery/Redis. Контейнеризировал приложение и настроил запуск через Docker Compose, Gunicorn и Nginx.\nСтек: Django, Django REST Framework, Python, SQLite, Celery, Redis, Docker, Docker Compose, Gunicorn, Nginx\nСсылка: https://github.com/DenisDorokhov1/django_megano_app\n3) Library Management API\nРазработал REST API для управления библиотекой, аналитики читательской активности и системы рекомендаций.\nРеализовал импорт данных из CSV и бизнес-логику учета книг.\nСтек: Flask, SQLAlchemy, SQLite, Docker, Docker Compose\nСсылка: https://github.com/DenisDorokhov1/library_with_orm\n4) Telegram-бот для распознавания архитектурных объектов\nРазработал сервис распознавания изображений с использованием CLIP, DINOv2 и FAISS, интегрировал OpenAI API и Telegram-бота.\nСтек: Python, FAISS, CLIP, DINOv2, OpenAI API, python-telegram-bot, RAG\nСсылка: https://github.com/DenisDorokhov1/deep_learning_project_with_bot\nВесь GitHub: https://github.com/DenisDorokhov1\nЯнв 2026 -\nИюн 2026\n6 мес\nОрганизация 2\nBackend-разработчик, стажер\n- Участвовал в разработке интеграционного приложения для предоставления информации и постановки задач сотрудникам.\n- Принимал участие в разработке личного кабинета сотрудника с доступом к связанным проектам и продуктам.\n- Работал в команде совместно с frontend-разработчиками, тестировщиками и UX/UI-дизайнерами.\n- Разрабатывал backend на FastAPI, создавал схемы валидации и передачи данных с использованием Pydantic.\n- Работал по GitFlow: создавал отдельные ветки под задачи, участвовал в code review и интеграции изменений.\n- Контейнеризировал приложения с помощью Docker, запускал backend через Gunicorn.\n- Взаимодействовал с командой при реализации и тестировании функциональности.\nВ результате, реализовано приложение для отслеживания активности сотрудников и работы с задачами. Создан личный кабинет, предоставляющий сотрудникам доступ к связанным продуктам и проектам.\nСтек: Python, FastAPI, Pydantic, Gunicorn, Docker, Git, GitFlow, REST API",
+    "skills": "Продвинутый уровень\nAPI\nPython\nООП\nFlask\nFastAPI\nRedis\nCelery\nGit\nGitHub\nSQL\nPostgreSQL\nORM\nSQLAlchemy\nAlembic\nasyncio\nDocker-compose\nDocker\nPytest\nUnit Testing\nSOLID\nDDD\nLinux\nBash\nRAG\nLLM\nлогирование\nDjango Framework\nИспанский, B2\nАнглийский язык, C1",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\nИспанский — B2 — Средне-продвинутый",
+    "about_me": "Начинающий backend-разработчик на Python, развиваюсь в создании REST API и серверных приложений.\nЛегко нахожу общий язык с командой, спокойно воспринимаю обратную связь и не боюсь задавать вопросы, когда нужно разобраться в задаче. Быстро погружаюсь в новые технологии и готов самостоятельно разбираться в незнакомой предметной области.\nЛюблю сложные задачи, высокий темп работы и готов много работать, чтобы доводить задачи до результата. Ищу команду, где смогу приносить пользу с первых месяцев и быстро расти как backend-разработчик.\nКонтакты:\nTelegram: @denis_dorokhov1\nEmail: denis_dorokhov_04@mail.ru",
+    "education": "Уровень\nВысшее образование (Магистр)\nФилиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nФакультет гуманитарных наук, Прикладная лингвистика и текстовая аналитика\n•\n2026\n•\nВысшее образование (Магистр)\nНациональный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИМОМИ, Зарубежное регионоведение\n•\n2024\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nЕсть"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №157\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 10 месяцев\nЯнв 2025 -\nсейчас\n1 год 10 мес\nОрганизация 1\nBackend Python Developer\nРазрабатываю pet-проекты на Python, применяя современные технологии backend-разработки, проектирования API, работы с базами данных и AI.\nСтек: Python 3.12, FastAPI, Django, Flask, Django REST Framework, PostgreSQL, SQLite, SQLAlchemy, Django ORM, Docker, Docker Compose, Git, Linux, pytest, Redis, Celery, OpenAI API, FAISS.\nОсновные проекты:\n1) Корпоративный backend-сервис для публикации микроблогов\nРазработал REST API (10+ эндпоинтов) для публикаций, подписок, лайков и пользовательской ленты.\nСпроектировал реляционную модель PostgreSQL, реализовал асинхронную работу с БД, загрузку медиафайлов и интеграционные тесты.\nСтек: FastAPI, Python 3.12, PostgreSQL, SQLAlchemy Async, Docker, Docker Compose, pytest, REST API\nСсылка: https://github.com/DenisDorokhov1/microblog_service\n2) Megano — онлайн-магазин\nРазработал backend интернет-магазина с REST API, каталогом товаров, корзиной и системой заказов.\nРеализовал аутентификацию, фильтрацию и сортировку каталога, оформление заказов и фоновые задачи через Celery/Redis. Контейнеризировал приложение и настроил запуск через Docker Compose, Gunicorn и Nginx.\nСтек: Django, Django REST Framework, Python, SQLite, Celery, Redis, Docker, Docker Compose, Gunicorn, Nginx\nСсылка: https://github.com/DenisDorokhov1/django_megano_app\n3) Library Management API\nРазработал REST API для управления библиотекой, аналитики читательской активности и системы рекомендаций.\nРеализовал импорт данных из CSV и бизнес-логику учета книг.\nСтек: Flask, SQLAlchemy, SQLite, Docker, Docker Compose\nСсылка: https://github.com/DenisDorokhov1/library_with_orm\n4) Telegram-бот для распознавания архитектурных объектов\nРазработал сервис распознавания изображений с использованием CLIP, DINOv2 и FAISS, интегрировал OpenAI API и Telegram-бота.\nСтек: Python, FAISS, CLIP, DINOv2, OpenAI API, python-telegram-bot, RAG\nСсылка: https://github.com/DenisDorokhov1/deep_learning_project_with_bot\nВесь GitHub: https://github.com/DenisDorokhov1\nЯнв 2026 -\nИюн 2026\n6 мес\nОрганизация 2\nBackend-разработчик, стажер\n- Участвовал в разработке интеграционного приложения для предоставления информации и постановки задач сотрудникам.\n- Принимал участие в разработке личного кабинета сотрудника с доступом к связанным проектам и продуктам.\n- Работал в команде совместно с frontend-разработчиками, тестировщиками и UX/UI-дизайнерами.\n- Разрабатывал backend на FastAPI, создавал схемы валидации и передачи данных с использованием Pydantic.\n- Работал по GitFlow: создавал отдельные ветки под задачи, участвовал в code review и интеграции изменений.\n- Контейнеризировал приложения с помощью Docker, запускал backend через Gunicorn.\n- Взаимодействовал с командой при реализации и тестировании функциональности.\nВ результате, реализовано приложение для отслеживания активности сотрудников и работы с задачами. Создан личный кабинет, предоставляющий сотрудникам доступ к связанным продуктам и проектам.\nСтек: Python, FastAPI, Pydantic, Gunicorn, Docker, Git, GitFlow, REST API\n\nНавыки\nПродвинутый уровень\nAPI\nPython\nООП\nFlask\nFastAPI\nRedis\nCelery\nGit\nGitHub\nSQL\nPostgreSQL\nORM\nSQLAlchemy\nAlembic\nasyncio\nDocker-compose\nDocker\nPytest\nUnit Testing\nSOLID\nDDD\nLinux\nBash\nRAG\nLLM\nлогирование\nDjango Framework\nИспанский, B2\nАнглийский язык, C1\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\nИспанский — B2 — Средне-продвинутый\n\nОбо мне\nНачинающий backend-разработчик на Python, развиваюсь в создании REST API и серверных приложений.\nЛегко нахожу общий язык с командой, спокойно воспринимаю обратную связь и не боюсь задавать вопросы, когда нужно разобраться в задаче. Быстро погружаюсь в новые технологии и готов самостоятельно разбираться в незнакомой предметной области.\nЛюблю сложные задачи, высокий темп работы и готов много работать, чтобы доводить задачи до результата. Ищу команду, где смогу приносить пользу с первых месяцев и быстро расти как backend-разработчик.\nКонтакты:\nTelegram: @denis_dorokhov1\nEmail: denis_dorokhov_04@mail.ru\n\nОбразование\nУровень\nВысшее образование (Магистр)\nФилиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nФакультет гуманитарных наук, Прикладная лингвистика и текстовая аналитика\n•\n2026\n•\nВысшее образование (Магистр)\nНациональный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИМОМИ, Зарубежное регионоведение\n•\n2024\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nЕсть\n"
+}

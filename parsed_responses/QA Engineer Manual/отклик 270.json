@@ -1,0 +1,193 @@
+{
+  "candidate_id": 270,
+  "resume_title": "Тестировщик",
+  "cover_letter": null,
+  "experience_total_months": 57,
+  "similar_experience_months": 35,
+  "work_experience": [
+    {
+      "start_date": "2022-08",
+      "end_date": "2025-06",
+      "is_current": false,
+      "duration_months": 35,
+      "organization": "Организация 1",
+      "position": "QA Manual (удаленно)",
+      "employer_details": [
+        "Санкт-Петербургecom.tech",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "1. Обновил чеклист онбординга, что позволило сократить время онбординга на 1.5 месяца\n2. Увеличил покрытие тест-кейсами в 50% до 70%\n3. Добавил чек-листы по взаимодействию сервисов разных команд в Confluence\n4. Работал по Agile & Scrum, общение с коллегами в Telemost и Telegram\n5. Тестирование Android: подключение телефона к android studio, снятие логов - logcat/adb\n6. Тестирование Backend: Postman, Swagger, Kibana\n7. Тестирование Web: DevTools (page source, адаптивная верстка, throttling, network tracking, console), Charles (breakpoint, rewrite, maplocal, map remote)\n8. Взаимодействие с БД: pgAdmin, базовый синтаксис SQL (SELECT, WHERE, JOIN), базовое знание key-value и документоориентированных БД",
+      "original": "Авг 2022 -\nИюн 2025\n2 года 11 мес\nОрганизация 1\nСанкт-Петербургecom.tech\nИнформационные технологии, системная интеграция, интернет\nQA Manual (удаленно)\n1. Обновил чеклист онбординга, что позволило сократить время онбординга на 1.5 месяца\n2. Увеличил покрытие тест-кейсами в 50% до 70%\n3. Добавил чек-листы по взаимодействию сервисов разных команд в Confluence\n4. Работал по Agile & Scrum, общение с коллегами в Telemost и Telegram\n5. Тестирование Android: подключение телефона к android studio, снятие логов - logcat/adb\n6. Тестирование Backend: Postman, Swagger, Kibana\n7. Тестирование Web: DevTools (page source, адаптивная верстка, throttling, network tracking, console), Charles (breakpoint, rewrite, maplocal, map remote)\n8. Взаимодействие с БД: pgAdmin, базовый синтаксис SQL (SELECT, WHERE, JOIN), базовое знание key-value и документоориентированных БД"
+    },
+    {
+      "start_date": "2020-10",
+      "end_date": "2022-07",
+      "is_current": false,
+      "duration_months": 22,
+      "organization": "Организация 2",
+      "position": "QA Manual (офис)",
+      "employer_details": [],
+      "description": "1. Повысил покрытие тест-кейсами на проекте с 30% до 60%\n2. Поддерживал документацию и чек-листы в актуальном состоянии\n3. Тестирование веб и мобильную версии приложения\n4. Занимался проверкой дизайна в Figma/Photoshop",
+      "original": "Окт 2020 -\nИюл 2022\n1 год 10 мес\nОрганизация 2\nQA Manual (офис)\n1. Повысил покрытие тест-кейсами на проекте с 30% до 60%\n2. Поддерживал документацию и чек-листы в актуальном состоянии\n3. Тестирование веб и мобильную версии приложения\n4. Занимался проверкой дизайна в Figma/Photoshop"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Use case",
+      "level": "advanced",
+      "original": "Use case"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": "advanced",
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "Zephyr Scale",
+      "level": "advanced",
+      "original": "Zephyr Scale"
+    },
+    {
+      "name": "Scrum",
+      "level": "advanced",
+      "original": "Scrum"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Agile",
+      "level": "intermediate",
+      "original": "Agile"
+    },
+    {
+      "name": "Confluence",
+      "level": "intermediate",
+      "original": "Atlassian Confluence"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "intermediate",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "Kibana",
+      "level": "intermediate",
+      "original": "Kibana"
+    },
+    {
+      "name": "Android Studio",
+      "level": "intermediate",
+      "original": "Android Studio"
+    },
+    {
+      "name": "Swagger",
+      "level": "intermediate",
+      "original": "Swagger"
+    },
+    {
+      "name": "Jenkins",
+      "level": "intermediate",
+      "original": "Jenkins"
+    },
+    {
+      "name": "Xcode",
+      "level": "intermediate",
+      "original": "Xcode"
+    },
+    {
+      "name": "User Interface",
+      "level": "intermediate",
+      "original": "User Interface"
+    },
+    {
+      "name": "Английский язык",
+      "level": "intermediate",
+      "original": "Английский язык"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "HTML",
+      "level": "basic",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "basic",
+      "original": "CSS"
+    },
+    {
+      "name": "PHP",
+      "level": "basic",
+      "original": "PHP"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Middle тестировщик с практическим опытом тестирования веб- и мобильных приложений. Уверенно владею техниками тест-дизайна, пишу понятные тест-кейсы и баг-репорты, участвую в регрессионном, функциональном и интеграционном тестировании. Опыт работы в Agile-командах, использую Jira, Confluence, Postman, Charles, DevTools, Fiddler и SQL. Умею анализировать логи, работать с документацией, взаимодействовать с разработчиками и продуктовой командой.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Санкт-Петербургский государственный архитектурно-строительный университет, Санкт-Петербург",
+      "details": [
+        "Архитектурный факультет, Кафедра дизайна архитектурной среды"
+      ],
+      "year": 2020,
+      "level": "Высшее образование",
+      "original": "Санкт-Петербургский государственный архитектурно-строительный университет, Санкт-Петербург\nАрхитектурный факультет, Кафедра дизайна архитектурной среды\n•\n2020\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №270\nРезюме: Тестировщик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:2 года 11 месяцев\nАвг 2022 -\nИюн 2025\n2 года 11 мес\nОрганизация 1\nСанкт-Петербургecom.tech\nИнформационные технологии, системная интеграция, интернет\nQA Manual (удаленно)\n1. Обновил чеклист онбординга, что позволило сократить время онбординга на 1.5 месяца\n2. Увеличил покрытие тест-кейсами в 50% до 70%\n3. Добавил чек-листы по взаимодействию сервисов разных команд в Confluence\n4. Работал по Agile & Scrum, общение с коллегами в Telemost и Telegram\n5. Тестирование Android: подключение телефона к android studio, снятие логов - logcat/adb\n6. Тестирование Backend: Postman, Swagger, Kibana\n7. Тестирование Web: DevTools (page source, адаптивная верстка, throttling, network tracking, console), Charles (breakpoint, rewrite, maplocal, map remote)\n8. Взаимодействие с БД: pgAdmin, базовый синтаксис SQL (SELECT, WHERE, JOIN), базовое знание key-value и документоориентированных БД\nОкт 2020 -\nИюл 2022\n1 год 10 мес\nОрганизация 2\nQA Manual (офис)\n1. Повысил покрытие тест-кейсами на проекте с 30% до 60%\n2. Поддерживал документацию и чек-листы в актуальном состоянии\n3. Тестирование веб и мобильную версии приложения\n4. Занимался проверкой дизайна в Figma/Photoshop",
+    "skills": "Продвинутый уровень\nUse case\nPostgreSQL\nФункциональное тестирование\nPostman\nZephyr Scale\nScrum\nAtlassian Jira\nСредний уровень\nAgile\nAtlassian Confluence\nREST API\nGit\nApache Kafka\nKibana\nAndroid Studio\nSwagger\nJenkins\nXcode\nUser Interface\nАнглийский язык\nБазовый уровень\nSQL\nHTML\nCSS\nPHP",
+    "languages": "Родной\nРусский",
+    "about_me": "Middle тестировщик с практическим опытом тестирования веб- и мобильных приложений. Уверенно владею техниками тест-дизайна, пишу понятные тест-кейсы и баг-репорты, участвую в регрессионном, функциональном и интеграционном тестировании. Опыт работы в Agile-командах, использую Jira, Confluence, Postman, Charles, DevTools, Fiddler и SQL. Умею анализировать логи, работать с документацией, взаимодействовать с разработчиками и продуктовой командой.",
+    "education": "Уровень\nВысшее образование\nСанкт-Петербургский государственный архитектурно-строительный университет, Санкт-Петербург\nАрхитектурный факультет, Кафедра дизайна архитектурной среды\n•\n2020\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №270\nРезюме: Тестировщик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:2 года 11 месяцев\nАвг 2022 -\nИюн 2025\n2 года 11 мес\nОрганизация 1\nСанкт-Петербургecom.tech\nИнформационные технологии, системная интеграция, интернет\nQA Manual (удаленно)\n1. Обновил чеклист онбординга, что позволило сократить время онбординга на 1.5 месяца\n2. Увеличил покрытие тест-кейсами в 50% до 70%\n3. Добавил чек-листы по взаимодействию сервисов разных команд в Confluence\n4. Работал по Agile & Scrum, общение с коллегами в Telemost и Telegram\n5. Тестирование Android: подключение телефона к android studio, снятие логов - logcat/adb\n6. Тестирование Backend: Postman, Swagger, Kibana\n7. Тестирование Web: DevTools (page source, адаптивная верстка, throttling, network tracking, console), Charles (breakpoint, rewrite, maplocal, map remote)\n8. Взаимодействие с БД: pgAdmin, базовый синтаксис SQL (SELECT, WHERE, JOIN), базовое знание key-value и документоориентированных БД\nОкт 2020 -\nИюл 2022\n1 год 10 мес\nОрганизация 2\nQA Manual (офис)\n1. Повысил покрытие тест-кейсами на проекте с 30% до 60%\n2. Поддерживал документацию и чек-листы в актуальном состоянии\n3. Тестирование веб и мобильную версии приложения\n4. Занимался проверкой дизайна в Figma/Photoshop\n\nНавыки\nПродвинутый уровень\nUse case\nPostgreSQL\nФункциональное тестирование\nPostman\nZephyr Scale\nScrum\nAtlassian Jira\nСредний уровень\nAgile\nAtlassian Confluence\nREST API\nGit\nApache Kafka\nKibana\nAndroid Studio\nSwagger\nJenkins\nXcode\nUser Interface\nАнглийский язык\nБазовый уровень\nSQL\nHTML\nCSS\nPHP\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nMiddle тестировщик с практическим опытом тестирования веб- и мобильных приложений. Уверенно владею техниками тест-дизайна, пишу понятные тест-кейсы и баг-репорты, участвую в регрессионном, функциональном и интеграционном тестировании. Опыт работы в Agile-командах, использую Jira, Confluence, Postman, Charles, DevTools, Fiddler и SQL. Умею анализировать логи, работать с документацией, взаимодействовать с разработчиками и продуктовой командой.\n\nОбразование\nУровень\nВысшее образование\nСанкт-Петербургский государственный архитектурно-строительный университет, Санкт-Петербург\nАрхитектурный факультет, Кафедра дизайна архитектурной среды\n•\n2020\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

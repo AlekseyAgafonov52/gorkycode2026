@@ -1,0 +1,215 @@
+{
+  "candidate_id": 109,
+  "resume_title": "Инженер нагрузочного тестирования",
+  "cover_letter": null,
+  "experience_total_months": 7,
+  "similar_experience_months": 7,
+  "work_experience": [
+    {
+      "start_date": "2026-04",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 7,
+      "organization": "Организация 1",
+      "position": "Инженер нагрузочного тестирования",
+      "employer_details": [],
+      "description": "- Участие в проектах нагрузочного тестирования критически важных систем банка;\n- Разработка и согласование методик нагрузочного тестирования;\n- Создание инструментов для нагрузочного тестирования: скриптов, эмуляторов, генераторов тестовых данных;\n- Выполнение тестирования, обработка и анализ полученных результатов, выявление слабых мест;\nподготовка отчётов о результатах нагрузочного тестирования;\n- Исследование нестандартных задач и написание аналитических выводов.",
+      "original": "Апр 2026 -\nсейчас\n7 мес\nОрганизация 1\nИнженер нагрузочного тестирования\n- Участие в проектах нагрузочного тестирования критически важных систем банка;\n- Разработка и согласование методик нагрузочного тестирования;\n- Создание инструментов для нагрузочного тестирования: скриптов, эмуляторов, генераторов тестовых данных;\n- Выполнение тестирования, обработка и анализ полученных результатов, выявление слабых мест;\nподготовка отчётов о результатах нагрузочного тестирования;\n- Исследование нестандартных задач и написание аналитических выводов."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "advanced",
+      "original": "Java"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": "intermediate",
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "Нагрузочное тестирование",
+      "level": "intermediate",
+      "original": "Нагрузочное тестирование"
+    },
+    {
+      "name": "Grafana",
+      "level": "intermediate",
+      "original": "Grafana"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "intermediate",
+      "original": "Spring Boot"
+    },
+    {
+      "name": "Apache JMeter",
+      "level": "intermediate",
+      "original": "Apache JMeter"
+    },
+    {
+      "name": "Kafka",
+      "level": "basic",
+      "original": "Kafka"
+    },
+    {
+      "name": "Автоматизация",
+      "level": "basic",
+      "original": "Автоматизация"
+    },
+    {
+      "name": "Selenium WebDriver",
+      "level": "basic",
+      "original": "Selenium WebDriver"
+    },
+    {
+      "name": "Postman",
+      "level": "basic",
+      "original": "Postman"
+    },
+    {
+      "name": "REST API",
+      "level": "basic",
+      "original": "REST"
+    },
+    {
+      "name": "SOAP",
+      "level": "basic",
+      "original": "SOAP"
+    },
+    {
+      "name": "REST API",
+      "level": "basic",
+      "original": "REST API"
+    },
+    {
+      "name": "Confluence",
+      "level": "basic",
+      "original": "Atlassian Confluence"
+    },
+    {
+      "name": "SQL запросы",
+      "level": "basic",
+      "original": "SQL запросы"
+    },
+    {
+      "name": "HTTP",
+      "level": "basic",
+      "original": "HTTP"
+    },
+    {
+      "name": "Swagger",
+      "level": "basic",
+      "original": "Swagger"
+    },
+    {
+      "name": "JUnit",
+      "level": "basic",
+      "original": "JUnit"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "QA",
+      "level": "basic",
+      "original": "QA"
+    },
+    {
+      "name": "Test case",
+      "level": "basic",
+      "original": "Test case"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "https://t.me/AY_Konkov\nPerformance Testing: Apache JMeter | SQL (Oracle) | HTTP/REST | JSON | Java/Spring Boot (заглушки) | Linux | Nginx | WebSphere | Telegraf/InfluxDB/Grafana | Анализ логов | МНТ | gRPC | Kafka",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Самарский государственный экономический университет, Самара",
+      "details": [
+        "Институт права, Таможенное право"
+      ],
+      "year": 2015,
+      "level": "Высшее образование",
+      "original": "Самарский государственный экономический университет, Самара\nИнститут права, Таможенное право\n•\n2015\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B, C",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №109\nРезюме: Инженер нагрузочного тестирования",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 7 месяцев\nОпыт в похожих должностях:7 месяцев\nАпр 2026 -\nсейчас\n7 мес\nОрганизация 1\nИнженер нагрузочного тестирования\n- Участие в проектах нагрузочного тестирования критически важных систем банка;\n- Разработка и согласование методик нагрузочного тестирования;\n- Создание инструментов для нагрузочного тестирования: скриптов, эмуляторов, генераторов тестовых данных;\n- Выполнение тестирования, обработка и анализ полученных результатов, выявление слабых мест;\nподготовка отчётов о результатах нагрузочного тестирования;\n- Исследование нестандартных задач и написание аналитических выводов.",
+    "skills": "Продвинутый уровень\nJava\nSQL\nHTML\nAPI\nСредний уровень\nDocker\nGit\nCSS\nJavaScript\nРегрессионное тестирование\nНагрузочное тестирование\nGrafana\nLinux\nSpring Boot\nApache JMeter\nБазовый уровень\nKafka\nАвтоматизация\nSelenium WebDriver\nPostman\nREST\nSOAP\nREST API\nAtlassian Confluence\nSQL запросы\nHTTP\nSwagger\nJUnit\nPostgreSQL\nQA\nTest case",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "https://t.me/AY_Konkov\nPerformance Testing: Apache JMeter | SQL (Oracle) | HTTP/REST | JSON | Java/Spring Boot (заглушки) | Linux | Nginx | WebSphere | Telegraf/InfluxDB/Grafana | Анализ логов | МНТ | gRPC | Kafka",
+    "education": "Уровень\nВысшее образование\nСамарский государственный экономический университет, Самара\nИнститут права, Таможенное право\n•\n2015\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B, C"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №109\nРезюме: Инженер нагрузочного тестирования\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 7 месяцев\nОпыт в похожих должностях:7 месяцев\nАпр 2026 -\nсейчас\n7 мес\nОрганизация 1\nИнженер нагрузочного тестирования\n- Участие в проектах нагрузочного тестирования критически важных систем банка;\n- Разработка и согласование методик нагрузочного тестирования;\n- Создание инструментов для нагрузочного тестирования: скриптов, эмуляторов, генераторов тестовых данных;\n- Выполнение тестирования, обработка и анализ полученных результатов, выявление слабых мест;\nподготовка отчётов о результатах нагрузочного тестирования;\n- Исследование нестандартных задач и написание аналитических выводов.\n\nНавыки\nПродвинутый уровень\nJava\nSQL\nHTML\nAPI\nСредний уровень\nDocker\nGit\nCSS\nJavaScript\nРегрессионное тестирование\nНагрузочное тестирование\nGrafana\nLinux\nSpring Boot\nApache JMeter\nБазовый уровень\nKafka\nАвтоматизация\nSelenium WebDriver\nPostman\nREST\nSOAP\nREST API\nAtlassian Confluence\nSQL запросы\nHTTP\nSwagger\nJUnit\nPostgreSQL\nQA\nTest case\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nhttps://t.me/AY_Konkov\nPerformance Testing: Apache JMeter | SQL (Oracle) | HTTP/REST | JSON | Java/Spring Boot (заглушки) | Linux | Nginx | WebSphere | Telegraf/InfluxDB/Grafana | Анализ логов | МНТ | gRPC | Kafka\n\nОбразование\nУровень\nВысшее образование\nСамарский государственный экономический университет, Самара\nИнститут права, Таможенное право\n•\n2015\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B, C\n"
+}

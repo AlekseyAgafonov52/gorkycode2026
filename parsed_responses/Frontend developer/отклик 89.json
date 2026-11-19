@@ -1,0 +1,213 @@
+{
+  "candidate_id": 89,
+  "resume_title": "Frontend developer (Vue.js/Nuxt)",
+  "cover_letter": null,
+  "experience_total_months": 29,
+  "similar_experience_months": 29,
+  "work_experience": [
+    {
+      "start_date": "2022-09",
+      "end_date": "2023-03",
+      "is_current": false,
+      "duration_months": 7,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "satoshihero.com/ru"
+      ],
+      "description": "- Разработка SPA и SSR приложений на Vue 3 / Nuxt.js\n- Интеграция REST API (Axios), работа с асинхронными данными\n- Верстка интерфейсов по макетам (Figma, Photoshop) с адаптивной и кроссбраузерной поддержкой\n- Оптимизация производительности приложений (ускорение загрузки до ~40%)\n- Настройка сборки проекта, конфигурация ESLint и улучшение качества кода\n- Участие в код-ревью, исправление багов и поддержка существующего функционала\n- Разработка микрофронтенд-решений",
+      "original": "Сен 2022 -\nМар 2023\n7 мес\nОрганизация 1\nsatoshihero.com/ru\nFrontend-разработчик\n- Разработка SPA и SSR приложений на Vue 3 / Nuxt.js\n- Интеграция REST API (Axios), работа с асинхронными данными\n- Верстка интерфейсов по макетам (Figma, Photoshop) с адаптивной и кроссбраузерной поддержкой\n- Оптимизация производительности приложений (ускорение загрузки до ~40%)\n- Настройка сборки проекта, конфигурация ESLint и улучшение качества кода\n- Участие в код-ревью, исправление багов и поддержка существующего функционала\n- Разработка микрофронтенд-решений"
+    },
+    {
+      "start_date": "2021-04",
+      "end_date": "2022-06",
+      "is_current": false,
+      "duration_months": 15,
+      "organization": "Организация 2",
+      "position": "Frontend-разработчик",
+      "employer_details": [],
+      "description": "- Разработка личных кабинетов, админ-панелей и лендингов на Vue / Nuxt\n- Интеграция сторонних API (погода, курсы валют, пользовательские данные)\n- Реализация динамических форм, фильтрации и пагинации данных\n- Создание переиспользуемых UI-компонентов с использованием Composition API и TypeScript\n- Поддержка и доработка существующих проектов",
+      "original": "Апр 2021 -\nИюн 2022\n1 год 3 мес\nОрганизация 2\nFrontend-разработчик\n- Разработка личных кабинетов, админ-панелей и лендингов на Vue / Nuxt\n- Интеграция сторонних API (погода, курсы валют, пользовательские данные)\n- Реализация динамических форм, фильтрации и пагинации данных\n- Создание переиспользуемых UI-компонентов с использованием Composition API и TypeScript\n- Поддержка и доработка существующих проектов"
+    },
+    {
+      "start_date": "2020-09",
+      "end_date": "2021-08",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 3",
+      "position": "Frontend-разработчик",
+      "employer_details": [],
+      "description": "- Верстка и интеграция макетов (Figma, Photoshop) в Vue.js приложения\n- Настройка маршрутизации (Vue Router) и управления состоянием (Vuex)\n- Подключение REST API, работа с формами и валидацией\n- Поддержка и исправление UI-багов",
+      "original": "Сен 2020 -\nАвг 2021\n1 год\nОрганизация 3\nFrontend-разработчик\n- Верстка и интеграция макетов (Figma, Photoshop) в Vue.js приложения\n- Настройка маршрутизации (Vue Router) и управления состоянием (Vuex)\n- Подключение REST API, работа с формами и валидацией\n- Поддержка и исправление UI-багов"
+    }
+  ],
+  "skills": [
+    {
+      "name": "tailwind",
+      "level": "advanced",
+      "original": "tailwind"
+    },
+    {
+      "name": "Bootstrap",
+      "level": "advanced",
+      "original": "Bootstrap"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "SCSS",
+      "level": "advanced",
+      "original": "scss"
+    },
+    {
+      "name": "Веб-программирование",
+      "level": "advanced",
+      "original": "Веб-программирование"
+    },
+    {
+      "name": "Обучение и развитие",
+      "level": "advanced",
+      "original": "Обучение и развитие"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML5"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS3"
+    },
+    {
+      "name": "Figma",
+      "level": "advanced",
+      "original": "Figma"
+    },
+    {
+      "name": "Nuxt",
+      "level": "intermediate",
+      "original": "nuxt"
+    },
+    {
+      "name": "Vue.js",
+      "level": "intermediate",
+      "original": "vue"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST"
+    },
+    {
+      "name": "Vuex",
+      "level": "intermediate",
+      "original": "vuex"
+    },
+    {
+      "name": "UI",
+      "level": "intermediate",
+      "original": "UI"
+    },
+    {
+      "name": "Node.js",
+      "level": "intermediate",
+      "original": "Node.js"
+    },
+    {
+      "name": "frond end",
+      "level": "intermediate",
+      "original": "frond end"
+    },
+    {
+      "name": "axios",
+      "level": "intermediate",
+      "original": "axios"
+    },
+    {
+      "name": "composition api",
+      "level": "intermediate",
+      "original": "composition api"
+    },
+    {
+      "name": "Options API",
+      "level": "intermediate",
+      "original": "Options API"
+    },
+    {
+      "name": "yarn",
+      "level": "intermediate",
+      "original": "yarn"
+    },
+    {
+      "name": "npm",
+      "level": "intermediate",
+      "original": "npm"
+    },
+    {
+      "name": "Vue Router",
+      "level": "intermediate",
+      "original": "Vue Router"
+    },
+    {
+      "name": "TypeScript",
+      "level": "basic",
+      "original": "TypeScript"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "https://github.com/4EPSI?tab=repositories\n💻 Frontend Developer (Vue / Nuxt) с 2+ годами опыта разработки SPA и SSR приложений.\nСпециализируюсь на:\n• разработке интерфейсов на Vue 3 / Nuxt.js (Composition API, TypeScript)\n• интеграции REST API и работе с асинхронными данными\n• оптимизации производительности (снижение времени загрузки до 40%)\n• создании переиспользуемых и масштабируемых UI-компонентов\nИмею опыт разработки личных кабинетов, админ-панелей и лендингов. Пишу чистый и поддерживаемый код, работаю с современным стеком Vue-экосистемы.\n🛠 Навыки\nFrontend:\n• Vue 3, Nuxt.js, Composition API, TypeScript\n• Vue Router, Pinia / Vuex\nСтилизация:\n• SCSS, Tailwind CSS, CSS3, Bootstrap\nИнструменты:\n• Git, Yarn, npm, ESLint, Axios, Node.js\n• Jest (базовый уровень)\nUI/UX:\n• Вёрстка по макетам (Figma, Photoshop)\n• Адаптивная и кроссбраузерная верстка",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Крымский институт экономики и хозяйственного права, Симферополь",
+      "details": [
+        "Менеджмент"
+      ],
+      "year": 2014,
+      "level": "Неоконченное высшее образование",
+      "original": "Крымский институт экономики и хозяйственного права, Симферополь\nМенеджмент\n•\n2014\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №89\nРезюме: Frontend developer (Vue.js/Nuxt)",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 2 года 5 месяцев\nОпыт в похожих должностях:2 года 5 месяцев\nСен 2022 -\nМар 2023\n7 мес\nОрганизация 1\nsatoshihero.com/ru\nFrontend-разработчик\n- Разработка SPA и SSR приложений на Vue 3 / Nuxt.js\n- Интеграция REST API (Axios), работа с асинхронными данными\n- Верстка интерфейсов по макетам (Figma, Photoshop) с адаптивной и кроссбраузерной поддержкой\n- Оптимизация производительности приложений (ускорение загрузки до ~40%)\n- Настройка сборки проекта, конфигурация ESLint и улучшение качества кода\n- Участие в код-ревью, исправление багов и поддержка существующего функционала\n- Разработка микрофронтенд-решений\nАпр 2021 -\nИюн 2022\n1 год 3 мес\nОрганизация 2\nFrontend-разработчик\n- Разработка личных кабинетов, админ-панелей и лендингов на Vue / Nuxt\n- Интеграция сторонних API (погода, курсы валют, пользовательские данные)\n- Реализация динамических форм, фильтрации и пагинации данных\n- Создание переиспользуемых UI-компонентов с использованием Composition API и TypeScript\n- Поддержка и доработка существующих проектов\nСен 2020 -\nАвг 2021\n1 год\nОрганизация 3\nFrontend-разработчик\n- Верстка и интеграция макетов (Figma, Photoshop) в Vue.js приложения\n- Настройка маршрутизации (Vue Router) и управления состоянием (Vuex)\n- Подключение REST API, работа с формами и валидацией\n- Поддержка и исправление UI-багов",
+    "skills": "Продвинутый уровень\ntailwind\nBootstrap\nCSS\nscss\nВеб-программирование\nОбучение и развитие\nHTML5\nCSS3\nFigma\nСредний уровень\nnuxt\nvue\nJavaScript\nGit\nREST\nvuex\nUI\nNode.js\nfrond end\naxios\ncomposition api\nOptions API\nyarn\nnpm\nVue Router\nБазовый уровень\nTypeScript",
+    "languages": "Родной\nРусский",
+    "about_me": "https://github.com/4EPSI?tab=repositories\n💻 Frontend Developer (Vue / Nuxt) с 2+ годами опыта разработки SPA и SSR приложений.\nСпециализируюсь на:\n• разработке интерфейсов на Vue 3 / Nuxt.js (Composition API, TypeScript)\n• интеграции REST API и работе с асинхронными данными\n• оптимизации производительности (снижение времени загрузки до 40%)\n• создании переиспользуемых и масштабируемых UI-компонентов\nИмею опыт разработки личных кабинетов, админ-панелей и лендингов. Пишу чистый и поддерживаемый код, работаю с современным стеком Vue-экосистемы.\n🛠 Навыки\nFrontend:\n• Vue 3, Nuxt.js, Composition API, TypeScript\n• Vue Router, Pinia / Vuex\nСтилизация:\n• SCSS, Tailwind CSS, CSS3, Bootstrap\nИнструменты:\n• Git, Yarn, npm, ESLint, Axios, Node.js\n• Jest (базовый уровень)\nUI/UX:\n• Вёрстка по макетам (Figma, Photoshop)\n• Адаптивная и кроссбраузерная верстка",
+    "education": "Уровень\nНеоконченное высшее образование\nКрымский институт экономики и хозяйственного права, Симферополь\nМенеджмент\n•\n2014\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №89\nРезюме: Frontend developer (Vue.js/Nuxt)\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 2 года 5 месяцев\nОпыт в похожих должностях:2 года 5 месяцев\nСен 2022 -\nМар 2023\n7 мес\nОрганизация 1\nsatoshihero.com/ru\nFrontend-разработчик\n- Разработка SPA и SSR приложений на Vue 3 / Nuxt.js\n- Интеграция REST API (Axios), работа с асинхронными данными\n- Верстка интерфейсов по макетам (Figma, Photoshop) с адаптивной и кроссбраузерной поддержкой\n- Оптимизация производительности приложений (ускорение загрузки до ~40%)\n- Настройка сборки проекта, конфигурация ESLint и улучшение качества кода\n- Участие в код-ревью, исправление багов и поддержка существующего функционала\n- Разработка микрофронтенд-решений\nАпр 2021 -\nИюн 2022\n1 год 3 мес\nОрганизация 2\nFrontend-разработчик\n- Разработка личных кабинетов, админ-панелей и лендингов на Vue / Nuxt\n- Интеграция сторонних API (погода, курсы валют, пользовательские данные)\n- Реализация динамических форм, фильтрации и пагинации данных\n- Создание переиспользуемых UI-компонентов с использованием Composition API и TypeScript\n- Поддержка и доработка существующих проектов\nСен 2020 -\nАвг 2021\n1 год\nОрганизация 3\nFrontend-разработчик\n- Верстка и интеграция макетов (Figma, Photoshop) в Vue.js приложения\n- Настройка маршрутизации (Vue Router) и управления состоянием (Vuex)\n- Подключение REST API, работа с формами и валидацией\n- Поддержка и исправление UI-багов\n\nНавыки\nПродвинутый уровень\ntailwind\nBootstrap\nCSS\nscss\nВеб-программирование\nОбучение и развитие\nHTML5\nCSS3\nFigma\nСредний уровень\nnuxt\nvue\nJavaScript\nGit\nREST\nvuex\nUI\nNode.js\nfrond end\naxios\ncomposition api\nOptions API\nyarn\nnpm\nVue Router\nБазовый уровень\nTypeScript\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nhttps://github.com/4EPSI?tab=repositories\n💻 Frontend Developer (Vue / Nuxt) с 2+ годами опыта разработки SPA и SSR приложений.\nСпециализируюсь на:\n• разработке интерфейсов на Vue 3 / Nuxt.js (Composition API, TypeScript)\n• интеграции REST API и работе с асинхронными данными\n• оптимизации производительности (снижение времени загрузки до 40%)\n• создании переиспользуемых и масштабируемых UI-компонентов\nИмею опыт разработки личных кабинетов, админ-панелей и лендингов. Пишу чистый и поддерживаемый код, работаю с современным стеком Vue-экосистемы.\n🛠 Навыки\nFrontend:\n• Vue 3, Nuxt.js, Composition API, TypeScript\n• Vue Router, Pinia / Vuex\nСтилизация:\n• SCSS, Tailwind CSS, CSS3, Bootstrap\nИнструменты:\n• Git, Yarn, npm, ESLint, Axios, Node.js\n• Jest (базовый уровень)\nUI/UX:\n• Вёрстка по макетам (Figma, Photoshop)\n• Адаптивная и кроссбраузерная верстка\n\nОбразование\nУровень\nНеоконченное высшее образование\nКрымский институт экономики и хозяйственного права, Симферополь\nМенеджмент\n•\n2014\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,206 @@
+{
+  "candidate_id": 160,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "работал со всеми технологиями из вашей вакансии, когда удобно будет созвониться?",
+  "experience_total_months": 63,
+  "similar_experience_months": 63,
+  "work_experience": [
+    {
+      "start_date": "2023-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 44,
+      "organization": "Организация 1",
+      "position": "Middle Python Developer",
+      "employer_details": [
+        "Россияwww.glowbyteconsulting.com",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "GlowByte Consulting — одна из ведущих консалтинговых компаний России, специализирующаяся на бизнес-аналитике и цифровых решениях. Я работал в проектной команде, отвечающей за разработку аналитических инструментов и автоматизацию отчетности для крупного ритейл-клиента.\nДостижения:\n- Разработал сервис агрегации и трансформации данных из нескольких источников, сократив подготовку ключевых отчетов с 2 часов до 20 минут\n- Внедрил логирование и мониторинг через ELK и Prometheus, что позволило сократить время на локализацию ошибок примерно на 33%\n- Онбордил двух новых разработчиков, стандартизировал процесс локального деплоя, CI и документации, ускорив онбординг в 2 раза\n- Перенес ключевые компоненты на микросервисы, повысив отказоустойчивость системы\nСтек: Python, FastAPI, Django, PostgreSQL, Redis, Celery, Docker, Gitlab CI/CD, ClickHouse, Elasticsearch, Kibana, Grafana, Prometheus, Linux, REST API, Jira, SQLAclhemy, RabbitMQ",
+      "original": "Мар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nРоссияwww.glowbyteconsulting.com\nИнформационные технологии, системная интеграция, интернет\nMiddle Python Developer\nGlowByte Consulting — одна из ведущих консалтинговых компаний России, специализирующаяся на бизнес-аналитике и цифровых решениях. Я работал в проектной команде, отвечающей за разработку аналитических инструментов и автоматизацию отчетности для крупного ритейл-клиента.\nДостижения:\n- Разработал сервис агрегации и трансформации данных из нескольких источников, сократив подготовку ключевых отчетов с 2 часов до 20 минут\n- Внедрил логирование и мониторинг через ELK и Prometheus, что позволило сократить время на локализацию ошибок примерно на 33%\n- Онбордил двух новых разработчиков, стандартизировал процесс локального деплоя, CI и документации, ускорив онбординг в 2 раза\n- Перенес ключевые компоненты на микросервисы, повысив отказоустойчивость системы\nСтек: Python, FastAPI, Django, PostgreSQL, Redis, Celery, Docker, Gitlab CI/CD, ClickHouse, Elasticsearch, Kibana, Grafana, Prometheus, Linux, REST API, Jira, SQLAclhemy, RabbitMQ"
+    },
+    {
+      "start_date": "2021-08",
+      "end_date": "2023-02",
+      "is_current": false,
+      "duration_months": 19,
+      "organization": "Организация 2",
+      "position": "Junior -> Middle Python Developer",
+      "employer_details": [
+        "Костромаwww.aisol.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Агентство предоставляло рекламные услуги и IT-решения для малого и среднего бизнеса, включая разработку CRM и аналитических систем. Я участвовал в создании микросервисов и внутренних API.\nДостижения:\n- Разработал 4 микросервиса с нуля (FastAPI + SQLAlchemy), покрыв ключевые сценарии CRM и системы заказов\n- Переписал слой сериализации на Pydantic, увеличив стабильность и ускорив отклик API на 27%\n- Инициировал внедрение линтеров и pre-commit хуков, сократив количество багов после деплоя примерно на 34%\n- Реализовал загрузку данных из рекламных кабинетов (Facebook, Яндекс.Директ), повысив точность дашбордов по KPI\n- Настроил мониторинг через Grafana + Prometheus, снизив время реакции на инциденты с 3+ часов до ~25 минут\nСтек: Python, FastAPI, SQLAlchemy, PostgreSQL, RabbitMQ, Redis, Kibana, Docker, Pydantic, GraphQL, REST API",
+      "original": "Авг 2021 -\nФев 2023\n1 год 7 мес\nОрганизация 2\nКостромаwww.aisol.ru\nИнформационные технологии, системная интеграция, интернет\nJunior -> Middle Python Developer\nАгентство предоставляло рекламные услуги и IT-решения для малого и среднего бизнеса, включая разработку CRM и аналитических систем. Я участвовал в создании микросервисов и внутренних API.\nДостижения:\n- Разработал 4 микросервиса с нуля (FastAPI + SQLAlchemy), покрыв ключевые сценарии CRM и системы заказов\n- Переписал слой сериализации на Pydantic, увеличив стабильность и ускорив отклик API на 27%\n- Инициировал внедрение линтеров и pre-commit хуков, сократив количество багов после деплоя примерно на 34%\n- Реализовал загрузку данных из рекламных кабинетов (Facebook, Яндекс.Директ), повысив точность дашбордов по KPI\n- Настроил мониторинг через Grafana + Prometheus, снизив время реакции на инциденты с 3+ часов до ~25 минут\nСтек: Python, FastAPI, SQLAlchemy, PostgreSQL, RabbitMQ, Redis, Kibana, Docker, Pydantic, GraphQL, REST API"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "HTTP",
+      "level": "advanced",
+      "original": "HTTP"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Pydantic",
+      "level": "advanced",
+      "original": "Pydantic"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "advanced",
+      "original": "Elasticsearch"
+    },
+    {
+      "name": "Kibana",
+      "level": "advanced",
+      "original": "Kibana"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Backend-разработчик с 3+ годами опыта. Работал с микросервисами, API и аналитикой в проектах ритейла и SMB. Внедрял CI/CD, мониторинг, стандарты кода и процессы онбординга. Понимаю бизнес-цели, умею выстраивать диалог между разработкой и продуктом.\nПисать лучше в телеграм @kirillplk",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Московский технический университет связи и информатики (МТУСИ)",
+      "details": [
+        "Прикладная информатика"
+      ],
+      "year": 2023,
+      "level": "Высшее образование",
+      "original": "Московский технический университет связи и информатики (МТУСИ)\nПрикладная информатика\n•\n2023\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №160\nРезюме: Python-разработчик",
+    "cover_letter": "работал со всеми технологиями из вашей вакансии, когда удобно будет созвониться?",
+    "experience": "Опыт работы: 5 лет 3 месяца\nОпыт в похожих должностях:5 лет 3 месяца\nМар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nРоссияwww.glowbyteconsulting.com\nИнформационные технологии, системная интеграция, интернет\nMiddle Python Developer\nGlowByte Consulting — одна из ведущих консалтинговых компаний России, специализирующаяся на бизнес-аналитике и цифровых решениях. Я работал в проектной команде, отвечающей за разработку аналитических инструментов и автоматизацию отчетности для крупного ритейл-клиента.\nДостижения:\n- Разработал сервис агрегации и трансформации данных из нескольких источников, сократив подготовку ключевых отчетов с 2 часов до 20 минут\n- Внедрил логирование и мониторинг через ELK и Prometheus, что позволило сократить время на локализацию ошибок примерно на 33%\n- Онбордил двух новых разработчиков, стандартизировал процесс локального деплоя, CI и документации, ускорив онбординг в 2 раза\n- Перенес ключевые компоненты на микросервисы, повысив отказоустойчивость системы\nСтек: Python, FastAPI, Django, PostgreSQL, Redis, Celery, Docker, Gitlab CI/CD, ClickHouse, Elasticsearch, Kibana, Grafana, Prometheus, Linux, REST API, Jira, SQLAclhemy, RabbitMQ\nАвг 2021 -\nФев 2023\n1 год 7 мес\nОрганизация 2\nКостромаwww.aisol.ru\nИнформационные технологии, системная интеграция, интернет\nJunior -> Middle Python Developer\nАгентство предоставляло рекламные услуги и IT-решения для малого и среднего бизнеса, включая разработку CRM и аналитических систем. Я участвовал в создании микросервисов и внутренних API.\nДостижения:\n- Разработал 4 микросервиса с нуля (FastAPI + SQLAlchemy), покрыв ключевые сценарии CRM и системы заказов\n- Переписал слой сериализации на Pydantic, увеличив стабильность и ускорив отклик API на 27%\n- Инициировал внедрение линтеров и pre-commit хуков, сократив количество багов после деплоя примерно на 34%\n- Реализовал загрузку данных из рекламных кабинетов (Facebook, Яндекс.Директ), повысив точность дашбордов по KPI\n- Настроил мониторинг через Grafana + Prometheus, снизив время реакции на инциденты с 3+ часов до ~25 минут\nСтек: Python, FastAPI, SQLAlchemy, PostgreSQL, RabbitMQ, Redis, Kibana, Docker, Pydantic, GraphQL, REST API",
+    "skills": "Продвинутый уровень\nPython\nFastAPI\nSQLAlchemy\nPostgreSQL\nRedis\nCelery\nDocker\nGit\nSQL\nREST\nREST API\nHTTP\nFlask\nDocker-compose\nGrafana\nPrometheus\nGitHub\nPydantic\nGitlab\nClickhouse\nElasticsearch\nKibana\nRabbitMQ\nАнглийский язык\nDjango Rest Framework",
+    "languages": "Родной\nРусский",
+    "about_me": "Backend-разработчик с 3+ годами опыта. Работал с микросервисами, API и аналитикой в проектах ритейла и SMB. Внедрял CI/CD, мониторинг, стандарты кода и процессы онбординга. Понимаю бизнес-цели, умею выстраивать диалог между разработкой и продуктом.\nПисать лучше в телеграм @kirillplk",
+    "education": "Уровень\nВысшее образование\nМосковский технический университет связи и информатики (МТУСИ)\nПрикладная информатика\n•\n2023\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №160\nРезюме: Python-разработчик\n\nСопроводительное письмо\nработал со всеми технологиями из вашей вакансии, когда удобно будет созвониться?\n\nОпыт работы\nОпыт работы: 5 лет 3 месяца\nОпыт в похожих должностях:5 лет 3 месяца\nМар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nРоссияwww.glowbyteconsulting.com\nИнформационные технологии, системная интеграция, интернет\nMiddle Python Developer\nGlowByte Consulting — одна из ведущих консалтинговых компаний России, специализирующаяся на бизнес-аналитике и цифровых решениях. Я работал в проектной команде, отвечающей за разработку аналитических инструментов и автоматизацию отчетности для крупного ритейл-клиента.\nДостижения:\n- Разработал сервис агрегации и трансформации данных из нескольких источников, сократив подготовку ключевых отчетов с 2 часов до 20 минут\n- Внедрил логирование и мониторинг через ELK и Prometheus, что позволило сократить время на локализацию ошибок примерно на 33%\n- Онбордил двух новых разработчиков, стандартизировал процесс локального деплоя, CI и документации, ускорив онбординг в 2 раза\n- Перенес ключевые компоненты на микросервисы, повысив отказоустойчивость системы\nСтек: Python, FastAPI, Django, PostgreSQL, Redis, Celery, Docker, Gitlab CI/CD, ClickHouse, Elasticsearch, Kibana, Grafana, Prometheus, Linux, REST API, Jira, SQLAclhemy, RabbitMQ\nАвг 2021 -\nФев 2023\n1 год 7 мес\nОрганизация 2\nКостромаwww.aisol.ru\nИнформационные технологии, системная интеграция, интернет\nJunior -> Middle Python Developer\nАгентство предоставляло рекламные услуги и IT-решения для малого и среднего бизнеса, включая разработку CRM и аналитических систем. Я участвовал в создании микросервисов и внутренних API.\nДостижения:\n- Разработал 4 микросервиса с нуля (FastAPI + SQLAlchemy), покрыв ключевые сценарии CRM и системы заказов\n- Переписал слой сериализации на Pydantic, увеличив стабильность и ускорив отклик API на 27%\n- Инициировал внедрение линтеров и pre-commit хуков, сократив количество багов после деплоя примерно на 34%\n- Реализовал загрузку данных из рекламных кабинетов (Facebook, Яндекс.Директ), повысив точность дашбордов по KPI\n- Настроил мониторинг через Grafana + Prometheus, снизив время реакции на инциденты с 3+ часов до ~25 минут\nСтек: Python, FastAPI, SQLAlchemy, PostgreSQL, RabbitMQ, Redis, Kibana, Docker, Pydantic, GraphQL, REST API\n\nНавыки\nПродвинутый уровень\nPython\nFastAPI\nSQLAlchemy\nPostgreSQL\nRedis\nCelery\nDocker\nGit\nSQL\nREST\nREST API\nHTTP\nFlask\nDocker-compose\nGrafana\nPrometheus\nGitHub\nPydantic\nGitlab\nClickhouse\nElasticsearch\nKibana\nRabbitMQ\nАнглийский язык\nDjango Rest Framework\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nBackend-разработчик с 3+ годами опыта. Работал с микросервисами, API и аналитикой в проектах ритейла и SMB. Внедрял CI/CD, мониторинг, стандарты кода и процессы онбординга. Понимаю бизнес-цели, умею выстраивать диалог между разработкой и продуктом.\nПисать лучше в телеграм @kirillplk\n\nОбразование\nУровень\nВысшее образование\nМосковский технический университет связи и информатики (МТУСИ)\nПрикладная информатика\n•\n2023\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,71 @@
+{
+  "candidate_id": 267,
+  "resume_title": "Программист",
+  "cover_letter": null,
+  "experience_total_months": 36,
+  "similar_experience_months": 36,
+  "work_experience": [
+    {
+      "start_date": "2023-11",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 36,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Python, Django, Django REST Framework, REST API design, PostgreSQL, SQL, Git, Docker (basic), Nginx (basic), WebSockets (Django Channels), Firebase Cloud Messaging, asyncio (basic), aiohttp (basic), OOP in Python, SOLID, deployment on VPS/Azure (basic), OCR integration (Tesseract), RAG",
+      "original": "Ноя 2023 -\nсейчас\n3 года\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nPython, Django, Django REST Framework, REST API design, PostgreSQL, SQL, Git, Docker (basic), Nginx (basic), WebSockets (Django Channels), Firebase Cloud Messaging, asyncio (basic), aiohttp (basic), OOP in Python, SOLID, deployment on VPS/Azure (basic), OCR integration (Tesseract), RAG"
+    }
+  ],
+  "skills": [],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "Aizhan Muratbek kyzy\n📍 Бишкек, Кыргызстан\n📧 aycanmuratbekova@gmail.com\n🔗 GitHub: aycanmuratbekova | LinkedIn: aijan-muratbekova\n🎯 ЦЕЛЬ\nPython/Django разработчик с 2–3 годами коммерческого опыта разработки веб-приложений, включая интеграцию AI, работу с облачными сервисами (Azure), WebSocket и Docker. Ищу возможности для дальнейшего роста в компаниях с сильной инженерной культурой, где могу применить свои знания в разработке REST API, микросервисной архитектуре и автоматизации процессов.\n🛠️ НАВЫКИ\nЯзыки программирования:\nPython 3, SQL, JavaScript (базово), HTML/CSS\nФреймворки и библиотеки:\nDjango, Django REST Framework\nБазы данных:\nPostgreSQL, SQLite\nИнтеграции и технологии:\nWebSocket\nFirebase (push-уведомления)\nSwagger/OpenAPI\nDocker & Docker Compose\nNginx\nGit\nAzure (разворачивание, настройка)\nПринципы и подходы:\nSOLID, REST, MVC, DRY, KISS\nCI/CD (базовое понимание), опыт деплоя на удаленные сервера\nРабота с изображениями, сканирование текста (Tesseract OCR, многоязычные паспорта)\n💼 ОПЫТ РАБОТЫ\nZeonit — Python/Django Developer\n2023 — наст. время\nРазработка и поддержка backend'а маркетплейсов\nРеализация фильтров и атрибутов товаров в зависимости от категории\nПодключение и настройка WebSocket уведомлений\nСоздание REST API с полной документацией Swagger\nКонтейнеризация проекта с Docker и деплой на облачные серверы\nEcoIslamic Bank — PL/SQL Developer\n2023 — 2023\nРазработка хранимых процедур и отчетов\nРабота с большими объемами данных в PostgreSQL\n🧪 ПРОЕКТЫ\nИнтернет-магазин тканей (маркетплейс)\nЛичный проект\nРеализация системы регистрации магазинов и добавления ими товаров\nАтрибуты товаров на трех языках (ru/en/kg)\nИнтерактивная фильтрация товаров\nПанель администратора с расширенным функционалом\nПодключение каналов WebSocket для уведомлений\nDocker + деплой на бесплатный хостинг\nСистема верификации пользователя по паспорту\nЗагрузка фото паспорта и лица\nСканирование ИНН и ФИО с изображения (Tesseract)\nСравнение с введенными данными\nПроверка срока действия паспорта\nАктивация профиля только после успешной верификации\n🌐 ЯЗЫКИ\nРусский — свободно\nКыргызский — носитель\nАнглийский — средний (техническое чтение, переписка, разговорный)",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Кыргызско-Турецкий Университет \"Манас\"",
+      "details": [
+        "Инженерный, Компьютерная инженерия"
+      ],
+      "year": 2019,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Кыргызско-Турецкий Университет \"Манас\"\nИнженерный, Компьютерная инженерия\n•\n2019\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Не готова к командировкам",
+    "citizenship": "Кыргызстан",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №267\nРезюме: Программист",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года\nОпыт в похожих должностях:3 года\nНоя 2023 -\nсейчас\n3 года\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nPython, Django, Django REST Framework, REST API design, PostgreSQL, SQL, Git, Docker (basic), Nginx (basic), WebSockets (Django Channels), Firebase Cloud Messaging, asyncio (basic), aiohttp (basic), OOP in Python, SOLID, deployment on VPS/Azure (basic), OCR integration (Tesseract), RAG",
+    "skills": "Не указано в доступной версии резюме.",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "Aizhan Muratbek kyzy\n📍 Бишкек, Кыргызстан\n📧 aycanmuratbekova@gmail.com\n🔗 GitHub: aycanmuratbekova | LinkedIn: aijan-muratbekova\n🎯 ЦЕЛЬ\nPython/Django разработчик с 2–3 годами коммерческого опыта разработки веб-приложений, включая интеграцию AI, работу с облачными сервисами (Azure), WebSocket и Docker. Ищу возможности для дальнейшего роста в компаниях с сильной инженерной культурой, где могу применить свои знания в разработке REST API, микросервисной архитектуре и автоматизации процессов.\n🛠️ НАВЫКИ\nЯзыки программирования:\nPython 3, SQL, JavaScript (базово), HTML/CSS\nФреймворки и библиотеки:\nDjango, Django REST Framework\nБазы данных:\nPostgreSQL, SQLite\nИнтеграции и технологии:\nWebSocket\nFirebase (push-уведомления)\nSwagger/OpenAPI\nDocker & Docker Compose\nNginx\nGit\nAzure (разворачивание, настройка)\nПринципы и подходы:\nSOLID, REST, MVC, DRY, KISS\nCI/CD (базовое понимание), опыт деплоя на удаленные сервера\nРабота с изображениями, сканирование текста (Tesseract OCR, многоязычные паспорта)\n💼 ОПЫТ РАБОТЫ\nZeonit — Python/Django Developer\n2023 — наст. время\nРазработка и поддержка backend'а маркетплейсов\nРеализация фильтров и атрибутов товаров в зависимости от категории\nПодключение и настройка WebSocket уведомлений\nСоздание REST API с полной документацией Swagger\nКонтейнеризация проекта с Docker и деплой на облачные серверы\nEcoIslamic Bank — PL/SQL Developer\n2023 — 2023\nРазработка хранимых процедур и отчетов\nРабота с большими объемами данных в PostgreSQL\n🧪 ПРОЕКТЫ\nИнтернет-магазин тканей (маркетплейс)\nЛичный проект\nРеализация системы регистрации магазинов и добавления ими товаров\nАтрибуты товаров на трех языках (ru/en/kg)\nИнтерактивная фильтрация товаров\nПанель администратора с расширенным функционалом\nПодключение каналов WebSocket для уведомлений\nDocker + деплой на бесплатный хостинг\nСистема верификации пользователя по паспорту\nЗагрузка фото паспорта и лица\nСканирование ИНН и ФИО с изображения (Tesseract)\nСравнение с введенными данными\nПроверка срока действия паспорта\nАктивация профиля только после успешной верификации\n🌐 ЯЗЫКИ\nРусский — свободно\nКыргызский — носитель\nАнглийский — средний (техническое чтение, переписка, разговорный)",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nКыргызско-Турецкий Университет \"Манас\"\nИнженерный, Компьютерная инженерия\n•\n2019\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готова к командировкам\nГражданство:\nКыргызстан\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №267\nРезюме: Программист\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года\nОпыт в похожих должностях:3 года\nНоя 2023 -\nсейчас\n3 года\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nPython, Django, Django REST Framework, REST API design, PostgreSQL, SQL, Git, Docker (basic), Nginx (basic), WebSockets (Django Channels), Firebase Cloud Messaging, asyncio (basic), aiohttp (basic), OOP in Python, SOLID, deployment on VPS/Azure (basic), OCR integration (Tesseract), RAG\n\nНавыки\nНе указано в доступной версии резюме.\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\nAizhan Muratbek kyzy\n📍 Бишкек, Кыргызстан\n📧 aycanmuratbekova@gmail.com\n🔗 GitHub: aycanmuratbekova | LinkedIn: aijan-muratbekova\n🎯 ЦЕЛЬ\nPython/Django разработчик с 2–3 годами коммерческого опыта разработки веб-приложений, включая интеграцию AI, работу с облачными сервисами (Azure), WebSocket и Docker. Ищу возможности для дальнейшего роста в компаниях с сильной инженерной культурой, где могу применить свои знания в разработке REST API, микросервисной архитектуре и автоматизации процессов.\n🛠️ НАВЫКИ\nЯзыки программирования:\nPython 3, SQL, JavaScript (базово), HTML/CSS\nФреймворки и библиотеки:\nDjango, Django REST Framework\nБазы данных:\nPostgreSQL, SQLite\nИнтеграции и технологии:\nWebSocket\nFirebase (push-уведомления)\nSwagger/OpenAPI\nDocker & Docker Compose\nNginx\nGit\nAzure (разворачивание, настройка)\nПринципы и подходы:\nSOLID, REST, MVC, DRY, KISS\nCI/CD (базовое понимание), опыт деплоя на удаленные сервера\nРабота с изображениями, сканирование текста (Tesseract OCR, многоязычные паспорта)\n💼 ОПЫТ РАБОТЫ\nZeonit — Python/Django Developer\n2023 — наст. время\nРазработка и поддержка backend'а маркетплейсов\nРеализация фильтров и атрибутов товаров в зависимости от категории\nПодключение и настройка WebSocket уведомлений\nСоздание REST API с полной документацией Swagger\nКонтейнеризация проекта с Docker и деплой на облачные серверы\nEcoIslamic Bank — PL/SQL Developer\n2023 — 2023\nРазработка хранимых процедур и отчетов\nРабота с большими объемами данных в PostgreSQL\n🧪 ПРОЕКТЫ\nИнтернет-магазин тканей (маркетплейс)\nЛичный проект\nРеализация системы регистрации магазинов и добавления ими товаров\nАтрибуты товаров на трех языках (ru/en/kg)\nИнтерактивная фильтрация товаров\nПанель администратора с расширенным функционалом\nПодключение каналов WebSocket для уведомлений\nDocker + деплой на бесплатный хостинг\nСистема верификации пользователя по паспорту\nЗагрузка фото паспорта и лица\nСканирование ИНН и ФИО с изображения (Tesseract)\nСравнение с введенными данными\nПроверка срока действия паспорта\nАктивация профиля только после успешной верификации\n🌐 ЯЗЫКИ\nРусский — свободно\nКыргызский — носитель\nАнглийский — средний (техническое чтение, переписка, разговорный)\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nКыргызско-Турецкий Университет \"Манас\"\nИнженерный, Компьютерная инженерия\n•\n2019\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готова к командировкам\nГражданство:\nКыргызстан\nРазрешение на работу:\nРоссия\n"
+}

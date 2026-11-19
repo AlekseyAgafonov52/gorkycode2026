@@ -1,0 +1,169 @@
+{
+  "candidate_id": 283,
+  "resume_title": "Software Designer",
+  "cover_letter": "Здравствуйте. Заинтересовала Ваша вакансия. Готова к собеседованию.",
+  "experience_total_months": 82,
+  "similar_experience_months": 68,
+  "work_experience": [
+    {
+      "start_date": "2019-01",
+      "end_date": "2024-08",
+      "is_current": false,
+      "duration_months": 68,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Нижний Новгородwww.startmeeting.com/about-us"
+      ],
+      "description": "Task performed:\nDeveloped Call Report Tool for Marketing Department\nDeveloped python script for CDR search\nDeveloped Fast API service to display client information\nDeveloped autocomplete client-mapping service\nDeveloped message transcribing service\nDeveloped various of mini python scripts\nFronted developing",
+      "original": "Янв 2019 -\nАвг 2024\n5 лет 8 мес\nОрганизация 1\nНижний Новгородwww.startmeeting.com/about-us\nPython-разработчик\nTask performed:\nDeveloped Call Report Tool for Marketing Department\nDeveloped python script for CDR search\nDeveloped Fast API service to display client information\nDeveloped autocomplete client-mapping service\nDeveloped message transcribing service\nDeveloped various of mini python scripts\nFronted developing"
+    },
+    {
+      "start_date": "2017-11",
+      "end_date": "2018-12",
+      "is_current": false,
+      "duration_months": 14,
+      "organization": "Организация 2",
+      "position": "Programmer/developer",
+      "employer_details": [
+        "Нижегородская область"
+      ],
+      "description": "Lang: Python 2.7, 3.5, JavaScript\nOS: Windows, Linux\nVCS: Git, Gerrit\nDB: PostgreSQL, SQLite\nFramework: Django, React\nHTML/CSS\nProject experience: worked with HDLC/DLMC protocol. Worked with devices(electrical meters).\nResponsibilities: developed new functionality(firmware upgrade, HDLC parser, TPL checker) for electrical meters.\nProject experience: Web-development (development for inner site (front and back)",
+      "original": "Ноя 2017 -\nДек 2018\n1 год 2 мес\nОрганизация 2\nНижегородская область\nProgrammer/developer\nLang: Python 2.7, 3.5, JavaScript\nOS: Windows, Linux\nVCS: Git, Gerrit\nDB: PostgreSQL, SQLite\nFramework: Django, React\nHTML/CSS\nProject experience: worked with HDLC/DLMC protocol. Worked with devices(electrical meters).\nResponsibilities: developed new functionality(firmware upgrade, HDLC parser, TPL checker) for electrical meters.\nProject experience: Web-development (development for inner site (front and back)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Ubuntu",
+      "level": null,
+      "original": "Ubuntu"
+    },
+    {
+      "name": "Gerrit",
+      "level": null,
+      "original": "Gerrit"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "TCP/IP",
+      "level": null,
+      "original": "TCP/IP"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML5"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "SQLite",
+      "level": null,
+      "original": "SQLite"
+    },
+    {
+      "name": "Ajax",
+      "level": null,
+      "original": "Ajax"
+    },
+    {
+      "name": "jQuery",
+      "level": null,
+      "original": "jQuery"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "N.I. Lobachevsky State University of Nizhny Novgorod",
+      "details": [
+        "The faculty of Finance, accountant"
+      ],
+      "year": 2017,
+      "level": "Высшее образование",
+      "original": "N.I. Lobachevsky State University of Nizhny Novgorod\nThe faculty of Finance, accountant\n•\n2017\n•\nВысшее образование"
+    },
+    {
+      "institution": "The Nizhny Novgorod Institute of Information Technologies",
+      "details": [
+        "Software Development, Courses"
+      ],
+      "year": 2017,
+      "level": "Высшее образование",
+      "original": "The Nizhny Novgorod Institute of Information Technologies\nSoftware Development, Courses\n•\n2017\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готова к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №283\nРезюме: Software Designer",
+    "cover_letter": "Здравствуйте. Заинтересовала Ваша вакансия. Готова к собеседованию.",
+    "experience": "Опыт работы: 6 лет 10 месяцев\nОпыт в похожих должностях:5 лет 8 месяцев\nЯнв 2019 -\nАвг 2024\n5 лет 8 мес\nОрганизация 1\nНижний Новгородwww.startmeeting.com/about-us\nPython-разработчик\nTask performed:\nDeveloped Call Report Tool for Marketing Department\nDeveloped python script for CDR search\nDeveloped Fast API service to display client information\nDeveloped autocomplete client-mapping service\nDeveloped message transcribing service\nDeveloped various of mini python scripts\nFronted developing\nНоя 2017 -\nДек 2018\n1 год 2 мес\nОрганизация 2\nНижегородская область\nProgrammer/developer\nLang: Python 2.7, 3.5, JavaScript\nOS: Windows, Linux\nVCS: Git, Gerrit\nDB: PostgreSQL, SQLite\nFramework: Django, React\nHTML/CSS\nProject experience: worked with HDLC/DLMC protocol. Worked with devices(electrical meters).\nResponsibilities: developed new functionality(firmware upgrade, HDLC parser, TPL checker) for electrical meters.\nProject experience: Web-development (development for inner site (front and back)",
+    "skills": "Python\nGit\nUbuntu\nGerrit\nMySQL\nTCP/IP\nJavaScript\nCSS\nHTML5\nPostgreSQL\nHTML\nDjango Framework\nSQLite\nAjax\njQuery",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nN.I. Lobachevsky State University of Nizhny Novgorod\nThe faculty of Finance, accountant\n•\n2017\n•\nВысшее образование\nThe Nizhny Novgorod Institute of Information Technologies\nSoftware Development, Courses\n•\n2017\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №283\nРезюме: Software Designer\n\nСопроводительное письмо\nЗдравствуйте. Заинтересовала Ваша вакансия. Готова к собеседованию.\n\nОпыт работы\nОпыт работы: 6 лет 10 месяцев\nОпыт в похожих должностях:5 лет 8 месяцев\nЯнв 2019 -\nАвг 2024\n5 лет 8 мес\nОрганизация 1\nНижний Новгородwww.startmeeting.com/about-us\nPython-разработчик\nTask performed:\nDeveloped Call Report Tool for Marketing Department\nDeveloped python script for CDR search\nDeveloped Fast API service to display client information\nDeveloped autocomplete client-mapping service\nDeveloped message transcribing service\nDeveloped various of mini python scripts\nFronted developing\nНоя 2017 -\nДек 2018\n1 год 2 мес\nОрганизация 2\nНижегородская область\nProgrammer/developer\nLang: Python 2.7, 3.5, JavaScript\nOS: Windows, Linux\nVCS: Git, Gerrit\nDB: PostgreSQL, SQLite\nFramework: Django, React\nHTML/CSS\nProject experience: worked with HDLC/DLMC protocol. Worked with devices(electrical meters).\nResponsibilities: developed new functionality(firmware upgrade, HDLC parser, TPL checker) for electrical meters.\nProject experience: Web-development (development for inner site (front and back)\n\nНавыки\nPython\nGit\nUbuntu\nGerrit\nMySQL\nTCP/IP\nJavaScript\nCSS\nHTML5\nPostgreSQL\nHTML\nDjango Framework\nSQLite\nAjax\njQuery\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nN.I. Lobachevsky State University of Nizhny Novgorod\nThe faculty of Finance, accountant\n•\n2017\n•\nВысшее образование\nThe Nizhny Novgorod Institute of Information Technologies\nSoftware Development, Courses\n•\n2017\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

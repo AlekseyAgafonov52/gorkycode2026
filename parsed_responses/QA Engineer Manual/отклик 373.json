@@ -1,0 +1,187 @@
+{
+  "candidate_id": 373,
+  "resume_title": "Тестировщик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "HTTP",
+      "level": "intermediate",
+      "original": "HTTP"
+    },
+    {
+      "name": "HTTPS",
+      "level": "intermediate",
+      "original": "HTTPS"
+    },
+    {
+      "name": "API",
+      "level": "intermediate",
+      "original": "API"
+    },
+    {
+      "name": "Jira",
+      "level": "intermediate",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Confluence",
+      "level": "intermediate",
+      "original": "Atlassian Confluence"
+    },
+    {
+      "name": "Jenkins",
+      "level": "intermediate",
+      "original": "Jenkins"
+    },
+    {
+      "name": "Agile",
+      "level": "intermediate",
+      "original": "Agile"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST"
+    },
+    {
+      "name": "Zephyr Scale",
+      "level": "intermediate",
+      "original": "Zephyr Scale"
+    },
+    {
+      "name": "Kibana",
+      "level": "intermediate",
+      "original": "Kibana"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "intermediate",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "Postman",
+      "level": "intermediate",
+      "original": "Postman"
+    },
+    {
+      "name": "Charles Proxy",
+      "level": "intermediate",
+      "original": "Charles Proxy"
+    },
+    {
+      "name": "JSON API",
+      "level": "intermediate",
+      "original": "JSON API"
+    },
+    {
+      "name": "Интеграционное тестирование",
+      "level": "intermediate",
+      "original": "Интеграционное тестирование"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": "intermediate",
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "Тестирование пользовательского интерфейса",
+      "level": "intermediate",
+      "original": "Тестирование пользовательского интерфейса"
+    },
+    {
+      "name": "Составление баг-репортов",
+      "level": "intermediate",
+      "original": "Составление баг-репортов"
+    },
+    {
+      "name": "Составление тест-кейсов",
+      "level": "intermediate",
+      "original": "Составление тест-кейсов"
+    },
+    {
+      "name": "Manual testing",
+      "level": "intermediate",
+      "original": "Manual testing"
+    },
+    {
+      "name": "QA",
+      "level": "intermediate",
+      "original": "QA"
+    },
+    {
+      "name": "Kanban",
+      "level": "intermediate",
+      "original": "Kanban"
+    },
+    {
+      "name": "Grafana",
+      "level": "intermediate",
+      "original": "Grafana"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS"
+    },
+    {
+      "name": "DevTools",
+      "level": "intermediate",
+      "original": "DevTools"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": "intermediate",
+      "original": "Регрессионное тестирование"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Прошел курсы QAstudio, есть знания, готов к любым задачам, кроме автотестов.",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №373\nРезюме: Тестировщик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Средний уровень\nSQL\nHTTP\nHTTPS\nAPI\nAtlassian Jira\nAtlassian Confluence\nJenkins\nAgile\nREST\nZephyr Scale\nKibana\nApache Kafka\nPostman\nCharles Proxy\nJSON API\nИнтеграционное тестирование\nФункциональное тестирование\nТестирование пользовательского интерфейса\nСоставление баг-репортов\nСоставление тест-кейсов\nManual testing\nQA\nKanban\nGrafana\nHTML\nCSS\nDevTools\nGit\nРегрессионное тестирование",
+    "languages": "Родной\nРусский",
+    "about_me": "Прошел курсы QAstudio, есть знания, готов к любым задачам, кроме автотестов.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №373\nРезюме: Тестировщик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nСредний уровень\nSQL\nHTTP\nHTTPS\nAPI\nAtlassian Jira\nAtlassian Confluence\nJenkins\nAgile\nREST\nZephyr Scale\nKibana\nApache Kafka\nPostman\nCharles Proxy\nJSON API\nИнтеграционное тестирование\nФункциональное тестирование\nТестирование пользовательского интерфейса\nСоставление баг-репортов\nСоставление тест-кейсов\nManual testing\nQA\nKanban\nGrafana\nHTML\nCSS\nDevTools\nGit\nРегрессионное тестирование\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nПрошел курсы QAstudio, есть знания, готов к любым задачам, кроме автотестов.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

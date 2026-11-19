@@ -1,0 +1,133 @@
+{
+  "candidate_id": 59,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Алгоритмы и структуры данных",
+      "level": "advanced",
+      "original": "Алгоритмы и структуры данных"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML5"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "SOLID",
+      "level": "intermediate",
+      "original": "SOLID"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "Celery",
+      "level": "basic",
+      "original": "Celery"
+    },
+    {
+      "name": "Redis",
+      "level": "basic",
+      "original": "Redis"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Ищу работу или стажировку на позицию Python-разработчик.\nРассматриваю любой формат работы (офис, гибрид, удаленный).\nВ этом году заканчиваю учёбу в университете. 2 года назад прошёл курс Python-разработчик образовательной платформы Яндекс Практикум.\nПоследние реализованные проекты:\nКлиент-серверное приложение для управления контактами и массовой рассылки SMS-сообщений через GSM-шлюз(https://github.com/Den-Krutov/SMS_RMRail)\nGithub: https://github.com/Den-Krutov\nLeetCode: https://leetcode.com/u/Den_Krutov\nTelegram: https://t.me/den_krutov",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Национальный исследовательский Мордовский государственный университет имени Н. П. Огарёва",
+      "details": [
+        "Факультет математики и информационных технологий, Прикладная математика"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Национальный исследовательский Мордовский государственный университет имени Н. П. Огарёва\nФакультет математики и информационных технологий, Прикладная математика\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Нет своей машины, права категории B, C\nКомментарии\nИстория\nPython-разработчик (Нижний Новгород)",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №59\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nАлгоритмы и структуры данных\nСредний уровень\nPython\nDjango Framework\nGit\nSQL\nCSS\nLinux\nHTML5\nDjango Rest Framework\nООП\nSOLID\nREST API\nGitHub\nБазовый уровень\nCelery\nRedis",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Ищу работу или стажировку на позицию Python-разработчик.\nРассматриваю любой формат работы (офис, гибрид, удаленный).\nВ этом году заканчиваю учёбу в университете. 2 года назад прошёл курс Python-разработчик образовательной платформы Яндекс Практикум.\nПоследние реализованные проекты:\nКлиент-серверное приложение для управления контактами и массовой рассылки SMS-сообщений через GSM-шлюз(https://github.com/Den-Krutov/SMS_RMRail)\nGithub: https://github.com/Den-Krutov\nLeetCode: https://leetcode.com/u/Den_Krutov\nTelegram: https://t.me/den_krutov",
+    "education": "Уровень\nВысшее образование\nНациональный исследовательский Мордовский государственный университет имени Н. П. Огарёва\nФакультет математики и информационных технологий, Прикладная математика\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории B, C\nКомментарии\nИстория\nPython-разработчик (Нижний Новгород)\nОтказ: не подходит, 13.05.25 Автор: Михаил Куликов\nПовышайте релевантность откликов\nРасскажите о жизни в компании и её атмосфере в статье на hh.ru\nОформляйте кандидатов онлайн\nПроверяйте сотрудников и подписывайте кадровые документы без бумаг и личных встреч\nУскорьте подбор в 2 раза с Talantix\nАвтоматизируйте сбор откликов, настройте воронку, собирайте аналитику в 2 клика\nНа информационном ресурсе hh.ru применяются рекомендательные технологии (информационные технологии предоставления информации на основе сбора, систематизации и анализа сведений, относящихся к предпочтениям пользователей сети «Интернет», находящихся на территории Российской Федерации)\n© 2026 ООО «Хэдхантер»\n<div>\n<img src='https://top-fwz1.mail.ru/counter?id=3209834;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n<img src='https://top-fwz1.mail.ru/counter?id=3399615;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n</div>\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-318408-3u7id\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-737575-4yDN2\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<div>\n<img src=\"https://mc.yandex.ru/watch/156828\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/93250637\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/83135743\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n</div>"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №59\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nАлгоритмы и структуры данных\nСредний уровень\nPython\nDjango Framework\nGit\nSQL\nCSS\nLinux\nHTML5\nDjango Rest Framework\nООП\nSOLID\nREST API\nGitHub\nБазовый уровень\nCelery\nRedis\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nИщу работу или стажировку на позицию Python-разработчик.\nРассматриваю любой формат работы (офис, гибрид, удаленный).\nВ этом году заканчиваю учёбу в университете. 2 года назад прошёл курс Python-разработчик образовательной платформы Яндекс Практикум.\nПоследние реализованные проекты:\nКлиент-серверное приложение для управления контактами и массовой рассылки SMS-сообщений через GSM-шлюз(https://github.com/Den-Krutov/SMS_RMRail)\nGithub: https://github.com/Den-Krutov\nLeetCode: https://leetcode.com/u/Den_Krutov\nTelegram: https://t.me/den_krutov\n\nОбразование\nУровень\nВысшее образование\nНациональный исследовательский Мордовский государственный университет имени Н. П. Огарёва\nФакультет математики и информационных технологий, Прикладная математика\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории B, C\nКомментарии\nИстория\nPython-разработчик (Нижний Новгород)\nОтказ: не подходит, 13.05.25 Автор: Михаил Куликов\nПовышайте релевантность откликов\nРасскажите о жизни в компании и её атмосфере в статье на hh.ru\nОформляйте кандидатов онлайн\nПроверяйте сотрудников и подписывайте кадровые документы без бумаг и личных встреч\nУскорьте подбор в 2 раза с Talantix\nАвтоматизируйте сбор откликов, настройте воронку, собирайте аналитику в 2 клика\nНа информационном ресурсе hh.ru применяются рекомендательные технологии (информационные технологии предоставления информации на основе сбора, систематизации и анализа сведений, относящихся к предпочтениям пользователей сети «Интернет», находящихся на территории Российской Федерации)\n© 2026 ООО «Хэдхантер»\n<div>\n<img src='https://top-fwz1.mail.ru/counter?id=3209834;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n<img src='https://top-fwz1.mail.ru/counter?id=3399615;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n</div>\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-318408-3u7id\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-737575-4yDN2\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<div>\n<img src=\"https://mc.yandex.ru/watch/156828\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/93250637\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/83135743\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n</div>\n"
+}

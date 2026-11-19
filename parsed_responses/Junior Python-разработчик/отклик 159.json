@@ -1,0 +1,234 @@
+{
+  "candidate_id": 159,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 15,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-09",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 14,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "Владею Python, SQL, PostgreSQL, Django и Django REST Framework. Имею практический опыт тестирования (pytest, unittest, TDD), работы с Docker/Docker Compose, базовые знания CI/CD и уверенное использование Git. Умею превращать бизнес-задачи в надежный, протестированный код с обработкой краевых случаев (edge-cases).\nКлючевые проекты\nRestaurant Booking System | Django, PostgreSQL, Docker, Bootstrap 5.3, pytest\nПолнофункциональная система онлайн-бронирования столиков с защитой от двойных записей.\nРезультат: Исключил 90% ошибок двойного бронирования и сократил время оформления заявки с 10 минут до 30 секунд.\nВклад: Реализовал валидацию пересечения интервалов на уровне модели БД (через Q-объекты в методе clean()), что гарантирует целостность данных даже при одновременных запросах. Упаковал приложение в Docker Compose и написал 62 теста (покрытие 89.97%).\nhttps://github.com/starchenko-dmi/RestaurantBooking\nLearnHub Educational Platform | Django REST Framework, Stripe, Celery, Redis, GitHub Actions\nОбразовательная платформа с созданием курсов, оплатой и системой подписок.\nРезультат: Реализовал 100% ТЗ за 3 недели (на неделю раньше срока) с поддержкой до 50 одновременных пользователей.\nВклад: Интегрировал платежи через Stripe API; настроил асинхронные фоновые задачи (email-рассылки) через Celery + Redis; внедрил JWT-аутентификацию и настроил CI/CD пайплайн через GitHub Actions для автоматического деплоя (экономия 2 часов в неделю). Покрытие тестами: 85%.\nhttps://github.com/starchenko-dmi/LearnHubDRF\nHH Vacancy Logger DB | Python, PostgreSQL, REST API, OOP\nETL-пайплайн для автоматизированного сбора и аналитики рынка труда с API hh.ru.\nРезультат: Автоматизировал сбор данных по 10+ крупным работодателям, сократив время анализа с часов до нескольких минут.\nВклад: Разработал клиент с обходом rate limits (пагинация + задержки); спроектировал схему БД с защитой от дубликатов (ON CONFLICT DO NOTHING); написал аналитические SQL-запросы с использованием COALESCE для корректного расчета средних зарплат при неполных данных (указана только граница «от» или «до»).\nhttps://github.com/starchenko-dmi/HH_Vacancy_Logger_DB\nVK Post Collector | Python, tkinter, VK API, Excel, threading\nДесктопное приложение для мониторинга и сохранения текстового контента из сообществ ВКонтакте.\nРезультат: Создал стабильный автономный инструмент, формирующий чистый отчет без потери данных.\nВклад: Реализовал гибридный экспорт для обхода лимита Excel в 32 767 символов (длинные тексты сохраняются в .txt со ссылкой в ячейке); внедрил многопоточность с queue.Queue для предотвращения зависания GUI; обеспечил безопасное хранение токенов (Base64-обфускация).\nhttps://github.com/starchenko-dmi/VK_Post_Collector_v1.0\nДополнительные проекты (кратко)\nHabit Tracker (Django, DRF, Celery, Telegram Bot API): API-сервис с бесшовной синхронизацией между веб-интерфейсом и ботом. Реализовал единый слой валидации бизнес-правил и асинхронные напоминания с точностью до ±30 сек (покрытие тестами 82%).\nMailing Management Service (Django, DRF, PostgreSQL, Redis): Веб-приложение для email-рассылок. Реализовал multi-tenancy на уровне queryset (owner=user), ролевую модель через группы Django и кэширование статистики в Redis с грамотной инвалидацией.\nVacancies Parser (Python, REST API, SOLID, pytest): CLI-инструмент для агрегации вакансий. Спроектировал архитектуру на базе абстрактных классов (ABC) для легкого добавления новых API/хранилищ, добавил строгую валидацию и изолированное тестирование через tmp_path.\nBanking Application (Python, Excel, JSON, OOP): Модульное приложение для анализа финансовых операций. Четко разделил ответственность на модули (utils, services, reports, views), что упростило тестирование и замену источников данных.\nСсылки на все репозитории доступны в моем профиле GitHub: https://github.com/starchenko-dmi",
+      "original": "Сен 2025 -\nсейчас\n1 год 2 мес\nОрганизация 1\nPython-разработчик\nВладею Python, SQL, PostgreSQL, Django и Django REST Framework. Имею практический опыт тестирования (pytest, unittest, TDD), работы с Docker/Docker Compose, базовые знания CI/CD и уверенное использование Git. Умею превращать бизнес-задачи в надежный, протестированный код с обработкой краевых случаев (edge-cases).\nКлючевые проекты\nRestaurant Booking System | Django, PostgreSQL, Docker, Bootstrap 5.3, pytest\nПолнофункциональная система онлайн-бронирования столиков с защитой от двойных записей.\nРезультат: Исключил 90% ошибок двойного бронирования и сократил время оформления заявки с 10 минут до 30 секунд.\nВклад: Реализовал валидацию пересечения интервалов на уровне модели БД (через Q-объекты в методе clean()), что гарантирует целостность данных даже при одновременных запросах. Упаковал приложение в Docker Compose и написал 62 теста (покрытие 89.97%).\nhttps://github.com/starchenko-dmi/RestaurantBooking\nLearnHub Educational Platform | Django REST Framework, Stripe, Celery, Redis, GitHub Actions\nОбразовательная платформа с созданием курсов, оплатой и системой подписок.\nРезультат: Реализовал 100% ТЗ за 3 недели (на неделю раньше срока) с поддержкой до 50 одновременных пользователей.\nВклад: Интегрировал платежи через Stripe API; настроил асинхронные фоновые задачи (email-рассылки) через Celery + Redis; внедрил JWT-аутентификацию и настроил CI/CD пайплайн через GitHub Actions для автоматического деплоя (экономия 2 часов в неделю). Покрытие тестами: 85%.\nhttps://github.com/starchenko-dmi/LearnHubDRF\nHH Vacancy Logger DB | Python, PostgreSQL, REST API, OOP\nETL-пайплайн для автоматизированного сбора и аналитики рынка труда с API hh.ru.\nРезультат: Автоматизировал сбор данных по 10+ крупным работодателям, сократив время анализа с часов до нескольких минут.\nВклад: Разработал клиент с обходом rate limits (пагинация + задержки); спроектировал схему БД с защитой от дубликатов (ON CONFLICT DO NOTHING); написал аналитические SQL-запросы с использованием COALESCE для корректного расчета средних зарплат при неполных данных (указана только граница «от» или «до»).\nhttps://github.com/starchenko-dmi/HH_Vacancy_Logger_DB\nVK Post Collector | Python, tkinter, VK API, Excel, threading\nДесктопное приложение для мониторинга и сохранения текстового контента из сообществ ВКонтакте.\nРезультат: Создал стабильный автономный инструмент, формирующий чистый отчет без потери данных.\nВклад: Реализовал гибридный экспорт для обхода лимита Excel в 32 767 символов (длинные тексты сохраняются в .txt со ссылкой в ячейке); внедрил многопоточность с queue.Queue для предотвращения зависания GUI; обеспечил безопасное хранение токенов (Base64-обфускация).\nhttps://github.com/starchenko-dmi/VK_Post_Collector_v1.0\nДополнительные проекты (кратко)\nHabit Tracker (Django, DRF, Celery, Telegram Bot API): API-сервис с бесшовной синхронизацией между веб-интерфейсом и ботом. Реализовал единый слой валидации бизнес-правил и асинхронные напоминания с точностью до ±30 сек (покрытие тестами 82%).\nMailing Management Service (Django, DRF, PostgreSQL, Redis): Веб-приложение для email-рассылок. Реализовал multi-tenancy на уровне queryset (owner=user), ролевую модель через группы Django и кэширование статистики в Redis с грамотной инвалидацией.\nVacancies Parser (Python, REST API, SOLID, pytest): CLI-инструмент для агрегации вакансий. Спроектировал архитектуру на базе абстрактных классов (ABC) для легкого добавления новых API/хранилищ, добавил строгую валидацию и изолированное тестирование через tmp_path.\nBanking Application (Python, Excel, JSON, OOP): Модульное приложение для анализа финансовых операций. Четко разделил ответственность на модули (utils, services, reports, views), что упростило тестирование и замену источников данных.\nСсылки на все репозитории доступны в моем профиле GitHub: https://github.com/starchenko-dmi"
+    },
+    {
+      "start_date": "2025-08",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 15,
+      "organization": "Организация 2",
+      "position": "Педагог-организатор",
+      "employer_details": [],
+      "description": "Организация мероприятий, работа с молодёжью, командная работа, документальное сопровождение, отчетность, поиск и закупка материалов, ведение сайта организации.",
+      "original": "Авг 2025 -\nсейчас\n1 год 3 мес\nОрганизация 2\nПедагог-организатор\nОрганизация мероприятий, работа с молодёжью, командная работа, документальное сопровождение, отчетность, поиск и закупка материалов, ведение сайта организации."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "Poetry",
+      "level": "intermediate",
+      "original": "Poetry"
+    },
+    {
+      "name": "PyCharm",
+      "level": "intermediate",
+      "original": "PyCharm"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Django ORM",
+      "level": "intermediate",
+      "original": "Django ORM"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS"
+    },
+    {
+      "name": "Bootstrap",
+      "level": "intermediate",
+      "original": "Bootstrap"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "Nginx",
+      "level": "intermediate",
+      "original": "Nginx"
+    },
+    {
+      "name": "pytest",
+      "level": "basic",
+      "original": "Pytest"
+    },
+    {
+      "name": "Requests",
+      "level": "basic",
+      "original": "Requests"
+    },
+    {
+      "name": "Celery",
+      "level": "basic",
+      "original": "Celery"
+    },
+    {
+      "name": "FastAPI",
+      "level": "basic",
+      "original": "FastAPI"
+    },
+    {
+      "name": "API",
+      "level": "basic",
+      "original": "API"
+    },
+    {
+      "name": "Анализ требований",
+      "level": "basic",
+      "original": "Анализ требований"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "basic",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "Flask",
+      "level": "basic",
+      "original": "Flask"
+    },
+    {
+      "name": "Redis",
+      "level": "basic",
+      "original": "Redis"
+    },
+    {
+      "name": "JWT",
+      "level": "basic",
+      "original": "JWT"
+    },
+    {
+      "name": "OpenAPI",
+      "level": "basic",
+      "original": "OpenAPI"
+    },
+    {
+      "name": "SOLID",
+      "level": "basic",
+      "original": "SOLID"
+    },
+    {
+      "name": "ETL",
+      "level": "basic",
+      "original": "ETL"
+    },
+    {
+      "name": "Postman",
+      "level": "basic",
+      "original": "Postman"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Python-разработчик с опытом проектной разработки на Django и DRF. Владею Python, SQL, PostgreSQL, Docker, Celery, Redis. Пишу тесты (pytest, unittest, TDD), настраиваю CI/CD. Имею инженерное образование и опыт управления командами. Готов к тестовому заданию.\nНавыки\nЯзыки и фреймворки: Python, Django, Django REST Framework, FastAPI, Flask.\nБазы данных: PostgreSQL, SQL, Redis.\nИнструменты: Docker, Docker Compose, Git, GitHub Actions, Celery, Nginx, Postman.\nТестирование: pytest, unittest, TDD, покрытие до 90%.\nДругое: REST API, JWT, OpenAPI, HTML, CSS, Bootstrap, ООП, SOLID.\nПроекты (GitHub) https://github.com/starchenko-dmi\nКонтакты для связи\nТелефон / Telegram/ Макс: +7 (983) 122-16-63\nEmail: Starchenko.Dmitr@mail.ru",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "ОАНО ДПО \"СКАЕНГ\"",
+      "details": [
+        "Профессиональная переподгатовка, Python-разработчик"
+      ],
+      "year": 2026,
+      "level": "Высшее образование",
+      "original": "ОАНО ДПО \"СКАЕНГ\"\nПрофессиональная переподгатовка, Python-разработчик\n•\n2026\n•\nВысшее образование"
+    },
+    {
+      "institution": "Новосибирский Государственный Аграрный университет",
+      "details": [
+        "Инженерный Институт, Инженер Механик"
+      ],
+      "year": 2011,
+      "level": "Высшее образование",
+      "original": "Новосибирский Государственный Аграрный университет\nИнженерный Институт, Инженер Механик\n•\n2011\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Нет своей машины, права категории A, B, C\nКомментарии\nПовышайте релевантность откликов\nРасскажите о жизни в компании и её атмосфере в статье на hh.ru\nОформляйте кандидатов онлайн\nПроверяйте сотрудников и подписывайте кадровые документы без бумаг и личных встреч\nУскорьте подбор в 2 раза с Talantix\nАвтоматизируйте сбор откликов, настройте воронку, собирайте аналитику в 2 клика\nНа информационном ресурсе hh.ru применяются рекомендательные технологии (информационные технологии предоставления информации на основе сбора, систематизации и анализа сведений, относящихся к предпочтениям пользователей сети «Интернет», находящихся на территории Российской Федерации)\n© 2026 ООО «Хэдхантер»\n<div>",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №159\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 3 месяца\nСен 2025 -\nсейчас\n1 год 2 мес\nОрганизация 1\nPython-разработчик\nВладею Python, SQL, PostgreSQL, Django и Django REST Framework. Имею практический опыт тестирования (pytest, unittest, TDD), работы с Docker/Docker Compose, базовые знания CI/CD и уверенное использование Git. Умею превращать бизнес-задачи в надежный, протестированный код с обработкой краевых случаев (edge-cases).\nКлючевые проекты\nRestaurant Booking System | Django, PostgreSQL, Docker, Bootstrap 5.3, pytest\nПолнофункциональная система онлайн-бронирования столиков с защитой от двойных записей.\nРезультат: Исключил 90% ошибок двойного бронирования и сократил время оформления заявки с 10 минут до 30 секунд.\nВклад: Реализовал валидацию пересечения интервалов на уровне модели БД (через Q-объекты в методе clean()), что гарантирует целостность данных даже при одновременных запросах. Упаковал приложение в Docker Compose и написал 62 теста (покрытие 89.97%).\nhttps://github.com/starchenko-dmi/RestaurantBooking\nLearnHub Educational Platform | Django REST Framework, Stripe, Celery, Redis, GitHub Actions\nОбразовательная платформа с созданием курсов, оплатой и системой подписок.\nРезультат: Реализовал 100% ТЗ за 3 недели (на неделю раньше срока) с поддержкой до 50 одновременных пользователей.\nВклад: Интегрировал платежи через Stripe API; настроил асинхронные фоновые задачи (email-рассылки) через Celery + Redis; внедрил JWT-аутентификацию и настроил CI/CD пайплайн через GitHub Actions для автоматического деплоя (экономия 2 часов в неделю). Покрытие тестами: 85%.\nhttps://github.com/starchenko-dmi/LearnHubDRF\nHH Vacancy Logger DB | Python, PostgreSQL, REST API, OOP\nETL-пайплайн для автоматизированного сбора и аналитики рынка труда с API hh.ru.\nРезультат: Автоматизировал сбор данных по 10+ крупным работодателям, сократив время анализа с часов до нескольких минут.\nВклад: Разработал клиент с обходом rate limits (пагинация + задержки); спроектировал схему БД с защитой от дубликатов (ON CONFLICT DO NOTHING); написал аналитические SQL-запросы с использованием COALESCE для корректного расчета средних зарплат при неполных данных (указана только граница «от» или «до»).\nhttps://github.com/starchenko-dmi/HH_Vacancy_Logger_DB\nVK Post Collector | Python, tkinter, VK API, Excel, threading\nДесктопное приложение для мониторинга и сохранения текстового контента из сообществ ВКонтакте.\nРезультат: Создал стабильный автономный инструмент, формирующий чистый отчет без потери данных.\nВклад: Реализовал гибридный экспорт для обхода лимита Excel в 32 767 символов (длинные тексты сохраняются в .txt со ссылкой в ячейке); внедрил многопоточность с queue.Queue для предотвращения зависания GUI; обеспечил безопасное хранение токенов (Base64-обфускация).\nhttps://github.com/starchenko-dmi/VK_Post_Collector_v1.0\nДополнительные проекты (кратко)\nHabit Tracker (Django, DRF, Celery, Telegram Bot API): API-сервис с бесшовной синхронизацией между веб-интерфейсом и ботом. Реализовал единый слой валидации бизнес-правил и асинхронные напоминания с точностью до ±30 сек (покрытие тестами 82%).\nMailing Management Service (Django, DRF, PostgreSQL, Redis): Веб-приложение для email-рассылок. Реализовал multi-tenancy на уровне queryset (owner=user), ролевую модель через группы Django и кэширование статистики в Redis с грамотной инвалидацией.\nVacancies Parser (Python, REST API, SOLID, pytest): CLI-инструмент для агрегации вакансий. Спроектировал архитектуру на базе абстрактных классов (ABC) для легкого добавления новых API/хранилищ, добавил строгую валидацию и изолированное тестирование через tmp_path.\nBanking Application (Python, Excel, JSON, OOP): Модульное приложение для анализа финансовых операций. Четко разделил ответственность на модули (utils, services, reports, views), что упростило тестирование и замену источников данных.\nСсылки на все репозитории доступны в моем профиле GitHub: https://github.com/starchenko-dmi\nАвг 2025 -\nсейчас\n1 год 3 мес\nОрганизация 2\nПедагог-организатор\nОрганизация мероприятий, работа с молодёжью, командная работа, документальное сопровождение, отчетность, поиск и закупка материалов, ведение сайта организации.",
+    "skills": "Продвинутый уровень\nGit\nСредний уровень\nPython\nPoetry\nPyCharm\nGitHub\nDjango Rest Framework\nREST API\nDocker\nPostgreSQL\nDjango ORM\nHTML\nCSS\nBootstrap\nООП\nNginx\nБазовый уровень\nPytest\nRequests\nCelery\nFastAPI\nAPI\nАнализ требований\nDocker-compose\nSQL\nFlask\nRedis\nJWT\nOpenAPI\nSOLID\nETL\nPostman",
+    "languages": "Родной\nРусский",
+    "about_me": "Python-разработчик с опытом проектной разработки на Django и DRF. Владею Python, SQL, PostgreSQL, Docker, Celery, Redis. Пишу тесты (pytest, unittest, TDD), настраиваю CI/CD. Имею инженерное образование и опыт управления командами. Готов к тестовому заданию.\nНавыки\nЯзыки и фреймворки: Python, Django, Django REST Framework, FastAPI, Flask.\nБазы данных: PostgreSQL, SQL, Redis.\nИнструменты: Docker, Docker Compose, Git, GitHub Actions, Celery, Nginx, Postman.\nТестирование: pytest, unittest, TDD, покрытие до 90%.\nДругое: REST API, JWT, OpenAPI, HTML, CSS, Bootstrap, ООП, SOLID.\nПроекты (GitHub) https://github.com/starchenko-dmi\nКонтакты для связи\nТелефон / Telegram/ Макс: +7 (983) 122-16-63\nEmail: Starchenko.Dmitr@mail.ru",
+    "education": "Уровень\nВысшее образование\nОАНО ДПО \"СКАЕНГ\"\nПрофессиональная переподгатовка, Python-разработчик\n•\n2026\n•\nВысшее образование\nНовосибирский Государственный Аграрный университет\nИнженерный Институт, Инженер Механик\n•\n2011\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории A, B, C\nКомментарии\nПовышайте релевантность откликов\nРасскажите о жизни в компании и её атмосфере в статье на hh.ru\nОформляйте кандидатов онлайн\nПроверяйте сотрудников и подписывайте кадровые документы без бумаг и личных встреч\nУскорьте подбор в 2 раза с Talantix\nАвтоматизируйте сбор откликов, настройте воронку, собирайте аналитику в 2 клика\nНа информационном ресурсе hh.ru применяются рекомендательные технологии (информационные технологии предоставления информации на основе сбора, систематизации и анализа сведений, относящихся к предпочтениям пользователей сети «Интернет», находящихся на территории Российской Федерации)\n© 2026 ООО «Хэдхантер»\n<div>\n<img src='https://top-fwz1.mail.ru/counter?id=3209834;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n<img src='https://top-fwz1.mail.ru/counter?id=3399615;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n</div>\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-318408-3u7id\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-737575-4yDN2\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<div>\n<img src=\"https://mc.yandex.ru/watch/156828\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/93250637\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/83135743\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n</div>"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №159\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 3 месяца\nСен 2025 -\nсейчас\n1 год 2 мес\nОрганизация 1\nPython-разработчик\nВладею Python, SQL, PostgreSQL, Django и Django REST Framework. Имею практический опыт тестирования (pytest, unittest, TDD), работы с Docker/Docker Compose, базовые знания CI/CD и уверенное использование Git. Умею превращать бизнес-задачи в надежный, протестированный код с обработкой краевых случаев (edge-cases).\nКлючевые проекты\nRestaurant Booking System | Django, PostgreSQL, Docker, Bootstrap 5.3, pytest\nПолнофункциональная система онлайн-бронирования столиков с защитой от двойных записей.\nРезультат: Исключил 90% ошибок двойного бронирования и сократил время оформления заявки с 10 минут до 30 секунд.\nВклад: Реализовал валидацию пересечения интервалов на уровне модели БД (через Q-объекты в методе clean()), что гарантирует целостность данных даже при одновременных запросах. Упаковал приложение в Docker Compose и написал 62 теста (покрытие 89.97%).\nhttps://github.com/starchenko-dmi/RestaurantBooking\nLearnHub Educational Platform | Django REST Framework, Stripe, Celery, Redis, GitHub Actions\nОбразовательная платформа с созданием курсов, оплатой и системой подписок.\nРезультат: Реализовал 100% ТЗ за 3 недели (на неделю раньше срока) с поддержкой до 50 одновременных пользователей.\nВклад: Интегрировал платежи через Stripe API; настроил асинхронные фоновые задачи (email-рассылки) через Celery + Redis; внедрил JWT-аутентификацию и настроил CI/CD пайплайн через GitHub Actions для автоматического деплоя (экономия 2 часов в неделю). Покрытие тестами: 85%.\nhttps://github.com/starchenko-dmi/LearnHubDRF\nHH Vacancy Logger DB | Python, PostgreSQL, REST API, OOP\nETL-пайплайн для автоматизированного сбора и аналитики рынка труда с API hh.ru.\nРезультат: Автоматизировал сбор данных по 10+ крупным работодателям, сократив время анализа с часов до нескольких минут.\nВклад: Разработал клиент с обходом rate limits (пагинация + задержки); спроектировал схему БД с защитой от дубликатов (ON CONFLICT DO NOTHING); написал аналитические SQL-запросы с использованием COALESCE для корректного расчета средних зарплат при неполных данных (указана только граница «от» или «до»).\nhttps://github.com/starchenko-dmi/HH_Vacancy_Logger_DB\nVK Post Collector | Python, tkinter, VK API, Excel, threading\nДесктопное приложение для мониторинга и сохранения текстового контента из сообществ ВКонтакте.\nРезультат: Создал стабильный автономный инструмент, формирующий чистый отчет без потери данных.\nВклад: Реализовал гибридный экспорт для обхода лимита Excel в 32 767 символов (длинные тексты сохраняются в .txt со ссылкой в ячейке); внедрил многопоточность с queue.Queue для предотвращения зависания GUI; обеспечил безопасное хранение токенов (Base64-обфускация).\nhttps://github.com/starchenko-dmi/VK_Post_Collector_v1.0\nДополнительные проекты (кратко)\nHabit Tracker (Django, DRF, Celery, Telegram Bot API): API-сервис с бесшовной синхронизацией между веб-интерфейсом и ботом. Реализовал единый слой валидации бизнес-правил и асинхронные напоминания с точностью до ±30 сек (покрытие тестами 82%).\nMailing Management Service (Django, DRF, PostgreSQL, Redis): Веб-приложение для email-рассылок. Реализовал multi-tenancy на уровне queryset (owner=user), ролевую модель через группы Django и кэширование статистики в Redis с грамотной инвалидацией.\nVacancies Parser (Python, REST API, SOLID, pytest): CLI-инструмент для агрегации вакансий. Спроектировал архитектуру на базе абстрактных классов (ABC) для легкого добавления новых API/хранилищ, добавил строгую валидацию и изолированное тестирование через tmp_path.\nBanking Application (Python, Excel, JSON, OOP): Модульное приложение для анализа финансовых операций. Четко разделил ответственность на модули (utils, services, reports, views), что упростило тестирование и замену источников данных.\nСсылки на все репозитории доступны в моем профиле GitHub: https://github.com/starchenko-dmi\nАвг 2025 -\nсейчас\n1 год 3 мес\nОрганизация 2\nПедагог-организатор\nОрганизация мероприятий, работа с молодёжью, командная работа, документальное сопровождение, отчетность, поиск и закупка материалов, ведение сайта организации.\n\nНавыки\nПродвинутый уровень\nGit\nСредний уровень\nPython\nPoetry\nPyCharm\nGitHub\nDjango Rest Framework\nREST API\nDocker\nPostgreSQL\nDjango ORM\nHTML\nCSS\nBootstrap\nООП\nNginx\nБазовый уровень\nPytest\nRequests\nCelery\nFastAPI\nAPI\nАнализ требований\nDocker-compose\nSQL\nFlask\nRedis\nJWT\nOpenAPI\nSOLID\nETL\nPostman\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nPython-разработчик с опытом проектной разработки на Django и DRF. Владею Python, SQL, PostgreSQL, Docker, Celery, Redis. Пишу тесты (pytest, unittest, TDD), настраиваю CI/CD. Имею инженерное образование и опыт управления командами. Готов к тестовому заданию.\nНавыки\nЯзыки и фреймворки: Python, Django, Django REST Framework, FastAPI, Flask.\nБазы данных: PostgreSQL, SQL, Redis.\nИнструменты: Docker, Docker Compose, Git, GitHub Actions, Celery, Nginx, Postman.\nТестирование: pytest, unittest, TDD, покрытие до 90%.\nДругое: REST API, JWT, OpenAPI, HTML, CSS, Bootstrap, ООП, SOLID.\nПроекты (GitHub) https://github.com/starchenko-dmi\nКонтакты для связи\nТелефон / Telegram/ Макс: +7 (983) 122-16-63\nEmail: Starchenko.Dmitr@mail.ru\n\nОбразование\nУровень\nВысшее образование\nОАНО ДПО \"СКАЕНГ\"\nПрофессиональная переподгатовка, Python-разработчик\n•\n2026\n•\nВысшее образование\nНовосибирский Государственный Аграрный университет\nИнженерный Институт, Инженер Механик\n•\n2011\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории A, B, C\nКомментарии\nПовышайте релевантность откликов\nРасскажите о жизни в компании и её атмосфере в статье на hh.ru\nОформляйте кандидатов онлайн\nПроверяйте сотрудников и подписывайте кадровые документы без бумаг и личных встреч\nУскорьте подбор в 2 раза с Talantix\nАвтоматизируйте сбор откликов, настройте воронку, собирайте аналитику в 2 клика\nНа информационном ресурсе hh.ru применяются рекомендательные технологии (информационные технологии предоставления информации на основе сбора, систематизации и анализа сведений, относящихся к предпочтениям пользователей сети «Интернет», находящихся на территории Российской Федерации)\n© 2026 ООО «Хэдхантер»\n<div>\n<img src='https://top-fwz1.mail.ru/counter?id=3209834;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n<img src='https://top-fwz1.mail.ru/counter?id=3399615;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n</div>\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-318408-3u7id\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-737575-4yDN2\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<div>\n<img src=\"https://mc.yandex.ru/watch/156828\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/93250637\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/83135743\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n</div>\n"
+}

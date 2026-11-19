@@ -1,0 +1,242 @@
+{
+  "candidate_id": 125,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 308,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2001-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 308,
+      "organization": "Организация 1",
+      "position": "Научный сотрудник",
+      "employer_details": [
+        "Нижний Новгородiomc.ras.ru/",
+        "Образовательные учреждения"
+      ],
+      "description": "Анализ научной литературы; экспериментальные и теоретические исследования координационных соединений; написание научных статей.",
+      "original": "Мар 2001 -\nсейчас\n25 лет 8 мес\nОрганизация 1\nНижний Новгородiomc.ras.ru/\nОбразовательные учреждения\nНаучный сотрудник\nАнализ научной литературы; экспериментальные и теоретические исследования координационных соединений; написание научных статей."
+    },
+    {
+      "start_date": "2009-10",
+      "end_date": "2014-11",
+      "is_current": false,
+      "duration_months": 62,
+      "organization": "Организация 2",
+      "position": "Внештатный переводчик",
+      "employer_details": [
+        "Нижний Новгородdial-nn.ru/",
+        "Услуги для бизнеса"
+      ],
+      "description": "Перевод технических текстов с английского языка, в том числе по IT-тематике.",
+      "original": "Окт 2009 -\nНоя 2014\n5 лет 2 мес\nОрганизация 2\nНижний Новгородdial-nn.ru/\nУслуги для бизнеса\nВнештатный переводчик\nПеревод технических текстов с английского языка, в том числе по IT-тематике."
+    },
+    {
+      "start_date": "2004-01",
+      "end_date": "2004-12",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 3",
+      "position": "Wissenschaftlicher Mitarbeiter",
+      "employer_details": [
+        "Германияwww.uni-bremen.de/",
+        "Образовательные учреждения"
+      ],
+      "description": "Научная работа по проекту Volkswagen Stiftung (органические солнечные батареи).",
+      "original": "Янв 2004 -\nДек 2004\n1 год\nОрганизация 3\nГерманияwww.uni-bremen.de/\nОбразовательные учреждения\nWissenschaftlicher Mitarbeiter\nНаучная работа по проекту Volkswagen Stiftung (органические солнечные батареи)."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "CSS",
+      "level": "basic",
+      "original": "CSS"
+    },
+    {
+      "name": "Алгоритмы и структуры данных",
+      "level": "basic",
+      "original": "Алгоритмы и структуры данных"
+    },
+    {
+      "name": "API",
+      "level": "basic",
+      "original": "API"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": "basic",
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "C++",
+      "level": "basic",
+      "original": "C++"
+    },
+    {
+      "name": "Машинное обучение",
+      "level": "basic",
+      "original": "Машинное обучение"
+    },
+    {
+      "name": "Bash",
+      "level": null,
+      "original": "Bash"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Selenium",
+      "level": null,
+      "original": "Selenium"
+    },
+    {
+      "name": "Backend Development",
+      "level": null,
+      "original": "Backend Development"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "C/C++",
+      "level": null,
+      "original": "C/C++"
+    },
+    {
+      "name": "NumPy",
+      "level": null,
+      "original": "Numpy"
+    },
+    {
+      "name": "Асинхронное программирование",
+      "level": null,
+      "original": "Асинхронное программирование"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "pandas",
+      "level": null,
+      "original": "pandas"
+    },
+    {
+      "name": "Jupyter Notebook",
+      "level": null,
+      "original": "Jupyter Notebook"
+    },
+    {
+      "name": "Технический перевод",
+      "level": null,
+      "original": "Технический перевод"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    },
+    {
+      "name": "Немецкий",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Немецкий — A2 — Элементарный"
+    }
+  ],
+  "about_me": "В настоящее время работаю в Институте металлоорганической химии им. Г.А. Разуваева РАН (научный сотрудник, кандидат химических наук).\nС октября 2025 года обучаюсь в Школе 21 Сбера по специальности Data Science.\nИзучаю Python, основы ООП и алгоритмов с 2023 года самостоятельно, по курсам на Stepik (https://stepik.org/course/58852/promo, https://stepik.org/course/68343/promo), лекциям Сергея Балакирева (https://proproprogs.ru/python_oop) и Тимофея Хирьянова (https://www.youtube.com/@tkhirianov), участвовал в нескольких Тренировках Яндекса по алгоритмам (https://yandex.ru/yaintern/training).\nОсновные инструменты и фреймворки: FastAPI, Pydantic, SQLAlchemy, Selenium, asyncio - изучал самостоятельно, по курсам на Stepik (https://stepik.org/course/179694/info, https://stepik.org/course/575/promo), учебнику на оф. сайте FastAPI (http://fastapi.tiangolo.com/), книге Мэтью Фаулера \"Python Concurrency with asyncio\". Также изучаю Django по лекциям Сергея Балакирева (https://proproprogs.ru/django4).\nДругие языки: JavaScript (изучал на https://learn.javascript.ru/), C/C++ (изучал по лекциям Сергея Балакирева https://proproprogs.ru/c_lang и в Школе 21).\nОсновы машинного обучения и анализа данных: sklearn, pandas, Jupyter Notebook, SQL - Школа 21.\nGitHub: https://github.com/KCN1\nПримеры проектов:\nСайт прогноза погоды для парапланеристов (https://github.com/KCN1/headwind3). Бэкенд на FastAPI с использованием Pydantic для валидации, шаблонов Jinja2 для работы с HTML.\nМинималистичная программа для визуализации молекул MilliMOL (https://github.com/KCN1/millimol). Используются библиотеки Numpy, SciPy для обработки данных (например, поиск химических связей с помощью k-d деревьев) и фреймворк PyVista (VTK) для визуализации.\nУчебный проект по анализу базы фильмов MovieLens (https://github.com/KCN1/movielens_analysis). Используются методы стандартной библиотеки Python (functools, collections, регулярные выражения), \"ручной\" парсинг CSV, веб-парсинг (requests, BeautifulSoup).\nПример распознаваня рукописных цифр (MNIST dataset) с помощью классической модели машинного обучения KNN библиотеки sklearn (https://github.com/KCN1/handwriting_recognition). С помощью предварительной обработки данных удалось повысить показатель accuracy модели с 96.7% до 98.9%.",
+  "education_level": "Высшее образование (Кандидат наук)",
+  "education": [
+    {
+      "institution": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород",
+      "details": [
+        "Химический факультет, Химия"
+      ],
+      "year": 2003,
+      "level": "Высшее образование (Кандидат наук)",
+      "original": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nХимический факультет, Химия\n•\n2003\n•\nВысшее образование (Кандидат наук)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №125\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 25 лет 8 месяцев\nМар 2001 -\nсейчас\n25 лет 8 мес\nОрганизация 1\nНижний Новгородiomc.ras.ru/\nОбразовательные учреждения\nНаучный сотрудник\nАнализ научной литературы; экспериментальные и теоретические исследования координационных соединений; написание научных статей.\nОкт 2009 -\nНоя 2014\n5 лет 2 мес\nОрганизация 2\nНижний Новгородdial-nn.ru/\nУслуги для бизнеса\nВнештатный переводчик\nПеревод технических текстов с английского языка, в том числе по IT-тематике.\nЯнв 2004 -\nДек 2004\n1 год\nОрганизация 3\nГерманияwww.uni-bremen.de/\nОбразовательные учреждения\nWissenschaftlicher Mitarbeiter\nНаучная работа по проекту Volkswagen Stiftung (органические солнечные батареи).",
+    "skills": "Продвинутый уровень\nPython\nСредний уровень\nHTML\nLinux\nООП\nJavaScript\nБазовый уровень\nSQL\nCSS\nАлгоритмы и структуры данных\nAPI\nGit\nФункциональное тестирование\nC++\nМашинное обучение\nУровень не указан\nBash\nFastAPI\nSelenium\nBackend Development\nREST API\nSQLAlchemy\nPytest\nC/C++\nNumpy\nАсинхронное программирование\nDjango Framework\npandas\nJupyter Notebook\nТехнический перевод",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\nНемецкий — A2 — Элементарный",
+    "about_me": "В настоящее время работаю в Институте металлоорганической химии им. Г.А. Разуваева РАН (научный сотрудник, кандидат химических наук).\nС октября 2025 года обучаюсь в Школе 21 Сбера по специальности Data Science.\nИзучаю Python, основы ООП и алгоритмов с 2023 года самостоятельно, по курсам на Stepik (https://stepik.org/course/58852/promo, https://stepik.org/course/68343/promo), лекциям Сергея Балакирева (https://proproprogs.ru/python_oop) и Тимофея Хирьянова (https://www.youtube.com/@tkhirianov), участвовал в нескольких Тренировках Яндекса по алгоритмам (https://yandex.ru/yaintern/training).\nОсновные инструменты и фреймворки: FastAPI, Pydantic, SQLAlchemy, Selenium, asyncio - изучал самостоятельно, по курсам на Stepik (https://stepik.org/course/179694/info, https://stepik.org/course/575/promo), учебнику на оф. сайте FastAPI (http://fastapi.tiangolo.com/), книге Мэтью Фаулера \"Python Concurrency with asyncio\". Также изучаю Django по лекциям Сергея Балакирева (https://proproprogs.ru/django4).\nДругие языки: JavaScript (изучал на https://learn.javascript.ru/), C/C++ (изучал по лекциям Сергея Балакирева https://proproprogs.ru/c_lang и в Школе 21).\nОсновы машинного обучения и анализа данных: sklearn, pandas, Jupyter Notebook, SQL - Школа 21.\nGitHub: https://github.com/KCN1\nПримеры проектов:\nСайт прогноза погоды для парапланеристов (https://github.com/KCN1/headwind3). Бэкенд на FastAPI с использованием Pydantic для валидации, шаблонов Jinja2 для работы с HTML.\nМинималистичная программа для визуализации молекул MilliMOL (https://github.com/KCN1/millimol). Используются библиотеки Numpy, SciPy для обработки данных (например, поиск химических связей с помощью k-d деревьев) и фреймворк PyVista (VTK) для визуализации.\nУчебный проект по анализу базы фильмов MovieLens (https://github.com/KCN1/movielens_analysis). Используются методы стандартной библиотеки Python (functools, collections, регулярные выражения), \"ручной\" парсинг CSV, веб-парсинг (requests, BeautifulSoup).\nПример распознаваня рукописных цифр (MNIST dataset) с помощью классической модели машинного обучения KNN библиотеки sklearn (https://github.com/KCN1/handwriting_recognition). С помощью предварительной обработки данных удалось повысить показатель accuracy модели с 96.7% до 98.9%.",
+    "education": "Уровень\nВысшее образование (Кандидат наук)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nХимический факультет, Химия\n•\n2003\n•\nВысшее образование (Кандидат наук)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №125\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 25 лет 8 месяцев\nМар 2001 -\nсейчас\n25 лет 8 мес\nОрганизация 1\nНижний Новгородiomc.ras.ru/\nОбразовательные учреждения\nНаучный сотрудник\nАнализ научной литературы; экспериментальные и теоретические исследования координационных соединений; написание научных статей.\nОкт 2009 -\nНоя 2014\n5 лет 2 мес\nОрганизация 2\nНижний Новгородdial-nn.ru/\nУслуги для бизнеса\nВнештатный переводчик\nПеревод технических текстов с английского языка, в том числе по IT-тематике.\nЯнв 2004 -\nДек 2004\n1 год\nОрганизация 3\nГерманияwww.uni-bremen.de/\nОбразовательные учреждения\nWissenschaftlicher Mitarbeiter\nНаучная работа по проекту Volkswagen Stiftung (органические солнечные батареи).\n\nНавыки\nПродвинутый уровень\nPython\nСредний уровень\nHTML\nLinux\nООП\nJavaScript\nБазовый уровень\nSQL\nCSS\nАлгоритмы и структуры данных\nAPI\nGit\nФункциональное тестирование\nC++\nМашинное обучение\nУровень не указан\nBash\nFastAPI\nSelenium\nBackend Development\nREST API\nSQLAlchemy\nPytest\nC/C++\nNumpy\nАсинхронное программирование\nDjango Framework\npandas\nJupyter Notebook\nТехнический перевод\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\nНемецкий — A2 — Элементарный\n\nОбо мне\nВ настоящее время работаю в Институте металлоорганической химии им. Г.А. Разуваева РАН (научный сотрудник, кандидат химических наук).\nС октября 2025 года обучаюсь в Школе 21 Сбера по специальности Data Science.\nИзучаю Python, основы ООП и алгоритмов с 2023 года самостоятельно, по курсам на Stepik (https://stepik.org/course/58852/promo, https://stepik.org/course/68343/promo), лекциям Сергея Балакирева (https://proproprogs.ru/python_oop) и Тимофея Хирьянова (https://www.youtube.com/@tkhirianov), участвовал в нескольких Тренировках Яндекса по алгоритмам (https://yandex.ru/yaintern/training).\nОсновные инструменты и фреймворки: FastAPI, Pydantic, SQLAlchemy, Selenium, asyncio - изучал самостоятельно, по курсам на Stepik (https://stepik.org/course/179694/info, https://stepik.org/course/575/promo), учебнику на оф. сайте FastAPI (http://fastapi.tiangolo.com/), книге Мэтью Фаулера \"Python Concurrency with asyncio\". Также изучаю Django по лекциям Сергея Балакирева (https://proproprogs.ru/django4).\nДругие языки: JavaScript (изучал на https://learn.javascript.ru/), C/C++ (изучал по лекциям Сергея Балакирева https://proproprogs.ru/c_lang и в Школе 21).\nОсновы машинного обучения и анализа данных: sklearn, pandas, Jupyter Notebook, SQL - Школа 21.\nGitHub: https://github.com/KCN1\nПримеры проектов:\nСайт прогноза погоды для парапланеристов (https://github.com/KCN1/headwind3). Бэкенд на FastAPI с использованием Pydantic для валидации, шаблонов Jinja2 для работы с HTML.\nМинималистичная программа для визуализации молекул MilliMOL (https://github.com/KCN1/millimol). Используются библиотеки Numpy, SciPy для обработки данных (например, поиск химических связей с помощью k-d деревьев) и фреймворк PyVista (VTK) для визуализации.\nУчебный проект по анализу базы фильмов MovieLens (https://github.com/KCN1/movielens_analysis). Используются методы стандартной библиотеки Python (functools, collections, регулярные выражения), \"ручной\" парсинг CSV, веб-парсинг (requests, BeautifulSoup).\nПример распознаваня рукописных цифр (MNIST dataset) с помощью классической модели машинного обучения KNN библиотеки sklearn (https://github.com/KCN1/handwriting_recognition). С помощью предварительной обработки данных удалось повысить показатель accuracy модели с 96.7% до 98.9%.\n\nОбразование\nУровень\nВысшее образование (Кандидат наук)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nХимический факультет, Химия\n•\n2003\n•\nВысшее образование (Кандидат наук)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

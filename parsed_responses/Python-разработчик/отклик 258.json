@@ -1,0 +1,303 @@
+{
+  "candidate_id": 258,
+  "resume_title": "Программист",
+  "cover_letter": "Dear Hiring Manager, you can find my detailed resume in English here:\nhttps://drive.google.com/file/d/11zN8zQwK972q9E6ZG0O0KCJUvJFlr0V-/view\nУважаемый менеджер по персоналу,\nпишу вам, чтобы выразить свой интерес к возможностям удаленной работы. Имея большой опыт работы в различных технологических областях и на руководящих должностях, я считаю, что смогу привнести ценные навыки в вашу команду.\nОпыт за последние шесть лет:\nhttps://wildberries.ru/ — разработка с нуля сервисов/микросервисов для внутренних проектов компании. Обеспечение работоспособности существующих высоконагруженных сервисов. Стек: Golang, Python, Rust, PostgreSQL, Redis, ClickHouse, Prometheus, Kubernetes, React. Роль senior developer. Время разработки: 10 месяцев.\nhttps://bcs.ru/ — интранет сервис по менеджменту персонала компании БКС (примерно 5000 сотрудников). Стек: c#, posgresql, redis. Команда из 6-и человек. Роль senior developer. Время разработки: 14 месяцев.\nhttps://www.ixora.ru/ — проект по организации экзаменов, контрольных и других мероприятий в сфере образования. Стек: c#, python, posgresql, redis. Команда из 20-и человек. Роль senior developer. Время разработки: 12 месяцев.\nhttps://we-change.ru/ — проект по сбору и анализу данных для минтруда (заказчик ВЦИОМ) с основной целью определения какие квалификации и навыки нужны будут в будущем. Стек: c#, golang, posgresql, clickhouse, redis. Команда из 4-х человек. Роль team-lead. Время разработки: 10 месяцев.\nhttps://jonnyblockchain.com/ — был тим-лидом 4-х разработчиков, делали весь код проекта (full stack) и общался с клиентом. Самой сложной задачей проекта было сделать хорошую архитектуру, подходящую для будущих задач и частых обновлений базы данных. Стек проекта: golang, postgreSQL, jquery, docker, kubernetes, rabbitmq, debian. Время разработки: 18 месяцев.\nhttps://softarchive.is/ — этот веб-сайт-блог я сделал один, и я до сих пор поддерживаю. Основная задача состояла в том, чтобы использовать устаревший PHP-код и переписать все функции на .NET Core, а также добавить множество других функций (быстрый и гибкий поиск, проверка ссылок, автоматическое модерирование некоторых пользовательских данных, более удобный пользовательский интерфейс и т. д.). Стек проекта: c#, golang, postgresql, jquery, ubuntu. Время разработки: 6 месяцев.\nhttps://www.billy.com/ — был тим-лидером небольшой команды (2 разработчика), задача заключалась в том, чтобы сделать все части проекта и общаться с клиентом напрямую. Для проекта мы разработали удобный интерфейс и продуманную систему фильтрации, чтобы найти лучших компании-партнеров для нужд клиента в строительной отрасли. Стек проекта: c#, sql server, jquery+jsnative, windows server 2019. Время разработки: 9 месяцев.\nПримеры кодов:\nc#:\nhttps://drive.google.com/file/d/1oFiwyTEeCQeJiMT81FBybjFQYAaQCBMt/view?usp=sharing\nhttps://drive.google.com/file/d/1yaT-qA-kL8TCFp5hIHWI6UqLi7BRdq_r/view?usp=sharing\nhttps://drive.google.com/file/d/1I4Ef6FE4OcCa5oGhgthBpgq_rrqSUG3E/view?usp=sharing\ngolang:\nhttps://drive.google.com/file/d/1GesU-NDDgpYJSsoClBAkmzOu8pWicf0o/view?usp=sharing\nhttps://drive.google.com/file/d/1SsTJtcsUHgdijuDjqB3j4zc1lpMtUJ-w/view?usp=share_link\nhttps://drive.google.com/file/d/1yJbVKSj2NAdmuo03UNqiBzpoBvhTx8b1/view?usp=sharing\nrust:\nhttps://drive.google.com/file/d/150ycybedMXDIcCKtaF9ouyxlRGE8wviM/view?usp=sharing\nОткрыт для встреч с 10:00 до 18:00 мск. Вы можете связаться со мной через Telegram (@vitalybarkov) или Skype (vitalybarkov).\nСпасибо за рассмотрение моей заявки. С нетерпением жду возможности дальнейшего обсуждения по этой позиции.\nС наилучшими пожеланиями,\nВиталий Барков",
+  "experience_total_months": 240,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2023-05",
+      "end_date": "2025-11",
+      "is_current": false,
+      "duration_months": 31,
+      "organization": "Организация 1",
+      "position": "Программист",
+      "employer_details": [
+        "Москваcareer.wb.ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разрабатывал с нуля сервисы/микросервисы для внутренних проектов компании. Обеспечивал работоспособность существующих высоконагруженных сервисов. Стек: Golang, Python, Rust, PostgreSQL, Redis, ClickHouse, Prometheus, Kubernetes, React. Роль senior developer.",
+      "original": "Май 2023 -\nНоя 2025\n2 года 7 мес\nОрганизация 1\nМоскваcareer.wb.ru/\nИнформационные технологии, системная интеграция, интернет\nПрограммист\nРазрабатывал с нуля сервисы/микросервисы для внутренних проектов компании. Обеспечивал работоспособность существующих высоконагруженных сервисов. Стек: Golang, Python, Rust, PostgreSQL, Redis, ClickHouse, Prometheus, Kubernetes, React. Роль senior developer."
+    },
+    {
+      "start_date": "2022-02",
+      "end_date": "2023-05",
+      "is_current": false,
+      "duration_months": 16,
+      "organization": "Организация 2",
+      "position": "Программист",
+      "employer_details": [
+        "www.bcs.ru",
+        "Финансовый сектор"
+      ],
+      "description": "Работал над стартап интранет проектом по менеджменту персонала компании БКС (примерно 5000 сотрудников). Стек: c#, posgresql, redis. Команда из 6-и человек. Роль senior developer.",
+      "original": "Фев 2022 -\nМай 2023\n1 год 4 мес\nОрганизация 2\nwww.bcs.ru\nФинансовый сектор\nПрограммист\nРаботал над стартап интранет проектом по менеджменту персонала компании БКС (примерно 5000 сотрудников). Стек: c#, posgresql, redis. Команда из 6-и человек. Роль senior developer."
+    },
+    {
+      "start_date": "2020-11",
+      "end_date": "2022-02",
+      "is_current": false,
+      "duration_months": 16,
+      "organization": "Организация 3",
+      "position": "Программист",
+      "employer_details": [
+        "ixora.ru"
+      ],
+      "description": "Работал над проектом по организации экзаменов, контрольных и других мероприятий в сфере образования. Стек: c#, python, posgresql, redis. Команда из 20-и человек. Роль senior developer.",
+      "original": "Ноя 2020 -\nФев 2022\n1 год 4 мес\nОрганизация 3\nixora.ru\nПрограммист\nРаботал над проектом по организации экзаменов, контрольных и других мероприятий в сфере образования. Стек: c#, python, posgresql, redis. Команда из 20-и человек. Роль senior developer."
+    },
+    {
+      "start_date": "2020-01",
+      "end_date": "2020-10",
+      "is_current": false,
+      "duration_months": 10,
+      "organization": "Организация 4",
+      "position": "Тим-лид и программист",
+      "employer_details": [
+        "неравнодушный.рф"
+      ],
+      "description": "Работал над проектом по сбору и анализу данных для минтруда (заказчик ВЦИОМ) с основной целью определения какие квалификации и навыки нужны будут в будущем. Стек: c#, golang, posgresql, clickhouse, redis. Команда из 4-х человек. Роль team-lead.",
+      "original": "Янв 2020 -\nОкт 2020\n10 мес\nОрганизация 4\nнеравнодушный.рф\nТим-лид и программист\nРаботал над проектом по сбору и анализу данных для минтруда (заказчик ВЦИОМ) с основной целью определения какие квалификации и навыки нужны будут в будущем. Стек: c#, golang, posgresql, clickhouse, redis. Команда из 4-х человек. Роль team-lead."
+    },
+    {
+      "start_date": "2018-05",
+      "end_date": "2019-12",
+      "is_current": false,
+      "duration_months": 20,
+      "organization": "Организация 5",
+      "position": "Тим-лид и программист",
+      "employer_details": [
+        "jonnyblockchain.com"
+      ],
+      "description": "Работал тим-лидом для 4-х разработчиков, делали весь код проекта (full stack) и общался с клиентом. Самой сложной задачей проекта было сделать хорошую архитектуру, подходящую для будущих задач и частых обновлений базы данных. Стек проекта: golang, postgreSQL, jquery, docker, kubernetes, rabbitmq, debian.",
+      "original": "Май 2018 -\nДек 2019\n1 год 8 мес\nОрганизация 5\njonnyblockchain.com\nТим-лид и программист\nРаботал тим-лидом для 4-х разработчиков, делали весь код проекта (full stack) и общался с клиентом. Самой сложной задачей проекта было сделать хорошую архитектуру, подходящую для будущих задач и частых обновлений базы данных. Стек проекта: golang, postgreSQL, jquery, docker, kubernetes, rabbitmq, debian."
+    },
+    {
+      "start_date": "2017-05",
+      "end_date": "2018-05",
+      "is_current": false,
+      "duration_months": 13,
+      "organization": "Организация 6",
+      "position": "Тим-лид и программист",
+      "employer_details": [
+        "billy.com"
+      ],
+      "description": "Работал тим-лидером небольшой команды, задача заключалась в том, чтобы спроектировать и сделать все части проекта, а так же общаться с клиентом напрямую. Для проекта мы разработали удобный интерфейс и продуманную систему фильтрации, чтобы найти лучших компании-партнеров для нужд клиента в строительной отрасли. Стек проекта: c#, sql server, jquery+jsnative, windows server 2019.",
+      "original": "Май 2017 -\nМай 2018\n1 год 1 мес\nОрганизация 6\nbilly.com\nТим-лид и программист\nРаботал тим-лидером небольшой команды, задача заключалась в том, чтобы спроектировать и сделать все части проекта, а так же общаться с клиентом напрямую. Для проекта мы разработали удобный интерфейс и продуманную систему фильтрации, чтобы найти лучших компании-партнеров для нужд клиента в строительной отрасли. Стек проекта: c#, sql server, jquery+jsnative, windows server 2019."
+    },
+    {
+      "start_date": "2013-01",
+      "end_date": "2017-05",
+      "is_current": false,
+      "duration_months": 53,
+      "organization": "Организация 7",
+      "position": "Программист",
+      "employer_details": [
+        "temporal.games"
+      ],
+      "description": "Работал full stack разработчиком мобильных и десктоп игр в компании среднего размера. Стек: C#, Unity3d, Unreal Engine, .NET Framework & Core, Windows Server.",
+      "original": "Янв 2013 -\nМай 2017\n4 года 5 мес\nОрганизация 7\ntemporal.games\nПрограммист\nРаботал full stack разработчиком мобильных и десктоп игр в компании среднего размера. Стек: C#, Unity3d, Unreal Engine, .NET Framework & Core, Windows Server."
+    },
+    {
+      "start_date": "2005-11",
+      "end_date": "2012-11",
+      "is_current": false,
+      "duration_months": 85,
+      "organization": "Организация 8",
+      "position": "Программист и дизайнер",
+      "employer_details": [],
+      "description": "Работал full stack разработчиком и дизайнером сайтов в небольшой команде.",
+      "original": "Ноя 2005 -\nНоя 2012\n7 лет 1 мес\nОрганизация 8\nПрограммист и дизайнер\nРаботал full stack разработчиком и дизайнером сайтов в небольшой команде."
+    }
+  ],
+  "skills": [
+    {
+      "name": "C#",
+      "level": null,
+      "original": "C#"
+    },
+    {
+      "name": "C/C++",
+      "level": null,
+      "original": "C/C++"
+    },
+    {
+      "name": "Unity",
+      "level": null,
+      "original": "Unity"
+    },
+    {
+      "name": "MS SQL",
+      "level": null,
+      "original": "MS SQL"
+    },
+    {
+      "name": ".NET Core",
+      "level": null,
+      "original": ".NET Core"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "XML",
+      "level": null,
+      "original": "XML"
+    },
+    {
+      "name": "JSON",
+      "level": null,
+      "original": "JSON"
+    },
+    {
+      "name": "JavaScript",
+      "level": null,
+      "original": "JavaScript"
+    },
+    {
+      "name": "Node.js",
+      "level": null,
+      "original": "Node.js"
+    },
+    {
+      "name": "Angular",
+      "level": null,
+      "original": "Angular"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React"
+    },
+    {
+      "name": "jQuery",
+      "level": null,
+      "original": "jQuery"
+    },
+    {
+      "name": "PHP",
+      "level": null,
+      "original": "PHP"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "Xcode Swift",
+      "level": null,
+      "original": "Xcode Swift"
+    },
+    {
+      "name": "Apache HTTP Server",
+      "level": null,
+      "original": "Apache HTTP Server"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "Bash",
+      "level": null,
+      "original": "Bash"
+    },
+    {
+      "name": "UML",
+      "level": null,
+      "original": "UML"
+    },
+    {
+      "name": "Design Patterns",
+      "level": null,
+      "original": "Design Patterns"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Golang",
+      "level": null,
+      "original": "Golang"
+    },
+    {
+      "name": "Java",
+      "level": null,
+      "original": "Java"
+    },
+    {
+      "name": "Spring Framework",
+      "level": null,
+      "original": "Spring Framework"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "НГУАДИ",
+      "details": [
+        "Дизайн, Дизайнер"
+      ],
+      "year": 2007,
+      "level": "Неоконченное высшее образование",
+      "original": "НГУАДИ\nДизайн, Дизайнер\n•\n2007\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Нет",
+    "medical_book": "Есть"
+  },
+  "original_sections": {
+    "header": "Кандидат №258\nРезюме: Программист",
+    "cover_letter": "Dear Hiring Manager, you can find my detailed resume in English here:\nhttps://drive.google.com/file/d/11zN8zQwK972q9E6ZG0O0KCJUvJFlr0V-/view\nУважаемый менеджер по персоналу,\nпишу вам, чтобы выразить свой интерес к возможностям удаленной работы. Имея большой опыт работы в различных технологических областях и на руководящих должностях, я считаю, что смогу привнести ценные навыки в вашу команду.\nОпыт за последние шесть лет:\nhttps://wildberries.ru/ — разработка с нуля сервисов/микросервисов для внутренних проектов компании. Обеспечение работоспособности существующих высоконагруженных сервисов. Стек: Golang, Python, Rust, PostgreSQL, Redis, ClickHouse, Prometheus, Kubernetes, React. Роль senior developer. Время разработки: 10 месяцев.\nhttps://bcs.ru/ — интранет сервис по менеджменту персонала компании БКС (примерно 5000 сотрудников). Стек: c#, posgresql, redis. Команда из 6-и человек. Роль senior developer. Время разработки: 14 месяцев.\nhttps://www.ixora.ru/ — проект по организации экзаменов, контрольных и других мероприятий в сфере образования. Стек: c#, python, posgresql, redis. Команда из 20-и человек. Роль senior developer. Время разработки: 12 месяцев.\nhttps://we-change.ru/ — проект по сбору и анализу данных для минтруда (заказчик ВЦИОМ) с основной целью определения какие квалификации и навыки нужны будут в будущем. Стек: c#, golang, posgresql, clickhouse, redis. Команда из 4-х человек. Роль team-lead. Время разработки: 10 месяцев.\nhttps://jonnyblockchain.com/ — был тим-лидом 4-х разработчиков, делали весь код проекта (full stack) и общался с клиентом. Самой сложной задачей проекта было сделать хорошую архитектуру, подходящую для будущих задач и частых обновлений базы данных. Стек проекта: golang, postgreSQL, jquery, docker, kubernetes, rabbitmq, debian. Время разработки: 18 месяцев.\nhttps://softarchive.is/ — этот веб-сайт-блог я сделал один, и я до сих пор поддерживаю. Основная задача состояла в том, чтобы использовать устаревший PHP-код и переписать все функции на .NET Core, а также добавить множество других функций (быстрый и гибкий поиск, проверка ссылок, автоматическое модерирование некоторых пользовательских данных, более удобный пользовательский интерфейс и т. д.). Стек проекта: c#, golang, postgresql, jquery, ubuntu. Время разработки: 6 месяцев.\nhttps://www.billy.com/ — был тим-лидером небольшой команды (2 разработчика), задача заключалась в том, чтобы сделать все части проекта и общаться с клиентом напрямую. Для проекта мы разработали удобный интерфейс и продуманную систему фильтрации, чтобы найти лучших компании-партнеров для нужд клиента в строительной отрасли. Стек проекта: c#, sql server, jquery+jsnative, windows server 2019. Время разработки: 9 месяцев.\nПримеры кодов:\nc#:\nhttps://drive.google.com/file/d/1oFiwyTEeCQeJiMT81FBybjFQYAaQCBMt/view?usp=sharing\nhttps://drive.google.com/file/d/1yaT-qA-kL8TCFp5hIHWI6UqLi7BRdq_r/view?usp=sharing\nhttps://drive.google.com/file/d/1I4Ef6FE4OcCa5oGhgthBpgq_rrqSUG3E/view?usp=sharing\ngolang:\nhttps://drive.google.com/file/d/1GesU-NDDgpYJSsoClBAkmzOu8pWicf0o/view?usp=sharing\nhttps://drive.google.com/file/d/1SsTJtcsUHgdijuDjqB3j4zc1lpMtUJ-w/view?usp=share_link\nhttps://drive.google.com/file/d/1yJbVKSj2NAdmuo03UNqiBzpoBvhTx8b1/view?usp=sharing\nrust:\nhttps://drive.google.com/file/d/150ycybedMXDIcCKtaF9ouyxlRGE8wviM/view?usp=sharing\nОткрыт для встреч с 10:00 до 18:00 мск. Вы можете связаться со мной через Telegram (@vitalybarkov) или Skype (vitalybarkov).\nСпасибо за рассмотрение моей заявки. С нетерпением жду возможности дальнейшего обсуждения по этой позиции.\nС наилучшими пожеланиями,\nВиталий Барков",
+    "experience": "Опыт работы: 20 лет\nМай 2023 -\nНоя 2025\n2 года 7 мес\nОрганизация 1\nМоскваcareer.wb.ru/\nИнформационные технологии, системная интеграция, интернет\nПрограммист\nРазрабатывал с нуля сервисы/микросервисы для внутренних проектов компании. Обеспечивал работоспособность существующих высоконагруженных сервисов. Стек: Golang, Python, Rust, PostgreSQL, Redis, ClickHouse, Prometheus, Kubernetes, React. Роль senior developer.\nФев 2022 -\nМай 2023\n1 год 4 мес\nОрганизация 2\nwww.bcs.ru\nФинансовый сектор\nПрограммист\nРаботал над стартап интранет проектом по менеджменту персонала компании БКС (примерно 5000 сотрудников). Стек: c#, posgresql, redis. Команда из 6-и человек. Роль senior developer.\nНоя 2020 -\nФев 2022\n1 год 4 мес\nОрганизация 3\nixora.ru\nПрограммист\nРаботал над проектом по организации экзаменов, контрольных и других мероприятий в сфере образования. Стек: c#, python, posgresql, redis. Команда из 20-и человек. Роль senior developer.\nЯнв 2020 -\nОкт 2020\n10 мес\nОрганизация 4\nнеравнодушный.рф\nТим-лид и программист\nРаботал над проектом по сбору и анализу данных для минтруда (заказчик ВЦИОМ) с основной целью определения какие квалификации и навыки нужны будут в будущем. Стек: c#, golang, posgresql, clickhouse, redis. Команда из 4-х человек. Роль team-lead.\nМай 2018 -\nДек 2019\n1 год 8 мес\nОрганизация 5\njonnyblockchain.com\nТим-лид и программист\nРаботал тим-лидом для 4-х разработчиков, делали весь код проекта (full stack) и общался с клиентом. Самой сложной задачей проекта было сделать хорошую архитектуру, подходящую для будущих задач и частых обновлений базы данных. Стек проекта: golang, postgreSQL, jquery, docker, kubernetes, rabbitmq, debian.\nМай 2017 -\nМай 2018\n1 год 1 мес\nОрганизация 6\nbilly.com\nТим-лид и программист\nРаботал тим-лидером небольшой команды, задача заключалась в том, чтобы спроектировать и сделать все части проекта, а так же общаться с клиентом напрямую. Для проекта мы разработали удобный интерфейс и продуманную систему фильтрации, чтобы найти лучших компании-партнеров для нужд клиента в строительной отрасли. Стек проекта: c#, sql server, jquery+jsnative, windows server 2019.\nЯнв 2013 -\nМай 2017\n4 года 5 мес\nОрганизация 7\ntemporal.games\nПрограммист\nРаботал full stack разработчиком мобильных и десктоп игр в компании среднего размера. Стек: C#, Unity3d, Unreal Engine, .NET Framework & Core, Windows Server.\nНоя 2005 -\nНоя 2012\n7 лет 1 мес\nОрганизация 8\nПрограммист и дизайнер\nРаботал full stack разработчиком и дизайнером сайтов в небольшой команде.",
+    "skills": "C#\nC/C++\nUnity\nMS SQL\n.NET Core\nHTML\nCSS\nXML\nJSON\nJavaScript\nNode.js\nAngular\nReact\njQuery\nPHP\nMySQL\nPython\nMongoDB\nXcode Swift\nApache HTTP Server\nNginx\nBash\nUML\nDesign Patterns\nGit\nGolang\nJava\nSpring Framework",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nНеоконченное высшее образование\nНГУАДИ\nДизайн, Дизайнер\n•\n2007\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nЕсть"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №258\nРезюме: Программист\n\nСопроводительное письмо\nDear Hiring Manager, you can find my detailed resume in English here:\nhttps://drive.google.com/file/d/11zN8zQwK972q9E6ZG0O0KCJUvJFlr0V-/view\nУважаемый менеджер по персоналу,\nпишу вам, чтобы выразить свой интерес к возможностям удаленной работы. Имея большой опыт работы в различных технологических областях и на руководящих должностях, я считаю, что смогу привнести ценные навыки в вашу команду.\nОпыт за последние шесть лет:\nhttps://wildberries.ru/ — разработка с нуля сервисов/микросервисов для внутренних проектов компании. Обеспечение работоспособности существующих высоконагруженных сервисов. Стек: Golang, Python, Rust, PostgreSQL, Redis, ClickHouse, Prometheus, Kubernetes, React. Роль senior developer. Время разработки: 10 месяцев.\nhttps://bcs.ru/ — интранет сервис по менеджменту персонала компании БКС (примерно 5000 сотрудников). Стек: c#, posgresql, redis. Команда из 6-и человек. Роль senior developer. Время разработки: 14 месяцев.\nhttps://www.ixora.ru/ — проект по организации экзаменов, контрольных и других мероприятий в сфере образования. Стек: c#, python, posgresql, redis. Команда из 20-и человек. Роль senior developer. Время разработки: 12 месяцев.\nhttps://we-change.ru/ — проект по сбору и анализу данных для минтруда (заказчик ВЦИОМ) с основной целью определения какие квалификации и навыки нужны будут в будущем. Стек: c#, golang, posgresql, clickhouse, redis. Команда из 4-х человек. Роль team-lead. Время разработки: 10 месяцев.\nhttps://jonnyblockchain.com/ — был тим-лидом 4-х разработчиков, делали весь код проекта (full stack) и общался с клиентом. Самой сложной задачей проекта было сделать хорошую архитектуру, подходящую для будущих задач и частых обновлений базы данных. Стек проекта: golang, postgreSQL, jquery, docker, kubernetes, rabbitmq, debian. Время разработки: 18 месяцев.\nhttps://softarchive.is/ — этот веб-сайт-блог я сделал один, и я до сих пор поддерживаю. Основная задача состояла в том, чтобы использовать устаревший PHP-код и переписать все функции на .NET Core, а также добавить множество других функций (быстрый и гибкий поиск, проверка ссылок, автоматическое модерирование некоторых пользовательских данных, более удобный пользовательский интерфейс и т. д.). Стек проекта: c#, golang, postgresql, jquery, ubuntu. Время разработки: 6 месяцев.\nhttps://www.billy.com/ — был тим-лидером небольшой команды (2 разработчика), задача заключалась в том, чтобы сделать все части проекта и общаться с клиентом напрямую. Для проекта мы разработали удобный интерфейс и продуманную систему фильтрации, чтобы найти лучших компании-партнеров для нужд клиента в строительной отрасли. Стек проекта: c#, sql server, jquery+jsnative, windows server 2019. Время разработки: 9 месяцев.\nПримеры кодов:\nc#:\nhttps://drive.google.com/file/d/1oFiwyTEeCQeJiMT81FBybjFQYAaQCBMt/view?usp=sharing\nhttps://drive.google.com/file/d/1yaT-qA-kL8TCFp5hIHWI6UqLi7BRdq_r/view?usp=sharing\nhttps://drive.google.com/file/d/1I4Ef6FE4OcCa5oGhgthBpgq_rrqSUG3E/view?usp=sharing\ngolang:\nhttps://drive.google.com/file/d/1GesU-NDDgpYJSsoClBAkmzOu8pWicf0o/view?usp=sharing\nhttps://drive.google.com/file/d/1SsTJtcsUHgdijuDjqB3j4zc1lpMtUJ-w/view?usp=share_link\nhttps://drive.google.com/file/d/1yJbVKSj2NAdmuo03UNqiBzpoBvhTx8b1/view?usp=sharing\nrust:\nhttps://drive.google.com/file/d/150ycybedMXDIcCKtaF9ouyxlRGE8wviM/view?usp=sharing\nОткрыт для встреч с 10:00 до 18:00 мск. Вы можете связаться со мной через Telegram (@vitalybarkov) или Skype (vitalybarkov).\nСпасибо за рассмотрение моей заявки. С нетерпением жду возможности дальнейшего обсуждения по этой позиции.\nС наилучшими пожеланиями,\nВиталий Барков\n\nОпыт работы\nОпыт работы: 20 лет\nМай 2023 -\nНоя 2025\n2 года 7 мес\nОрганизация 1\nМоскваcareer.wb.ru/\nИнформационные технологии, системная интеграция, интернет\nПрограммист\nРазрабатывал с нуля сервисы/микросервисы для внутренних проектов компании. Обеспечивал работоспособность существующих высоконагруженных сервисов. Стек: Golang, Python, Rust, PostgreSQL, Redis, ClickHouse, Prometheus, Kubernetes, React. Роль senior developer.\nФев 2022 -\nМай 2023\n1 год 4 мес\nОрганизация 2\nwww.bcs.ru\nФинансовый сектор\nПрограммист\nРаботал над стартап интранет проектом по менеджменту персонала компании БКС (примерно 5000 сотрудников). Стек: c#, posgresql, redis. Команда из 6-и человек. Роль senior developer.\nНоя 2020 -\nФев 2022\n1 год 4 мес\nОрганизация 3\nixora.ru\nПрограммист\nРаботал над проектом по организации экзаменов, контрольных и других мероприятий в сфере образования. Стек: c#, python, posgresql, redis. Команда из 20-и человек. Роль senior developer.\nЯнв 2020 -\nОкт 2020\n10 мес\nОрганизация 4\nнеравнодушный.рф\nТим-лид и программист\nРаботал над проектом по сбору и анализу данных для минтруда (заказчик ВЦИОМ) с основной целью определения какие квалификации и навыки нужны будут в будущем. Стек: c#, golang, posgresql, clickhouse, redis. Команда из 4-х человек. Роль team-lead.\nМай 2018 -\nДек 2019\n1 год 8 мес\nОрганизация 5\njonnyblockchain.com\nТим-лид и программист\nРаботал тим-лидом для 4-х разработчиков, делали весь код проекта (full stack) и общался с клиентом. Самой сложной задачей проекта было сделать хорошую архитектуру, подходящую для будущих задач и частых обновлений базы данных. Стек проекта: golang, postgreSQL, jquery, docker, kubernetes, rabbitmq, debian.\nМай 2017 -\nМай 2018\n1 год 1 мес\nОрганизация 6\nbilly.com\nТим-лид и программист\nРаботал тим-лидером небольшой команды, задача заключалась в том, чтобы спроектировать и сделать все части проекта, а так же общаться с клиентом напрямую. Для проекта мы разработали удобный интерфейс и продуманную систему фильтрации, чтобы найти лучших компании-партнеров для нужд клиента в строительной отрасли. Стек проекта: c#, sql server, jquery+jsnative, windows server 2019.\nЯнв 2013 -\nМай 2017\n4 года 5 мес\nОрганизация 7\ntemporal.games\nПрограммист\nРаботал full stack разработчиком мобильных и десктоп игр в компании среднего размера. Стек: C#, Unity3d, Unreal Engine, .NET Framework & Core, Windows Server.\nНоя 2005 -\nНоя 2012\n7 лет 1 мес\nОрганизация 8\nПрограммист и дизайнер\nРаботал full stack разработчиком и дизайнером сайтов в небольшой команде.\n\nНавыки\nC#\nC/C++\nUnity\nMS SQL\n.NET Core\nHTML\nCSS\nXML\nJSON\nJavaScript\nNode.js\nAngular\nReact\njQuery\nPHP\nMySQL\nPython\nMongoDB\nXcode Swift\nApache HTTP Server\nNginx\nBash\nUML\nDesign Patterns\nGit\nGolang\nJava\nSpring Framework\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nНеоконченное высшее образование\nНГУАДИ\nДизайн, Дизайнер\n•\n2007\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nЕсть\n"
+}

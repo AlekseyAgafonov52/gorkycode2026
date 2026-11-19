@@ -1,0 +1,188 @@
+{
+  "candidate_id": 217,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Здравствуйте!,\nЯ — Python-разработчик с более чем 5-летним опытом проектирования и поддержки backend-систем, где критичны надёжность, производительность и масштабируемость.\nВ своей работе я решаю следующие задачи:\n— разработка микросервисов на FastAPI и Django,\n— глубокая оптимизация PostgreSQL: индексация, партиционирование, CTE, снижение времени выполнения запросов в разы,\n— построение отказоустойчивых pipeline’ов обработки данных с использованием Kafka и Celery,\n— внедрение наблюдаемости через Prometheus и Grafana,\n— обеспечение качества кода через автоматизированные тесты (покрытие >85%) и CI/CD,\n— стандартизация инфраструктуры с помощью Docker и Kubernetes.\nИщу возможность применить свой опыт в сложном техническом проекте, где ценят инженерную культуру, современный стек и внимание к деталям.\nБуду рад обсудить, как могу внести вклад в вашу команду.\nС уважением,\nБелобородов Денис\n@dnbssxx",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "Django REST",
+      "level": "advanced",
+      "original": "Django REST"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Kafka",
+      "level": "advanced",
+      "original": "Kafka"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Asyncio",
+      "level": "advanced",
+      "original": "Asyncio"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker Compose"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "GitLab CI/CD",
+      "level": "advanced",
+      "original": "GitLab CI/CD"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Python Developer с опытом backend-разработки 5+ лет. Специализируюсь на разработке микросервисных систем и корпоративных приложений. Имею опыт создания высоконагруженных REST API, оптимизации работы с базами данных, построения CI/CD процессов и интеграции систем мониторинга. Работал с проектами, обрабатывающими критичные данные производственного оборудования и системами документооборота с тысячами активных пользователей.\nСтек: Python, FastAPI, PostgreSQL, Redis, Celery, Kafka, Kubernetes, Prometheus, Grafana\nСвязаться со мной в telegram: @dnbssxx",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "ФГБОУ ВО «КНИТУ»",
+      "details": [
+        "Химическая технология"
+      ],
+      "year": 2028,
+      "level": "Неоконченное высшее образование",
+      "original": "ФГБОУ ВО «КНИТУ»\nХимическая технология\n•\n2028\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории A, B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №217\nРезюме: Python-разработчик",
+    "cover_letter": "Здравствуйте!,\nЯ — Python-разработчик с более чем 5-летним опытом проектирования и поддержки backend-систем, где критичны надёжность, производительность и масштабируемость.\nВ своей работе я решаю следующие задачи:\n— разработка микросервисов на FastAPI и Django,\n— глубокая оптимизация PostgreSQL: индексация, партиционирование, CTE, снижение времени выполнения запросов в разы,\n— построение отказоустойчивых pipeline’ов обработки данных с использованием Kafka и Celery,\n— внедрение наблюдаемости через Prometheus и Grafana,\n— обеспечение качества кода через автоматизированные тесты (покрытие >85%) и CI/CD,\n— стандартизация инфраструктуры с помощью Docker и Kubernetes.\nИщу возможность применить свой опыт в сложном техническом проекте, где ценят инженерную культуру, современный стек и внимание к деталям.\nБуду рад обсудить, как могу внести вклад в вашу команду.\nС уважением,\nБелобородов Денис\n@dnbssxx",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nPython\nPostgreSQL\nMySQL\nMongoDB\nRedis\nSQL\nSQLAlchemy\nDjango\nDjango REST\nFastAPI\nFlask\nCelery\nKafka\nRabbitMQ\nAsyncio\nREST API\nDocker\nDocker Compose\nKubernetes\nGit\nLinux\nGitLab CI/CD\nPytest\nPrometheus\nGrafana\nApache Kafka",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Python Developer с опытом backend-разработки 5+ лет. Специализируюсь на разработке микросервисных систем и корпоративных приложений. Имею опыт создания высоконагруженных REST API, оптимизации работы с базами данных, построения CI/CD процессов и интеграции систем мониторинга. Работал с проектами, обрабатывающими критичные данные производственного оборудования и системами документооборота с тысячами активных пользователей.\nСтек: Python, FastAPI, PostgreSQL, Redis, Celery, Kafka, Kubernetes, Prometheus, Grafana\nСвязаться со мной в telegram: @dnbssxx",
+    "education": "Уровень\nНеоконченное высшее образование\nФГБОУ ВО «КНИТУ»\nХимическая технология\n•\n2028\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории A, B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №217\nРезюме: Python-разработчик\n\nСопроводительное письмо\nЗдравствуйте!,\nЯ — Python-разработчик с более чем 5-летним опытом проектирования и поддержки backend-систем, где критичны надёжность, производительность и масштабируемость.\nВ своей работе я решаю следующие задачи:\n— разработка микросервисов на FastAPI и Django,\n— глубокая оптимизация PostgreSQL: индексация, партиционирование, CTE, снижение времени выполнения запросов в разы,\n— построение отказоустойчивых pipeline’ов обработки данных с использованием Kafka и Celery,\n— внедрение наблюдаемости через Prometheus и Grafana,\n— обеспечение качества кода через автоматизированные тесты (покрытие >85%) и CI/CD,\n— стандартизация инфраструктуры с помощью Docker и Kubernetes.\nИщу возможность применить свой опыт в сложном техническом проекте, где ценят инженерную культуру, современный стек и внимание к деталям.\nБуду рад обсудить, как могу внести вклад в вашу команду.\nС уважением,\nБелобородов Денис\n@dnbssxx\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nPython\nPostgreSQL\nMySQL\nMongoDB\nRedis\nSQL\nSQLAlchemy\nDjango\nDjango REST\nFastAPI\nFlask\nCelery\nKafka\nRabbitMQ\nAsyncio\nREST API\nDocker\nDocker Compose\nKubernetes\nGit\nLinux\nGitLab CI/CD\nPytest\nPrometheus\nGrafana\nApache Kafka\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nPython Developer с опытом backend-разработки 5+ лет. Специализируюсь на разработке микросервисных систем и корпоративных приложений. Имею опыт создания высоконагруженных REST API, оптимизации работы с базами данных, построения CI/CD процессов и интеграции систем мониторинга. Работал с проектами, обрабатывающими критичные данные производственного оборудования и системами документооборота с тысячами активных пользователей.\nСтек: Python, FastAPI, PostgreSQL, Redis, Celery, Kafka, Kubernetes, Prometheus, Grafana\nСвязаться со мной в telegram: @dnbssxx\n\nОбразование\nУровень\nНеоконченное высшее образование\nФГБОУ ВО «КНИТУ»\nХимическая технология\n•\n2028\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории A, B\n"
+}

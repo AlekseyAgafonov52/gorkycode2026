@@ -1,0 +1,207 @@
+{
+  "candidate_id": 162,
+  "resume_title": "Python developer",
+  "cover_letter": null,
+  "experience_total_months": 17,
+  "similar_experience_months": 17,
+  "work_experience": [
+    {
+      "start_date": "2023-08",
+      "end_date": "2024-12",
+      "is_current": false,
+      "duration_months": 17,
+      "organization": "Организация 1",
+      "position": "Python backend developer",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Task-Hub – Платформа для публикации задач\nВ рамках команды из двух бекенд-разработчиков я отвечал за разработку и поддержку платформы для публикации и решения задач на Python/Django. Моя работа заключалась в создании и оптимизации работы системы.\nДостижения:\n- Разработал и поддерживал платформу, обеспечивая удобный интерфейс для пользователей и оптимизированную работу системы.\n- Внедрил категоризацию задач, а также функционал фильтрации и поиска, что улучшило навигацию по платформе.\n- Создал функционал для предложений решений, способствуя активному участию пользователей.\n- Оптимизировал отображение страниц за счет внедрения системы кеширования Redis.\nCтек проекта:\n- Python3\n- Django4\n- PostgreSQL\n- Docker\n- Docker-compose\n- Git\n- Redis",
+      "original": "Авг 2023 -\nДек 2024\n1 год 5 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython backend developer\nTask-Hub – Платформа для публикации задач\nВ рамках команды из двух бекенд-разработчиков я отвечал за разработку и поддержку платформы для публикации и решения задач на Python/Django. Моя работа заключалась в создании и оптимизации работы системы.\nДостижения:\n- Разработал и поддерживал платформу, обеспечивая удобный интерфейс для пользователей и оптимизированную работу системы.\n- Внедрил категоризацию задач, а также функционал фильтрации и поиска, что улучшило навигацию по платформе.\n- Создал функционал для предложений решений, способствуя активному участию пользователей.\n- Оптимизировал отображение страниц за счет внедрения системы кеширования Redis.\nCтек проекта:\n- Python3\n- Django4\n- PostgreSQL\n- Docker\n- Docker-compose\n- Git\n- Redis"
+    }
+  ],
+  "skills": [
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "Backend",
+      "level": "advanced",
+      "original": "Backend"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "SQLite",
+      "level": "intermediate",
+      "original": "SQLite"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Коммуникативная компетентность",
+      "level": "intermediate",
+      "original": "Коммуникативная компетентность"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Умение разбираться в чужом коде",
+      "level": "intermediate",
+      "original": "Умение разбираться в чужом коде"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "intermediate",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "Web",
+      "level": "intermediate",
+      "original": "Web"
+    },
+    {
+      "name": "Wed",
+      "level": "intermediate",
+      "original": "Wed"
+    },
+    {
+      "name": "Алгоритмизация",
+      "level": "intermediate",
+      "original": "Алгоритмизация"
+    },
+    {
+      "name": "WebSocket",
+      "level": "intermediate",
+      "original": "WebSocket"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "HTML",
+      "level": "basic",
+      "original": "HTML5"
+    },
+    {
+      "name": "Фреймворки",
+      "level": "basic",
+      "original": "Фреймворки"
+    },
+    {
+      "name": "CSS",
+      "level": "basic",
+      "original": "CSS3"
+    },
+    {
+      "name": "Bootstrap",
+      "level": "basic",
+      "original": "Bootstrap"
+    },
+    {
+      "name": "Flask",
+      "level": null,
+      "original": "Flask"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    }
+  ],
+  "about_me": "Контактная информация:\n- Telegram: https://t.me/onnnyxxxq\nМой стек: Python, FastApi, Django/DRF, PostgreSQL, Redis, REST/RESTful, Docker, Docker-compose, Kafka.",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №162\nРезюме: Python developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 5 месяцев\nОпыт в похожих должностях:1 год 5 месяцев\nАвг 2023 -\nДек 2024\n1 год 5 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython backend developer\nTask-Hub – Платформа для публикации задач\nВ рамках команды из двух бекенд-разработчиков я отвечал за разработку и поддержку платформы для публикации и решения задач на Python/Django. Моя работа заключалась в создании и оптимизации работы системы.\nДостижения:\n- Разработал и поддерживал платформу, обеспечивая удобный интерфейс для пользователей и оптимизированную работу системы.\n- Внедрил категоризацию задач, а также функционал фильтрации и поиска, что улучшило навигацию по платформе.\n- Создал функционал для предложений решений, способствуя активному участию пользователей.\n- Оптимизировал отображение страниц за счет внедрения системы кеширования Redis.\nCтек проекта:\n- Python3\n- Django4\n- PostgreSQL\n- Docker\n- Docker-compose\n- Git\n- Redis",
+    "skills": "Продвинутый уровень\nREST API\nREST\nBackend\nСредний уровень\nPython\nSQL\nООП\nSQLite\nDjango Framework\nКоммуникативная компетентность\nLinux\nDjango Rest Framework\nCSS\nDocker\nPostgreSQL\nУмение разбираться в чужом коде\nDocker-compose\nGit\nWeb\nWed\nАлгоритмизация\nWebSocket\nDjango\nGitHub\nFastAPI\nБазовый уровень\nHTML5\nФреймворки\nCSS3\nBootstrap\nУровень не указан\nFlask",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный",
+    "about_me": "Контактная информация:\n- Telegram: https://t.me/onnnyxxxq\nМой стек: Python, FastApi, Django/DRF, PostgreSQL, Redis, REST/RESTful, Docker, Docker-compose, Kafka.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №162\nРезюме: Python developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 5 месяцев\nОпыт в похожих должностях:1 год 5 месяцев\nАвг 2023 -\nДек 2024\n1 год 5 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython backend developer\nTask-Hub – Платформа для публикации задач\nВ рамках команды из двух бекенд-разработчиков я отвечал за разработку и поддержку платформы для публикации и решения задач на Python/Django. Моя работа заключалась в создании и оптимизации работы системы.\nДостижения:\n- Разработал и поддерживал платформу, обеспечивая удобный интерфейс для пользователей и оптимизированную работу системы.\n- Внедрил категоризацию задач, а также функционал фильтрации и поиска, что улучшило навигацию по платформе.\n- Создал функционал для предложений решений, способствуя активному участию пользователей.\n- Оптимизировал отображение страниц за счет внедрения системы кеширования Redis.\nCтек проекта:\n- Python3\n- Django4\n- PostgreSQL\n- Docker\n- Docker-compose\n- Git\n- Redis\n\nНавыки\nПродвинутый уровень\nREST API\nREST\nBackend\nСредний уровень\nPython\nSQL\nООП\nSQLite\nDjango Framework\nКоммуникативная компетентность\nLinux\nDjango Rest Framework\nCSS\nDocker\nPostgreSQL\nУмение разбираться в чужом коде\nDocker-compose\nGit\nWeb\nWed\nАлгоритмизация\nWebSocket\nDjango\nGitHub\nFastAPI\nБазовый уровень\nHTML5\nФреймворки\nCSS3\nBootstrap\nУровень не указан\nFlask\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный\n\nОбо мне\nКонтактная информация:\n- Telegram: https://t.me/onnnyxxxq\nМой стек: Python, FastApi, Django/DRF, PostgreSQL, Redis, REST/RESTful, Docker, Docker-compose, Kafka.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

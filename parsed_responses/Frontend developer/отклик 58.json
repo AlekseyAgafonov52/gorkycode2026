@@ -1,0 +1,263 @@
+{
+  "candidate_id": 58,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": "Заинтересовала ваша вакансия. Мой опыт соответствует требованиям. Я работал фронтенд-разработчиком в компаниях OpenClassrooms, Too Good To Go и Svitla Systems. Готов рассказать подробнее о своем опыте и обсудить условия. Свяжитесь https://t.me/danil_maksymenko",
+  "experience_total_months": 57,
+  "similar_experience_months": 57,
+  "work_experience": [
+    {
+      "start_date": "2024-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 32,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "openclassrooms.com",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "- Доработал и расширил функциональность интерфейса проигрывателя курсов и платформы отправки проектов на Next.js, React, TypeScript, Vite\n- Интегрировал GraphQL + Apollo Client + React Query + RestHooks; кеш-политики и reactive vars сократили обращения к API на -38 %.\n- Собрал компоненты VideoPlayer, Monaco-CodeEditor, Navbar, Drawer, Skeleton UI;\n- Мигрировал состояние с Redux Toolkit → Zustand, убрав 8 кБ боилерплейта, улучшив DX на ревью (ESLint, Prettier, Husky).\n- Онбордил 4 junior-dev, проводил code-review; писал тех-док в Storybook, Confluence.\n- Доступность: WCAG 2.2 AA, ARIA-атрибуты, полная клавиатурная навигация, screen-reader-friendly.",
+      "original": "Мар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nopenclassrooms.com\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n- Доработал и расширил функциональность интерфейса проигрывателя курсов и платформы отправки проектов на Next.js, React, TypeScript, Vite\n- Интегрировал GraphQL + Apollo Client + React Query + RestHooks; кеш-политики и reactive vars сократили обращения к API на -38 %.\n- Собрал компоненты VideoPlayer, Monaco-CodeEditor, Navbar, Drawer, Skeleton UI;\n- Мигрировал состояние с Redux Toolkit → Zustand, убрав 8 кБ боилерплейта, улучшив DX на ревью (ESLint, Prettier, Husky).\n- Онбордил 4 junior-dev, проводил code-review; писал тех-док в Storybook, Confluence.\n- Доступность: WCAG 2.2 AA, ARIA-атрибуты, полная клавиатурная навигация, screen-reader-friendly."
+    },
+    {
+      "start_date": "2022-07",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 20,
+      "organization": "Организация 2",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "www.toogoodtogo.com",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "- Разработал с нуля «MyStore» для партнёров (B2B-SPA, React Router, MUI, Tailwind)\n- Подключил Mapbox GL JS\n- «Real-time: WebSocket/SSE для live-обновлений, latency −300мс, <1 с до появления события на карте.»\n- Оптимизировал изображения (Sharp, WebP/AVIF, lazy-loading, Content-Security-Policy)\n- Настроил A/B-эксперименты в GrowthBook;\n- Создал дизайн-систему из 32 UI-компонентов; использовалась 6 командами (Front, QA, Design, BE, PM, Support).\n- E2E: Playwright (login, формы, таблицы/фильтры), custom fixtures + page objects",
+      "original": "Июл 2022 -\nФев 2024\n1 год 8 мес\nОрганизация 2\nwww.toogoodtogo.com\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n- Разработал с нуля «MyStore» для партнёров (B2B-SPA, React Router, MUI, Tailwind)\n- Подключил Mapbox GL JS\n- «Real-time: WebSocket/SSE для live-обновлений, latency −300мс, <1 с до появления события на карте.»\n- Оптимизировал изображения (Sharp, WebP/AVIF, lazy-loading, Content-Security-Policy)\n- Настроил A/B-эксперименты в GrowthBook;\n- Создал дизайн-систему из 32 UI-компонентов; использовалась 6 командами (Front, QA, Design, BE, PM, Support).\n- E2E: Playwright (login, формы, таблицы/фильтры), custom fixtures + page objects"
+    },
+    {
+      "start_date": "2022-02",
+      "end_date": "2022-07",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 3",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "svitla.com/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Прошел стажировку на реальном коммерческом проекте с веб и мобильной версией платформы для вовлечения клиентов.\n- Верстал и делал логику для веб + mobile (React, Flexbox, SCSS, BEM, HTML5, ARIA)\n- Рефакторил рендер: Code-splitting, React.memo, useCallback, Suspense\n- Интегрировал REST-эндпоинты (Axios, OpenAPI, Swagger, JWT, OAuth2), сделал universal-fetch для SSR.\n- Внедрял A/B тестирование интерфейсных решений с использованием инструмента GrowthBook\n- участвовал в cross-ревью\n- презентовал реализованный функционал на командных демо.",
+      "original": "Фев 2022 -\nИюл 2022\n6 мес\nОрганизация 3\nsvitla.com/\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nПрошел стажировку на реальном коммерческом проекте с веб и мобильной версией платформы для вовлечения клиентов.\n- Верстал и делал логику для веб + mobile (React, Flexbox, SCSS, BEM, HTML5, ARIA)\n- Рефакторил рендер: Code-splitting, React.memo, useCallback, Suspense\n- Интегрировал REST-эндпоинты (Axios, OpenAPI, Swagger, JWT, OAuth2), сделал universal-fetch для SSR.\n- Внедрял A/B тестирование интерфейсных решений с использованием инструмента GrowthBook\n- участвовал в cross-ревью\n- презентовал реализованный функционал на командных демо."
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "React Query",
+      "level": "advanced",
+      "original": "React Query"
+    },
+    {
+      "name": "Redux",
+      "level": "advanced",
+      "original": "Redux"
+    },
+    {
+      "name": "Ant Design",
+      "level": "advanced",
+      "original": "Ant Design"
+    },
+    {
+      "name": "Next.js",
+      "level": "advanced",
+      "original": "Next.js"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "WebSocket",
+      "level": "advanced",
+      "original": "WebSocket"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Webpack",
+      "level": "advanced",
+      "original": "Webpack"
+    },
+    {
+      "name": "Vite",
+      "level": "advanced",
+      "original": "Vite"
+    },
+    {
+      "name": "Tailwind",
+      "level": "advanced",
+      "original": "Tailwind"
+    },
+    {
+      "name": "Styled-Components",
+      "level": "advanced",
+      "original": "Styled-Components"
+    },
+    {
+      "name": "Storybook",
+      "level": "advanced",
+      "original": "Storybook"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML5"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS3"
+    },
+    {
+      "name": "Redux Toolkit",
+      "level": "advanced",
+      "original": "Redux Toolkit"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Sass",
+      "level": "advanced",
+      "original": "Sass"
+    },
+    {
+      "name": "SCSS",
+      "level": "advanced",
+      "original": "SCSS"
+    },
+    {
+      "name": "GraphQL",
+      "level": "advanced",
+      "original": "GraphQL"
+    },
+    {
+      "name": "Frontend",
+      "level": "advanced",
+      "original": "Frontend"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "ReactJS"
+    },
+    {
+      "name": "Zustand",
+      "level": "advanced",
+      "original": "Zustand"
+    },
+    {
+      "name": "SSR",
+      "level": "advanced",
+      "original": "SSR"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    },
+    {
+      "name": "Итальянский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Итальянский — B1 — Средний"
+    },
+    {
+      "name": "Польский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Польский — B1 — Средний"
+    }
+  ],
+  "about_me": "Проектирую интерфейсы вместе с дизайном и продуктом, пишу чистый код, покрываю тестами. В команде держу планку качества - код-ревью, договорённости по архитектуре, помощь младшим коллегам. Ценю инженерную культуру, прозрачные процессы и живой диалог между фронтом, бэком и бизнесом.\nhttps://t.me/danil_maksymenko",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "VIZJA",
+      "details": [
+        "Informatyka, Инженер-Программист"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "VIZJA\nInformatyka, Инженер-Программист\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Италия, Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №58\nРезюме: Frontend-разработчик",
+    "cover_letter": "Заинтересовала ваша вакансия. Мой опыт соответствует требованиям. Я работал фронтенд-разработчиком в компаниях OpenClassrooms, Too Good To Go и Svitla Systems. Готов рассказать подробнее о своем опыте и обсудить условия. Свяжитесь https://t.me/danil_maksymenko",
+    "experience": "Опыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:4 года 9 месяцев\nМар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nopenclassrooms.com\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n- Доработал и расширил функциональность интерфейса проигрывателя курсов и платформы отправки проектов на Next.js, React, TypeScript, Vite\n- Интегрировал GraphQL + Apollo Client + React Query + RestHooks; кеш-политики и reactive vars сократили обращения к API на -38 %.\n- Собрал компоненты VideoPlayer, Monaco-CodeEditor, Navbar, Drawer, Skeleton UI;\n- Мигрировал состояние с Redux Toolkit → Zustand, убрав 8 кБ боилерплейта, улучшив DX на ревью (ESLint, Prettier, Husky).\n- Онбордил 4 junior-dev, проводил code-review; писал тех-док в Storybook, Confluence.\n- Доступность: WCAG 2.2 AA, ARIA-атрибуты, полная клавиатурная навигация, screen-reader-friendly.\nИюл 2022 -\nФев 2024\n1 год 8 мес\nОрганизация 2\nwww.toogoodtogo.com\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n- Разработал с нуля «MyStore» для партнёров (B2B-SPA, React Router, MUI, Tailwind)\n- Подключил Mapbox GL JS\n- «Real-time: WebSocket/SSE для live-обновлений, latency −300мс, <1 с до появления события на карте.»\n- Оптимизировал изображения (Sharp, WebP/AVIF, lazy-loading, Content-Security-Policy)\n- Настроил A/B-эксперименты в GrowthBook;\n- Создал дизайн-систему из 32 UI-компонентов; использовалась 6 командами (Front, QA, Design, BE, PM, Support).\n- E2E: Playwright (login, формы, таблицы/фильтры), custom fixtures + page objects\nФев 2022 -\nИюл 2022\n6 мес\nОрганизация 3\nsvitla.com/\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nПрошел стажировку на реальном коммерческом проекте с веб и мобильной версией платформы для вовлечения клиентов.\n- Верстал и делал логику для веб + mobile (React, Flexbox, SCSS, BEM, HTML5, ARIA)\n- Рефакторил рендер: Code-splitting, React.memo, useCallback, Suspense\n- Интегрировал REST-эндпоинты (Axios, OpenAPI, Swagger, JWT, OAuth2), сделал universal-fetch для SSR.\n- Внедрял A/B тестирование интерфейсных решений с использованием инструмента GrowthBook\n- участвовал в cross-ревью\n- презентовал реализованный функционал на командных демо.",
+    "skills": "Продвинутый уровень\nJavaScript\nTypeScript\nREST API\nReact\nReact Query\nRedux\nAnt Design\nNext.js\nDocker\nWebSocket\nCI/CD\nWebpack\nVite\nTailwind\nStyled-Components\nStorybook\nHTML\nGit\nHTML5\nCSS\nCSS3\nRedux Toolkit\nAPI\nSass\nSCSS\nGraphQL\nFrontend\nReactJS\nZustand\nSSR",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nИтальянский — B1 — Средний\nПольский — B1 — Средний",
+    "about_me": "Проектирую интерфейсы вместе с дизайном и продуктом, пишу чистый код, покрываю тестами. В команде держу планку качества - код-ревью, договорённости по архитектуре, помощь младшим коллегам. Ценю инженерную культуру, прозрачные процессы и живой диалог между фронтом, бэком и бизнесом.\nhttps://t.me/danil_maksymenko",
+    "education": "Уровень\nВысшее образование\nVIZJA\nInformatyka, Инженер-Программист\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nИталия, Россия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №58\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nЗаинтересовала ваша вакансия. Мой опыт соответствует требованиям. Я работал фронтенд-разработчиком в компаниях OpenClassrooms, Too Good To Go и Svitla Systems. Готов рассказать подробнее о своем опыте и обсудить условия. Свяжитесь https://t.me/danil_maksymenko\n\nОпыт работы\nОпыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:4 года 9 месяцев\nМар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nopenclassrooms.com\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n- Доработал и расширил функциональность интерфейса проигрывателя курсов и платформы отправки проектов на Next.js, React, TypeScript, Vite\n- Интегрировал GraphQL + Apollo Client + React Query + RestHooks; кеш-политики и reactive vars сократили обращения к API на -38 %.\n- Собрал компоненты VideoPlayer, Monaco-CodeEditor, Navbar, Drawer, Skeleton UI;\n- Мигрировал состояние с Redux Toolkit → Zustand, убрав 8 кБ боилерплейта, улучшив DX на ревью (ESLint, Prettier, Husky).\n- Онбордил 4 junior-dev, проводил code-review; писал тех-док в Storybook, Confluence.\n- Доступность: WCAG 2.2 AA, ARIA-атрибуты, полная клавиатурная навигация, screen-reader-friendly.\nИюл 2022 -\nФев 2024\n1 год 8 мес\nОрганизация 2\nwww.toogoodtogo.com\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n- Разработал с нуля «MyStore» для партнёров (B2B-SPA, React Router, MUI, Tailwind)\n- Подключил Mapbox GL JS\n- «Real-time: WebSocket/SSE для live-обновлений, latency −300мс, <1 с до появления события на карте.»\n- Оптимизировал изображения (Sharp, WebP/AVIF, lazy-loading, Content-Security-Policy)\n- Настроил A/B-эксперименты в GrowthBook;\n- Создал дизайн-систему из 32 UI-компонентов; использовалась 6 командами (Front, QA, Design, BE, PM, Support).\n- E2E: Playwright (login, формы, таблицы/фильтры), custom fixtures + page objects\nФев 2022 -\nИюл 2022\n6 мес\nОрганизация 3\nsvitla.com/\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nПрошел стажировку на реальном коммерческом проекте с веб и мобильной версией платформы для вовлечения клиентов.\n- Верстал и делал логику для веб + mobile (React, Flexbox, SCSS, BEM, HTML5, ARIA)\n- Рефакторил рендер: Code-splitting, React.memo, useCallback, Suspense\n- Интегрировал REST-эндпоинты (Axios, OpenAPI, Swagger, JWT, OAuth2), сделал universal-fetch для SSR.\n- Внедрял A/B тестирование интерфейсных решений с использованием инструмента GrowthBook\n- участвовал в cross-ревью\n- презентовал реализованный функционал на командных демо.\n\nНавыки\nПродвинутый уровень\nJavaScript\nTypeScript\nREST API\nReact\nReact Query\nRedux\nAnt Design\nNext.js\nDocker\nWebSocket\nCI/CD\nWebpack\nVite\nTailwind\nStyled-Components\nStorybook\nHTML\nGit\nHTML5\nCSS\nCSS3\nRedux Toolkit\nAPI\nSass\nSCSS\nGraphQL\nFrontend\nReactJS\nZustand\nSSR\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nИтальянский — B1 — Средний\nПольский — B1 — Средний\n\nОбо мне\nПроектирую интерфейсы вместе с дизайном и продуктом, пишу чистый код, покрываю тестами. В команде держу планку качества - код-ревью, договорённости по архитектуре, помощь младшим коллегам. Ценю инженерную культуру, прозрачные процессы и живой диалог между фронтом, бэком и бизнесом.\nhttps://t.me/danil_maksymenko\n\nОбразование\nУровень\nВысшее образование\nVIZJA\nInformatyka, Инженер-Программист\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nИталия, Россия\n"
+}

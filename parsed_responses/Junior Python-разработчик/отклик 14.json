@@ -1,0 +1,152 @@
+{
+  "candidate_id": 14,
+  "resume_title": "Python Junior Backend Developer",
+  "cover_letter": null,
+  "experience_total_months": 6,
+  "similar_experience_months": 6,
+  "work_experience": [
+    {
+      "start_date": "2025-01",
+      "end_date": "2025-06",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 1",
+      "position": "стажер python developer",
+      "employer_details": [
+        "rabota.sber.ru/",
+        "Финансовый сектор"
+      ],
+      "description": "- Тестирование программного кода\n- Исправление выявленных багов\n- Написание программного кода\n- Ведение отчетности о ходе разработки",
+      "original": "Янв 2025 -\nИюн 2025\n6 мес\nОрганизация 1\nrabota.sber.ru/\nФинансовый сектор\nстажер python developer\n- Тестирование программного кода\n- Исправление выявленных багов\n- Написание программного кода\n- Ведение отчетности о ходе разработки"
+    }
+  ],
+  "skills": [
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "PyCharm",
+      "level": "intermediate",
+      "original": "PyCharm"
+    },
+    {
+      "name": "Flask",
+      "level": "intermediate",
+      "original": "Flask"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Requests",
+      "level": "intermediate",
+      "original": "Requests"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    },
+    {
+      "name": "GitLab",
+      "level": "intermediate",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "API",
+      "level": "intermediate",
+      "original": "API"
+    },
+    {
+      "name": "Bash",
+      "level": "intermediate",
+      "original": "Bash"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "pytest",
+      "level": "basic",
+      "original": "Pytest"
+    },
+    {
+      "name": "MongoDB",
+      "level": "basic",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Алгоритмы и структуры данных",
+      "level": "basic",
+      "original": "Алгоритмы и структуры данных"
+    },
+    {
+      "name": "Рефакторинг кода",
+      "level": "basic",
+      "original": "Рефакторинг кода"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Имею опыт работы на стажировке\nЗанимался написанием бека для сайтов, написание автотестов,\nустранение багов\nТакже имею работы с FastAPI, Flask в них я делал сам API и работу с бд PostgreSQL, создавал Docker-Compose , Dockerfile\nСейчас работаю над другими пет-проектами (Создание мессенджера на основе FastAPI c БД PostgreSQ и ТГ-бот трекинга привычек на основе aiogram ).\nСоздаю движки для PostgreSQL с помощью psycopg2\nСоздавал workflow в GitHub.\nУмею читать чужой код .\nЗнаком с Celery, asyncio SQLAlchemy, Black, Isort, mypy, pytest, logger\nИщу работу на долгий срок для получения опыта и профессионального роста.\nTelegram - @Gagaq1\nВсе проекты - https://github.com/aslldalsdkas",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Skillbox",
+      "details": [
+        "IT-технологии, Python-Разработчик"
+      ],
+      "year": 2026,
+      "level": "Среднее специальное образование",
+      "original": "Skillbox\nIT-технологии, Python-Разработчик\n•\n2026\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Нет",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №14\nРезюме: Python Junior Backend Developer",
+    "cover_letter": "Кандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы",
+    "experience": "Опыт работы: 6 месяцев\nОпыт в похожих должностях:6 месяцев\nЯнв 2025 -\nИюн 2025\n6 мес\nОрганизация 1\nrabota.sber.ru/\nФинансовый сектор\nстажер python developer\n- Тестирование программного кода\n- Исправление выявленных багов\n- Написание программного кода\n- Ведение отчетности о ходе разработки",
+    "skills": "Средний уровень\nGitHub\nREST API\nPyCharm\nFlask\nFastAPI\nRequests\nSQLAlchemy\nCelery\nGitlab\nDjango Framework\nAPI\nBash\nБазовый уровень\nPython\nPytest\nMongoDB\nАлгоритмы и структуры данных\nРефакторинг кода",
+    "languages": "Родной\nРусский",
+    "about_me": "Имею опыт работы на стажировке\nЗанимался написанием бека для сайтов, написание автотестов,\nустранение багов\nТакже имею работы с FastAPI, Flask в них я делал сам API и работу с бд PostgreSQL, создавал Docker-Compose , Dockerfile\nСейчас работаю над другими пет-проектами (Создание мессенджера на основе FastAPI c БД PostgreSQ и ТГ-бот трекинга привычек на основе aiogram ).\nСоздаю движки для PostgreSQL с помощью psycopg2\nСоздавал workflow в GitHub.\nУмею читать чужой код .\nЗнаком с Celery, asyncio SQLAlchemy, Black, Isort, mypy, pytest, logger\nИщу работу на долгий срок для получения опыта и профессионального роста.\nTelegram - @Gagaq1\nВсе проекты - https://github.com/aslldalsdkas",
+    "education": "Уровень\nСреднее специальное образование\nSkillbox\nIT-технологии, Python-Разработчик\n•\n2026\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №14\nРезюме: Python Junior Backend Developer\n\nСопроводительное письмо\nКандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы\n\nОпыт работы\nОпыт работы: 6 месяцев\nОпыт в похожих должностях:6 месяцев\nЯнв 2025 -\nИюн 2025\n6 мес\nОрганизация 1\nrabota.sber.ru/\nФинансовый сектор\nстажер python developer\n- Тестирование программного кода\n- Исправление выявленных багов\n- Написание программного кода\n- Ведение отчетности о ходе разработки\n\nНавыки\nСредний уровень\nGitHub\nREST API\nPyCharm\nFlask\nFastAPI\nRequests\nSQLAlchemy\nCelery\nGitlab\nDjango Framework\nAPI\nBash\nБазовый уровень\nPython\nPytest\nMongoDB\nАлгоритмы и структуры данных\nРефакторинг кода\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nИмею опыт работы на стажировке\nЗанимался написанием бека для сайтов, написание автотестов,\nустранение багов\nТакже имею работы с FastAPI, Flask в них я делал сам API и работу с бд PostgreSQL, создавал Docker-Compose , Dockerfile\nСейчас работаю над другими пет-проектами (Создание мессенджера на основе FastAPI c БД PostgreSQ и ТГ-бот трекинга привычек на основе aiogram ).\nСоздаю движки для PostgreSQL с помощью psycopg2\nСоздавал workflow в GitHub.\nУмею читать чужой код .\nЗнаком с Celery, asyncio SQLAlchemy, Black, Isort, mypy, pytest, logger\nИщу работу на долгий срок для получения опыта и профессионального роста.\nTelegram - @Gagaq1\nВсе проекты - https://github.com/aslldalsdkas\n\nОбразование\nУровень\nСреднее специальное образование\nSkillbox\nIT-технологии, Python-Разработчик\n•\n2026\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет\n"
+}

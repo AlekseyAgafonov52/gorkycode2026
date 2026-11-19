@@ -1,0 +1,208 @@
+{
+  "candidate_id": 169,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Алгоритмы и структуры данных",
+      "level": "advanced",
+      "original": "Алгоритмы и структуры данных"
+    },
+    {
+      "name": "Тестирование баз данных",
+      "level": "advanced",
+      "original": "Тестирование баз данных"
+    },
+    {
+      "name": "Оптимизация кода",
+      "level": "advanced",
+      "original": "Оптимизация кода"
+    },
+    {
+      "name": "Рефакторинг кода",
+      "level": "advanced",
+      "original": "Рефакторинг кода"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Вебсокет",
+      "level": "advanced",
+      "original": "Вебсокет"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Брокер Сообщений",
+      "level": "advanced",
+      "original": "Брокер Сообщений"
+    },
+    {
+      "name": "Автоматизация",
+      "level": "advanced",
+      "original": "Автоматизация"
+    },
+    {
+      "name": "ИИ-агент",
+      "level": "advanced",
+      "original": "ИИ-агент"
+    },
+    {
+      "name": "ИИ",
+      "level": "advanced",
+      "original": "ИИ"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Парсинг",
+      "level": "advanced",
+      "original": "Парсинг"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "Автоматизация бизнес процессов",
+      "level": "advanced",
+      "original": "Автоматизация бизнес процессов"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "gRPC",
+      "level": "advanced",
+      "original": "gRPC"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Pydantic",
+      "level": "advanced",
+      "original": "Pydantic"
+    },
+    {
+      "name": "JWT",
+      "level": "advanced",
+      "original": "JWT"
+    },
+    {
+      "name": "PyCharm",
+      "level": null,
+      "original": "PyCharm"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Программирую на Python уже более трех лет, специализируюсь именно на бэкенде и серверной архитектуре. Уверенно проектирую REST API на FastAPI, использую Pydantic для валидации данных, настраиваю фоновые задачи и очереди через Celery и Redis. Большое внимание уделяю проектированию структуры реляционных баз данных (PostgreSQL, MySQL), плотно работаю с ORM SQLAlchemy, пишу миграции через Alembic и применяю Redis для кеширования. Понимаю принципы ООП и базовые паттерны проектирования, реализую безопасность и авторизацию через JWT (Access/Refresh токены). Понимаю процессы развертывания веб-серверов (Uvicorn), умею упаковывать приложения в Docker и Docker-Compose. Есть базовые навыки работы с консолью Linux (навигация, чтение логов) и понимание сетевого взаимодействия. Читаю техническую документацию на английском языке и работаю с Git. Открыт к новым задачам: могу честно сказать «не знаю», но никогда не останавливаюсь, пока не разберусь.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "НИУ РАНХиГС",
+      "details": [
+        "Управления, Прикладная информатика"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "НИУ РАНХиГС\nУправления, Прикладная информатика\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №169\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nPython\nАлгоритмы и структуры данных\nТестирование баз данных\nОптимизация кода\nРефакторинг кода\nGitHub\nООП\nREST API\nВебсокет\nNoSQL\nPostgreSQL\nБрокер Сообщений\nАвтоматизация\nИИ-агент\nИИ\nSQLAlchemy\nDjango Rest Framework\nFastAPI\nПарсинг\nAgile\nАвтоматизация бизнес процессов\nDjango Framework\ngRPC\nAPI\nPytest\nCelery\nRedis\nPydantic\nJWT\nУровень не указан\nPyCharm",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Программирую на Python уже более трех лет, специализируюсь именно на бэкенде и серверной архитектуре. Уверенно проектирую REST API на FastAPI, использую Pydantic для валидации данных, настраиваю фоновые задачи и очереди через Celery и Redis. Большое внимание уделяю проектированию структуры реляционных баз данных (PostgreSQL, MySQL), плотно работаю с ORM SQLAlchemy, пишу миграции через Alembic и применяю Redis для кеширования. Понимаю принципы ООП и базовые паттерны проектирования, реализую безопасность и авторизацию через JWT (Access/Refresh токены). Понимаю процессы развертывания веб-серверов (Uvicorn), умею упаковывать приложения в Docker и Docker-Compose. Есть базовые навыки работы с консолью Linux (навигация, чтение логов) и понимание сетевого взаимодействия. Читаю техническую документацию на английском языке и работаю с Git. Открыт к новым задачам: могу честно сказать «не знаю», но никогда не останавливаюсь, пока не разберусь.",
+    "education": "Уровень\nВысшее образование\nНИУ РАНХиГС\nУправления, Прикладная информатика\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №169\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nPython\nАлгоритмы и структуры данных\nТестирование баз данных\nОптимизация кода\nРефакторинг кода\nGitHub\nООП\nREST API\nВебсокет\nNoSQL\nPostgreSQL\nБрокер Сообщений\nАвтоматизация\nИИ-агент\nИИ\nSQLAlchemy\nDjango Rest Framework\nFastAPI\nПарсинг\nAgile\nАвтоматизация бизнес процессов\nDjango Framework\ngRPC\nAPI\nPytest\nCelery\nRedis\nPydantic\nJWT\nУровень не указан\nPyCharm\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nПрограммирую на Python уже более трех лет, специализируюсь именно на бэкенде и серверной архитектуре. Уверенно проектирую REST API на FastAPI, использую Pydantic для валидации данных, настраиваю фоновые задачи и очереди через Celery и Redis. Большое внимание уделяю проектированию структуры реляционных баз данных (PostgreSQL, MySQL), плотно работаю с ORM SQLAlchemy, пишу миграции через Alembic и применяю Redis для кеширования. Понимаю принципы ООП и базовые паттерны проектирования, реализую безопасность и авторизацию через JWT (Access/Refresh токены). Понимаю процессы развертывания веб-серверов (Uvicorn), умею упаковывать приложения в Docker и Docker-Compose. Есть базовые навыки работы с консолью Linux (навигация, чтение логов) и понимание сетевого взаимодействия. Читаю техническую документацию на английском языке и работаю с Git. Открыт к новым задачам: могу честно сказать «не знаю», но никогда не останавливаюсь, пока не разберусь.\n\nОбразование\nУровень\nВысшее образование\nНИУ РАНХиГС\nУправления, Прикладная информатика\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

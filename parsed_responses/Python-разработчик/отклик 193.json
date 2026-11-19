@@ -1,0 +1,182 @@
+{
+  "candidate_id": 193,
+  "resume_title": "Python Backend Developer",
+  "cover_letter": null,
+  "experience_total_months": 57,
+  "similar_experience_months": 57,
+  "work_experience": [
+    {
+      "start_date": "2022-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 57,
+      "organization": "Организация 1",
+      "position": "python developer",
+      "employer_details": [],
+      "description": "О проекте:\nРазработка клиент - серверного веб приложения на Django и FastAPI с интеграцией искусственного интеллекта в связке с python для решения бизнес задач\nОсновной Стек:\nDjango, FastAPI, Python, SQLALchemy ORM and Core, Alembic, PostgreSQL, Docker и Docker Compose, S3\nЧем занимался:\n- Декомпозиция и Реализация бизнес логики по заданному ТЗ\n- Реализация взаимодействия клиента и сервера c помощью RESTful API\n- Интеграции с внешними и внутренними API\n- Оптимизация и интеграция решений с использованием AI\n- Разработка и поддержка ботов разной сложности\n- Реализация файлового хранилища с использованием технологии S3",
+      "original": "Фев 2022 -\nсейчас\n4 года 9 мес\nОрганизация 1\npython developer\nО проекте:\nРазработка клиент - серверного веб приложения на Django и FastAPI с интеграцией искусственного интеллекта в связке с python для решения бизнес задач\nОсновной Стек:\nDjango, FastAPI, Python, SQLALchemy ORM and Core, Alembic, PostgreSQL, Docker и Docker Compose, S3\nЧем занимался:\n- Декомпозиция и Реализация бизнес логики по заданному ТЗ\n- Реализация взаимодействия клиента и сервера c помощью RESTful API\n- Интеграции с внешними и внутренними API\n- Оптимизация и интеграция решений с использованием AI\n- Разработка и поддержка ботов разной сложности\n- Реализация файлового хранилища с использованием технологии S3"
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "Bitbucket",
+      "level": null,
+      "original": "Bitbucket"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Docker Compose",
+      "level": null,
+      "original": "Docker-compose"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Backend",
+      "level": null,
+      "original": "Backend"
+    },
+    {
+      "name": "Веб-программирование",
+      "level": null,
+      "original": "Веб-программирование"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Alembic",
+      "level": null,
+      "original": "Alembic"
+    },
+    {
+      "name": "Базы данных",
+      "level": null,
+      "original": "Базы данных"
+    },
+    {
+      "name": "s3",
+      "level": null,
+      "original": "s3"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "Test case",
+      "level": null,
+      "original": "Test case"
+    },
+    {
+      "name": "NoSQL",
+      "level": null,
+      "original": "NoSQL"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Предпочитаемый способ связи со мной:\nTelegram:\n- https://t.me/pavel_aliev98\n- @pavel_aliev98\nПочта:\n- pavel_aliev98@mail.ru",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "ГАУСЗ",
+      "details": [],
+      "year": 2020,
+      "level": "Высшее образование",
+      "original": "ГАУСЗ\n2020\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №193\nРезюме: Python Backend Developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:4 года 9 месяцев\nФев 2022 -\nсейчас\n4 года 9 мес\nОрганизация 1\npython developer\nО проекте:\nРазработка клиент - серверного веб приложения на Django и FastAPI с интеграцией искусственного интеллекта в связке с python для решения бизнес задач\nОсновной Стек:\nDjango, FastAPI, Python, SQLALchemy ORM and Core, Alembic, PostgreSQL, Docker и Docker Compose, S3\nЧем занимался:\n- Декомпозиция и Реализация бизнес логики по заданному ТЗ\n- Реализация взаимодействия клиента и сервера c помощью RESTful API\n- Интеграции с внешними и внутренними API\n- Оптимизация и интеграция решений с использованием AI\n- Разработка и поддержка ботов разной сложности\n- Реализация файлового хранилища с использованием технологии S3",
+    "skills": "SQL\nGit\nPostgreSQL\nMySQL\nLinux\nPython\nDocker\nAPI\nGitHub\nBitbucket\nDjango\nFastAPI\nDocker-compose\nREST API\nBackend\nВеб-программирование\nSQLAlchemy\nAlembic\nБазы данных\ns3\nPytest\nTest case\nNoSQL\nRedis",
+    "languages": "Родной\nРусский",
+    "about_me": "Предпочитаемый способ связи со мной:\nTelegram:\n- https://t.me/pavel_aliev98\n- @pavel_aliev98\nПочта:\n- pavel_aliev98@mail.ru",
+    "education": "Уровень\nВысшее образование\nГАУСЗ\n2020\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №193\nРезюме: Python Backend Developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 9 месяцев\nОпыт в похожих должностях:4 года 9 месяцев\nФев 2022 -\nсейчас\n4 года 9 мес\nОрганизация 1\npython developer\nО проекте:\nРазработка клиент - серверного веб приложения на Django и FastAPI с интеграцией искусственного интеллекта в связке с python для решения бизнес задач\nОсновной Стек:\nDjango, FastAPI, Python, SQLALchemy ORM and Core, Alembic, PostgreSQL, Docker и Docker Compose, S3\nЧем занимался:\n- Декомпозиция и Реализация бизнес логики по заданному ТЗ\n- Реализация взаимодействия клиента и сервера c помощью RESTful API\n- Интеграции с внешними и внутренними API\n- Оптимизация и интеграция решений с использованием AI\n- Разработка и поддержка ботов разной сложности\n- Реализация файлового хранилища с использованием технологии S3\n\nНавыки\nSQL\nGit\nPostgreSQL\nMySQL\nLinux\nPython\nDocker\nAPI\nGitHub\nBitbucket\nDjango\nFastAPI\nDocker-compose\nREST API\nBackend\nВеб-программирование\nSQLAlchemy\nAlembic\nБазы данных\ns3\nPytest\nTest case\nNoSQL\nRedis\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nПредпочитаемый способ связи со мной:\nTelegram:\n- https://t.me/pavel_aliev98\n- @pavel_aliev98\nПочта:\n- pavel_aliev98@mail.ru\n\nОбразование\nУровень\nВысшее образование\nГАУСЗ\n2020\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

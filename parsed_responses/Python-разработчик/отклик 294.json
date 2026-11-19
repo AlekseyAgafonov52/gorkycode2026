@@ -1,0 +1,217 @@
+{
+  "candidate_id": 294,
+  "resume_title": "Python developer",
+  "cover_letter": null,
+  "experience_total_months": 20,
+  "similar_experience_months": 20,
+  "work_experience": [
+    {
+      "start_date": "2023-06",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 9,
+      "organization": "Организация 1",
+      "position": "Python developer",
+      "employer_details": [
+        "Москваbpium.ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разрабатывал высоконагруженные веб-сервисы и REST API с использованием Python (Django, Flask, FastAPI) и PostgreSQL.\nРазработал RPA-решение для автоматизации процесса согласования отпусков через интеграцию Telegram Bot API с системой 1C на базе aiohttp и asyncio\nРезультат: сокращение ручного труда на 30% и ускорение процесса согласований\nData Engineering / ML:\nИспользовал Pandas, Polars для обработки данных и BeautifulSoup для парсинга\nПрименял PyTorch и Scikit-learn для реализации ML-моделей\nНастраивал ETL-процессы с использованием Apache Airflow\nDevOps:\nРаботал с контейнеризацией (Docker, Kubernetes) и облачной платформой Yandex Cloud\nНастраивал процессы CI/CD в GitLab\nИспользовал Redis для кэширования и SQLAlchemy для работы с БД\nFrontend:\nРеализовал панель управления на Vue.js для визуализации аналитики переводов\nСтек: Python, Django, Flask, FastAPI, SQLAlchemy, AIOHTTP, Asyncio, PostgreSQL, Kafka, Redis, Vue.js, Docker, Kubernetes, Yandex Cloud, GitLab CI/CD, Apache Airflow, Pandas, Polars, BeautifulSoup, PyTorch, Scikit-learn, REST API",
+      "original": "Июн 2023 -\nФев 2024\n9 мес\nОрганизация 1\nМоскваbpium.ru/\nИнформационные технологии, системная интеграция, интернет\nPython developer\nРазрабатывал высоконагруженные веб-сервисы и REST API с использованием Python (Django, Flask, FastAPI) и PostgreSQL.\nРазработал RPA-решение для автоматизации процесса согласования отпусков через интеграцию Telegram Bot API с системой 1C на базе aiohttp и asyncio\nРезультат: сокращение ручного труда на 30% и ускорение процесса согласований\nData Engineering / ML:\nИспользовал Pandas, Polars для обработки данных и BeautifulSoup для парсинга\nПрименял PyTorch и Scikit-learn для реализации ML-моделей\nНастраивал ETL-процессы с использованием Apache Airflow\nDevOps:\nРаботал с контейнеризацией (Docker, Kubernetes) и облачной платформой Yandex Cloud\nНастраивал процессы CI/CD в GitLab\nИспользовал Redis для кэширования и SQLAlchemy для работы с БД\nFrontend:\nРеализовал панель управления на Vue.js для визуализации аналитики переводов\nСтек: Python, Django, Flask, FastAPI, SQLAlchemy, AIOHTTP, Asyncio, PostgreSQL, Kafka, Redis, Vue.js, Docker, Kubernetes, Yandex Cloud, GitLab CI/CD, Apache Airflow, Pandas, Polars, BeautifulSoup, PyTorch, Scikit-learn, REST API"
+    },
+    {
+      "start_date": "2022-05",
+      "end_date": "2023-03",
+      "is_current": false,
+      "duration_months": 11,
+      "organization": "Организация 2",
+      "position": "Python Developer / Преподаватель-лид",
+      "employer_details": [
+        "Москваalgoritmika.org",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "На этой позиции успешно совмещал технические навыки Python-разработчика с менеджерскими и педагогическими функциями:\nОрганизация работы учебных групп: распределение задач, контроль выполнения, проведение код-ревью.\nПостроил асинхронного Telegram-бота на Aiogram для проверки заданий с интеграцией в OpenAI GPT API для генерации персональных рекомендаций.\nУправление проектами: ведение студенческих проектов от идеи и технического планирования до успешной реализации.\nВнедрил систему Docker-контейнеризации для учебных сред, унифицировав процесс запуска проектов.\nОбучение и менторинг: преподавание best practices Python, помощь в отладке и решении технических задач.\nСтек: Python, Pygame, Pandas, NumPy, Matplotlib, Seaborn, Flask, SQLite, PostgreSQL, HTML, CSS, JavaScript, Git, Jupyter Notebook, Google Colab, Trello, Notion, Miro, Figma, Code Review",
+      "original": "Май 2022 -\nМар 2023\n11 мес\nОрганизация 2\nМоскваalgoritmika.org\nИнформационные технологии, системная интеграция, интернет\nPython Developer / Преподаватель-лид\nНа этой позиции успешно совмещал технические навыки Python-разработчика с менеджерскими и педагогическими функциями:\nОрганизация работы учебных групп: распределение задач, контроль выполнения, проведение код-ревью.\nПостроил асинхронного Telegram-бота на Aiogram для проверки заданий с интеграцией в OpenAI GPT API для генерации персональных рекомендаций.\nУправление проектами: ведение студенческих проектов от идеи и технического планирования до успешной реализации.\nВнедрил систему Docker-контейнеризации для учебных сред, унифицировав процесс запуска проектов.\nОбучение и менторинг: преподавание best practices Python, помощь в отладке и решении технических задач.\nСтек: Python, Pygame, Pandas, NumPy, Matplotlib, Seaborn, Flask, SQLite, PostgreSQL, HTML, CSS, JavaScript, Git, Jupyter Notebook, Google Colab, Trello, Notion, Miro, Figma, Code Review"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": null,
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Kafka",
+      "level": null,
+      "original": "Kafka"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "Clickhouse",
+      "level": null,
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Kubernetes",
+      "level": null,
+      "original": "Kubernetes"
+    },
+    {
+      "name": "MS SQL",
+      "level": null,
+      "original": "MS SQL"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Unit Testing",
+      "level": null,
+      "original": "Unit Testing"
+    },
+    {
+      "name": "Docker Compose",
+      "level": null,
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Backend",
+      "level": null,
+      "original": "Backend"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "pandas",
+      "level": null,
+      "original": "pandas"
+    },
+    {
+      "name": "JSON API",
+      "level": null,
+      "original": "JSON API"
+    },
+    {
+      "name": "Flask",
+      "level": null,
+      "original": "Flask"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Контакты для связи:\nTelegram: @MasterTimeSlip\nНе кратко о себе:\nЯзыки программирования: Python (с опытом асинхронного программирования - asyncio, aiohttp, asyncpg)\nФреймворки: FastAPI, Django, DRF, Flask\nБазы данных: PostgreSQL (глубокая оптимизация), Redis, MongoDB, ClickHouse\nИнфраструктура & DevOps: Docker, Kubernetes (k8s), GitLab CI/CD, Nginx\nОчереди сообщений & Брокеры: Kafka, RabbitMQ, Celery\nData Science & ML: Pandas, NumPy, Matplotlib, PyTorch, Transformers, CatBoost, разработка и деплой ML-моделей в production (MLOps)\nИнструменты: Git, Linux, SQL, Swagger/OpenAPI\nФронтенд (уровень базовый): HTML/CSS, JavaScript, Vue.js (способность работать с full-stack проектами)\nМетодологии: Agile/Scrum, Kanban, код-ревью, проектирование архитектуры (микросервисы, REST, GraphQL)",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Российский государственный социальный университет, Москва",
+      "details": [
+        "ИСТ, Прикладная математика и информатика"
+      ],
+      "year": 2023,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Российский государственный социальный университет, Москва\nИСТ, Прикладная математика и информатика\n•\n2023\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №294\nРезюме: Python developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 8 месяцев\nОпыт в похожих должностях:1 год 8 месяцев\nИюн 2023 -\nФев 2024\n9 мес\nОрганизация 1\nМоскваbpium.ru/\nИнформационные технологии, системная интеграция, интернет\nPython developer\nРазрабатывал высоконагруженные веб-сервисы и REST API с использованием Python (Django, Flask, FastAPI) и PostgreSQL.\nРазработал RPA-решение для автоматизации процесса согласования отпусков через интеграцию Telegram Bot API с системой 1C на базе aiohttp и asyncio\nРезультат: сокращение ручного труда на 30% и ускорение процесса согласований\nData Engineering / ML:\nИспользовал Pandas, Polars для обработки данных и BeautifulSoup для парсинга\nПрименял PyTorch и Scikit-learn для реализации ML-моделей\nНастраивал ETL-процессы с использованием Apache Airflow\nDevOps:\nРаботал с контейнеризацией (Docker, Kubernetes) и облачной платформой Yandex Cloud\nНастраивал процессы CI/CD в GitLab\nИспользовал Redis для кэширования и SQLAlchemy для работы с БД\nFrontend:\nРеализовал панель управления на Vue.js для визуализации аналитики переводов\nСтек: Python, Django, Flask, FastAPI, SQLAlchemy, AIOHTTP, Asyncio, PostgreSQL, Kafka, Redis, Vue.js, Docker, Kubernetes, Yandex Cloud, GitLab CI/CD, Apache Airflow, Pandas, Polars, BeautifulSoup, PyTorch, Scikit-learn, REST API\nМай 2022 -\nМар 2023\n11 мес\nОрганизация 2\nМоскваalgoritmika.org\nИнформационные технологии, системная интеграция, интернет\nPython Developer / Преподаватель-лид\nНа этой позиции успешно совмещал технические навыки Python-разработчика с менеджерскими и педагогическими функциями:\nОрганизация работы учебных групп: распределение задач, контроль выполнения, проведение код-ревью.\nПостроил асинхронного Telegram-бота на Aiogram для проверки заданий с интеграцией в OpenAI GPT API для генерации персональных рекомендаций.\nУправление проектами: ведение студенческих проектов от идеи и технического планирования до успешной реализации.\nВнедрил систему Docker-контейнеризации для учебных сред, унифицировав процесс запуска проектов.\nОбучение и менторинг: преподавание best practices Python, помощь в отладке и решении технических задач.\nСтек: Python, Pygame, Pandas, NumPy, Matplotlib, Seaborn, Flask, SQLite, PostgreSQL, HTML, CSS, JavaScript, Git, Jupyter Notebook, Google Colab, Trello, Notion, Miro, Figma, Code Review",
+    "skills": "Python\nPostgreSQL\nLinux\nSQL\nDocker\nRedis\nMongoDB\nRabbitMQ\nKafka\nGitlab\nClickhouse\nKubernetes\nMS SQL\nDjango\nREST\nMySQL\nGitHub\nREST API\nUnit Testing\nDocker-compose\nBackend\nAPI\npandas\nJSON API\nFlask\nCelery",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Контакты для связи:\nTelegram: @MasterTimeSlip\nНе кратко о себе:\nЯзыки программирования: Python (с опытом асинхронного программирования - asyncio, aiohttp, asyncpg)\nФреймворки: FastAPI, Django, DRF, Flask\nБазы данных: PostgreSQL (глубокая оптимизация), Redis, MongoDB, ClickHouse\nИнфраструктура & DevOps: Docker, Kubernetes (k8s), GitLab CI/CD, Nginx\nОчереди сообщений & Брокеры: Kafka, RabbitMQ, Celery\nData Science & ML: Pandas, NumPy, Matplotlib, PyTorch, Transformers, CatBoost, разработка и деплой ML-моделей в production (MLOps)\nИнструменты: Git, Linux, SQL, Swagger/OpenAPI\nФронтенд (уровень базовый): HTML/CSS, JavaScript, Vue.js (способность работать с full-stack проектами)\nМетодологии: Agile/Scrum, Kanban, код-ревью, проектирование архитектуры (микросервисы, REST, GraphQL)",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nРоссийский государственный социальный университет, Москва\nИСТ, Прикладная математика и информатика\n•\n2023\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №294\nРезюме: Python developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 8 месяцев\nОпыт в похожих должностях:1 год 8 месяцев\nИюн 2023 -\nФев 2024\n9 мес\nОрганизация 1\nМоскваbpium.ru/\nИнформационные технологии, системная интеграция, интернет\nPython developer\nРазрабатывал высоконагруженные веб-сервисы и REST API с использованием Python (Django, Flask, FastAPI) и PostgreSQL.\nРазработал RPA-решение для автоматизации процесса согласования отпусков через интеграцию Telegram Bot API с системой 1C на базе aiohttp и asyncio\nРезультат: сокращение ручного труда на 30% и ускорение процесса согласований\nData Engineering / ML:\nИспользовал Pandas, Polars для обработки данных и BeautifulSoup для парсинга\nПрименял PyTorch и Scikit-learn для реализации ML-моделей\nНастраивал ETL-процессы с использованием Apache Airflow\nDevOps:\nРаботал с контейнеризацией (Docker, Kubernetes) и облачной платформой Yandex Cloud\nНастраивал процессы CI/CD в GitLab\nИспользовал Redis для кэширования и SQLAlchemy для работы с БД\nFrontend:\nРеализовал панель управления на Vue.js для визуализации аналитики переводов\nСтек: Python, Django, Flask, FastAPI, SQLAlchemy, AIOHTTP, Asyncio, PostgreSQL, Kafka, Redis, Vue.js, Docker, Kubernetes, Yandex Cloud, GitLab CI/CD, Apache Airflow, Pandas, Polars, BeautifulSoup, PyTorch, Scikit-learn, REST API\nМай 2022 -\nМар 2023\n11 мес\nОрганизация 2\nМоскваalgoritmika.org\nИнформационные технологии, системная интеграция, интернет\nPython Developer / Преподаватель-лид\nНа этой позиции успешно совмещал технические навыки Python-разработчика с менеджерскими и педагогическими функциями:\nОрганизация работы учебных групп: распределение задач, контроль выполнения, проведение код-ревью.\nПостроил асинхронного Telegram-бота на Aiogram для проверки заданий с интеграцией в OpenAI GPT API для генерации персональных рекомендаций.\nУправление проектами: ведение студенческих проектов от идеи и технического планирования до успешной реализации.\nВнедрил систему Docker-контейнеризации для учебных сред, унифицировав процесс запуска проектов.\nОбучение и менторинг: преподавание best practices Python, помощь в отладке и решении технических задач.\nСтек: Python, Pygame, Pandas, NumPy, Matplotlib, Seaborn, Flask, SQLite, PostgreSQL, HTML, CSS, JavaScript, Git, Jupyter Notebook, Google Colab, Trello, Notion, Miro, Figma, Code Review\n\nНавыки\nPython\nPostgreSQL\nLinux\nSQL\nDocker\nRedis\nMongoDB\nRabbitMQ\nKafka\nGitlab\nClickhouse\nKubernetes\nMS SQL\nDjango\nREST\nMySQL\nGitHub\nREST API\nUnit Testing\nDocker-compose\nBackend\nAPI\npandas\nJSON API\nFlask\nCelery\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nКонтакты для связи:\nTelegram: @MasterTimeSlip\nНе кратко о себе:\nЯзыки программирования: Python (с опытом асинхронного программирования - asyncio, aiohttp, asyncpg)\nФреймворки: FastAPI, Django, DRF, Flask\nБазы данных: PostgreSQL (глубокая оптимизация), Redis, MongoDB, ClickHouse\nИнфраструктура & DevOps: Docker, Kubernetes (k8s), GitLab CI/CD, Nginx\nОчереди сообщений & Брокеры: Kafka, RabbitMQ, Celery\nData Science & ML: Pandas, NumPy, Matplotlib, PyTorch, Transformers, CatBoost, разработка и деплой ML-моделей в production (MLOps)\nИнструменты: Git, Linux, SQL, Swagger/OpenAPI\nФронтенд (уровень базовый): HTML/CSS, JavaScript, Vue.js (способность работать с full-stack проектами)\nМетодологии: Agile/Scrum, Kanban, код-ревью, проектирование архитектуры (микросервисы, REST, GraphQL)\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nРоссийский государственный социальный университет, Москва\nИСТ, Прикладная математика и информатика\n•\n2023\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

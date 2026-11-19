@@ -1,0 +1,214 @@
+{
+  "candidate_id": 419,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Добрый день.Я Влад, мне заинтересовалась ваша вакансия и готов сотрудничеваться",
+  "experience_total_months": 29,
+  "similar_experience_months": 29,
+  "work_experience": [
+    {
+      "start_date": "2023-03",
+      "end_date": "2025-07",
+      "is_current": false,
+      "duration_months": 29,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "- Проектировал архитектуру с нуля: делил сервисы по доменам, описывал взаимодействие\nсервисов, выбирал соответствующие технологии, разрабатывал и поддерживал\nдокументацию системы.\n- Писал Docker файлы, работал с Docker Compose, а также настраивал CI/CD-пайплайны.\n- Занимался рефакторингом кода, убирал технический долг, а также оптимизировал\nзапросы к базе данных и другим сервисам.\n- Реализовал интеграции с сторонними сервисами и внутренними API.\n- Работал с реляционными (PostgreSQL) и NoSql (MongoDB, ElasticSearch) базами\nданных.\n- Работал с In-memory базами данных такими как Redis. Используя его в задачах\nкэширования данных, хранения временных данных и др.\n- Работал с брокерами сообщений такими как Kafka.\n- Тесно сотрудничал со своей командой, а также командами фронтенда и QA для\nэффективности процесса разработки.\n- Настраивал серверную инфраструктуру на Google Cloud",
+      "original": "Мар 2023 -\nИюл 2025\n2 года 5 мес\nОрганизация 1\nPython-разработчик\n- Проектировал архитектуру с нуля: делил сервисы по доменам, описывал взаимодействие\nсервисов, выбирал соответствующие технологии, разрабатывал и поддерживал\nдокументацию системы.\n- Писал Docker файлы, работал с Docker Compose, а также настраивал CI/CD-пайплайны.\n- Занимался рефакторингом кода, убирал технический долг, а также оптимизировал\nзапросы к базе данных и другим сервисам.\n- Реализовал интеграции с сторонними сервисами и внутренними API.\n- Работал с реляционными (PostgreSQL) и NoSql (MongoDB, ElasticSearch) базами\nданных.\n- Работал с In-memory базами данных такими как Redis. Используя его в задачах\nкэширования данных, хранения временных данных и др.\n- Работал с брокерами сообщений такими как Kafka.\n- Тесно сотрудничал со своей командой, а также командами фронтенда и QA для\nэффективности процесса разработки.\n- Настраивал серверную инфраструктуру на Google Cloud"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "advanced",
+      "original": "Elasticsearch"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Английский язык C1",
+      "level": "advanced",
+      "original": "Английский язык C1"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Наставничество",
+      "level": "advanced",
+      "original": "Наставничество"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Интеграционное тестирование",
+      "level": "advanced",
+      "original": "Интеграционное тестирование"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Postman",
+      "level": "advanced",
+      "original": "Postman"
+    },
+    {
+      "name": "HTTPX",
+      "level": "advanced",
+      "original": "HTTPX"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "AWS",
+      "level": "advanced",
+      "original": "AWS"
+    },
+    {
+      "name": "Google Cloud",
+      "level": "advanced",
+      "original": "Google Cloud"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Московский государственный университет имени М.В. Ломоносова, Москва",
+      "details": [
+        "Прогамист"
+      ],
+      "year": 2026,
+      "level": "Высшее образование",
+      "original": "Московский государственный университет имени М.В. Ломоносова, Москва\nПрогамист\n•\n2026\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №419\nРезюме: Python-разработчик",
+    "cover_letter": "Добрый день.Я Влад, мне заинтересовалась ваша вакансия и готов сотрудничеваться",
+    "experience": "Опыт работы: 2 года 5 месяцев\nОпыт в похожих должностях:2 года 5 месяцев\nМар 2023 -\nИюл 2025\n2 года 5 мес\nОрганизация 1\nPython-разработчик\n- Проектировал архитектуру с нуля: делил сервисы по доменам, описывал взаимодействие\nсервисов, выбирал соответствующие технологии, разрабатывал и поддерживал\nдокументацию системы.\n- Писал Docker файлы, работал с Docker Compose, а также настраивал CI/CD-пайплайны.\n- Занимался рефакторингом кода, убирал технический долг, а также оптимизировал\nзапросы к базе данных и другим сервисам.\n- Реализовал интеграции с сторонними сервисами и внутренними API.\n- Работал с реляционными (PostgreSQL) и NoSql (MongoDB, ElasticSearch) базами\nданных.\n- Работал с In-memory базами данных такими как Redis. Используя его в задачах\nкэширования данных, хранения временных данных и др.\n- Работал с брокерами сообщений такими как Kafka.\n- Тесно сотрудничал со своей командой, а также командами фронтенда и QA для\nэффективности процесса разработки.\n- Настраивал серверную инфраструктуру на Google Cloud",
+    "skills": "Продвинутый уровень\nPython\nNoSQL\nREST API\nDjango Rest Framework\nDjango Framework\nFastAPI\nSQLAlchemy\nRedis\nMongoDB\nElasticsearch\nCI/CD\nDocker\nDocker-compose\nRabbitMQ\nGitlab\nАнглийский язык C1\nNginx\nSQL\nGit\nНаставничество\nCelery\nИнтеграционное тестирование\nPytest\nPostman\nHTTPX\nGitHub\nPrometheus\nGrafana\nAWS\nGoogle Cloud",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nМосковский государственный университет имени М.В. Ломоносова, Москва\nПрогамист\n•\n2026\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №419\nРезюме: Python-разработчик\n\nСопроводительное письмо\nДобрый день.Я Влад, мне заинтересовалась ваша вакансия и готов сотрудничеваться\n\nОпыт работы\nОпыт работы: 2 года 5 месяцев\nОпыт в похожих должностях:2 года 5 месяцев\nМар 2023 -\nИюл 2025\n2 года 5 мес\nОрганизация 1\nPython-разработчик\n- Проектировал архитектуру с нуля: делил сервисы по доменам, описывал взаимодействие\nсервисов, выбирал соответствующие технологии, разрабатывал и поддерживал\nдокументацию системы.\n- Писал Docker файлы, работал с Docker Compose, а также настраивал CI/CD-пайплайны.\n- Занимался рефакторингом кода, убирал технический долг, а также оптимизировал\nзапросы к базе данных и другим сервисам.\n- Реализовал интеграции с сторонними сервисами и внутренними API.\n- Работал с реляционными (PostgreSQL) и NoSql (MongoDB, ElasticSearch) базами\nданных.\n- Работал с In-memory базами данных такими как Redis. Используя его в задачах\nкэширования данных, хранения временных данных и др.\n- Работал с брокерами сообщений такими как Kafka.\n- Тесно сотрудничал со своей командой, а также командами фронтенда и QA для\nэффективности процесса разработки.\n- Настраивал серверную инфраструктуру на Google Cloud\n\nНавыки\nПродвинутый уровень\nPython\nNoSQL\nREST API\nDjango Rest Framework\nDjango Framework\nFastAPI\nSQLAlchemy\nRedis\nMongoDB\nElasticsearch\nCI/CD\nDocker\nDocker-compose\nRabbitMQ\nGitlab\nАнглийский язык C1\nNginx\nSQL\nGit\nНаставничество\nCelery\nИнтеграционное тестирование\nPytest\nPostman\nHTTPX\nGitHub\nPrometheus\nGrafana\nAWS\nGoogle Cloud\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nМосковский государственный университет имени М.В. Ломоносова, Москва\nПрогамист\n•\n2026\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

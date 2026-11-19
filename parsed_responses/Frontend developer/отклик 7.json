@@ -1,0 +1,168 @@
+{
+  "candidate_id": 7,
+  "resume_title": "Fullstack-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 12,
+  "similar_experience_months": 12,
+  "work_experience": [
+    {
+      "start_date": "2025-11",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 12,
+      "organization": "Организация 1",
+      "position": "Fullstack-разработчик",
+      "employer_details": [
+        "Нижний Новгород",
+        "Образовательные учреждения"
+      ],
+      "description": "Fullstack-разработчик на госзадании для проекта Cogni-test, сайт https://cogni-test.ru/",
+      "original": "Ноя 2025 -\nсейчас\n1 год\nОрганизация 1\nНижний Новгород\nОбразовательные учреждения\nFullstack-разработчик\nFullstack-разработчик на госзадании для проекта Cogni-test, сайт https://cogni-test.ru/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Веб-программирование",
+      "level": "intermediate",
+      "original": "Веб-программирование"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Машинное обучение",
+      "level": null,
+      "original": "Машинное обучение"
+    },
+    {
+      "name": "C++",
+      "level": null,
+      "original": "C++"
+    },
+    {
+      "name": "Golang",
+      "level": null,
+      "original": "Golang"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React"
+    },
+    {
+      "name": "PyTorch",
+      "level": null,
+      "original": "PyTorch"
+    },
+    {
+      "name": "Svelte",
+      "level": null,
+      "original": "Svelte"
+    },
+    {
+      "name": "Node.js",
+      "level": null,
+      "original": "Node.js"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Мои навыки:\n1) Full stack web-разработка:\n- Golang с использованием Echo или стандартной библиотеки (net/http, http/template);\n- Python, работа с Django, Flask;\n- Typescript/Javascript, React;\n- Знания библиотеки HTMX;\n- Знания HTML и CSS;\n2) ML и Deeplearning на Python:\n- Навыки в работе с pytorch, numpy, matplotlib;\n3) Работа с базами данных:\n-MySQL;\n- PostgreSQL;\n- SQLite;\n4) Умения работать с Git, Docker, Linux;\n5) Базовые знания программирования на C/C++, Rust;\n6) Знания в области высшей математики:\n-Алгебра;\n- Математический анализ;\n- Дифференциальные уравнения;\nОтветстенно подхожу к выполнению работы. Стремлюсь к получению новых знаний. Способен быстро обучаться и находить решения к новым для себя задачам. Всегда готов прислушать к конструктивной критике, сделать выводы.\nПолучал дополнительное образование в рамках программы \"Цифровые кафедры\" в 2024 году. В рамках программы, при поддержке Академии Лад и университета Лобачевского, учавствовал в разработке проекта \"Ассоциативные словари\" в качестве web-разработчика.\nСайт Академии Лад: https://lad-academy.ru/projects\nСайт проекта: https://dictionaries.lad-academy.ru/\nСсылка на github: https://github.com/Roddyck",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород",
+      "details": [
+        "ИИТММ, Математика"
+      ],
+      "year": 2026,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИИТММ, Математика\n•\n2026\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №7\nРезюме: Fullstack-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год\nОпыт в похожих должностях:1 год\nНоя 2025 -\nсейчас\n1 год\nОрганизация 1\nНижний Новгород\nОбразовательные учреждения\nFullstack-разработчик\nFullstack-разработчик на госзадании для проекта Cogni-test, сайт https://cogni-test.ru/",
+    "skills": "Средний уровень\nPython\nJavaScript\nВеб-программирование\nLinux\nУровень не указан\nМашинное обучение\nC++\nGolang\nGit\nSQL\nMySQL\nPostgreSQL\nHTML\nDocker\nDjango Framework\nReact\nPyTorch\nSvelte\nNode.js\nTypeScript",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Мои навыки:\n1) Full stack web-разработка:\n- Golang с использованием Echo или стандартной библиотеки (net/http, http/template);\n- Python, работа с Django, Flask;\n- Typescript/Javascript, React;\n- Знания библиотеки HTMX;\n- Знания HTML и CSS;\n2) ML и Deeplearning на Python:\n- Навыки в работе с pytorch, numpy, matplotlib;\n3) Работа с базами данных:\n-MySQL;\n- PostgreSQL;\n- SQLite;\n4) Умения работать с Git, Docker, Linux;\n5) Базовые знания программирования на C/C++, Rust;\n6) Знания в области высшей математики:\n-Алгебра;\n- Математический анализ;\n- Дифференциальные уравнения;\nОтветстенно подхожу к выполнению работы. Стремлюсь к получению новых знаний. Способен быстро обучаться и находить решения к новым для себя задачам. Всегда готов прислушать к конструктивной критике, сделать выводы.\nПолучал дополнительное образование в рамках программы \"Цифровые кафедры\" в 2024 году. В рамках программы, при поддержке Академии Лад и университета Лобачевского, учавствовал в разработке проекта \"Ассоциативные словари\" в качестве web-разработчика.\nСайт Академии Лад: https://lad-academy.ru/projects\nСайт проекта: https://dictionaries.lad-academy.ru/\nСсылка на github: https://github.com/Roddyck",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИИТММ, Математика\n•\n2026\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №7\nРезюме: Fullstack-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год\nОпыт в похожих должностях:1 год\nНоя 2025 -\nсейчас\n1 год\nОрганизация 1\nНижний Новгород\nОбразовательные учреждения\nFullstack-разработчик\nFullstack-разработчик на госзадании для проекта Cogni-test, сайт https://cogni-test.ru/\n\nНавыки\nСредний уровень\nPython\nJavaScript\nВеб-программирование\nLinux\nУровень не указан\nМашинное обучение\nC++\nGolang\nGit\nSQL\nMySQL\nPostgreSQL\nHTML\nDocker\nDjango Framework\nReact\nPyTorch\nSvelte\nNode.js\nTypeScript\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nМои навыки:\n1) Full stack web-разработка:\n- Golang с использованием Echo или стандартной библиотеки (net/http, http/template);\n- Python, работа с Django, Flask;\n- Typescript/Javascript, React;\n- Знания библиотеки HTMX;\n- Знания HTML и CSS;\n2) ML и Deeplearning на Python:\n- Навыки в работе с pytorch, numpy, matplotlib;\n3) Работа с базами данных:\n-MySQL;\n- PostgreSQL;\n- SQLite;\n4) Умения работать с Git, Docker, Linux;\n5) Базовые знания программирования на C/C++, Rust;\n6) Знания в области высшей математики:\n-Алгебра;\n- Математический анализ;\n- Дифференциальные уравнения;\nОтветстенно подхожу к выполнению работы. Стремлюсь к получению новых знаний. Способен быстро обучаться и находить решения к новым для себя задачам. Всегда готов прислушать к конструктивной критике, сделать выводы.\nПолучал дополнительное образование в рамках программы \"Цифровые кафедры\" в 2024 году. В рамках программы, при поддержке Академии Лад и университета Лобачевского, учавствовал в разработке проекта \"Ассоциативные словари\" в качестве web-разработчика.\nСайт Академии Лад: https://lad-academy.ru/projects\nСайт проекта: https://dictionaries.lad-academy.ru/\nСсылка на github: https://github.com/Roddyck\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИИТММ, Математика\n•\n2026\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

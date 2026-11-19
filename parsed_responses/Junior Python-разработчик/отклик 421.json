@@ -1,0 +1,221 @@
+{
+  "candidate_id": 421,
+  "resume_title": "Python Backend Developer / Middle Python-разработчик — FastAPI, PostgreSQL, AsyncIO, REST API",
+  "cover_letter": "Я Python-разработчик с опытом создания сложных, высоконагруженных систем. Люблю строить архитектуру с нуля — от окружения и CI/CD до тестов и документации — так, чтобы сервисы работали быстро, надёжно и масштабировались. Умею оптимизировать базы данных, настраивать асинхронные процессы и интегрировать внешние сервисы, всегда ориентируясь на реальный эффект для бизнеса: рост пользователей, скорость отклика и снижение ручной работы. Не боюсь сложных задач и люблю находить решения там, где другие видят невозможное.",
+  "experience_total_months": 44,
+  "similar_experience_months": 44,
+  "work_experience": [
+    {
+      "start_date": "2023-07",
+      "end_date": "2025-12",
+      "is_current": false,
+      "duration_months": 30,
+      "organization": "Организация 1",
+      "position": "Backend-разработчик / Python, FastAPI, PostgreSQL, Microservices",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Backend-разработчик / Python, FastAPI, PostgreSQL\nЗадачи:\n— Разрабатывал backend для веб-приложения и Telegram Mini Apps на Python/FastAPI.\n— Проектировал REST API, бизнес-логику, модели данных и интеграции с внешними сервисами.\n— Работал с PostgreSQL: raw SQL, сложные JOIN-запросы, индексы, оптимизация тяжелых запросов, миграции Alembic.\n— Реализовывал асинхронную обработку задач через asyncio, Celery/RQ и Redis.\n— Настраивал авторизацию и разграничение доступа: JWT, OAuth2, роли и права пользователей.\n— Разрабатывал webhook-интеграции, интеграции с CRM, платежными системами и внешними API.\n— Покрывал backend unit- и integration-тестами на Pytest.\n— Настраивал Docker/docker-compose, pre-commit, линтеры, CI/CD, Swagger/OpenAPI-документацию.\n— Участвовал в обсуждении архитектуры, декомпозиции задач и code review.\nДостижения:\n— Сократил время формирования аналитических отчетов с нескольких часов до секунд за счет оптимизации SQL-запросов, индексов и асинхронной обработки.\n— Ускорил обработку фоновых задач за счет очередей Redis/Celery/RQ.\n— Снизил количество ручных операций за счет автоматизации интеграций и webhook-сценариев.",
+      "original": "Июл 2023 -\nДек 2025\n2 года 6 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик / Python, FastAPI, PostgreSQL, Microservices\nBackend-разработчик / Python, FastAPI, PostgreSQL\nЗадачи:\n— Разрабатывал backend для веб-приложения и Telegram Mini Apps на Python/FastAPI.\n— Проектировал REST API, бизнес-логику, модели данных и интеграции с внешними сервисами.\n— Работал с PostgreSQL: raw SQL, сложные JOIN-запросы, индексы, оптимизация тяжелых запросов, миграции Alembic.\n— Реализовывал асинхронную обработку задач через asyncio, Celery/RQ и Redis.\n— Настраивал авторизацию и разграничение доступа: JWT, OAuth2, роли и права пользователей.\n— Разрабатывал webhook-интеграции, интеграции с CRM, платежными системами и внешними API.\n— Покрывал backend unit- и integration-тестами на Pytest.\n— Настраивал Docker/docker-compose, pre-commit, линтеры, CI/CD, Swagger/OpenAPI-документацию.\n— Участвовал в обсуждении архитектуры, декомпозиции задач и code review.\nДостижения:\n— Сократил время формирования аналитических отчетов с нескольких часов до секунд за счет оптимизации SQL-запросов, индексов и асинхронной обработки.\n— Ускорил обработку фоновых задач за счет очередей Redis/Celery/RQ.\n— Снизил количество ручных операций за счет автоматизации интеграций и webhook-сценариев."
+    },
+    {
+      "start_date": "2022-05",
+      "end_date": "2023-07",
+      "is_current": false,
+      "duration_months": 15,
+      "organization": "Организация 2",
+      "position": "Backend-разработчик / Python, FastAPI, PostgreSQL",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Backend-разработчик / Python, FastAPI, PostgreSQL\nЗадачи:\n— Разрабатывал backend-сервисы для сбора, обработки и агрегации данных из внешних API.\n— Реализовывал парсинг данных, обработку больших объемов записей и сохранение в PostgreSQL.\n— Оптимизировал PostgreSQL: индексы, партицирование таблиц, batched insert/update, анализ медленных запросов.\n— Проектировал REST API и webhook-сервисы для внешних интеграций.\n— Разрабатывал Telegram-ботов со сложными сценариями: FSM, inline-кнопки, callback-запросы, интеграции с CRM.\n— Настраивал Redis/RQ для фоновой обработки задач.\n— Интегрировал ЮKassa, Stripe API, AmoCRM, Bitrix24.\n— Настраивал Docker, CI/CD, тестовые окружения, логирование и документацию API.\nДостижения:\n— Автоматизировал сбор и обработку данных, снизив объем ручной работы менеджеров.\n— Ускорил чтение и запись данных в PostgreSQL за счет индексов, партицирования и пакетной обработки.\n— Сократил время реакции поддержки за счет Telegram-ботов и CRM-интеграций.",
+      "original": "Май 2022 -\nИюл 2023\n1 год 3 мес\nОрганизация 2\nМосква\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик / Python, FastAPI, PostgreSQL\nBackend-разработчик / Python, FastAPI, PostgreSQL\nЗадачи:\n— Разрабатывал backend-сервисы для сбора, обработки и агрегации данных из внешних API.\n— Реализовывал парсинг данных, обработку больших объемов записей и сохранение в PostgreSQL.\n— Оптимизировал PostgreSQL: индексы, партицирование таблиц, batched insert/update, анализ медленных запросов.\n— Проектировал REST API и webhook-сервисы для внешних интеграций.\n— Разрабатывал Telegram-ботов со сложными сценариями: FSM, inline-кнопки, callback-запросы, интеграции с CRM.\n— Настраивал Redis/RQ для фоновой обработки задач.\n— Интегрировал ЮKassa, Stripe API, AmoCRM, Bitrix24.\n— Настраивал Docker, CI/CD, тестовые окружения, логирование и документацию API.\nДостижения:\n— Автоматизировал сбор и обработку данных, снизив объем ручной работы менеджеров.\n— Ускорил чтение и запись данных в PostgreSQL за счет индексов, партицирования и пакетной обработки.\n— Сократил время реакции поддержки за счет Telegram-ботов и CRM-интеграций."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "asyncio",
+      "level": "advanced",
+      "original": "asyncio"
+    },
+    {
+      "name": "Pydantic",
+      "level": "advanced",
+      "original": "Pydantic"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "Swagger",
+      "level": "advanced",
+      "original": "Swagger"
+    },
+    {
+      "name": "Telegram API",
+      "level": "advanced",
+      "original": "Telegram API"
+    },
+    {
+      "name": "Avito API",
+      "level": "advanced",
+      "original": "Avito API"
+    },
+    {
+      "name": "Webhooks",
+      "level": "advanced",
+      "original": "Webhooks"
+    },
+    {
+      "name": "PyCharm",
+      "level": "advanced",
+      "original": "PyCharm"
+    },
+    {
+      "name": "Kafka",
+      "level": "advanced",
+      "original": "Kafka"
+    },
+    {
+      "name": "aiohttp",
+      "level": "advanced",
+      "original": "aiohttp"
+    },
+    {
+      "name": "Unit Testing",
+      "level": "advanced",
+      "original": "Unit Testing"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    },
+    {
+      "name": "CI/CD",
+      "level": "intermediate",
+      "original": "CI/CD"
+    },
+    {
+      "name": "pytest",
+      "level": "intermediate",
+      "original": "Pytest"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "intermediate",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "basic",
+      "original": "Kubernetes"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Python Backend Developer с коммерческим опытом 3+ года. Основной стек: Python, FastAPI, PostgreSQL, SQLAlchemy, Redis, Celery/RQ, Docker, REST API, asyncio, Pytest.\nРазрабатывал backend-сервисы, Telegram Mini Apps, интеграции с внешними API, CRM и платежными системами. Работал с проектированием REST API, асинхронной обработкой задач, очередями, webhook-интеграциями, авторизацией JWT/OAuth2, миграциями Alembic и документацией OpenAPI/Swagger.\nСильная сторона — PostgreSQL и backend-инфраструктура: raw SQL, сложные JOIN-запросы, индексы, оптимизация тяжелых запросов, batched insert/update, партицирование, кэширование через Redis. Есть опыт настройки Docker-окружений, CI/CD, тестов Pytest, логирования и мониторинга.",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "Донской государственный технический университет, Ростов-на-Дону",
+      "details": [
+        "Информатика и вычислительная техника, Программная инженерия"
+      ],
+      "year": 2023,
+      "level": "Неоконченное высшее образование",
+      "original": "Донской государственный технический университет, Ростов-на-Дону\nИнформатика и вычислительная техника, Программная инженерия\n•\n2023\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №421\nРезюме: Python Backend Developer / Middle Python-разработчик — FastAPI, PostgreSQL, AsyncIO, REST API",
+    "cover_letter": "Я Python-разработчик с опытом создания сложных, высоконагруженных систем. Люблю строить архитектуру с нуля — от окружения и CI/CD до тестов и документации — так, чтобы сервисы работали быстро, надёжно и масштабировались. Умею оптимизировать базы данных, настраивать асинхронные процессы и интегрировать внешние сервисы, всегда ориентируясь на реальный эффект для бизнеса: рост пользователей, скорость отклика и снижение ручной работы. Не боюсь сложных задач и люблю находить решения там, где другие видят невозможное.",
+    "experience": "Опыт работы: 3 года 8 месяцев\nОпыт в похожих должностях:3 года 8 месяцев\nИюл 2023 -\nДек 2025\n2 года 6 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик / Python, FastAPI, PostgreSQL, Microservices\nBackend-разработчик / Python, FastAPI, PostgreSQL\nЗадачи:\n— Разрабатывал backend для веб-приложения и Telegram Mini Apps на Python/FastAPI.\n— Проектировал REST API, бизнес-логику, модели данных и интеграции с внешними сервисами.\n— Работал с PostgreSQL: raw SQL, сложные JOIN-запросы, индексы, оптимизация тяжелых запросов, миграции Alembic.\n— Реализовывал асинхронную обработку задач через asyncio, Celery/RQ и Redis.\n— Настраивал авторизацию и разграничение доступа: JWT, OAuth2, роли и права пользователей.\n— Разрабатывал webhook-интеграции, интеграции с CRM, платежными системами и внешними API.\n— Покрывал backend unit- и integration-тестами на Pytest.\n— Настраивал Docker/docker-compose, pre-commit, линтеры, CI/CD, Swagger/OpenAPI-документацию.\n— Участвовал в обсуждении архитектуры, декомпозиции задач и code review.\nДостижения:\n— Сократил время формирования аналитических отчетов с нескольких часов до секунд за счет оптимизации SQL-запросов, индексов и асинхронной обработки.\n— Ускорил обработку фоновых задач за счет очередей Redis/Celery/RQ.\n— Снизил количество ручных операций за счет автоматизации интеграций и webhook-сценариев.\nМай 2022 -\nИюл 2023\n1 год 3 мес\nОрганизация 2\nМосква\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик / Python, FastAPI, PostgreSQL\nBackend-разработчик / Python, FastAPI, PostgreSQL\nЗадачи:\n— Разрабатывал backend-сервисы для сбора, обработки и агрегации данных из внешних API.\n— Реализовывал парсинг данных, обработку больших объемов записей и сохранение в PostgreSQL.\n— Оптимизировал PostgreSQL: индексы, партицирование таблиц, batched insert/update, анализ медленных запросов.\n— Проектировал REST API и webhook-сервисы для внешних интеграций.\n— Разрабатывал Telegram-ботов со сложными сценариями: FSM, inline-кнопки, callback-запросы, интеграции с CRM.\n— Настраивал Redis/RQ для фоновой обработки задач.\n— Интегрировал ЮKassa, Stripe API, AmoCRM, Bitrix24.\n— Настраивал Docker, CI/CD, тестовые окружения, логирование и документацию API.\nДостижения:\n— Автоматизировал сбор и обработку данных, снизив объем ручной работы менеджеров.\n— Ускорил чтение и запись данных в PostgreSQL за счет индексов, партицирования и пакетной обработки.\n— Сократил время реакции поддержки за счет Telegram-ботов и CRM-интеграций.",
+    "skills": "Продвинутый уровень\nPython\nPostgreSQL\nGit\nDocker\nFastAPI\nRedis\nSQL\nREST API\nGitHub\nSQLAlchemy\nasyncio\nPydantic\nNginx\nSwagger\nTelegram API\nAvito API\nWebhooks\nPyCharm\nKafka\naiohttp\nUnit Testing\nСредний уровень\nCelery\nCI/CD\nPytest\nDjango\nRabbitMQ\nБазовый уровень\nKubernetes",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Python Backend Developer с коммерческим опытом 3+ года. Основной стек: Python, FastAPI, PostgreSQL, SQLAlchemy, Redis, Celery/RQ, Docker, REST API, asyncio, Pytest.\nРазрабатывал backend-сервисы, Telegram Mini Apps, интеграции с внешними API, CRM и платежными системами. Работал с проектированием REST API, асинхронной обработкой задач, очередями, webhook-интеграциями, авторизацией JWT/OAuth2, миграциями Alembic и документацией OpenAPI/Swagger.\nСильная сторона — PostgreSQL и backend-инфраструктура: raw SQL, сложные JOIN-запросы, индексы, оптимизация тяжелых запросов, batched insert/update, партицирование, кэширование через Redis. Есть опыт настройки Docker-окружений, CI/CD, тестов Pytest, логирования и мониторинга.",
+    "education": "Уровень\nНеоконченное высшее образование\nДонской государственный технический университет, Ростов-на-Дону\nИнформатика и вычислительная техника, Программная инженерия\n•\n2023\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №421\nРезюме: Python Backend Developer / Middle Python-разработчик — FastAPI, PostgreSQL, AsyncIO, REST API\n\nСопроводительное письмо\nЯ Python-разработчик с опытом создания сложных, высоконагруженных систем. Люблю строить архитектуру с нуля — от окружения и CI/CD до тестов и документации — так, чтобы сервисы работали быстро, надёжно и масштабировались. Умею оптимизировать базы данных, настраивать асинхронные процессы и интегрировать внешние сервисы, всегда ориентируясь на реальный эффект для бизнеса: рост пользователей, скорость отклика и снижение ручной работы. Не боюсь сложных задач и люблю находить решения там, где другие видят невозможное.\n\nОпыт работы\nОпыт работы: 3 года 8 месяцев\nОпыт в похожих должностях:3 года 8 месяцев\nИюл 2023 -\nДек 2025\n2 года 6 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик / Python, FastAPI, PostgreSQL, Microservices\nBackend-разработчик / Python, FastAPI, PostgreSQL\nЗадачи:\n— Разрабатывал backend для веб-приложения и Telegram Mini Apps на Python/FastAPI.\n— Проектировал REST API, бизнес-логику, модели данных и интеграции с внешними сервисами.\n— Работал с PostgreSQL: raw SQL, сложные JOIN-запросы, индексы, оптимизация тяжелых запросов, миграции Alembic.\n— Реализовывал асинхронную обработку задач через asyncio, Celery/RQ и Redis.\n— Настраивал авторизацию и разграничение доступа: JWT, OAuth2, роли и права пользователей.\n— Разрабатывал webhook-интеграции, интеграции с CRM, платежными системами и внешними API.\n— Покрывал backend unit- и integration-тестами на Pytest.\n— Настраивал Docker/docker-compose, pre-commit, линтеры, CI/CD, Swagger/OpenAPI-документацию.\n— Участвовал в обсуждении архитектуры, декомпозиции задач и code review.\nДостижения:\n— Сократил время формирования аналитических отчетов с нескольких часов до секунд за счет оптимизации SQL-запросов, индексов и асинхронной обработки.\n— Ускорил обработку фоновых задач за счет очередей Redis/Celery/RQ.\n— Снизил количество ручных операций за счет автоматизации интеграций и webhook-сценариев.\nМай 2022 -\nИюл 2023\n1 год 3 мес\nОрганизация 2\nМосква\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик / Python, FastAPI, PostgreSQL\nBackend-разработчик / Python, FastAPI, PostgreSQL\nЗадачи:\n— Разрабатывал backend-сервисы для сбора, обработки и агрегации данных из внешних API.\n— Реализовывал парсинг данных, обработку больших объемов записей и сохранение в PostgreSQL.\n— Оптимизировал PostgreSQL: индексы, партицирование таблиц, batched insert/update, анализ медленных запросов.\n— Проектировал REST API и webhook-сервисы для внешних интеграций.\n— Разрабатывал Telegram-ботов со сложными сценариями: FSM, inline-кнопки, callback-запросы, интеграции с CRM.\n— Настраивал Redis/RQ для фоновой обработки задач.\n— Интегрировал ЮKassa, Stripe API, AmoCRM, Bitrix24.\n— Настраивал Docker, CI/CD, тестовые окружения, логирование и документацию API.\nДостижения:\n— Автоматизировал сбор и обработку данных, снизив объем ручной работы менеджеров.\n— Ускорил чтение и запись данных в PostgreSQL за счет индексов, партицирования и пакетной обработки.\n— Сократил время реакции поддержки за счет Telegram-ботов и CRM-интеграций.\n\nНавыки\nПродвинутый уровень\nPython\nPostgreSQL\nGit\nDocker\nFastAPI\nRedis\nSQL\nREST API\nGitHub\nSQLAlchemy\nasyncio\nPydantic\nNginx\nSwagger\nTelegram API\nAvito API\nWebhooks\nPyCharm\nKafka\naiohttp\nUnit Testing\nСредний уровень\nCelery\nCI/CD\nPytest\nDjango\nRabbitMQ\nБазовый уровень\nKubernetes\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nPython Backend Developer с коммерческим опытом 3+ года. Основной стек: Python, FastAPI, PostgreSQL, SQLAlchemy, Redis, Celery/RQ, Docker, REST API, asyncio, Pytest.\nРазрабатывал backend-сервисы, Telegram Mini Apps, интеграции с внешними API, CRM и платежными системами. Работал с проектированием REST API, асинхронной обработкой задач, очередями, webhook-интеграциями, авторизацией JWT/OAuth2, миграциями Alembic и документацией OpenAPI/Swagger.\nСильная сторона — PostgreSQL и backend-инфраструктура: raw SQL, сложные JOIN-запросы, индексы, оптимизация тяжелых запросов, batched insert/update, партицирование, кэширование через Redis. Есть опыт настройки Docker-окружений, CI/CD, тестов Pytest, логирования и мониторинга.\n\nОбразование\nУровень\nНеоконченное высшее образование\nДонской государственный технический университет, Ростов-на-Дону\nИнформатика и вычислительная техника, Программная инженерия\n•\n2023\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,247 @@
+{
+  "candidate_id": 204,
+  "resume_title": "Backend-разработчик",
+  "cover_letter": "Здравствуйте, у меня есть опыт командной работы над проектом с ИИ, oauth2 ..(3 человека), git ,Dev OPS(Git Hub Action, bash ), python 3, C++/C Celery,Redis, DRF, aiogram, FastAPi, docker compose, Postgre, Linux. Мой гит хаб https://github.com/KonstantinLjapin. Telegram @maxaradjabrain",
+  "experience_total_months": 50,
+  "similar_experience_months": 49,
+  "work_experience": [
+    {
+      "start_date": "2025-10",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 13,
+      "organization": "Организация 1",
+      "position": "системный программист общественного п.о.",
+      "employer_details": [
+        "Электроника, приборостроение, бытовая техника, компьютеры и оргтехника"
+      ],
+      "description": "Работа с ГИС (хранение, трансформация), API ГИС Панорама, Gdal. ОС Astra Linux, Python 3.7",
+      "original": "Окт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nсистемный программист общественного п.о.\nРабота с ГИС (хранение, трансформация), API ГИС Панорама, Gdal. ОС Astra Linux, Python 3.7"
+    },
+    {
+      "start_date": "2022-09",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 50,
+      "organization": "Организация 2",
+      "position": "Junior python developer",
+      "employer_details": [],
+      "description": "Разработчик python3.11 , aiogram 2, PIL , redis, docker compose, Linux(Ubuntu), git action.",
+      "original": "Сен 2022 -\nсейчас\n4 года 2 мес\nОрганизация 2\nJunior python developer\nРазработчик python3.11 , aiogram 2, PIL , redis, docker compose, Linux(Ubuntu), git action."
+    },
+    {
+      "start_date": "2025-02",
+      "end_date": "2025-05",
+      "is_current": false,
+      "duration_months": 4,
+      "organization": "Организация 3",
+      "position": "Backend-разработчик",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разработка backend-части веб-приложения (FastAPI, PostgreSQL, OAuth 2.0, Docker, CI/CD)\nДекомпозиция и проектирование API на основе требований бизнеса.\nРеализация backend-логики на FastAPI с использованием SQLAlchemy (PostgreSQL).\nНастройка аутентификации и авторизации по стандарту OAuth 2.0 (в соответствии с книгой \"Full Stack Python Security\" Д. Бирна).\nИнтеграция со сторонними API (включая ИИ-сервисы) и платежной системой PayKeeper (Альфа-Банк).\nРеализация асинхронных задач (корутины) для распределения нагрузки.\nНастройка email-оповещений для пользователей.\nВзаимодействие с frontend-разработчиком (согласование API, документация OpenAPI/Swagger).\nПомощь в DevOps-настройках: Docker, Nginx, деплой, CI/CD (GitHub Actions/GitLab CI).\nКлючевые технологии:\nPython, FastAPI, SQLAlchemy, PostgreSQL, OAuth 2.0, PayKeeper API, Docker, Nginx, CI/CD, асинхронное программирование.",
+      "original": "Фев 2025 -\nМай 2025\n4 мес\nОрганизация 3\nМосква\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик\nРазработка backend-части веб-приложения (FastAPI, PostgreSQL, OAuth 2.0, Docker, CI/CD)\nДекомпозиция и проектирование API на основе требований бизнеса.\nРеализация backend-логики на FastAPI с использованием SQLAlchemy (PostgreSQL).\nНастройка аутентификации и авторизации по стандарту OAuth 2.0 (в соответствии с книгой \"Full Stack Python Security\" Д. Бирна).\nИнтеграция со сторонними API (включая ИИ-сервисы) и платежной системой PayKeeper (Альфа-Банк).\nРеализация асинхронных задач (корутины) для распределения нагрузки.\nНастройка email-оповещений для пользователей.\nВзаимодействие с frontend-разработчиком (согласование API, документация OpenAPI/Swagger).\nПомощь в DevOps-настройках: Docker, Nginx, деплой, CI/CD (GitHub Actions/GitLab CI).\nКлючевые технологии:\nPython, FastAPI, SQLAlchemy, PostgreSQL, OAuth 2.0, PayKeeper API, Docker, Nginx, CI/CD, асинхронное программирование."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "JSON API",
+      "level": "advanced",
+      "original": "JSON API"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "advanced",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Code review",
+      "level": "advanced",
+      "original": "Code review"
+    },
+    {
+      "name": "Базы данных",
+      "level": "advanced",
+      "original": "Базы данных"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "SQLite",
+      "level": "advanced",
+      "original": "SQLite"
+    },
+    {
+      "name": "Backend",
+      "level": "advanced",
+      "original": "Backend"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "C/C++",
+      "level": "intermediate",
+      "original": "C/C++"
+    },
+    {
+      "name": "CI/CD",
+      "level": "intermediate",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Jira",
+      "level": "intermediate",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "pandas",
+      "level": "intermediate",
+      "original": "pandas"
+    },
+    {
+      "name": "Web socket",
+      "level": "intermediate",
+      "original": "Web socket"
+    },
+    {
+      "name": "Unit Testing",
+      "level": "intermediate",
+      "original": "Unit Testing"
+    },
+    {
+      "name": "Bash",
+      "level": "intermediate",
+      "original": "Bash"
+    },
+    {
+      "name": "OpenCV",
+      "level": "basic",
+      "original": "OpenCV"
+    },
+    {
+      "name": "PyTorch",
+      "level": "basic",
+      "original": "PyTorch"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    }
+  ],
+  "about_me": "https://github.com/KonstantinLjapin",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Санкт-Петербургский государственный электротехнический университет \"ЛЭТИ\" им. В.И. Ульянова (Ленина), Санкт-Петербург",
+      "details": [
+        "Микроэлектроники, Микроволновая, СВЧ техника"
+      ],
+      "year": 2016,
+      "level": "Высшее образование",
+      "original": "Санкт-Петербургский государственный электротехнический университет \"ЛЭТИ\" им. В.И. Ульянова (Ленина), Санкт-Петербург\nМикроэлектроники, Микроволновая, СВЧ техника\n•\n2016\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Нет своей машины, права категории A, B",
+    "self_employment": "Нет",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №204\nРезюме: Backend-разработчик",
+    "cover_letter": "Здравствуйте, у меня есть опыт командной работы над проектом с ИИ, oauth2 ..(3 человека), git ,Dev OPS(Git Hub Action, bash ), python 3, C++/C Celery,Redis, DRF, aiogram, FastAPi, docker compose, Postgre, Linux. Мой гит хаб https://github.com/KonstantinLjapin. Telegram @maxaradjabrain",
+    "experience": "Опыт работы: 4 года 2 месяца\nОпыт в похожих должностях:4 года 1 месяц\nОкт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nсистемный программист общественного п.о.\nРабота с ГИС (хранение, трансформация), API ГИС Панорама, Gdal. ОС Astra Linux, Python 3.7\nСен 2022 -\nсейчас\n4 года 2 мес\nОрганизация 2\nJunior python developer\nРазработчик python3.11 , aiogram 2, PIL , redis, docker compose, Linux(Ubuntu), git action.\nФев 2025 -\nМай 2025\n4 мес\nОрганизация 3\nМосква\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик\nРазработка backend-части веб-приложения (FastAPI, PostgreSQL, OAuth 2.0, Docker, CI/CD)\nДекомпозиция и проектирование API на основе требований бизнеса.\nРеализация backend-логики на FastAPI с использованием SQLAlchemy (PostgreSQL).\nНастройка аутентификации и авторизации по стандарту OAuth 2.0 (в соответствии с книгой \"Full Stack Python Security\" Д. Бирна).\nИнтеграция со сторонними API (включая ИИ-сервисы) и платежной системой PayKeeper (Альфа-Банк).\nРеализация асинхронных задач (корутины) для распределения нагрузки.\nНастройка email-оповещений для пользователей.\nВзаимодействие с frontend-разработчиком (согласование API, документация OpenAPI/Swagger).\nПомощь в DevOps-настройках: Docker, Nginx, деплой, CI/CD (GitHub Actions/GitLab CI).\nКлючевые технологии:\nPython, FastAPI, SQLAlchemy, PostgreSQL, OAuth 2.0, PayKeeper API, Docker, Nginx, CI/CD, асинхронное программирование.",
+    "skills": "Продвинутый уровень\nLinux\nGit\nSQL\nPython\nDjango Rest Framework\nREST API\nJSON API\nPostgreSQL\nFastAPI\nDocker\nRedis\nCelery\nDocker-compose\nCode review\nБазы данных\nMySQL\nDjango\nSQLite\nBackend\nAPI\nСредний уровень\nC/C++\nCI/CD\nAtlassian Jira\nDjango Framework\npandas\nWeb socket\nUnit Testing\nBash\nБазовый уровень\nOpenCV\nPyTorch",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный",
+    "about_me": "https://github.com/KonstantinLjapin",
+    "education": "Уровень\nВысшее образование\nСанкт-Петербургский государственный электротехнический университет \"ЛЭТИ\" им. В.И. Ульянова (Ленина), Санкт-Петербург\nМикроэлектроники, Микроволновая, СВЧ техника\n•\n2016\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории A, B\nСамозанятость:\nНет\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №204\nРезюме: Backend-разработчик\n\nСопроводительное письмо\nЗдравствуйте, у меня есть опыт командной работы над проектом с ИИ, oauth2 ..(3 человека), git ,Dev OPS(Git Hub Action, bash ), python 3, C++/C Celery,Redis, DRF, aiogram, FastAPi, docker compose, Postgre, Linux. Мой гит хаб https://github.com/KonstantinLjapin. Telegram @maxaradjabrain\n\nОпыт работы\nОпыт работы: 4 года 2 месяца\nОпыт в похожих должностях:4 года 1 месяц\nОкт 2025 -\nсейчас\n1 год 1 мес\nОрганизация 1\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nсистемный программист общественного п.о.\nРабота с ГИС (хранение, трансформация), API ГИС Панорама, Gdal. ОС Astra Linux, Python 3.7\nСен 2022 -\nсейчас\n4 года 2 мес\nОрганизация 2\nJunior python developer\nРазработчик python3.11 , aiogram 2, PIL , redis, docker compose, Linux(Ubuntu), git action.\nФев 2025 -\nМай 2025\n4 мес\nОрганизация 3\nМосква\nИнформационные технологии, системная интеграция, интернет\nBackend-разработчик\nРазработка backend-части веб-приложения (FastAPI, PostgreSQL, OAuth 2.0, Docker, CI/CD)\nДекомпозиция и проектирование API на основе требований бизнеса.\nРеализация backend-логики на FastAPI с использованием SQLAlchemy (PostgreSQL).\nНастройка аутентификации и авторизации по стандарту OAuth 2.0 (в соответствии с книгой \"Full Stack Python Security\" Д. Бирна).\nИнтеграция со сторонними API (включая ИИ-сервисы) и платежной системой PayKeeper (Альфа-Банк).\nРеализация асинхронных задач (корутины) для распределения нагрузки.\nНастройка email-оповещений для пользователей.\nВзаимодействие с frontend-разработчиком (согласование API, документация OpenAPI/Swagger).\nПомощь в DevOps-настройках: Docker, Nginx, деплой, CI/CD (GitHub Actions/GitLab CI).\nКлючевые технологии:\nPython, FastAPI, SQLAlchemy, PostgreSQL, OAuth 2.0, PayKeeper API, Docker, Nginx, CI/CD, асинхронное программирование.\n\nНавыки\nПродвинутый уровень\nLinux\nGit\nSQL\nPython\nDjango Rest Framework\nREST API\nJSON API\nPostgreSQL\nFastAPI\nDocker\nRedis\nCelery\nDocker-compose\nCode review\nБазы данных\nMySQL\nDjango\nSQLite\nBackend\nAPI\nСредний уровень\nC/C++\nCI/CD\nAtlassian Jira\nDjango Framework\npandas\nWeb socket\nUnit Testing\nBash\nБазовый уровень\nOpenCV\nPyTorch\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный\n\nОбо мне\nhttps://github.com/KonstantinLjapin\n\nОбразование\nУровень\nВысшее образование\nСанкт-Петербургский государственный электротехнический университет \"ЛЭТИ\" им. В.И. Ульянова (Ленина), Санкт-Петербург\nМикроэлектроники, Микроволновая, СВЧ техника\n•\n2016\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории A, B\nСамозанятость:\nНет\nМедкнижка:\nНет\n"
+}

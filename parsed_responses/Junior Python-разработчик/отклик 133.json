@@ -1,0 +1,241 @@
+{
+  "candidate_id": 133,
+  "resume_title": "Python Backend-разработчик",
+  "cover_letter": "Здравствуйте! Меня заинтересовала вакансия Python-разработчика в вашей компании. Кратко по стеку: Python (асинхронный код), микросервисная архитектура, Kafka, Kubernetes (развертывание, CI/CD, Helm), облака, FastAPI/Django. Резюме и GitHub с реальными кейсами приложил. Буду рад обсудить детали.\nАртур\ntg: @shatyrinar\nphone: +79958908993",
+  "experience_total_months": 56,
+  "similar_experience_months": 56,
+  "work_experience": [
+    {
+      "start_date": "2024-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 32,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Devision — IT-компания в adtech, автоматизации бизнес-процессов и ML-инфраструктуре.\n- Спроектировал и внедрил ML-транскрибацию звонков с обработкой ~200 часов аудио в день.\n- Развернул GPU-кластер и оптимизировал Docker-образы для ML-сервисов.\n- Ускорил на 46% синхронизацию рекламных кабинетов, переведя pipeline с синхронной на асинхронную модель.\n- Оптимизировал retry-логику API Yandex Direct: сократил лишние запросы к внешним API и устранил блокировки аккаунтов.\n- Мигрировал аналитический контур с Google BigQuery на ClickHouse, снизив инфраструктурные расходы.\n- Построил очередь задач с retry и DLQ (Celery), обеспечив отсутствие lost jobs на пиковых нагрузках.\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, ClickHouse, Redis, Celery, gRPC, Apache Kafka, Kubernetes, S3, Prometheus, Grafana, GitLab.",
+      "original": "Мар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nDevision — IT-компания в adtech, автоматизации бизнес-процессов и ML-инфраструктуре.\n- Спроектировал и внедрил ML-транскрибацию звонков с обработкой ~200 часов аудио в день.\n- Развернул GPU-кластер и оптимизировал Docker-образы для ML-сервисов.\n- Ускорил на 46% синхронизацию рекламных кабинетов, переведя pipeline с синхронной на асинхронную модель.\n- Оптимизировал retry-логику API Yandex Direct: сократил лишние запросы к внешним API и устранил блокировки аккаунтов.\n- Мигрировал аналитический контур с Google BigQuery на ClickHouse, снизив инфраструктурные расходы.\n- Построил очередь задач с retry и DLQ (Celery), обеспечив отсутствие lost jobs на пиковых нагрузках.\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, ClickHouse, Redis, Celery, gRPC, Apache Kafka, Kubernetes, S3, Prometheus, Grafana, GitLab."
+    },
+    {
+      "start_date": "2023-02",
+      "end_date": "2024-03",
+      "is_current": false,
+      "duration_months": 14,
+      "organization": "Организация 2",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Тензор (экосистема СБИС): WMS, документооборот и аналитические сервисы.\n- Построил ETL-процесс аналитики остатков и спроса; вынес отчетность из PostgreSQL в поток PostgreSQL -> Apache Kafka -> ClickHouse. Уменьшив задержку расчета отчета на 13%\n- Разработал алгоритм оптимизации маршрутов кладовщиков (графовая модель склада + A/B-тесты), ускорив сборку заказа примерно на 18%.\n- Спроектировал доменную модель WMS (приемка -> инвентаризация) и API-контракты.\n- Реализовал workflow задач кладовщиков (FSM) с атомарными переходами статусов: исключил двойное назначение задач и снизил операционные ошибки.\n- Реализовал потоковую обработку событий программы лояльности (Apache Kafka), устранив повторное начисление бонусов и финансовых операций.\n- Внедрил мониторинг и трассировку распределенных сервисов (Prometheus, Grafana).\nСтек: Python, FastAPI, PostgreSQL, PostGIS, ClickHouse, SQLAlchemy, Redis, Celery, Apache Kafka, Kubernetes, Elasticsearch, Grafana, CI/CD.",
+      "original": "Фев 2023 -\nМар 2024\n1 год 2 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nТензор (экосистема СБИС): WMS, документооборот и аналитические сервисы.\n- Построил ETL-процесс аналитики остатков и спроса; вынес отчетность из PostgreSQL в поток PostgreSQL -> Apache Kafka -> ClickHouse. Уменьшив задержку расчета отчета на 13%\n- Разработал алгоритм оптимизации маршрутов кладовщиков (графовая модель склада + A/B-тесты), ускорив сборку заказа примерно на 18%.\n- Спроектировал доменную модель WMS (приемка -> инвентаризация) и API-контракты.\n- Реализовал workflow задач кладовщиков (FSM) с атомарными переходами статусов: исключил двойное назначение задач и снизил операционные ошибки.\n- Реализовал потоковую обработку событий программы лояльности (Apache Kafka), устранив повторное начисление бонусов и финансовых операций.\n- Внедрил мониторинг и трассировку распределенных сервисов (Prometheus, Grafana).\nСтек: Python, FastAPI, PostgreSQL, PostGIS, ClickHouse, SQLAlchemy, Redis, Celery, Apache Kafka, Kubernetes, Elasticsearch, Grafana, CI/CD."
+    },
+    {
+      "start_date": "2022-03",
+      "end_date": "2023-02",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 3",
+      "position": "Перевозки, логистика, склад, ВЭД",
+      "employer_details": [],
+      "description": "Python-разработчик\nUCar — продукт в сфере городской мобильности и операционных сервисов для автопарков.\n- Спроектировал микросервисную архитектуру с выделением доменов: заказы, автопарк, подрядчики, биллинг.\n- Разработал сервис заказов (FastAPI + RabbitMQ), внедрил идемпотентные ключи, retry-политики и DLQ.\n- Оптимизировал PostgreSQL (партиционирование, индексы, EXPLAIN ANALYZE), ускорив нагруженные запросы на ~12%.\n- Реализовал алгоритм скоринга назначения подрядчика (гео, рейтинг, загрузка).\n- Разработал антифрод-систему с фотоотчетом и хранением в S3, снизив долю спорных заказов.\n- Создал мультитенантный биллинг-движок для подключения новых B2B-клиентов без разработки отдельных тарифов.\nСтек: Python, Django, FastAPI, PostgreSQL, PostGIS, SQLAlchemy, RabbitMQ, Redis, Celery, ClickHouse, S3, Airflow, Prometheus, Grafana, Sentry, Jenkins, CI/CD.",
+      "original": "Мар 2022 -\nФев 2023\n1 год\nОрганизация 3\nПеревозки, логистика, склад, ВЭД\nPython-разработчик\nUCar — продукт в сфере городской мобильности и операционных сервисов для автопарков.\n- Спроектировал микросервисную архитектуру с выделением доменов: заказы, автопарк, подрядчики, биллинг.\n- Разработал сервис заказов (FastAPI + RabbitMQ), внедрил идемпотентные ключи, retry-политики и DLQ.\n- Оптимизировал PostgreSQL (партиционирование, индексы, EXPLAIN ANALYZE), ускорив нагруженные запросы на ~12%.\n- Реализовал алгоритм скоринга назначения подрядчика (гео, рейтинг, загрузка).\n- Разработал антифрод-систему с фотоотчетом и хранением в S3, снизив долю спорных заказов.\n- Создал мультитенантный биллинг-движок для подключения новых B2B-клиентов без разработки отдельных тарифов.\nСтек: Python, Django, FastAPI, PostgreSQL, PostGIS, SQLAlchemy, RabbitMQ, Redis, Celery, ClickHouse, S3, Airflow, Prometheus, Grafana, Sentry, Jenkins, CI/CD."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "Deep Learning",
+      "level": "advanced",
+      "original": "Deep Learning"
+    },
+    {
+      "name": "Машинное обучение",
+      "level": "advanced",
+      "original": "Машинное обучение"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Telegram: @shatyrinar\nЕmail: shatyrinar@yandex.ru\nPython backend-разработчик с 4+ годами опыта в высоконагруженных системах, микросервисах и data/ML-инфраструктуре. Основной стек: FastAPI, Django, PostgreSQL, ClickHouse, Redis, Kafka, RabbitMQ, Celery, Kubernetes, Docker. Проектирую сервисы под рост нагрузки, отвечаю за надежность, наблюдаемость и предсказуемую работу в проде. Есть экспертиза в глубоком обучении и постраении агентов на основе LLM\nВ текущих и прошлых проектах снижал стоимость инфраструктуры (миграция аналитики на ClickHouse), ускорял бизнес-процессы (асинхронные pipeline, оптимизация запросов), строил очереди с retry/DLQ без потери задач, внедрял мониторинг и трассировку. Есть опыт в adtech, WMS и логистике: от доменной модели и API-контрактов до production-эксплуатации и улучшения метрик (скорость обработки, стабильность, качество данных).",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Новосибирский государственный технический университет, Новосибирск",
+      "details": [
+        "ФМА"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Новосибирский государственный технический университет, Новосибирск\nФМА\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №133\nРезюме: Python Backend-разработчик",
+    "cover_letter": "Здравствуйте! Меня заинтересовала вакансия Python-разработчика в вашей компании. Кратко по стеку: Python (асинхронный код), микросервисная архитектура, Kafka, Kubernetes (развертывание, CI/CD, Helm), облака, FastAPI/Django. Резюме и GitHub с реальными кейсами приложил. Буду рад обсудить детали.\nАртур\ntg: @shatyrinar\nphone: +79958908993",
+    "experience": "Опыт работы: 4 года 8 месяцев\nОпыт в похожих должностях:4 года 8 месяцев\nМар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nDevision — IT-компания в adtech, автоматизации бизнес-процессов и ML-инфраструктуре.\n- Спроектировал и внедрил ML-транскрибацию звонков с обработкой ~200 часов аудио в день.\n- Развернул GPU-кластер и оптимизировал Docker-образы для ML-сервисов.\n- Ускорил на 46% синхронизацию рекламных кабинетов, переведя pipeline с синхронной на асинхронную модель.\n- Оптимизировал retry-логику API Yandex Direct: сократил лишние запросы к внешним API и устранил блокировки аккаунтов.\n- Мигрировал аналитический контур с Google BigQuery на ClickHouse, снизив инфраструктурные расходы.\n- Построил очередь задач с retry и DLQ (Celery), обеспечив отсутствие lost jobs на пиковых нагрузках.\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, ClickHouse, Redis, Celery, gRPC, Apache Kafka, Kubernetes, S3, Prometheus, Grafana, GitLab.\nФев 2023 -\nМар 2024\n1 год 2 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nТензор (экосистема СБИС): WMS, документооборот и аналитические сервисы.\n- Построил ETL-процесс аналитики остатков и спроса; вынес отчетность из PostgreSQL в поток PostgreSQL -> Apache Kafka -> ClickHouse. Уменьшив задержку расчета отчета на 13%\n- Разработал алгоритм оптимизации маршрутов кладовщиков (графовая модель склада + A/B-тесты), ускорив сборку заказа примерно на 18%.\n- Спроектировал доменную модель WMS (приемка -> инвентаризация) и API-контракты.\n- Реализовал workflow задач кладовщиков (FSM) с атомарными переходами статусов: исключил двойное назначение задач и снизил операционные ошибки.\n- Реализовал потоковую обработку событий программы лояльности (Apache Kafka), устранив повторное начисление бонусов и финансовых операций.\n- Внедрил мониторинг и трассировку распределенных сервисов (Prometheus, Grafana).\nСтек: Python, FastAPI, PostgreSQL, PostGIS, ClickHouse, SQLAlchemy, Redis, Celery, Apache Kafka, Kubernetes, Elasticsearch, Grafana, CI/CD.\nМар 2022 -\nФев 2023\n1 год\nОрганизация 3\nПеревозки, логистика, склад, ВЭД\nPython-разработчик\nUCar — продукт в сфере городской мобильности и операционных сервисов для автопарков.\n- Спроектировал микросервисную архитектуру с выделением доменов: заказы, автопарк, подрядчики, биллинг.\n- Разработал сервис заказов (FastAPI + RabbitMQ), внедрил идемпотентные ключи, retry-политики и DLQ.\n- Оптимизировал PostgreSQL (партиционирование, индексы, EXPLAIN ANALYZE), ускорив нагруженные запросы на ~12%.\n- Реализовал алгоритм скоринга назначения подрядчика (гео, рейтинг, загрузка).\n- Разработал антифрод-систему с фотоотчетом и хранением в S3, снизив долю спорных заказов.\n- Создал мультитенантный биллинг-движок для подключения новых B2B-клиентов без разработки отдельных тарифов.\nСтек: Python, Django, FastAPI, PostgreSQL, PostGIS, SQLAlchemy, RabbitMQ, Redis, Celery, ClickHouse, S3, Airflow, Prometheus, Grafana, Sentry, Jenkins, CI/CD.",
+    "skills": "Продвинутый уровень\nPython\nFastAPI\nPostgreSQL\nRedis\nApache Kafka\nRabbitMQ\nKubernetes\nCelery\nClickhouse\nGrafana\nPrometheus\nDjango Framework\nLinux\nDocker\nNoSQL\nREST API\nMongoDB\nCI/CD\nGitlab\nGitHub\nDjango Rest Framework\nFlask\nSQL\nPytest\nNginx\nDeep Learning\nМашинное обучение\nSQLAlchemy\nСредний уровень\nGit",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Telegram: @shatyrinar\nЕmail: shatyrinar@yandex.ru\nPython backend-разработчик с 4+ годами опыта в высоконагруженных системах, микросервисах и data/ML-инфраструктуре. Основной стек: FastAPI, Django, PostgreSQL, ClickHouse, Redis, Kafka, RabbitMQ, Celery, Kubernetes, Docker. Проектирую сервисы под рост нагрузки, отвечаю за надежность, наблюдаемость и предсказуемую работу в проде. Есть экспертиза в глубоком обучении и постраении агентов на основе LLM\nВ текущих и прошлых проектах снижал стоимость инфраструктуры (миграция аналитики на ClickHouse), ускорял бизнес-процессы (асинхронные pipeline, оптимизация запросов), строил очереди с retry/DLQ без потери задач, внедрял мониторинг и трассировку. Есть опыт в adtech, WMS и логистике: от доменной модели и API-контрактов до production-эксплуатации и улучшения метрик (скорость обработки, стабильность, качество данных).",
+    "education": "Уровень\nВысшее образование\nНовосибирский государственный технический университет, Новосибирск\nФМА\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №133\nРезюме: Python Backend-разработчик\n\nСопроводительное письмо\nЗдравствуйте! Меня заинтересовала вакансия Python-разработчика в вашей компании. Кратко по стеку: Python (асинхронный код), микросервисная архитектура, Kafka, Kubernetes (развертывание, CI/CD, Helm), облака, FastAPI/Django. Резюме и GitHub с реальными кейсами приложил. Буду рад обсудить детали.\nАртур\ntg: @shatyrinar\nphone: +79958908993\n\nОпыт работы\nОпыт работы: 4 года 8 месяцев\nОпыт в похожих должностях:4 года 8 месяцев\nМар 2024 -\nсейчас\n2 года 8 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик\nDevision — IT-компания в adtech, автоматизации бизнес-процессов и ML-инфраструктуре.\n- Спроектировал и внедрил ML-транскрибацию звонков с обработкой ~200 часов аудио в день.\n- Развернул GPU-кластер и оптимизировал Docker-образы для ML-сервисов.\n- Ускорил на 46% синхронизацию рекламных кабинетов, переведя pipeline с синхронной на асинхронную модель.\n- Оптимизировал retry-логику API Yandex Direct: сократил лишние запросы к внешним API и устранил блокировки аккаунтов.\n- Мигрировал аналитический контур с Google BigQuery на ClickHouse, снизив инфраструктурные расходы.\n- Построил очередь задач с retry и DLQ (Celery), обеспечив отсутствие lost jobs на пиковых нагрузках.\nСтек: Python, FastAPI, PostgreSQL, SQLAlchemy, ClickHouse, Redis, Celery, gRPC, Apache Kafka, Kubernetes, S3, Prometheus, Grafana, GitLab.\nФев 2023 -\nМар 2024\n1 год 2 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nТензор (экосистема СБИС): WMS, документооборот и аналитические сервисы.\n- Построил ETL-процесс аналитики остатков и спроса; вынес отчетность из PostgreSQL в поток PostgreSQL -> Apache Kafka -> ClickHouse. Уменьшив задержку расчета отчета на 13%\n- Разработал алгоритм оптимизации маршрутов кладовщиков (графовая модель склада + A/B-тесты), ускорив сборку заказа примерно на 18%.\n- Спроектировал доменную модель WMS (приемка -> инвентаризация) и API-контракты.\n- Реализовал workflow задач кладовщиков (FSM) с атомарными переходами статусов: исключил двойное назначение задач и снизил операционные ошибки.\n- Реализовал потоковую обработку событий программы лояльности (Apache Kafka), устранив повторное начисление бонусов и финансовых операций.\n- Внедрил мониторинг и трассировку распределенных сервисов (Prometheus, Grafana).\nСтек: Python, FastAPI, PostgreSQL, PostGIS, ClickHouse, SQLAlchemy, Redis, Celery, Apache Kafka, Kubernetes, Elasticsearch, Grafana, CI/CD.\nМар 2022 -\nФев 2023\n1 год\nОрганизация 3\nПеревозки, логистика, склад, ВЭД\nPython-разработчик\nUCar — продукт в сфере городской мобильности и операционных сервисов для автопарков.\n- Спроектировал микросервисную архитектуру с выделением доменов: заказы, автопарк, подрядчики, биллинг.\n- Разработал сервис заказов (FastAPI + RabbitMQ), внедрил идемпотентные ключи, retry-политики и DLQ.\n- Оптимизировал PostgreSQL (партиционирование, индексы, EXPLAIN ANALYZE), ускорив нагруженные запросы на ~12%.\n- Реализовал алгоритм скоринга назначения подрядчика (гео, рейтинг, загрузка).\n- Разработал антифрод-систему с фотоотчетом и хранением в S3, снизив долю спорных заказов.\n- Создал мультитенантный биллинг-движок для подключения новых B2B-клиентов без разработки отдельных тарифов.\nСтек: Python, Django, FastAPI, PostgreSQL, PostGIS, SQLAlchemy, RabbitMQ, Redis, Celery, ClickHouse, S3, Airflow, Prometheus, Grafana, Sentry, Jenkins, CI/CD.\n\nНавыки\nПродвинутый уровень\nPython\nFastAPI\nPostgreSQL\nRedis\nApache Kafka\nRabbitMQ\nKubernetes\nCelery\nClickhouse\nGrafana\nPrometheus\nDjango Framework\nLinux\nDocker\nNoSQL\nREST API\nMongoDB\nCI/CD\nGitlab\nGitHub\nDjango Rest Framework\nFlask\nSQL\nPytest\nNginx\nDeep Learning\nМашинное обучение\nSQLAlchemy\nСредний уровень\nGit\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nTelegram: @shatyrinar\nЕmail: shatyrinar@yandex.ru\nPython backend-разработчик с 4+ годами опыта в высоконагруженных системах, микросервисах и data/ML-инфраструктуре. Основной стек: FastAPI, Django, PostgreSQL, ClickHouse, Redis, Kafka, RabbitMQ, Celery, Kubernetes, Docker. Проектирую сервисы под рост нагрузки, отвечаю за надежность, наблюдаемость и предсказуемую работу в проде. Есть экспертиза в глубоком обучении и постраении агентов на основе LLM\nВ текущих и прошлых проектах снижал стоимость инфраструктуры (миграция аналитики на ClickHouse), ускорял бизнес-процессы (асинхронные pipeline, оптимизация запросов), строил очереди с retry/DLQ без потери задач, внедрял мониторинг и трассировку. Есть опыт в adtech, WMS и логистике: от доменной модели и API-контрактов до production-эксплуатации и улучшения метрик (скорость обработки, стабильность, качество данных).\n\nОбразование\nУровень\nВысшее образование\nНовосибирский государственный технический университет, Новосибирск\nФМА\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

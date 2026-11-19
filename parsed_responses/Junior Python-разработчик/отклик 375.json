@@ -1,0 +1,137 @@
+{
+  "candidate_id": 375,
+  "resume_title": "Fullstack-разработчик",
+  "cover_letter": "/",
+  "experience_total_months": 4,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2024-04",
+      "end_date": "2024-07",
+      "is_current": false,
+      "duration_months": 4,
+      "organization": "Организация 1",
+      "position": "Практикант",
+      "employer_details": [
+        "Гомельmilkavita.by/en/",
+        "Продукты питания"
+      ],
+      "description": "Разработал курсовой проект backend REST-API сервер для работы с базой данных.\nУчаствовал в разработке лендинга сайта на Vue3",
+      "original": "Апр 2024 -\nИюл 2024\n4 мес\nОрганизация 1\nГомельmilkavita.by/en/\nПродукты питания\nПрактикант\nРазработал курсовой проект backend REST-API сервер для работы с базой данных.\nУчаствовал в разработке лендинга сайта на Vue3"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "REST API",
+      "level": "basic",
+      "original": "REST API"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "basic",
+      "original": "FastAPI"
+    },
+    {
+      "name": "pytest",
+      "level": "basic",
+      "original": "Pytest"
+    },
+    {
+      "name": "Микросервисная архитектура",
+      "level": "basic",
+      "original": "Микросервисная архитектура"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "basic",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Rust",
+      "level": "basic",
+      "original": "Rust"
+    },
+    {
+      "name": "Backend",
+      "level": "basic",
+      "original": "Backend"
+    },
+    {
+      "name": "API",
+      "level": "basic",
+      "original": "API"
+    },
+    {
+      "name": "Linux Abi",
+      "level": "basic",
+      "original": "Linux Abi"
+    },
+    {
+      "name": "Golang",
+      "level": "basic",
+      "original": "Golang"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Fullstack-разработчик. Глубоко знаю backend и уверенно владею frontend стеком для создания полноценных веб-приложений.\nBackend:\n• Python, FastAPI, Pydantic\n• SQLAlchemy, PostgreSQL\n• Docker, Docker Compose\n• Redis\n• Проектирование БД: Разработка оптимальных реляционных схем (нормализация, индексы, внешние ключи) под конкретные бизнес-задачи.\n• Владение ORM: Эффективная работа с Django ORM / SQLAlchemy, оптимизация запросов, решение проблемы N+1, умелое сочетание ORM и raw SQL.\n• API: Проектирование RESTful API с версионированием, валидацией и полным документированием через OpenAPI (Swagger).\nFrontend:\n• Vue 3, Nuxt 3, Vue Router\n• TypeScript, Pinia\n• SCSS, Tailwind CSS\nХорошего дня, на связи:\n• https://github.com/prepodobnuy\n• https://codeberg.org/bbb\n• https://t.me/abvgdeiozhz",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Гомельский торгово-экономический Колледж",
+      "details": [
+        "Программное обеспечение информационных технологий"
+      ],
+      "year": 2025,
+      "level": "Среднее специальное образование",
+      "original": "Гомельский торгово-экономический Колледж\nПрограммное обеспечение информационных технологий\n•\n2025\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Беларусь",
+    "work_permit": "Беларусь",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №375\nРезюме: Fullstack-разработчик",
+    "cover_letter": "/",
+    "experience": "Опыт работы: 4 месяца\nАпр 2024 -\nИюл 2024\n4 мес\nОрганизация 1\nГомельmilkavita.by/en/\nПродукты питания\nПрактикант\nРазработал курсовой проект backend REST-API сервер для работы с базой данных.\nУчаствовал в разработке лендинга сайта на Vue3",
+    "skills": "Средний уровень\nLinux\nБазовый уровень\nPython\nREST API\nPostgreSQL\nFastAPI\nPytest\nМикросервисная архитектура\nDocker\nDocker-compose\nRust\nBackend\nAPI\nLinux Abi\nGolang",
+    "languages": "Родной\nРусский",
+    "about_me": "Fullstack-разработчик. Глубоко знаю backend и уверенно владею frontend стеком для создания полноценных веб-приложений.\nBackend:\n• Python, FastAPI, Pydantic\n• SQLAlchemy, PostgreSQL\n• Docker, Docker Compose\n• Redis\n• Проектирование БД: Разработка оптимальных реляционных схем (нормализация, индексы, внешние ключи) под конкретные бизнес-задачи.\n• Владение ORM: Эффективная работа с Django ORM / SQLAlchemy, оптимизация запросов, решение проблемы N+1, умелое сочетание ORM и raw SQL.\n• API: Проектирование RESTful API с версионированием, валидацией и полным документированием через OpenAPI (Swagger).\nFrontend:\n• Vue 3, Nuxt 3, Vue Router\n• TypeScript, Pinia\n• SCSS, Tailwind CSS\nХорошего дня, на связи:\n• https://github.com/prepodobnuy\n• https://codeberg.org/bbb\n• https://t.me/abvgdeiozhz",
+    "education": "Уровень\nСреднее специальное образование\nГомельский торгово-экономический Колледж\nПрограммное обеспечение информационных технологий\n•\n2025\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №375\nРезюме: Fullstack-разработчик\n\nСопроводительное письмо\n/\n\nОпыт работы\nОпыт работы: 4 месяца\nАпр 2024 -\nИюл 2024\n4 мес\nОрганизация 1\nГомельmilkavita.by/en/\nПродукты питания\nПрактикант\nРазработал курсовой проект backend REST-API сервер для работы с базой данных.\nУчаствовал в разработке лендинга сайта на Vue3\n\nНавыки\nСредний уровень\nLinux\nБазовый уровень\nPython\nREST API\nPostgreSQL\nFastAPI\nPytest\nМикросервисная архитектура\nDocker\nDocker-compose\nRust\nBackend\nAPI\nLinux Abi\nGolang\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nFullstack-разработчик. Глубоко знаю backend и уверенно владею frontend стеком для создания полноценных веб-приложений.\nBackend:\n• Python, FastAPI, Pydantic\n• SQLAlchemy, PostgreSQL\n• Docker, Docker Compose\n• Redis\n• Проектирование БД: Разработка оптимальных реляционных схем (нормализация, индексы, внешние ключи) под конкретные бизнес-задачи.\n• Владение ORM: Эффективная работа с Django ORM / SQLAlchemy, оптимизация запросов, решение проблемы N+1, умелое сочетание ORM и raw SQL.\n• API: Проектирование RESTful API с версионированием, валидацией и полным документированием через OpenAPI (Swagger).\nFrontend:\n• Vue 3, Nuxt 3, Vue Router\n• TypeScript, Pinia\n• SCSS, Tailwind CSS\nХорошего дня, на связи:\n• https://github.com/prepodobnuy\n• https://codeberg.org/bbb\n• https://t.me/abvgdeiozhz\n\nОбразование\nУровень\nСреднее специальное образование\nГомельский торгово-экономический Колледж\nПрограммное обеспечение информационных технологий\n•\n2025\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь\n"
+}

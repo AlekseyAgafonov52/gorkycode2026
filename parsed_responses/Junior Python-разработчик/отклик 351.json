@@ -1,0 +1,239 @@
+{
+  "candidate_id": 351,
+  "resume_title": "Python Backend Developer. AI/ML Prompt & RAG Engineer. AI Automation Developer. Data Engineer",
+  "cover_letter": "Добрый день!\nМеня зовут Евгений, я Python- разработчик и хочу присоединиться к Вашей команде . С большим интересом ознакомился с описанием вакансии и уверен, что мой опыт и навыки соответствуют вашим требованиям",
+  "experience_total_months": 243,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2006-04",
+      "end_date": "2026-06",
+      "is_current": false,
+      "duration_months": 243,
+      "organization": "Организация 1",
+      "position": "Инженер-метролог, Инженер КИПиА, Инженер-электрик 1 категории в метрологической лаборатории",
+      "employer_details": [],
+      "description": "Аналитика данных с использованием Excel (сбор, обработка и визуализация данных)\nОбслуживание и ремонт контрольно-измерительных приборов и автоматики\nКалибровка измерительных каналов информационно-измерительных систем",
+      "original": "Апр 2006 -\nИюн 2026\n20 лет 3 мес\nОрганизация 1\nИнженер-метролог, Инженер КИПиА, Инженер-электрик 1 категории в метрологической лаборатории\nАналитика данных с использованием Excel (сбор, обработка и визуализация данных)\nОбслуживание и ремонт контрольно-измерительных приборов и автоматики\nКалибровка измерительных каналов информационно-измерительных систем"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "LLM",
+      "level": "advanced",
+      "original": "LLM"
+    },
+    {
+      "name": "AI",
+      "level": "advanced",
+      "original": "AI"
+    },
+    {
+      "name": "RAG",
+      "level": "advanced",
+      "original": "RAG"
+    },
+    {
+      "name": "LangChain",
+      "level": "advanced",
+      "original": "LangChain"
+    },
+    {
+      "name": "Prompt Engineering",
+      "level": "advanced",
+      "original": "Prompt Engineering"
+    },
+    {
+      "name": "Vector DB",
+      "level": "advanced",
+      "original": "Vector DB"
+    },
+    {
+      "name": "FAISS",
+      "level": "advanced",
+      "original": "FAISS"
+    },
+    {
+      "name": "Embedding",
+      "level": "advanced",
+      "original": "Embedding"
+    },
+    {
+      "name": "STT",
+      "level": "advanced",
+      "original": "STT"
+    },
+    {
+      "name": "TTS",
+      "level": "advanced",
+      "original": "TTS"
+    },
+    {
+      "name": "Image Generation",
+      "level": "advanced",
+      "original": "Image Generation"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "Алгоритмы и структуры данных",
+      "level": "advanced",
+      "original": "Алгоритмы и структуры данных"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Flask",
+      "level": "intermediate",
+      "original": "Flask"
+    },
+    {
+      "name": "Redis",
+      "level": "intermediate",
+      "original": "Redis"
+    },
+    {
+      "name": "Nginx",
+      "level": "intermediate",
+      "original": "Nginx"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    },
+    {
+      "name": "Немецкий",
+      "level": "A1",
+      "description": "Начальный",
+      "original": "Немецкий — A1 — Начальный"
+    }
+  ],
+  "about_me": "Python-разработчик (Backend & Frontend Developer). C практическим опытом разработки на Python- Django/Flask/FastAPI/LangChain. Успешно реализовал ряд проектов, доступных в открытом доступе на GitHub, включая веб-приложения и Telegram-ботов (например: FlowerDelivery Интернет-Магазин по доставке цветов с использованием фреймворка Django и интеграцией Telegram-бота на Aiogram).\nСоздание автоматизированных систем (Telegram-ботов, скриптов на Python, Парсинг данных с сайтов и Telegram-каналов), разработка и интеграция RESTful API, сбор и анализ данных с использованием инструментов Numpy, Pandas, Scrapy и Selenium, а также визуализация результатов.\nAI/ML Prompt & RAG -инженер. Разработка мультимодальных систем и интеллектуальных ассистентов с ИИ, Web и GUI (десктоп)-приложений с RAG (Retrieval-Augmented Generation) системой и векторными базами данных Weaviate, Pinecone, FAISS, ChromaDB, Qdrant. Автоматизация оценки качества RAG-конвейеров при помощи RAG Assessment и кеширование ответов (для ускорения ответов и снижения стоимости запросов к LLM).\nData-инженер/Аналитик данных (Python, SQL, Excel, Google-таблицы, Google Colab).\nКонтакты:\nGitHub: https://github.com/Jeff555max\nTelegram: https://t.me/JJJeFFF5\nE-mail: Evgeni-5@yandex.ru\nРезюме:\nhttps://docs.google.com/document/d/1__taxPVPu5QTrASr4Y08LUEaDtLRDicA/edit\nФриланс:\nhttps://freelance.ru/jjjefff\nhttps://www.fl.ru/users/evgeni-5\nVK: https://vk.com/id10216908",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Университет Зерокодер",
+      "details": [
+        "Промпт-инжиниринг"
+      ],
+      "year": 2026,
+      "level": "Высшее образование",
+      "original": "Университет Зерокодер\nПромпт-инжиниринг\n•\n2026\n•\nВысшее образование"
+    },
+    {
+      "institution": "Университет Зерокодер",
+      "details": [
+        "Программирование на Python"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Университет Зерокодер\nПрограммирование на Python\n•\n2025\n•\nВысшее образование"
+    },
+    {
+      "institution": "Уральский электромеханический институт инженеров транспорта (УЭМИИТ), г. Екатеринбург",
+      "details": [
+        "Электротехнический факультет, «Автоматика, телемеханика и связь»"
+      ],
+      "year": 1997,
+      "level": "Высшее образование",
+      "original": "Уральский электромеханический институт инженеров транспорта (УЭМИИТ), г. Екатеринбург\nЭлектротехнический факультет, «Автоматика, телемеханика и связь»\n•\n1997\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": "Нет",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №351\nРезюме: Python Backend Developer. AI/ML Prompt & RAG Engineer. AI Automation Developer. Data Engineer",
+    "cover_letter": "Добрый день!\nМеня зовут Евгений, я Python- разработчик и хочу присоединиться к Вашей команде . С большим интересом ознакомился с описанием вакансии и уверен, что мой опыт и навыки соответствуют вашим требованиям",
+    "experience": "Опыт работы: 20 лет 3 месяца\nАпр 2006 -\nИюн 2026\n20 лет 3 мес\nОрганизация 1\nИнженер-метролог, Инженер КИПиА, Инженер-электрик 1 категории в метрологической лаборатории\nАналитика данных с использованием Excel (сбор, обработка и визуализация данных)\nОбслуживание и ремонт контрольно-измерительных приборов и автоматики\nКалибровка измерительных каналов информационно-измерительных систем",
+    "skills": "Продвинутый уровень\nPython\nAPI\nHTML\nGit\nPostgreSQL\nSQL\nLinux\nDocker\nLLM\nAI\nRAG\nLangChain\nPrompt Engineering\nVector DB\nFAISS\nEmbedding\nSTT\nTTS\nImage Generation\nООП\nАлгоритмы и структуры данных\nСредний уровень\nGitHub\nDjango Rest Framework\nREST API\nSQLAlchemy\nFlask\nRedis\nNginx\nCelery",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nНемецкий — A1 — Начальный",
+    "about_me": "Python-разработчик (Backend & Frontend Developer). C практическим опытом разработки на Python- Django/Flask/FastAPI/LangChain. Успешно реализовал ряд проектов, доступных в открытом доступе на GitHub, включая веб-приложения и Telegram-ботов (например: FlowerDelivery Интернет-Магазин по доставке цветов с использованием фреймворка Django и интеграцией Telegram-бота на Aiogram).\nСоздание автоматизированных систем (Telegram-ботов, скриптов на Python, Парсинг данных с сайтов и Telegram-каналов), разработка и интеграция RESTful API, сбор и анализ данных с использованием инструментов Numpy, Pandas, Scrapy и Selenium, а также визуализация результатов.\nAI/ML Prompt & RAG -инженер. Разработка мультимодальных систем и интеллектуальных ассистентов с ИИ, Web и GUI (десктоп)-приложений с RAG (Retrieval-Augmented Generation) системой и векторными базами данных Weaviate, Pinecone, FAISS, ChromaDB, Qdrant. Автоматизация оценки качества RAG-конвейеров при помощи RAG Assessment и кеширование ответов (для ускорения ответов и снижения стоимости запросов к LLM).\nData-инженер/Аналитик данных (Python, SQL, Excel, Google-таблицы, Google Colab).\nКонтакты:\nGitHub: https://github.com/Jeff555max\nTelegram: https://t.me/JJJeFFF5\nE-mail: Evgeni-5@yandex.ru\nРезюме:\nhttps://docs.google.com/document/d/1__taxPVPu5QTrASr4Y08LUEaDtLRDicA/edit\nФриланс:\nhttps://freelance.ru/jjjefff\nhttps://www.fl.ru/users/evgeni-5\nVK: https://vk.com/id10216908",
+    "education": "Уровень\nВысшее образование\nУниверситет Зерокодер\nПромпт-инжиниринг\n•\n2026\n•\nВысшее образование\nУниверситет Зерокодер\nПрограммирование на Python\n•\n2025\n•\nВысшее образование\nУральский электромеханический институт инженеров транспорта (УЭМИИТ), г. Екатеринбург\nЭлектротехнический факультет, «Автоматика, телемеханика и связь»\n•\n1997\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\nСамозанятость:\nНет\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №351\nРезюме: Python Backend Developer. AI/ML Prompt & RAG Engineer. AI Automation Developer. Data Engineer\n\nСопроводительное письмо\nДобрый день!\nМеня зовут Евгений, я Python- разработчик и хочу присоединиться к Вашей команде . С большим интересом ознакомился с описанием вакансии и уверен, что мой опыт и навыки соответствуют вашим требованиям\n\nОпыт работы\nОпыт работы: 20 лет 3 месяца\nАпр 2006 -\nИюн 2026\n20 лет 3 мес\nОрганизация 1\nИнженер-метролог, Инженер КИПиА, Инженер-электрик 1 категории в метрологической лаборатории\nАналитика данных с использованием Excel (сбор, обработка и визуализация данных)\nОбслуживание и ремонт контрольно-измерительных приборов и автоматики\nКалибровка измерительных каналов информационно-измерительных систем\n\nНавыки\nПродвинутый уровень\nPython\nAPI\nHTML\nGit\nPostgreSQL\nSQL\nLinux\nDocker\nLLM\nAI\nRAG\nLangChain\nPrompt Engineering\nVector DB\nFAISS\nEmbedding\nSTT\nTTS\nImage Generation\nООП\nАлгоритмы и структуры данных\nСредний уровень\nGitHub\nDjango Rest Framework\nREST API\nSQLAlchemy\nFlask\nRedis\nNginx\nCelery\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\nНемецкий — A1 — Начальный\n\nОбо мне\nPython-разработчик (Backend & Frontend Developer). C практическим опытом разработки на Python- Django/Flask/FastAPI/LangChain. Успешно реализовал ряд проектов, доступных в открытом доступе на GitHub, включая веб-приложения и Telegram-ботов (например: FlowerDelivery Интернет-Магазин по доставке цветов с использованием фреймворка Django и интеграцией Telegram-бота на Aiogram).\nСоздание автоматизированных систем (Telegram-ботов, скриптов на Python, Парсинг данных с сайтов и Telegram-каналов), разработка и интеграция RESTful API, сбор и анализ данных с использованием инструментов Numpy, Pandas, Scrapy и Selenium, а также визуализация результатов.\nAI/ML Prompt & RAG -инженер. Разработка мультимодальных систем и интеллектуальных ассистентов с ИИ, Web и GUI (десктоп)-приложений с RAG (Retrieval-Augmented Generation) системой и векторными базами данных Weaviate, Pinecone, FAISS, ChromaDB, Qdrant. Автоматизация оценки качества RAG-конвейеров при помощи RAG Assessment и кеширование ответов (для ускорения ответов и снижения стоимости запросов к LLM).\nData-инженер/Аналитик данных (Python, SQL, Excel, Google-таблицы, Google Colab).\nКонтакты:\nGitHub: https://github.com/Jeff555max\nTelegram: https://t.me/JJJeFFF5\nE-mail: Evgeni-5@yandex.ru\nРезюме:\nhttps://docs.google.com/document/d/1__taxPVPu5QTrASr4Y08LUEaDtLRDicA/edit\nФриланс:\nhttps://freelance.ru/jjjefff\nhttps://www.fl.ru/users/evgeni-5\nVK: https://vk.com/id10216908\n\nОбразование\nУровень\nВысшее образование\nУниверситет Зерокодер\nПромпт-инжиниринг\n•\n2026\n•\nВысшее образование\nУниверситет Зерокодер\nПрограммирование на Python\n•\n2025\n•\nВысшее образование\nУральский электромеханический институт инженеров транспорта (УЭМИИТ), г. Екатеринбург\nЭлектротехнический факультет, «Автоматика, телемеханика и связь»\n•\n1997\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\nСамозанятость:\nНет\nМедкнижка:\nНет\n"
+}

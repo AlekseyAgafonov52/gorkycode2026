@@ -1,0 +1,190 @@
+{
+  "candidate_id": 240,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 18,
+  "similar_experience_months": 18,
+  "work_experience": [
+    {
+      "start_date": "2023-10",
+      "end_date": "2025-03",
+      "is_current": false,
+      "duration_months": 18,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "- Разработка финансовых микросервисов на основе Django Rest API\n- Автоматическое тестирование с использованием Pytest, Unittest\n- Перенос тестов с Unittest на Pytest\n- Настройка логирования\n- Разработка FastAPI-приложений\n- Разработка Django веб-приложений с использованием PostgreSQL\n- Перенос базы данных с SQLite на Postgresql в Django-приложении\n- Настройка взаимодействия приложений со сторонними API\n- Участие в разработке и поддержке корпоративного telegram-бота\n- Приведение кода к стандартам (PEP8, SOLID и т.д)",
+      "original": "Окт 2023 -\nМар 2025\n1 год 6 мес\nОрганизация 1\nPython-разработчик\n- Разработка финансовых микросервисов на основе Django Rest API\n- Автоматическое тестирование с использованием Pytest, Unittest\n- Перенос тестов с Unittest на Pytest\n- Настройка логирования\n- Разработка FastAPI-приложений\n- Разработка Django веб-приложений с использованием PostgreSQL\n- Перенос базы данных с SQLite на Postgresql в Django-приложении\n- Настройка взаимодействия приложений со сторонними API\n- Участие в разработке и поддержке корпоративного telegram-бота\n- Приведение кода к стандартам (PEP8, SOLID и т.д)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Jira"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "pandas",
+      "level": "advanced",
+      "original": "pandas"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "JSON API",
+      "level": "advanced",
+      "original": "JSON API"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML5"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "Unittest",
+      "level": "advanced",
+      "original": "Unittest"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Miro",
+      "level": "advanced",
+      "original": "Miro"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "JWT",
+      "level": "advanced",
+      "original": "JWT"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "С детства увлекаюсь информационными технологиями и всем, что с ними связано. Всегда стараюсь учиться новому. Посещаю IT-мероприятия, слежу за новыми трендами в IT-сообществе, изучаю новые технологии самостоятельно.\nУспешный опыт в разработке backend-приложений.\nСоздание Django веб приложений и API для них, создание FastAPI-микросервисов.\nПонимание принципов ООП, SOLID, DRY, REST и тд, поддержка хорошей читаемости кода.\nКоммуникативность, обучаемость, ответственность за результат. Заблаговременно выстраиваю алгоритм действий, минимизирую вероятность ошибок",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Уфимский государственный нефтяной технический университет, Уфа",
+      "details": [
+        "IT-институт, 13.03.02"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Уфимский государственный нефтяной технический университет, Уфа\nIT-институт, 13.03.02\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №240\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 6 месяцев\nОпыт в похожих должностях:1 год 6 месяцев\nОкт 2023 -\nМар 2025\n1 год 6 мес\nОрганизация 1\nPython-разработчик\n- Разработка финансовых микросервисов на основе Django Rest API\n- Автоматическое тестирование с использованием Pytest, Unittest\n- Перенос тестов с Unittest на Pytest\n- Настройка логирования\n- Разработка FastAPI-приложений\n- Разработка Django веб-приложений с использованием PostgreSQL\n- Перенос базы данных с SQLite на Postgresql в Django-приложении\n- Настройка взаимодействия приложений со сторонними API\n- Участие в разработке и поддержке корпоративного telegram-бота\n- Приведение кода к стандартам (PEP8, SOLID и т.д)",
+    "skills": "Продвинутый уровень\nPython\nGit\nPostgreSQL\nDjango Framework\nJira\nPytest\nMySQL\nDocker\npandas\nDjango\nREST API\nGitHub\nJSON API\nHTML5\nООП\nUnittest\nAPI\nDjango Rest Framework\nMiro\nFastAPI\nLinux\nJWT\nCI/CD\nFlask",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "С детства увлекаюсь информационными технологиями и всем, что с ними связано. Всегда стараюсь учиться новому. Посещаю IT-мероприятия, слежу за новыми трендами в IT-сообществе, изучаю новые технологии самостоятельно.\nУспешный опыт в разработке backend-приложений.\nСоздание Django веб приложений и API для них, создание FastAPI-микросервисов.\nПонимание принципов ООП, SOLID, DRY, REST и тд, поддержка хорошей читаемости кода.\nКоммуникативность, обучаемость, ответственность за результат. Заблаговременно выстраиваю алгоритм действий, минимизирую вероятность ошибок",
+    "education": "Уровень\nВысшее образование\nУфимский государственный нефтяной технический университет, Уфа\nIT-институт, 13.03.02\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №240\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 6 месяцев\nОпыт в похожих должностях:1 год 6 месяцев\nОкт 2023 -\nМар 2025\n1 год 6 мес\nОрганизация 1\nPython-разработчик\n- Разработка финансовых микросервисов на основе Django Rest API\n- Автоматическое тестирование с использованием Pytest, Unittest\n- Перенос тестов с Unittest на Pytest\n- Настройка логирования\n- Разработка FastAPI-приложений\n- Разработка Django веб-приложений с использованием PostgreSQL\n- Перенос базы данных с SQLite на Postgresql в Django-приложении\n- Настройка взаимодействия приложений со сторонними API\n- Участие в разработке и поддержке корпоративного telegram-бота\n- Приведение кода к стандартам (PEP8, SOLID и т.д)\n\nНавыки\nПродвинутый уровень\nPython\nGit\nPostgreSQL\nDjango Framework\nJira\nPytest\nMySQL\nDocker\npandas\nDjango\nREST API\nGitHub\nJSON API\nHTML5\nООП\nUnittest\nAPI\nDjango Rest Framework\nMiro\nFastAPI\nLinux\nJWT\nCI/CD\nFlask\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nС детства увлекаюсь информационными технологиями и всем, что с ними связано. Всегда стараюсь учиться новому. Посещаю IT-мероприятия, слежу за новыми трендами в IT-сообществе, изучаю новые технологии самостоятельно.\nУспешный опыт в разработке backend-приложений.\nСоздание Django веб приложений и API для них, создание FastAPI-микросервисов.\nПонимание принципов ООП, SOLID, DRY, REST и тд, поддержка хорошей читаемости кода.\nКоммуникативность, обучаемость, ответственность за результат. Заблаговременно выстраиваю алгоритм действий, минимизирую вероятность ошибок\n\nОбразование\nУровень\nВысшее образование\nУфимский государственный нефтяной технический университет, Уфа\nIT-институт, 13.03.02\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

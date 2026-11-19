@@ -1,0 +1,279 @@
+{
+  "candidate_id": 141,
+  "resume_title": "Python-разработчик Middle/Middle+",
+  "cover_letter": null,
+  "experience_total_months": 39,
+  "similar_experience_months": 39,
+  "work_experience": [
+    {
+      "start_date": "2023-11",
+      "end_date": "2025-06",
+      "is_current": false,
+      "duration_months": 20,
+      "organization": "Организация 1",
+      "position": "Python-разработчик (middle)",
+      "employer_details": [
+        "Москваiip.su/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Стек технологий:\n- Python 3\n- Golang\n- Java\n- FastAPI\n- Django\n- SpringBoot\n- gRPC\n- Redis\n- PostgreSQL\n- Docker\n- Kafka\n- Jaeger\n- LLM (ChatGPT, Falcon, Qwen)\n- RAG\nМои обязанности:\n- Разработка и рефакторинг веб-сервисов на Python и Java;\n- Разработка event-driven микросервисов на Python и Golang;\n- Интеграция продуктов с LLM API (ChatGPT, Falcon, Qwen);\n- Внедрение RAG для повышения качества ответов моделей;\n- Разработка внутренних инструментов для нужд компании;\n- Проведение юнит и нагрузочного тестирования;\n- Применение инструментов трассировки для оптимизации работы микро-сервисной\nархитектуры.",
+      "original": "Ноя 2023 -\nИюн 2025\n1 год 8 мес\nОрганизация 1\nМоскваiip.su/\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (middle)\nСтек технологий:\n- Python 3\n- Golang\n- Java\n- FastAPI\n- Django\n- SpringBoot\n- gRPC\n- Redis\n- PostgreSQL\n- Docker\n- Kafka\n- Jaeger\n- LLM (ChatGPT, Falcon, Qwen)\n- RAG\nМои обязанности:\n- Разработка и рефакторинг веб-сервисов на Python и Java;\n- Разработка event-driven микросервисов на Python и Golang;\n- Интеграция продуктов с LLM API (ChatGPT, Falcon, Qwen);\n- Внедрение RAG для повышения качества ответов моделей;\n- Разработка внутренних инструментов для нужд компании;\n- Проведение юнит и нагрузочного тестирования;\n- Применение инструментов трассировки для оптимизации работы микро-сервисной\nархитектуры."
+    },
+    {
+      "start_date": "2023-03",
+      "end_date": "2023-11",
+      "is_current": false,
+      "duration_months": 9,
+      "organization": "Организация 2",
+      "position": "Python-разработчик (middle)",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Стек технологий:\n- Python 3\n- Golang\n- JavaScript\n- FastAPI\n- Redis\n- PostgreSQL\n- Docker\n- RabbitMQ\n- Sentry\n- Jaeger\nМои обязанности:\n- Разработка микро-сервисной архитектуры;\n- Интеграции платежных систем;\n- Сбор и ведение статистики анализируемых данных по функционированию приложений, а\nтакже проведение их непосредственного анализа;\n- Участие в проектировании архитектуры систем и принятие ключевых технических решений.",
+      "original": "Мар 2023 -\nНоя 2023\n9 мес\nОрганизация 2\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (middle)\nСтек технологий:\n- Python 3\n- Golang\n- JavaScript\n- FastAPI\n- Redis\n- PostgreSQL\n- Docker\n- RabbitMQ\n- Sentry\n- Jaeger\nМои обязанности:\n- Разработка микро-сервисной архитектуры;\n- Интеграции платежных систем;\n- Сбор и ведение статистики анализируемых данных по функционированию приложений, а\nтакже проведение их непосредственного анализа;\n- Участие в проектировании архитектуры систем и принятие ключевых технических решений."
+    },
+    {
+      "start_date": "2022-08",
+      "end_date": "2023-01",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 3",
+      "position": "Python-разработчик (junior)",
+      "employer_details": [
+        "Москваkpm-ritm.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Стек технологий:\n- Python 3\n- Julia\n- FastAPI\n- Redis\n- PostgreSQL\n- ClickHouse\n- ZeroMQ\n- Sentry\nМои обязанности:\n- Разработка и рефакторинг веб-сервисов;\n- Участие в разработке event-driven архитектуры;\n- Доработка библиотек на языке программирования Julia;\n- Проведение юнит и нагрузочного тестирования;\n- Применение инструментов трассировки для оптимизации работы микро-сервисной архитектуры.",
+      "original": "Авг 2022 -\nЯнв 2023\n6 мес\nОрганизация 3\nМоскваkpm-ritm.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (junior)\nСтек технологий:\n- Python 3\n- Julia\n- FastAPI\n- Redis\n- PostgreSQL\n- ClickHouse\n- ZeroMQ\n- Sentry\nМои обязанности:\n- Разработка и рефакторинг веб-сервисов;\n- Участие в разработке event-driven архитектуры;\n- Доработка библиотек на языке программирования Julia;\n- Проведение юнит и нагрузочного тестирования;\n- Применение инструментов трассировки для оптимизации работы микро-сервисной архитектуры."
+    },
+    {
+      "start_date": "2022-02",
+      "end_date": "2022-04",
+      "is_current": false,
+      "duration_months": 3,
+      "organization": "Организация 4",
+      "position": "Python-разработчик (junior)",
+      "employer_details": [
+        "МоскваAlikson.ru",
+        "Управление многопрофильными активами"
+      ],
+      "description": "Стек технологий:\n- Python 3\n- FastAPI\n- Docker\n- Scrapy\n- Selenium\n- MongoDB\n- PostgreSQL\n- Fidler\n- Postman\nМои обязанности:\n- Разработка микро-сервисной архитектуры маркетплэйса;\n- Адаптация программного обеспечения для использования работниками скраперов крупных поставщиков электронной техники;\n- Реверс инжиниринг программного обеспеченья.",
+      "original": "Фев 2022 -\nАпр 2022\n3 мес\nОрганизация 4\nМоскваAlikson.ru\nУправление многопрофильными активами\nPython-разработчик (junior)\nСтек технологий:\n- Python 3\n- FastAPI\n- Docker\n- Scrapy\n- Selenium\n- MongoDB\n- PostgreSQL\n- Fidler\n- Postman\nМои обязанности:\n- Разработка микро-сервисной архитектуры маркетплэйса;\n- Адаптация программного обеспечения для использования работниками скраперов крупных поставщиков электронной техники;\n- Реверс инжиниринг программного обеспеченья."
+    },
+    {
+      "start_date": "2018-06",
+      "end_date": "2018-07",
+      "is_current": false,
+      "duration_months": 2,
+      "organization": "Организация 5",
+      "position": "Python-разработчик (летняя практика)",
+      "employer_details": [
+        "Москваfssp.gov.ru/",
+        "Государственные организации"
+      ],
+      "description": "Стек технологий:\n- Python 3\n- Flask\n- PyQT\n- MySQL\n- ГосЛинукс\nМои обязанности:\n- Автоматизация процессов обработки данных;\n- Разработка веб-сервера;\n- Системное администрирование.",
+      "original": "Июн 2018 -\nИюл 2018\n2 мес\nОрганизация 5\nМоскваfssp.gov.ru/\nГосударственные организации\nPython-разработчик (летняя практика)\nСтек технологий:\n- Python 3\n- Flask\n- PyQT\n- MySQL\n- ГосЛинукс\nМои обязанности:\n- Автоматизация процессов обработки данных;\n- Разработка веб-сервера;\n- Системное администрирование."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Code review",
+      "level": "advanced",
+      "original": "Code review"
+    },
+    {
+      "name": "Умение разбираться в чужом коде",
+      "level": "advanced",
+      "original": "Умение разбираться в чужом коде"
+    },
+    {
+      "name": "Программирование",
+      "level": "advanced",
+      "original": "Программирование"
+    },
+    {
+      "name": "Коммуникативная компетентность",
+      "level": "advanced",
+      "original": "Коммуникативная компетентность"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "asyncio",
+      "level": "advanced",
+      "original": "asyncio"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "intermediate",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "GitLab",
+      "level": "intermediate",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Разработка ПО",
+      "level": "intermediate",
+      "original": "Разработка ПО"
+    },
+    {
+      "name": "Scrum",
+      "level": "intermediate",
+      "original": "Scrum"
+    },
+    {
+      "name": "SOLID",
+      "level": "intermediate",
+      "original": "SOLID"
+    },
+    {
+      "name": "Sentry",
+      "level": "intermediate",
+      "original": "Sentry"
+    },
+    {
+      "name": "Keycloak",
+      "level": "intermediate",
+      "original": "Keycloak"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "intermediate",
+      "original": "Docker Compose"
+    },
+    {
+      "name": "Golang",
+      "level": "intermediate",
+      "original": "Golang"
+    },
+    {
+      "name": "aiohttp",
+      "level": "intermediate",
+      "original": "aiohttp"
+    },
+    {
+      "name": "CI/CD",
+      "level": "intermediate",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Flask",
+      "level": "intermediate",
+      "original": "Flask"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Мой GitHub: https://github.com/GAKiknadze\nПримеры проектов:\n- https://github.com/GAKiknadze/file_service\n- https://github.com/GAKiknadze/dummy_db_test_task\n- https://github.com/GAKiknadze/notification_service_test_task\nЯвляюсь одним из разработчиков системы распознавания речи \"Писарь\", которую впоследствии продали компании:\n- Страница продукта https://iip.su/speech-recognition/\n- Свидетельство о государственной регистрации продукта https://drive.google.com/file/d/1bDKLG1onuccQPNQylIMaiKMfvWOXqx2C/view\n- Запись в реестре https://reestr.digital.gov.ru/reestr/2307964/\nВ 2023 году занимался локализацией документации к Golang-библиотеке Gorm ( https://gorm.io ).\nВнедрял N8N для автоматизации бизнес-процессов внутри команд. Один из кейсов:\n- Автоматизация составления отчёта по прохождению тестов в соответствии с матрицей тестирования по каждой задаче перешедшей в статус \"Готово к тестированию\".\nИмеется военный билет.",
+  "education_level": "Неоконченное высшее образование",
+  "education": [
+    {
+      "institution": "РТУ МИРЭА",
+      "details": [
+        "Программная инженерия , ERP-системы"
+      ],
+      "year": 2022,
+      "level": "Неоконченное высшее образование",
+      "original": "РТУ МИРЭА\nПрограммная инженерия , ERP-системы\n•\n2022\n•\nНеоконченное высшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №141\nРезюме: Python-разработчик Middle/Middle+",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 3 месяца\nОпыт в похожих должностях:3 года 3 месяца\nНоя 2023 -\nИюн 2025\n1 год 8 мес\nОрганизация 1\nМоскваiip.su/\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (middle)\nСтек технологий:\n- Python 3\n- Golang\n- Java\n- FastAPI\n- Django\n- SpringBoot\n- gRPC\n- Redis\n- PostgreSQL\n- Docker\n- Kafka\n- Jaeger\n- LLM (ChatGPT, Falcon, Qwen)\n- RAG\nМои обязанности:\n- Разработка и рефакторинг веб-сервисов на Python и Java;\n- Разработка event-driven микросервисов на Python и Golang;\n- Интеграция продуктов с LLM API (ChatGPT, Falcon, Qwen);\n- Внедрение RAG для повышения качества ответов моделей;\n- Разработка внутренних инструментов для нужд компании;\n- Проведение юнит и нагрузочного тестирования;\n- Применение инструментов трассировки для оптимизации работы микро-сервисной\nархитектуры.\nМар 2023 -\nНоя 2023\n9 мес\nОрганизация 2\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (middle)\nСтек технологий:\n- Python 3\n- Golang\n- JavaScript\n- FastAPI\n- Redis\n- PostgreSQL\n- Docker\n- RabbitMQ\n- Sentry\n- Jaeger\nМои обязанности:\n- Разработка микро-сервисной архитектуры;\n- Интеграции платежных систем;\n- Сбор и ведение статистики анализируемых данных по функционированию приложений, а\nтакже проведение их непосредственного анализа;\n- Участие в проектировании архитектуры систем и принятие ключевых технических решений.\nАвг 2022 -\nЯнв 2023\n6 мес\nОрганизация 3\nМоскваkpm-ritm.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (junior)\nСтек технологий:\n- Python 3\n- Julia\n- FastAPI\n- Redis\n- PostgreSQL\n- ClickHouse\n- ZeroMQ\n- Sentry\nМои обязанности:\n- Разработка и рефакторинг веб-сервисов;\n- Участие в разработке event-driven архитектуры;\n- Доработка библиотек на языке программирования Julia;\n- Проведение юнит и нагрузочного тестирования;\n- Применение инструментов трассировки для оптимизации работы микро-сервисной архитектуры.\nФев 2022 -\nАпр 2022\n3 мес\nОрганизация 4\nМоскваAlikson.ru\nУправление многопрофильными активами\nPython-разработчик (junior)\nСтек технологий:\n- Python 3\n- FastAPI\n- Docker\n- Scrapy\n- Selenium\n- MongoDB\n- PostgreSQL\n- Fidler\n- Postman\nМои обязанности:\n- Разработка микро-сервисной архитектуры маркетплэйса;\n- Адаптация программного обеспечения для использования работниками скраперов крупных поставщиков электронной техники;\n- Реверс инжиниринг программного обеспеченья.\nИюн 2018 -\nИюл 2018\n2 мес\nОрганизация 5\nМоскваfssp.gov.ru/\nГосударственные организации\nPython-разработчик (летняя практика)\nСтек технологий:\n- Python 3\n- Flask\n- PyQT\n- MySQL\n- ГосЛинукс\nМои обязанности:\n- Автоматизация процессов обработки данных;\n- Разработка веб-сервера;\n- Системное администрирование.",
+    "skills": "Продвинутый уровень\nRedis\nNoSQL\nGit\nFastAPI\nCode review\nУмение разбираться в чужом коде\nПрограммирование\nКоммуникативная компетентность\nRabbitMQ\nCelery\nasyncio\nSQLAlchemy\nREST\nСредний уровень\nPython\nSQL\nDocker\nPostgreSQL\nDocker-compose\nGitlab\nLinux\nРазработка ПО\nScrum\nSOLID\nSentry\nKeycloak\nDocker Compose\nGolang\naiohttp\nCI/CD\nFlask",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Мой GitHub: https://github.com/GAKiknadze\nПримеры проектов:\n- https://github.com/GAKiknadze/file_service\n- https://github.com/GAKiknadze/dummy_db_test_task\n- https://github.com/GAKiknadze/notification_service_test_task\nЯвляюсь одним из разработчиков системы распознавания речи \"Писарь\", которую впоследствии продали компании:\n- Страница продукта https://iip.su/speech-recognition/\n- Свидетельство о государственной регистрации продукта https://drive.google.com/file/d/1bDKLG1onuccQPNQylIMaiKMfvWOXqx2C/view\n- Запись в реестре https://reestr.digital.gov.ru/reestr/2307964/\nВ 2023 году занимался локализацией документации к Golang-библиотеке Gorm ( https://gorm.io ).\nВнедрял N8N для автоматизации бизнес-процессов внутри команд. Один из кейсов:\n- Автоматизация составления отчёта по прохождению тестов в соответствии с матрицей тестирования по каждой задаче перешедшей в статус \"Готово к тестированию\".\nИмеется военный билет.",
+    "education": "Уровень\nНеоконченное высшее образование\nРТУ МИРЭА\nПрограммная инженерия , ERP-системы\n•\n2022\n•\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №141\nРезюме: Python-разработчик Middle/Middle+\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 3 месяца\nОпыт в похожих должностях:3 года 3 месяца\nНоя 2023 -\nИюн 2025\n1 год 8 мес\nОрганизация 1\nМоскваiip.su/\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (middle)\nСтек технологий:\n- Python 3\n- Golang\n- Java\n- FastAPI\n- Django\n- SpringBoot\n- gRPC\n- Redis\n- PostgreSQL\n- Docker\n- Kafka\n- Jaeger\n- LLM (ChatGPT, Falcon, Qwen)\n- RAG\nМои обязанности:\n- Разработка и рефакторинг веб-сервисов на Python и Java;\n- Разработка event-driven микросервисов на Python и Golang;\n- Интеграция продуктов с LLM API (ChatGPT, Falcon, Qwen);\n- Внедрение RAG для повышения качества ответов моделей;\n- Разработка внутренних инструментов для нужд компании;\n- Проведение юнит и нагрузочного тестирования;\n- Применение инструментов трассировки для оптимизации работы микро-сервисной\nархитектуры.\nМар 2023 -\nНоя 2023\n9 мес\nОрганизация 2\nМосква\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (middle)\nСтек технологий:\n- Python 3\n- Golang\n- JavaScript\n- FastAPI\n- Redis\n- PostgreSQL\n- Docker\n- RabbitMQ\n- Sentry\n- Jaeger\nМои обязанности:\n- Разработка микро-сервисной архитектуры;\n- Интеграции платежных систем;\n- Сбор и ведение статистики анализируемых данных по функционированию приложений, а\nтакже проведение их непосредственного анализа;\n- Участие в проектировании архитектуры систем и принятие ключевых технических решений.\nАвг 2022 -\nЯнв 2023\n6 мес\nОрганизация 3\nМоскваkpm-ritm.ru\nИнформационные технологии, системная интеграция, интернет\nPython-разработчик (junior)\nСтек технологий:\n- Python 3\n- Julia\n- FastAPI\n- Redis\n- PostgreSQL\n- ClickHouse\n- ZeroMQ\n- Sentry\nМои обязанности:\n- Разработка и рефакторинг веб-сервисов;\n- Участие в разработке event-driven архитектуры;\n- Доработка библиотек на языке программирования Julia;\n- Проведение юнит и нагрузочного тестирования;\n- Применение инструментов трассировки для оптимизации работы микро-сервисной архитектуры.\nФев 2022 -\nАпр 2022\n3 мес\nОрганизация 4\nМоскваAlikson.ru\nУправление многопрофильными активами\nPython-разработчик (junior)\nСтек технологий:\n- Python 3\n- FastAPI\n- Docker\n- Scrapy\n- Selenium\n- MongoDB\n- PostgreSQL\n- Fidler\n- Postman\nМои обязанности:\n- Разработка микро-сервисной архитектуры маркетплэйса;\n- Адаптация программного обеспечения для использования работниками скраперов крупных поставщиков электронной техники;\n- Реверс инжиниринг программного обеспеченья.\nИюн 2018 -\nИюл 2018\n2 мес\nОрганизация 5\nМоскваfssp.gov.ru/\nГосударственные организации\nPython-разработчик (летняя практика)\nСтек технологий:\n- Python 3\n- Flask\n- PyQT\n- MySQL\n- ГосЛинукс\nМои обязанности:\n- Автоматизация процессов обработки данных;\n- Разработка веб-сервера;\n- Системное администрирование.\n\nНавыки\nПродвинутый уровень\nRedis\nNoSQL\nGit\nFastAPI\nCode review\nУмение разбираться в чужом коде\nПрограммирование\nКоммуникативная компетентность\nRabbitMQ\nCelery\nasyncio\nSQLAlchemy\nREST\nСредний уровень\nPython\nSQL\nDocker\nPostgreSQL\nDocker-compose\nGitlab\nLinux\nРазработка ПО\nScrum\nSOLID\nSentry\nKeycloak\nDocker Compose\nGolang\naiohttp\nCI/CD\nFlask\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nМой GitHub: https://github.com/GAKiknadze\nПримеры проектов:\n- https://github.com/GAKiknadze/file_service\n- https://github.com/GAKiknadze/dummy_db_test_task\n- https://github.com/GAKiknadze/notification_service_test_task\nЯвляюсь одним из разработчиков системы распознавания речи \"Писарь\", которую впоследствии продали компании:\n- Страница продукта https://iip.su/speech-recognition/\n- Свидетельство о государственной регистрации продукта https://drive.google.com/file/d/1bDKLG1onuccQPNQylIMaiKMfvWOXqx2C/view\n- Запись в реестре https://reestr.digital.gov.ru/reestr/2307964/\nВ 2023 году занимался локализацией документации к Golang-библиотеке Gorm ( https://gorm.io ).\nВнедрял N8N для автоматизации бизнес-процессов внутри команд. Один из кейсов:\n- Автоматизация составления отчёта по прохождению тестов в соответствии с матрицей тестирования по каждой задаче перешедшей в статус \"Готово к тестированию\".\nИмеется военный билет.\n\nОбразование\nУровень\nНеоконченное высшее образование\nРТУ МИРЭА\nПрограммная инженерия , ERP-системы\n•\n2022\n•\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

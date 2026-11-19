@@ -1,0 +1,237 @@
+{
+  "candidate_id": 144,
+  "resume_title": "Python Developer",
+  "cover_letter": "Python Developer с опытом работы более 5 лет в сферах Retail и PropTech. Специализируюсь на разработке высоконагруженных систем, асинхронном программировании и обработке больших данных. Разработал платформу обучения сотрудников крупнейшей ритейл-сети электроники с MAU более 5000 и сервис управления заявками управляющей компании, обслуживающей свыше 350000 жильцов.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Kafka, Celery, Linux, Docker, Docker-Compose, Kubernetes, Git, GitLab CI, GitHub Actions, CI/CD, Prometheus, Grafana.\nhttps://t.me/enoughfour\ningvarfta@gmail.com",
+  "experience_total_months": 77,
+  "similar_experience_months": 77,
+  "work_experience": [
+    {
+      "start_date": "2023-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 44,
+      "organization": "Организация 1",
+      "position": "Python Developer",
+      "employer_details": [
+        "Москваwww.capitalgroup.ru",
+        "Строительство, недвижимость, эксплуатация, проектирование"
+      ],
+      "description": "Сервис обращений жильцов для управляющей компании: создание заявок, вложения (фото), статусы, уведомления, сценарии поддержки и интеграции.\n- Вёл backend-разработку основных сценариев: приём и обработка обращений, статусы, уведомления, интеграции, фоновые задачи.\n- Автоматизировал часть рутины в поддержке: добавил классификацию обращений и чат-сценарии на базе LLM (пилотировали на типовых обращениях, снимали нагрузку с операторов там, где это безопасно).\n- Собрал “помощника оператора” для обработки обращений: краткое резюме по переписке, подсказки ответа, поиск решения по базе знаний (RAG), рекомендации следующего шага и автозаполнение части полей.\n- Ускорил эндпоинты: разобрал медленные SQLAlchemy-запросы, оптимизировал выборки/индексы и добавил кэширование в Redis (эффект мерили на ключевых ручках).\n- Улучшил стабильность релизов: подключил метрики/алерты (Prometheus + Grafana), чтобы проблемы ловились раньше, чем их увидят пользователи.\n- Поднял качество кода в критичных модулях: добавил unit-тесты, статические проверки и прогон в CI, чтобы меньше ловить регрессы на проде.\nСтек: Python, Django, Django Rest Framework, FastAPI, REST API, SQL, SQLAlchemy, MySQL, MongoDB, Redis, Kafka, Celery, Linux, Docker, Docker-Compose, Git, GitHub Actions, CI/CD, Prometheus, Grafana.",
+      "original": "Мар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nМоскваwww.capitalgroup.ru\nСтроительство, недвижимость, эксплуатация, проектирование\nPython Developer\nСервис обращений жильцов для управляющей компании: создание заявок, вложения (фото), статусы, уведомления, сценарии поддержки и интеграции.\n- Вёл backend-разработку основных сценариев: приём и обработка обращений, статусы, уведомления, интеграции, фоновые задачи.\n- Автоматизировал часть рутины в поддержке: добавил классификацию обращений и чат-сценарии на базе LLM (пилотировали на типовых обращениях, снимали нагрузку с операторов там, где это безопасно).\n- Собрал “помощника оператора” для обработки обращений: краткое резюме по переписке, подсказки ответа, поиск решения по базе знаний (RAG), рекомендации следующего шага и автозаполнение части полей.\n- Ускорил эндпоинты: разобрал медленные SQLAlchemy-запросы, оптимизировал выборки/индексы и добавил кэширование в Redis (эффект мерили на ключевых ручках).\n- Улучшил стабильность релизов: подключил метрики/алерты (Prometheus + Grafana), чтобы проблемы ловились раньше, чем их увидят пользователи.\n- Поднял качество кода в критичных модулях: добавил unit-тесты, статические проверки и прогон в CI, чтобы меньше ловить регрессы на проде.\nСтек: Python, Django, Django Rest Framework, FastAPI, REST API, SQL, SQLAlchemy, MySQL, MongoDB, Redis, Kafka, Celery, Linux, Docker, Docker-Compose, Git, GitHub Actions, CI/CD, Prometheus, Grafana."
+    },
+    {
+      "start_date": "2020-06",
+      "end_date": "2023-03",
+      "is_current": false,
+      "duration_months": 34,
+      "organization": "Организация 2",
+      "position": "Python Developer",
+      "employer_details": [
+        "Москваdns-shop.ru",
+        "Электроника, приборостроение, бытовая техника, компьютеры и оргтехника"
+      ],
+      "description": "Внутренняя платформа обучения сотрудников: видеокурсы, тесты, прогресс, отчётность. Аудитория - несколько тысяч активных пользователей в месяц.\n- Развивал backend платформы: API для курсов/тестов, управление контентом, прогресс обучения, отчётность.\n- Внедрил CMS-подход для учебных материалов: редакторы смогли обновлять контент без постоянного участия разработки - обновления стали выходить заметно быстрее и ровнее.\n- Сделал систему уведомлений и фоновых задач (RabbitMQ + Celery) с интеграциями в почту/мессенджеры - стало проще возвращать людей в обучение и напоминать про обязательные модули.\n- Привёл релизы в более предсказуемый вид: автоматизировали сборку/тесты/деплой через CI/CD, сократили ручные шаги и количество проблем при выкладке.\n- Оптимизировал узкие места в БД: пересмотрел структуру отдельных таблиц/индексов и запросов, ускорил отчёты и наиболее частые выборки.\n- Добавил аналитику по обучению: отчёты для понимания прохождения курсов и вовлечённости, чтобы бизнес мог принимать решения на данных.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Celery, Linux, Docker, Kubernetes, Git, GitLab CI, CI/CD, Prometheus, Grafana.",
+      "original": "Июн 2020 -\nМар 2023\n2 года 10 мес\nОрганизация 2\nМоскваdns-shop.ru\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nPython Developer\nВнутренняя платформа обучения сотрудников: видеокурсы, тесты, прогресс, отчётность. Аудитория - несколько тысяч активных пользователей в месяц.\n- Развивал backend платформы: API для курсов/тестов, управление контентом, прогресс обучения, отчётность.\n- Внедрил CMS-подход для учебных материалов: редакторы смогли обновлять контент без постоянного участия разработки - обновления стали выходить заметно быстрее и ровнее.\n- Сделал систему уведомлений и фоновых задач (RabbitMQ + Celery) с интеграциями в почту/мессенджеры - стало проще возвращать людей в обучение и напоминать про обязательные модули.\n- Привёл релизы в более предсказуемый вид: автоматизировали сборку/тесты/деплой через CI/CD, сократили ручные шаги и количество проблем при выкладке.\n- Оптимизировал узкие места в БД: пересмотрел структуру отдельных таблиц/индексов и запросов, ускорил отчёты и наиболее частые выборки.\n- Добавил аналитику по обучению: отчёты для понимания прохождения курсов и вовлечённости, чтобы бизнес мог принимать решения на данных.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Celery, Linux, Docker, Kubernetes, Git, GitLab CI, CI/CD, Prometheus, Grafana."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Flask",
+      "level": "advanced",
+      "original": "Flask"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "CI/CD",
+      "level": "advanced",
+      "original": "CI/CD"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Оптимизация кода",
+      "level": "advanced",
+      "original": "Оптимизация кода"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Python Developer с опытом работы более 5 лет в сферах Retail и PropTech. Специализируюсь на разработке высоконагруженных систем, асинхронном программировании и обработке больших данных. Разработал платформу обучения сотрудников крупнейшей ритейл-сети электроники с MAU более 5000 и сервис управления заявками управляющей компании, обслуживающей свыше 350000 жильцов.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Kafka, Celery, Linux, Docker, Docker-Compose, Kubernetes, Git, GitLab CI, GitHub Actions, CI/CD, Prometheus, Grafana.\nhttps://t.me/enoughfour\ningvarfta@gmail.com",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Национальный исследовательский университет «МЭИ», Москва",
+      "details": [
+        "Информатика, вычислительная техника"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Национальный исследовательский университет «МЭИ», Москва\nИнформатика, вычислительная техника\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №144\nРезюме: Python Developer",
+    "cover_letter": "Python Developer с опытом работы более 5 лет в сферах Retail и PropTech. Специализируюсь на разработке высоконагруженных систем, асинхронном программировании и обработке больших данных. Разработал платформу обучения сотрудников крупнейшей ритейл-сети электроники с MAU более 5000 и сервис управления заявками управляющей компании, обслуживающей свыше 350000 жильцов.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Kafka, Celery, Linux, Docker, Docker-Compose, Kubernetes, Git, GitLab CI, GitHub Actions, CI/CD, Prometheus, Grafana.\nhttps://t.me/enoughfour\ningvarfta@gmail.com",
+    "experience": "Опыт работы: 6 лет 5 месяцев\nОпыт в похожих должностях:6 лет 5 месяцев\nМар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nМоскваwww.capitalgroup.ru\nСтроительство, недвижимость, эксплуатация, проектирование\nPython Developer\nСервис обращений жильцов для управляющей компании: создание заявок, вложения (фото), статусы, уведомления, сценарии поддержки и интеграции.\n- Вёл backend-разработку основных сценариев: приём и обработка обращений, статусы, уведомления, интеграции, фоновые задачи.\n- Автоматизировал часть рутины в поддержке: добавил классификацию обращений и чат-сценарии на базе LLM (пилотировали на типовых обращениях, снимали нагрузку с операторов там, где это безопасно).\n- Собрал “помощника оператора” для обработки обращений: краткое резюме по переписке, подсказки ответа, поиск решения по базе знаний (RAG), рекомендации следующего шага и автозаполнение части полей.\n- Ускорил эндпоинты: разобрал медленные SQLAlchemy-запросы, оптимизировал выборки/индексы и добавил кэширование в Redis (эффект мерили на ключевых ручках).\n- Улучшил стабильность релизов: подключил метрики/алерты (Prometheus + Grafana), чтобы проблемы ловились раньше, чем их увидят пользователи.\n- Поднял качество кода в критичных модулях: добавил unit-тесты, статические проверки и прогон в CI, чтобы меньше ловить регрессы на проде.\nСтек: Python, Django, Django Rest Framework, FastAPI, REST API, SQL, SQLAlchemy, MySQL, MongoDB, Redis, Kafka, Celery, Linux, Docker, Docker-Compose, Git, GitHub Actions, CI/CD, Prometheus, Grafana.\nИюн 2020 -\nМар 2023\n2 года 10 мес\nОрганизация 2\nМоскваdns-shop.ru\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nPython Developer\nВнутренняя платформа обучения сотрудников: видеокурсы, тесты, прогресс, отчётность. Аудитория - несколько тысяч активных пользователей в месяц.\n- Развивал backend платформы: API для курсов/тестов, управление контентом, прогресс обучения, отчётность.\n- Внедрил CMS-подход для учебных материалов: редакторы смогли обновлять контент без постоянного участия разработки - обновления стали выходить заметно быстрее и ровнее.\n- Сделал систему уведомлений и фоновых задач (RabbitMQ + Celery) с интеграциями в почту/мессенджеры - стало проще возвращать людей в обучение и напоминать про обязательные модули.\n- Привёл релизы в более предсказуемый вид: автоматизировали сборку/тесты/деплой через CI/CD, сократили ручные шаги и количество проблем при выкладке.\n- Оптимизировал узкие места в БД: пересмотрел структуру отдельных таблиц/индексов и запросов, ускорил отчёты и наиболее частые выборки.\n- Добавил аналитику по обучению: отчёты для понимания прохождения курсов и вовлечённости, чтобы бизнес мог принимать решения на данных.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Celery, Linux, Docker, Kubernetes, Git, GitLab CI, CI/CD, Prometheus, Grafana.",
+    "skills": "Продвинутый уровень\nPython\nPostgreSQL\nFastAPI\nDocker\nGit\nDjango Framework\nSQL\nLinux\nRedis\nREST API\nRabbitMQ\nFlask\nSQLAlchemy\nMySQL\nCelery\nMongoDB\nCI/CD\nApache Kafka\nDjango Rest Framework\nKubernetes\nREST\nAPI\nDjango\nАнглийский язык\nNoSQL\nGitlab\nPytest\nGitHub\nОптимизация кода\nООП",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Python Developer с опытом работы более 5 лет в сферах Retail и PropTech. Специализируюсь на разработке высоконагруженных систем, асинхронном программировании и обработке больших данных. Разработал платформу обучения сотрудников крупнейшей ритейл-сети электроники с MAU более 5000 и сервис управления заявками управляющей компании, обслуживающей свыше 350000 жильцов.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Kafka, Celery, Linux, Docker, Docker-Compose, Kubernetes, Git, GitLab CI, GitHub Actions, CI/CD, Prometheus, Grafana.\nhttps://t.me/enoughfour\ningvarfta@gmail.com",
+    "education": "Уровень\nВысшее образование\nНациональный исследовательский университет «МЭИ», Москва\nИнформатика, вычислительная техника\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №144\nРезюме: Python Developer\n\nСопроводительное письмо\nPython Developer с опытом работы более 5 лет в сферах Retail и PropTech. Специализируюсь на разработке высоконагруженных систем, асинхронном программировании и обработке больших данных. Разработал платформу обучения сотрудников крупнейшей ритейл-сети электроники с MAU более 5000 и сервис управления заявками управляющей компании, обслуживающей свыше 350000 жильцов.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Kafka, Celery, Linux, Docker, Docker-Compose, Kubernetes, Git, GitLab CI, GitHub Actions, CI/CD, Prometheus, Grafana.\nhttps://t.me/enoughfour\ningvarfta@gmail.com\n\nОпыт работы\nОпыт работы: 6 лет 5 месяцев\nОпыт в похожих должностях:6 лет 5 месяцев\nМар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nМоскваwww.capitalgroup.ru\nСтроительство, недвижимость, эксплуатация, проектирование\nPython Developer\nСервис обращений жильцов для управляющей компании: создание заявок, вложения (фото), статусы, уведомления, сценарии поддержки и интеграции.\n- Вёл backend-разработку основных сценариев: приём и обработка обращений, статусы, уведомления, интеграции, фоновые задачи.\n- Автоматизировал часть рутины в поддержке: добавил классификацию обращений и чат-сценарии на базе LLM (пилотировали на типовых обращениях, снимали нагрузку с операторов там, где это безопасно).\n- Собрал “помощника оператора” для обработки обращений: краткое резюме по переписке, подсказки ответа, поиск решения по базе знаний (RAG), рекомендации следующего шага и автозаполнение части полей.\n- Ускорил эндпоинты: разобрал медленные SQLAlchemy-запросы, оптимизировал выборки/индексы и добавил кэширование в Redis (эффект мерили на ключевых ручках).\n- Улучшил стабильность релизов: подключил метрики/алерты (Prometheus + Grafana), чтобы проблемы ловились раньше, чем их увидят пользователи.\n- Поднял качество кода в критичных модулях: добавил unit-тесты, статические проверки и прогон в CI, чтобы меньше ловить регрессы на проде.\nСтек: Python, Django, Django Rest Framework, FastAPI, REST API, SQL, SQLAlchemy, MySQL, MongoDB, Redis, Kafka, Celery, Linux, Docker, Docker-Compose, Git, GitHub Actions, CI/CD, Prometheus, Grafana.\nИюн 2020 -\nМар 2023\n2 года 10 мес\nОрганизация 2\nМоскваdns-shop.ru\nЭлектроника, приборостроение, бытовая техника, компьютеры и оргтехника\nPython Developer\nВнутренняя платформа обучения сотрудников: видеокурсы, тесты, прогресс, отчётность. Аудитория - несколько тысяч активных пользователей в месяц.\n- Развивал backend платформы: API для курсов/тестов, управление контентом, прогресс обучения, отчётность.\n- Внедрил CMS-подход для учебных материалов: редакторы смогли обновлять контент без постоянного участия разработки - обновления стали выходить заметно быстрее и ровнее.\n- Сделал систему уведомлений и фоновых задач (RabbitMQ + Celery) с интеграциями в почту/мессенджеры - стало проще возвращать людей в обучение и напоминать про обязательные модули.\n- Привёл релизы в более предсказуемый вид: автоматизировали сборку/тесты/деплой через CI/CD, сократили ручные шаги и количество проблем при выкладке.\n- Оптимизировал узкие места в БД: пересмотрел структуру отдельных таблиц/индексов и запросов, ускорил отчёты и наиболее частые выборки.\n- Добавил аналитику по обучению: отчёты для понимания прохождения курсов и вовлечённости, чтобы бизнес мог принимать решения на данных.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Celery, Linux, Docker, Kubernetes, Git, GitLab CI, CI/CD, Prometheus, Grafana.\n\nНавыки\nПродвинутый уровень\nPython\nPostgreSQL\nFastAPI\nDocker\nGit\nDjango Framework\nSQL\nLinux\nRedis\nREST API\nRabbitMQ\nFlask\nSQLAlchemy\nMySQL\nCelery\nMongoDB\nCI/CD\nApache Kafka\nDjango Rest Framework\nKubernetes\nREST\nAPI\nDjango\nАнглийский язык\nNoSQL\nGitlab\nPytest\nGitHub\nОптимизация кода\nООП\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nPython Developer с опытом работы более 5 лет в сферах Retail и PropTech. Специализируюсь на разработке высоконагруженных систем, асинхронном программировании и обработке больших данных. Разработал платформу обучения сотрудников крупнейшей ритейл-сети электроники с MAU более 5000 и сервис управления заявками управляющей компании, обслуживающей свыше 350000 жильцов.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Kafka, Celery, Linux, Docker, Docker-Compose, Kubernetes, Git, GitLab CI, GitHub Actions, CI/CD, Prometheus, Grafana.\nhttps://t.me/enoughfour\ningvarfta@gmail.com\n\nОбразование\nУровень\nВысшее образование\nНациональный исследовательский университет «МЭИ», Москва\nИнформатика, вычислительная техника\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

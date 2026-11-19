@@ -1,0 +1,145 @@
+{
+  "candidate_id": 305,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 3,
+  "similar_experience_months": 3,
+  "work_experience": [
+    {
+      "start_date": "2025-04",
+      "end_date": "2025-06",
+      "is_current": false,
+      "duration_months": 3,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "Backend-разработка на фреймворке FastAPI с использованием таких библиотек и инструментов, как Pydantic v2 для валидации данных, SQLAlchemy v2 с asyncpg для асинхронной работы с PostgreSQL, Celery и Celery Beat для фоновых задач и периодических заданий, Redis для кэширования и брокера сообщений, Alembic для миграций базы данных, а также logging и pytest для тестирования. Опыт подключения push-уведомлений через Firebase Cloud Messaging, интеграции с S3-хранилищами (Selectel, cloud.ru) для хранения файлов, реализации аутентификации и авторизации на JWT-токенах, включая Flash Calls для подтверждения номеров и интеграцию с Yandex API. Докеризация приложений с написанием docker-compose для оркестрации сервисов, настройка CI/CD с проверкой покрытия тестами и линтингом. Деплой на виртуальные машины различных провайдеров с настройкой PostgreSQL и Nginx. Работа с Git и GitLab. Также есть опыт мониторинга приложений с помощью Prometheus и визуализации метрик в Grafana.",
+      "original": "Апр 2025 -\nИюн 2025\n3 мес\nОрганизация 1\nPython-разработчик\nBackend-разработка на фреймворке FastAPI с использованием таких библиотек и инструментов, как Pydantic v2 для валидации данных, SQLAlchemy v2 с asyncpg для асинхронной работы с PostgreSQL, Celery и Celery Beat для фоновых задач и периодических заданий, Redis для кэширования и брокера сообщений, Alembic для миграций базы данных, а также logging и pytest для тестирования. Опыт подключения push-уведомлений через Firebase Cloud Messaging, интеграции с S3-хранилищами (Selectel, cloud.ru) для хранения файлов, реализации аутентификации и авторизации на JWT-токенах, включая Flash Calls для подтверждения номеров и интеграцию с Yandex API. Докеризация приложений с написанием docker-compose для оркестрации сервисов, настройка CI/CD с проверкой покрытия тестами и линтингом. Деплой на виртуальные машины различных провайдеров с настройкой PostgreSQL и Nginx. Работа с Git и GitLab. Также есть опыт мониторинга приложений с помощью Prometheus и визуализации метрик в Grafana."
+    }
+  ],
+  "skills": [
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "Postman",
+      "level": "intermediate",
+      "original": "Postman"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "Linux",
+      "level": "basic",
+      "original": "Linux"
+    },
+    {
+      "name": "S3",
+      "level": "basic",
+      "original": "S3"
+    },
+    {
+      "name": "Celery",
+      "level": "basic",
+      "original": "Celery"
+    },
+    {
+      "name": "Firebase",
+      "level": "basic",
+      "original": "Firebase"
+    },
+    {
+      "name": "Grafana",
+      "level": "basic",
+      "original": "Grafana"
+    },
+    {
+      "name": "Prometheus",
+      "level": "basic",
+      "original": "Prometheus"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "- Прошел курс по углублённому Python от VK с код-ревью от сотрудников ВКонтакте.\n- Ежегодно участвую в хакатонах.\n- Занимал призовые места.\n- Постоянно расширяю технические знания.\n• Языки программирования: Python\n• Технологии и фреймворки: FastAPI, SQLAlchemy, Pydantic, Uvicorn, Gunicorn, fastapi-limiter\n• Инструменты: Celery, Redis, Postman, pgadmin, git, git lab, Nginx\n• Навыки: Разработка API, Подключение S3 хранилища, JWT авторизация, Подключение Push-уведомлений, DevOps практики (Докеризация и CI/CD)\nКонтакты:\nТелефон: +\nEmail: den31804@mail.ru\nTelegram: @lutijdxgod",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Yaroslavl Demidov State University, Yaroslavl",
+      "details": [
+        "Faculty of Informatics and Computer Engineering, Applied Informatics (bachelor of applied informatics)"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Yaroslavl Demidov State University, Yaroslavl\nFaculty of Informatics and Computer Engineering, Applied Informatics (bachelor of applied informatics)\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №305\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 месяца\nОпыт в похожих должностях:3 месяца\nАпр 2025 -\nИюн 2025\n3 мес\nОрганизация 1\nPython-разработчик\nBackend-разработка на фреймворке FastAPI с использованием таких библиотек и инструментов, как Pydantic v2 для валидации данных, SQLAlchemy v2 с asyncpg для асинхронной работы с PostgreSQL, Celery и Celery Beat для фоновых задач и периодических заданий, Redis для кэширования и брокера сообщений, Alembic для миграций базы данных, а также logging и pytest для тестирования. Опыт подключения push-уведомлений через Firebase Cloud Messaging, интеграции с S3-хранилищами (Selectel, cloud.ru) для хранения файлов, реализации аутентификации и авторизации на JWT-токенах, включая Flash Calls для подтверждения номеров и интеграцию с Yandex API. Докеризация приложений с написанием docker-compose для оркестрации сервисов, настройка CI/CD с проверкой покрытия тестами и линтингом. Деплой на виртуальные машины различных провайдеров с настройкой PostgreSQL и Nginx. Работа с Git и GitLab. Также есть опыт мониторинга приложений с помощью Prometheus и визуализации метрик в Grafana.",
+    "skills": "Продвинутый уровень\nFastAPI\nGit\nСредний уровень\nPostgreSQL\nSQL\nDocker\nООП\nPostman\nREST API\nPython\nБазовый уровень\nLinux\nS3\nCelery\nFirebase\nGrafana\nPrometheus",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "- Прошел курс по углублённому Python от VK с код-ревью от сотрудников ВКонтакте.\n- Ежегодно участвую в хакатонах.\n- Занимал призовые места.\n- Постоянно расширяю технические знания.\n• Языки программирования: Python\n• Технологии и фреймворки: FastAPI, SQLAlchemy, Pydantic, Uvicorn, Gunicorn, fastapi-limiter\n• Инструменты: Celery, Redis, Postman, pgadmin, git, git lab, Nginx\n• Навыки: Разработка API, Подключение S3 хранилища, JWT авторизация, Подключение Push-уведомлений, DevOps практики (Докеризация и CI/CD)\nКонтакты:\nТелефон: +\nEmail: den31804@mail.ru\nTelegram: @lutijdxgod",
+    "education": "Уровень\nВысшее образование\nYaroslavl Demidov State University, Yaroslavl\nFaculty of Informatics and Computer Engineering, Applied Informatics (bachelor of applied informatics)\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №305\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 месяца\nОпыт в похожих должностях:3 месяца\nАпр 2025 -\nИюн 2025\n3 мес\nОрганизация 1\nPython-разработчик\nBackend-разработка на фреймворке FastAPI с использованием таких библиотек и инструментов, как Pydantic v2 для валидации данных, SQLAlchemy v2 с asyncpg для асинхронной работы с PostgreSQL, Celery и Celery Beat для фоновых задач и периодических заданий, Redis для кэширования и брокера сообщений, Alembic для миграций базы данных, а также logging и pytest для тестирования. Опыт подключения push-уведомлений через Firebase Cloud Messaging, интеграции с S3-хранилищами (Selectel, cloud.ru) для хранения файлов, реализации аутентификации и авторизации на JWT-токенах, включая Flash Calls для подтверждения номеров и интеграцию с Yandex API. Докеризация приложений с написанием docker-compose для оркестрации сервисов, настройка CI/CD с проверкой покрытия тестами и линтингом. Деплой на виртуальные машины различных провайдеров с настройкой PostgreSQL и Nginx. Работа с Git и GitLab. Также есть опыт мониторинга приложений с помощью Prometheus и визуализации метрик в Grafana.\n\nНавыки\nПродвинутый уровень\nFastAPI\nGit\nСредний уровень\nPostgreSQL\nSQL\nDocker\nООП\nPostman\nREST API\nPython\nБазовый уровень\nLinux\nS3\nCelery\nFirebase\nGrafana\nPrometheus\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\n- Прошел курс по углублённому Python от VK с код-ревью от сотрудников ВКонтакте.\n- Ежегодно участвую в хакатонах.\n- Занимал призовые места.\n- Постоянно расширяю технические знания.\n• Языки программирования: Python\n• Технологии и фреймворки: FastAPI, SQLAlchemy, Pydantic, Uvicorn, Gunicorn, fastapi-limiter\n• Инструменты: Celery, Redis, Postman, pgadmin, git, git lab, Nginx\n• Навыки: Разработка API, Подключение S3 хранилища, JWT авторизация, Подключение Push-уведомлений, DevOps практики (Докеризация и CI/CD)\nКонтакты:\nТелефон: +\nEmail: den31804@mail.ru\nTelegram: @lutijdxgod\n\nОбразование\nУровень\nВысшее образование\nYaroslavl Demidov State University, Yaroslavl\nFaculty of Informatics and Computer Engineering, Applied Informatics (bachelor of applied informatics)\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

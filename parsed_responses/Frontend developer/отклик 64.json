@@ -1,0 +1,248 @@
+{
+  "candidate_id": 64,
+  "resume_title": "Software Engineer",
+  "cover_letter": "Добрый день, буду рад знакомству",
+  "experience_total_months": 44,
+  "similar_experience_months": 26,
+  "work_experience": [
+    {
+      "start_date": "2024-09",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 26,
+      "organization": "Организация 1",
+      "position": "Middle Fullstack-разработчик",
+      "employer_details": [
+        "Москваintelion.cloud",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Занимался разработкой новых и поддержкой существующих проектов.\nРабота была в большой команде.\nОбязанности:\n- Разработка новых проектов\n- Поддержка существующих проектов\n- Код-ревью\n- Написание юнит-тестов, интеграционных тестов на бэке\nСтэк: Python Djano/FastAPI, Typescript React.js/Next.js, Tailwind/Bootstrap, Redux Toolkit\nЕще было немного Java Spring и Go Echo/Gin",
+      "original": "Сен 2024 -\nсейчас\n2 года 2 мес\nОрганизация 1\nМоскваintelion.cloud\nИнформационные технологии, системная интеграция, интернет\nMiddle Fullstack-разработчик\nЗанимался разработкой новых и поддержкой существующих проектов.\nРабота была в большой команде.\nОбязанности:\n- Разработка новых проектов\n- Поддержка существующих проектов\n- Код-ревью\n- Написание юнит-тестов, интеграционных тестов на бэке\nСтэк: Python Djano/FastAPI, Typescript React.js/Next.js, Tailwind/Bootstrap, Redux Toolkit\nЕще было немного Java Spring и Go Echo/Gin"
+    },
+    {
+      "start_date": "2024-02",
+      "end_date": "2024-09",
+      "is_current": false,
+      "duration_months": 8,
+      "organization": "Организация 2",
+      "position": "Разработчик, маркетолог, HR",
+      "employer_details": [
+        "t.me/swap_swift_bot",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Работаю сам на себя, поэтому приходится заниматься всем, и наймом персонала, и разработкой, и рекламой и еще много-много чем.\nНемного о проекте:\nSwap Swift - сканер арбитражных ситуаций на криптовалютном рынке. Сканер находит ситуации, когда одна и та же монета на разных биржах стоит по разному, и за счет этого появляется возможность заработать на разнице курсов, купив подешвле, продав подороже.\nИспользуется гибридная архитектуру, есть один полноценный монолит и пару сервисов, один для нахождения самих арбитражных ситуаций, а другой для отбора самой криптовалюты.\nИ также есть фронт в виде тг-бота, но на текущий момент веб-версия в разработке.\nСтэк бэк:\n- Python\n- FastAPI\n- PostgresQL\n- Redis\nСтэк тг-бот:\n- Python\n- aiogram\n- Redis\nСтэк фронт:\n- Typescript\n- Next.js\n- TailwindCSS\n- React Query",
+      "original": "Фев 2024 -\nСен 2024\n8 мес\nОрганизация 2\nt.me/swap_swift_bot\nИнформационные технологии, системная интеграция, интернет\nРазработчик, маркетолог, HR\nРаботаю сам на себя, поэтому приходится заниматься всем, и наймом персонала, и разработкой, и рекламой и еще много-много чем.\nНемного о проекте:\nSwap Swift - сканер арбитражных ситуаций на криптовалютном рынке. Сканер находит ситуации, когда одна и та же монета на разных биржах стоит по разному, и за счет этого появляется возможность заработать на разнице курсов, купив подешвле, продав подороже.\nИспользуется гибридная архитектуру, есть один полноценный монолит и пару сервисов, один для нахождения самих арбитражных ситуаций, а другой для отбора самой криптовалюты.\nИ также есть фронт в виде тг-бота, но на текущий момент веб-версия в разработке.\nСтэк бэк:\n- Python\n- FastAPI\n- PostgresQL\n- Redis\nСтэк тг-бот:\n- Python\n- aiogram\n- Redis\nСтэк фронт:\n- Typescript\n- Next.js\n- TailwindCSS\n- React Query"
+    },
+    {
+      "start_date": "2023-03",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 3",
+      "position": "Full-stack разработчик",
+      "employer_details": [],
+      "description": "Работа заключалась в разработке новых и поддержке сущетсвующих приложений.\nПример приложения: https://tmpline.com/ (Django&Next.js)\nСтэк на фронте:\n- React/Next.js, Redux, React Query\n- Typescript\n- HTML, CSS\nСтэк на бэке:\n- Python\n- Django/Flask/FastAPI\n- Postgres",
+      "original": "Мар 2023 -\nФев 2024\n1 год\nОрганизация 3\nFull-stack разработчик\nРабота заключалась в разработке новых и поддержке сущетсвующих приложений.\nПример приложения: https://tmpline.com/ (Django&Next.js)\nСтэк на фронте:\n- React/Next.js, Redux, React Query\n- Typescript\n- HTML, CSS\nСтэк на бэке:\n- Python\n- Django/Flask/FastAPI\n- Postgres"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Базы данных",
+      "level": "advanced",
+      "original": "Базы данных"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "advanced",
+      "original": "DRF"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Node.js",
+      "level": "advanced",
+      "original": "Node.js"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "Redis",
+      "level": "intermediate",
+      "original": "Redis"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "Docker Compose",
+      "level": null,
+      "original": "Docker Compose"
+    },
+    {
+      "name": "Flask",
+      "level": null,
+      "original": "Flask"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "Scrum",
+      "level": null,
+      "original": "Scrum"
+    },
+    {
+      "name": "SOLID",
+      "level": null,
+      "original": "SOLID"
+    },
+    {
+      "name": "Redux",
+      "level": null,
+      "original": "Redux"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "Коммуникативные навыки на высоком уровне. Буду рад любым знакомствам)",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Воронежский государственный университет, Воронеж",
+      "details": [
+        "ПММ, Прикладная информатика"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Воронежский государственный университет, Воронеж\nПММ, Прикладная информатика\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №64\nРезюме: Software Engineer",
+    "cover_letter": "Добрый день, буду рад знакомству",
+    "experience": "Опыт работы: 3 года 8 месяцев\nОпыт в похожих должностях:2 года 2 месяца\nСен 2024 -\nсейчас\n2 года 2 мес\nОрганизация 1\nМоскваintelion.cloud\nИнформационные технологии, системная интеграция, интернет\nMiddle Fullstack-разработчик\nЗанимался разработкой новых и поддержкой существующих проектов.\nРабота была в большой команде.\nОбязанности:\n- Разработка новых проектов\n- Поддержка существующих проектов\n- Код-ревью\n- Написание юнит-тестов, интеграционных тестов на бэке\nСтэк: Python Djano/FastAPI, Typescript React.js/Next.js, Tailwind/Bootstrap, Redux Toolkit\nЕще было немного Java Spring и Go Echo/Gin\nФев 2024 -\nСен 2024\n8 мес\nОрганизация 2\nt.me/swap_swift_bot\nИнформационные технологии, системная интеграция, интернет\nРазработчик, маркетолог, HR\nРаботаю сам на себя, поэтому приходится заниматься всем, и наймом персонала, и разработкой, и рекламой и еще много-много чем.\nНемного о проекте:\nSwap Swift - сканер арбитражных ситуаций на криптовалютном рынке. Сканер находит ситуации, когда одна и та же монета на разных биржах стоит по разному, и за счет этого появляется возможность заработать на разнице курсов, купив подешвле, продав подороже.\nИспользуется гибридная архитектуру, есть один полноценный монолит и пару сервисов, один для нахождения самих арбитражных ситуаций, а другой для отбора самой криптовалюты.\nИ также есть фронт в виде тг-бота, но на текущий момент веб-версия в разработке.\nСтэк бэк:\n- Python\n- FastAPI\n- PostgresQL\n- Redis\nСтэк тг-бот:\n- Python\n- aiogram\n- Redis\nСтэк фронт:\n- Typescript\n- Next.js\n- TailwindCSS\n- React Query\nМар 2023 -\nФев 2024\n1 год\nОрганизация 3\nFull-stack разработчик\nРабота заключалась в разработке новых и поддержке сущетсвующих приложений.\nПример приложения: https://tmpline.com/ (Django&Next.js)\nСтэк на фронте:\n- React/Next.js, Redux, React Query\n- Typescript\n- HTML, CSS\nСтэк на бэке:\n- Python\n- Django/Flask/FastAPI\n- Postgres",
+    "skills": "Продвинутый уровень\nPython\nDocker\nPostgreSQL\nGit\nDjango Rest Framework\nCelery\nFastAPI\nHTML\nCSS\nREST API\nAPI\nSQL\nDjango Framework\nБазы данных\nREST\nDRF\nАнглийский язык\nJavaScript\nNode.js\nReact\nTypeScript\nСредний уровень\nRedis\nУровень не указан\nLinux\nNginx\nDocker Compose\nFlask\nMySQL\nScrum\nSOLID\nRedux",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "Коммуникативные навыки на высоком уровне. Буду рад любым знакомствам)",
+    "education": "Уровень\nВысшее образование\nВоронежский государственный университет, Воронеж\nПММ, Прикладная информатика\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №64\nРезюме: Software Engineer\n\nСопроводительное письмо\nДобрый день, буду рад знакомству\n\nОпыт работы\nОпыт работы: 3 года 8 месяцев\nОпыт в похожих должностях:2 года 2 месяца\nСен 2024 -\nсейчас\n2 года 2 мес\nОрганизация 1\nМоскваintelion.cloud\nИнформационные технологии, системная интеграция, интернет\nMiddle Fullstack-разработчик\nЗанимался разработкой новых и поддержкой существующих проектов.\nРабота была в большой команде.\nОбязанности:\n- Разработка новых проектов\n- Поддержка существующих проектов\n- Код-ревью\n- Написание юнит-тестов, интеграционных тестов на бэке\nСтэк: Python Djano/FastAPI, Typescript React.js/Next.js, Tailwind/Bootstrap, Redux Toolkit\nЕще было немного Java Spring и Go Echo/Gin\nФев 2024 -\nСен 2024\n8 мес\nОрганизация 2\nt.me/swap_swift_bot\nИнформационные технологии, системная интеграция, интернет\nРазработчик, маркетолог, HR\nРаботаю сам на себя, поэтому приходится заниматься всем, и наймом персонала, и разработкой, и рекламой и еще много-много чем.\nНемного о проекте:\nSwap Swift - сканер арбитражных ситуаций на криптовалютном рынке. Сканер находит ситуации, когда одна и та же монета на разных биржах стоит по разному, и за счет этого появляется возможность заработать на разнице курсов, купив подешвле, продав подороже.\nИспользуется гибридная архитектуру, есть один полноценный монолит и пару сервисов, один для нахождения самих арбитражных ситуаций, а другой для отбора самой криптовалюты.\nИ также есть фронт в виде тг-бота, но на текущий момент веб-версия в разработке.\nСтэк бэк:\n- Python\n- FastAPI\n- PostgresQL\n- Redis\nСтэк тг-бот:\n- Python\n- aiogram\n- Redis\nСтэк фронт:\n- Typescript\n- Next.js\n- TailwindCSS\n- React Query\nМар 2023 -\nФев 2024\n1 год\nОрганизация 3\nFull-stack разработчик\nРабота заключалась в разработке новых и поддержке сущетсвующих приложений.\nПример приложения: https://tmpline.com/ (Django&Next.js)\nСтэк на фронте:\n- React/Next.js, Redux, React Query\n- Typescript\n- HTML, CSS\nСтэк на бэке:\n- Python\n- Django/Flask/FastAPI\n- Postgres\n\nНавыки\nПродвинутый уровень\nPython\nDocker\nPostgreSQL\nGit\nDjango Rest Framework\nCelery\nFastAPI\nHTML\nCSS\nREST API\nAPI\nSQL\nDjango Framework\nБазы данных\nREST\nDRF\nАнглийский язык\nJavaScript\nNode.js\nReact\nTypeScript\nСредний уровень\nRedis\nУровень не указан\nLinux\nNginx\nDocker Compose\nFlask\nMySQL\nScrum\nSOLID\nRedux\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\nКоммуникативные навыки на высоком уровне. Буду рад любым знакомствам)\n\nОбразование\nУровень\nВысшее образование\nВоронежский государственный университет, Воронеж\nПММ, Прикладная информатика\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

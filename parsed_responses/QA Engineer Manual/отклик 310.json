@@ -1,0 +1,177 @@
+{
+  "candidate_id": 310,
+  "resume_title": "Тестировщик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "Тестирование",
+      "level": "basic",
+      "original": "Тестирование"
+    },
+    {
+      "name": "Postman",
+      "level": "basic",
+      "original": "Postman"
+    },
+    {
+      "name": "Java",
+      "level": "basic",
+      "original": "Java"
+    },
+    {
+      "name": "API",
+      "level": "basic",
+      "original": "API"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "Теория тестирование",
+      "level": "basic",
+      "original": "Теория тестирование"
+    },
+    {
+      "name": "Test case",
+      "level": "basic",
+      "original": "Test case"
+    },
+    {
+      "name": "Тест дизайн",
+      "level": "basic",
+      "original": "Тест дизайн"
+    },
+    {
+      "name": "Ручное тестирование",
+      "level": "basic",
+      "original": "Ручное тестирование"
+    },
+    {
+      "name": "Мобильный тестирование",
+      "level": "basic",
+      "original": "Мобильный тестирование"
+    },
+    {
+      "name": "Android studio",
+      "level": "basic",
+      "original": "Android studio"
+    },
+    {
+      "name": "Функциональное тестирование",
+      "level": "basic",
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Нагрузочное тестирование",
+      "level": "basic",
+      "original": "Нагрузочное тестирование"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": "basic",
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "Автоматизационный тестирование",
+      "level": "basic",
+      "original": "Автоматизационный тестирование"
+    },
+    {
+      "name": "Scrum",
+      "level": "basic",
+      "original": "Scrum"
+    },
+    {
+      "name": "Kanban",
+      "level": "basic",
+      "original": "Kanban"
+    },
+    {
+      "name": "JSON",
+      "level": "basic",
+      "original": "JSON"
+    },
+    {
+      "name": "XML",
+      "level": "basic",
+      "original": "XML"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "UI",
+      "level": "basic",
+      "original": "UI"
+    },
+    {
+      "name": "UX",
+      "level": "basic",
+      "original": "UX"
+    },
+    {
+      "name": "1С программирование",
+      "level": "basic",
+      "original": "1С программирование"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Работаю в другой специальности",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "ВТЭК ( Вязниковский технико-экономический колледж)",
+      "details": [
+        "Автомеханик"
+      ],
+      "year": 2020,
+      "level": "Среднее специальное образование",
+      "original": "ВТЭК ( Вязниковский технико-экономический колледж)\nАвтомеханик\n•\n2020\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": null,
+    "driving": null,
+    "self_employment": "Нет",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №310\nРезюме: Тестировщик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Базовый уровень\nSQL\nТестирование\nPostman\nJava\nAPI\nGit\nТеория тестирование\nTest case\nТест дизайн\nРучное тестирование\nМобильный тестирование\nAndroid studio\nФункциональное тестирование\nPostgreSQL\nНагрузочное тестирование\nРегрессионное тестирование\nАвтоматизационный тестирование\nScrum\nKanban\nJSON\nXML\nPython\nUI\nUX\n1С программирование",
+    "languages": "Родной\nРусский",
+    "about_me": "Работаю в другой специальности",
+    "education": "Уровень\nСреднее специальное образование\nВТЭК ( Вязниковский технико-экономический колледж)\nАвтомеханик\n•\n2020\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №310\nРезюме: Тестировщик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nБазовый уровень\nSQL\nТестирование\nPostman\nJava\nAPI\nGit\nТеория тестирование\nTest case\nТест дизайн\nРучное тестирование\nМобильный тестирование\nAndroid studio\nФункциональное тестирование\nPostgreSQL\nНагрузочное тестирование\nРегрессионное тестирование\nАвтоматизационный тестирование\nScrum\nKanban\nJSON\nXML\nPython\nUI\nUX\n1С программирование\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nРаботаю в другой специальности\n\nОбразование\nУровень\nСреднее специальное образование\nВТЭК ( Вязниковский технико-экономический колледж)\nАвтомеханик\n•\n2020\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет\n"
+}

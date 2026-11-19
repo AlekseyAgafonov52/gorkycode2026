@@ -1,0 +1,18 @@
+{
+  "embedded_employer_mentions": 11,
+  "files": 1434,
+  "api_success": 1434,
+  "work_entries": 3571,
+  "skills": 29761,
+  "education_entries": 1840,
+  "with_warnings": 20,
+  "unknown_positions": 20,
+  "unknown_experience": 104,
+  "folders": {
+    "Frontend developer": 99,
+    "Junior Python-разработчик": 430,
+    "Junior UX_UI Дизайнер": 212,
+    "Python-разработчик": 309,
+    "QA Engineer Manual": 384
+  }
+}

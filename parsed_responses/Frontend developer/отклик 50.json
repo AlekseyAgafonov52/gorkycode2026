@@ -1,0 +1,234 @@
+{
+  "candidate_id": 50,
+  "resume_title": "Frontend-разработчик React",
+  "cover_letter": null,
+  "experience_total_months": 92,
+  "similar_experience_months": 92,
+  "work_experience": [
+    {
+      "start_date": "2021-07",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 64,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Краснодар",
+        "Услуги для населения"
+      ],
+      "description": "Работа в scrum-команде в роли Fullstack | Frontend разработчика:\n• Параллельно работал над несколькими крупными проектами.\n• Разработал личный кабинет для корпоративных клиентов, что значительно снизило нагрузку на тех поддержку и вторую линию.\n• Интегрировал API карт (Google, Yandex, Mapbox, 2gis) для отслеживания транспортных средств.\n• Переделал и оптимизировал большую часть legacy-кода, что сократило количество багов на 60%.\n• Интегрировал графики для более точного анализа статистики с помощью Chartjs, что привело к улучшению принятия решений клиентами.\n• Улучшил покрытие тестами текущих проектов до 70%.\n• Имеется опыт работы с бекэндом и его самостоятельная поддержка (NodeJs, php).\n• Участвовал в принятие архитектурных решений.\n• Проводил и участвовал в code-review.\nСтек: HTML, CSS (Scss/Modules/Tailwind), JavaScript, Typescript, React, Redux Toolkit, RTK Query, React-hook-form, axios, socket.io, jira.",
+      "original": "Июл 2021 -\nсейчас\n5 лет 4 мес\nОрганизация 1\nКраснодар\nУслуги для населения\nFrontend-разработчик\nРабота в scrum-команде в роли Fullstack | Frontend разработчика:\n• Параллельно работал над несколькими крупными проектами.\n• Разработал личный кабинет для корпоративных клиентов, что значительно снизило нагрузку на тех поддержку и вторую линию.\n• Интегрировал API карт (Google, Yandex, Mapbox, 2gis) для отслеживания транспортных средств.\n• Переделал и оптимизировал большую часть legacy-кода, что сократило количество багов на 60%.\n• Интегрировал графики для более точного анализа статистики с помощью Chartjs, что привело к улучшению принятия решений клиентами.\n• Улучшил покрытие тестами текущих проектов до 70%.\n• Имеется опыт работы с бекэндом и его самостоятельная поддержка (NodeJs, php).\n• Участвовал в принятие архитектурных решений.\n• Проводил и участвовал в code-review.\nСтек: HTML, CSS (Scss/Modules/Tailwind), JavaScript, Typescript, React, Redux Toolkit, RTK Query, React-hook-form, axios, socket.io, jira."
+    },
+    {
+      "start_date": "2019-03",
+      "end_date": "2021-06",
+      "is_current": false,
+      "duration_months": 28,
+      "organization": "Организация 2",
+      "position": "Fullstack-разработчик",
+      "employer_details": [],
+      "description": "• Разработка адаптивных и отзывчивых интерфейсов с использованием React/Vue/Jquery.\n• Поддержка и оптимизация существующих приложений.\n• Работа с препроцессорами Sass/Scss и с библиотекой Bootstrap для создания модульных стилей.\n• Верстка макетов Figma.\n• Разработка серверной части приложения на Express.js.",
+      "original": "Мар 2019 -\nИюн 2021\n2 года 4 мес\nОрганизация 2\nFullstack-разработчик\n• Разработка адаптивных и отзывчивых интерфейсов с использованием React/Vue/Jquery.\n• Поддержка и оптимизация существующих приложений.\n• Работа с препроцессорами Sass/Scss и с библиотекой Bootstrap для создания модульных стилей.\n• Верстка макетов Figma.\n• Разработка серверной части приложения на Express.js."
+    }
+  ],
+  "skills": [
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "Redux",
+      "level": "advanced",
+      "original": "Redux"
+    },
+    {
+      "name": "Scrum",
+      "level": "advanced",
+      "original": "Scrum"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "Sass",
+      "level": "advanced",
+      "original": "Sass"
+    },
+    {
+      "name": "MOBx",
+      "level": "advanced",
+      "original": "MOBx"
+    },
+    {
+      "name": "Unit",
+      "level": "advanced",
+      "original": "Unit"
+    },
+    {
+      "name": "Node.js",
+      "level": "advanced",
+      "original": "Node.js"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "jira"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "Vue"
+    },
+    {
+      "name": "Vuex",
+      "level": "advanced",
+      "original": "Vuex"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "React Native",
+      "level": "advanced",
+      "original": "React Native"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "Zustand",
+      "level": "advanced",
+      "original": "Zustand"
+    },
+    {
+      "name": "PHP",
+      "level": "advanced",
+      "original": "PHP"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "WebSocket",
+      "level": "advanced",
+      "original": "Web-socket"
+    },
+    {
+      "name": "Webpack",
+      "level": "advanced",
+      "original": "Webpack"
+    },
+    {
+      "name": "Web3",
+      "level": "advanced",
+      "original": "Web3"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Я опытный Frontend-разработчик с глубокими знаниями React и современного веб-стека, умеющий работать в команде.\nАктивно занимаюсь самообразованием и стремлюсь развиваться в профессии.\nИмею аналитический склад ума, люблю решать сложные задачи и доводить проекты до совершенства.\ntelegram: https://t.me/mrnmiran",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "ККЭП",
+      "details": [
+        "Педагогический, Программирование в компьютерных системах"
+      ],
+      "year": 2021,
+      "level": "Среднее специальное образование",
+      "original": "ККЭП\nПедагогический, Программирование в компьютерных системах\n•\n2021\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №50\nРезюме: Frontend-разработчик React",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 7 лет 8 месяцев\nОпыт в похожих должностях:7 лет 8 месяцев\nИюл 2021 -\nсейчас\n5 лет 4 мес\nОрганизация 1\nКраснодар\nУслуги для населения\nFrontend-разработчик\nРабота в scrum-команде в роли Fullstack | Frontend разработчика:\n• Параллельно работал над несколькими крупными проектами.\n• Разработал личный кабинет для корпоративных клиентов, что значительно снизило нагрузку на тех поддержку и вторую линию.\n• Интегрировал API карт (Google, Yandex, Mapbox, 2gis) для отслеживания транспортных средств.\n• Переделал и оптимизировал большую часть legacy-кода, что сократило количество багов на 60%.\n• Интегрировал графики для более точного анализа статистики с помощью Chartjs, что привело к улучшению принятия решений клиентами.\n• Улучшил покрытие тестами текущих проектов до 70%.\n• Имеется опыт работы с бекэндом и его самостоятельная поддержка (NodeJs, php).\n• Участвовал в принятие архитектурных решений.\n• Проводил и участвовал в code-review.\nСтек: HTML, CSS (Scss/Modules/Tailwind), JavaScript, Typescript, React, Redux Toolkit, RTK Query, React-hook-form, axios, socket.io, jira.\nМар 2019 -\nИюн 2021\n2 года 4 мес\nОрганизация 2\nFullstack-разработчик\n• Разработка адаптивных и отзывчивых интерфейсов с использованием React/Vue/Jquery.\n• Поддержка и оптимизация существующих приложений.\n• Работа с препроцессорами Sass/Scss и с библиотекой Bootstrap для создания модульных стилей.\n• Верстка макетов Figma.\n• Разработка серверной части приложения на Express.js.",
+    "skills": "Продвинутый уровень\nTypeScript\nJavaScript\nReact\nRedux\nScrum\nООП\nGit\nHTML\nCSS\nSass\nMOBx\nUnit\nNode.js\nSQL\njira\nVue\nVuex\nNginx\nDocker\nREST API\nReact Native\nАнглийский язык\nZustand\nPHP\nMongoDB\nPostgreSQL\nAgile\nWeb-socket\nWebpack\nWeb3",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Я опытный Frontend-разработчик с глубокими знаниями React и современного веб-стека, умеющий работать в команде.\nАктивно занимаюсь самообразованием и стремлюсь развиваться в профессии.\nИмею аналитический склад ума, люблю решать сложные задачи и доводить проекты до совершенства.\ntelegram: https://t.me/mrnmiran",
+    "education": "Уровень\nСреднее специальное образование\nККЭП\nПедагогический, Программирование в компьютерных системах\n•\n2021\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №50\nРезюме: Frontend-разработчик React\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 7 лет 8 месяцев\nОпыт в похожих должностях:7 лет 8 месяцев\nИюл 2021 -\nсейчас\n5 лет 4 мес\nОрганизация 1\nКраснодар\nУслуги для населения\nFrontend-разработчик\nРабота в scrum-команде в роли Fullstack | Frontend разработчика:\n• Параллельно работал над несколькими крупными проектами.\n• Разработал личный кабинет для корпоративных клиентов, что значительно снизило нагрузку на тех поддержку и вторую линию.\n• Интегрировал API карт (Google, Yandex, Mapbox, 2gis) для отслеживания транспортных средств.\n• Переделал и оптимизировал большую часть legacy-кода, что сократило количество багов на 60%.\n• Интегрировал графики для более точного анализа статистики с помощью Chartjs, что привело к улучшению принятия решений клиентами.\n• Улучшил покрытие тестами текущих проектов до 70%.\n• Имеется опыт работы с бекэндом и его самостоятельная поддержка (NodeJs, php).\n• Участвовал в принятие архитектурных решений.\n• Проводил и участвовал в code-review.\nСтек: HTML, CSS (Scss/Modules/Tailwind), JavaScript, Typescript, React, Redux Toolkit, RTK Query, React-hook-form, axios, socket.io, jira.\nМар 2019 -\nИюн 2021\n2 года 4 мес\nОрганизация 2\nFullstack-разработчик\n• Разработка адаптивных и отзывчивых интерфейсов с использованием React/Vue/Jquery.\n• Поддержка и оптимизация существующих приложений.\n• Работа с препроцессорами Sass/Scss и с библиотекой Bootstrap для создания модульных стилей.\n• Верстка макетов Figma.\n• Разработка серверной части приложения на Express.js.\n\nНавыки\nПродвинутый уровень\nTypeScript\nJavaScript\nReact\nRedux\nScrum\nООП\nGit\nHTML\nCSS\nSass\nMOBx\nUnit\nNode.js\nSQL\njira\nVue\nVuex\nNginx\nDocker\nREST API\nReact Native\nАнглийский язык\nZustand\nPHP\nMongoDB\nPostgreSQL\nAgile\nWeb-socket\nWebpack\nWeb3\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nЯ опытный Frontend-разработчик с глубокими знаниями React и современного веб-стека, умеющий работать в команде.\nАктивно занимаюсь самообразованием и стремлюсь развиваться в профессии.\nИмею аналитический склад ума, люблю решать сложные задачи и доводить проекты до совершенства.\ntelegram: https://t.me/mrnmiran\n\nОбразование\nУровень\nСреднее специальное образование\nККЭП\nПедагогический, Программирование в компьютерных системах\n•\n2021\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

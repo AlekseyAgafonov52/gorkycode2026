@@ -1,0 +1,167 @@
+{
+  "candidate_id": 361,
+  "resume_title": "Тестировщик ПО",
+  "cover_letter": null,
+  "experience_total_months": 255,
+  "similar_experience_months": 255,
+  "work_experience": [
+    {
+      "start_date": "2026-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 9,
+      "organization": "Организация 1",
+      "position": "Инженер по автоматизированному тестированию",
+      "employer_details": [],
+      "description": "Telcore company, LTE Core Department\nProject Info:\nThe solutions provide LTE Core functionality.\nTest Automation Engineer (Java)\nResponsibilities:\n- Automatic tests creation and support\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Troubleshooting\n- Helping on hot issues and escalations resolving\n- Automatic testing scenarios execution and writing basing on Java\nTechnologies: Java, Youtrack, Git, Gitlab\nQA: Telcore side\nProject Result: Ongoing Design and Customer Support, Test results for new features was approved by customer and these features were successfully integrated.",
+      "original": "Фев 2026 -\nсейчас\n9 мес\nОрганизация 1\nИнженер по автоматизированному тестированию\nTelcore company, LTE Core Department\nProject Info:\nThe solutions provide LTE Core functionality.\nTest Automation Engineer (Java)\nResponsibilities:\n- Automatic tests creation and support\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Troubleshooting\n- Helping on hot issues and escalations resolving\n- Automatic testing scenarios execution and writing basing on Java\nTechnologies: Java, Youtrack, Git, Gitlab\nQA: Telcore side\nProject Result: Ongoing Design and Customer Support, Test results for new features was approved by customer and these features were successfully integrated."
+    },
+    {
+      "start_date": "2003-02",
+      "end_date": "2023-07",
+      "is_current": false,
+      "duration_months": 246,
+      "organization": "Организация 2",
+      "position": "Инженер по тестированию",
+      "employer_details": [
+        "Нижний Новгород"
+      ],
+      "description": "Dec 2018 – July 2023\nMera NN, Telephony and messaging solutions\nProject Info:\nThe solutions allow hospitals and other organizations to perform messaging and calls without traditional telephony. Furthermore, additional features for example WinPDM are included into the service package.\nFeatures:\n- WinPDM\n- WinBK\nTest Engineer\nResponsibilities:\n- Regression testing\n- Performance Testing\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Troubleshooting\n- Helping on hot issues and escalations resolving\n- Automatic testing scenarios execution and writing basing on Pyton\nTechnologies: Jira, Spira\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated\nMar 2015 – Dec 2018\nMera NN, Cloud base telephony solutions\nProject Info:\nThe solutions allow customers to perform calls without traditional telephony. Furthermore, additional features for example Home Monitoring are included into the service package.\nFeatures:\n- VM limits\n- VM DropBox\n- Push notifications\n- Home monitoring\nTest Engineer\nResponsibilities:\n- Sanity testing, regression testing, load testing\n- Performance Testing\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Testing lab management\n- Troubleshooting\n- Helping on hot issues and escalations resolving\nTechnologies: MS Windows, Bugzilla, Jira\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated\nJune 2014 – Mar 2015\nMera NN, Media Streaming\nProject Info:\nContact Center is a context-sensitive, collaborative, voice and multichannel customer experience management solution that allows businesses to manage all types of customer interactions through a unified application.\nFeatures:\n- Agent Desktop\n- Multichannel\n- Multiple call handling\n- Offsite Agent solution allows contact center agents to work from any remote location whether that be a home or via a mobile phone\n- Granular and customizable real-time and historical reporting for voice and multichannel.\nTest Engineer\nResponsibilities:\n- Sanity testing, regression testing, load testing\n- Testing of capacity – how many users calls view Media Stream\n- Creating scripts on Linux shell for test automation\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Testing lab management\n- Daily scrum meetings, international team\n- Sprint planning, providing estimates for testing activities\n- Troubleshooting\n- Helping on hot issues and escalations resolving\nTechnologies: IBM Rational ClearQuest, MS Windows\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated in GA release\nOctober 2009 – June 2014\nMera NN, IP Client\nProject Info:\nCommunicator provides anywhere access to unified communications capabilities, bringing together voice calling, audio conferencing, corporate directories, and communication logs into one solution, easy-to-use on a desktop or laptop.\nFeatures:\n- Intelligent presence\n- Instant messaging\n- High definition point-to-point video conferencing\n- Call control, Contact management\n- Support for H.323 and SIP endpoints\nTest Engineer\nTesting (Test Plan Creation, Lab Setup, Sanity and Regression Testing, Bugfixes Verification)\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Jira, Bamboo, ClearQuest\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, New features were approved by Technical Management\nFeb 2008 – October 2009\nMera NN, Telephony solutions\nProject Info:\nThe project was related with CS1K system.\nFeatures:\n- Automatic installation using JumpStart technology\n- Many telephony features\n- Support for H.323 and SIP endpoints\nTest Engineer\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Quality center, Clarify\nMarch 2003 – Feb 2008\nMera NN, GSM solutions, GSM OAM project\nProject Info:\nThe project was related with OMC-R software. OMC-R can monitor GSM base stations BSC and BTS.\nFeatures:\n- Automatic installation using JumpStart technology\n- Many GSM features\n- Support simulator for BSC and BTS\nTest Engineer\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Quality center, Clarify",
+      "original": "Фев 2003 -\nИюл 2023\n20 лет 6 мес\nОрганизация 2\nНижний Новгород\nИнженер по тестированию\nDec 2018 – July 2023\nMera NN, Telephony and messaging solutions\nProject Info:\nThe solutions allow hospitals and other organizations to perform messaging and calls without traditional telephony. Furthermore, additional features for example WinPDM are included into the service package.\nFeatures:\n- WinPDM\n- WinBK\nTest Engineer\nResponsibilities:\n- Regression testing\n- Performance Testing\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Troubleshooting\n- Helping on hot issues and escalations resolving\n- Automatic testing scenarios execution and writing basing on Pyton\nTechnologies: Jira, Spira\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated\nMar 2015 – Dec 2018\nMera NN, Cloud base telephony solutions\nProject Info:\nThe solutions allow customers to perform calls without traditional telephony. Furthermore, additional features for example Home Monitoring are included into the service package.\nFeatures:\n- VM limits\n- VM DropBox\n- Push notifications\n- Home monitoring\nTest Engineer\nResponsibilities:\n- Sanity testing, regression testing, load testing\n- Performance Testing\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Testing lab management\n- Troubleshooting\n- Helping on hot issues and escalations resolving\nTechnologies: MS Windows, Bugzilla, Jira\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated\nJune 2014 – Mar 2015\nMera NN, Media Streaming\nProject Info:\nContact Center is a context-sensitive, collaborative, voice and multichannel customer experience management solution that allows businesses to manage all types of customer interactions through a unified application.\nFeatures:\n- Agent Desktop\n- Multichannel\n- Multiple call handling\n- Offsite Agent solution allows contact center agents to work from any remote location whether that be a home or via a mobile phone\n- Granular and customizable real-time and historical reporting for voice and multichannel.\nTest Engineer\nResponsibilities:\n- Sanity testing, regression testing, load testing\n- Testing of capacity – how many users calls view Media Stream\n- Creating scripts on Linux shell for test automation\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Testing lab management\n- Daily scrum meetings, international team\n- Sprint planning, providing estimates for testing activities\n- Troubleshooting\n- Helping on hot issues and escalations resolving\nTechnologies: IBM Rational ClearQuest, MS Windows\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated in GA release\nOctober 2009 – June 2014\nMera NN, IP Client\nProject Info:\nCommunicator provides anywhere access to unified communications capabilities, bringing together voice calling, audio conferencing, corporate directories, and communication logs into one solution, easy-to-use on a desktop or laptop.\nFeatures:\n- Intelligent presence\n- Instant messaging\n- High definition point-to-point video conferencing\n- Call control, Contact management\n- Support for H.323 and SIP endpoints\nTest Engineer\nTesting (Test Plan Creation, Lab Setup, Sanity and Regression Testing, Bugfixes Verification)\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Jira, Bamboo, ClearQuest\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, New features were approved by Technical Management\nFeb 2008 – October 2009\nMera NN, Telephony solutions\nProject Info:\nThe project was related with CS1K system.\nFeatures:\n- Automatic installation using JumpStart technology\n- Many telephony features\n- Support for H.323 and SIP endpoints\nTest Engineer\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Quality center, Clarify\nMarch 2003 – Feb 2008\nMera NN, GSM solutions, GSM OAM project\nProject Info:\nThe project was related with OMC-R software. OMC-R can monitor GSM base stations BSC and BTS.\nFeatures:\n- Automatic installation using JumpStart technology\n- Many GSM features\n- Support simulator for BSC and BTS\nTest Engineer\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Quality center, Clarify"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Функциональное тестирование",
+      "level": "advanced",
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Тестирование",
+      "level": "advanced",
+      "original": "Тестирование"
+    },
+    {
+      "name": "Проведение тестирований",
+      "level": "advanced",
+      "original": "Проведение тестирований"
+    },
+    {
+      "name": "Аналитическое мышление",
+      "level": "advanced",
+      "original": "Аналитическое мышление"
+    },
+    {
+      "name": "Математический анализ",
+      "level": "advanced",
+      "original": "Математический анализ"
+    },
+    {
+      "name": "Тестирование пользовательского интерфейса",
+      "level": "intermediate",
+      "original": "Тестирование пользовательского интерфейса"
+    },
+    {
+      "name": "Разработка технических заданий",
+      "level": "intermediate",
+      "original": "Разработка технических заданий"
+    },
+    {
+      "name": "Деловое общение",
+      "level": "intermediate",
+      "original": "Деловое общение"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Jira",
+      "level": "intermediate",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "Java",
+      "level": "intermediate",
+      "original": "Java"
+    },
+    {
+      "name": "Администрирование",
+      "level": "intermediate",
+      "original": "Администрирование"
+    },
+    {
+      "name": "Тестирование мобильных приложений",
+      "level": "intermediate",
+      "original": "Тестирование мобильных приложений"
+    },
+    {
+      "name": "Bash",
+      "level": "intermediate",
+      "original": "Bash"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Графические редакторы",
+      "level": "intermediate",
+      "original": "Графические редакторы"
+    },
+    {
+      "name": "Умение работать в коллективе",
+      "level": "intermediate",
+      "original": "Умение работать в коллективе"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Национальный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород",
+      "details": [
+        "Радиофизический факультет, Радиофизика и электроника"
+      ],
+      "year": 1984,
+      "level": "Высшее образование",
+      "original": "Национальный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nРадиофизический факультет, Радиофизика и электроника\n•\n1984\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №361\nРезюме: Тестировщик ПО",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 21 год 3 месяца\nОпыт в похожих должностях:21 год 3 месяца\nФев 2026 -\nсейчас\n9 мес\nОрганизация 1\nИнженер по автоматизированному тестированию\nTelcore company, LTE Core Department\nProject Info:\nThe solutions provide LTE Core functionality.\nTest Automation Engineer (Java)\nResponsibilities:\n- Automatic tests creation and support\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Troubleshooting\n- Helping on hot issues and escalations resolving\n- Automatic testing scenarios execution and writing basing on Java\nTechnologies: Java, Youtrack, Git, Gitlab\nQA: Telcore side\nProject Result: Ongoing Design and Customer Support, Test results for new features was approved by customer and these features were successfully integrated.\nФев 2003 -\nИюл 2023\n20 лет 6 мес\nОрганизация 2\nНижний Новгород\nИнженер по тестированию\nDec 2018 – July 2023\nMera NN, Telephony and messaging solutions\nProject Info:\nThe solutions allow hospitals and other organizations to perform messaging and calls without traditional telephony. Furthermore, additional features for example WinPDM are included into the service package.\nFeatures:\n- WinPDM\n- WinBK\nTest Engineer\nResponsibilities:\n- Regression testing\n- Performance Testing\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Troubleshooting\n- Helping on hot issues and escalations resolving\n- Automatic testing scenarios execution and writing basing on Pyton\nTechnologies: Jira, Spira\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated\nMar 2015 – Dec 2018\nMera NN, Cloud base telephony solutions\nProject Info:\nThe solutions allow customers to perform calls without traditional telephony. Furthermore, additional features for example Home Monitoring are included into the service package.\nFeatures:\n- VM limits\n- VM DropBox\n- Push notifications\n- Home monitoring\nTest Engineer\nResponsibilities:\n- Sanity testing, regression testing, load testing\n- Performance Testing\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Testing lab management\n- Troubleshooting\n- Helping on hot issues and escalations resolving\nTechnologies: MS Windows, Bugzilla, Jira\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated\nJune 2014 – Mar 2015\nMera NN, Media Streaming\nProject Info:\nContact Center is a context-sensitive, collaborative, voice and multichannel customer experience management solution that allows businesses to manage all types of customer interactions through a unified application.\nFeatures:\n- Agent Desktop\n- Multichannel\n- Multiple call handling\n- Offsite Agent solution allows contact center agents to work from any remote location whether that be a home or via a mobile phone\n- Granular and customizable real-time and historical reporting for voice and multichannel.\nTest Engineer\nResponsibilities:\n- Sanity testing, regression testing, load testing\n- Testing of capacity – how many users calls view Media Stream\n- Creating scripts on Linux shell for test automation\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Testing lab management\n- Daily scrum meetings, international team\n- Sprint planning, providing estimates for testing activities\n- Troubleshooting\n- Helping on hot issues and escalations resolving\nTechnologies: IBM Rational ClearQuest, MS Windows\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated in GA release\nOctober 2009 – June 2014\nMera NN, IP Client\nProject Info:\nCommunicator provides anywhere access to unified communications capabilities, bringing together voice calling, audio conferencing, corporate directories, and communication logs into one solution, easy-to-use on a desktop or laptop.\nFeatures:\n- Intelligent presence\n- Instant messaging\n- High definition point-to-point video conferencing\n- Call control, Contact management\n- Support for H.323 and SIP endpoints\nTest Engineer\nTesting (Test Plan Creation, Lab Setup, Sanity and Regression Testing, Bugfixes Verification)\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Jira, Bamboo, ClearQuest\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, New features were approved by Technical Management\nFeb 2008 – October 2009\nMera NN, Telephony solutions\nProject Info:\nThe project was related with CS1K system.\nFeatures:\n- Automatic installation using JumpStart technology\n- Many telephony features\n- Support for H.323 and SIP endpoints\nTest Engineer\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Quality center, Clarify\nMarch 2003 – Feb 2008\nMera NN, GSM solutions, GSM OAM project\nProject Info:\nThe project was related with OMC-R software. OMC-R can monitor GSM base stations BSC and BTS.\nFeatures:\n- Automatic installation using JumpStart technology\n- Many GSM features\n- Support simulator for BSC and BTS\nTest Engineer\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Quality center, Clarify",
+    "skills": "Продвинутый уровень\nФункциональное тестирование\nLinux\nТестирование\nПроведение тестирований\nАналитическое мышление\nМатематический анализ\nСредний уровень\nТестирование пользовательского интерфейса\nРазработка технических заданий\nДеловое общение\nPostgreSQL\nAtlassian Jira\nJava\nАдминистрирование\nТестирование мобильных приложений\nBash\nREST API\nГрафические редакторы\nУмение работать в коллективе",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nНациональный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nРадиофизический факультет, Радиофизика и электроника\n•\n1984\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №361\nРезюме: Тестировщик ПО\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 21 год 3 месяца\nОпыт в похожих должностях:21 год 3 месяца\nФев 2026 -\nсейчас\n9 мес\nОрганизация 1\nИнженер по автоматизированному тестированию\nTelcore company, LTE Core Department\nProject Info:\nThe solutions provide LTE Core functionality.\nTest Automation Engineer (Java)\nResponsibilities:\n- Automatic tests creation and support\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Troubleshooting\n- Helping on hot issues and escalations resolving\n- Automatic testing scenarios execution and writing basing on Java\nTechnologies: Java, Youtrack, Git, Gitlab\nQA: Telcore side\nProject Result: Ongoing Design and Customer Support, Test results for new features was approved by customer and these features were successfully integrated.\nФев 2003 -\nИюл 2023\n20 лет 6 мес\nОрганизация 2\nНижний Новгород\nИнженер по тестированию\nDec 2018 – July 2023\nMera NN, Telephony and messaging solutions\nProject Info:\nThe solutions allow hospitals and other organizations to perform messaging and calls without traditional telephony. Furthermore, additional features for example WinPDM are included into the service package.\nFeatures:\n- WinPDM\n- WinBK\nTest Engineer\nResponsibilities:\n- Regression testing\n- Performance Testing\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Troubleshooting\n- Helping on hot issues and escalations resolving\n- Automatic testing scenarios execution and writing basing on Pyton\nTechnologies: Jira, Spira\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated\nMar 2015 – Dec 2018\nMera NN, Cloud base telephony solutions\nProject Info:\nThe solutions allow customers to perform calls without traditional telephony. Furthermore, additional features for example Home Monitoring are included into the service package.\nFeatures:\n- VM limits\n- VM DropBox\n- Push notifications\n- Home monitoring\nTest Engineer\nResponsibilities:\n- Sanity testing, regression testing, load testing\n- Performance Testing\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Testing lab management\n- Troubleshooting\n- Helping on hot issues and escalations resolving\nTechnologies: MS Windows, Bugzilla, Jira\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated\nJune 2014 – Mar 2015\nMera NN, Media Streaming\nProject Info:\nContact Center is a context-sensitive, collaborative, voice and multichannel customer experience management solution that allows businesses to manage all types of customer interactions through a unified application.\nFeatures:\n- Agent Desktop\n- Multichannel\n- Multiple call handling\n- Offsite Agent solution allows contact center agents to work from any remote location whether that be a home or via a mobile phone\n- Granular and customizable real-time and historical reporting for voice and multichannel.\nTest Engineer\nResponsibilities:\n- Sanity testing, regression testing, load testing\n- Testing of capacity – how many users calls view Media Stream\n- Creating scripts on Linux shell for test automation\n- Grey-box testing\n- Bugs searching and reporting, verification of results\n- Test plan design\n- Testing lab management\n- Daily scrum meetings, international team\n- Sprint planning, providing estimates for testing activities\n- Troubleshooting\n- Helping on hot issues and escalations resolving\nTechnologies: IBM Rational ClearQuest, MS Windows\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, Testing strategy for new features was approved by customer and these features were successfully integrated in GA release\nOctober 2009 – June 2014\nMera NN, IP Client\nProject Info:\nCommunicator provides anywhere access to unified communications capabilities, bringing together voice calling, audio conferencing, corporate directories, and communication logs into one solution, easy-to-use on a desktop or laptop.\nFeatures:\n- Intelligent presence\n- Instant messaging\n- High definition point-to-point video conferencing\n- Call control, Contact management\n- Support for H.323 and SIP endpoints\nTest Engineer\nTesting (Test Plan Creation, Lab Setup, Sanity and Regression Testing, Bugfixes Verification)\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Jira, Bamboo, ClearQuest\nQA: Mera side\nProject Result: Ongoing Design and Customer Support, New features were approved by Technical Management\nFeb 2008 – October 2009\nMera NN, Telephony solutions\nProject Info:\nThe project was related with CS1K system.\nFeatures:\n- Automatic installation using JumpStart technology\n- Many telephony features\n- Support for H.323 and SIP endpoints\nTest Engineer\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Quality center, Clarify\nMarch 2003 – Feb 2008\nMera NN, GSM solutions, GSM OAM project\nProject Info:\nThe project was related with OMC-R software. OMC-R can monitor GSM base stations BSC and BTS.\nFeatures:\n- Automatic installation using JumpStart technology\n- Many GSM features\n- Support simulator for BSC and BTS\nTest Engineer\nResponsibilities:\n- Sanity testing\n- Regression testing\n- Software issues investigation and documenting\n- Bugfixes verification\n- Technical documentation design and maintenance\n- Installation of software for new equipment\n- Daily meetings with local testing team\nTechnologies: Quality center, Clarify\n\nНавыки\nПродвинутый уровень\nФункциональное тестирование\nLinux\nТестирование\nПроведение тестирований\nАналитическое мышление\nМатематический анализ\nСредний уровень\nТестирование пользовательского интерфейса\nРазработка технических заданий\nДеловое общение\nPostgreSQL\nAtlassian Jira\nJava\nАдминистрирование\nТестирование мобильных приложений\nBash\nREST API\nГрафические редакторы\nУмение работать в коллективе\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nНациональный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nРадиофизический факультет, Радиофизика и электроника\n•\n1984\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

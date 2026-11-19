@@ -1,0 +1,184 @@
+{
+  "candidate_id": 41,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": "Здраствуйте!\nМеня зовут Новиков Павел, я Frontend-разработчик (React/TypeScript) с\n1 годом интенсивного самообучения с практической реализацией проектов.\nКлючевые технологии:\nFrontend: React, TypeScript, Redux Toolkit, React Router, Vite, SCSS/CSS Modules\nBackend: Node.js, Express\nИнструменты: Git, GitHub, Netlify, Render, Telegram Bot API,ESLint + Prettier,Webpack, npm/yarn\nЯзыки: JavaScript (ES6+), TypeScript, HTML5, CSS3\nПортфолио проектов:\n1. Sobes-Front-Bot (Node.js + Express)\nДемо: https://t.me/SobesFrontBot | Код: https://github.com/PaShoX/Sobes-Front-Bot\nЧат-бот для подготовки к frontend-собеседованиям с базой 100+ вопросов\nРеализовано:\n✓ Динамические inline-клавиатуры\n✓ Вебхук-интеграцию через Express\n✓ Локальное хранение вопросов в структурированном JSON-формате\n✓ Простота добавления новых тем\nНастроил:\n✓ Логирование ошибок GrammyError/HttpError\n2. Pizza App (React/TypeScript/Redux Toolkit)\nДемо: [https://pizza-app-pashox.netlify.app/auth/login] | Код: https://github.com/PaShoX/Pizza-app\nОнлайн-пиццерия с полным циклом заказа\nSPA-приложение для выбора, фильтрации и заказа пицц с адаптивным интерфейсом и системой авторизации.\nРешённые задачи:\n✓ Оптимизация SPA-роутинга на Netlify(добавлен /_redirects файл, чтобы все маршруты возвращали index.html, предотвращая ошибки 404 при обновлении страницы)\n✓ Фильтрация по категориям\n✓ Добавление/удаление позиций,изменение количества,расчет итоговой суммы\n✓ Страницы входа и регистрации с валидацией форм\n✓ Хранение данных пользователя\n✓ Система оформления заказа\n3. Personal Journal (React/JS)\nКод: https://github.com/PaShoX/Personal-Journal\nПриложение для ведения дневника с аутентификацией\nОсобенности:\n✓ useReducer — для сложного состояния формы\n✓ useContext — для передачи данных между компонентами без пропсов\n✓ localStorage\nПочему я подхожу вашей компании?\nКак разработчик с годом интенсивного самообучения, я фокусируюсь на создании рабочих решений. Мой Pizza App демонстрирует владение React/TypeScript, а Telegram-бот — backend-навыки.Изучаю современные технологии через документацию, курсы (Udemy, YouTube) и создание проектов.Готов принести пользу вашей команде, быстро обучаясь новым технологиям.\nКонтакты:\nEmail: pashok.novikov.2013@mail.ru\nTelegram: @PaShoX1\nGitHub: https://github.com/PaShoX?tab=repositories",
+  "experience_total_months": 179,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2019-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 93,
+      "organization": "Организация 1",
+      "position": "Перевозки, логистика, склад, ВЭД",
+      "employer_details": [
+        "www.rzd.ru"
+      ],
+      "description": "Контролер состояния железнодорожного пути\nСледил за безопасностью и исправностью всех элементов железнодорожной инфраструктуры. Проверял железнодорожные пути, путевые перекрестки, светофоры, стрелки и многое другое, чтобы убедиться, что все функционирует правильно.",
+      "original": "Фев 2019 -\nсейчас\n7 лет 9 мес\nОрганизация 1\nwww.rzd.ru\nПеревозки, логистика, склад, ВЭД\nКонтролер состояния железнодорожного пути\nСледил за безопасностью и исправностью всех элементов железнодорожной инфраструктуры. Проверял железнодорожные пути, путевые перекрестки, светофоры, стрелки и многое другое, чтобы убедиться, что все функционирует правильно."
+    },
+    {
+      "start_date": "2011-02",
+      "end_date": "2018-03",
+      "is_current": false,
+      "duration_months": 86,
+      "organization": "Организация 2",
+      "position": "Перевозки, логистика, склад, ВЭД",
+      "employer_details": [
+        "www.rzd.ru"
+      ],
+      "description": "Дефектоскопист\nВедение процесса выявления дефектов в рельсах дефектоскопной тележкой. Детальное обследование и проведение классификации обнаруженных дефектов и повреждений рельсов, контроль за развитием дефектов, их регистрация и в не обходимых случаях принятие мер по обеспечению безопасности движения поездов.",
+      "original": "Фев 2011 -\nМар 2018\n7 лет 2 мес\nОрганизация 2\nwww.rzd.ru\nПеревозки, логистика, склад, ВЭД\nДефектоскопист\nВедение процесса выявления дефектов в рельсах дефектоскопной тележкой. Детальное обследование и проведение классификации обнаруженных дефектов и повреждений рельсов, контроль за развитием дефектов, их регистрация и в не обходимых случаях принятие мер по обеспечению безопасности движения поездов."
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "Js"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML5"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS3"
+    },
+    {
+      "name": "Sass",
+      "level": "intermediate",
+      "original": "Sass"
+    },
+    {
+      "name": "SCSS",
+      "level": "intermediate",
+      "original": "Scss"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "React",
+      "level": "intermediate",
+      "original": "ReactJS"
+    },
+    {
+      "name": "Webpack",
+      "level": "intermediate",
+      "original": "Webpack"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "React",
+      "level": "basic",
+      "original": "React"
+    },
+    {
+      "name": "REST API",
+      "level": "basic",
+      "original": "REST API"
+    },
+    {
+      "name": "Node.js",
+      "level": "basic",
+      "original": "Node.js"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "basic",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "TypeScript",
+      "level": "basic",
+      "original": "TypeScript"
+    },
+    {
+      "name": "Redux",
+      "level": "basic",
+      "original": "Redux"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A1",
+      "description": "Начальный",
+      "original": "Английский — A1 — Начальный"
+    }
+  ],
+  "about_me": "Здраствуйте!\nМеня зовут Новиков Павел, я Frontend-разработчик (React/TypeScript) с\n1 годом интенсивного самообучения с практической реализацией проектов.\nКлючевые технологии:\nFrontend: React, TypeScript, Redux Toolkit, React Router, Vite, SCSS/CSS Modules\nBackend: Node.js, Express\nИнструменты: Git, GitHub, Netlify, Render, Telegram Bot API,ESLint + Prettier,Webpack, npm/yarn\nЯзыки: JavaScript (ES6+), TypeScript, HTML5, CSS3\nПортфолио проектов:\n1. Sobes-Front-Bot (Node.js + Express)\nДемо: https://t.me/SobesFrontBot | Код: https://github.com/PaShoX/Sobes-Front-Bot\nЧат-бот для подготовки к frontend-собеседованиям с базой 100+ вопросов\nРеализовано:\n✓ Динамические inline-клавиатуры\n✓ Вебхук-интеграцию через Express\n✓ Локальное хранение вопросов в структурированном JSON-формате\n✓ Простота добавления новых тем\nНастроил:\n✓ Логирование ошибок GrammyError/HttpError\n2. Pizza App (React/TypeScript/Redux Toolkit)\nДемо: [https://pizza-app-pashox.netlify.app/auth/login] | Код: https://github.com/PaShoX/Pizza-app\nОнлайн-пиццерия с полным циклом заказа\nSPA-приложение для выбора, фильтрации и заказа пицц с адаптивным интерфейсом и системой авторизации.\nРешённые задачи:\n✓ Оптимизация SPA-роутинга на Netlify(добавлен /_redirects файл, чтобы все маршруты возвращали index.html, предотвращая ошибки 404 при обновлении страницы)\n✓ Фильтрация по категориям\n✓ Добавление/удаление позиций,изменение количества,расчет итоговой суммы\n✓ Страницы входа и регистрации с валидацией форм\n✓ Хранение данных пользователя\n✓ Система оформления заказа\n3. Personal Journal (React/JS)\nКод: https://github.com/PaShoX/Personal-Journal\nПриложение для ведения дневника с аутентификацией\nОсобенности:\n✓ useReducer — для сложного состояния формы\n✓ useContext — для передачи данных между компонентами без пропсов\n✓ localStorage\nПочему я подхожу вашей компании?\nКак разработчик с годом интенсивного самообучения, я фокусируюсь на создании рабочих решений. Мой Pizza App демонстрирует владение React/TypeScript, а Telegram-бот — backend-навыки.Изучаю современные технологии через документацию, курсы (Udemy, YouTube) и создание проектов.Готов принести пользу вашей команде, быстро обучаясь новым технологиям.\nКонтакты:\nEmail: pashok.novikov.2013@mail.ru\nTelegram: @PaShoX1\nGitHub: https://github.com/PaShoX?tab=repositories",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Частное образовательное учреждение дополнительного профессионального образования «Единый Центр Профессиональной Подготовки»",
+      "details": [
+        "Строительство железных дорог, путь и путевое хозяйство (инженер путей сообщения)"
+      ],
+      "year": 2024,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Частное образовательное учреждение дополнительного профессионального образования «Единый Центр Профессиональной Подготовки»\nСтроительство железных дорог, путь и путевое хозяйство (инженер путей сообщения)\n•\n2024\n•\nВысшее образование (Бакалавр)"
+    },
+    {
+      "institution": "Филиал Московского гуманитарно-экономического института, Тверь",
+      "details": [
+        "Юридический, Юриспруденция (бакалавр юриспруденции)"
+      ],
+      "year": 2019,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Филиал Московского гуманитарно-экономического института, Тверь\nЮридический, Юриспруденция (бакалавр юриспруденции)\n•\n2019\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Нет своей машины, права категории B\nКомментарии\nИстория\nFrontend developer (Нижний Новгород)",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №41\nРезюме: Frontend-разработчик",
+    "cover_letter": "Здраствуйте!\nМеня зовут Новиков Павел, я Frontend-разработчик (React/TypeScript) с\n1 годом интенсивного самообучения с практической реализацией проектов.\nКлючевые технологии:\nFrontend: React, TypeScript, Redux Toolkit, React Router, Vite, SCSS/CSS Modules\nBackend: Node.js, Express\nИнструменты: Git, GitHub, Netlify, Render, Telegram Bot API,ESLint + Prettier,Webpack, npm/yarn\nЯзыки: JavaScript (ES6+), TypeScript, HTML5, CSS3\nПортфолио проектов:\n1. Sobes-Front-Bot (Node.js + Express)\nДемо: https://t.me/SobesFrontBot | Код: https://github.com/PaShoX/Sobes-Front-Bot\nЧат-бот для подготовки к frontend-собеседованиям с базой 100+ вопросов\nРеализовано:\n✓ Динамические inline-клавиатуры\n✓ Вебхук-интеграцию через Express\n✓ Локальное хранение вопросов в структурированном JSON-формате\n✓ Простота добавления новых тем\nНастроил:\n✓ Логирование ошибок GrammyError/HttpError\n2. Pizza App (React/TypeScript/Redux Toolkit)\nДемо: [https://pizza-app-pashox.netlify.app/auth/login] | Код: https://github.com/PaShoX/Pizza-app\nОнлайн-пиццерия с полным циклом заказа\nSPA-приложение для выбора, фильтрации и заказа пицц с адаптивным интерфейсом и системой авторизации.\nРешённые задачи:\n✓ Оптимизация SPA-роутинга на Netlify(добавлен /_redirects файл, чтобы все маршруты возвращали index.html, предотвращая ошибки 404 при обновлении страницы)\n✓ Фильтрация по категориям\n✓ Добавление/удаление позиций,изменение количества,расчет итоговой суммы\n✓ Страницы входа и регистрации с валидацией форм\n✓ Хранение данных пользователя\n✓ Система оформления заказа\n3. Personal Journal (React/JS)\nКод: https://github.com/PaShoX/Personal-Journal\nПриложение для ведения дневника с аутентификацией\nОсобенности:\n✓ useReducer — для сложного состояния формы\n✓ useContext — для передачи данных между компонентами без пропсов\n✓ localStorage\nПочему я подхожу вашей компании?\nКак разработчик с годом интенсивного самообучения, я фокусируюсь на создании рабочих решений. Мой Pizza App демонстрирует владение React/TypeScript, а Telegram-бот — backend-навыки.Изучаю современные технологии через документацию, курсы (Udemy, YouTube) и создание проектов.Готов принести пользу вашей команде, быстро обучаясь новым технологиям.\nКонтакты:\nEmail: pashok.novikov.2013@mail.ru\nTelegram: @PaShoX1\nGitHub: https://github.com/PaShoX?tab=repositories",
+    "experience": "Опыт работы: 14 лет 11 месяцев\nФев 2019 -\nсейчас\n7 лет 9 мес\nОрганизация 1\nwww.rzd.ru\nПеревозки, логистика, склад, ВЭД\nКонтролер состояния железнодорожного пути\nСледил за безопасностью и исправностью всех элементов железнодорожной инфраструктуры. Проверял железнодорожные пути, путевые перекрестки, светофоры, стрелки и многое другое, чтобы убедиться, что все функционирует правильно.\nФев 2011 -\nМар 2018\n7 лет 2 мес\nОрганизация 2\nwww.rzd.ru\nПеревозки, логистика, склад, ВЭД\nДефектоскопист\nВедение процесса выявления дефектов в рельсах дефектоскопной тележкой. Детальное обследование и проведение классификации обнаруженных дефектов и повреждений рельсов, контроль за развитием дефектов, их регистрация и в не обходимых случаях принятие мер по обеспечению безопасности движения поездов.",
+    "skills": "Средний уровень\nJs\nHTML5\nCSS3\nSass\nScss\nGit\nGitHub\nReactJS\nWebpack\nJavaScript\nБазовый уровень\nSQL\nReact\nREST API\nNode.js\nDocker\nDocker-compose\nTypeScript\nRedux",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A1 — Начальный",
+    "about_me": "Здраствуйте!\nМеня зовут Новиков Павел, я Frontend-разработчик (React/TypeScript) с\n1 годом интенсивного самообучения с практической реализацией проектов.\nКлючевые технологии:\nFrontend: React, TypeScript, Redux Toolkit, React Router, Vite, SCSS/CSS Modules\nBackend: Node.js, Express\nИнструменты: Git, GitHub, Netlify, Render, Telegram Bot API,ESLint + Prettier,Webpack, npm/yarn\nЯзыки: JavaScript (ES6+), TypeScript, HTML5, CSS3\nПортфолио проектов:\n1. Sobes-Front-Bot (Node.js + Express)\nДемо: https://t.me/SobesFrontBot | Код: https://github.com/PaShoX/Sobes-Front-Bot\nЧат-бот для подготовки к frontend-собеседованиям с базой 100+ вопросов\nРеализовано:\n✓ Динамические inline-клавиатуры\n✓ Вебхук-интеграцию через Express\n✓ Локальное хранение вопросов в структурированном JSON-формате\n✓ Простота добавления новых тем\nНастроил:\n✓ Логирование ошибок GrammyError/HttpError\n2. Pizza App (React/TypeScript/Redux Toolkit)\nДемо: [https://pizza-app-pashox.netlify.app/auth/login] | Код: https://github.com/PaShoX/Pizza-app\nОнлайн-пиццерия с полным циклом заказа\nSPA-приложение для выбора, фильтрации и заказа пицц с адаптивным интерфейсом и системой авторизации.\nРешённые задачи:\n✓ Оптимизация SPA-роутинга на Netlify(добавлен /_redirects файл, чтобы все маршруты возвращали index.html, предотвращая ошибки 404 при обновлении страницы)\n✓ Фильтрация по категориям\n✓ Добавление/удаление позиций,изменение количества,расчет итоговой суммы\n✓ Страницы входа и регистрации с валидацией форм\n✓ Хранение данных пользователя\n✓ Система оформления заказа\n3. Personal Journal (React/JS)\nКод: https://github.com/PaShoX/Personal-Journal\nПриложение для ведения дневника с аутентификацией\nОсобенности:\n✓ useReducer — для сложного состояния формы\n✓ useContext — для передачи данных между компонентами без пропсов\n✓ localStorage\nПочему я подхожу вашей компании?\nКак разработчик с годом интенсивного самообучения, я фокусируюсь на создании рабочих решений. Мой Pizza App демонстрирует владение React/TypeScript, а Telegram-бот — backend-навыки.Изучаю современные технологии через документацию, курсы (Udemy, YouTube) и создание проектов.Готов принести пользу вашей команде, быстро обучаясь новым технологиям.\nКонтакты:\nEmail: pashok.novikov.2013@mail.ru\nTelegram: @PaShoX1\nGitHub: https://github.com/PaShoX?tab=repositories",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nЧастное образовательное учреждение дополнительного профессионального образования «Единый Центр Профессиональной Подготовки»\nСтроительство железных дорог, путь и путевое хозяйство (инженер путей сообщения)\n•\n2024\n•\nВысшее образование (Бакалавр)\nФилиал Московского гуманитарно-экономического института, Тверь\nЮридический, Юриспруденция (бакалавр юриспруденции)\n•\n2019\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории B\nКомментарии\nИстория\nFrontend developer (Нижний Новгород)\nОтказ: не подходит, 13.08.25 Автор: Вероника Бегунова\nПовышайте релевантность откликов\nРасскажите о жизни в компании и её атмосфере в статье на hh.ru\nОформляйте кандидатов онлайн\nПроверяйте сотрудников и подписывайте кадровые документы без бумаг и личных встреч\nУскорьте подбор в 2 раза с Talantix\nАвтоматизируйте сбор откликов, настройте воронку, собирайте аналитику в 2 клика\nНа информационном ресурсе hh.ru применяются рекомендательные технологии (информационные технологии предоставления информации на основе сбора, систематизации и анализа сведений, относящихся к предпочтениям пользователей сети «Интернет», находящихся на территории Российской Федерации)\n© 2026 ООО «Хэдхантер»\n<div>\n<img src='https://top-fwz1.mail.ru/counter?id=3209834;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n<img src='https://top-fwz1.mail.ru/counter?id=3399615;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n</div>\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-318408-3u7id\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-737575-4yDN2\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<div>\n<img src=\"https://mc.yandex.ru/watch/156828\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/93250637\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/83135743\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n</div>"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №41\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nЗдраствуйте!\nМеня зовут Новиков Павел, я Frontend-разработчик (React/TypeScript) с\n1 годом интенсивного самообучения с практической реализацией проектов.\nКлючевые технологии:\nFrontend: React, TypeScript, Redux Toolkit, React Router, Vite, SCSS/CSS Modules\nBackend: Node.js, Express\nИнструменты: Git, GitHub, Netlify, Render, Telegram Bot API,ESLint + Prettier,Webpack, npm/yarn\nЯзыки: JavaScript (ES6+), TypeScript, HTML5, CSS3\nПортфолио проектов:\n1. Sobes-Front-Bot (Node.js + Express)\nДемо: https://t.me/SobesFrontBot | Код: https://github.com/PaShoX/Sobes-Front-Bot\nЧат-бот для подготовки к frontend-собеседованиям с базой 100+ вопросов\nРеализовано:\n✓ Динамические inline-клавиатуры\n✓ Вебхук-интеграцию через Express\n✓ Локальное хранение вопросов в структурированном JSON-формате\n✓ Простота добавления новых тем\nНастроил:\n✓ Логирование ошибок GrammyError/HttpError\n2. Pizza App (React/TypeScript/Redux Toolkit)\nДемо: [https://pizza-app-pashox.netlify.app/auth/login] | Код: https://github.com/PaShoX/Pizza-app\nОнлайн-пиццерия с полным циклом заказа\nSPA-приложение для выбора, фильтрации и заказа пицц с адаптивным интерфейсом и системой авторизации.\nРешённые задачи:\n✓ Оптимизация SPA-роутинга на Netlify(добавлен /_redirects файл, чтобы все маршруты возвращали index.html, предотвращая ошибки 404 при обновлении страницы)\n✓ Фильтрация по категориям\n✓ Добавление/удаление позиций,изменение количества,расчет итоговой суммы\n✓ Страницы входа и регистрации с валидацией форм\n✓ Хранение данных пользователя\n✓ Система оформления заказа\n3. Personal Journal (React/JS)\nКод: https://github.com/PaShoX/Personal-Journal\nПриложение для ведения дневника с аутентификацией\nОсобенности:\n✓ useReducer — для сложного состояния формы\n✓ useContext — для передачи данных между компонентами без пропсов\n✓ localStorage\nПочему я подхожу вашей компании?\nКак разработчик с годом интенсивного самообучения, я фокусируюсь на создании рабочих решений. Мой Pizza App демонстрирует владение React/TypeScript, а Telegram-бот — backend-навыки.Изучаю современные технологии через документацию, курсы (Udemy, YouTube) и создание проектов.Готов принести пользу вашей команде, быстро обучаясь новым технологиям.\nКонтакты:\nEmail: pashok.novikov.2013@mail.ru\nTelegram: @PaShoX1\nGitHub: https://github.com/PaShoX?tab=repositories\n\nОпыт работы\nОпыт работы: 14 лет 11 месяцев\nФев 2019 -\nсейчас\n7 лет 9 мес\nОрганизация 1\nwww.rzd.ru\nПеревозки, логистика, склад, ВЭД\nКонтролер состояния железнодорожного пути\nСледил за безопасностью и исправностью всех элементов железнодорожной инфраструктуры. Проверял железнодорожные пути, путевые перекрестки, светофоры, стрелки и многое другое, чтобы убедиться, что все функционирует правильно.\nФев 2011 -\nМар 2018\n7 лет 2 мес\nОрганизация 2\nwww.rzd.ru\nПеревозки, логистика, склад, ВЭД\nДефектоскопист\nВедение процесса выявления дефектов в рельсах дефектоскопной тележкой. Детальное обследование и проведение классификации обнаруженных дефектов и повреждений рельсов, контроль за развитием дефектов, их регистрация и в не обходимых случаях принятие мер по обеспечению безопасности движения поездов.\n\nНавыки\nСредний уровень\nJs\nHTML5\nCSS3\nSass\nScss\nGit\nGitHub\nReactJS\nWebpack\nJavaScript\nБазовый уровень\nSQL\nReact\nREST API\nNode.js\nDocker\nDocker-compose\nTypeScript\nRedux\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A1 — Начальный\n\nОбо мне\nЗдраствуйте!\nМеня зовут Новиков Павел, я Frontend-разработчик (React/TypeScript) с\n1 годом интенсивного самообучения с практической реализацией проектов.\nКлючевые технологии:\nFrontend: React, TypeScript, Redux Toolkit, React Router, Vite, SCSS/CSS Modules\nBackend: Node.js, Express\nИнструменты: Git, GitHub, Netlify, Render, Telegram Bot API,ESLint + Prettier,Webpack, npm/yarn\nЯзыки: JavaScript (ES6+), TypeScript, HTML5, CSS3\nПортфолио проектов:\n1. Sobes-Front-Bot (Node.js + Express)\nДемо: https://t.me/SobesFrontBot | Код: https://github.com/PaShoX/Sobes-Front-Bot\nЧат-бот для подготовки к frontend-собеседованиям с базой 100+ вопросов\nРеализовано:\n✓ Динамические inline-клавиатуры\n✓ Вебхук-интеграцию через Express\n✓ Локальное хранение вопросов в структурированном JSON-формате\n✓ Простота добавления новых тем\nНастроил:\n✓ Логирование ошибок GrammyError/HttpError\n2. Pizza App (React/TypeScript/Redux Toolkit)\nДемо: [https://pizza-app-pashox.netlify.app/auth/login] | Код: https://github.com/PaShoX/Pizza-app\nОнлайн-пиццерия с полным циклом заказа\nSPA-приложение для выбора, фильтрации и заказа пицц с адаптивным интерфейсом и системой авторизации.\nРешённые задачи:\n✓ Оптимизация SPA-роутинга на Netlify(добавлен /_redirects файл, чтобы все маршруты возвращали index.html, предотвращая ошибки 404 при обновлении страницы)\n✓ Фильтрация по категориям\n✓ Добавление/удаление позиций,изменение количества,расчет итоговой суммы\n✓ Страницы входа и регистрации с валидацией форм\n✓ Хранение данных пользователя\n✓ Система оформления заказа\n3. Personal Journal (React/JS)\nКод: https://github.com/PaShoX/Personal-Journal\nПриложение для ведения дневника с аутентификацией\nОсобенности:\n✓ useReducer — для сложного состояния формы\n✓ useContext — для передачи данных между компонентами без пропсов\n✓ localStorage\nПочему я подхожу вашей компании?\nКак разработчик с годом интенсивного самообучения, я фокусируюсь на создании рабочих решений. Мой Pizza App демонстрирует владение React/TypeScript, а Telegram-бот — backend-навыки.Изучаю современные технологии через документацию, курсы (Udemy, YouTube) и создание проектов.Готов принести пользу вашей команде, быстро обучаясь новым технологиям.\nКонтакты:\nEmail: pashok.novikov.2013@mail.ru\nTelegram: @PaShoX1\nGitHub: https://github.com/PaShoX?tab=repositories\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nЧастное образовательное учреждение дополнительного профессионального образования «Единый Центр Профессиональной Подготовки»\nСтроительство железных дорог, путь и путевое хозяйство (инженер путей сообщения)\n•\n2024\n•\nВысшее образование (Бакалавр)\nФилиал Московского гуманитарно-экономического института, Тверь\nЮридический, Юриспруденция (бакалавр юриспруденции)\n•\n2019\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nНет своей машины, права категории B\nКомментарии\nИстория\nFrontend developer (Нижний Новгород)\nОтказ: не подходит, 13.08.25 Автор: Вероника Бегунова\nПовышайте релевантность откликов\nРасскажите о жизни в компании и её атмосфере в статье на hh.ru\nОформляйте кандидатов онлайн\nПроверяйте сотрудников и подписывайте кадровые документы без бумаг и личных встреч\nУскорьте подбор в 2 раза с Talantix\nАвтоматизируйте сбор откликов, настройте воронку, собирайте аналитику в 2 клика\nНа информационном ресурсе hh.ru применяются рекомендательные технологии (информационные технологии предоставления информации на основе сбора, систематизации и анализа сведений, относящихся к предпочтениям пользователей сети «Интернет», находящихся на территории Российской Федерации)\n© 2026 ООО «Хэдхантер»\n<div>\n<img src='https://top-fwz1.mail.ru/counter?id=3209834;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n<img src='https://top-fwz1.mail.ru/counter?id=3399615;js=na' style='position:absolute;left:-9999px;' alt='Top.Mail.Ru' />\n</div>\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-318408-3u7id\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<img src=\"https://vk.com/rtrg?p=VK-RTRG-737575-4yDN2\" style=\"position: fixed; left: -999px\" alt=\"\" />\n<div>\n<img src=\"https://mc.yandex.ru/watch/156828\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/93250637\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n<img src=\"https://mc.yandex.ru/watch/83135743\" style=\"position:absolute; left:-9999px;\" alt=\"\" />\n</div>\n"
+}

@@ -1,0 +1,174 @@
+{
+  "candidate_id": 249,
+  "resume_title": "Тестировщик",
+  "cover_letter": null,
+  "experience_total_months": 60,
+  "similar_experience_months": 60,
+  "work_experience": [
+    {
+      "start_date": "2021-11",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 60,
+      "organization": "Организация 1",
+      "position": "QA-Инженер",
+      "employer_details": [],
+      "description": "Основные обязанности:\nРучное тестирование веб- и мобильных банковских приложений (iOS, Android) — переводы, платежи, депозиты, кредиты, push-уведомления, KYC.\nАвтоматизация тестирования UI и API с использованием Python (pytest, Selenium, Playwright).\nРазработка автотестов для smoke тестирования ключевых пользовательских сценариев.\nПроверка API (REST, JSON) через Postman и Swagger, валидация запросов/ответов.\nВзаимодействие с командой разработчиков, аналитиков и DevOps в рамках Scrum.\nСоздание и поддержка тестовой документации (чек-листы, тест-кейсы, баг-репорты, тест-планы).\nИспользование Android Studio, Charles Proxy для анализа логов и работы со сборками.\nКлючевые проекты:\nПолный цикл тестирования новой онлайн-платформы интернет-банкинга (1+ млн пользователей).\nКроссплатформенное тестирование новой версии мобильного приложения с API-интеграциями.\nВерификация систем международных переводов с корректной IBAN-валидацией.\nДостижения:\nОбнаружил критическую ошибку в валидации IBAN, предотвратив финансовые потери.\nРазработал и внедрил пакет автотестов на pytest + Selenium, что сократило время регрессионного тестирования на 60%.\nСтандартизировал структуру тест-кейсов, ускорив адаптацию новых QA на 40%.\nИнициировал UX-ревью мобильного приложения, что повысило NPS на 12%.\nПровёл обучающие сессии по API-тестированию и автоматизации для команды.\nТехнологический стек:\nЯзыки: Python, SQL\nИнструменты: Jira, Confluence, TestRail, Zephyr Scale, Charles Proxy, Postman, Swagger, DevTools, Android Studio, Docker, Git, Kibana, Kafka\nФреймворки и библиотеки: pytest, Selenium, Playwright\nМетодологии: Agile (Scrum), SDLC/STLC\nТипы тестирования: Manual, Functional, Regression, Integration, UI, Smoke, Cross-browser, Cross-platform, API, Automation\nПлатформы: Web, Android, iOS\nФорматы данных: JSON, XML\nОС: Linux, Windows",
+      "original": "Ноя 2021 -\nсейчас\n5 лет\nОрганизация 1\nQA-Инженер\nОсновные обязанности:\nРучное тестирование веб- и мобильных банковских приложений (iOS, Android) — переводы, платежи, депозиты, кредиты, push-уведомления, KYC.\nАвтоматизация тестирования UI и API с использованием Python (pytest, Selenium, Playwright).\nРазработка автотестов для smoke тестирования ключевых пользовательских сценариев.\nПроверка API (REST, JSON) через Postman и Swagger, валидация запросов/ответов.\nВзаимодействие с командой разработчиков, аналитиков и DevOps в рамках Scrum.\nСоздание и поддержка тестовой документации (чек-листы, тест-кейсы, баг-репорты, тест-планы).\nИспользование Android Studio, Charles Proxy для анализа логов и работы со сборками.\nКлючевые проекты:\nПолный цикл тестирования новой онлайн-платформы интернет-банкинга (1+ млн пользователей).\nКроссплатформенное тестирование новой версии мобильного приложения с API-интеграциями.\nВерификация систем международных переводов с корректной IBAN-валидацией.\nДостижения:\nОбнаружил критическую ошибку в валидации IBAN, предотвратив финансовые потери.\nРазработал и внедрил пакет автотестов на pytest + Selenium, что сократило время регрессионного тестирования на 60%.\nСтандартизировал структуру тест-кейсов, ускорив адаптацию новых QA на 40%.\nИнициировал UX-ревью мобильного приложения, что повысило NPS на 12%.\nПровёл обучающие сессии по API-тестированию и автоматизации для команды.\nТехнологический стек:\nЯзыки: Python, SQL\nИнструменты: Jira, Confluence, TestRail, Zephyr Scale, Charles Proxy, Postman, Swagger, DevTools, Android Studio, Docker, Git, Kibana, Kafka\nФреймворки и библиотеки: pytest, Selenium, Playwright\nМетодологии: Agile (Scrum), SDLC/STLC\nТипы тестирования: Manual, Functional, Regression, Integration, UI, Smoke, Cross-browser, Cross-platform, API, Automation\nПлатформы: Web, Android, iOS\nФорматы данных: JSON, XML\nОС: Linux, Windows"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Chrome DevTools",
+      "level": null,
+      "original": "Chrome DevTools"
+    },
+    {
+      "name": "Postman",
+      "level": null,
+      "original": "Postman"
+    },
+    {
+      "name": "Swagger",
+      "level": null,
+      "original": "Swagger"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Agile",
+      "level": null,
+      "original": "Agile"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Confluence",
+      "level": null,
+      "original": "Confluence"
+    },
+    {
+      "name": "Jira",
+      "level": null,
+      "original": "Jira"
+    },
+    {
+      "name": "Kibana",
+      "level": null,
+      "original": "Kibana"
+    },
+    {
+      "name": "Kafka",
+      "level": null,
+      "original": "Kafka"
+    },
+    {
+      "name": "Charles Proxy",
+      "level": null,
+      "original": "Charles Proxy"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "TestRail",
+      "level": null,
+      "original": "TestRail"
+    },
+    {
+      "name": "Zephyr Scale",
+      "level": null,
+      "original": "Zephyr Scale"
+    },
+    {
+      "name": "Android Studio",
+      "level": null,
+      "original": "Android Studio"
+    },
+    {
+      "name": "Scrum",
+      "level": null,
+      "original": "Scrum"
+    },
+    {
+      "name": "SDLC/STLC",
+      "level": null,
+      "original": "SDLC/STLC"
+    },
+    {
+      "name": "Selenium",
+      "level": null,
+      "original": "Selenium"
+    },
+    {
+      "name": "Playwright",
+      "level": null,
+      "original": "Playwright"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Больше 3-х лет опыта работы QA.\nЕсть опыт как построения процессов тестирования с нуля, так и работы в большой и сложной инфраструктуре, а также менторства коллег.\nБолее подробно все детали Вы можете посмотреть в CV или написать мне - я всегда на связи. Просьба использовать telegram: @maki4pon",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Саратовский государственный технический университет имени Гагарина Ю.А, Саратов",
+      "details": [
+        "Урбас, Строительство"
+      ],
+      "year": 2025,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Саратовский государственный технический университет имени Гагарина Ю.А, Саратов\nУрбас, Строительство\n•\n2025\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №249\nРезюме: Тестировщик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 5 лет\nОпыт в похожих должностях:5 лет\nНоя 2021 -\nсейчас\n5 лет\nОрганизация 1\nQA-Инженер\nОсновные обязанности:\nРучное тестирование веб- и мобильных банковских приложений (iOS, Android) — переводы, платежи, депозиты, кредиты, push-уведомления, KYC.\nАвтоматизация тестирования UI и API с использованием Python (pytest, Selenium, Playwright).\nРазработка автотестов для smoke тестирования ключевых пользовательских сценариев.\nПроверка API (REST, JSON) через Postman и Swagger, валидация запросов/ответов.\nВзаимодействие с командой разработчиков, аналитиков и DevOps в рамках Scrum.\nСоздание и поддержка тестовой документации (чек-листы, тест-кейсы, баг-репорты, тест-планы).\nИспользование Android Studio, Charles Proxy для анализа логов и работы со сборками.\nКлючевые проекты:\nПолный цикл тестирования новой онлайн-платформы интернет-банкинга (1+ млн пользователей).\nКроссплатформенное тестирование новой версии мобильного приложения с API-интеграциями.\nВерификация систем международных переводов с корректной IBAN-валидацией.\nДостижения:\nОбнаружил критическую ошибку в валидации IBAN, предотвратив финансовые потери.\nРазработал и внедрил пакет автотестов на pytest + Selenium, что сократило время регрессионного тестирования на 60%.\nСтандартизировал структуру тест-кейсов, ускорив адаптацию новых QA на 40%.\nИнициировал UX-ревью мобильного приложения, что повысило NPS на 12%.\nПровёл обучающие сессии по API-тестированию и автоматизации для команды.\nТехнологический стек:\nЯзыки: Python, SQL\nИнструменты: Jira, Confluence, TestRail, Zephyr Scale, Charles Proxy, Postman, Swagger, DevTools, Android Studio, Docker, Git, Kibana, Kafka\nФреймворки и библиотеки: pytest, Selenium, Playwright\nМетодологии: Agile (Scrum), SDLC/STLC\nТипы тестирования: Manual, Functional, Regression, Integration, UI, Smoke, Cross-browser, Cross-platform, API, Automation\nПлатформы: Web, Android, iOS\nФорматы данных: JSON, XML\nОС: Linux, Windows",
+    "skills": "Chrome DevTools\nPostman\nSwagger\nPostgreSQL\nDocker\nAgile\nSQL\nGit\nConfluence\nJira\nKibana\nKafka\nCharles Proxy\nREST API\nLinux\nTestRail\nZephyr Scale\nAndroid Studio\nScrum\nSDLC/STLC\nSelenium\nPlaywright",
+    "languages": "Родной\nРусский",
+    "about_me": "Больше 3-х лет опыта работы QA.\nЕсть опыт как построения процессов тестирования с нуля, так и работы в большой и сложной инфраструктуре, а также менторства коллег.\nБолее подробно все детали Вы можете посмотреть в CV или написать мне - я всегда на связи. Просьба использовать telegram: @maki4pon",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nСаратовский государственный технический университет имени Гагарина Ю.А, Саратов\nУрбас, Строительство\n•\n2025\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №249\nРезюме: Тестировщик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 5 лет\nОпыт в похожих должностях:5 лет\nНоя 2021 -\nсейчас\n5 лет\nОрганизация 1\nQA-Инженер\nОсновные обязанности:\nРучное тестирование веб- и мобильных банковских приложений (iOS, Android) — переводы, платежи, депозиты, кредиты, push-уведомления, KYC.\nАвтоматизация тестирования UI и API с использованием Python (pytest, Selenium, Playwright).\nРазработка автотестов для smoke тестирования ключевых пользовательских сценариев.\nПроверка API (REST, JSON) через Postman и Swagger, валидация запросов/ответов.\nВзаимодействие с командой разработчиков, аналитиков и DevOps в рамках Scrum.\nСоздание и поддержка тестовой документации (чек-листы, тест-кейсы, баг-репорты, тест-планы).\nИспользование Android Studio, Charles Proxy для анализа логов и работы со сборками.\nКлючевые проекты:\nПолный цикл тестирования новой онлайн-платформы интернет-банкинга (1+ млн пользователей).\nКроссплатформенное тестирование новой версии мобильного приложения с API-интеграциями.\nВерификация систем международных переводов с корректной IBAN-валидацией.\nДостижения:\nОбнаружил критическую ошибку в валидации IBAN, предотвратив финансовые потери.\nРазработал и внедрил пакет автотестов на pytest + Selenium, что сократило время регрессионного тестирования на 60%.\nСтандартизировал структуру тест-кейсов, ускорив адаптацию новых QA на 40%.\nИнициировал UX-ревью мобильного приложения, что повысило NPS на 12%.\nПровёл обучающие сессии по API-тестированию и автоматизации для команды.\nТехнологический стек:\nЯзыки: Python, SQL\nИнструменты: Jira, Confluence, TestRail, Zephyr Scale, Charles Proxy, Postman, Swagger, DevTools, Android Studio, Docker, Git, Kibana, Kafka\nФреймворки и библиотеки: pytest, Selenium, Playwright\nМетодологии: Agile (Scrum), SDLC/STLC\nТипы тестирования: Manual, Functional, Regression, Integration, UI, Smoke, Cross-browser, Cross-platform, API, Automation\nПлатформы: Web, Android, iOS\nФорматы данных: JSON, XML\nОС: Linux, Windows\n\nНавыки\nChrome DevTools\nPostman\nSwagger\nPostgreSQL\nDocker\nAgile\nSQL\nGit\nConfluence\nJira\nKibana\nKafka\nCharles Proxy\nREST API\nLinux\nTestRail\nZephyr Scale\nAndroid Studio\nScrum\nSDLC/STLC\nSelenium\nPlaywright\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nБольше 3-х лет опыта работы QA.\nЕсть опыт как построения процессов тестирования с нуля, так и работы в большой и сложной инфраструктуре, а также менторства коллег.\nБолее подробно все детали Вы можете посмотреть в CV или написать мне - я всегда на связи. Просьба использовать telegram: @maki4pon\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nСаратовский государственный технический университет имени Гагарина Ю.А, Саратов\nУрбас, Строительство\n•\n2025\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,245 @@
+{
+  "candidate_id": 108,
+  "resume_title": "Automation QA Engineer / SDET",
+  "cover_letter": "Здравствуйте, предлагаю продолжить в моём ТГ. https://t.me/melnikov_artyom24",
+  "experience_total_months": 96,
+  "similar_experience_months": 96,
+  "work_experience": [
+    {
+      "start_date": "2022-07",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 52,
+      "organization": "Организация 1",
+      "position": "SDET / Automation QA Engineer Lead / AI Researcher",
+      "employer_details": [
+        "Москваcareer.wb.ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Mobile / API / UI\nStack: Java, Python, Golang\nProject: Payment Gateway (Highload)\n1. Управляю командой из 5 QA Automation's инженеров\n2. Придумал и реализовал устойчивый к изменениям и модульный QA Framework (Maven Registry, JUnit 5)\n3. Поддерживаю сразу 3 направления: backend / mobile / web (Playwright, Appium, REST, GRPC, Wiremock)\n4. Улучшил общий QA процесс, реализовав более 6 разных самодостаточных сервисов, закрывающих насущные боли (CI/CD flow / Git flow / Линтеры+Стат.анализаторы, метрики и другие Custom Services с деплоем в k8s)\n5. Активное менторство и передача знаний всем членам команды\nAchi:\n1. Придумал и реализовал common API сервис,\nGitlab | YouTrack | LLM Agents | Docs | Analyzing Algorithm's | Allure TestOps\nЕсли коротко, большая система со своим API и МКСами для отдельных модулей, позволяет управлять всем TestingFlow только через API взаимодействие\n2. Реализовал Saas - AI Agentic (аля OpenHands) со своим собственным инференсом на H100 80GB и RAG (база знаний) системой на Qdrant\nУскоряет онбоардинг новых сотрудников, интеллектуальный поиск по коду/документации/логам, генерирует production ready код на 3 языках программирования (python, golang, java), участвует в codereview и т.д\nЭто полностью самописная и кастомная система (rocket science)\n3. Реализовал автоматическую матрицу автотестов, с подсвечиваемым heatmap в runtime. Позволяет посмотреть на ВСЁ реальное тестовое покрытие - ПРЯМО СЕЙЧАС. А так же InfluxDB для прогнозирования, где конкретно может появится следующий баг",
+      "original": "Июл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nМоскваcareer.wb.ru/\nИнформационные технологии, системная интеграция, интернет\nSDET / Automation QA Engineer Lead / AI Researcher\nMobile / API / UI\nStack: Java, Python, Golang\nProject: Payment Gateway (Highload)\n1. Управляю командой из 5 QA Automation's инженеров\n2. Придумал и реализовал устойчивый к изменениям и модульный QA Framework (Maven Registry, JUnit 5)\n3. Поддерживаю сразу 3 направления: backend / mobile / web (Playwright, Appium, REST, GRPC, Wiremock)\n4. Улучшил общий QA процесс, реализовав более 6 разных самодостаточных сервисов, закрывающих насущные боли (CI/CD flow / Git flow / Линтеры+Стат.анализаторы, метрики и другие Custom Services с деплоем в k8s)\n5. Активное менторство и передача знаний всем членам команды\nAchi:\n1. Придумал и реализовал common API сервис,\nGitlab | YouTrack | LLM Agents | Docs | Analyzing Algorithm's | Allure TestOps\nЕсли коротко, большая система со своим API и МКСами для отдельных модулей, позволяет управлять всем TestingFlow только через API взаимодействие\n2. Реализовал Saas - AI Agentic (аля OpenHands) со своим собственным инференсом на H100 80GB и RAG (база знаний) системой на Qdrant\nУскоряет онбоардинг новых сотрудников, интеллектуальный поиск по коду/документации/логам, генерирует production ready код на 3 языках программирования (python, golang, java), участвует в codereview и т.д\nЭто полностью самописная и кастомная система (rocket science)\n3. Реализовал автоматическую матрицу автотестов, с подсвечиваемым heatmap в runtime. Позволяет посмотреть на ВСЁ реальное тестовое покрытие - ПРЯМО СЕЙЧАС. А так же InfluxDB для прогнозирования, где конкретно может появится следующий баг"
+    },
+    {
+      "start_date": "2020-11",
+      "end_date": "2022-07",
+      "is_current": false,
+      "duration_months": 21,
+      "organization": "Организация 2",
+      "position": "Java QA Automation",
+      "employer_details": [
+        "Москваwww.egartech.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Проект: Банковское приложение (Web/Mobile/API/DB)\nSelenide, Java, Jenkins, Docker, GitLab, Appium,\nTestNG, Maven, JDBC\nUI Mock / UI Integration Testing\n1. Написание новых автоматизированных ТК и поддержка уже существующих\n2. Настройка Jenkins CI + Gitlab CI (создание job и написание pipeline для автоматизированных прогонов)\n3. Оптимизация существующего тестового фреймворка\n4. Настройка Docker (Создание кастомных образов, Создание контейнеров, Регистрация раннеров, и их настройка для использования в автоматизированных тестах)\nAchievements:\n1. Оптимизировал работу в 4 кластерах k8s для запуска автотестов, уменьшив среднее время билда на 150% (тонкая настройка pom.xml и хитрая работа с Garbage Collector, Оптимизация работы с БД)\n2. Создал кастомное приложение с интеграцией с Allure Report для более удобного разбора упавших тестов регресса (Удобный, Асинхронный, Кастомный UI)\n3. Придумал и реализовал более удобный и быстрый процесс авто-взаимодействия с Mobile командой (Смогл добиться создания очень удобной системы правил/сроков для ответа на обращения/проблемы/предложения команды Automation QA) (Создание отдельных спец.чатиков в MM, Менеджмент задач в Jira, Кастомный SLA для отбивки на почту, Алгоритмы анализа, LLM Agents)",
+      "original": "Ноя 2020 -\nИюл 2022\n1 год 9 мес\nОрганизация 2\nМоскваwww.egartech.ru\nИнформационные технологии, системная интеграция, интернет\nJava QA Automation\nПроект: Банковское приложение (Web/Mobile/API/DB)\nSelenide, Java, Jenkins, Docker, GitLab, Appium,\nTestNG, Maven, JDBC\nUI Mock / UI Integration Testing\n1. Написание новых автоматизированных ТК и поддержка уже существующих\n2. Настройка Jenkins CI + Gitlab CI (создание job и написание pipeline для автоматизированных прогонов)\n3. Оптимизация существующего тестового фреймворка\n4. Настройка Docker (Создание кастомных образов, Создание контейнеров, Регистрация раннеров, и их настройка для использования в автоматизированных тестах)\nAchievements:\n1. Оптимизировал работу в 4 кластерах k8s для запуска автотестов, уменьшив среднее время билда на 150% (тонкая настройка pom.xml и хитрая работа с Garbage Collector, Оптимизация работы с БД)\n2. Создал кастомное приложение с интеграцией с Allure Report для более удобного разбора упавших тестов регресса (Удобный, Асинхронный, Кастомный UI)\n3. Придумал и реализовал более удобный и быстрый процесс авто-взаимодействия с Mobile командой (Смогл добиться создания очень удобной системы правил/сроков для ответа на обращения/проблемы/предложения команды Automation QA) (Создание отдельных спец.чатиков в MM, Менеджмент задач в Jira, Кастомный SLA для отбивки на почту, Алгоритмы анализа, LLM Agents)"
+    },
+    {
+      "start_date": "2018-11",
+      "end_date": "2020-11",
+      "is_current": false,
+      "duration_months": 25,
+      "organization": "Организация 3",
+      "position": "Java QA Automation",
+      "employer_details": [
+        "Москваwww.egartech.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Project: HealthTech\n1. Creating and Run TC's\n2. Control test processes\n3. Creating a bug reports\n4. Optimazed time to market, by improving QA process",
+      "original": "Ноя 2018 -\nНоя 2020\n2 года 1 мес\nОрганизация 3\nМоскваwww.egartech.ru\nИнформационные технологии, системная интеграция, интернет\nJava QA Automation\nProject: HealthTech\n1. Creating and Run TC's\n2. Control test processes\n3. Creating a bug reports\n4. Optimazed time to market, by improving QA process"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "advanced",
+      "original": "Java"
+    },
+    {
+      "name": "TestNG",
+      "level": "advanced",
+      "original": "TestNG"
+    },
+    {
+      "name": "Maven",
+      "level": "advanced",
+      "original": "Maven"
+    },
+    {
+      "name": "Gradle",
+      "level": "advanced",
+      "original": "Gradle"
+    },
+    {
+      "name": "OkHttp",
+      "level": "advanced",
+      "original": "OkHttp"
+    },
+    {
+      "name": "RestAssured",
+      "level": "advanced",
+      "original": "RestAssured"
+    },
+    {
+      "name": "Selenium",
+      "level": "advanced",
+      "original": "Selenium"
+    },
+    {
+      "name": "Selenide",
+      "level": "advanced",
+      "original": "Selenide"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "JDBC",
+      "level": "advanced",
+      "original": "JDBC"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Jira"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "advanced",
+      "original": "Elasticsearch"
+    },
+    {
+      "name": "Hibernate",
+      "level": "advanced",
+      "original": "Hibernate"
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Allure",
+      "level": "advanced",
+      "original": "Allure"
+    },
+    {
+      "name": "AllureTestOps",
+      "level": "advanced",
+      "original": "AllureTestOps"
+    },
+    {
+      "name": "DevOps",
+      "level": "advanced",
+      "original": "DevOps"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "Kotlin",
+      "level": "intermediate",
+      "original": "Kotlin"
+    },
+    {
+      "name": "JUnit",
+      "level": "intermediate",
+      "original": "JUnit"
+    },
+    {
+      "name": "Kafka",
+      "level": "intermediate",
+      "original": "Kafka"
+    },
+    {
+      "name": "Spring",
+      "level": "intermediate",
+      "original": "Spring"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "intermediate",
+      "original": "k8s"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Jenkins",
+      "level": "intermediate",
+      "original": "Jenkins"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "intermediate",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Transact-SQL",
+      "level": "basic",
+      "original": "Transact-SQL"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Hi ^_^\nGitHub -> https://github.com/Strongcomic\nTelegram -> https://t.me/melnikov_artyom24\nПозиционирую себя как РАЗРАБОТЧИК.\nНе заинтересован в ручном тестировании.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Московский государственный университет имени М.В. Ломоносова, Москва",
+      "details": [
+        "Информационные системы и технологии, Инженер-программист"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Московский государственный университет имени М.В. Ломоносова, Москва\nИнформационные системы и технологии, Инженер-программист\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №108\nРезюме: Automation QA Engineer / SDET",
+    "cover_letter": "Здравствуйте, предлагаю продолжить в моём ТГ. https://t.me/melnikov_artyom24",
+    "experience": "Опыт работы: 8 лет\nОпыт в похожих должностях:8 лет\nИюл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nМоскваcareer.wb.ru/\nИнформационные технологии, системная интеграция, интернет\nSDET / Automation QA Engineer Lead / AI Researcher\nMobile / API / UI\nStack: Java, Python, Golang\nProject: Payment Gateway (Highload)\n1. Управляю командой из 5 QA Automation's инженеров\n2. Придумал и реализовал устойчивый к изменениям и модульный QA Framework (Maven Registry, JUnit 5)\n3. Поддерживаю сразу 3 направления: backend / mobile / web (Playwright, Appium, REST, GRPC, Wiremock)\n4. Улучшил общий QA процесс, реализовав более 6 разных самодостаточных сервисов, закрывающих насущные боли (CI/CD flow / Git flow / Линтеры+Стат.анализаторы, метрики и другие Custom Services с деплоем в k8s)\n5. Активное менторство и передача знаний всем членам команды\nAchi:\n1. Придумал и реализовал common API сервис,\nGitlab | YouTrack | LLM Agents | Docs | Analyzing Algorithm's | Allure TestOps\nЕсли коротко, большая система со своим API и МКСами для отдельных модулей, позволяет управлять всем TestingFlow только через API взаимодействие\n2. Реализовал Saas - AI Agentic (аля OpenHands) со своим собственным инференсом на H100 80GB и RAG (база знаний) системой на Qdrant\nУскоряет онбоардинг новых сотрудников, интеллектуальный поиск по коду/документации/логам, генерирует production ready код на 3 языках программирования (python, golang, java), участвует в codereview и т.д\nЭто полностью самописная и кастомная система (rocket science)\n3. Реализовал автоматическую матрицу автотестов, с подсвечиваемым heatmap в runtime. Позволяет посмотреть на ВСЁ реальное тестовое покрытие - ПРЯМО СЕЙЧАС. А так же InfluxDB для прогнозирования, где конкретно может появится следующий баг\nНоя 2020 -\nИюл 2022\n1 год 9 мес\nОрганизация 2\nМоскваwww.egartech.ru\nИнформационные технологии, системная интеграция, интернет\nJava QA Automation\nПроект: Банковское приложение (Web/Mobile/API/DB)\nSelenide, Java, Jenkins, Docker, GitLab, Appium,\nTestNG, Maven, JDBC\nUI Mock / UI Integration Testing\n1. Написание новых автоматизированных ТК и поддержка уже существующих\n2. Настройка Jenkins CI + Gitlab CI (создание job и написание pipeline для автоматизированных прогонов)\n3. Оптимизация существующего тестового фреймворка\n4. Настройка Docker (Создание кастомных образов, Создание контейнеров, Регистрация раннеров, и их настройка для использования в автоматизированных тестах)\nAchievements:\n1. Оптимизировал работу в 4 кластерах k8s для запуска автотестов, уменьшив среднее время билда на 150% (тонкая настройка pom.xml и хитрая работа с Garbage Collector, Оптимизация работы с БД)\n2. Создал кастомное приложение с интеграцией с Allure Report для более удобного разбора упавших тестов регресса (Удобный, Асинхронный, Кастомный UI)\n3. Придумал и реализовал более удобный и быстрый процесс авто-взаимодействия с Mobile командой (Смогл добиться создания очень удобной системы правил/сроков для ответа на обращения/проблемы/предложения команды Automation QA) (Создание отдельных спец.чатиков в MM, Менеджмент задач в Jira, Кастомный SLA для отбивки на почту, Алгоритмы анализа, LLM Agents)\nНоя 2018 -\nНоя 2020\n2 года 1 мес\nОрганизация 3\nМоскваwww.egartech.ru\nИнформационные технологии, системная интеграция, интернет\nJava QA Automation\nProject: HealthTech\n1. Creating and Run TC's\n2. Control test processes\n3. Creating a bug reports\n4. Optimazed time to market, by improving QA process",
+    "skills": "Продвинутый уровень\nJava\nTestNG\nMaven\nGradle\nOkHttp\nRestAssured\nSelenium\nSelenide\nMySQL\nGitlab\nJDBC\nDocker\nJira\nElasticsearch\nHibernate\nPython\nAllure\nAllureTestOps\nDevOps\nPostgreSQL\nAPI\nСредний уровень\nKotlin\nJUnit\nKafka\nSpring\nk8s\nJavaScript\nJenkins\nRabbitMQ\nБазовый уровень\nTransact-SQL",
+    "languages": "Родной\nРусский",
+    "about_me": "Hi ^_^\nGitHub -> https://github.com/Strongcomic\nTelegram -> https://t.me/melnikov_artyom24\nПозиционирую себя как РАЗРАБОТЧИК.\nНе заинтересован в ручном тестировании.",
+    "education": "Уровень\nВысшее образование\nМосковский государственный университет имени М.В. Ломоносова, Москва\nИнформационные системы и технологии, Инженер-программист\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №108\nРезюме: Automation QA Engineer / SDET\n\nСопроводительное письмо\nЗдравствуйте, предлагаю продолжить в моём ТГ. https://t.me/melnikov_artyom24\n\nОпыт работы\nОпыт работы: 8 лет\nОпыт в похожих должностях:8 лет\nИюл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nМоскваcareer.wb.ru/\nИнформационные технологии, системная интеграция, интернет\nSDET / Automation QA Engineer Lead / AI Researcher\nMobile / API / UI\nStack: Java, Python, Golang\nProject: Payment Gateway (Highload)\n1. Управляю командой из 5 QA Automation's инженеров\n2. Придумал и реализовал устойчивый к изменениям и модульный QA Framework (Maven Registry, JUnit 5)\n3. Поддерживаю сразу 3 направления: backend / mobile / web (Playwright, Appium, REST, GRPC, Wiremock)\n4. Улучшил общий QA процесс, реализовав более 6 разных самодостаточных сервисов, закрывающих насущные боли (CI/CD flow / Git flow / Линтеры+Стат.анализаторы, метрики и другие Custom Services с деплоем в k8s)\n5. Активное менторство и передача знаний всем членам команды\nAchi:\n1. Придумал и реализовал common API сервис,\nGitlab | YouTrack | LLM Agents | Docs | Analyzing Algorithm's | Allure TestOps\nЕсли коротко, большая система со своим API и МКСами для отдельных модулей, позволяет управлять всем TestingFlow только через API взаимодействие\n2. Реализовал Saas - AI Agentic (аля OpenHands) со своим собственным инференсом на H100 80GB и RAG (база знаний) системой на Qdrant\nУскоряет онбоардинг новых сотрудников, интеллектуальный поиск по коду/документации/логам, генерирует production ready код на 3 языках программирования (python, golang, java), участвует в codereview и т.д\nЭто полностью самописная и кастомная система (rocket science)\n3. Реализовал автоматическую матрицу автотестов, с подсвечиваемым heatmap в runtime. Позволяет посмотреть на ВСЁ реальное тестовое покрытие - ПРЯМО СЕЙЧАС. А так же InfluxDB для прогнозирования, где конкретно может появится следующий баг\nНоя 2020 -\nИюл 2022\n1 год 9 мес\nОрганизация 2\nМоскваwww.egartech.ru\nИнформационные технологии, системная интеграция, интернет\nJava QA Automation\nПроект: Банковское приложение (Web/Mobile/API/DB)\nSelenide, Java, Jenkins, Docker, GitLab, Appium,\nTestNG, Maven, JDBC\nUI Mock / UI Integration Testing\n1. Написание новых автоматизированных ТК и поддержка уже существующих\n2. Настройка Jenkins CI + Gitlab CI (создание job и написание pipeline для автоматизированных прогонов)\n3. Оптимизация существующего тестового фреймворка\n4. Настройка Docker (Создание кастомных образов, Создание контейнеров, Регистрация раннеров, и их настройка для использования в автоматизированных тестах)\nAchievements:\n1. Оптимизировал работу в 4 кластерах k8s для запуска автотестов, уменьшив среднее время билда на 150% (тонкая настройка pom.xml и хитрая работа с Garbage Collector, Оптимизация работы с БД)\n2. Создал кастомное приложение с интеграцией с Allure Report для более удобного разбора упавших тестов регресса (Удобный, Асинхронный, Кастомный UI)\n3. Придумал и реализовал более удобный и быстрый процесс авто-взаимодействия с Mobile командой (Смогл добиться создания очень удобной системы правил/сроков для ответа на обращения/проблемы/предложения команды Automation QA) (Создание отдельных спец.чатиков в MM, Менеджмент задач в Jira, Кастомный SLA для отбивки на почту, Алгоритмы анализа, LLM Agents)\nНоя 2018 -\nНоя 2020\n2 года 1 мес\nОрганизация 3\nМоскваwww.egartech.ru\nИнформационные технологии, системная интеграция, интернет\nJava QA Automation\nProject: HealthTech\n1. Creating and Run TC's\n2. Control test processes\n3. Creating a bug reports\n4. Optimazed time to market, by improving QA process\n\nНавыки\nПродвинутый уровень\nJava\nTestNG\nMaven\nGradle\nOkHttp\nRestAssured\nSelenium\nSelenide\nMySQL\nGitlab\nJDBC\nDocker\nJira\nElasticsearch\nHibernate\nPython\nAllure\nAllureTestOps\nDevOps\nPostgreSQL\nAPI\nСредний уровень\nKotlin\nJUnit\nKafka\nSpring\nk8s\nJavaScript\nJenkins\nRabbitMQ\nБазовый уровень\nTransact-SQL\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nHi ^_^\nGitHub -> https://github.com/Strongcomic\nTelegram -> https://t.me/melnikov_artyom24\nПозиционирую себя как РАЗРАБОТЧИК.\nНе заинтересован в ручном тестировании.\n\nОбразование\nУровень\nВысшее образование\nМосковский государственный университет имени М.В. Ломоносова, Москва\nИнформационные системы и технологии, Инженер-программист\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

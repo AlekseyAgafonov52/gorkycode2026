@@ -1,0 +1,77 @@
+{
+  "candidate_id": 364,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Добрый день!\nМеня зовут Руслан. Я Python Backend Developer с 3 годами коммерческого опыта разработки веб-сервисов на FastAPI, Django, PostgreSQL, SQLAlchemy, Docker, а также опытом построения микросервисной архитектуры.\nГотов быстро включиться в задачи, брать ответственность и доводить решения до результата.\nОткрыт к новым технологиям и сложным техническим вызовам.\nМоё портфолио, примеры кода и проекты:\nGitHub: https://github.com/khruslan2805-sys\nБуду рад обсудить детали и пройти техническое интервью.\nС Уважением, Руслан",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "pytest",
+      "level": "intermediate",
+      "original": "Pytest"
+    },
+    {
+      "name": "PyCharm",
+      "level": "intermediate",
+      "original": "PyCharm"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №364\nРезюме: Python-разработчик",
+    "cover_letter": "Добрый день!\nМеня зовут Руслан. Я Python Backend Developer с 3 годами коммерческого опыта разработки веб-сервисов на FastAPI, Django, PostgreSQL, SQLAlchemy, Docker, а также опытом построения микросервисной архитектуры.\nГотов быстро включиться в задачи, брать ответственность и доводить решения до результата.\nОткрыт к новым технологиям и сложным техническим вызовам.\nМоё портфолио, примеры кода и проекты:\nGitHub: https://github.com/khruslan2805-sys\nБуду рад обсудить детали и пройти техническое интервью.\nС Уважением, Руслан",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nPython\nСредний уровень\nGitHub\nREST API\nDjango Rest Framework\nPytest\nPyCharm\nSQL",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №364\nРезюме: Python-разработчик\n\nСопроводительное письмо\nДобрый день!\nМеня зовут Руслан. Я Python Backend Developer с 3 годами коммерческого опыта разработки веб-сервисов на FastAPI, Django, PostgreSQL, SQLAlchemy, Docker, а также опытом построения микросервисной архитектуры.\nГотов быстро включиться в задачи, брать ответственность и доводить решения до результата.\nОткрыт к новым технологиям и сложным техническим вызовам.\nМоё портфолио, примеры кода и проекты:\nGitHub: https://github.com/khruslan2805-sys\nБуду рад обсудить детали и пройти техническое интервью.\nС Уважением, Руслан\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nPython\nСредний уровень\nGitHub\nREST API\nDjango Rest Framework\nPytest\nPyCharm\nSQL\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

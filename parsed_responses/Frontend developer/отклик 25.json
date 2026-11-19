@@ -1,0 +1,207 @@
+{
+  "candidate_id": 25,
+  "resume_title": "Frontend developer",
+  "cover_letter": null,
+  "experience_total_months": 98,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2021-10",
+      "end_date": "2026-10",
+      "is_current": false,
+      "duration_months": 61,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "www.b2b-center.ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "-Разработка и развитие функциональности корпоративного B2B-продукта.\n-Реализация нового функционала для раздела «Каталог».\n-Разработка клиентской части приложения на Vue/Nuxt.js.\n-Интеграция с REST API, работа со Swagger.\n-Рефакторинг и поддержка существующего кода.\n-Проведение code review.\n-Написание и поддержка автоматизированных тестов.\n-Участие в командной разработке и развитии существующего приложения",
+      "original": "Окт 2021 -\nОкт 2026\n5 лет 1 мес\nОрганизация 1\nwww.b2b-center.ru/\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n-Разработка и развитие функциональности корпоративного B2B-продукта.\n-Реализация нового функционала для раздела «Каталог».\n-Разработка клиентской части приложения на Vue/Nuxt.js.\n-Интеграция с REST API, работа со Swagger.\n-Рефакторинг и поддержка существующего кода.\n-Проведение code review.\n-Написание и поддержка автоматизированных тестов.\n-Участие в командной разработке и развитии существующего приложения"
+    },
+    {
+      "start_date": "2019-08",
+      "end_date": "2021-09",
+      "is_current": false,
+      "duration_months": 26,
+      "organization": "Организация 2",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разработка frontend-части веб-приложений для строительных и медицинских компаний, а также маркетплейсов.\n-Создание пользовательских интерфейсов на Vue.js и Quasar.\n-Написание тестов.\n-Разработка backend-части приложений на Node.js с использованием KeystoneJS и Strapi.\n-Работа с Drupal 8.\n-Участие в проектировании и реализации веб-приложений.",
+      "original": "Авг 2019 -\nСен 2021\n2 года 2 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРазработка frontend-части веб-приложений для строительных и медицинских компаний, а также маркетплейсов.\n-Создание пользовательских интерфейсов на Vue.js и Quasar.\n-Написание тестов.\n-Разработка backend-части приложений на Node.js с использованием KeystoneJS и Strapi.\n-Работа с Drupal 8.\n-Участие в проектировании и реализации веб-приложений."
+    },
+    {
+      "start_date": "2018-09",
+      "end_date": "2019-08",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 3",
+      "position": "Web-разработчик",
+      "employer_details": [],
+      "description": "верстка макетов, решение прикладных задач по программированию",
+      "original": "Сен 2018 -\nАвг 2019\n1 год\nОрганизация 3\nWeb-разработчик\nверстка макетов, решение прикладных задач по программированию"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Работа в команде",
+      "level": "advanced",
+      "original": "Работа в команде"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "vuejs"
+    },
+    {
+      "name": "Frontend",
+      "level": "advanced",
+      "original": "Frontend"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "Vue"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "GraphQL",
+      "level": "intermediate",
+      "original": "graphql"
+    },
+    {
+      "name": "Nuxt",
+      "level": "intermediate",
+      "original": "nuxt"
+    },
+    {
+      "name": "quasar",
+      "level": "intermediate",
+      "original": "quasar"
+    },
+    {
+      "name": "Node.js",
+      "level": "intermediate",
+      "original": "nodejs"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "npm",
+      "level": "intermediate",
+      "original": "npm"
+    },
+    {
+      "name": "Nuxt",
+      "level": "intermediate",
+      "original": "Nuxt.js"
+    },
+    {
+      "name": "Jest",
+      "level": "intermediate",
+      "original": "Jest"
+    },
+    {
+      "name": "Ответственность",
+      "level": null,
+      "original": "Ответственность"
+    },
+    {
+      "name": "Vuex",
+      "level": null,
+      "original": "vuex"
+    },
+    {
+      "name": "vue-router",
+      "level": null,
+      "original": "vue-router"
+    },
+    {
+      "name": "keysotnejs",
+      "level": null,
+      "original": "keysotnejs"
+    },
+    {
+      "name": "Webpack",
+      "level": null,
+      "original": "Webpack"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML5"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    },
+    {
+      "name": "Axios",
+      "level": null,
+      "original": "Axios"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Frontend-разработчик с 8+ годами опыта в веб-разработке, включая около 5 лет работы над корпоративным B2B-продуктом. Основная коммерческая экспертиза — Vue.js, Nuxt.js, JavaScript и TypeScript.\nЗанимаюсь разработкой нового функционала, поддержкой и рефакторингом существующих приложений, code review и автоматизированным тестированием. Есть опыт разработки backend-приложений на Node.js и интеграции с REST API.\nРазвиваю навыки работы с React через самостоятельные проекты: реализовал React-портфолио с Redux и React Router. Изучаю современные подходы к frontend-архитектуре и fullstack-разработке.\nИщу позицию Senior Frontend Developer, где смогу применять накопленный коммерческий опыт, участвовать в технических решениях и развивать качественные пользовательские продукты.\nТехнологии:\n-Vue 2/3(Options API/Composition API);\n-Vuex, Vue-router;\n-Pinia;\n-Swagger;\n-Webpack;\n-Vite;\n-Nuxt.js;\n-Quasar, Vuetify, Bootstrap;\n-HTML, CSS/Scss, JavaScript;\n-Git;\n-Typescript\n-Jest\n-Playwright\n-JavaScript\n-Node.js\n-KeystoneJS\n-Strapi\n-Drupal 8.\nПроекты и open-source:\nPortfolio — React-приложение\nGitHub: https://github.com/Nikitoring/portfolio\nСамостоятельно разработанное React-приложение, опубликованное через GitHub Pages.\nТехнологии: React, Redux, React Router, SCSS, React Testing Library.\nПроект демонстрирует практический опыт разработки на React, организации клиентского состояния, маршрутизации и тестирования компонентов.\nOpen-source contribution — RevoGrid / Vue Data Grid · Frontend-разработчик с 8+ годами опыта в веб-разработке, включая около 5 лет работы над корпоративным B2B-продуктом. Основная коммерческая экспертиза — Vue.js, Nuxt.js, JavaScript и TypeScript.\nЗанимаюсь разработкой нового функционала, поддержкой и рефакторингом существующих приложений, code review и автоматизированным тестированием. Есть опыт разработки backend-приложений на Node.js и интеграции с REST API.\nРазвиваю навыки работы с React через самостоятельные проекты: реализовал React-портфолио с Redux и React Router. Изучаю современные подходы к frontend-архитектуре и fullstack-разработке.\nИщу позицию Senior Frontend Developer, где смогу применять накопленный коммерческий опыт, участвовать в технических решениях и развивать качественные пользовательские продукты.\nТехнологии:\n-Vue 2/3(Options API/Composition API);\n-Vuex, Vue-router;\n-Pinia;\n-Swagger;\n-Webpack;\n-Vite;\n-Nuxt.js;\n-Quasar, Vuetify, Bootstrap;\n-HTML, CSS/Scss, JavaScript;\n-Git;\n-Typescript\n-Jest\n-Playwright\n-JavaScript\n-Node.js\n-KeystoneJS\n-Strapi\n-Drupal 8.\nПроекты и open-source:\nPortfolio — React-приложение\nGitHub: https://github.com/Nikitoring/portfolio\nСамостоятельно разработанное React-приложение, опубликованное через GitHub Pages.\nТехнологии: React, Redux, React Router, SCSS, React Testing Library.\nПроект демонстрирует практический опыт разработки на React, организации клиентского состояния, маршрутизации и тестирования компонентов.\nOpen-source contribution — RevoGrid / Vue Data Grid · https://github.com/revolist/vue-datagrid/pull/26\nРеализовал передачу пользовательских props в ячейки, созданные через VGridVueTemplate.\nПредложил решение, позволяющее передавать данные в cell templates без использования глобальной шины событий\nPull request принят и влит в основной репозиторий.\nСтек: Vue.js, JavaScript.\nOpen-source contribution — KeystoneJS\nKeystoneJS — Nested Set Field · Pull Request https://github.com/keystonejs-contrib/k6-contrib/pull/33\nРазрабатывал расширение для работы с иерархическими структурами.\nДорабатывал конфигурацию и валидацию, исправлял ошибки административного интерфейса.\nИтеративно вносил изменения по обратной связи мейнтейнера.\nСтатус: pull request открыт, не влит.\nQuasar Framework — Issue #10566, Issue #9290\nСообщил о проблеме с пагинацией в примере QTable с virtual scroll.\nПредложил поддержку древовидных опций в QSelect и подготовил собственную экспериментальную реализацию.\nТелеграмм https://t.me/Nikitoring\nРеализовал передачу пользовательских props в ячейки, созданные через VGridVueTemplate.\nПредложил решение, позволяющее передавать данные в cell templates без использования глобальной шины событий\nPull request принят и влит в основной репозиторий.\nСтек: Vue.js, JavaScript.\nOpen-source contribution — KeystoneJS\nKeystoneJS — Nested Set Field · Pull Request #33\nРазрабатывал расширение для работы с иерархическими структурами.\nДорабатывал конфигурацию и валидацию, исправлял ошибки административного интерфейса.\nИтеративно вносил изменения по обратной связи мейнтейнера.\nСтатус: pull request открыт, не влит.\nQuasar Framework — Issue https://github.com/quasarframework/quasar/issues/10566, Issue https://github.com/quasarframework/quasar/issues/9290\nСообщил о проблеме с пагинацией в примере QTable с virtual scroll.\nПредложил поддержку древовидных опций в QSelect и подготовил собственную экспериментальную реализацию.\nТелеграмм https://t.me/Nikitoring",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Нижегородский государственный педагогический университет им. Козьмы Минина (Мининский университет), Нижний Новгород",
+      "details": [
+        "Прикладная информатика (по областям)"
+      ],
+      "year": 2015,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Нижегородский государственный педагогический университет им. Козьмы Минина (Мининский университет), Нижний Новгород\nПрикладная информатика (по областям)\n•\n2015\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №25\nРезюме: Frontend developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 8 лет 2 месяца\nОкт 2021 -\nОкт 2026\n5 лет 1 мес\nОрганизация 1\nwww.b2b-center.ru/\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n-Разработка и развитие функциональности корпоративного B2B-продукта.\n-Реализация нового функционала для раздела «Каталог».\n-Разработка клиентской части приложения на Vue/Nuxt.js.\n-Интеграция с REST API, работа со Swagger.\n-Рефакторинг и поддержка существующего кода.\n-Проведение code review.\n-Написание и поддержка автоматизированных тестов.\n-Участие в командной разработке и развитии существующего приложения\nАвг 2019 -\nСен 2021\n2 года 2 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРазработка frontend-части веб-приложений для строительных и медицинских компаний, а также маркетплейсов.\n-Создание пользовательских интерфейсов на Vue.js и Quasar.\n-Написание тестов.\n-Разработка backend-части приложений на Node.js с использованием KeystoneJS и Strapi.\n-Работа с Drupal 8.\n-Участие в проектировании и реализации веб-приложений.\nСен 2018 -\nАвг 2019\n1 год\nОрганизация 3\nWeb-разработчик\nверстка макетов, решение прикладных задач по программированию",
+    "skills": "Продвинутый уровень\nРабота в команде\nvuejs\nFrontend\nVue\nСредний уровень\nJavaScript\nGit\ngraphql\nnuxt\nquasar\nnodejs\nHTML\nnpm\nNuxt.js\nJest\nУровень не указан\nОтветственность\nvuex\nvue-router\nkeysotnejs\nWebpack\nHTML5\nREST\nAxios",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Frontend-разработчик с 8+ годами опыта в веб-разработке, включая около 5 лет работы над корпоративным B2B-продуктом. Основная коммерческая экспертиза — Vue.js, Nuxt.js, JavaScript и TypeScript.\nЗанимаюсь разработкой нового функционала, поддержкой и рефакторингом существующих приложений, code review и автоматизированным тестированием. Есть опыт разработки backend-приложений на Node.js и интеграции с REST API.\nРазвиваю навыки работы с React через самостоятельные проекты: реализовал React-портфолио с Redux и React Router. Изучаю современные подходы к frontend-архитектуре и fullstack-разработке.\nИщу позицию Senior Frontend Developer, где смогу применять накопленный коммерческий опыт, участвовать в технических решениях и развивать качественные пользовательские продукты.\nТехнологии:\n-Vue 2/3(Options API/Composition API);\n-Vuex, Vue-router;\n-Pinia;\n-Swagger;\n-Webpack;\n-Vite;\n-Nuxt.js;\n-Quasar, Vuetify, Bootstrap;\n-HTML, CSS/Scss, JavaScript;\n-Git;\n-Typescript\n-Jest\n-Playwright\n-JavaScript\n-Node.js\n-KeystoneJS\n-Strapi\n-Drupal 8.\nПроекты и open-source:\nPortfolio — React-приложение\nGitHub: https://github.com/Nikitoring/portfolio\nСамостоятельно разработанное React-приложение, опубликованное через GitHub Pages.\nТехнологии: React, Redux, React Router, SCSS, React Testing Library.\nПроект демонстрирует практический опыт разработки на React, организации клиентского состояния, маршрутизации и тестирования компонентов.\nOpen-source contribution — RevoGrid / Vue Data Grid · Frontend-разработчик с 8+ годами опыта в веб-разработке, включая около 5 лет работы над корпоративным B2B-продуктом. Основная коммерческая экспертиза — Vue.js, Nuxt.js, JavaScript и TypeScript.\nЗанимаюсь разработкой нового функционала, поддержкой и рефакторингом существующих приложений, code review и автоматизированным тестированием. Есть опыт разработки backend-приложений на Node.js и интеграции с REST API.\nРазвиваю навыки работы с React через самостоятельные проекты: реализовал React-портфолио с Redux и React Router. Изучаю современные подходы к frontend-архитектуре и fullstack-разработке.\nИщу позицию Senior Frontend Developer, где смогу применять накопленный коммерческий опыт, участвовать в технических решениях и развивать качественные пользовательские продукты.\nТехнологии:\n-Vue 2/3(Options API/Composition API);\n-Vuex, Vue-router;\n-Pinia;\n-Swagger;\n-Webpack;\n-Vite;\n-Nuxt.js;\n-Quasar, Vuetify, Bootstrap;\n-HTML, CSS/Scss, JavaScript;\n-Git;\n-Typescript\n-Jest\n-Playwright\n-JavaScript\n-Node.js\n-KeystoneJS\n-Strapi\n-Drupal 8.\nПроекты и open-source:\nPortfolio — React-приложение\nGitHub: https://github.com/Nikitoring/portfolio\nСамостоятельно разработанное React-приложение, опубликованное через GitHub Pages.\nТехнологии: React, Redux, React Router, SCSS, React Testing Library.\nПроект демонстрирует практический опыт разработки на React, организации клиентского состояния, маршрутизации и тестирования компонентов.\nOpen-source contribution — RevoGrid / Vue Data Grid · https://github.com/revolist/vue-datagrid/pull/26\nРеализовал передачу пользовательских props в ячейки, созданные через VGridVueTemplate.\nПредложил решение, позволяющее передавать данные в cell templates без использования глобальной шины событий\nPull request принят и влит в основной репозиторий.\nСтек: Vue.js, JavaScript.\nOpen-source contribution — KeystoneJS\nKeystoneJS — Nested Set Field · Pull Request https://github.com/keystonejs-contrib/k6-contrib/pull/33\nРазрабатывал расширение для работы с иерархическими структурами.\nДорабатывал конфигурацию и валидацию, исправлял ошибки административного интерфейса.\nИтеративно вносил изменения по обратной связи мейнтейнера.\nСтатус: pull request открыт, не влит.\nQuasar Framework — Issue #10566, Issue #9290\nСообщил о проблеме с пагинацией в примере QTable с virtual scroll.\nПредложил поддержку древовидных опций в QSelect и подготовил собственную экспериментальную реализацию.\nТелеграмм https://t.me/Nikitoring\nРеализовал передачу пользовательских props в ячейки, созданные через VGridVueTemplate.\nПредложил решение, позволяющее передавать данные в cell templates без использования глобальной шины событий\nPull request принят и влит в основной репозиторий.\nСтек: Vue.js, JavaScript.\nOpen-source contribution — KeystoneJS\nKeystoneJS — Nested Set Field · Pull Request #33\nРазрабатывал расширение для работы с иерархическими структурами.\nДорабатывал конфигурацию и валидацию, исправлял ошибки административного интерфейса.\nИтеративно вносил изменения по обратной связи мейнтейнера.\nСтатус: pull request открыт, не влит.\nQuasar Framework — Issue https://github.com/quasarframework/quasar/issues/10566, Issue https://github.com/quasarframework/quasar/issues/9290\nСообщил о проблеме с пагинацией в примере QTable с virtual scroll.\nПредложил поддержку древовидных опций в QSelect и подготовил собственную экспериментальную реализацию.\nТелеграмм https://t.me/Nikitoring",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nНижегородский государственный педагогический университет им. Козьмы Минина (Мининский университет), Нижний Новгород\nПрикладная информатика (по областям)\n•\n2015\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №25\nРезюме: Frontend developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 8 лет 2 месяца\nОкт 2021 -\nОкт 2026\n5 лет 1 мес\nОрганизация 1\nwww.b2b-center.ru/\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\n-Разработка и развитие функциональности корпоративного B2B-продукта.\n-Реализация нового функционала для раздела «Каталог».\n-Разработка клиентской части приложения на Vue/Nuxt.js.\n-Интеграция с REST API, работа со Swagger.\n-Рефакторинг и поддержка существующего кода.\n-Проведение code review.\n-Написание и поддержка автоматизированных тестов.\n-Участие в командной разработке и развитии существующего приложения\nАвг 2019 -\nСен 2021\n2 года 2 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nFrontend-разработчик\nРазработка frontend-части веб-приложений для строительных и медицинских компаний, а также маркетплейсов.\n-Создание пользовательских интерфейсов на Vue.js и Quasar.\n-Написание тестов.\n-Разработка backend-части приложений на Node.js с использованием KeystoneJS и Strapi.\n-Работа с Drupal 8.\n-Участие в проектировании и реализации веб-приложений.\nСен 2018 -\nАвг 2019\n1 год\nОрганизация 3\nWeb-разработчик\nверстка макетов, решение прикладных задач по программированию\n\nНавыки\nПродвинутый уровень\nРабота в команде\nvuejs\nFrontend\nVue\nСредний уровень\nJavaScript\nGit\ngraphql\nnuxt\nquasar\nnodejs\nHTML\nnpm\nNuxt.js\nJest\nУровень не указан\nОтветственность\nvuex\nvue-router\nkeysotnejs\nWebpack\nHTML5\nREST\nAxios\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nFrontend-разработчик с 8+ годами опыта в веб-разработке, включая около 5 лет работы над корпоративным B2B-продуктом. Основная коммерческая экспертиза — Vue.js, Nuxt.js, JavaScript и TypeScript.\nЗанимаюсь разработкой нового функционала, поддержкой и рефакторингом существующих приложений, code review и автоматизированным тестированием. Есть опыт разработки backend-приложений на Node.js и интеграции с REST API.\nРазвиваю навыки работы с React через самостоятельные проекты: реализовал React-портфолио с Redux и React Router. Изучаю современные подходы к frontend-архитектуре и fullstack-разработке.\nИщу позицию Senior Frontend Developer, где смогу применять накопленный коммерческий опыт, участвовать в технических решениях и развивать качественные пользовательские продукты.\nТехнологии:\n-Vue 2/3(Options API/Composition API);\n-Vuex, Vue-router;\n-Pinia;\n-Swagger;\n-Webpack;\n-Vite;\n-Nuxt.js;\n-Quasar, Vuetify, Bootstrap;\n-HTML, CSS/Scss, JavaScript;\n-Git;\n-Typescript\n-Jest\n-Playwright\n-JavaScript\n-Node.js\n-KeystoneJS\n-Strapi\n-Drupal 8.\nПроекты и open-source:\nPortfolio — React-приложение\nGitHub: https://github.com/Nikitoring/portfolio\nСамостоятельно разработанное React-приложение, опубликованное через GitHub Pages.\nТехнологии: React, Redux, React Router, SCSS, React Testing Library.\nПроект демонстрирует практический опыт разработки на React, организации клиентского состояния, маршрутизации и тестирования компонентов.\nOpen-source contribution — RevoGrid / Vue Data Grid · Frontend-разработчик с 8+ годами опыта в веб-разработке, включая около 5 лет работы над корпоративным B2B-продуктом. Основная коммерческая экспертиза — Vue.js, Nuxt.js, JavaScript и TypeScript.\nЗанимаюсь разработкой нового функционала, поддержкой и рефакторингом существующих приложений, code review и автоматизированным тестированием. Есть опыт разработки backend-приложений на Node.js и интеграции с REST API.\nРазвиваю навыки работы с React через самостоятельные проекты: реализовал React-портфолио с Redux и React Router. Изучаю современные подходы к frontend-архитектуре и fullstack-разработке.\nИщу позицию Senior Frontend Developer, где смогу применять накопленный коммерческий опыт, участвовать в технических решениях и развивать качественные пользовательские продукты.\nТехнологии:\n-Vue 2/3(Options API/Composition API);\n-Vuex, Vue-router;\n-Pinia;\n-Swagger;\n-Webpack;\n-Vite;\n-Nuxt.js;\n-Quasar, Vuetify, Bootstrap;\n-HTML, CSS/Scss, JavaScript;\n-Git;\n-Typescript\n-Jest\n-Playwright\n-JavaScript\n-Node.js\n-KeystoneJS\n-Strapi\n-Drupal 8.\nПроекты и open-source:\nPortfolio — React-приложение\nGitHub: https://github.com/Nikitoring/portfolio\nСамостоятельно разработанное React-приложение, опубликованное через GitHub Pages.\nТехнологии: React, Redux, React Router, SCSS, React Testing Library.\nПроект демонстрирует практический опыт разработки на React, организации клиентского состояния, маршрутизации и тестирования компонентов.\nOpen-source contribution — RevoGrid / Vue Data Grid · https://github.com/revolist/vue-datagrid/pull/26\nРеализовал передачу пользовательских props в ячейки, созданные через VGridVueTemplate.\nПредложил решение, позволяющее передавать данные в cell templates без использования глобальной шины событий\nPull request принят и влит в основной репозиторий.\nСтек: Vue.js, JavaScript.\nOpen-source contribution — KeystoneJS\nKeystoneJS — Nested Set Field · Pull Request https://github.com/keystonejs-contrib/k6-contrib/pull/33\nРазрабатывал расширение для работы с иерархическими структурами.\nДорабатывал конфигурацию и валидацию, исправлял ошибки административного интерфейса.\nИтеративно вносил изменения по обратной связи мейнтейнера.\nСтатус: pull request открыт, не влит.\nQuasar Framework — Issue #10566, Issue #9290\nСообщил о проблеме с пагинацией в примере QTable с virtual scroll.\nПредложил поддержку древовидных опций в QSelect и подготовил собственную экспериментальную реализацию.\nТелеграмм https://t.me/Nikitoring\nРеализовал передачу пользовательских props в ячейки, созданные через VGridVueTemplate.\nПредложил решение, позволяющее передавать данные в cell templates без использования глобальной шины событий\nPull request принят и влит в основной репозиторий.\nСтек: Vue.js, JavaScript.\nOpen-source contribution — KeystoneJS\nKeystoneJS — Nested Set Field · Pull Request #33\nРазрабатывал расширение для работы с иерархическими структурами.\nДорабатывал конфигурацию и валидацию, исправлял ошибки административного интерфейса.\nИтеративно вносил изменения по обратной связи мейнтейнера.\nСтатус: pull request открыт, не влит.\nQuasar Framework — Issue https://github.com/quasarframework/quasar/issues/10566, Issue https://github.com/quasarframework/quasar/issues/9290\nСообщил о проблеме с пагинацией в примере QTable с virtual scroll.\nПредложил поддержку древовидных опций в QSelect и подготовил собственную экспериментальную реализацию.\nТелеграмм https://t.me/Nikitoring\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nНижегородский государственный педагогический университет им. Козьмы Минина (Мининский университет), Нижний Новгород\nПрикладная информатика (по областям)\n•\n2015\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

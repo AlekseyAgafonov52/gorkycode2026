@@ -1,0 +1,256 @@
+{
+  "candidate_id": 123,
+  "resume_title": "Android-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 166,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2013-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 166,
+      "organization": "Организация 1",
+      "position": "Fullstack-разработчик",
+      "employer_details": [],
+      "description": "Собственные проекты на разных языках и платформах",
+      "original": "Янв 2013 -\nсейчас\n13 лет 10 мес\nОрганизация 1\nFullstack-разработчик\nСобственные проекты на разных языках и платформах"
+    },
+    {
+      "start_date": "2024-02",
+      "end_date": "2024-07",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 2",
+      "position": "Lead Kotlin Multiplatform Developer",
+      "employer_details": [],
+      "description": "Разработка с нуля. Управление командой. Декомпозиция задач.\nПроекты: ЖКХ Услуги, Электрозаправки.\n100% Kotlin Backend, Frontend",
+      "original": "Фев 2024 -\nИюл 2024\n6 мес\nОрганизация 2\nLead Kotlin Multiplatform Developer\nРазработка с нуля. Управление командой. Декомпозиция задач.\nПроекты: ЖКХ Услуги, Электрозаправки.\n100% Kotlin Backend, Frontend"
+    },
+    {
+      "start_date": "2021-04",
+      "end_date": "2023-12",
+      "is_current": false,
+      "duration_months": 33,
+      "organization": "Организация 3",
+      "position": "Инженер-программист",
+      "employer_details": [],
+      "description": "Разработка и поддержка мобильных приложений.\nВнутренние проекты компании под nda, клиент для записи авто на сервис, приемка авто, Gandiva\nАвтомобильное и Агро направление.",
+      "original": "Апр 2021 -\nДек 2023\n2 года 9 мес\nОрганизация 3\nИнженер-программист\nРазработка и поддержка мобильных приложений.\nВнутренние проекты компании под nda, клиент для записи авто на сервис, приемка авто, Gandiva\nАвтомобильное и Агро направление."
+    },
+    {
+      "start_date": "2021-01",
+      "end_date": "2021-04",
+      "is_current": false,
+      "duration_months": 4,
+      "organization": "Организация 4",
+      "position": "Перевозки, логистика, склад, ВЭД",
+      "employer_details": [
+        "agat-group.com/about/?"
+      ],
+      "description": "Инженер-программист\nРазработка и поддержка мобильных приложений",
+      "original": "Янв 2021 -\nАпр 2021\n4 мес\nОрганизация 4\nagat-group.com/about/?\nПеревозки, логистика, склад, ВЭД\nИнженер-программист\nРазработка и поддержка мобильных приложений"
+    },
+    {
+      "start_date": "2020-01",
+      "end_date": "2020-03",
+      "is_current": false,
+      "duration_months": 3,
+      "organization": "Организация 5",
+      "position": "Программист",
+      "employer_details": [],
+      "description": "Создание сайтов",
+      "original": "Янв 2020 -\nМар 2020\n3 мес\nОрганизация 5\nПрограммист\nСоздание сайтов"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Android",
+      "level": "advanced",
+      "original": "Android"
+    },
+    {
+      "name": "Java",
+      "level": "advanced",
+      "original": "Java"
+    },
+    {
+      "name": "Kotlin",
+      "level": "advanced",
+      "original": "Kotlin"
+    },
+    {
+      "name": "Управление командой",
+      "level": "advanced",
+      "original": "Управление командой"
+    },
+    {
+      "name": "Compose Multiplatform",
+      "level": "advanced",
+      "original": "Compose Multiplatform"
+    },
+    {
+      "name": "Kotlin Multiplatform",
+      "level": "advanced",
+      "original": "Kotlin Multiplatform"
+    },
+    {
+      "name": "Flutter",
+      "level": "advanced",
+      "original": "Flutter"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "iOS",
+      "level": "advanced",
+      "original": "iOS"
+    },
+    {
+      "name": "Swift",
+      "level": "advanced",
+      "original": "Swift"
+    },
+    {
+      "name": "Objective-C",
+      "level": "advanced",
+      "original": "Objective-C"
+    },
+    {
+      "name": "C/C++",
+      "level": "advanced",
+      "original": "C/C++"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Dart",
+      "level": "advanced",
+      "original": "Dart"
+    },
+    {
+      "name": "Лидерские качества",
+      "level": "advanced",
+      "original": "Лидерские качества"
+    },
+    {
+      "name": "Аналитическое мышление",
+      "level": "advanced",
+      "original": "Аналитическое мышление"
+    },
+    {
+      "name": "С#",
+      "level": "advanced",
+      "original": "С#"
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Сетевые протоколы",
+      "level": "advanced",
+      "original": "Сетевые протоколы"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Android SDK",
+      "level": "advanced",
+      "original": "Android SDK"
+    },
+    {
+      "name": "Clean Architecture",
+      "level": "advanced",
+      "original": "Clean Architecture"
+    },
+    {
+      "name": "SOLID",
+      "level": "advanced",
+      "original": "SOLID"
+    },
+    {
+      "name": "KISS",
+      "level": "advanced",
+      "original": "KISS"
+    },
+    {
+      "name": "DRY",
+      "level": "advanced",
+      "original": "DRY"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Socket",
+      "level": "advanced",
+      "original": "Socket"
+    },
+    {
+      "name": "3D-графика",
+      "level": "advanced",
+      "original": "3D-графика"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Более 15 лет в разработке: backend, frontend, mobile(iOS/Android), database, network.\n— Умею строить сложные системы с нуля — от идеи до реализации.\n— Пишу на любых языках, но основные C/C++, Java, Kotlin.\n— Способен самостоятельно реализовать полный цикл разработки продукта.\n— Умею работать автономно и брать на себя ответственность.\nИнтересует участие в амбициозных, технологически насыщенных проектах, где ценится инициативность, глубокая экспертиза и ориентация на результат.\n* Готов выполнить ваше тестовое задание за тестовую зарплату с моей ставкой в 1375 рублей час, в тестовом режиме с низким энергопотреблением.",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №123\nРезюме: Android-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 13 лет 10 месяцев\nЯнв 2013 -\nсейчас\n13 лет 10 мес\nОрганизация 1\nFullstack-разработчик\nСобственные проекты на разных языках и платформах\nФев 2024 -\nИюл 2024\n6 мес\nОрганизация 2\nLead Kotlin Multiplatform Developer\nРазработка с нуля. Управление командой. Декомпозиция задач.\nПроекты: ЖКХ Услуги, Электрозаправки.\n100% Kotlin Backend, Frontend\nАпр 2021 -\nДек 2023\n2 года 9 мес\nОрганизация 3\nИнженер-программист\nРазработка и поддержка мобильных приложений.\nВнутренние проекты компании под nda, клиент для записи авто на сервис, приемка авто, Gandiva\nАвтомобильное и Агро направление.\nЯнв 2021 -\nАпр 2021\n4 мес\nОрганизация 4\nagat-group.com/about/?\nПеревозки, логистика, склад, ВЭД\nИнженер-программист\nРазработка и поддержка мобильных приложений\nЯнв 2020 -\nМар 2020\n3 мес\nОрганизация 5\nПрограммист\nСоздание сайтов",
+    "skills": "Продвинутый уровень\nAndroid\nJava\nKotlin\nУправление командой\nCompose Multiplatform\nKotlin Multiplatform\nFlutter\nAgile\niOS\nSwift\nObjective-C\nC/C++\nGit\nSQL\nDart\nЛидерские качества\nАналитическое мышление\nС#\nPython\nDocker\nСетевые протоколы\nLinux\nAndroid SDK\nClean Architecture\nSOLID\nKISS\nDRY\nREST API\nSocket\n3D-графика",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Более 15 лет в разработке: backend, frontend, mobile(iOS/Android), database, network.\n— Умею строить сложные системы с нуля — от идеи до реализации.\n— Пишу на любых языках, но основные C/C++, Java, Kotlin.\n— Способен самостоятельно реализовать полный цикл разработки продукта.\n— Умею работать автономно и брать на себя ответственность.\nИнтересует участие в амбициозных, технологически насыщенных проектах, где ценится инициативность, глубокая экспертиза и ориентация на результат.\n* Готов выполнить ваше тестовое задание за тестовую зарплату с моей ставкой в 1375 рублей час, в тестовом режиме с низким энергопотреблением.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №123\nРезюме: Android-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 13 лет 10 месяцев\nЯнв 2013 -\nсейчас\n13 лет 10 мес\nОрганизация 1\nFullstack-разработчик\nСобственные проекты на разных языках и платформах\nФев 2024 -\nИюл 2024\n6 мес\nОрганизация 2\nLead Kotlin Multiplatform Developer\nРазработка с нуля. Управление командой. Декомпозиция задач.\nПроекты: ЖКХ Услуги, Электрозаправки.\n100% Kotlin Backend, Frontend\nАпр 2021 -\nДек 2023\n2 года 9 мес\nОрганизация 3\nИнженер-программист\nРазработка и поддержка мобильных приложений.\nВнутренние проекты компании под nda, клиент для записи авто на сервис, приемка авто, Gandiva\nАвтомобильное и Агро направление.\nЯнв 2021 -\nАпр 2021\n4 мес\nОрганизация 4\nagat-group.com/about/?\nПеревозки, логистика, склад, ВЭД\nИнженер-программист\nРазработка и поддержка мобильных приложений\nЯнв 2020 -\nМар 2020\n3 мес\nОрганизация 5\nПрограммист\nСоздание сайтов\n\nНавыки\nПродвинутый уровень\nAndroid\nJava\nKotlin\nУправление командой\nCompose Multiplatform\nKotlin Multiplatform\nFlutter\nAgile\niOS\nSwift\nObjective-C\nC/C++\nGit\nSQL\nDart\nЛидерские качества\nАналитическое мышление\nС#\nPython\nDocker\nСетевые протоколы\nLinux\nAndroid SDK\nClean Architecture\nSOLID\nKISS\nDRY\nREST API\nSocket\n3D-графика\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nБолее 15 лет в разработке: backend, frontend, mobile(iOS/Android), database, network.\n— Умею строить сложные системы с нуля — от идеи до реализации.\n— Пишу на любых языках, но основные C/C++, Java, Kotlin.\n— Способен самостоятельно реализовать полный цикл разработки продукта.\n— Умею работать автономно и брать на себя ответственность.\nИнтересует участие в амбициозных, технологически насыщенных проектах, где ценится инициативность, глубокая экспертиза и ориентация на результат.\n* Готов выполнить ваше тестовое задание за тестовую зарплату с моей ставкой в 1375 рублей час, в тестовом режиме с низким энергопотреблением.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B\n"
+}

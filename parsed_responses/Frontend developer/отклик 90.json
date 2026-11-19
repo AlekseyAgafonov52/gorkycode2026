@@ -1,0 +1,257 @@
+{
+  "candidate_id": 90,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": "Привет. У меня более 3-х лет коммерческого опыта в разработке Frontend-приложений, особенно на Vue, Vite, Module Federation. Также имею опыт написания микросервисов и core-бэкенда на Go и Nest, работал и над внедрением OpenAI API в рабочие сервисы для создания новых функций или оптимизации имеющегося API. Было бы действительно интересно поработать с вашими проектами и столкнуться с новыми вызовами.",
+  "experience_total_months": 45,
+  "similar_experience_months": 45,
+  "work_experience": [
+    {
+      "start_date": "2025-01",
+      "end_date": "2025-10",
+      "is_current": false,
+      "duration_months": 10,
+      "organization": "Организация 1",
+      "position": "Перевозки, логистика, склад, ВЭД",
+      "employer_details": [],
+      "description": "Frontend-разработчик\nFrontend-разработка Telegram App приложения для покупки брендовых товаров на Vue 3, Typescript, naive-ui, Vite, Pinia GitLab, Yandex Tracker. Участие в разработке дизайна приложения. Оптимизация приложения путём кеширования страниц и http-запросов. Создание своих систем кеширования, централизованного хранения данных между компонентами и микрофронтендами. Написание новых микрофронтов для уже существующей системы. Автотесты на Playwright.\nFrontend-разработка браузерного расширения для поиска поставщиков по фото товара, услуги AI-генерации (работа со сторонними платными API)\nFrontend-разработка инструментов для модерации продуктов компании (админки и прочее)\nЗанимался написанием gRPC-микросервисов и REST сервисов на Go (Gin) и интеграцией их на фронтенде Vue + Module Federation\nРазработка небольших CLI на Go для команды (для кодогенерации)\nДля архитектуры проектов используется FSD- Feature Sliced Design и микрофронтенды.\nРефакторинг программного кода",
+      "original": "Янв 2025 -\nОкт 2025\n10 мес\nОрганизация 1\nПеревозки, логистика, склад, ВЭД\nFrontend-разработчик\nFrontend-разработка Telegram App приложения для покупки брендовых товаров на Vue 3, Typescript, naive-ui, Vite, Pinia GitLab, Yandex Tracker. Участие в разработке дизайна приложения. Оптимизация приложения путём кеширования страниц и http-запросов. Создание своих систем кеширования, централизованного хранения данных между компонентами и микрофронтендами. Написание новых микрофронтов для уже существующей системы. Автотесты на Playwright.\nFrontend-разработка браузерного расширения для поиска поставщиков по фото товара, услуги AI-генерации (работа со сторонними платными API)\nFrontend-разработка инструментов для модерации продуктов компании (админки и прочее)\nЗанимался написанием gRPC-микросервисов и REST сервисов на Go (Gin) и интеграцией их на фронтенде Vue + Module Federation\nРазработка небольших CLI на Go для команды (для кодогенерации)\nДля архитектуры проектов используется FSD- Feature Sliced Design и микрофронтенды.\nРефакторинг программного кода"
+    },
+    {
+      "start_date": "2024-01",
+      "end_date": "2025-01",
+      "is_current": false,
+      "duration_months": 13,
+      "organization": "Организация 2",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Москва"
+      ],
+      "description": "Я работал на роли Frontend-разработчика. Моя работа началась с миграции существующих сервисов с React / Redux на Vue / Pinia, а далее я занимался разработкой клиентской части внутренней системы отчётности на Vue 3 + Pinia, а для интерфейса - Quasar и самописные компоненты на Sass. Для визуализации аналитики использовал charts.js. Для анимаций - gsap. Покрыл код юнит-тестами на Jest. Интегрировал REST api.\nНа проекте также реализовывал работу Telegram-ботов на telegram-bot-api и Python. Менторство junior-разработчиков.\nДля документации кода использовался Swagger, а для контейнеризации - Docker с прописанным Docker-Compose.\nПроект позволил сотрудникам перевести свою отчётную деятельность из Google SpreadSheets в более удобную систему, разработанную конкретно под их рабочий процесс, облегчив рутинные задачи и сделав рабочий процесс приятным.",
+      "original": "Янв 2024 -\nЯнв 2025\n1 год 1 мес\nОрганизация 2\nМосква\nFrontend-разработчик\nЯ работал на роли Frontend-разработчика. Моя работа началась с миграции существующих сервисов с React / Redux на Vue / Pinia, а далее я занимался разработкой клиентской части внутренней системы отчётности на Vue 3 + Pinia, а для интерфейса - Quasar и самописные компоненты на Sass. Для визуализации аналитики использовал charts.js. Для анимаций - gsap. Покрыл код юнит-тестами на Jest. Интегрировал REST api.\nНа проекте также реализовывал работу Telegram-ботов на telegram-bot-api и Python. Менторство junior-разработчиков.\nДля документации кода использовался Swagger, а для контейнеризации - Docker с прописанным Docker-Compose.\nПроект позволил сотрудникам перевести свою отчётную деятельность из Google SpreadSheets в более удобную систему, разработанную конкретно под их рабочий процесс, облегчив рутинные задачи и сделав рабочий процесс приятным."
+    },
+    {
+      "start_date": "2023-01",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 14,
+      "organization": "Организация 3",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Москваiteraciya.ru"
+      ],
+      "description": "В составе команды разработки занимался созданием интерфейса главной страницы сайта грузоперевозчика SWIFT (swiftrus.ru), а также калькулятора стоимости грузоперевозок.\nПомогал дополнять общую документацию проекта, участвовал в code-review, писал unit и e2e тесты на Jest для всего своего кода. Команда работала по Scrum\nДля разработки использовался Vue 3 в комбинации с Битрикс24, а также TailwindCSS для стилизации.\nПисал базовый бэкенд для CRUD-операций на PHP (Laravel)\nПисал код на Typescript и занимался рефакторингом кода других разработчиков.\nРаботал в команде с дизайнером, а также Middle-разработчиком в качестве наставника.",
+      "original": "Янв 2023 -\nФев 2024\n1 год 2 мес\nОрганизация 3\nМоскваiteraciya.ru\nFrontend-разработчик\nВ составе команды разработки занимался созданием интерфейса главной страницы сайта грузоперевозчика SWIFT (swiftrus.ru), а также калькулятора стоимости грузоперевозок.\nПомогал дополнять общую документацию проекта, участвовал в code-review, писал unit и e2e тесты на Jest для всего своего кода. Команда работала по Scrum\nДля разработки использовался Vue 3 в комбинации с Битрикс24, а также TailwindCSS для стилизации.\nПисал базовый бэкенд для CRUD-операций на PHP (Laravel)\nПисал код на Typescript и занимался рефакторингом кода других разработчиков.\nРаботал в команде с дизайнером, а также Middle-разработчиком в качестве наставника."
+    },
+    {
+      "start_date": "2022-02",
+      "end_date": "2023-01",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 4",
+      "position": "Frontend-разработчик",
+      "employer_details": [
+        "Москваwww.15web.ru"
+      ],
+      "description": "Разрабатывал пользовательские интерфейсы для коммерческих проектов на стеке React + Redux. Некоторые проекты разрабатывались на Vue + Vuex.\nTypescript, Javascript.\nРазработка в команде велась по Agile принципам.\n(https://www.edimdoma.ru,\nhttps://williams-oliver.ru)\nСоздавал SPA-приложения с использованием React, Redux и Material-UI.\nИнтегрировал REST API для взаимодействия с бэкендом.\nОптимизировал производительность приложений, используя useMemo и useCallback.\nРаботал с Git и GitHub для управления версиями.",
+      "original": "Фев 2022 -\nЯнв 2023\n1 год\nОрганизация 4\nМоскваwww.15web.ru\nFrontend-разработчик\nРазрабатывал пользовательские интерфейсы для коммерческих проектов на стеке React + Redux. Некоторые проекты разрабатывались на Vue + Vuex.\nTypescript, Javascript.\nРазработка в команде велась по Agile принципам.\n(https://www.edimdoma.ru,\nhttps://williams-oliver.ru)\nСоздавал SPA-приложения с использованием React, Redux и Material-UI.\nИнтегрировал REST API для взаимодействия с бэкендом.\nОптимизировал производительность приложений, используя useMemo и useCallback.\nРаботал с Git и GitHub для управления версиями."
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "Sass",
+      "level": "advanced",
+      "original": "Sass"
+    },
+    {
+      "name": "Vuex / Pinia",
+      "level": "advanced",
+      "original": "Vuex / Pinia"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Git / GitFlow",
+      "level": "advanced",
+      "original": "Git / GitFlow"
+    },
+    {
+      "name": "UI/UX адаптивная верстка",
+      "level": "advanced",
+      "original": "UI/UX адаптивная верстка"
+    },
+    {
+      "name": "Axios / Fetch",
+      "level": "advanced",
+      "original": "Axios / Fetch"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML5"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS3"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "Vue.js"
+    },
+    {
+      "name": "Nuxt",
+      "level": "advanced",
+      "original": "NuxtJS"
+    },
+    {
+      "name": "Frontend",
+      "level": "advanced",
+      "original": "Frontend"
+    },
+    {
+      "name": "TailwindCSS",
+      "level": "advanced",
+      "original": "TailwindCSS"
+    },
+    {
+      "name": "ES6",
+      "level": "advanced",
+      "original": "ES6"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "Redux",
+      "level": "advanced",
+      "original": "Redux"
+    },
+    {
+      "name": "React Native",
+      "level": "advanced",
+      "original": "React Native"
+    },
+    {
+      "name": "React Spring",
+      "level": "advanced",
+      "original": "React Spring"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "Node.js",
+      "level": "advanced",
+      "original": "Node.js"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "Vue"
+    },
+    {
+      "name": "PHP",
+      "level": "advanced",
+      "original": "PHP"
+    },
+    {
+      "name": "Laravel",
+      "level": "advanced",
+      "original": "Laravel"
+    },
+    {
+      "name": "WebSocket",
+      "level": "intermediate",
+      "original": "Websocket"
+    },
+    {
+      "name": "Swagger",
+      "level": "intermediate",
+      "original": "Swagger"
+    },
+    {
+      "name": "Webpack",
+      "level": "intermediate",
+      "original": "Webpack"
+    },
+    {
+      "name": "Figma",
+      "level": "intermediate",
+      "original": "Figma"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Контакты:\nTG - @kainekillian\nМой стек:\nФронтенд\n- Vue - Vuex / Pinia\n- Nuxt\n- React - Redux / MobX\n- Анимации на React Spring / gsap\n- React Native\n- Next\n- Pixel-perfect вёрстка (HTML5 / CSS3, Figma)\n- Адаптивная вёрстка (Flex / Grid)\n- Препроцессоры SASS / SCSS\n- CSS-библиотеки TailwindCSS\n- БЭМ\n- UI-библиотеки (Vuetify, Quasar, Bootstrap, PrimeVue)\nБэкенд (Уверенный)\n- PHP (Laravel)\n- Golang (REST, gRPC, GraphQL)\n- Node.js (Nest)\nОбщее:\n- написание unit и e2e тестов (Jest / Vitest)\n- Typescript, Javascript (ES6+)\n- Опыт настройки Webpack, Vite, ESlint\n- GitHub / Gitlab\n- Linux Bash, CI/CD (Базово)\n- Trello (таск-трекер)\n- Понимание и опыт в Agile - SCRUM, KANBAN",
+  "education_level": "Среднее образование",
+  "education": [
+    {
+      "institution": "МБОУ Биотехнологический лицей #21",
+      "details": [],
+      "year": 2021,
+      "level": "Среднее образование",
+      "original": "МБОУ Биотехнологический лицей #21\n2021\n•\nСреднее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Казахстан, Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №90\nРезюме: Frontend-разработчик",
+    "cover_letter": "Привет. У меня более 3-х лет коммерческого опыта в разработке Frontend-приложений, особенно на Vue, Vite, Module Federation. Также имею опыт написания микросервисов и core-бэкенда на Go и Nest, работал и над внедрением OpenAI API в рабочие сервисы для создания новых функций или оптимизации имеющегося API. Было бы действительно интересно поработать с вашими проектами и столкнуться с новыми вызовами.",
+    "experience": "Опыт работы: 3 года 9 месяцев\nОпыт в похожих должностях:3 года 9 месяцев\nЯнв 2025 -\nОкт 2025\n10 мес\nОрганизация 1\nПеревозки, логистика, склад, ВЭД\nFrontend-разработчик\nFrontend-разработка Telegram App приложения для покупки брендовых товаров на Vue 3, Typescript, naive-ui, Vite, Pinia GitLab, Yandex Tracker. Участие в разработке дизайна приложения. Оптимизация приложения путём кеширования страниц и http-запросов. Создание своих систем кеширования, централизованного хранения данных между компонентами и микрофронтендами. Написание новых микрофронтов для уже существующей системы. Автотесты на Playwright.\nFrontend-разработка браузерного расширения для поиска поставщиков по фото товара, услуги AI-генерации (работа со сторонними платными API)\nFrontend-разработка инструментов для модерации продуктов компании (админки и прочее)\nЗанимался написанием gRPC-микросервисов и REST сервисов на Go (Gin) и интеграцией их на фронтенде Vue + Module Federation\nРазработка небольших CLI на Go для команды (для кодогенерации)\nДля архитектуры проектов используется FSD- Feature Sliced Design и микрофронтенды.\nРефакторинг программного кода\nЯнв 2024 -\nЯнв 2025\n1 год 1 мес\nОрганизация 2\nМосква\nFrontend-разработчик\nЯ работал на роли Frontend-разработчика. Моя работа началась с миграции существующих сервисов с React / Redux на Vue / Pinia, а далее я занимался разработкой клиентской части внутренней системы отчётности на Vue 3 + Pinia, а для интерфейса - Quasar и самописные компоненты на Sass. Для визуализации аналитики использовал charts.js. Для анимаций - gsap. Покрыл код юнит-тестами на Jest. Интегрировал REST api.\nНа проекте также реализовывал работу Telegram-ботов на telegram-bot-api и Python. Менторство junior-разработчиков.\nДля документации кода использовался Swagger, а для контейнеризации - Docker с прописанным Docker-Compose.\nПроект позволил сотрудникам перевести свою отчётную деятельность из Google SpreadSheets в более удобную систему, разработанную конкретно под их рабочий процесс, облегчив рутинные задачи и сделав рабочий процесс приятным.\nЯнв 2023 -\nФев 2024\n1 год 2 мес\nОрганизация 3\nМоскваiteraciya.ru\nFrontend-разработчик\nВ составе команды разработки занимался созданием интерфейса главной страницы сайта грузоперевозчика SWIFT (swiftrus.ru), а также калькулятора стоимости грузоперевозок.\nПомогал дополнять общую документацию проекта, участвовал в code-review, писал unit и e2e тесты на Jest для всего своего кода. Команда работала по Scrum\nДля разработки использовался Vue 3 в комбинации с Битрикс24, а также TailwindCSS для стилизации.\nПисал базовый бэкенд для CRUD-операций на PHP (Laravel)\nПисал код на Typescript и занимался рефакторингом кода других разработчиков.\nРаботал в команде с дизайнером, а также Middle-разработчиком в качестве наставника.\nФев 2022 -\nЯнв 2023\n1 год\nОрганизация 4\nМоскваwww.15web.ru\nFrontend-разработчик\nРазрабатывал пользовательские интерфейсы для коммерческих проектов на стеке React + Redux. Некоторые проекты разрабатывались на Vue + Vuex.\nTypescript, Javascript.\nРазработка в команде велась по Agile принципам.\n(https://www.edimdoma.ru,\nhttps://williams-oliver.ru)\nСоздавал SPA-приложения с использованием React, Redux и Material-UI.\nИнтегрировал REST API для взаимодействия с бэкендом.\nОптимизировал производительность приложений, используя useMemo и useCallback.\nРаботал с Git и GitHub для управления версиями.",
+    "skills": "Продвинутый уровень\nJavaScript\nTypeScript\nSass\nVuex / Pinia\nREST API\nGit / GitFlow\nUI/UX адаптивная верстка\nAxios / Fetch\nDocker\nGitlab\nHTML5\nCSS3\nVue.js\nNuxtJS\nFrontend\nTailwindCSS\nES6\nReact\nRedux\nReact Native\nReact Spring\nAgile\nNode.js\nVue\nPHP\nLaravel\nСредний уровень\nWebsocket\nSwagger\nWebpack\nFigma",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Контакты:\nTG - @kainekillian\nМой стек:\nФронтенд\n- Vue - Vuex / Pinia\n- Nuxt\n- React - Redux / MobX\n- Анимации на React Spring / gsap\n- React Native\n- Next\n- Pixel-perfect вёрстка (HTML5 / CSS3, Figma)\n- Адаптивная вёрстка (Flex / Grid)\n- Препроцессоры SASS / SCSS\n- CSS-библиотеки TailwindCSS\n- БЭМ\n- UI-библиотеки (Vuetify, Quasar, Bootstrap, PrimeVue)\nБэкенд (Уверенный)\n- PHP (Laravel)\n- Golang (REST, gRPC, GraphQL)\n- Node.js (Nest)\nОбщее:\n- написание unit и e2e тестов (Jest / Vitest)\n- Typescript, Javascript (ES6+)\n- Опыт настройки Webpack, Vite, ESlint\n- GitHub / Gitlab\n- Linux Bash, CI/CD (Базово)\n- Trello (таск-трекер)\n- Понимание и опыт в Agile - SCRUM, KANBAN",
+    "education": "Уровень\nСреднее образование\nМБОУ Биотехнологический лицей #21\n2021\n•\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nКазахстан, Россия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №90\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nПривет. У меня более 3-х лет коммерческого опыта в разработке Frontend-приложений, особенно на Vue, Vite, Module Federation. Также имею опыт написания микросервисов и core-бэкенда на Go и Nest, работал и над внедрением OpenAI API в рабочие сервисы для создания новых функций или оптимизации имеющегося API. Было бы действительно интересно поработать с вашими проектами и столкнуться с новыми вызовами.\n\nОпыт работы\nОпыт работы: 3 года 9 месяцев\nОпыт в похожих должностях:3 года 9 месяцев\nЯнв 2025 -\nОкт 2025\n10 мес\nОрганизация 1\nПеревозки, логистика, склад, ВЭД\nFrontend-разработчик\nFrontend-разработка Telegram App приложения для покупки брендовых товаров на Vue 3, Typescript, naive-ui, Vite, Pinia GitLab, Yandex Tracker. Участие в разработке дизайна приложения. Оптимизация приложения путём кеширования страниц и http-запросов. Создание своих систем кеширования, централизованного хранения данных между компонентами и микрофронтендами. Написание новых микрофронтов для уже существующей системы. Автотесты на Playwright.\nFrontend-разработка браузерного расширения для поиска поставщиков по фото товара, услуги AI-генерации (работа со сторонними платными API)\nFrontend-разработка инструментов для модерации продуктов компании (админки и прочее)\nЗанимался написанием gRPC-микросервисов и REST сервисов на Go (Gin) и интеграцией их на фронтенде Vue + Module Federation\nРазработка небольших CLI на Go для команды (для кодогенерации)\nДля архитектуры проектов используется FSD- Feature Sliced Design и микрофронтенды.\nРефакторинг программного кода\nЯнв 2024 -\nЯнв 2025\n1 год 1 мес\nОрганизация 2\nМосква\nFrontend-разработчик\nЯ работал на роли Frontend-разработчика. Моя работа началась с миграции существующих сервисов с React / Redux на Vue / Pinia, а далее я занимался разработкой клиентской части внутренней системы отчётности на Vue 3 + Pinia, а для интерфейса - Quasar и самописные компоненты на Sass. Для визуализации аналитики использовал charts.js. Для анимаций - gsap. Покрыл код юнит-тестами на Jest. Интегрировал REST api.\nНа проекте также реализовывал работу Telegram-ботов на telegram-bot-api и Python. Менторство junior-разработчиков.\nДля документации кода использовался Swagger, а для контейнеризации - Docker с прописанным Docker-Compose.\nПроект позволил сотрудникам перевести свою отчётную деятельность из Google SpreadSheets в более удобную систему, разработанную конкретно под их рабочий процесс, облегчив рутинные задачи и сделав рабочий процесс приятным.\nЯнв 2023 -\nФев 2024\n1 год 2 мес\nОрганизация 3\nМоскваiteraciya.ru\nFrontend-разработчик\nВ составе команды разработки занимался созданием интерфейса главной страницы сайта грузоперевозчика SWIFT (swiftrus.ru), а также калькулятора стоимости грузоперевозок.\nПомогал дополнять общую документацию проекта, участвовал в code-review, писал unit и e2e тесты на Jest для всего своего кода. Команда работала по Scrum\nДля разработки использовался Vue 3 в комбинации с Битрикс24, а также TailwindCSS для стилизации.\nПисал базовый бэкенд для CRUD-операций на PHP (Laravel)\nПисал код на Typescript и занимался рефакторингом кода других разработчиков.\nРаботал в команде с дизайнером, а также Middle-разработчиком в качестве наставника.\nФев 2022 -\nЯнв 2023\n1 год\nОрганизация 4\nМоскваwww.15web.ru\nFrontend-разработчик\nРазрабатывал пользовательские интерфейсы для коммерческих проектов на стеке React + Redux. Некоторые проекты разрабатывались на Vue + Vuex.\nTypescript, Javascript.\nРазработка в команде велась по Agile принципам.\n(https://www.edimdoma.ru,\nhttps://williams-oliver.ru)\nСоздавал SPA-приложения с использованием React, Redux и Material-UI.\nИнтегрировал REST API для взаимодействия с бэкендом.\nОптимизировал производительность приложений, используя useMemo и useCallback.\nРаботал с Git и GitHub для управления версиями.\n\nНавыки\nПродвинутый уровень\nJavaScript\nTypeScript\nSass\nVuex / Pinia\nREST API\nGit / GitFlow\nUI/UX адаптивная верстка\nAxios / Fetch\nDocker\nGitlab\nHTML5\nCSS3\nVue.js\nNuxtJS\nFrontend\nTailwindCSS\nES6\nReact\nRedux\nReact Native\nReact Spring\nAgile\nNode.js\nVue\nPHP\nLaravel\nСредний уровень\nWebsocket\nSwagger\nWebpack\nFigma\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nКонтакты:\nTG - @kainekillian\nМой стек:\nФронтенд\n- Vue - Vuex / Pinia\n- Nuxt\n- React - Redux / MobX\n- Анимации на React Spring / gsap\n- React Native\n- Next\n- Pixel-perfect вёрстка (HTML5 / CSS3, Figma)\n- Адаптивная вёрстка (Flex / Grid)\n- Препроцессоры SASS / SCSS\n- CSS-библиотеки TailwindCSS\n- БЭМ\n- UI-библиотеки (Vuetify, Quasar, Bootstrap, PrimeVue)\nБэкенд (Уверенный)\n- PHP (Laravel)\n- Golang (REST, gRPC, GraphQL)\n- Node.js (Nest)\nОбщее:\n- написание unit и e2e тестов (Jest / Vitest)\n- Typescript, Javascript (ES6+)\n- Опыт настройки Webpack, Vite, ESlint\n- GitHub / Gitlab\n- Linux Bash, CI/CD (Базово)\n- Trello (таск-трекер)\n- Понимание и опыт в Agile - SCRUM, KANBAN\n\nОбразование\nУровень\nСреднее образование\nМБОУ Биотехнологический лицей #21\n2021\n•\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nКазахстан, Россия\n"
+}

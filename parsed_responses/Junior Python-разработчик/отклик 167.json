@@ -1,0 +1,237 @@
+{
+  "candidate_id": 167,
+  "resume_title": "Инженер по данным",
+  "cover_letter": null,
+  "experience_total_months": 16,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-03",
+      "end_date": "2025-07",
+      "is_current": false,
+      "duration_months": 5,
+      "organization": "Организация 1",
+      "position": "Junior Data Engineer",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разработал и внедрил 5+ ETL-процессов для загрузки данных из разнородных источников в корпоративное хранилище, сократив время подготовки отчетности на 30%.\nОптимизировал запросы в PostgreSQL, что позволило ускорить формирование аналитических витрин для бизнес-пользователей.\nСоздал интерактивные дашборды в Apache Superset и Power BI для мониторинга ключевых метрик, которыми еженедельно пользуются 10+ стейкхолдеров.\nНастроил автоматизированные data pipelines, обеспечив своевременное обновление данных и снизив количество ручных операций.",
+      "original": "Мар 2025 -\nИюл 2025\n5 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nJunior Data Engineer\nРазработал и внедрил 5+ ETL-процессов для загрузки данных из разнородных источников в корпоративное хранилище, сократив время подготовки отчетности на 30%.\nОптимизировал запросы в PostgreSQL, что позволило ускорить формирование аналитических витрин для бизнес-пользователей.\nСоздал интерактивные дашборды в Apache Superset и Power BI для мониторинга ключевых метрик, которыми еженедельно пользуются 10+ стейкхолдеров.\nНастроил автоматизированные data pipelines, обеспечив своевременное обновление данных и снизив количество ручных операций."
+    },
+    {
+      "start_date": "2024-12",
+      "end_date": "2025-04",
+      "is_current": false,
+      "duration_months": 5,
+      "organization": "Организация 2",
+      "position": "Инженер-программист",
+      "employer_details": [],
+      "description": "- Developed and maintained web applications using Vue.js and JavaScript\n- Integrated machine learning models into our applications using Python and SQL\n- Collaborated with data scientists to optimize algorithms for scalability\n- Responsible for creating and maintaining databases to store and retrieve data efficiently\n- Participated in code reviews, sprint planning, and daily stand-ups to ensure project deadlines\nwere met\n- Разрабатывал и поддерживал веб-приложения с использованием Vue.js и JavaScript\n- Интегрировал модели машинного обучения в наши приложения с использованием Python и SQL\n- Сотрудничал с учеными в области обработки данных для оптимизации алгоритмов для обеспечения масштабируемости\n- Отвечал за создание и поддержку баз данных для эффективного хранения и извлечения данных\n- Участвовал в проверке кода, планировании спринтов и ежедневных стендапах, чтобы обеспечить соблюдение сроков реализации проекта.",
+      "original": "Дек 2024 -\nАпр 2025\n5 мес\nОрганизация 2\nИнженер-программист\n- Developed and maintained web applications using Vue.js and JavaScript\n- Integrated machine learning models into our applications using Python and SQL\n- Collaborated with data scientists to optimize algorithms for scalability\n- Responsible for creating and maintaining databases to store and retrieve data efficiently\n- Participated in code reviews, sprint planning, and daily stand-ups to ensure project deadlines\nwere met\n- Разрабатывал и поддерживал веб-приложения с использованием Vue.js и JavaScript\n- Интегрировал модели машинного обучения в наши приложения с использованием Python и SQL\n- Сотрудничал с учеными в области обработки данных для оптимизации алгоритмов для обеспечения масштабируемости\n- Отвечал за создание и поддержку баз данных для эффективного хранения и извлечения данных\n- Участвовал в проверке кода, планировании спринтов и ежедневных стендапах, чтобы обеспечить соблюдение сроков реализации проекта."
+    },
+    {
+      "start_date": "2024-04",
+      "end_date": "2025-03",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 3",
+      "position": "Стажер-инженер по обработке данных",
+      "employer_details": [],
+      "description": "- Designed and implemented ETL processes to extract, transform, and load data from various\nsources into the EPF AI Campus data warehouse.\n- Performed data wrangling to clean and preprocess raw data for analysis and reporting, ensuring\ndata quality and integrity.\n- Developed data aggregation algorithms to consolidate and summarize large datasets for trend\nanalysis and predictive modeling.\n- Designed and developed data visualizations using tools like Apache Superset and Power BI to\ncommunicate insights and findings to stakeholders.\n- Implemented data pipelines to automate the flow of data between systems and ensure timely and\naccurate delivery of information to end users.\n- Разработать и внедрить процессы ETL для извлечения, преобразования и загрузки данных из различных\nисточников в хранилище данных EPF AI Campus.\n- Выполнить обработку данных для очистки и предварительной обработки исходных данных для анализа и составления отчетов, гарантируя\nкачество и целостность данных.\n- Разработать алгоритмы агрегации данных для консолидации и обобщения больших наборов данных для анализа тенденций и прогнозного моделирования.\n- Разработать визуализацию данных с использованием таких инструментов, как Apache Superset и Power BI, для\nпередачи информации и выводов заинтересованным сторонам.\n- Внедрены конвейеры передачи данных для автоматизации обмена данными между системами и обеспечения своевременной и\nточной доставки информации конечным пользователям.",
+      "original": "Апр 2024 -\nМар 2025\n1 год\nОрганизация 3\nСтажер-инженер по обработке данных\n- Designed and implemented ETL processes to extract, transform, and load data from various\nsources into the EPF AI Campus data warehouse.\n- Performed data wrangling to clean and preprocess raw data for analysis and reporting, ensuring\ndata quality and integrity.\n- Developed data aggregation algorithms to consolidate and summarize large datasets for trend\nanalysis and predictive modeling.\n- Designed and developed data visualizations using tools like Apache Superset and Power BI to\ncommunicate insights and findings to stakeholders.\n- Implemented data pipelines to automate the flow of data between systems and ensure timely and\naccurate delivery of information to end users.\n- Разработать и внедрить процессы ETL для извлечения, преобразования и загрузки данных из различных\nисточников в хранилище данных EPF AI Campus.\n- Выполнить обработку данных для очистки и предварительной обработки исходных данных для анализа и составления отчетов, гарантируя\nкачество и целостность данных.\n- Разработать алгоритмы агрегации данных для консолидации и обобщения больших наборов данных для анализа тенденций и прогнозного моделирования.\n- Разработать визуализацию данных с использованием таких инструментов, как Apache Superset и Power BI, для\nпередачи информации и выводов заинтересованным сторонам.\n- Внедрены конвейеры передачи данных для автоматизации обмена данными между системами и обеспечения своевременной и\nточной доставки информации конечным пользователям."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Умение работать в коллективе",
+      "level": null,
+      "original": "Умение работать в коллективе"
+    },
+    {
+      "name": "Организаторские навыки",
+      "level": null,
+      "original": "Организаторские навыки"
+    },
+    {
+      "name": "Обучение и развитие",
+      "level": null,
+      "original": "Обучение и развитие"
+    },
+    {
+      "name": "Точность и внимательность к деталям",
+      "level": null,
+      "original": "Точность и внимательность к деталям"
+    },
+    {
+      "name": "Умение принимать решения",
+      "level": null,
+      "original": "Умение принимать решения"
+    },
+    {
+      "name": "Деловое общение",
+      "level": null,
+      "original": "Деловое общение"
+    },
+    {
+      "name": "Работа с большим объемом информации",
+      "level": null,
+      "original": "Работа с большим объемом информации"
+    },
+    {
+      "name": "Контроль сроков годности",
+      "level": null,
+      "original": "Контроль сроков годности"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Bash",
+      "level": null,
+      "original": "Bash"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Agile",
+      "level": null,
+      "original": "Agile"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Postman",
+      "level": null,
+      "original": "Postman"
+    },
+    {
+      "name": "Python",
+      "level": null,
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Tableau",
+      "level": null,
+      "original": "Tableau"
+    },
+    {
+      "name": "Power BI",
+      "level": null,
+      "original": "Power BI"
+    },
+    {
+      "name": "NoSQL",
+      "level": null,
+      "original": "NoSQL"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "pandas",
+      "level": null,
+      "original": "pandas"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Data collection",
+      "level": null,
+      "original": "Data collection"
+    },
+    {
+      "name": "Data Analysis",
+      "level": null,
+      "original": "Data Analysis"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Английский",
+      "level": "native",
+      "description": null,
+      "original": "Английский"
+    },
+    {
+      "name": "Русский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Русский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Results-driven Data Engineer and Software Engineer with extensive experience in designing and implementing ETL processes, developing scalable software solutions, and integrating machine learning\nmodels. Expertise in data wrangling, aggregation, and visualization to deliver actionable insights.\nProven track record of building data pipelines to automate data flow, ensuring timely and accurate delivery ofinformation. Skilled in database design, optimization, and collaborating with cross-functional teams to\nmeet project goals and deadlines.\nОриентированный на результат специалист по обработке данных и инженер-программист с большим опытом проектирования и внедрения процессов ETL, разработки масштабируемых программных решений и интеграции моделей машинного обучения. Опыт в обработке, агрегировании и визуализации данных для получения полезной информации. Зарекомендовавший себя опыт построения конвейеров обработки данных для автоматизации потока данных, обеспечения своевременной и точной доставки информации. Специалист в области проектирования баз данных, оптимизации и взаимодействия с межфункциональными командами для\nдостижения целей проекта и соблюдения сроков.",
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "Национальный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород",
+      "details": [
+        "Институт информационных технологий , математики и механики, Искусственный интеллект и анализ данных"
+      ],
+      "year": 2027,
+      "level": "Высшее образование (Магистр)",
+      "original": "Национальный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИнститут информационных технологий , математики и механики, Искусственный интеллект и анализ данных\n•\n2027\n•\nВысшее образование (Магистр)"
+    },
+    {
+      "institution": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород",
+      "details": [
+        "Институт информационных технологий , математики и механики, информатика и информационные технологии"
+      ],
+      "year": 2023,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут информационных технологий , математики и механики, информатика и информационные технологии\n•\n2023\n•\nВысшее образование (Бакалавр)"
+    },
+    {
+      "institution": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород",
+      "details": [
+        "подготовительное отделение, Русский язык"
+      ],
+      "year": 2019,
+      "level": "Высшее образование",
+      "original": "Нижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nподготовительное отделение, Русский язык\n•\n2019\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "ЮАР",
+    "work_permit": null,
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №167\nРезюме: Инженер по данным",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 1 год 4 месяца\nМар 2025 -\nИюл 2025\n5 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nJunior Data Engineer\nРазработал и внедрил 5+ ETL-процессов для загрузки данных из разнородных источников в корпоративное хранилище, сократив время подготовки отчетности на 30%.\nОптимизировал запросы в PostgreSQL, что позволило ускорить формирование аналитических витрин для бизнес-пользователей.\nСоздал интерактивные дашборды в Apache Superset и Power BI для мониторинга ключевых метрик, которыми еженедельно пользуются 10+ стейкхолдеров.\nНастроил автоматизированные data pipelines, обеспечив своевременное обновление данных и снизив количество ручных операций.\nДек 2024 -\nАпр 2025\n5 мес\nОрганизация 2\nИнженер-программист\n- Developed and maintained web applications using Vue.js and JavaScript\n- Integrated machine learning models into our applications using Python and SQL\n- Collaborated with data scientists to optimize algorithms for scalability\n- Responsible for creating and maintaining databases to store and retrieve data efficiently\n- Participated in code reviews, sprint planning, and daily stand-ups to ensure project deadlines\nwere met\n- Разрабатывал и поддерживал веб-приложения с использованием Vue.js и JavaScript\n- Интегрировал модели машинного обучения в наши приложения с использованием Python и SQL\n- Сотрудничал с учеными в области обработки данных для оптимизации алгоритмов для обеспечения масштабируемости\n- Отвечал за создание и поддержку баз данных для эффективного хранения и извлечения данных\n- Участвовал в проверке кода, планировании спринтов и ежедневных стендапах, чтобы обеспечить соблюдение сроков реализации проекта.\nАпр 2024 -\nМар 2025\n1 год\nОрганизация 3\nСтажер-инженер по обработке данных\n- Designed and implemented ETL processes to extract, transform, and load data from various\nsources into the EPF AI Campus data warehouse.\n- Performed data wrangling to clean and preprocess raw data for analysis and reporting, ensuring\ndata quality and integrity.\n- Developed data aggregation algorithms to consolidate and summarize large datasets for trend\nanalysis and predictive modeling.\n- Designed and developed data visualizations using tools like Apache Superset and Power BI to\ncommunicate insights and findings to stakeholders.\n- Implemented data pipelines to automate the flow of data between systems and ensure timely and\naccurate delivery of information to end users.\n- Разработать и внедрить процессы ETL для извлечения, преобразования и загрузки данных из различных\nисточников в хранилище данных EPF AI Campus.\n- Выполнить обработку данных для очистки и предварительной обработки исходных данных для анализа и составления отчетов, гарантируя\nкачество и целостность данных.\n- Разработать алгоритмы агрегации данных для консолидации и обобщения больших наборов данных для анализа тенденций и прогнозного моделирования.\n- Разработать визуализацию данных с использованием таких инструментов, как Apache Superset и Power BI, для\nпередачи информации и выводов заинтересованным сторонам.\n- Внедрены конвейеры передачи данных для автоматизации обмена данными между системами и обеспечения своевременной и\nточной доставки информации конечным пользователям.",
+    "skills": "Умение работать в коллективе\nОрганизаторские навыки\nОбучение и развитие\nТочность и внимательность к деталям\nУмение принимать решения\nДеловое общение\nРабота с большим объемом информации\nКонтроль сроков годности\nDocker\nBash\nREST API\nAgile\nPostgreSQL\nPostman\nPython\nDjango Framework\nDjango Rest Framework\nTableau\nPower BI\nNoSQL\nGitHub\npandas\nFastAPI\nData collection\nData Analysis",
+    "languages": "Родной\nАнглийский\nДругие языки\nРусский — B2 — Средне-продвинутый",
+    "about_me": "Results-driven Data Engineer and Software Engineer with extensive experience in designing and implementing ETL processes, developing scalable software solutions, and integrating machine learning\nmodels. Expertise in data wrangling, aggregation, and visualization to deliver actionable insights.\nProven track record of building data pipelines to automate data flow, ensuring timely and accurate delivery ofinformation. Skilled in database design, optimization, and collaborating with cross-functional teams to\nmeet project goals and deadlines.\nОриентированный на результат специалист по обработке данных и инженер-программист с большим опытом проектирования и внедрения процессов ETL, разработки масштабируемых программных решений и интеграции моделей машинного обучения. Опыт в обработке, агрегировании и визуализации данных для получения полезной информации. Зарекомендовавший себя опыт построения конвейеров обработки данных для автоматизации потока данных, обеспечения своевременной и точной доставки информации. Специалист в области проектирования баз данных, оптимизации и взаимодействия с межфункциональными командами для\nдостижения целей проекта и соблюдения сроков.",
+    "education": "Уровень\nВысшее образование (Магистр)\nНациональный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИнститут информационных технологий , математики и механики, Искусственный интеллект и анализ данных\n•\n2027\n•\nВысшее образование (Магистр)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут информационных технологий , математики и механики, информатика и информационные технологии\n•\n2023\n•\nВысшее образование (Бакалавр)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nподготовительное отделение, Русский язык\n•\n2019\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nЮАР"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №167\nРезюме: Инженер по данным\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 1 год 4 месяца\nМар 2025 -\nИюл 2025\n5 мес\nОрганизация 1\nИнформационные технологии, системная интеграция, интернет\nJunior Data Engineer\nРазработал и внедрил 5+ ETL-процессов для загрузки данных из разнородных источников в корпоративное хранилище, сократив время подготовки отчетности на 30%.\nОптимизировал запросы в PostgreSQL, что позволило ускорить формирование аналитических витрин для бизнес-пользователей.\nСоздал интерактивные дашборды в Apache Superset и Power BI для мониторинга ключевых метрик, которыми еженедельно пользуются 10+ стейкхолдеров.\nНастроил автоматизированные data pipelines, обеспечив своевременное обновление данных и снизив количество ручных операций.\nДек 2024 -\nАпр 2025\n5 мес\nОрганизация 2\nИнженер-программист\n- Developed and maintained web applications using Vue.js and JavaScript\n- Integrated machine learning models into our applications using Python and SQL\n- Collaborated with data scientists to optimize algorithms for scalability\n- Responsible for creating and maintaining databases to store and retrieve data efficiently\n- Participated in code reviews, sprint planning, and daily stand-ups to ensure project deadlines\nwere met\n- Разрабатывал и поддерживал веб-приложения с использованием Vue.js и JavaScript\n- Интегрировал модели машинного обучения в наши приложения с использованием Python и SQL\n- Сотрудничал с учеными в области обработки данных для оптимизации алгоритмов для обеспечения масштабируемости\n- Отвечал за создание и поддержку баз данных для эффективного хранения и извлечения данных\n- Участвовал в проверке кода, планировании спринтов и ежедневных стендапах, чтобы обеспечить соблюдение сроков реализации проекта.\nАпр 2024 -\nМар 2025\n1 год\nОрганизация 3\nСтажер-инженер по обработке данных\n- Designed and implemented ETL processes to extract, transform, and load data from various\nsources into the EPF AI Campus data warehouse.\n- Performed data wrangling to clean and preprocess raw data for analysis and reporting, ensuring\ndata quality and integrity.\n- Developed data aggregation algorithms to consolidate and summarize large datasets for trend\nanalysis and predictive modeling.\n- Designed and developed data visualizations using tools like Apache Superset and Power BI to\ncommunicate insights and findings to stakeholders.\n- Implemented data pipelines to automate the flow of data between systems and ensure timely and\naccurate delivery of information to end users.\n- Разработать и внедрить процессы ETL для извлечения, преобразования и загрузки данных из различных\nисточников в хранилище данных EPF AI Campus.\n- Выполнить обработку данных для очистки и предварительной обработки исходных данных для анализа и составления отчетов, гарантируя\nкачество и целостность данных.\n- Разработать алгоритмы агрегации данных для консолидации и обобщения больших наборов данных для анализа тенденций и прогнозного моделирования.\n- Разработать визуализацию данных с использованием таких инструментов, как Apache Superset и Power BI, для\nпередачи информации и выводов заинтересованным сторонам.\n- Внедрены конвейеры передачи данных для автоматизации обмена данными между системами и обеспечения своевременной и\nточной доставки информации конечным пользователям.\n\nНавыки\nУмение работать в коллективе\nОрганизаторские навыки\nОбучение и развитие\nТочность и внимательность к деталям\nУмение принимать решения\nДеловое общение\nРабота с большим объемом информации\nКонтроль сроков годности\nDocker\nBash\nREST API\nAgile\nPostgreSQL\nPostman\nPython\nDjango Framework\nDjango Rest Framework\nTableau\nPower BI\nNoSQL\nGitHub\npandas\nFastAPI\nData collection\nData Analysis\n\nЯзыки\nРодной\nАнглийский\nДругие языки\nРусский — B2 — Средне-продвинутый\n\nОбо мне\nResults-driven Data Engineer and Software Engineer with extensive experience in designing and implementing ETL processes, developing scalable software solutions, and integrating machine learning\nmodels. Expertise in data wrangling, aggregation, and visualization to deliver actionable insights.\nProven track record of building data pipelines to automate data flow, ensuring timely and accurate delivery ofinformation. Skilled in database design, optimization, and collaborating with cross-functional teams to\nmeet project goals and deadlines.\nОриентированный на результат специалист по обработке данных и инженер-программист с большим опытом проектирования и внедрения процессов ETL, разработки масштабируемых программных решений и интеграции моделей машинного обучения. Опыт в обработке, агрегировании и визуализации данных для получения полезной информации. Зарекомендовавший себя опыт построения конвейеров обработки данных для автоматизации потока данных, обеспечения своевременной и точной доставки информации. Специалист в области проектирования баз данных, оптимизации и взаимодействия с межфункциональными командами для\nдостижения целей проекта и соблюдения сроков.\n\nОбразование\nУровень\nВысшее образование (Магистр)\nНациональный исследовательский Нижегородский государственный университет имени Н.И. Лобачевского, Нижний Новгород\nИнститут информационных технологий , математики и механики, Искусственный интеллект и анализ данных\n•\n2027\n•\nВысшее образование (Магистр)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nИнститут информационных технологий , математики и механики, информатика и информационные технологии\n•\n2023\n•\nВысшее образование (Бакалавр)\nНижегородский государственный университет им. Н.И. Лобачевского (Национальный исследовательский университет), Нижний Новгород\nподготовительное отделение, Русский язык\n•\n2019\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nЮАР\n"
+}

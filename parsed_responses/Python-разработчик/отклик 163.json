@@ -1,0 +1,113 @@
+{
+  "candidate_id": 163,
+  "resume_title": "Backend-разработчик",
+  "cover_letter": "Здравствуйте!\nСсылка на резюме: https://drive.google.com/file/d/1huOuTDZhQFqNtADFRdCiaRRPB6ZIt_vq/view?usp=drive_link",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PHP",
+      "level": "advanced",
+      "original": "PHP"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Backend",
+      "level": "advanced",
+      "original": "Backend"
+    },
+    {
+      "name": "pytest",
+      "level": "intermediate",
+      "original": "Pytest"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Java",
+      "level": "basic",
+      "original": "Java"
+    },
+    {
+      "name": "C#",
+      "level": "basic",
+      "original": "C#"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Ссылка на резюме: https://drive.google.com/file/d/1huOuTDZhQFqNtADFRdCiaRRPB6ZIt_vq/view?usp=drive_link",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Казанский (Приволжский) федеральный университет, Казань",
+      "details": [
+        "Институт вычислительной математики и информационных технологий, Информационные системы"
+      ],
+      "year": 2027,
+      "level": "Высшее образование",
+      "original": "Казанский (Приволжский) федеральный университет, Казань\nИнститут вычислительной математики и информационных технологий, Информационные системы\n•\n2027\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Нет",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №163\nРезюме: Backend-разработчик",
+    "cover_letter": "Здравствуйте!\nСсылка на резюме: https://drive.google.com/file/d/1huOuTDZhQFqNtADFRdCiaRRPB6ZIt_vq/view?usp=drive_link",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nPython\nPHP\nPostgreSQL\nSQL\nBackend\nСредний уровень\nPytest\nFastAPI\nSQLAlchemy\nLinux\nБазовый уровень\nJava\nC#",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Ссылка на резюме: https://drive.google.com/file/d/1huOuTDZhQFqNtADFRdCiaRRPB6ZIt_vq/view?usp=drive_link",
+    "education": "Уровень\nВысшее образование\nКазанский (Приволжский) федеральный университет, Казань\nИнститут вычислительной математики и информационных технологий, Информационные системы\n•\n2027\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №163\nРезюме: Backend-разработчик\n\nСопроводительное письмо\nЗдравствуйте!\nСсылка на резюме: https://drive.google.com/file/d/1huOuTDZhQFqNtADFRdCiaRRPB6ZIt_vq/view?usp=drive_link\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nPython\nPHP\nPostgreSQL\nSQL\nBackend\nСредний уровень\nPytest\nFastAPI\nSQLAlchemy\nLinux\nБазовый уровень\nJava\nC#\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nСсылка на резюме: https://drive.google.com/file/d/1huOuTDZhQFqNtADFRdCiaRRPB6ZIt_vq/view?usp=drive_link\n\nОбразование\nУровень\nВысшее образование\nКазанский (Приволжский) федеральный университет, Казань\nИнститут вычислительной математики и информационных технологий, Информационные системы\n•\n2027\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет\n"
+}

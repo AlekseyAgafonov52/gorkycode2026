@@ -1,0 +1,143 @@
+{
+  "candidate_id": 165,
+  "resume_title": "Backend-разработчик",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Kibana",
+      "level": "intermediate",
+      "original": "Kibana"
+    },
+    {
+      "name": "JWT",
+      "level": "intermediate",
+      "original": "JWT"
+    },
+    {
+      "name": "Nginx",
+      "level": "intermediate",
+      "original": "Nginx"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "original": "CSS"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Django",
+      "level": "basic",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Flask",
+      "level": "basic",
+      "original": "Flask"
+    },
+    {
+      "name": "ООП",
+      "level": "basic",
+      "original": "ООП"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "Django",
+      "level": "basic",
+      "original": "Django"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "Django Rest Framework"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A1",
+      "description": "Начальный",
+      "original": "Английский — A1 — Начальный"
+    }
+  ],
+  "about_me": "Хочу стать высококвалифицированным специалистом в области разработки на Python, создавая чистый, эффективный и масштабируемый код. Стремлюсь развиваться в команде, работающей над современными IT-решениями, с акцентом на backend-разработку и интеграцию AI-технологий.\nПроходил стажировку как Python-разработчик\nСтартап в сфере интеграции OpenAI\nУчаствовал в разработке backend-части продукта с использованием Django и Django REST Framework.\nРаботал с PostgreSQL, настраивал и оптимизировал запросы через ORM Django.\nСамостоятельно развернул серверную инфраструктуру: Docker, Nginx, Swagger (документирование API).\nИнтегрировал инструменты мониторинга: Grafana и Kibana для анализа данных и логирования.\nНастраиваю CI/CD-процессы\nВзаимодействую с командой через Git/GitHub, соблюдая практики code review.\nНавыки:\nЯзыки: Python (ООП, асинхронное программирование).\nФреймворки: Django 4, Django REST Framework.\nБазы данных: PostgreSQL, MySQL, SQLite (опыт написания SQL-запросов и работы с ORM).\nинструменты: Docker, Nginx, развертывание на Linux-серверах.\nМониторинг: Grafana, Kibana.\nПрочее: Git/GitHub, Swagger, HTML/CSS (базовый уровень).\nПроекты:\nCheckpoint AI (checkpointai.ru): B2B SaaS-платформа для автоматической проверки контрагентов с использованием ИИ.\nРазработал backend на Django + DRF и frontend на React.\nНастроил сбор данных через интеграцию с коммерческими API госорганов.\nВнедрил OpenAI GPT для анализа и оценки рисков по компаниям.\nРеализовал обезличивание персональных данных в соответствии с 152-ФЗ.\nОрганизовал взаимодействие между React-приложением и Django-бэкендом через REST API.",
+  "education_level": "Высшее образование (Бакалавр)",
+  "education": [
+    {
+      "institution": "Тюменский государственный нефтегазовый университет, Тюмень",
+      "details": [
+        "Наземные транспортные системы"
+      ],
+      "year": 2015,
+      "level": "Высшее образование (Бакалавр)",
+      "original": "Тюменский государственный нефтегазовый университет, Тюмень\nНаземные транспортные системы\n•\n2015\n•\nВысшее образование (Бакалавр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №165\nРезюме: Backend-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Средний уровень\nDocker\nLinux\nKibana\nJWT\nNginx\nHTML\nCSS\nJavaScript\nБазовый уровень\nPython\nGit\nPostgreSQL\nDjango Framework\nFlask\nООП\nSQL\nDjango\nУровень не указан\nDjango Rest Framework",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A1 — Начальный",
+    "about_me": "Хочу стать высококвалифицированным специалистом в области разработки на Python, создавая чистый, эффективный и масштабируемый код. Стремлюсь развиваться в команде, работающей над современными IT-решениями, с акцентом на backend-разработку и интеграцию AI-технологий.\nПроходил стажировку как Python-разработчик\nСтартап в сфере интеграции OpenAI\nУчаствовал в разработке backend-части продукта с использованием Django и Django REST Framework.\nРаботал с PostgreSQL, настраивал и оптимизировал запросы через ORM Django.\nСамостоятельно развернул серверную инфраструктуру: Docker, Nginx, Swagger (документирование API).\nИнтегрировал инструменты мониторинга: Grafana и Kibana для анализа данных и логирования.\nНастраиваю CI/CD-процессы\nВзаимодействую с командой через Git/GitHub, соблюдая практики code review.\nНавыки:\nЯзыки: Python (ООП, асинхронное программирование).\nФреймворки: Django 4, Django REST Framework.\nБазы данных: PostgreSQL, MySQL, SQLite (опыт написания SQL-запросов и работы с ORM).\nинструменты: Docker, Nginx, развертывание на Linux-серверах.\nМониторинг: Grafana, Kibana.\nПрочее: Git/GitHub, Swagger, HTML/CSS (базовый уровень).\nПроекты:\nCheckpoint AI (checkpointai.ru): B2B SaaS-платформа для автоматической проверки контрагентов с использованием ИИ.\nРазработал backend на Django + DRF и frontend на React.\nНастроил сбор данных через интеграцию с коммерческими API госорганов.\nВнедрил OpenAI GPT для анализа и оценки рисков по компаниям.\nРеализовал обезличивание персональных данных в соответствии с 152-ФЗ.\nОрганизовал взаимодействие между React-приложением и Django-бэкендом через REST API.",
+    "education": "Уровень\nВысшее образование (Бакалавр)\nТюменский государственный нефтегазовый университет, Тюмень\nНаземные транспортные системы\n•\n2015\n•\nВысшее образование (Бакалавр)",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №165\nРезюме: Backend-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nСредний уровень\nDocker\nLinux\nKibana\nJWT\nNginx\nHTML\nCSS\nJavaScript\nБазовый уровень\nPython\nGit\nPostgreSQL\nDjango Framework\nFlask\nООП\nSQL\nDjango\nУровень не указан\nDjango Rest Framework\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A1 — Начальный\n\nОбо мне\nХочу стать высококвалифицированным специалистом в области разработки на Python, создавая чистый, эффективный и масштабируемый код. Стремлюсь развиваться в команде, работающей над современными IT-решениями, с акцентом на backend-разработку и интеграцию AI-технологий.\nПроходил стажировку как Python-разработчик\nСтартап в сфере интеграции OpenAI\nУчаствовал в разработке backend-части продукта с использованием Django и Django REST Framework.\nРаботал с PostgreSQL, настраивал и оптимизировал запросы через ORM Django.\nСамостоятельно развернул серверную инфраструктуру: Docker, Nginx, Swagger (документирование API).\nИнтегрировал инструменты мониторинга: Grafana и Kibana для анализа данных и логирования.\nНастраиваю CI/CD-процессы\nВзаимодействую с командой через Git/GitHub, соблюдая практики code review.\nНавыки:\nЯзыки: Python (ООП, асинхронное программирование).\nФреймворки: Django 4, Django REST Framework.\nБазы данных: PostgreSQL, MySQL, SQLite (опыт написания SQL-запросов и работы с ORM).\nинструменты: Docker, Nginx, развертывание на Linux-серверах.\nМониторинг: Grafana, Kibana.\nПрочее: Git/GitHub, Swagger, HTML/CSS (базовый уровень).\nПроекты:\nCheckpoint AI (checkpointai.ru): B2B SaaS-платформа для автоматической проверки контрагентов с использованием ИИ.\nРазработал backend на Django + DRF и frontend на React.\nНастроил сбор данных через интеграцию с коммерческими API госорганов.\nВнедрил OpenAI GPT для анализа и оценки рисков по компаниям.\nРеализовал обезличивание персональных данных в соответствии с 152-ФЗ.\nОрганизовал взаимодействие между React-приложением и Django-бэкендом через REST API.\n\nОбразование\nУровень\nВысшее образование (Бакалавр)\nТюменский государственный нефтегазовый университет, Тюмень\nНаземные транспортные системы\n•\n2015\n•\nВысшее образование (Бакалавр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

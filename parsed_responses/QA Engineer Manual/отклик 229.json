@@ -1,0 +1,212 @@
+{
+  "candidate_id": 229,
+  "resume_title": "Senior Java разработчик",
+  "cover_letter": "tl;dr Яндекс, X5Tech, JetBrains, основная специализация серверная разработка, сети",
+  "experience_total_months": 84,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-08",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 15,
+      "organization": "Организация 1",
+      "position": "Ведущий разработчик",
+      "employer_details": [
+        "Москва"
+      ],
+      "description": "- Разработал платформу на Temporal для процессинга обработки корзин с пиковым трафиком в 50к+ RPS на спайках\n- Обеспечил Fault Tolerant и High Availability: 0 точек отказа (Active / Standby), горизонтальный скейлинг по подам в k8s\n- Внедрил SLI/SLO для микросервисов, настроил метрики, алерты, On-Call\n- Внедрил WireMock: ускорил прогон тестов с 1.5 часа до 7 минут\n- Внедрил Jaeger для трейсинга ивентов между микросервисами\n- Настроил Gitlab CI/CD: линтеры, тесты, Sonar, ИИ код-ревью",
+      "original": "Авг 2025 -\nсейчас\n1 год 3 мес\nОрганизация 1\nМосква\nВедущий разработчик\n- Разработал платформу на Temporal для процессинга обработки корзин с пиковым трафиком в 50к+ RPS на спайках\n- Обеспечил Fault Tolerant и High Availability: 0 точек отказа (Active / Standby), горизонтальный скейлинг по подам в k8s\n- Внедрил SLI/SLO для микросервисов, настроил метрики, алерты, On-Call\n- Внедрил WireMock: ускорил прогон тестов с 1.5 часа до 7 минут\n- Внедрил Jaeger для трейсинга ивентов между микросервисами\n- Настроил Gitlab CI/CD: линтеры, тесты, Sonar, ИИ код-ревью"
+    },
+    {
+      "start_date": "2024-02",
+      "end_date": "2025-08",
+      "is_current": false,
+      "duration_months": 19,
+      "organization": "Организация 2",
+      "position": "Старший разработчик",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Инфраструктура для машинного обучения (MLOps): запуск обучения моделей из IDE, синхронизация данных, интеграции",
+      "original": "Фев 2024 -\nАвг 2025\n1 год 7 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nСтарший разработчик\nИнфраструктура для машинного обучения (MLOps): запуск обучения моделей из IDE, синхронизация данных, интеграции"
+    },
+    {
+      "start_date": "2022-12",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 15,
+      "organization": "Организация 3",
+      "position": "Tech Lead",
+      "employer_details": [
+        "Москва",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "- Сбор функциональных и нефунциональных требований к задачам и проекту\n- Проработка User Story и Use Cases\n- Написание и проектирование кода по Clean Architecture, DDD / LDDD. Если нужно очень быстро, то layered\n- Написание RESTful API по 2 уровню модели зрелости Ричардсона\n- Мониторинг качества кода количественно при помощи метрик и донесение информации о техдолге заинтересованным лицам\n- Обеспечение слабо связной архитектуры при помощи правильного разбиения по доменам\n- Не безразличное отношение к аббревиатурам и словам KISS, DRY, YAGNI, SOLID, coupling / cohesive, connascence\n- TDD на непонятные доменные участки\n- Написание ADR на архитектурные решения\n- Организация кода по Git Flow\n- Провел переход с \"песочных часов\" тестирования на пирамиду тестирования\n- Проведение рефакторинга на \"bloody hell\" участки кода\nСтремлюсь менеджить сложность предметной области, чтобы проект не тонул в техдолге",
+      "original": "Дек 2022 -\nФев 2024\n1 год 3 мес\nОрганизация 3\nМосква\nИнформационные технологии, системная интеграция, интернет\nTech Lead\n- Сбор функциональных и нефунциональных требований к задачам и проекту\n- Проработка User Story и Use Cases\n- Написание и проектирование кода по Clean Architecture, DDD / LDDD. Если нужно очень быстро, то layered\n- Написание RESTful API по 2 уровню модели зрелости Ричардсона\n- Мониторинг качества кода количественно при помощи метрик и донесение информации о техдолге заинтересованным лицам\n- Обеспечение слабо связной архитектуры при помощи правильного разбиения по доменам\n- Не безразличное отношение к аббревиатурам и словам KISS, DRY, YAGNI, SOLID, coupling / cohesive, connascence\n- TDD на непонятные доменные участки\n- Написание ADR на архитектурные решения\n- Организация кода по Git Flow\n- Провел переход с \"песочных часов\" тестирования на пирамиду тестирования\n- Проведение рефакторинга на \"bloody hell\" участки кода\nСтремлюсь менеджить сложность предметной области, чтобы проект не тонул в техдолге"
+    },
+    {
+      "start_date": "2019-11",
+      "end_date": "2022-12",
+      "is_current": false,
+      "duration_months": 38,
+      "organization": "Организация 4",
+      "position": "Java-разработчик",
+      "employer_details": [
+        "Москваyandex.ru/jobs/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "FinTech\n- Working on the generation of microservices by declarative description (Platform-as-a-Service):\n- Pretty diverse set of technologies: Java / Kotlin, Spring, Go, Python, Terraform, Grafana, Kibana, Prometheus, OpenAPI, Postman, Mockk, Jaeger, Elasticsearch",
+      "original": "Ноя 2019 -\nДек 2022\n3 года 2 мес\nОрганизация 4\nМоскваyandex.ru/jobs/\nИнформационные технологии, системная интеграция, интернет\nJava-разработчик\nFinTech\n- Working on the generation of microservices by declarative description (Platform-as-a-Service):\n- Pretty diverse set of technologies: Java / Kotlin, Spring, Go, Python, Terraform, Grafana, Kibana, Prometheus, OpenAPI, Postman, Mockk, Jaeger, Elasticsearch"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "advanced",
+      "original": "Java"
+    },
+    {
+      "name": "Kotlin",
+      "level": null,
+      "original": "Kotlin"
+    },
+    {
+      "name": "Spring Framework",
+      "level": null,
+      "original": "Spring Framework"
+    },
+    {
+      "name": "Spring Boot",
+      "level": null,
+      "original": "Spring Boot"
+    },
+    {
+      "name": "Swagger",
+      "level": null,
+      "original": "Swagger"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": null,
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "ActiveMQ",
+      "level": null,
+      "original": "ActiveMQ"
+    },
+    {
+      "name": "Amazon Web Services",
+      "level": null,
+      "original": "Amazon Web Services"
+    },
+    {
+      "name": "Yandex Cloud",
+      "level": null,
+      "original": "Yandex Cloud"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Kubernetes",
+      "level": null,
+      "original": "Kubernetes"
+    },
+    {
+      "name": "Grafana",
+      "level": null,
+      "original": "Grafana"
+    },
+    {
+      "name": "Prometheus",
+      "level": null,
+      "original": "Prometheus"
+    },
+    {
+      "name": "Jaeger",
+      "level": null,
+      "original": "Jaeger"
+    },
+    {
+      "name": "Terraform",
+      "level": null,
+      "original": "Terraform"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React"
+    },
+    {
+      "name": "DDD",
+      "level": null,
+      "original": "DDD"
+    },
+    {
+      "name": "Clean Architecture",
+      "level": null,
+      "original": "Clean Architecture"
+    },
+    {
+      "name": "Классическое машинное обучение",
+      "level": null,
+      "original": "Классическое машинное обучение"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Быстро осваиваю новые технологии, включаюсь в работу. Хорошо разбираюсь в чужом коде.\nНе боюсь брать на себя ответственность, но и не принимаю своенравных решений.\nСертификации:\n- AWS Solutions Architect Associate\n- GCP Associate\n- Certified Kubernetes Application Developer\nДостижения:\n- Полуфиналист чемпионата мира по программированию (ACM ICPC)\nУвлечения: аналитическая работа, английский язык, музыка",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Санкт-Петербургский государственный университет, Санкт-Петербург",
+      "details": [
+        "Матетематико-механический"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "Санкт-Петербургский государственный университет, Санкт-Петербург\nМатетематико-механический\n•\n2022\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №229\nРезюме: Senior Java разработчик",
+    "cover_letter": "tl;dr Яндекс, X5Tech, JetBrains, основная специализация серверная разработка, сети",
+    "experience": "Опыт работы: 7 лет\nАвг 2025 -\nсейчас\n1 год 3 мес\nОрганизация 1\nМосква\nВедущий разработчик\n- Разработал платформу на Temporal для процессинга обработки корзин с пиковым трафиком в 50к+ RPS на спайках\n- Обеспечил Fault Tolerant и High Availability: 0 точек отказа (Active / Standby), горизонтальный скейлинг по подам в k8s\n- Внедрил SLI/SLO для микросервисов, настроил метрики, алерты, On-Call\n- Внедрил WireMock: ускорил прогон тестов с 1.5 часа до 7 минут\n- Внедрил Jaeger для трейсинга ивентов между микросервисами\n- Настроил Gitlab CI/CD: линтеры, тесты, Sonar, ИИ код-ревью\nФев 2024 -\nАвг 2025\n1 год 7 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nСтарший разработчик\nИнфраструктура для машинного обучения (MLOps): запуск обучения моделей из IDE, синхронизация данных, интеграции\nДек 2022 -\nФев 2024\n1 год 3 мес\nОрганизация 3\nМосква\nИнформационные технологии, системная интеграция, интернет\nTech Lead\n- Сбор функциональных и нефунциональных требований к задачам и проекту\n- Проработка User Story и Use Cases\n- Написание и проектирование кода по Clean Architecture, DDD / LDDD. Если нужно очень быстро, то layered\n- Написание RESTful API по 2 уровню модели зрелости Ричардсона\n- Мониторинг качества кода количественно при помощи метрик и донесение информации о техдолге заинтересованным лицам\n- Обеспечение слабо связной архитектуры при помощи правильного разбиения по доменам\n- Не безразличное отношение к аббревиатурам и словам KISS, DRY, YAGNI, SOLID, coupling / cohesive, connascence\n- TDD на непонятные доменные участки\n- Написание ADR на архитектурные решения\n- Организация кода по Git Flow\n- Провел переход с \"песочных часов\" тестирования на пирамиду тестирования\n- Проведение рефакторинга на \"bloody hell\" участки кода\nСтремлюсь менеджить сложность предметной области, чтобы проект не тонул в техдолге\nНоя 2019 -\nДек 2022\n3 года 2 мес\nОрганизация 4\nМоскваyandex.ru/jobs/\nИнформационные технологии, системная интеграция, интернет\nJava-разработчик\nFinTech\n- Working on the generation of microservices by declarative description (Platform-as-a-Service):\n- Pretty diverse set of technologies: Java / Kotlin, Spring, Go, Python, Terraform, Grafana, Kibana, Prometheus, OpenAPI, Postman, Mockk, Jaeger, Elasticsearch",
+    "skills": "Продвинутый уровень\nJava\nУровень не указан\nKotlin\nSpring Framework\nSpring Boot\nSwagger\nPostgreSQL\nApache Kafka\nActiveMQ\nAmazon Web Services\nYandex Cloud\nDocker\nKubernetes\nGrafana\nPrometheus\nJaeger\nTerraform\nTypeScript\nReact\nDDD\nClean Architecture\nКлассическое машинное обучение",
+    "languages": "Родной\nРусский",
+    "about_me": "Быстро осваиваю новые технологии, включаюсь в работу. Хорошо разбираюсь в чужом коде.\nНе боюсь брать на себя ответственность, но и не принимаю своенравных решений.\nСертификации:\n- AWS Solutions Architect Associate\n- GCP Associate\n- Certified Kubernetes Application Developer\nДостижения:\n- Полуфиналист чемпионата мира по программированию (ACM ICPC)\nУвлечения: аналитическая работа, английский язык, музыка",
+    "education": "Уровень\nВысшее образование\nСанкт-Петербургский государственный университет, Санкт-Петербург\nМатетематико-механический\n•\n2022\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №229\nРезюме: Senior Java разработчик\n\nСопроводительное письмо\ntl;dr Яндекс, X5Tech, JetBrains, основная специализация серверная разработка, сети\n\nОпыт работы\nОпыт работы: 7 лет\nАвг 2025 -\nсейчас\n1 год 3 мес\nОрганизация 1\nМосква\nВедущий разработчик\n- Разработал платформу на Temporal для процессинга обработки корзин с пиковым трафиком в 50к+ RPS на спайках\n- Обеспечил Fault Tolerant и High Availability: 0 точек отказа (Active / Standby), горизонтальный скейлинг по подам в k8s\n- Внедрил SLI/SLO для микросервисов, настроил метрики, алерты, On-Call\n- Внедрил WireMock: ускорил прогон тестов с 1.5 часа до 7 минут\n- Внедрил Jaeger для трейсинга ивентов между микросервисами\n- Настроил Gitlab CI/CD: линтеры, тесты, Sonar, ИИ код-ревью\nФев 2024 -\nАвг 2025\n1 год 7 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nСтарший разработчик\nИнфраструктура для машинного обучения (MLOps): запуск обучения моделей из IDE, синхронизация данных, интеграции\nДек 2022 -\nФев 2024\n1 год 3 мес\nОрганизация 3\nМосква\nИнформационные технологии, системная интеграция, интернет\nTech Lead\n- Сбор функциональных и нефунциональных требований к задачам и проекту\n- Проработка User Story и Use Cases\n- Написание и проектирование кода по Clean Architecture, DDD / LDDD. Если нужно очень быстро, то layered\n- Написание RESTful API по 2 уровню модели зрелости Ричардсона\n- Мониторинг качества кода количественно при помощи метрик и донесение информации о техдолге заинтересованным лицам\n- Обеспечение слабо связной архитектуры при помощи правильного разбиения по доменам\n- Не безразличное отношение к аббревиатурам и словам KISS, DRY, YAGNI, SOLID, coupling / cohesive, connascence\n- TDD на непонятные доменные участки\n- Написание ADR на архитектурные решения\n- Организация кода по Git Flow\n- Провел переход с \"песочных часов\" тестирования на пирамиду тестирования\n- Проведение рефакторинга на \"bloody hell\" участки кода\nСтремлюсь менеджить сложность предметной области, чтобы проект не тонул в техдолге\nНоя 2019 -\nДек 2022\n3 года 2 мес\nОрганизация 4\nМоскваyandex.ru/jobs/\nИнформационные технологии, системная интеграция, интернет\nJava-разработчик\nFinTech\n- Working on the generation of microservices by declarative description (Platform-as-a-Service):\n- Pretty diverse set of technologies: Java / Kotlin, Spring, Go, Python, Terraform, Grafana, Kibana, Prometheus, OpenAPI, Postman, Mockk, Jaeger, Elasticsearch\n\nНавыки\nПродвинутый уровень\nJava\nУровень не указан\nKotlin\nSpring Framework\nSpring Boot\nSwagger\nPostgreSQL\nApache Kafka\nActiveMQ\nAmazon Web Services\nYandex Cloud\nDocker\nKubernetes\nGrafana\nPrometheus\nJaeger\nTerraform\nTypeScript\nReact\nDDD\nClean Architecture\nКлассическое машинное обучение\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nБыстро осваиваю новые технологии, включаюсь в работу. Хорошо разбираюсь в чужом коде.\nНе боюсь брать на себя ответственность, но и не принимаю своенравных решений.\nСертификации:\n- AWS Solutions Architect Associate\n- GCP Associate\n- Certified Kubernetes Application Developer\nДостижения:\n- Полуфиналист чемпионата мира по программированию (ACM ICPC)\nУвлечения: аналитическая работа, английский язык, музыка\n\nОбразование\nУровень\nВысшее образование\nСанкт-Петербургский государственный университет, Санкт-Петербург\nМатетематико-механический\n•\n2022\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

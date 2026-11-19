@@ -1,0 +1,123 @@
+{
+  "candidate_id": 248,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "ИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "NoSQL",
+      "level": "intermediate",
+      "original": "NoSQL"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "pandas",
+      "level": "intermediate",
+      "original": "pandas"
+    },
+    {
+      "name": "NumPy",
+      "level": "intermediate",
+      "original": "Numpy"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "Django",
+      "level": "basic",
+      "original": "Django Framework"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "кмпо РАНХиГС",
+      "details": [
+        "Программирование"
+      ],
+      "year": 2026,
+      "level": "Среднее специальное образование",
+      "original": "кмпо РАНХиГС\nПрограммирование\n•\n2026\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не более полутора часов",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": "Нет",
+    "medical_book": "Есть"
+  },
+  "original_sections": {
+    "header": "Кандидат №248\nРезюме: Python-разработчик",
+    "cover_letter": "ИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nRabbitMQ\nPostgreSQL\nСредний уровень\nPython\nGitHub\nNoSQL\nREST API\nFastAPI\npandas\nNumpy\nSQLAlchemy\nБазовый уровень\nSQL\nDjango Framework\nУровень не указан\nMySQL",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее специальное образование\nкмпо РАНХиГС\nПрограммирование\n•\n2026\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе более полутора часов\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\nСамозанятость:\nНет\nМедкнижка:\nЕсть"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №248\nРезюме: Python-разработчик\n\nСопроводительное письмо\nИИ-Помощник получил согласие соискателя откликнуться на вакансию, уточнил следующую информацию.\n**Вопросы к работодателю, на которые помощник не смог ответить**:\nВопросов не было\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nRabbitMQ\nPostgreSQL\nСредний уровень\nPython\nGitHub\nNoSQL\nREST API\nFastAPI\npandas\nNumpy\nSQLAlchemy\nБазовый уровень\nSQL\nDjango Framework\nУровень не указан\nMySQL\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее специальное образование\nкмпо РАНХиГС\nПрограммирование\n•\n2026\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе более полутора часов\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\nСамозанятость:\nНет\nМедкнижка:\nЕсть\n"
+}

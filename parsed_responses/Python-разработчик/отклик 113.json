@@ -1,0 +1,206 @@
+{
+  "candidate_id": 113,
+  "resume_title": "Python-разработчик",
+  "cover_letter": null,
+  "experience_total_months": 52,
+  "similar_experience_months": 52,
+  "work_experience": [
+    {
+      "start_date": "2022-07",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 52,
+      "organization": "Организация 1",
+      "position": "Python FastAPI Developer",
+      "employer_details": [
+        "Польшаrobyg.pl/"
+      ],
+      "description": "Работал в Польской строительной компании, занимался внутренними административными сервисами и API для интеграции с внешними системами. Проект велся с использованием TDD, методология работы — Agile\nДостижения:\n- Ускорил время загрузки главной страницы с 10 сек. до 7 сек.\n- Оптимизировал запросы в базу данных\n- Добавил больше кэша\nСтек:\n- Python, FastAPI, SQLAlchemy, Alembic, Pydantic\n- PostgreSQL, Redis, MongoDB\n- Docker, Kubernetes, Swagger\n- RabbitMq, микросервисная архитектура\nОбязанности:\n- Разработка и поддержка API для взаимодействия внутренних сервисов\n- Опnимизация существующего кода и внедрение новых функций\n- Разработка модулей с нуля\n- Участие в командных процессах: код-ревью, планирование задач, ведение документации, демо-клиенту",
+      "original": "Июл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nПольшаrobyg.pl/\nPython FastAPI Developer\nРаботал в Польской строительной компании, занимался внутренними административными сервисами и API для интеграции с внешними системами. Проект велся с использованием TDD, методология работы — Agile\nДостижения:\n- Ускорил время загрузки главной страницы с 10 сек. до 7 сек.\n- Оптимизировал запросы в базу данных\n- Добавил больше кэша\nСтек:\n- Python, FastAPI, SQLAlchemy, Alembic, Pydantic\n- PostgreSQL, Redis, MongoDB\n- Docker, Kubernetes, Swagger\n- RabbitMq, микросервисная архитектура\nОбязанности:\n- Разработка и поддержка API для взаимодействия внутренних сервисов\n- Опnимизация существующего кода и внедрение новых функций\n- Разработка модулей с нуля\n- Участие в командных процессах: код-ревью, планирование задач, ведение документации, демо-клиенту"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "Английский язык",
+      "level": "advanced",
+      "original": "Английский язык"
+    },
+    {
+      "name": "pytest",
+      "level": "advanced",
+      "original": "Pytest"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "NoSQL",
+      "level": "advanced",
+      "original": "NoSQL"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "MongoDB",
+      "level": "advanced",
+      "original": "MongoDB"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Agile",
+      "level": "advanced",
+      "original": "Agile"
+    },
+    {
+      "name": "GitHub",
+      "level": "advanced",
+      "original": "GitHub"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Kanban",
+      "level": "advanced",
+      "original": "Kanban"
+    },
+    {
+      "name": "Scrum",
+      "level": "advanced",
+      "original": "Scrum"
+    },
+    {
+      "name": "Bash",
+      "level": "advanced",
+      "original": "Bash"
+    },
+    {
+      "name": "Unit Testing",
+      "level": "advanced",
+      "original": "Unit Testing"
+    },
+    {
+      "name": "Jira",
+      "level": "advanced",
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "API",
+      "level": "advanced",
+      "original": "API"
+    },
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST"
+    },
+    {
+      "name": "Асинхронное программирование",
+      "level": "advanced",
+      "original": "Асинхронное программирование"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Здравствуйте! Ищу работу бэкенд-разработчиком. В работе ценю качественный код, команду и отлаженные процессы. Буду рад знакомству!\nP. S. желательно писать в ТГ по номеру телефона",
+  "education_level": "Неоконченное высшее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №113\nРезюме: Python-разработчик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 4 месяца\nОпыт в похожих должностях:4 года 4 месяца\nИюл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nПольшаrobyg.pl/\nPython FastAPI Developer\nРаботал в Польской строительной компании, занимался внутренними административными сервисами и API для интеграции с внешними системами. Проект велся с использованием TDD, методология работы — Agile\nДостижения:\n- Ускорил время загрузки главной страницы с 10 сек. до 7 сек.\n- Оптимизировал запросы в базу данных\n- Добавил больше кэша\nСтек:\n- Python, FastAPI, SQLAlchemy, Alembic, Pydantic\n- PostgreSQL, Redis, MongoDB\n- Docker, Kubernetes, Swagger\n- RabbitMq, микросервисная архитектура\nОбязанности:\n- Разработка и поддержка API для взаимодействия внутренних сервисов\n- Опnимизация существующего кода и внедрение новых функций\n- Разработка модулей с нуля\n- Участие в командных процессах: код-ревью, планирование задач, ведение документации, демо-клиенту",
+    "skills": "Продвинутый уровень\nPython\nFastAPI\nSQLAlchemy\nPostgreSQL\nRedis\nDocker\nGit\nАнглийский язык\nPytest\nCelery\nNoSQL\nSQL\nRabbitMQ\nMongoDB\nREST API\nGitlab\nAgile\nGitHub\nLinux\nKanban\nScrum\nBash\nUnit Testing\nAtlassian Jira\nAPI\nООП\nHTML\nCSS\nREST\nАсинхронное программирование",
+    "languages": "Родной\nРусский",
+    "about_me": "Здравствуйте! Ищу работу бэкенд-разработчиком. В работе ценю качественный код, команду и отлаженные процессы. Буду рад знакомству!\nP. S. желательно писать в ТГ по номеру телефона",
+    "education": "Уровень\nНеоконченное высшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №113\nРезюме: Python-разработчик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 4 месяца\nОпыт в похожих должностях:4 года 4 месяца\nИюл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nПольшаrobyg.pl/\nPython FastAPI Developer\nРаботал в Польской строительной компании, занимался внутренними административными сервисами и API для интеграции с внешними системами. Проект велся с использованием TDD, методология работы — Agile\nДостижения:\n- Ускорил время загрузки главной страницы с 10 сек. до 7 сек.\n- Оптимизировал запросы в базу данных\n- Добавил больше кэша\nСтек:\n- Python, FastAPI, SQLAlchemy, Alembic, Pydantic\n- PostgreSQL, Redis, MongoDB\n- Docker, Kubernetes, Swagger\n- RabbitMq, микросервисная архитектура\nОбязанности:\n- Разработка и поддержка API для взаимодействия внутренних сервисов\n- Опnимизация существующего кода и внедрение новых функций\n- Разработка модулей с нуля\n- Участие в командных процессах: код-ревью, планирование задач, ведение документации, демо-клиенту\n\nНавыки\nПродвинутый уровень\nPython\nFastAPI\nSQLAlchemy\nPostgreSQL\nRedis\nDocker\nGit\nАнглийский язык\nPytest\nCelery\nNoSQL\nSQL\nRabbitMQ\nMongoDB\nREST API\nGitlab\nAgile\nGitHub\nLinux\nKanban\nScrum\nBash\nUnit Testing\nAtlassian Jira\nAPI\nООП\nHTML\nCSS\nREST\nАсинхронное программирование\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nЗдравствуйте! Ищу работу бэкенд-разработчиком. В работе ценю качественный код, команду и отлаженные процессы. Буду рад знакомству!\nP. S. желательно писать в ТГ по номеру телефона\n\nОбразование\nУровень\nНеоконченное высшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

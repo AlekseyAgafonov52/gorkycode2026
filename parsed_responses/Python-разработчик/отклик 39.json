@@ -1,0 +1,183 @@
+{
+  "candidate_id": 39,
+  "resume_title": "Python backend developer",
+  "cover_letter": "Здравствуйте!\nОзнакомился с вашей вакансией Python-разработчик.\nКогда можем созвониться?",
+  "experience_total_months": 82,
+  "similar_experience_months": 45,
+  "work_experience": [
+    {
+      "start_date": "2023-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 45,
+      "organization": "Организация 1",
+      "position": "Middle Backend Developer (Python)",
+      "employer_details": [],
+      "description": "Проект: внутренняя админ-панель и аналитика для мультибрендового маркетплейса (аналог LaModa/Wildberries), распределённая команда из ЕС.\nДостижения:\n— разработал RBAC и OAuth2.0-авторизацию (через Auth0) для панели управления заказами;\n— оптимизировал пайплайн CI/CD на GitLab CI: добавил прогон миграций, автотесты, rollback при сбоях;\n— улучшил систему логирования, настроил алерты через Slack-интеграции → количество багрепортов сократилось на ~30%;\n— переписал ресурсоёмкие SQL-запросы отчётов, снизив время генерации с 3.2s до 1.1s.\n— подключил FastAPI к async-модулям (webhook’и, отчёты), выделил сервис под нагрузочные сценарии.\nСтек:\nPython, FastAPI, PostgreSQL, Redis, Docker, Docker Compose, Linux, GitLab CI/CD, Git, REST API, RabbitMQ, Celery, asyncio, asyncpg, Pytest, OAuth2.0, Auth0, JWT, Prometheus Alertmanager, Slack Webhooks, Prometheus",
+      "original": "Фев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nMiddle Backend Developer (Python)\nПроект: внутренняя админ-панель и аналитика для мультибрендового маркетплейса (аналог LaModa/Wildberries), распределённая команда из ЕС.\nДостижения:\n— разработал RBAC и OAuth2.0-авторизацию (через Auth0) для панели управления заказами;\n— оптимизировал пайплайн CI/CD на GitLab CI: добавил прогон миграций, автотесты, rollback при сбоях;\n— улучшил систему логирования, настроил алерты через Slack-интеграции → количество багрепортов сократилось на ~30%;\n— переписал ресурсоёмкие SQL-запросы отчётов, снизив время генерации с 3.2s до 1.1s.\n— подключил FastAPI к async-модулям (webhook’и, отчёты), выделил сервис под нагрузочные сценарии.\nСтек:\nPython, FastAPI, PostgreSQL, Redis, Docker, Docker Compose, Linux, GitLab CI/CD, Git, REST API, RabbitMQ, Celery, asyncio, asyncpg, Pytest, OAuth2.0, Auth0, JWT, Prometheus Alertmanager, Slack Webhooks, Prometheus"
+    },
+    {
+      "start_date": "2020-01",
+      "end_date": "2023-01",
+      "is_current": false,
+      "duration_months": 37,
+      "organization": "Организация 2",
+      "position": "Backend Developer",
+      "employer_details": [
+        "Минск",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Проект: банковская внутренняя платформа (финансовые отчёты, интеграции с брокерами, API для расчётов), работа в составе Dedicated Team.\nДостижения:\n— разработал модуль webhook-уведомлений с гарантированной доставкой и retry-очередями на RabbitMQ;\n— повысил покрытие unit-тестами с 20% до 70%, внедрил шаблоны тестирования для всей команды;\n— в критичных местах заменил Django ORM на SQLAlchemy для снижения нагрузки на базу;\n— настроил dockerized-окружение с запуском всех сервисов за 5 минут — упростил онбординг;\n— поддерживал и дорабатывал легаси-модуль интеграции с внешними API (страховые брокеры, HMRC).\nСтек:\nPython, Django, PostgreSQL, RabbitMQ, Redis, Docker, Celery, Gitlab CI, Linux, SQLAlchemy, REST API",
+      "original": "Янв 2020 -\nЯнв 2023\n3 года 1 мес\nОрганизация 2\nМинск\nИнформационные технологии, системная интеграция, интернет\nBackend Developer\nПроект: банковская внутренняя платформа (финансовые отчёты, интеграции с брокерами, API для расчётов), работа в составе Dedicated Team.\nДостижения:\n— разработал модуль webhook-уведомлений с гарантированной доставкой и retry-очередями на RabbitMQ;\n— повысил покрытие unit-тестами с 20% до 70%, внедрил шаблоны тестирования для всей команды;\n— в критичных местах заменил Django ORM на SQLAlchemy для снижения нагрузки на базу;\n— настроил dockerized-окружение с запуском всех сервисов за 5 минут — упростил онбординг;\n— поддерживал и дорабатывал легаси-модуль интеграции с внешними API (страховые брокеры, HMRC).\nСтек:\nPython, Django, PostgreSQL, RabbitMQ, Redis, Docker, Celery, Gitlab CI, Linux, SQLAlchemy, REST API"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "MS SQL",
+      "level": "advanced",
+      "original": "MS SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Linux",
+      "level": "advanced",
+      "original": "Linux"
+    },
+    {
+      "name": "Kafka",
+      "level": "advanced",
+      "original": "Kafka"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "GitLab",
+      "level": "advanced",
+      "original": "Gitlab"
+    },
+    {
+      "name": "Git",
+      "level": "advanced",
+      "original": "Git"
+    },
+    {
+      "name": "MySQL",
+      "level": "advanced",
+      "original": "MySQL"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "Django",
+      "level": "advanced",
+      "original": "Django"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Nginx",
+      "level": "advanced",
+      "original": "Nginx"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "advanced",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Grafana",
+      "level": "advanced",
+      "original": "Grafana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Опытный backend-разработчик с более чем 4 годами коммерческого опыта. Специализируюсь на разработке и оптимизации высоконагруженных веб-приложений на Python (FastAPI, Django), построении микросервисной архитектуры и интеграции с внешними системами через REST API.\nРаботал как с монолитными системами, так и с микросервисами. Опыт участия в крупных проектах для банковского сектора и мультибрендового маркетплейса в распределённых командах из ЕС.\nВ проектах активно занимался оптимизацией производительности сервисов, улучшением процессов разработки и поддержкой высоких стандартов качества кода.\nМне можно написать:\nhttps://t.me/gromdobr",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Южно-Уральский государственный университет (национальный исследовательский университет), Челябинск",
+      "details": [
+        "Факультет вычислительной математики и информатики, Прикладная математика и информатика"
+      ],
+      "year": 2019,
+      "level": "Высшее образование",
+      "original": "Южно-Уральский государственный университет (национальный исследовательский университет), Челябинск\nФакультет вычислительной математики и информатики, Прикладная математика и информатика\n•\n2019\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №39\nРезюме: Python backend developer",
+    "cover_letter": "Здравствуйте!\nОзнакомился с вашей вакансией Python-разработчик.\nКогда можем созвониться?",
+    "experience": "Опыт работы: 6 лет 10 месяцев\nОпыт в похожих должностях:3 года 9 месяцев\nФев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nMiddle Backend Developer (Python)\nПроект: внутренняя админ-панель и аналитика для мультибрендового маркетплейса (аналог LaModa/Wildberries), распределённая команда из ЕС.\nДостижения:\n— разработал RBAC и OAuth2.0-авторизацию (через Auth0) для панели управления заказами;\n— оптимизировал пайплайн CI/CD на GitLab CI: добавил прогон миграций, автотесты, rollback при сбоях;\n— улучшил систему логирования, настроил алерты через Slack-интеграции → количество багрепортов сократилось на ~30%;\n— переписал ресурсоёмкие SQL-запросы отчётов, снизив время генерации с 3.2s до 1.1s.\n— подключил FastAPI к async-модулям (webhook’и, отчёты), выделил сервис под нагрузочные сценарии.\nСтек:\nPython, FastAPI, PostgreSQL, Redis, Docker, Docker Compose, Linux, GitLab CI/CD, Git, REST API, RabbitMQ, Celery, asyncio, asyncpg, Pytest, OAuth2.0, Auth0, JWT, Prometheus Alertmanager, Slack Webhooks, Prometheus\nЯнв 2020 -\nЯнв 2023\n3 года 1 мес\nОрганизация 2\nМинск\nИнформационные технологии, системная интеграция, интернет\nBackend Developer\nПроект: банковская внутренняя платформа (финансовые отчёты, интеграции с брокерами, API для расчётов), работа в составе Dedicated Team.\nДостижения:\n— разработал модуль webhook-уведомлений с гарантированной доставкой и retry-очередями на RabbitMQ;\n— повысил покрытие unit-тестами с 20% до 70%, внедрил шаблоны тестирования для всей команды;\n— в критичных местах заменил Django ORM на SQLAlchemy для снижения нагрузки на базу;\n— настроил dockerized-окружение с запуском всех сервисов за 5 минут — упростил онбординг;\n— поддерживал и дорабатывал легаси-модуль интеграции с внешними API (страховые брокеры, HMRC).\nСтек:\nPython, Django, PostgreSQL, RabbitMQ, Redis, Docker, Celery, Gitlab CI, Linux, SQLAlchemy, REST API",
+    "skills": "Продвинутый уровень\nPython\nSQL\nMS SQL\nPostgreSQL\nLinux\nKafka\nClickhouse\nDocker\nRedis\nKubernetes\nGitlab\nGit\nMySQL\nCelery\nDjango\nFastAPI\nRabbitMQ\nNginx\nSQLAlchemy\nPrometheus\nGrafana",
+    "languages": "Родной\nРусский",
+    "about_me": "Опытный backend-разработчик с более чем 4 годами коммерческого опыта. Специализируюсь на разработке и оптимизации высоконагруженных веб-приложений на Python (FastAPI, Django), построении микросервисной архитектуры и интеграции с внешними системами через REST API.\nРаботал как с монолитными системами, так и с микросервисами. Опыт участия в крупных проектах для банковского сектора и мультибрендового маркетплейса в распределённых командах из ЕС.\nВ проектах активно занимался оптимизацией производительности сервисов, улучшением процессов разработки и поддержкой высоких стандартов качества кода.\nМне можно написать:\nhttps://t.me/gromdobr",
+    "education": "Уровень\nВысшее образование\nЮжно-Уральский государственный университет (национальный исследовательский университет), Челябинск\nФакультет вычислительной математики и информатики, Прикладная математика и информатика\n•\n2019\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №39\nРезюме: Python backend developer\n\nСопроводительное письмо\nЗдравствуйте!\nОзнакомился с вашей вакансией Python-разработчик.\nКогда можем созвониться?\n\nОпыт работы\nОпыт работы: 6 лет 10 месяцев\nОпыт в похожих должностях:3 года 9 месяцев\nФев 2023 -\nсейчас\n3 года 9 мес\nОрганизация 1\nMiddle Backend Developer (Python)\nПроект: внутренняя админ-панель и аналитика для мультибрендового маркетплейса (аналог LaModa/Wildberries), распределённая команда из ЕС.\nДостижения:\n— разработал RBAC и OAuth2.0-авторизацию (через Auth0) для панели управления заказами;\n— оптимизировал пайплайн CI/CD на GitLab CI: добавил прогон миграций, автотесты, rollback при сбоях;\n— улучшил систему логирования, настроил алерты через Slack-интеграции → количество багрепортов сократилось на ~30%;\n— переписал ресурсоёмкие SQL-запросы отчётов, снизив время генерации с 3.2s до 1.1s.\n— подключил FastAPI к async-модулям (webhook’и, отчёты), выделил сервис под нагрузочные сценарии.\nСтек:\nPython, FastAPI, PostgreSQL, Redis, Docker, Docker Compose, Linux, GitLab CI/CD, Git, REST API, RabbitMQ, Celery, asyncio, asyncpg, Pytest, OAuth2.0, Auth0, JWT, Prometheus Alertmanager, Slack Webhooks, Prometheus\nЯнв 2020 -\nЯнв 2023\n3 года 1 мес\nОрганизация 2\nМинск\nИнформационные технологии, системная интеграция, интернет\nBackend Developer\nПроект: банковская внутренняя платформа (финансовые отчёты, интеграции с брокерами, API для расчётов), работа в составе Dedicated Team.\nДостижения:\n— разработал модуль webhook-уведомлений с гарантированной доставкой и retry-очередями на RabbitMQ;\n— повысил покрытие unit-тестами с 20% до 70%, внедрил шаблоны тестирования для всей команды;\n— в критичных местах заменил Django ORM на SQLAlchemy для снижения нагрузки на базу;\n— настроил dockerized-окружение с запуском всех сервисов за 5 минут — упростил онбординг;\n— поддерживал и дорабатывал легаси-модуль интеграции с внешними API (страховые брокеры, HMRC).\nСтек:\nPython, Django, PostgreSQL, RabbitMQ, Redis, Docker, Celery, Gitlab CI, Linux, SQLAlchemy, REST API\n\nНавыки\nПродвинутый уровень\nPython\nSQL\nMS SQL\nPostgreSQL\nLinux\nKafka\nClickhouse\nDocker\nRedis\nKubernetes\nGitlab\nGit\nMySQL\nCelery\nDjango\nFastAPI\nRabbitMQ\nNginx\nSQLAlchemy\nPrometheus\nGrafana\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nОпытный backend-разработчик с более чем 4 годами коммерческого опыта. Специализируюсь на разработке и оптимизации высоконагруженных веб-приложений на Python (FastAPI, Django), построении микросервисной архитектуры и интеграции с внешними системами через REST API.\nРаботал как с монолитными системами, так и с микросервисами. Опыт участия в крупных проектах для банковского сектора и мультибрендового маркетплейса в распределённых командах из ЕС.\nВ проектах активно занимался оптимизацией производительности сервисов, улучшением процессов разработки и поддержкой высоких стандартов качества кода.\nМне можно написать:\nhttps://t.me/gromdobr\n\nОбразование\nУровень\nВысшее образование\nЮжно-Уральский государственный университет (национальный исследовательский университет), Челябинск\nФакультет вычислительной математики и информатики, Прикладная математика и информатика\n•\n2019\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,168 @@
+{
+  "candidate_id": 234,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Добрый день. Меня заинтересовала вакансия.\nИмею опыт работы Python Backend разработчиком (1 год и 1 месяц). Буду рад обратной связи",
+  "experience_total_months": 13,
+  "similar_experience_months": 13,
+  "work_experience": [
+    {
+      "start_date": "2024-12",
+      "end_date": "2025-12",
+      "is_current": false,
+      "duration_months": 13,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Волгоград",
+        "Услуги для бизнеса"
+      ],
+      "description": "Разработка системы централизованного управления и мониторинга клиентских профилей на Avito: микросервисная архитектура, 4 backend-сервиса, 15+ фоновых воркеров, event-driven на RabbitMQ.\nОбязанности:\n- Проектирование и реализация REST API на FastAPI с WebSocket-поддержкой для real-time уведомлений.\n- Написание асинхронной библиотеки для работы с Avito API с rate limiting, батчингом запросов и SOCKS5-прокси.\n- Проектирование структуры реляционных БД (PostgreSQL).\n- Разработка многопроцессорной системы фоновых задач с независимым scheduling и контролем параллелизма.\n- Интеграция внешних сервисов (Telegram Bot API, SMTP/IMAP, RabbitMQ) с retry-механизмами и обработкой ошибок.\n- Настройка CI/CD (GitHub Actions), Docker-контейнеризация, развертывание приватного PyPI.",
+      "original": "Дек 2024 -\nДек 2025\n1 год 1 мес\nОрганизация 1\nВолгоград\nУслуги для бизнеса\nPython-разработчик\nРазработка системы централизованного управления и мониторинга клиентских профилей на Avito: микросервисная архитектура, 4 backend-сервиса, 15+ фоновых воркеров, event-driven на RabbitMQ.\nОбязанности:\n- Проектирование и реализация REST API на FastAPI с WebSocket-поддержкой для real-time уведомлений.\n- Написание асинхронной библиотеки для работы с Avito API с rate limiting, батчингом запросов и SOCKS5-прокси.\n- Проектирование структуры реляционных БД (PostgreSQL).\n- Разработка многопроцессорной системы фоновых задач с независимым scheduling и контролем параллелизма.\n- Интеграция внешних сервисов (Telegram Bot API, SMTP/IMAP, RabbitMQ) с retry-механизмами и обработкой ошибок.\n- Настройка CI/CD (GitHub Actions), Docker-контейнеризация, развертывание приватного PyPI."
+    }
+  ],
+  "skills": [
+    {
+      "name": "ООП",
+      "level": "advanced",
+      "original": "ООП"
+    },
+    {
+      "name": "REST API",
+      "level": "advanced",
+      "original": "REST API"
+    },
+    {
+      "name": "Java",
+      "level": "intermediate",
+      "original": "Java"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "SOLID",
+      "level": "intermediate",
+      "original": "SOLID"
+    },
+    {
+      "name": "Алгоритмы и структуры данных",
+      "level": "intermediate",
+      "original": "Алгоритмы и структуры данных"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Uvicorn",
+      "level": "intermediate",
+      "original": "Uvicorn"
+    },
+    {
+      "name": "Alembic",
+      "level": "intermediate",
+      "original": "Alembic"
+    },
+    {
+      "name": "asyncio",
+      "level": "intermediate",
+      "original": "asyncio"
+    },
+    {
+      "name": "Black",
+      "level": "intermediate",
+      "original": "Black"
+    },
+    {
+      "name": "Ruff",
+      "level": "intermediate",
+      "original": "Ruff"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "basic",
+      "original": "Docker-compose"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Волгоградский государственный университет, Волгоград",
+      "details": [
+        "Факультет математики и информационных технологий, Программная инженерия"
+      ],
+      "year": 2026,
+      "level": "Высшее образование",
+      "original": "Волгоградский государственный университет, Волгоград\nФакультет математики и информационных технологий, Программная инженерия\n•\n2026\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №234\nРезюме: Python-разработчик",
+    "cover_letter": "Добрый день. Меня заинтересовала вакансия.\nИмею опыт работы Python Backend разработчиком (1 год и 1 месяц). Буду рад обратной связи",
+    "experience": "Опыт работы: 1 год 1 месяц\nОпыт в похожих должностях:1 год 1 месяц\nДек 2024 -\nДек 2025\n1 год 1 мес\nОрганизация 1\nВолгоград\nУслуги для бизнеса\nPython-разработчик\nРазработка системы централизованного управления и мониторинга клиентских профилей на Avito: микросервисная архитектура, 4 backend-сервиса, 15+ фоновых воркеров, event-driven на RabbitMQ.\nОбязанности:\n- Проектирование и реализация REST API на FastAPI с WebSocket-поддержкой для real-time уведомлений.\n- Написание асинхронной библиотеки для работы с Avito API с rate limiting, батчингом запросов и SOCKS5-прокси.\n- Проектирование структуры реляционных БД (PostgreSQL).\n- Разработка многопроцессорной системы фоновых задач с независимым scheduling и контролем параллелизма.\n- Интеграция внешних сервисов (Telegram Bot API, SMTP/IMAP, RabbitMQ) с retry-механизмами и обработкой ошибок.\n- Настройка CI/CD (GitHub Actions), Docker-контейнеризация, развертывание приватного PyPI.",
+    "skills": "Продвинутый уровень\nООП\nREST API\nСредний уровень\nJava\nSQL\nPostgreSQL\nGit\nSOLID\nАлгоритмы и структуры данных\nFastAPI\nGitHub\nPython\nSQLAlchemy\nUvicorn\nAlembic\nasyncio\nBlack\nRuff\nБазовый уровень\nDocker\nDocker-compose",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nВолгоградский государственный университет, Волгоград\nФакультет математики и информационных технологий, Программная инженерия\n•\n2026\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №234\nРезюме: Python-разработчик\n\nСопроводительное письмо\nДобрый день. Меня заинтересовала вакансия.\nИмею опыт работы Python Backend разработчиком (1 год и 1 месяц). Буду рад обратной связи\n\nОпыт работы\nОпыт работы: 1 год 1 месяц\nОпыт в похожих должностях:1 год 1 месяц\nДек 2024 -\nДек 2025\n1 год 1 мес\nОрганизация 1\nВолгоград\nУслуги для бизнеса\nPython-разработчик\nРазработка системы централизованного управления и мониторинга клиентских профилей на Avito: микросервисная архитектура, 4 backend-сервиса, 15+ фоновых воркеров, event-driven на RabbitMQ.\nОбязанности:\n- Проектирование и реализация REST API на FastAPI с WebSocket-поддержкой для real-time уведомлений.\n- Написание асинхронной библиотеки для работы с Avito API с rate limiting, батчингом запросов и SOCKS5-прокси.\n- Проектирование структуры реляционных БД (PostgreSQL).\n- Разработка многопроцессорной системы фоновых задач с независимым scheduling и контролем параллелизма.\n- Интеграция внешних сервисов (Telegram Bot API, SMTP/IMAP, RabbitMQ) с retry-механизмами и обработкой ошибок.\n- Настройка CI/CD (GitHub Actions), Docker-контейнеризация, развертывание приватного PyPI.\n\nНавыки\nПродвинутый уровень\nООП\nREST API\nСредний уровень\nJava\nSQL\nPostgreSQL\nGit\nSOLID\nАлгоритмы и структуры данных\nFastAPI\nGitHub\nPython\nSQLAlchemy\nUvicorn\nAlembic\nasyncio\nBlack\nRuff\nБазовый уровень\nDocker\nDocker-compose\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nВолгоградский государственный университет, Волгоград\nФакультет математики и информационных технологий, Программная инженерия\n•\n2026\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

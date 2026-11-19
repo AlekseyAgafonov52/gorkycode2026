@@ -1,0 +1,180 @@
+{
+  "candidate_id": 214,
+  "resume_title": "Разработчик",
+  "cover_letter": ".",
+  "experience_total_months": 27,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2025-11",
+      "end_date": "2026-01",
+      "is_current": false,
+      "duration_months": 3,
+      "organization": "Организация 1",
+      "position": "Ведущий инженер сопровождения",
+      "employer_details": [
+        "Москваwww.rshb.ru",
+        "Финансовый сектор"
+      ],
+      "description": "- Обработка обращений на 2 линии поддержки\n- Мониторинг в Grafana, Zabbix\n- Введение документации в Confluence\n- Разбор инцидентов/падений сервисов",
+      "original": "Ноя 2025 -\nЯнв 2026\n3 мес\nОрганизация 1\nМоскваwww.rshb.ru\nФинансовый сектор\nВедущий инженер сопровождения\n- Обработка обращений на 2 линии поддержки\n- Мониторинг в Grafana, Zabbix\n- Введение документации в Confluence\n- Разбор инцидентов/падений сервисов"
+    },
+    {
+      "start_date": "2025-06",
+      "end_date": "2025-07",
+      "is_current": false,
+      "duration_months": 2,
+      "organization": "Организация 2",
+      "position": "DevOps-инженер",
+      "employer_details": [],
+      "description": "- Администрирование серверов Linux Debian 10\n- Мониторинг Grafana, Zabbix\n- Оптимизация SQL - запросов\n- Работа с Ansible, Proxmox, MongoDb.",
+      "original": "Июн 2025 -\nИюл 2025\n2 мес\nОрганизация 2\nDevOps-инженер\n- Администрирование серверов Linux Debian 10\n- Мониторинг Grafana, Zabbix\n- Оптимизация SQL - запросов\n- Работа с Ansible, Proxmox, MongoDb."
+    },
+    {
+      "start_date": "2023-04",
+      "end_date": "2025-01",
+      "is_current": false,
+      "duration_months": 22,
+      "organization": "Организация 3",
+      "position": "Прикладной разработчик CRM/BPM систем / Тестировщик Java",
+      "employer_details": [
+        "Москваt1.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "- Разработка прикладного кода на языке c# (Directum RX) и ts (Elma365);\n- Тестирование функционала\n- Обработка обращений на 3 линии поддержки\n- Оптимизация запросов SQL\n- Мониторинг в графане\n- Написание автотестов (java) UI с помощью Selenium, и API с помощью Rest Assured",
+      "original": "Апр 2023 -\nЯнв 2025\n1 год 10 мес\nОрганизация 3\nМоскваt1.ru\nИнформационные технологии, системная интеграция, интернет\nПрикладной разработчик CRM/BPM систем / Тестировщик Java\n- Разработка прикладного кода на языке c# (Directum RX) и ts (Elma365);\n- Тестирование функционала\n- Обработка обращений на 3 линии поддержки\n- Оптимизация запросов SQL\n- Мониторинг в графане\n- Написание автотестов (java) UI с помощью Selenium, и API с помощью Rest Assured"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linux",
+      "level": "basic",
+      "original": "Linux"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "C#",
+      "level": "basic",
+      "original": "C#"
+    },
+    {
+      "name": "Directum",
+      "level": "basic",
+      "original": "Directum"
+    },
+    {
+      "name": "Ansible",
+      "level": null,
+      "original": "Ansible"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "Администрирование серверов Linux",
+      "level": null,
+      "original": "Администрирование серверов Linux"
+    },
+    {
+      "name": "Sentry",
+      "level": null,
+      "original": "Sentry"
+    },
+    {
+      "name": "VirtualBox",
+      "level": null,
+      "original": "VirtualBox"
+    },
+    {
+      "name": "Proxmox",
+      "level": null,
+      "original": "Proxmox"
+    },
+    {
+      "name": "Настройка DNS",
+      "level": null,
+      "original": "Настройка DNS"
+    },
+    {
+      "name": "ELMA365",
+      "level": null,
+      "original": "ELMA365"
+    },
+    {
+      "name": "Entity Framework Core",
+      "level": null,
+      "original": "Entity Framework Core"
+    },
+    {
+      "name": "ASP.NET Core Web API",
+      "level": null,
+      "original": "ASP.NET Core Web API"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Монтажный техникум",
+      "details": [],
+      "year": 2017,
+      "level": "Среднее специальное образование",
+      "original": "Монтажный техникум\n2017\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №214\nРезюме: Разработчик",
+    "cover_letter": ".",
+    "experience": "Опыт работы: 2 года 3 месяца\nНоя 2025 -\nЯнв 2026\n3 мес\nОрганизация 1\nМоскваwww.rshb.ru\nФинансовый сектор\nВедущий инженер сопровождения\n- Обработка обращений на 2 линии поддержки\n- Мониторинг в Grafana, Zabbix\n- Введение документации в Confluence\n- Разбор инцидентов/падений сервисов\nИюн 2025 -\nИюл 2025\n2 мес\nОрганизация 2\nDevOps-инженер\n- Администрирование серверов Linux Debian 10\n- Мониторинг Grafana, Zabbix\n- Оптимизация SQL - запросов\n- Работа с Ansible, Proxmox, MongoDb.\nАпр 2023 -\nЯнв 2025\n1 год 10 мес\nОрганизация 3\nМоскваt1.ru\nИнформационные технологии, системная интеграция, интернет\nПрикладной разработчик CRM/BPM систем / Тестировщик Java\n- Разработка прикладного кода на языке c# (Directum RX) и ts (Elma365);\n- Тестирование функционала\n- Обработка обращений на 3 линии поддержки\n- Оптимизация запросов SQL\n- Мониторинг в графане\n- Написание автотестов (java) UI с помощью Selenium, и API с помощью Rest Assured",
+    "skills": "Базовый уровень\nLinux\nSQL\nPostgreSQL\nGit\nDocker\nC#\nDirectum\nУровень не указан\nAnsible\nMySQL\nNginx\nАдминистрирование серверов Linux\nSentry\nVirtualBox\nProxmox\nНастройка DNS\nELMA365\nEntity Framework Core\nASP.NET Core Web API",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nСреднее специальное образование\nМонтажный техникум\n2017\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №214\nРезюме: Разработчик\n\nСопроводительное письмо\n.\n\nОпыт работы\nОпыт работы: 2 года 3 месяца\nНоя 2025 -\nЯнв 2026\n3 мес\nОрганизация 1\nМоскваwww.rshb.ru\nФинансовый сектор\nВедущий инженер сопровождения\n- Обработка обращений на 2 линии поддержки\n- Мониторинг в Grafana, Zabbix\n- Введение документации в Confluence\n- Разбор инцидентов/падений сервисов\nИюн 2025 -\nИюл 2025\n2 мес\nОрганизация 2\nDevOps-инженер\n- Администрирование серверов Linux Debian 10\n- Мониторинг Grafana, Zabbix\n- Оптимизация SQL - запросов\n- Работа с Ansible, Proxmox, MongoDb.\nАпр 2023 -\nЯнв 2025\n1 год 10 мес\nОрганизация 3\nМоскваt1.ru\nИнформационные технологии, системная интеграция, интернет\nПрикладной разработчик CRM/BPM систем / Тестировщик Java\n- Разработка прикладного кода на языке c# (Directum RX) и ts (Elma365);\n- Тестирование функционала\n- Обработка обращений на 3 линии поддержки\n- Оптимизация запросов SQL\n- Мониторинг в графане\n- Написание автотестов (java) UI с помощью Selenium, и API с помощью Rest Assured\n\nНавыки\nБазовый уровень\nLinux\nSQL\nPostgreSQL\nGit\nDocker\nC#\nDirectum\nУровень не указан\nAnsible\nMySQL\nNginx\nАдминистрирование серверов Linux\nSentry\nVirtualBox\nProxmox\nНастройка DNS\nELMA365\nEntity Framework Core\nASP.NET Core Web API\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nСреднее специальное образование\nМонтажный техникум\n2017\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,234 @@
+{
+  "candidate_id": 69,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": "Добрый день, я - Константин Мамонов, фронтенд-разработчик со стажем работы более четырёх лет. Мой технологический стек: React, TypeScript, Redux, MobX, Ant Design, Material UI, SCCS, Jest, React Testing Library, Playwright.",
+  "experience_total_months": 71,
+  "similar_experience_months": 10,
+  "work_experience": [
+    {
+      "start_date": "2024-10",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 25,
+      "organization": "Организация 1",
+      "position": "Фронтенд-разработчик",
+      "employer_details": [
+        "Санкт-Петербургatim.tech",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Проект: WeldWeb\nПриложение для контроля работы сварщиков (автоматизация учёта выработки, материалов и задач).\nМои задачи и достижения:\nРазработал десятки новых функций приложения, включая динамические фильтры для таблиц, переход между диапазонами графиков (amCharts + React) и кастомную анимацию вкладок (react-transition-group).\nРеализовал сложную бизнес-логику на React + Redux (управление режимами сварки, критериями отбора, формирование отчётов).\nПровёл рефакторинг архитектуры, что сократило количество лишних рендеров на тяжёлых страницах в 5 раз и ускорило отклик интерфейса.\nПереработал стили компонентов Material UI под дизайн-систему проекта (SCSS/CSS), унифицировав внешний вид форм, таблиц и графиков.\nНастроил взаимодействие с REST API, интегрировал redux-thunk для асинхронных запросов.\nУчаствовал в code review, вёл баг-трекинг, поддерживал документацию.\nСтек:\nJavaScript (ES6+), React, Redux, Redux Thunk, React Router, Material UI, SCSS/CSS, amCharts, react-transition-group, REST API, Git / GitLab, Docker (сборка окружения).",
+      "original": "Окт 2024 -\nсейчас\n2 года 1 мес\nОрганизация 1\nСанкт-Петербургatim.tech\nИнформационные технологии, системная интеграция, интернет\nФронтенд-разработчик\nПроект: WeldWeb\nПриложение для контроля работы сварщиков (автоматизация учёта выработки, материалов и задач).\nМои задачи и достижения:\nРазработал десятки новых функций приложения, включая динамические фильтры для таблиц, переход между диапазонами графиков (amCharts + React) и кастомную анимацию вкладок (react-transition-group).\nРеализовал сложную бизнес-логику на React + Redux (управление режимами сварки, критериями отбора, формирование отчётов).\nПровёл рефакторинг архитектуры, что сократило количество лишних рендеров на тяжёлых страницах в 5 раз и ускорило отклик интерфейса.\nПереработал стили компонентов Material UI под дизайн-систему проекта (SCSS/CSS), унифицировав внешний вид форм, таблиц и графиков.\nНастроил взаимодействие с REST API, интегрировал redux-thunk для асинхронных запросов.\nУчаствовал в code review, вёл баг-трекинг, поддерживал документацию.\nСтек:\nJavaScript (ES6+), React, Redux, Redux Thunk, React Router, Material UI, SCSS/CSS, amCharts, react-transition-group, REST API, Git / GitLab, Docker (сборка окружения)."
+    },
+    {
+      "start_date": "2022-11",
+      "end_date": "2024-10",
+      "is_current": false,
+      "duration_months": 24,
+      "organization": "Организация 2",
+      "position": "Младший фронтенд-разработчик",
+      "employer_details": [
+        "Москваprimo-rpa.ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Проект: Orchestrator-RPA\nВеб-приложение для управления и мониторинга программных роботов (RPA): запуск по расписанию / триггерам, отслеживание выполнения, аналитика.\nМои задачи и достижения:\nРазработал и рефакторил ключевые модули приложения (таблицы, формы, графики), что сократило время отклика интерфейса и упростило добавление новых фич.\nПеревёл часть архитектуры на FSD (Feature-Sliced Design), что повысило поддерживаемость кода и ускорило ввод новых разработчиков в проект.\nНаписал unit и e2e тесты (Jest, RTL, Playwright), доведя покрытие критического функционала до >80% и снизив число регрессионных багов при релизах.\nРеализовал динамические формы с валидацией через React Hook Form, кастомные анимации и визуализацию данных (Ant Design, SCSS, Recharts).\nНастроил взаимодействие с REST API, интегрировал MobX для управления состоянием роботов и их статусов.\nУчаствовал в code review, поддерживал документацию, проводил отладку и профилирование производительности.\nСтек:\nJavaScript, TypeScript, React, MobX, React Hook Form, React Router, Ant Design, SCSS, Recharts, Jest, React Testing Library, Playwright, FSD, REST API, Git, Microsoft Azure, Docker.",
+      "original": "Ноя 2022 -\nОкт 2024\n2 года\nОрганизация 2\nМоскваprimo-rpa.ru/\nИнформационные технологии, системная интеграция, интернет\nМладший фронтенд-разработчик\nПроект: Orchestrator-RPA\nВеб-приложение для управления и мониторинга программных роботов (RPA): запуск по расписанию / триггерам, отслеживание выполнения, аналитика.\nМои задачи и достижения:\nРазработал и рефакторил ключевые модули приложения (таблицы, формы, графики), что сократило время отклика интерфейса и упростило добавление новых фич.\nПеревёл часть архитектуры на FSD (Feature-Sliced Design), что повысило поддерживаемость кода и ускорило ввод новых разработчиков в проект.\nНаписал unit и e2e тесты (Jest, RTL, Playwright), доведя покрытие критического функционала до >80% и снизив число регрессионных багов при релизах.\nРеализовал динамические формы с валидацией через React Hook Form, кастомные анимации и визуализацию данных (Ant Design, SCSS, Recharts).\nНастроил взаимодействие с REST API, интегрировал MobX для управления состоянием роботов и их статусов.\nУчаствовал в code review, поддерживал документацию, проводил отладку и профилирование производительности.\nСтек:\nJavaScript, TypeScript, React, MobX, React Hook Form, React Router, Ant Design, SCSS, Recharts, Jest, React Testing Library, Playwright, FSD, REST API, Git, Microsoft Azure, Docker."
+    },
+    {
+      "start_date": "2022-02",
+      "end_date": "2022-11",
+      "is_current": false,
+      "duration_months": 10,
+      "organization": "Организация 3",
+      "position": "Фронтенд-разработчик React",
+      "employer_details": [
+        "Санкт-Петербургwww.bosscontrol.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Проект: Босс-контроль (Личный кабинет)\nМиграция устаревшего веб-приложения на React. Сервис для контроля рабочего времени сотрудников и автоматизации кадровой отчётности (отпускные, больничные, переработки, ночные смены).\nМои задачи и достижения:\nПереписал ~50% кодовой базы с устаревших технологий на React + TypeScript, что повысило производительность интерфейса и упростило поддержку проекта.\nРазработал ключевой функционал: таблицы с фильтрацией / сортировкой, маршрутизацию форм и таблиц (react-router), динамические формы валидации (Formik).\nРеализовал бизнес-логику с учётом кастомизации под разных клиентов (переработки, ночные смены, расчёт отпускных и больничных).\nНастроил глобальное состояние через Redux + redux-thunk для управления пользовательскими данными и отчётами.\nПровёл рефакторинг легаси-кода, устранил критические баги (в том числе связанные с потерей данных при навигации между формами и таблицами).\nИнтегрировал проект с REST API для получения и сохранения кадровых данных.\nСтек:\nJavaScript, TypeScript, React, React Router, Redux, Redux Thunk, Formik, SCSS, Git, GitHub, Trello.",
+      "original": "Фев 2022 -\nНоя 2022\n10 мес\nОрганизация 3\nСанкт-Петербургwww.bosscontrol.ru\nИнформационные технологии, системная интеграция, интернет\nФронтенд-разработчик React\nПроект: Босс-контроль (Личный кабинет)\nМиграция устаревшего веб-приложения на React. Сервис для контроля рабочего времени сотрудников и автоматизации кадровой отчётности (отпускные, больничные, переработки, ночные смены).\nМои задачи и достижения:\nПереписал ~50% кодовой базы с устаревших технологий на React + TypeScript, что повысило производительность интерфейса и упростило поддержку проекта.\nРазработал ключевой функционал: таблицы с фильтрацией / сортировкой, маршрутизацию форм и таблиц (react-router), динамические формы валидации (Formik).\nРеализовал бизнес-логику с учётом кастомизации под разных клиентов (переработки, ночные смены, расчёт отпускных и больничных).\nНастроил глобальное состояние через Redux + redux-thunk для управления пользовательскими данными и отчётами.\nПровёл рефакторинг легаси-кода, устранил критические баги (в том числе связанные с потерей данных при навигации между формами и таблицами).\nИнтегрировал проект с REST API для получения и сохранения кадровых данных.\nСтек:\nJavaScript, TypeScript, React, React Router, Redux, Redux Thunk, Formik, SCSS, Git, GitHub, Trello."
+    },
+    {
+      "start_date": "2020-11",
+      "end_date": "2021-12",
+      "is_current": false,
+      "duration_months": 14,
+      "organization": "Организация 4",
+      "position": "Фуллстек-разработчик",
+      "employer_details": [
+        "Санкт-Петербург"
+      ],
+      "description": "Проект 1: RestoRunner\nMVP веб-приложения для бесконтактного заказа еды из отельного ресторана (гость → номер → оплата).\nМой вклад (fullstack):\nРазработал архитектуру приложения: клиент на React + Redux, сервер на Node.js + Express, БД PostgreSQL + Sequelize.\nРеализовал пользовательский интерфейс администратора (управление заказами, меню, статусами) на функциональных компонентах React.\nНастроил взаимодействие client-server (REST API), модели данных и бизнес-логику заказов.\nПостроил MVP-версию, переданную заказчику для пилотного запуска.\nСтек: JavaScript, React, React Router, Redux, Redux Thunk, Material UI, CSS, Node.js, Express, PostgreSQL, Sequelize, REST API, Git, GitHub.\nПроект 2: Delivery-Cebab\nВеб-приложение для оптимизации маршрутов и логистики курьеров (минимизация потерь при доставке).\nМой вклад (fullstack):\nРазработал клиентскую часть (регистрация, авторизация, интерфейс курьера).\nНастроил сервер на Node.js + Express и взаимодействие с PostgreSQL через Sequelize.\nРеализовал REST API для управления заказами и статусами доставки.\nПостроил MVP-версию.\nСтек: JavaScript, Node.js, Express, Sequelize, PostgreSQL, REST API, HBS (Handlebars), Git, GitHub.",
+      "original": "Ноя 2020 -\nДек 2021\n1 год 2 мес\nОрганизация 4\nСанкт-Петербург\nФуллстек-разработчик\nПроект 1: RestoRunner\nMVP веб-приложения для бесконтактного заказа еды из отельного ресторана (гость → номер → оплата).\nМой вклад (fullstack):\nРазработал архитектуру приложения: клиент на React + Redux, сервер на Node.js + Express, БД PostgreSQL + Sequelize.\nРеализовал пользовательский интерфейс администратора (управление заказами, меню, статусами) на функциональных компонентах React.\nНастроил взаимодействие client-server (REST API), модели данных и бизнес-логику заказов.\nПостроил MVP-версию, переданную заказчику для пилотного запуска.\nСтек: JavaScript, React, React Router, Redux, Redux Thunk, Material UI, CSS, Node.js, Express, PostgreSQL, Sequelize, REST API, Git, GitHub.\nПроект 2: Delivery-Cebab\nВеб-приложение для оптимизации маршрутов и логистики курьеров (минимизация потерь при доставке).\nМой вклад (fullstack):\nРазработал клиентскую часть (регистрация, авторизация, интерфейс курьера).\nНастроил сервер на Node.js + Express и взаимодействие с PostgreSQL через Sequelize.\nРеализовал REST API для управления заказами и статусами доставки.\nПостроил MVP-версию.\nСтек: JavaScript, Node.js, Express, Sequelize, PostgreSQL, REST API, HBS (Handlebars), Git, GitHub."
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "level": "advanced",
+      "original": "React"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS3"
+    },
+    {
+      "name": "Redux",
+      "level": "advanced",
+      "original": "Redux"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML5"
+    },
+    {
+      "name": "MobX",
+      "level": "advanced",
+      "original": "MobX"
+    },
+    {
+      "name": "AntDesign",
+      "level": "advanced",
+      "original": "AntDesign"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "ES6",
+      "level": "advanced",
+      "original": "ES6"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "Figma",
+      "level": "intermediate",
+      "original": "Figma"
+    },
+    {
+      "name": "Jest",
+      "level": "intermediate",
+      "original": "Jest"
+    },
+    {
+      "name": "Material UI",
+      "level": "intermediate",
+      "original": "Material UI"
+    },
+    {
+      "name": "Playwright",
+      "level": "intermediate",
+      "original": "Playwright"
+    },
+    {
+      "name": "React Testing Library",
+      "level": "intermediate",
+      "original": "React Testing Library"
+    },
+    {
+      "name": "react-transition-group",
+      "level": "intermediate",
+      "original": "react-transition-group"
+    },
+    {
+      "name": "Express",
+      "level": "basic",
+      "original": "Express"
+    },
+    {
+      "name": "Sequelize",
+      "level": "basic",
+      "original": "Sequelize"
+    },
+    {
+      "name": "Bootstrap",
+      "level": "basic",
+      "original": "Bootstrap"
+    },
+    {
+      "name": "Node.js",
+      "level": "basic",
+      "original": "Node.js"
+    },
+    {
+      "name": "HBS",
+      "level": "basic",
+      "original": "HBS"
+    },
+    {
+      "name": "Canvas",
+      "level": "basic",
+      "original": "Canvas"
+    },
+    {
+      "name": "Storybook",
+      "level": "basic",
+      "original": "Storybook"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Занимаюсь фронтенд-разработкой с 2019 года. Учился на курсах “Яндекс-Практикум”, затем в 2020 году закончил буткемп \"Эльбрус\".\nОпыт работы - более 5 лет, технологический стек PERN (PostgreSQL, Express, React, Node.js). Планирую и далее заниматься фронтенд-разработкой с использованием технологий TypeScript, React, Redux, MobX, Next.JS.\nМой техстек:\nfront - JavaScript, TypeScript, ReactJS, react-transition-group, react-router, amcharts, Recharts, Redux, Redux-Thunk, MobX, React Hook Form, Formik, CSS, SCSS, Material UI, AntDesign, Storybook, Figma, Jest, React Testing Library, Playwright, REST API, Git, GitLab, GitHub, Canban, Microsoft Azure, Docker.\ndatabase - PostgreSQL, Sequelize;\nback - Node.js, Express.\nГотов работать фронтенд-разработчиком в продуктовой компании с большой командой.\nКонтакты: t.me/Stanze_von_Saidenberg, orw1984@rambler.ru",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Братский государственный университет",
+      "details": [
+        "Энергетики и автоматики, инженер по автоматизации"
+      ],
+      "year": 2006,
+      "level": "Высшее образование",
+      "original": "Братский государственный университет\nЭнергетики и автоматики, инженер по автоматизации\n•\n2006\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №69\nРезюме: Frontend-разработчик",
+    "cover_letter": "Добрый день, я - Константин Мамонов, фронтенд-разработчик со стажем работы более четырёх лет. Мой технологический стек: React, TypeScript, Redux, MobX, Ant Design, Material UI, SCCS, Jest, React Testing Library, Playwright.",
+    "experience": "Опыт работы: 5 лет 11 месяцев\nОпыт в похожих должностях:10 месяцев\nОкт 2024 -\nсейчас\n2 года 1 мес\nОрганизация 1\nСанкт-Петербургatim.tech\nИнформационные технологии, системная интеграция, интернет\nФронтенд-разработчик\nПроект: WeldWeb\nПриложение для контроля работы сварщиков (автоматизация учёта выработки, материалов и задач).\nМои задачи и достижения:\nРазработал десятки новых функций приложения, включая динамические фильтры для таблиц, переход между диапазонами графиков (amCharts + React) и кастомную анимацию вкладок (react-transition-group).\nРеализовал сложную бизнес-логику на React + Redux (управление режимами сварки, критериями отбора, формирование отчётов).\nПровёл рефакторинг архитектуры, что сократило количество лишних рендеров на тяжёлых страницах в 5 раз и ускорило отклик интерфейса.\nПереработал стили компонентов Material UI под дизайн-систему проекта (SCSS/CSS), унифицировав внешний вид форм, таблиц и графиков.\nНастроил взаимодействие с REST API, интегрировал redux-thunk для асинхронных запросов.\nУчаствовал в code review, вёл баг-трекинг, поддерживал документацию.\nСтек:\nJavaScript (ES6+), React, Redux, Redux Thunk, React Router, Material UI, SCSS/CSS, amCharts, react-transition-group, REST API, Git / GitLab, Docker (сборка окружения).\nНоя 2022 -\nОкт 2024\n2 года\nОрганизация 2\nМоскваprimo-rpa.ru/\nИнформационные технологии, системная интеграция, интернет\nМладший фронтенд-разработчик\nПроект: Orchestrator-RPA\nВеб-приложение для управления и мониторинга программных роботов (RPA): запуск по расписанию / триггерам, отслеживание выполнения, аналитика.\nМои задачи и достижения:\nРазработал и рефакторил ключевые модули приложения (таблицы, формы, графики), что сократило время отклика интерфейса и упростило добавление новых фич.\nПеревёл часть архитектуры на FSD (Feature-Sliced Design), что повысило поддерживаемость кода и ускорило ввод новых разработчиков в проект.\nНаписал unit и e2e тесты (Jest, RTL, Playwright), доведя покрытие критического функционала до >80% и снизив число регрессионных багов при релизах.\nРеализовал динамические формы с валидацией через React Hook Form, кастомные анимации и визуализацию данных (Ant Design, SCSS, Recharts).\nНастроил взаимодействие с REST API, интегрировал MobX для управления состоянием роботов и их статусов.\nУчаствовал в code review, поддерживал документацию, проводил отладку и профилирование производительности.\nСтек:\nJavaScript, TypeScript, React, MobX, React Hook Form, React Router, Ant Design, SCSS, Recharts, Jest, React Testing Library, Playwright, FSD, REST API, Git, Microsoft Azure, Docker.\nФев 2022 -\nНоя 2022\n10 мес\nОрганизация 3\nСанкт-Петербургwww.bosscontrol.ru\nИнформационные технологии, системная интеграция, интернет\nФронтенд-разработчик React\nПроект: Босс-контроль (Личный кабинет)\nМиграция устаревшего веб-приложения на React. Сервис для контроля рабочего времени сотрудников и автоматизации кадровой отчётности (отпускные, больничные, переработки, ночные смены).\nМои задачи и достижения:\nПереписал ~50% кодовой базы с устаревших технологий на React + TypeScript, что повысило производительность интерфейса и упростило поддержку проекта.\nРазработал ключевой функционал: таблицы с фильтрацией / сортировкой, маршрутизацию форм и таблиц (react-router), динамические формы валидации (Formik).\nРеализовал бизнес-логику с учётом кастомизации под разных клиентов (переработки, ночные смены, расчёт отпускных и больничных).\nНастроил глобальное состояние через Redux + redux-thunk для управления пользовательскими данными и отчётами.\nПровёл рефакторинг легаси-кода, устранил критические баги (в том числе связанные с потерей данных при навигации между формами и таблицами).\nИнтегрировал проект с REST API для получения и сохранения кадровых данных.\nСтек:\nJavaScript, TypeScript, React, React Router, Redux, Redux Thunk, Formik, SCSS, Git, GitHub, Trello.\nНоя 2020 -\nДек 2021\n1 год 2 мес\nОрганизация 4\nСанкт-Петербург\nФуллстек-разработчик\nПроект 1: RestoRunner\nMVP веб-приложения для бесконтактного заказа еды из отельного ресторана (гость → номер → оплата).\nМой вклад (fullstack):\nРазработал архитектуру приложения: клиент на React + Redux, сервер на Node.js + Express, БД PostgreSQL + Sequelize.\nРеализовал пользовательский интерфейс администратора (управление заказами, меню, статусами) на функциональных компонентах React.\nНастроил взаимодействие client-server (REST API), модели данных и бизнес-логику заказов.\nПостроил MVP-версию, переданную заказчику для пилотного запуска.\nСтек: JavaScript, React, React Router, Redux, Redux Thunk, Material UI, CSS, Node.js, Express, PostgreSQL, Sequelize, REST API, Git, GitHub.\nПроект 2: Delivery-Cebab\nВеб-приложение для оптимизации маршрутов и логистики курьеров (минимизация потерь при доставке).\nМой вклад (fullstack):\nРазработал клиентскую часть (регистрация, авторизация, интерфейс курьера).\nНастроил сервер на Node.js + Express и взаимодействие с PostgreSQL через Sequelize.\nРеализовал REST API для управления заказами и статусами доставки.\nПостроил MVP-версию.\nСтек: JavaScript, Node.js, Express, Sequelize, PostgreSQL, REST API, HBS (Handlebars), Git, GitHub.",
+    "skills": "Продвинутый уровень\nReact\nJavaScript\nCSS3\nRedux\nHTML5\nMobX\nAntDesign\nTypeScript\nES6\nСредний уровень\nGit\nFigma\nJest\nMaterial UI\nPlaywright\nReact Testing Library\nreact-transition-group\nБазовый уровень\nExpress\nSequelize\nBootstrap\nNode.js\nHBS\nCanvas\nStorybook\nPostgreSQL",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Занимаюсь фронтенд-разработкой с 2019 года. Учился на курсах “Яндекс-Практикум”, затем в 2020 году закончил буткемп \"Эльбрус\".\nОпыт работы - более 5 лет, технологический стек PERN (PostgreSQL, Express, React, Node.js). Планирую и далее заниматься фронтенд-разработкой с использованием технологий TypeScript, React, Redux, MobX, Next.JS.\nМой техстек:\nfront - JavaScript, TypeScript, ReactJS, react-transition-group, react-router, amcharts, Recharts, Redux, Redux-Thunk, MobX, React Hook Form, Formik, CSS, SCSS, Material UI, AntDesign, Storybook, Figma, Jest, React Testing Library, Playwright, REST API, Git, GitLab, GitHub, Canban, Microsoft Azure, Docker.\ndatabase - PostgreSQL, Sequelize;\nback - Node.js, Express.\nГотов работать фронтенд-разработчиком в продуктовой компании с большой командой.\nКонтакты: t.me/Stanze_von_Saidenberg, orw1984@rambler.ru",
+    "education": "Уровень\nВысшее образование\nБратский государственный университет\nЭнергетики и автоматики, инженер по автоматизации\n•\n2006\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №69\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nДобрый день, я - Константин Мамонов, фронтенд-разработчик со стажем работы более четырёх лет. Мой технологический стек: React, TypeScript, Redux, MobX, Ant Design, Material UI, SCCS, Jest, React Testing Library, Playwright.\n\nОпыт работы\nОпыт работы: 5 лет 11 месяцев\nОпыт в похожих должностях:10 месяцев\nОкт 2024 -\nсейчас\n2 года 1 мес\nОрганизация 1\nСанкт-Петербургatim.tech\nИнформационные технологии, системная интеграция, интернет\nФронтенд-разработчик\nПроект: WeldWeb\nПриложение для контроля работы сварщиков (автоматизация учёта выработки, материалов и задач).\nМои задачи и достижения:\nРазработал десятки новых функций приложения, включая динамические фильтры для таблиц, переход между диапазонами графиков (amCharts + React) и кастомную анимацию вкладок (react-transition-group).\nРеализовал сложную бизнес-логику на React + Redux (управление режимами сварки, критериями отбора, формирование отчётов).\nПровёл рефакторинг архитектуры, что сократило количество лишних рендеров на тяжёлых страницах в 5 раз и ускорило отклик интерфейса.\nПереработал стили компонентов Material UI под дизайн-систему проекта (SCSS/CSS), унифицировав внешний вид форм, таблиц и графиков.\nНастроил взаимодействие с REST API, интегрировал redux-thunk для асинхронных запросов.\nУчаствовал в code review, вёл баг-трекинг, поддерживал документацию.\nСтек:\nJavaScript (ES6+), React, Redux, Redux Thunk, React Router, Material UI, SCSS/CSS, amCharts, react-transition-group, REST API, Git / GitLab, Docker (сборка окружения).\nНоя 2022 -\nОкт 2024\n2 года\nОрганизация 2\nМоскваprimo-rpa.ru/\nИнформационные технологии, системная интеграция, интернет\nМладший фронтенд-разработчик\nПроект: Orchestrator-RPA\nВеб-приложение для управления и мониторинга программных роботов (RPA): запуск по расписанию / триггерам, отслеживание выполнения, аналитика.\nМои задачи и достижения:\nРазработал и рефакторил ключевые модули приложения (таблицы, формы, графики), что сократило время отклика интерфейса и упростило добавление новых фич.\nПеревёл часть архитектуры на FSD (Feature-Sliced Design), что повысило поддерживаемость кода и ускорило ввод новых разработчиков в проект.\nНаписал unit и e2e тесты (Jest, RTL, Playwright), доведя покрытие критического функционала до >80% и снизив число регрессионных багов при релизах.\nРеализовал динамические формы с валидацией через React Hook Form, кастомные анимации и визуализацию данных (Ant Design, SCSS, Recharts).\nНастроил взаимодействие с REST API, интегрировал MobX для управления состоянием роботов и их статусов.\nУчаствовал в code review, поддерживал документацию, проводил отладку и профилирование производительности.\nСтек:\nJavaScript, TypeScript, React, MobX, React Hook Form, React Router, Ant Design, SCSS, Recharts, Jest, React Testing Library, Playwright, FSD, REST API, Git, Microsoft Azure, Docker.\nФев 2022 -\nНоя 2022\n10 мес\nОрганизация 3\nСанкт-Петербургwww.bosscontrol.ru\nИнформационные технологии, системная интеграция, интернет\nФронтенд-разработчик React\nПроект: Босс-контроль (Личный кабинет)\nМиграция устаревшего веб-приложения на React. Сервис для контроля рабочего времени сотрудников и автоматизации кадровой отчётности (отпускные, больничные, переработки, ночные смены).\nМои задачи и достижения:\nПереписал ~50% кодовой базы с устаревших технологий на React + TypeScript, что повысило производительность интерфейса и упростило поддержку проекта.\nРазработал ключевой функционал: таблицы с фильтрацией / сортировкой, маршрутизацию форм и таблиц (react-router), динамические формы валидации (Formik).\nРеализовал бизнес-логику с учётом кастомизации под разных клиентов (переработки, ночные смены, расчёт отпускных и больничных).\nНастроил глобальное состояние через Redux + redux-thunk для управления пользовательскими данными и отчётами.\nПровёл рефакторинг легаси-кода, устранил критические баги (в том числе связанные с потерей данных при навигации между формами и таблицами).\nИнтегрировал проект с REST API для получения и сохранения кадровых данных.\nСтек:\nJavaScript, TypeScript, React, React Router, Redux, Redux Thunk, Formik, SCSS, Git, GitHub, Trello.\nНоя 2020 -\nДек 2021\n1 год 2 мес\nОрганизация 4\nСанкт-Петербург\nФуллстек-разработчик\nПроект 1: RestoRunner\nMVP веб-приложения для бесконтактного заказа еды из отельного ресторана (гость → номер → оплата).\nМой вклад (fullstack):\nРазработал архитектуру приложения: клиент на React + Redux, сервер на Node.js + Express, БД PostgreSQL + Sequelize.\nРеализовал пользовательский интерфейс администратора (управление заказами, меню, статусами) на функциональных компонентах React.\nНастроил взаимодействие client-server (REST API), модели данных и бизнес-логику заказов.\nПостроил MVP-версию, переданную заказчику для пилотного запуска.\nСтек: JavaScript, React, React Router, Redux, Redux Thunk, Material UI, CSS, Node.js, Express, PostgreSQL, Sequelize, REST API, Git, GitHub.\nПроект 2: Delivery-Cebab\nВеб-приложение для оптимизации маршрутов и логистики курьеров (минимизация потерь при доставке).\nМой вклад (fullstack):\nРазработал клиентскую часть (регистрация, авторизация, интерфейс курьера).\nНастроил сервер на Node.js + Express и взаимодействие с PostgreSQL через Sequelize.\nРеализовал REST API для управления заказами и статусами доставки.\nПостроил MVP-версию.\nСтек: JavaScript, Node.js, Express, Sequelize, PostgreSQL, REST API, HBS (Handlebars), Git, GitHub.\n\nНавыки\nПродвинутый уровень\nReact\nJavaScript\nCSS3\nRedux\nHTML5\nMobX\nAntDesign\nTypeScript\nES6\nСредний уровень\nGit\nFigma\nJest\nMaterial UI\nPlaywright\nReact Testing Library\nreact-transition-group\nБазовый уровень\nExpress\nSequelize\nBootstrap\nNode.js\nHBS\nCanvas\nStorybook\nPostgreSQL\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nЗанимаюсь фронтенд-разработкой с 2019 года. Учился на курсах “Яндекс-Практикум”, затем в 2020 году закончил буткемп \"Эльбрус\".\nОпыт работы - более 5 лет, технологический стек PERN (PostgreSQL, Express, React, Node.js). Планирую и далее заниматься фронтенд-разработкой с использованием технологий TypeScript, React, Redux, MobX, Next.JS.\nМой техстек:\nfront - JavaScript, TypeScript, ReactJS, react-transition-group, react-router, amcharts, Recharts, Redux, Redux-Thunk, MobX, React Hook Form, Formik, CSS, SCSS, Material UI, AntDesign, Storybook, Figma, Jest, React Testing Library, Playwright, REST API, Git, GitLab, GitHub, Canban, Microsoft Azure, Docker.\ndatabase - PostgreSQL, Sequelize;\nback - Node.js, Express.\nГотов работать фронтенд-разработчиком в продуктовой компании с большой командой.\nКонтакты: t.me/Stanze_von_Saidenberg, orw1984@rambler.ru\n\nОбразование\nУровень\nВысшее образование\nБратский государственный университет\nЭнергетики и автоматики, инженер по автоматизации\n•\n2006\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

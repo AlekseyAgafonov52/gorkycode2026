@@ -1,0 +1,239 @@
+{
+  "candidate_id": 156,
+  "resume_title": "Программист",
+  "cover_letter": null,
+  "experience_total_months": 45,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2023-12",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 35,
+      "organization": "Организация 1",
+      "position": "Инженер-программист",
+      "employer_details": [],
+      "description": "Разработка веб-приложения для сбора данных и анализа над ними.\nbackend, frontend, тестирование\nподдержка приложения.\nСтек: python, javascript, Django, ajax, bootstrap postgresql, apache, astra linux, apscheduler\nРабота с API Проекта, тестирование, отладка.\nСтек: Python, postman, wireshark.",
+      "original": "Дек 2023 -\nсейчас\n2 года 11 мес\nОрганизация 1\nИнженер-программист\nРазработка веб-приложения для сбора данных и анализа над ними.\nbackend, frontend, тестирование\nподдержка приложения.\nСтек: python, javascript, Django, ajax, bootstrap postgresql, apache, astra linux, apscheduler\nРабота с API Проекта, тестирование, отладка.\nСтек: Python, postman, wireshark."
+    },
+    {
+      "start_date": "2023-07",
+      "end_date": "2023-12",
+      "is_current": false,
+      "duration_months": 6,
+      "organization": "Организация 2",
+      "position": "разработчик",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "разработка телеграмм ботов, ботов для веб игр, парсеры\naiogram, asyncio, pyautogui, pynput, scrapy, selenium",
+      "original": "Июл 2023 -\nДек 2023\n6 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nразработчик\nразработка телеграмм ботов, ботов для веб игр, парсеры\naiogram, asyncio, pyautogui, pynput, scrapy, selenium"
+    },
+    {
+      "start_date": "2023-02",
+      "end_date": "2023-06",
+      "is_current": false,
+      "duration_months": 5,
+      "organization": "Организация 3",
+      "position": "Инженер-программист",
+      "employer_details": [
+        "Саров"
+      ],
+      "description": "Разработка системы управления оптимизационными расчётами в моделирующем комплексе",
+      "original": "Фев 2023 -\nИюн 2023\n5 мес\nОрганизация 3\nСаров\nИнженер-программист\nРазработка системы управления оптимизационными расчётами в моделирующем комплексе"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "JavaScript",
+      "level": "basic",
+      "original": "JavaScript"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "JSON",
+      "level": null,
+      "original": "JSON"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "SQLite",
+      "level": null,
+      "original": "SQLite"
+    },
+    {
+      "name": "Asyncio",
+      "level": null,
+      "original": "Asyncio"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "ООП",
+      "level": null,
+      "original": "ООП"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Postman",
+      "level": null,
+      "original": "Postman"
+    },
+    {
+      "name": "Wireshark",
+      "level": null,
+      "original": "Wireshark"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "Grafana",
+      "level": null,
+      "original": "Grafana"
+    },
+    {
+      "name": "Prometheus",
+      "level": null,
+      "original": "Prometheus"
+    },
+    {
+      "name": "Apache JMeter",
+      "level": null,
+      "original": "Apache JMeter"
+    },
+    {
+      "name": "Ajax",
+      "level": null,
+      "original": "Ajax"
+    },
+    {
+      "name": "Zabbix",
+      "level": null,
+      "original": "Zabbix"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django Framework"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "scrapy",
+      "level": null,
+      "original": "scrapy"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Саровский физико-технический институт (филиал) Национального исследовательского ядерного университета \"МИФИ\", Саров",
+      "details": [
+        "Информационных технологий и электроники, Информационные системы и технологии"
+      ],
+      "year": 2023,
+      "level": "Высшее образование",
+      "original": "Саровский физико-технический институт (филиал) Национального исследовательского ядерного университета \"МИФИ\", Саров\nИнформационных технологий и электроники, Информационные системы и технологии\n•\n2023\n•\nВысшее образование"
+    },
+    {
+      "institution": "Саровский физико-технический институт (филиал) Национального исследовательского ядерного университета \"МИФИ\", Саров",
+      "details": [
+        "Экономико-математический факультет, Экономист"
+      ],
+      "year": 2017,
+      "level": "Высшее образование",
+      "original": "Саровский физико-технический институт (филиал) Национального исследовательского ядерного университета \"МИФИ\", Саров\nЭкономико-математический факультет, Экономист\n•\n2017\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №156\nРезюме: Программист",
+    "cover_letter": "Кандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы",
+    "experience": "Опыт работы: 3 года 9 месяцев\nДек 2023 -\nсейчас\n2 года 11 мес\nОрганизация 1\nИнженер-программист\nРазработка веб-приложения для сбора данных и анализа над ними.\nbackend, frontend, тестирование\nподдержка приложения.\nСтек: python, javascript, Django, ajax, bootstrap postgresql, apache, astra linux, apscheduler\nРабота с API Проекта, тестирование, отладка.\nСтек: Python, postman, wireshark.\nИюл 2023 -\nДек 2023\n6 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nразработчик\nразработка телеграмм ботов, ботов для веб игр, парсеры\naiogram, asyncio, pyautogui, pynput, scrapy, selenium\nФев 2023 -\nИюн 2023\n5 мес\nОрганизация 3\nСаров\nИнженер-программист\nРазработка системы управления оптимизационными расчётами в моделирующем комплексе",
+    "skills": "Средний уровень\nPython\nБазовый уровень\nSQL\nJavaScript\nУровень не указан\nHTML\nLinux\nGit\nCSS\nJSON\nPostgreSQL\nGitlab\nSQLite\nAsyncio\nAPI\nPytest\nООП\nTypeScript\nFastAPI\nPostman\nWireshark\nNginx\nGrafana\nPrometheus\nApache JMeter\nAjax\nZabbix\nDjango Framework\nDjango Rest Framework\nscrapy",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nСаровский физико-технический институт (филиал) Национального исследовательского ядерного университета \"МИФИ\", Саров\nИнформационных технологий и электроники, Информационные системы и технологии\n•\n2023\n•\nВысшее образование\nСаровский физико-технический институт (филиал) Национального исследовательского ядерного университета \"МИФИ\", Саров\nЭкономико-математический факультет, Экономист\n•\n2017\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №156\nРезюме: Программист\n\nСопроводительное письмо\nКандидат не прислал сопроводительное, потому что его пригласил ИИ-помощник. Посмотрите отчёт по кандидату в результатах его работы\n\nОпыт работы\nОпыт работы: 3 года 9 месяцев\nДек 2023 -\nсейчас\n2 года 11 мес\nОрганизация 1\nИнженер-программист\nРазработка веб-приложения для сбора данных и анализа над ними.\nbackend, frontend, тестирование\nподдержка приложения.\nСтек: python, javascript, Django, ajax, bootstrap postgresql, apache, astra linux, apscheduler\nРабота с API Проекта, тестирование, отладка.\nСтек: Python, postman, wireshark.\nИюл 2023 -\nДек 2023\n6 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nразработчик\nразработка телеграмм ботов, ботов для веб игр, парсеры\naiogram, asyncio, pyautogui, pynput, scrapy, selenium\nФев 2023 -\nИюн 2023\n5 мес\nОрганизация 3\nСаров\nИнженер-программист\nРазработка системы управления оптимизационными расчётами в моделирующем комплексе\n\nНавыки\nСредний уровень\nPython\nБазовый уровень\nSQL\nJavaScript\nУровень не указан\nHTML\nLinux\nGit\nCSS\nJSON\nPostgreSQL\nGitlab\nSQLite\nAsyncio\nAPI\nPytest\nООП\nTypeScript\nFastAPI\nPostman\nWireshark\nNginx\nGrafana\nPrometheus\nApache JMeter\nAjax\nZabbix\nDjango Framework\nDjango Rest Framework\nscrapy\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nСаровский физико-технический институт (филиал) Национального исследовательского ядерного университета \"МИФИ\", Саров\nИнформационных технологий и электроники, Информационные системы и технологии\n•\n2023\n•\nВысшее образование\nСаровский физико-технический институт (филиал) Национального исследовательского ядерного университета \"МИФИ\", Саров\nЭкономико-математический факультет, Экономист\n•\n2017\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

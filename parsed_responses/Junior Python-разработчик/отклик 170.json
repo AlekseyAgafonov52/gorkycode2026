@@ -1,0 +1,135 @@
+{
+  "candidate_id": 170,
+  "resume_title": "Python/Golang Backend разработчик (Junior+/Middle)",
+  "cover_letter": "Добрый день!\nпишу веб-приложения, но очень нравилось изучать Pandas и Numpy. Работать с ними не пришлось, уровень знаний этих библиотек не высокий, но я постоянно решаю алгоритмы, так же прохожу курс по структурам данных, поэтому влиться в эту стезю будет не сложно.\nПоследний раз работал с API Poizon, тестировал все методы, применял их в проекте (не коммитил, потому что задача была лишь протестировать всё)\nОчень хочу попробовать поработать с данными!",
+  "experience_total_months": 29,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2024-06",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 29,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [],
+      "description": "MedHub — платформа для публикации и обсуждения статей\nGitHub: https://github.com/GeraPegov/medhub\nLive: https://medhub.fun/\nВеб-платформа с профилями авторов, публикациями, подписками, комментариями и реакциями. Проект развёрнут и доступен публично; продолжаю его разработку и поддержку.\nСтек: Python, FastAPI, Go, PostgreSQL, SQLAlchemy Async, pgx, Redis, Alembic, pytest, Go testing, Docker Compose.\n- Спроектировал и разработал платформу с пользовательским backend на FastAPI и отдельным backend-сервисом на Go, интегрированными через HTTP.\n- Разделил приложения на presentation, application, domain и infrastructure слои; организовал общую PostgreSQL-модель и миграции через Alembic.\n- Реализовал асинхронную работу с PostgreSQL через SQLAlchemy/asyncpg и работу Go-сервиса с БД через pgx/pgxpool.\n- Добавил Redis-кеширование пользователей и статей и атомарные Redis-лимитеры публикаций с SQL fallback при недоступности Go-сервиса.\n- Реализовал JWT-аутентификацию, HttpOnly cookies, CSRF-защиту, Argon2/bcrypt и middleware для защиты административного API.\n- Реализовал транзакционную обработку реакций, поиск и фильтрацию контента, подписки и административную статистику за диапазон дат.\n- Использовал goroutine для конкурентного выполнения независимых запросов статистики в Go-сервисе.\n- Покрыл backend unit- и integration-тестами на pytest и Go testing.\n- Подготовил Docker Compose-окружение и развернул приложение в публичном доступе.\nTourism Data Analytics — обработка и анализ туристических данных\n(https://github.com/GeraPegov/parse_file)\nСтек: Python, FastAPI, pandas, PostgreSQL, SQLAlchemy Async, pytest.\n- Реализовал загрузку CSV через HTTP API и обработку данных порциями в pandas: удаление дублей внутри порции, обработку пропусков, преобразование типов и пакетную запись в PostgreSQL.\n- Подготовил восемь аналитических запросов с агрегатами, группировками и подзапросами: динамика турпотока, география, демография и характеристики туристических сегментов. Добавил формирование и скачивание JSON-отчёта.\n- Написал модульные тесты преобразования данных и интеграционные тесты аналитических запросов к PostgreSQL.\nTelegram-бот для сохранения и рассылки сообщений\n(https://github.com/GeraPegov/tgbot_newsletter)\nСтек: Python, aiogram, FastAPI, PostgreSQL, SQLAlchemy Async, Redis, aiohttp, pytest.\n- Реализовал приём текста, фотографий и видео через Telegram-бота и рассылку сохранённых сообщений пользователям по команде.\n- Связал бота с FastAPI через HTTP: сохранение сообщений в PostgreSQL, чтение с приоритетом Redis и TTL кеша один час.\n- Добавил обработку медиагрупп и интеграционные тесты операций с PostgreSQL и Redis.",
+      "original": "Июн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nPython-разработчик\nMedHub — платформа для публикации и обсуждения статей\nGitHub: https://github.com/GeraPegov/medhub\nLive: https://medhub.fun/\nВеб-платформа с профилями авторов, публикациями, подписками, комментариями и реакциями. Проект развёрнут и доступен публично; продолжаю его разработку и поддержку.\nСтек: Python, FastAPI, Go, PostgreSQL, SQLAlchemy Async, pgx, Redis, Alembic, pytest, Go testing, Docker Compose.\n- Спроектировал и разработал платформу с пользовательским backend на FastAPI и отдельным backend-сервисом на Go, интегрированными через HTTP.\n- Разделил приложения на presentation, application, domain и infrastructure слои; организовал общую PostgreSQL-модель и миграции через Alembic.\n- Реализовал асинхронную работу с PostgreSQL через SQLAlchemy/asyncpg и работу Go-сервиса с БД через pgx/pgxpool.\n- Добавил Redis-кеширование пользователей и статей и атомарные Redis-лимитеры публикаций с SQL fallback при недоступности Go-сервиса.\n- Реализовал JWT-аутентификацию, HttpOnly cookies, CSRF-защиту, Argon2/bcrypt и middleware для защиты административного API.\n- Реализовал транзакционную обработку реакций, поиск и фильтрацию контента, подписки и административную статистику за диапазон дат.\n- Использовал goroutine для конкурентного выполнения независимых запросов статистики в Go-сервисе.\n- Покрыл backend unit- и integration-тестами на pytest и Go testing.\n- Подготовил Docker Compose-окружение и развернул приложение в публичном доступе.\nTourism Data Analytics — обработка и анализ туристических данных\n(https://github.com/GeraPegov/parse_file)\nСтек: Python, FastAPI, pandas, PostgreSQL, SQLAlchemy Async, pytest.\n- Реализовал загрузку CSV через HTTP API и обработку данных порциями в pandas: удаление дублей внутри порции, обработку пропусков, преобразование типов и пакетную запись в PostgreSQL.\n- Подготовил восемь аналитических запросов с агрегатами, группировками и подзапросами: динамика турпотока, география, демография и характеристики туристических сегментов. Добавил формирование и скачивание JSON-отчёта.\n- Написал модульные тесты преобразования данных и интеграционные тесты аналитических запросов к PostgreSQL.\nTelegram-бот для сохранения и рассылки сообщений\n(https://github.com/GeraPegov/tgbot_newsletter)\nСтек: Python, aiogram, FastAPI, PostgreSQL, SQLAlchemy Async, Redis, aiohttp, pytest.\n- Реализовал приём текста, фотографий и видео через Telegram-бота и рассылку сохранённых сообщений пользователям по команде.\n- Связал бота с FastAPI через HTTP: сохранение сообщений в PostgreSQL, чтение с приоритетом Redis и TTL кеша один час.\n- Добавил обработку медиагрупп и интеграционные тесты операций с PostgreSQL и Redis."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "HTML",
+      "level": "basic",
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "Docker",
+      "level": "basic",
+      "original": "Docker"
+    },
+    {
+      "name": "pytest",
+      "level": "basic",
+      "original": "Pytest"
+    },
+    {
+      "name": "Docker Compose",
+      "level": "basic",
+      "original": "Docker-compose"
+    },
+    {
+      "name": "Alembic",
+      "level": "basic",
+      "original": "Alembic"
+    },
+    {
+      "name": "REST API",
+      "level": "basic",
+      "original": "REST API"
+    },
+    {
+      "name": "Redis",
+      "level": "basic",
+      "original": "Redis"
+    },
+    {
+      "name": "Go",
+      "level": null,
+      "original": "Go"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Python backend-разработчик. Работаю с FastAPI, PostgreSQL, SQLAlchemy Async, Redis, Alembic, pytest и Docker. Разработал и развернул MedHub — веб-платформу с авторизацией, публикациями, комментариями, подписками, реакциями, кешированием и тестами. Часть backend-функциональности реализовал отдельным сервисом на Go, интегрированным с FastAPI через HTTP. Ищу позицию Junior Python Backend Developer или стажировку.",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Витебская ордена \"Знак Почета\" государственная академия ветеринарной медицины, Витебск",
+      "details": [
+        "Ветеринарная медицина, Ветеринарный врач"
+      ],
+      "year": 2023,
+      "level": "Высшее образование",
+      "original": "Витебская ордена \"Знак Почета\" государственная академия ветеринарной медицины, Витебск\nВетеринарная медицина, Ветеринарный врач\n•\n2023\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Права категории B",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №170\nРезюме: Python/Golang Backend разработчик (Junior+/Middle)",
+    "cover_letter": "Добрый день!\nпишу веб-приложения, но очень нравилось изучать Pandas и Numpy. Работать с ними не пришлось, уровень знаний этих библиотек не высокий, но я постоянно решаю алгоритмы, так же прохожу курс по структурам данных, поэтому влиться в эту стезю будет не сложно.\nПоследний раз работал с API Poizon, тестировал все методы, применял их в проекте (не коммитил, потому что задача была лишь протестировать всё)\nОчень хочу попробовать поработать с данными!",
+    "experience": "Опыт работы: 2 года 5 месяцев\nИюн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nPython-разработчик\nMedHub — платформа для публикации и обсуждения статей\nGitHub: https://github.com/GeraPegov/medhub\nLive: https://medhub.fun/\nВеб-платформа с профилями авторов, публикациями, подписками, комментариями и реакциями. Проект развёрнут и доступен публично; продолжаю его разработку и поддержку.\nСтек: Python, FastAPI, Go, PostgreSQL, SQLAlchemy Async, pgx, Redis, Alembic, pytest, Go testing, Docker Compose.\n- Спроектировал и разработал платформу с пользовательским backend на FastAPI и отдельным backend-сервисом на Go, интегрированными через HTTP.\n- Разделил приложения на presentation, application, domain и infrastructure слои; организовал общую PostgreSQL-модель и миграции через Alembic.\n- Реализовал асинхронную работу с PostgreSQL через SQLAlchemy/asyncpg и работу Go-сервиса с БД через pgx/pgxpool.\n- Добавил Redis-кеширование пользователей и статей и атомарные Redis-лимитеры публикаций с SQL fallback при недоступности Go-сервиса.\n- Реализовал JWT-аутентификацию, HttpOnly cookies, CSRF-защиту, Argon2/bcrypt и middleware для защиты административного API.\n- Реализовал транзакционную обработку реакций, поиск и фильтрацию контента, подписки и административную статистику за диапазон дат.\n- Использовал goroutine для конкурентного выполнения независимых запросов статистики в Go-сервисе.\n- Покрыл backend unit- и integration-тестами на pytest и Go testing.\n- Подготовил Docker Compose-окружение и развернул приложение в публичном доступе.\nTourism Data Analytics — обработка и анализ туристических данных\n(https://github.com/GeraPegov/parse_file)\nСтек: Python, FastAPI, pandas, PostgreSQL, SQLAlchemy Async, pytest.\n- Реализовал загрузку CSV через HTTP API и обработку данных порциями в pandas: удаление дублей внутри порции, обработку пропусков, преобразование типов и пакетную запись в PostgreSQL.\n- Подготовил восемь аналитических запросов с агрегатами, группировками и подзапросами: динамика турпотока, география, демография и характеристики туристических сегментов. Добавил формирование и скачивание JSON-отчёта.\n- Написал модульные тесты преобразования данных и интеграционные тесты аналитических запросов к PostgreSQL.\nTelegram-бот для сохранения и рассылки сообщений\n(https://github.com/GeraPegov/tgbot_newsletter)\nСтек: Python, aiogram, FastAPI, PostgreSQL, SQLAlchemy Async, Redis, aiohttp, pytest.\n- Реализовал приём текста, фотографий и видео через Telegram-бота и рассылку сохранённых сообщений пользователям по команде.\n- Связал бота с FastAPI через HTTP: сохранение сообщений в PostgreSQL, чтение с приоритетом Redis и TTL кеша один час.\n- Добавил обработку медиагрупп и интеграционные тесты операций с PostgreSQL и Redis.",
+    "skills": "Продвинутый уровень\nPython\nFastAPI\nСредний уровень\nPostgreSQL\nSQLAlchemy\nБазовый уровень\nHTML\nGit\nDocker\nPytest\nDocker-compose\nAlembic\nREST API\nRedis\nУровень не указан\nGo",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Python backend-разработчик. Работаю с FastAPI, PostgreSQL, SQLAlchemy Async, Redis, Alembic, pytest и Docker. Разработал и развернул MedHub — веб-платформу с авторизацией, публикациями, комментариями, подписками, реакциями, кешированием и тестами. Часть backend-функциональности реализовал отдельным сервисом на Go, интегрированным с FastAPI через HTTP. Ищу позицию Junior Python Backend Developer или стажировку.",
+    "education": "Уровень\nВысшее образование\nВитебская ордена \"Знак Почета\" государственная академия ветеринарной медицины, Витебск\nВетеринарная медицина, Ветеринарный врач\n•\n2023\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №170\nРезюме: Python/Golang Backend разработчик (Junior+/Middle)\n\nСопроводительное письмо\nДобрый день!\nпишу веб-приложения, но очень нравилось изучать Pandas и Numpy. Работать с ними не пришлось, уровень знаний этих библиотек не высокий, но я постоянно решаю алгоритмы, так же прохожу курс по структурам данных, поэтому влиться в эту стезю будет не сложно.\nПоследний раз работал с API Poizon, тестировал все методы, применял их в проекте (не коммитил, потому что задача была лишь протестировать всё)\nОчень хочу попробовать поработать с данными!\n\nОпыт работы\nОпыт работы: 2 года 5 месяцев\nИюн 2024 -\nсейчас\n2 года 5 мес\nОрганизация 1\nPython-разработчик\nMedHub — платформа для публикации и обсуждения статей\nGitHub: https://github.com/GeraPegov/medhub\nLive: https://medhub.fun/\nВеб-платформа с профилями авторов, публикациями, подписками, комментариями и реакциями. Проект развёрнут и доступен публично; продолжаю его разработку и поддержку.\nСтек: Python, FastAPI, Go, PostgreSQL, SQLAlchemy Async, pgx, Redis, Alembic, pytest, Go testing, Docker Compose.\n- Спроектировал и разработал платформу с пользовательским backend на FastAPI и отдельным backend-сервисом на Go, интегрированными через HTTP.\n- Разделил приложения на presentation, application, domain и infrastructure слои; организовал общую PostgreSQL-модель и миграции через Alembic.\n- Реализовал асинхронную работу с PostgreSQL через SQLAlchemy/asyncpg и работу Go-сервиса с БД через pgx/pgxpool.\n- Добавил Redis-кеширование пользователей и статей и атомарные Redis-лимитеры публикаций с SQL fallback при недоступности Go-сервиса.\n- Реализовал JWT-аутентификацию, HttpOnly cookies, CSRF-защиту, Argon2/bcrypt и middleware для защиты административного API.\n- Реализовал транзакционную обработку реакций, поиск и фильтрацию контента, подписки и административную статистику за диапазон дат.\n- Использовал goroutine для конкурентного выполнения независимых запросов статистики в Go-сервисе.\n- Покрыл backend unit- и integration-тестами на pytest и Go testing.\n- Подготовил Docker Compose-окружение и развернул приложение в публичном доступе.\nTourism Data Analytics — обработка и анализ туристических данных\n(https://github.com/GeraPegov/parse_file)\nСтек: Python, FastAPI, pandas, PostgreSQL, SQLAlchemy Async, pytest.\n- Реализовал загрузку CSV через HTTP API и обработку данных порциями в pandas: удаление дублей внутри порции, обработку пропусков, преобразование типов и пакетную запись в PostgreSQL.\n- Подготовил восемь аналитических запросов с агрегатами, группировками и подзапросами: динамика турпотока, география, демография и характеристики туристических сегментов. Добавил формирование и скачивание JSON-отчёта.\n- Написал модульные тесты преобразования данных и интеграционные тесты аналитических запросов к PostgreSQL.\nTelegram-бот для сохранения и рассылки сообщений\n(https://github.com/GeraPegov/tgbot_newsletter)\nСтек: Python, aiogram, FastAPI, PostgreSQL, SQLAlchemy Async, Redis, aiohttp, pytest.\n- Реализовал приём текста, фотографий и видео через Telegram-бота и рассылку сохранённых сообщений пользователям по команде.\n- Связал бота с FastAPI через HTTP: сохранение сообщений в PostgreSQL, чтение с приоритетом Redis и TTL кеша один час.\n- Добавил обработку медиагрупп и интеграционные тесты операций с PostgreSQL и Redis.\n\nНавыки\nПродвинутый уровень\nPython\nFastAPI\nСредний уровень\nPostgreSQL\nSQLAlchemy\nБазовый уровень\nHTML\nGit\nDocker\nPytest\nDocker-compose\nAlembic\nREST API\nRedis\nУровень не указан\nGo\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nPython backend-разработчик. Работаю с FastAPI, PostgreSQL, SQLAlchemy Async, Redis, Alembic, pytest и Docker. Разработал и развернул MedHub — веб-платформу с авторизацией, публикациями, комментариями, подписками, реакциями, кешированием и тестами. Часть backend-функциональности реализовал отдельным сервисом на Go, интегрированным с FastAPI через HTTP. Ищу позицию Junior Python Backend Developer или стажировку.\n\nОбразование\nУровень\nВысшее образование\nВитебская ордена \"Знак Почета\" государственная академия ветеринарной медицины, Витебск\nВетеринарная медицина, Ветеринарный врач\n•\n2023\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nПрава категории B\n"
+}

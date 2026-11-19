@@ -1,0 +1,207 @@
+{
+  "candidate_id": 192,
+  "resume_title": "Python Backend developer",
+  "cover_letter": null,
+  "experience_total_months": 37,
+  "similar_experience_months": 37,
+  "work_experience": [
+    {
+      "start_date": "2023-10",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 37,
+      "organization": "Организация 1",
+      "position": "Python developer",
+      "employer_details": [
+        "Саратов",
+        "Финансовый сектор"
+      ],
+      "description": "ВЕБ-СЕРВИС ПО ПОИСКУ ОШИБОК И АНАЛИТИКИ РАБОТЫ ФИЛИАЛОВ\nПроблема - большое количество штрафов от надзорных органов\nЗадача - Разработка сервиса для снижения количества штрафов от вышестоящих организаций за счет выявления, распределения по филиалам, аналитика работы филиалов.\nДействия - Совместно с начальником отдела по работе с застрахованными определили функционал интерфейс.\nFullstack-разработка:\n- Backend Python Django DRF JWT-аутентификация, сложная обработка данных Pandas, кеширование Redis, Celery для перодического запуска отчетов и сохранения их в кеш интеграция с БД.\n- Спроектировал и реализовал структуры БД MSSQL Server, Postgresql , написал > 50 хранимых процедур функций использовал сложные запросы JOIN, CTE, оконные функции оптимизировал производительность\n- Frontend VUE.js, JavaScript, HTML, CSS, MaterialzeCSS , AXIOS: интерактивный интерфейс с фильтрами , выпадающими списками, модальные окна, экспорт файлов, управление списками.\nРезультатом - работы данного сервиса уже видел в этом году — это значительное снижение количества ошибок с 5000 до 1500 и избежать штрафов . Что считаю значительным вкладом и достижением.\nBACKEND МОБИЛЬНОГО ПРИЛОЖЕНИЯ «КАПИТАЛ» И CALL-ЦЕНТРА\nЗадача - Обеспечить Backend-функциональность для мобильного приложения и колл-центра по предоставлению данных о застрахованном его прикрепление к больнице.\nДействия - Написал хранимые процедуры для извлечения данных, view с полнотекстовым индексом, благодаря которому мгновенно получали данные по номеру телефона.\nРезультат - Успешное функционирование мобильного приложения и повышение эффективности работы колл-центра.\nИНТЕГРАЦИЯ И ПОДДЕРЖКА ПЕРЕХОДА НА КМСИК И ЗПЗИЛС\nЗадача - Обеспечить подготовку данных , формирование отчетов, интеграционные решения при переходе на новое ПО.\nДействия - Разработал Веб-сервис на Python FastAPI, Sqlalchemy, Alembic, Pydantic, Redis, JWT, Celery, RabbitMQ:\n- для подготовки данных\n-генерация отчетов\n- информирование населения для проф.мероприятий и диспансерного наблюдения.\nРезультат - Успешное внедрение и поддержка перехода на новые системы, автоматизация отчетов, автоматизация информирования населения, добавил асинхронную работу с базой что ускорило работу сервиса на 40%\nДополнительные задачи\n- Парсер данных Python , Selenium, bs4 для внутренних нужд отделов\n- Телеграм бот Python aiogram3 Django drf, drf, postgresql, celery, redis ,docker, docker compose, nginx",
+      "original": "Окт 2023 -\nсейчас\n3 года 1 мес\nОрганизация 1\nСаратов\nФинансовый сектор\nPython developer\nВЕБ-СЕРВИС ПО ПОИСКУ ОШИБОК И АНАЛИТИКИ РАБОТЫ ФИЛИАЛОВ\nПроблема - большое количество штрафов от надзорных органов\nЗадача - Разработка сервиса для снижения количества штрафов от вышестоящих организаций за счет выявления, распределения по филиалам, аналитика работы филиалов.\nДействия - Совместно с начальником отдела по работе с застрахованными определили функционал интерфейс.\nFullstack-разработка:\n- Backend Python Django DRF JWT-аутентификация, сложная обработка данных Pandas, кеширование Redis, Celery для перодического запуска отчетов и сохранения их в кеш интеграция с БД.\n- Спроектировал и реализовал структуры БД MSSQL Server, Postgresql , написал > 50 хранимых процедур функций использовал сложные запросы JOIN, CTE, оконные функции оптимизировал производительность\n- Frontend VUE.js, JavaScript, HTML, CSS, MaterialzeCSS , AXIOS: интерактивный интерфейс с фильтрами , выпадающими списками, модальные окна, экспорт файлов, управление списками.\nРезультатом - работы данного сервиса уже видел в этом году — это значительное снижение количества ошибок с 5000 до 1500 и избежать штрафов . Что считаю значительным вкладом и достижением.\nBACKEND МОБИЛЬНОГО ПРИЛОЖЕНИЯ «КАПИТАЛ» И CALL-ЦЕНТРА\nЗадача - Обеспечить Backend-функциональность для мобильного приложения и колл-центра по предоставлению данных о застрахованном его прикрепление к больнице.\nДействия - Написал хранимые процедуры для извлечения данных, view с полнотекстовым индексом, благодаря которому мгновенно получали данные по номеру телефона.\nРезультат - Успешное функционирование мобильного приложения и повышение эффективности работы колл-центра.\nИНТЕГРАЦИЯ И ПОДДЕРЖКА ПЕРЕХОДА НА КМСИК И ЗПЗИЛС\nЗадача - Обеспечить подготовку данных , формирование отчетов, интеграционные решения при переходе на новое ПО.\nДействия - Разработал Веб-сервис на Python FastAPI, Sqlalchemy, Alembic, Pydantic, Redis, JWT, Celery, RabbitMQ:\n- для подготовки данных\n-генерация отчетов\n- информирование населения для проф.мероприятий и диспансерного наблюдения.\nРезультат - Успешное внедрение и поддержка перехода на новые системы, автоматизация отчетов, автоматизация информирования населения, добавил асинхронную работу с базой что ускорило работу сервиса на 40%\nДополнительные задачи\n- Парсер данных Python , Selenium, bs4 для внутренних нужд отделов\n- Телеграм бот Python aiogram3 Django drf, drf, postgresql, celery, redis ,docker, docker compose, nginx"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "FastAPI",
+      "level": "intermediate",
+      "original": "FastAPI"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": "intermediate",
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "alembic",
+      "level": "intermediate",
+      "original": "alembic"
+    },
+    {
+      "name": "Redis",
+      "level": "intermediate",
+      "original": "Redis"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django"
+    },
+    {
+      "name": "Transact-SQL",
+      "level": "intermediate",
+      "original": "Transact-SQL"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "original": "DRF"
+    },
+    {
+      "name": "MSSQL",
+      "level": "intermediate",
+      "original": "MSSQL"
+    },
+    {
+      "name": "Vue.js",
+      "level": "intermediate",
+      "original": "VueJS"
+    },
+    {
+      "name": "Celery",
+      "level": "intermediate",
+      "original": "Celery"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "СУБД",
+      "level": "intermediate",
+      "original": "СУБД"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": "intermediate",
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "asyncio",
+      "level": "intermediate",
+      "original": "asyncio"
+    },
+    {
+      "name": "MongoDB",
+      "level": "intermediate",
+      "original": "MongoDB"
+    },
+    {
+      "name": "React",
+      "level": "intermediate",
+      "original": "React"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "intermediate",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Git",
+      "level": "basic",
+      "original": "Git"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "basic",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "ООП",
+      "level": "basic",
+      "original": "ООП"
+    },
+    {
+      "name": "API",
+      "level": "basic",
+      "original": "API"
+    },
+    {
+      "name": "JavaScript",
+      "level": "basic",
+      "original": "JavaScript"
+    },
+    {
+      "name": "Linux",
+      "level": "basic",
+      "original": "Linux"
+    },
+    {
+      "name": "Nginx",
+      "level": "basic",
+      "original": "Nginx"
+    },
+    {
+      "name": "Elasticsearch",
+      "level": "basic",
+      "original": "Elasticsearch"
+    },
+    {
+      "name": "langchain",
+      "level": "basic",
+      "original": "langchain"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Мой стек\nPython Django, DRF ,\nUnittest(faker, factory-boy), Pytest,\nCelery, Redis, Docker Docker Compose,\nPostgresql, Mssql,\nTelegram Aiogram,\nFastAPI,\nnginx, gunicorn, Linux, Elasticsearch, CI,\ngit\nhtml css JavaScript Vue.js React material bootstrap materializecss tailwindcss\nТелеграм@bulat_nitaliev",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": "Есть своя машина, права категории B, C",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №192\nРезюме: Python Backend developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 1 месяц\nОпыт в похожих должностях:3 года 1 месяц\nОкт 2023 -\nсейчас\n3 года 1 мес\nОрганизация 1\nСаратов\nФинансовый сектор\nPython developer\nВЕБ-СЕРВИС ПО ПОИСКУ ОШИБОК И АНАЛИТИКИ РАБОТЫ ФИЛИАЛОВ\nПроблема - большое количество штрафов от надзорных органов\nЗадача - Разработка сервиса для снижения количества штрафов от вышестоящих организаций за счет выявления, распределения по филиалам, аналитика работы филиалов.\nДействия - Совместно с начальником отдела по работе с застрахованными определили функционал интерфейс.\nFullstack-разработка:\n- Backend Python Django DRF JWT-аутентификация, сложная обработка данных Pandas, кеширование Redis, Celery для перодического запуска отчетов и сохранения их в кеш интеграция с БД.\n- Спроектировал и реализовал структуры БД MSSQL Server, Postgresql , написал > 50 хранимых процедур функций использовал сложные запросы JOIN, CTE, оконные функции оптимизировал производительность\n- Frontend VUE.js, JavaScript, HTML, CSS, MaterialzeCSS , AXIOS: интерактивный интерфейс с фильтрами , выпадающими списками, модальные окна, экспорт файлов, управление списками.\nРезультатом - работы данного сервиса уже видел в этом году — это значительное снижение количества ошибок с 5000 до 1500 и избежать штрафов . Что считаю значительным вкладом и достижением.\nBACKEND МОБИЛЬНОГО ПРИЛОЖЕНИЯ «КАПИТАЛ» И CALL-ЦЕНТРА\nЗадача - Обеспечить Backend-функциональность для мобильного приложения и колл-центра по предоставлению данных о застрахованном его прикрепление к больнице.\nДействия - Написал хранимые процедуры для извлечения данных, view с полнотекстовым индексом, благодаря которому мгновенно получали данные по номеру телефона.\nРезультат - Успешное функционирование мобильного приложения и повышение эффективности работы колл-центра.\nИНТЕГРАЦИЯ И ПОДДЕРЖКА ПЕРЕХОДА НА КМСИК И ЗПЗИЛС\nЗадача - Обеспечить подготовку данных , формирование отчетов, интеграционные решения при переходе на новое ПО.\nДействия - Разработал Веб-сервис на Python FastAPI, Sqlalchemy, Alembic, Pydantic, Redis, JWT, Celery, RabbitMQ:\n- для подготовки данных\n-генерация отчетов\n- информирование населения для проф.мероприятий и диспансерного наблюдения.\nРезультат - Успешное внедрение и поддержка перехода на новые системы, автоматизация отчетов, автоматизация информирования населения, добавил асинхронную работу с базой что ускорило работу сервиса на 40%\nДополнительные задачи\n- Парсер данных Python , Selenium, bs4 для внутренних нужд отделов\n- Телеграм бот Python aiogram3 Django drf, drf, postgresql, celery, redis ,docker, docker compose, nginx",
+    "skills": "Продвинутый уровень\nPython\nСредний уровень\nDjango Framework\nFastAPI\nSQLAlchemy\nalembic\nRedis\nSQL\nDjango\nTransact-SQL\nDRF\nMSSQL\nVueJS\nCelery\nDocker\nREST API\nСУБД\nDjango Rest Framework\nasyncio\nMongoDB\nReact\nRabbitMQ\nБазовый уровень\nGit\nPostgreSQL\nООП\nAPI\nJavaScript\nLinux\nNginx\nElasticsearch\nlangchain",
+    "languages": "Родной\nРусский",
+    "about_me": "Мой стек\nPython Django, DRF ,\nUnittest(faker, factory-boy), Pytest,\nCelery, Redis, Docker Docker Compose,\nPostgresql, Mssql,\nTelegram Aiogram,\nFastAPI,\nnginx, gunicorn, Linux, Elasticsearch, CI,\ngit\nhtml css JavaScript Vue.js React material bootstrap materializecss tailwindcss\nТелеграм@bulat_nitaliev",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B, C"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №192\nРезюме: Python Backend developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 1 месяц\nОпыт в похожих должностях:3 года 1 месяц\nОкт 2023 -\nсейчас\n3 года 1 мес\nОрганизация 1\nСаратов\nФинансовый сектор\nPython developer\nВЕБ-СЕРВИС ПО ПОИСКУ ОШИБОК И АНАЛИТИКИ РАБОТЫ ФИЛИАЛОВ\nПроблема - большое количество штрафов от надзорных органов\nЗадача - Разработка сервиса для снижения количества штрафов от вышестоящих организаций за счет выявления, распределения по филиалам, аналитика работы филиалов.\nДействия - Совместно с начальником отдела по работе с застрахованными определили функционал интерфейс.\nFullstack-разработка:\n- Backend Python Django DRF JWT-аутентификация, сложная обработка данных Pandas, кеширование Redis, Celery для перодического запуска отчетов и сохранения их в кеш интеграция с БД.\n- Спроектировал и реализовал структуры БД MSSQL Server, Postgresql , написал > 50 хранимых процедур функций использовал сложные запросы JOIN, CTE, оконные функции оптимизировал производительность\n- Frontend VUE.js, JavaScript, HTML, CSS, MaterialzeCSS , AXIOS: интерактивный интерфейс с фильтрами , выпадающими списками, модальные окна, экспорт файлов, управление списками.\nРезультатом - работы данного сервиса уже видел в этом году — это значительное снижение количества ошибок с 5000 до 1500 и избежать штрафов . Что считаю значительным вкладом и достижением.\nBACKEND МОБИЛЬНОГО ПРИЛОЖЕНИЯ «КАПИТАЛ» И CALL-ЦЕНТРА\nЗадача - Обеспечить Backend-функциональность для мобильного приложения и колл-центра по предоставлению данных о застрахованном его прикрепление к больнице.\nДействия - Написал хранимые процедуры для извлечения данных, view с полнотекстовым индексом, благодаря которому мгновенно получали данные по номеру телефона.\nРезультат - Успешное функционирование мобильного приложения и повышение эффективности работы колл-центра.\nИНТЕГРАЦИЯ И ПОДДЕРЖКА ПЕРЕХОДА НА КМСИК И ЗПЗИЛС\nЗадача - Обеспечить подготовку данных , формирование отчетов, интеграционные решения при переходе на новое ПО.\nДействия - Разработал Веб-сервис на Python FastAPI, Sqlalchemy, Alembic, Pydantic, Redis, JWT, Celery, RabbitMQ:\n- для подготовки данных\n-генерация отчетов\n- информирование населения для проф.мероприятий и диспансерного наблюдения.\nРезультат - Успешное внедрение и поддержка перехода на новые системы, автоматизация отчетов, автоматизация информирования населения, добавил асинхронную работу с базой что ускорило работу сервиса на 40%\nДополнительные задачи\n- Парсер данных Python , Selenium, bs4 для внутренних нужд отделов\n- Телеграм бот Python aiogram3 Django drf, drf, postgresql, celery, redis ,docker, docker compose, nginx\n\nНавыки\nПродвинутый уровень\nPython\nСредний уровень\nDjango Framework\nFastAPI\nSQLAlchemy\nalembic\nRedis\nSQL\nDjango\nTransact-SQL\nDRF\nMSSQL\nVueJS\nCelery\nDocker\nREST API\nСУБД\nDjango Rest Framework\nasyncio\nMongoDB\nReact\nRabbitMQ\nБазовый уровень\nGit\nPostgreSQL\nООП\nAPI\nJavaScript\nLinux\nNginx\nElasticsearch\nlangchain\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nМой стек\nPython Django, DRF ,\nUnittest(faker, factory-boy), Pytest,\nCelery, Redis, Docker Docker Compose,\nPostgresql, Mssql,\nTelegram Aiogram,\nFastAPI,\nnginx, gunicorn, Linux, Elasticsearch, CI,\ngit\nhtml css JavaScript Vue.js React material bootstrap materializecss tailwindcss\nТелеграм@bulat_nitaliev\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nОпыт вождения:\nЕсть своя машина, права категории B, C\n"
+}

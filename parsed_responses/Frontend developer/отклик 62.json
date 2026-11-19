@@ -1,0 +1,175 @@
+{
+  "candidate_id": 62,
+  "resume_title": "Frontend-разработчик",
+  "cover_letter": "Добрый день.\nМеня заинтересовала ваша вакансия.\nЕсть опыт создания сайтов/мини-приложений на react (+redux, +rtkQuery) с нуля. Для стилизации использовала методологию БЭМ препроцессор SASS, styled components или модульный css.\nЗнаю как работать с макетами в figma.\nОбожаю работать в команде, когда вместе реализовываем какую-либо логику, вносим предложения, идеи улучшения и ищем простой и лаконичный вариант реализации поставленной задачи.\nМогу разбить задачу на под-задания, работаю с kanban-досками, github, провожу code-review.\nИзучаю Python, так как планирую дорасти до full-stack разработчика.\nГотова обучаться в процессе работы новым навыкам, а так же улучшать и преумножать уже имеющиеся.\nВера Буганова\nтел. 8-902-142-9726\nЕ-mail: vera.workprofile@gmail.com",
+  "experience_total_months": 33,
+  "similar_experience_months": 33,
+  "work_experience": [
+    {
+      "start_date": "2023-05",
+      "end_date": "2026-01",
+      "is_current": false,
+      "duration_months": 33,
+      "organization": "Организация 1",
+      "position": "Frontend-разработчик",
+      "employer_details": [],
+      "description": "Разработка и дебаггинг сервиса поиска работы.\nВыделение еженедельных спринтов, распределение задач. Работа в команде с Frontend - разработчиками, дизайнерами, Backend-разработчиками, тестировщиками.\nПРОЕКТЫ: приложение для прослушивания музыки, сайт фитнес тренировок, игра, приложение для публикации фото:\n— Фронтенд на React, бекенд был предоставлен.\n— В основе Create React App с Typescript.\n— Сверстан адаптивный интерфейс по макету из Figma, для стилей использован styled components.\n— Redux + Redux Toolkit для работы с глобальным состоянием.\n— RTK Query для запросов к API с кешированием данных.\n— Создание базы данных firebase и работа с ней.\n— Использовала Kaiten, zoom и github, для организации работы.\n— Управляла приоритетами с помощью kanban-доски в Kaiten.\n— Проводила ревью кода членов команды перед мержем в основную ветку.\n— Чистый typescript без фреймворков.\n— Форматирование и подсветка ошибок с помощью prettier и eslint.\n— Автоматическая проверка типов перед коммитом с помощью husky.\n— Create React App с Typescript.\n— Сверстан адаптивный интерфейс по макету из Figma, для стилей использован css.\n— Использован Java script.\n— REST API, localStorage.\nкод:\nhttps://github.com/RomanSartakov/sdo_mm/tree/main/frontend\nhttps://github.com/Vera869/skypro-music\nhttps://github.com/lkhusnullina/SkyFitnessPro\nhttps://github.com/Vera869/dev-react-memo\nhttps://github.com/Vera869/testApp\nhttps://github.com/Vera869/webdev-cw-instapro\nhttps://github.com/Vera869/weatherApp\nвёрстка:\nhttps://drive.google.com/drive/folders/1J_G2MtuOKW3atKZxUny8uWK1UPY8yW2a?usp=sharing\nдеплой:\nhttps://rabota.ktsf.ru/vacancies\nhttps://weatherlywind.netlify.app/\nhttps://fashion-sale-store.netlify.app/\nhttps://vera869.github.io/webdev-cw-instapro/\nhttps://countries-test-app.netlify.app",
+      "original": "Май 2023 -\nЯнв 2026\n2 года 9 мес\nОрганизация 1\nFrontend-разработчик\nРазработка и дебаггинг сервиса поиска работы.\nВыделение еженедельных спринтов, распределение задач. Работа в команде с Frontend - разработчиками, дизайнерами, Backend-разработчиками, тестировщиками.\nПРОЕКТЫ: приложение для прослушивания музыки, сайт фитнес тренировок, игра, приложение для публикации фото:\n— Фронтенд на React, бекенд был предоставлен.\n— В основе Create React App с Typescript.\n— Сверстан адаптивный интерфейс по макету из Figma, для стилей использован styled components.\n— Redux + Redux Toolkit для работы с глобальным состоянием.\n— RTK Query для запросов к API с кешированием данных.\n— Создание базы данных firebase и работа с ней.\n— Использовала Kaiten, zoom и github, для организации работы.\n— Управляла приоритетами с помощью kanban-доски в Kaiten.\n— Проводила ревью кода членов команды перед мержем в основную ветку.\n— Чистый typescript без фреймворков.\n— Форматирование и подсветка ошибок с помощью prettier и eslint.\n— Автоматическая проверка типов перед коммитом с помощью husky.\n— Create React App с Typescript.\n— Сверстан адаптивный интерфейс по макету из Figma, для стилей использован css.\n— Использован Java script.\n— REST API, localStorage.\nкод:\nhttps://github.com/RomanSartakov/sdo_mm/tree/main/frontend\nhttps://github.com/Vera869/skypro-music\nhttps://github.com/lkhusnullina/SkyFitnessPro\nhttps://github.com/Vera869/dev-react-memo\nhttps://github.com/Vera869/testApp\nhttps://github.com/Vera869/webdev-cw-instapro\nhttps://github.com/Vera869/weatherApp\nвёрстка:\nhttps://drive.google.com/drive/folders/1J_G2MtuOKW3atKZxUny8uWK1UPY8yW2a?usp=sharing\nдеплой:\nhttps://rabota.ktsf.ru/vacancies\nhttps://weatherlywind.netlify.app/\nhttps://fashion-sale-store.netlify.app/\nhttps://vera869.github.io/webdev-cw-instapro/\nhttps://countries-test-app.netlify.app"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "original": "JavaScript"
+    },
+    {
+      "name": "HTML",
+      "level": "basic",
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML5"
+    },
+    {
+      "name": "React",
+      "level": null,
+      "original": "React"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS3"
+    },
+    {
+      "name": "Node.js",
+      "level": null,
+      "original": "Node.js"
+    },
+    {
+      "name": "TypeScript",
+      "level": null,
+      "original": "TypeScript"
+    },
+    {
+      "name": "MongoDB",
+      "level": null,
+      "original": "MongoDB"
+    },
+    {
+      "name": "Redux",
+      "level": null,
+      "original": "Redux"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Webpack",
+      "level": null,
+      "original": "Webpack"
+    },
+    {
+      "name": "Адаптивная верстка",
+      "level": null,
+      "original": "Адаптивная верстка"
+    },
+    {
+      "name": "Firebase",
+      "level": null,
+      "original": "Firebase"
+    },
+    {
+      "name": "vite",
+      "level": null,
+      "original": "vite"
+    },
+    {
+      "name": "Next.js",
+      "level": null,
+      "original": "Next.js"
+    },
+    {
+      "name": "Zustand",
+      "level": null,
+      "original": "Zustand"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "BEM",
+      "level": null,
+      "original": "BEM"
+    },
+    {
+      "name": "Vue.js",
+      "level": null,
+      "original": "Vue.js"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Люблю работать в команде. Предпочитаю React, но также знаю основы Vue.\nRedux/Zustand, RTK Query, REST api, TS, адаптивная вёрстка, SCSS/Styled Components/CSS-module, Git...\nЯвляюсь участником и победителем в своём кейсе первой волны хакатона \"Марафон цифровых решений\" 2025года.\nМой телеграмм: @Vereneya_craft\nНесколько примеров проектов:\nhttps://github.com/RomanSartakov/sdo_mm\nhttps://rabota.ktsf.ru/vacancies",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Skypro (крупнейшая платформа онлайн-обучения)",
+      "details": [
+        "Web-разработчик"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Skypro (крупнейшая платформа онлайн-обучения)\nWeb-разработчик\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готова к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №62\nРезюме: Frontend-разработчик",
+    "cover_letter": "Добрый день.\nМеня заинтересовала ваша вакансия.\nЕсть опыт создания сайтов/мини-приложений на react (+redux, +rtkQuery) с нуля. Для стилизации использовала методологию БЭМ препроцессор SASS, styled components или модульный css.\nЗнаю как работать с макетами в figma.\nОбожаю работать в команде, когда вместе реализовываем какую-либо логику, вносим предложения, идеи улучшения и ищем простой и лаконичный вариант реализации поставленной задачи.\nМогу разбить задачу на под-задания, работаю с kanban-досками, github, провожу code-review.\nИзучаю Python, так как планирую дорасти до full-stack разработчика.\nГотова обучаться в процессе работы новым навыкам, а так же улучшать и преумножать уже имеющиеся.\nВера Буганова\nтел. 8-902-142-9726\nЕ-mail: vera.workprofile@gmail.com",
+    "experience": "Опыт работы: 2 года 9 месяцев\nОпыт в похожих должностях:2 года 9 месяцев\nМай 2023 -\nЯнв 2026\n2 года 9 мес\nОрганизация 1\nFrontend-разработчик\nРазработка и дебаггинг сервиса поиска работы.\nВыделение еженедельных спринтов, распределение задач. Работа в команде с Frontend - разработчиками, дизайнерами, Backend-разработчиками, тестировщиками.\nПРОЕКТЫ: приложение для прослушивания музыки, сайт фитнес тренировок, игра, приложение для публикации фото:\n— Фронтенд на React, бекенд был предоставлен.\n— В основе Create React App с Typescript.\n— Сверстан адаптивный интерфейс по макету из Figma, для стилей использован styled components.\n— Redux + Redux Toolkit для работы с глобальным состоянием.\n— RTK Query для запросов к API с кешированием данных.\n— Создание базы данных firebase и работа с ней.\n— Использовала Kaiten, zoom и github, для организации работы.\n— Управляла приоритетами с помощью kanban-доски в Kaiten.\n— Проводила ревью кода членов команды перед мержем в основную ветку.\n— Чистый typescript без фреймворков.\n— Форматирование и подсветка ошибок с помощью prettier и eslint.\n— Автоматическая проверка типов перед коммитом с помощью husky.\n— Create React App с Typescript.\n— Сверстан адаптивный интерфейс по макету из Figma, для стилей использован css.\n— Использован Java script.\n— REST API, localStorage.\nкод:\nhttps://github.com/RomanSartakov/sdo_mm/tree/main/frontend\nhttps://github.com/Vera869/skypro-music\nhttps://github.com/lkhusnullina/SkyFitnessPro\nhttps://github.com/Vera869/dev-react-memo\nhttps://github.com/Vera869/testApp\nhttps://github.com/Vera869/webdev-cw-instapro\nhttps://github.com/Vera869/weatherApp\nвёрстка:\nhttps://drive.google.com/drive/folders/1J_G2MtuOKW3atKZxUny8uWK1UPY8yW2a?usp=sharing\nдеплой:\nhttps://rabota.ktsf.ru/vacancies\nhttps://weatherlywind.netlify.app/\nhttps://fashion-sale-store.netlify.app/\nhttps://vera869.github.io/webdev-cw-instapro/\nhttps://countries-test-app.netlify.app",
+    "skills": "Средний уровень\nJavaScript\nБазовый уровень\nHTML\nУровень не указан\nGit\nHTML5\nReact\nCSS3\nNode.js\nTypeScript\nMongoDB\nRedux\nDocker\nREST API\nWebpack\nАдаптивная верстка\nFirebase\nvite\nNext.js\nZustand\nFigma\nBEM\nVue.js",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Люблю работать в команде. Предпочитаю React, но также знаю основы Vue.\nRedux/Zustand, RTK Query, REST api, TS, адаптивная вёрстка, SCSS/Styled Components/CSS-module, Git...\nЯвляюсь участником и победителем в своём кейсе первой волны хакатона \"Марафон цифровых решений\" 2025года.\nМой телеграмм: @Vereneya_craft\nНесколько примеров проектов:\nhttps://github.com/RomanSartakov/sdo_mm\nhttps://rabota.ktsf.ru/vacancies",
+    "education": "Уровень\nВысшее образование\nSkypro (крупнейшая платформа онлайн-обучения)\nWeb-разработчик\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №62\nРезюме: Frontend-разработчик\n\nСопроводительное письмо\nДобрый день.\nМеня заинтересовала ваша вакансия.\nЕсть опыт создания сайтов/мини-приложений на react (+redux, +rtkQuery) с нуля. Для стилизации использовала методологию БЭМ препроцессор SASS, styled components или модульный css.\nЗнаю как работать с макетами в figma.\nОбожаю работать в команде, когда вместе реализовываем какую-либо логику, вносим предложения, идеи улучшения и ищем простой и лаконичный вариант реализации поставленной задачи.\nМогу разбить задачу на под-задания, работаю с kanban-досками, github, провожу code-review.\nИзучаю Python, так как планирую дорасти до full-stack разработчика.\nГотова обучаться в процессе работы новым навыкам, а так же улучшать и преумножать уже имеющиеся.\nВера Буганова\nтел. 8-902-142-9726\nЕ-mail: vera.workprofile@gmail.com\n\nОпыт работы\nОпыт работы: 2 года 9 месяцев\nОпыт в похожих должностях:2 года 9 месяцев\nМай 2023 -\nЯнв 2026\n2 года 9 мес\nОрганизация 1\nFrontend-разработчик\nРазработка и дебаггинг сервиса поиска работы.\nВыделение еженедельных спринтов, распределение задач. Работа в команде с Frontend - разработчиками, дизайнерами, Backend-разработчиками, тестировщиками.\nПРОЕКТЫ: приложение для прослушивания музыки, сайт фитнес тренировок, игра, приложение для публикации фото:\n— Фронтенд на React, бекенд был предоставлен.\n— В основе Create React App с Typescript.\n— Сверстан адаптивный интерфейс по макету из Figma, для стилей использован styled components.\n— Redux + Redux Toolkit для работы с глобальным состоянием.\n— RTK Query для запросов к API с кешированием данных.\n— Создание базы данных firebase и работа с ней.\n— Использовала Kaiten, zoom и github, для организации работы.\n— Управляла приоритетами с помощью kanban-доски в Kaiten.\n— Проводила ревью кода членов команды перед мержем в основную ветку.\n— Чистый typescript без фреймворков.\n— Форматирование и подсветка ошибок с помощью prettier и eslint.\n— Автоматическая проверка типов перед коммитом с помощью husky.\n— Create React App с Typescript.\n— Сверстан адаптивный интерфейс по макету из Figma, для стилей использован css.\n— Использован Java script.\n— REST API, localStorage.\nкод:\nhttps://github.com/RomanSartakov/sdo_mm/tree/main/frontend\nhttps://github.com/Vera869/skypro-music\nhttps://github.com/lkhusnullina/SkyFitnessPro\nhttps://github.com/Vera869/dev-react-memo\nhttps://github.com/Vera869/testApp\nhttps://github.com/Vera869/webdev-cw-instapro\nhttps://github.com/Vera869/weatherApp\nвёрстка:\nhttps://drive.google.com/drive/folders/1J_G2MtuOKW3atKZxUny8uWK1UPY8yW2a?usp=sharing\nдеплой:\nhttps://rabota.ktsf.ru/vacancies\nhttps://weatherlywind.netlify.app/\nhttps://fashion-sale-store.netlify.app/\nhttps://vera869.github.io/webdev-cw-instapro/\nhttps://countries-test-app.netlify.app\n\nНавыки\nСредний уровень\nJavaScript\nБазовый уровень\nHTML\nУровень не указан\nGit\nHTML5\nReact\nCSS3\nNode.js\nTypeScript\nMongoDB\nRedux\nDocker\nREST API\nWebpack\nАдаптивная верстка\nFirebase\nvite\nNext.js\nZustand\nFigma\nBEM\nVue.js\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nЛюблю работать в команде. Предпочитаю React, но также знаю основы Vue.\nRedux/Zustand, RTK Query, REST api, TS, адаптивная вёрстка, SCSS/Styled Components/CSS-module, Git...\nЯвляюсь участником и победителем в своём кейсе первой волны хакатона \"Марафон цифровых решений\" 2025года.\nМой телеграмм: @Vereneya_craft\nНесколько примеров проектов:\nhttps://github.com/RomanSartakov/sdo_mm\nhttps://rabota.ktsf.ru/vacancies\n\nОбразование\nУровень\nВысшее образование\nSkypro (крупнейшая платформа онлайн-обучения)\nWeb-разработчик\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

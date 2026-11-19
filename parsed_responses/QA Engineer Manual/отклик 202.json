@@ -1,0 +1,213 @@
+{
+  "candidate_id": 202,
+  "resume_title": "Тестировщик",
+  "cover_letter": null,
+  "experience_total_months": 52,
+  "similar_experience_months": 52,
+  "work_experience": [
+    {
+      "start_date": "2022-07",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 52,
+      "organization": "Организация 1",
+      "position": "Тестировщик",
+      "employer_details": [],
+      "description": "Проект: Wasd (Стриминговый сервис) и КИОН (Онлайн кинотеатр)\nОбязанности:\n- Тестирование требования\n- Создание и ведение тестовой документации (Чек-листы, Тест-кейсы, Баг-репорты) в TestOps, Qase, GitLab\n- Выполнение функционального, нефункционального тестирования\nweb приложения (соотношение Frontend/backend 40/60)\n- Тестирование REST API с помощью Postman, Swagger\n- Тестирование работу брокеров сообщений (Kafka)\n- Работа по CI/CD в Git actions\n- Тестирование UX/UI с помощью Devtools, PerfectPixel, LightHouse\n- Работа с БД (PostgreSQL)\n- Работа с Docker (Работа с локальным окружением)\nПроект: Юрент (Кикшеринг)\nОбязанности:\n- Тестирование мобильного приложения\n- Работа в Android Studio\n- Работа в Logcat\n- Тестирование бизнес логики, требований\n- Тестирование API\nКарьерные достижения:\n- Создал более 500 тест-кейсов для сложной системы\n- Сократил время тестирования регресса за счёт атомарных тест-\nкейсов и чек-листов, оптимизировал ручные проверки\nВ работе использовал следующий стек:\n- Postman, Swagger, Jira, Confluence, Kibana, Sentry, GitLab, TestOps, Dbeaver, Devtools, PerfectPixel, LightHouse, Git, Android Studio.",
+      "original": "Июл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nТестировщик\nПроект: Wasd (Стриминговый сервис) и КИОН (Онлайн кинотеатр)\nОбязанности:\n- Тестирование требования\n- Создание и ведение тестовой документации (Чек-листы, Тест-кейсы, Баг-репорты) в TestOps, Qase, GitLab\n- Выполнение функционального, нефункционального тестирования\nweb приложения (соотношение Frontend/backend 40/60)\n- Тестирование REST API с помощью Postman, Swagger\n- Тестирование работу брокеров сообщений (Kafka)\n- Работа по CI/CD в Git actions\n- Тестирование UX/UI с помощью Devtools, PerfectPixel, LightHouse\n- Работа с БД (PostgreSQL)\n- Работа с Docker (Работа с локальным окружением)\nПроект: Юрент (Кикшеринг)\nОбязанности:\n- Тестирование мобильного приложения\n- Работа в Android Studio\n- Работа в Logcat\n- Тестирование бизнес логики, требований\n- Тестирование API\nКарьерные достижения:\n- Создал более 500 тест-кейсов для сложной системы\n- Сократил время тестирования регресса за счёт атомарных тест-\nкейсов и чек-листов, оптимизировал ручные проверки\nВ работе использовал следующий стек:\n- Postman, Swagger, Jira, Confluence, Kibana, Sentry, GitLab, TestOps, Dbeaver, Devtools, PerfectPixel, LightHouse, Git, Android Studio."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Функциональное тестирование",
+      "level": null,
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "Ручное тестирование",
+      "level": null,
+      "original": "Ручное тестирование"
+    },
+    {
+      "name": "Составление тестовых сценариев",
+      "level": null,
+      "original": "Составление тестовых сценариев"
+    },
+    {
+      "name": "Postman",
+      "level": null,
+      "original": "Postman"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "Kibana",
+      "level": null,
+      "original": "Kibana"
+    },
+    {
+      "name": "Тестирование API",
+      "level": null,
+      "original": "Тестирование API"
+    },
+    {
+      "name": "HTTP",
+      "level": null,
+      "original": "HTTP"
+    },
+    {
+      "name": "HTTPS",
+      "level": null,
+      "original": "HTTPS"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    },
+    {
+      "name": "JSON",
+      "level": null,
+      "original": "JSON"
+    },
+    {
+      "name": "JSON API",
+      "level": null,
+      "original": "JSON API"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "Test case",
+      "level": null,
+      "original": "Test case"
+    },
+    {
+      "name": "Devtools",
+      "level": null,
+      "original": "Devtools"
+    },
+    {
+      "name": "Jira",
+      "level": null,
+      "original": "Atlassian Jira"
+    },
+    {
+      "name": "GitLab",
+      "level": null,
+      "original": "Gitlab"
+    },
+    {
+      "name": "Тестирование",
+      "level": null,
+      "original": "Тестирование"
+    },
+    {
+      "name": "QA",
+      "level": null,
+      "original": "QA"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": null,
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "Тестирование пользовательского интерфейса",
+      "level": null,
+      "original": "Тестирование пользовательского интерфейса"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "CI/CD",
+      "level": null,
+      "original": "CI/CD"
+    },
+    {
+      "name": "Smoke-тестирование",
+      "level": null,
+      "original": "Smoke-тестирование"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "Android Studio",
+      "level": null,
+      "original": "Android Studio"
+    },
+    {
+      "name": "Тестирование Android",
+      "level": null,
+      "original": "Тестирование Android"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Привет! Я QA инженер с 3-х летним опытом в тестировании. В работе ценю отлаженные процессы и возможность профессионального развития. Обладаю позитивным мышлением и мотивирован стремлением к профессиональному росту. Буду рад присоединиться к команде профессионалов!\ntg: @gusenkovmatvey",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Самарский государственный технический университет, Самара",
+      "details": [],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Самарский государственный технический университет, Самара\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №202\nРезюме: Тестировщик",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 4 месяца\nОпыт в похожих должностях:4 года 4 месяца\nИюл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nТестировщик\nПроект: Wasd (Стриминговый сервис) и КИОН (Онлайн кинотеатр)\nОбязанности:\n- Тестирование требования\n- Создание и ведение тестовой документации (Чек-листы, Тест-кейсы, Баг-репорты) в TestOps, Qase, GitLab\n- Выполнение функционального, нефункционального тестирования\nweb приложения (соотношение Frontend/backend 40/60)\n- Тестирование REST API с помощью Postman, Swagger\n- Тестирование работу брокеров сообщений (Kafka)\n- Работа по CI/CD в Git actions\n- Тестирование UX/UI с помощью Devtools, PerfectPixel, LightHouse\n- Работа с БД (PostgreSQL)\n- Работа с Docker (Работа с локальным окружением)\nПроект: Юрент (Кикшеринг)\nОбязанности:\n- Тестирование мобильного приложения\n- Работа в Android Studio\n- Работа в Logcat\n- Тестирование бизнес логики, требований\n- Тестирование API\nКарьерные достижения:\n- Создал более 500 тест-кейсов для сложной системы\n- Сократил время тестирования регресса за счёт атомарных тест-\nкейсов и чек-листов, оптимизировал ручные проверки\nВ работе использовал следующий стек:\n- Postman, Swagger, Jira, Confluence, Kibana, Sentry, GitLab, TestOps, Dbeaver, Devtools, PerfectPixel, LightHouse, Git, Android Studio.",
+    "skills": "Функциональное тестирование\nРучное тестирование\nСоставление тестовых сценариев\nPostman\nPostgreSQL\nSQL\nKibana\nТестирование API\nHTTP\nHTTPS\nGit\nREST\nJSON\nJSON API\nAPI\nTest case\nDevtools\nAtlassian Jira\nGitlab\nТестирование\nQA\nРегрессионное тестирование\nТестирование пользовательского интерфейса\nMySQL\nCI/CD\nSmoke-тестирование\nDocker\nAndroid Studio\nТестирование Android",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Привет! Я QA инженер с 3-х летним опытом в тестировании. В работе ценю отлаженные процессы и возможность профессионального развития. Обладаю позитивным мышлением и мотивирован стремлением к профессиональному росту. Буду рад присоединиться к команде профессионалов!\ntg: @gusenkovmatvey",
+    "education": "Уровень\nВысшее образование\nСамарский государственный технический университет, Самара\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №202\nРезюме: Тестировщик\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 4 месяца\nОпыт в похожих должностях:4 года 4 месяца\nИюл 2022 -\nсейчас\n4 года 4 мес\nОрганизация 1\nТестировщик\nПроект: Wasd (Стриминговый сервис) и КИОН (Онлайн кинотеатр)\nОбязанности:\n- Тестирование требования\n- Создание и ведение тестовой документации (Чек-листы, Тест-кейсы, Баг-репорты) в TestOps, Qase, GitLab\n- Выполнение функционального, нефункционального тестирования\nweb приложения (соотношение Frontend/backend 40/60)\n- Тестирование REST API с помощью Postman, Swagger\n- Тестирование работу брокеров сообщений (Kafka)\n- Работа по CI/CD в Git actions\n- Тестирование UX/UI с помощью Devtools, PerfectPixel, LightHouse\n- Работа с БД (PostgreSQL)\n- Работа с Docker (Работа с локальным окружением)\nПроект: Юрент (Кикшеринг)\nОбязанности:\n- Тестирование мобильного приложения\n- Работа в Android Studio\n- Работа в Logcat\n- Тестирование бизнес логики, требований\n- Тестирование API\nКарьерные достижения:\n- Создал более 500 тест-кейсов для сложной системы\n- Сократил время тестирования регресса за счёт атомарных тест-\nкейсов и чек-листов, оптимизировал ручные проверки\nВ работе использовал следующий стек:\n- Postman, Swagger, Jira, Confluence, Kibana, Sentry, GitLab, TestOps, Dbeaver, Devtools, PerfectPixel, LightHouse, Git, Android Studio.\n\nНавыки\nФункциональное тестирование\nРучное тестирование\nСоставление тестовых сценариев\nPostman\nPostgreSQL\nSQL\nKibana\nТестирование API\nHTTP\nHTTPS\nGit\nREST\nJSON\nJSON API\nAPI\nTest case\nDevtools\nAtlassian Jira\nGitlab\nТестирование\nQA\nРегрессионное тестирование\nТестирование пользовательского интерфейса\nMySQL\nCI/CD\nSmoke-тестирование\nDocker\nAndroid Studio\nТестирование Android\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nПривет! Я QA инженер с 3-х летним опытом в тестировании. В работе ценю отлаженные процессы и возможность профессионального развития. Обладаю позитивным мышлением и мотивирован стремлением к профессиональному росту. Буду рад присоединиться к команде профессионалов!\ntg: @gusenkovmatvey\n\nОбразование\nУровень\nВысшее образование\nСамарский государственный технический университет, Самара\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

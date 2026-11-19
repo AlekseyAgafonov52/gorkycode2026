@@ -1,0 +1,143 @@
+{
+  "candidate_id": 277,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "Есть pet-проекты, написанные на Python, дипломная работа \"Система автоматического написания гитарной табулатуры\" в бакалавриате была полностью написана на Python. Работа включала в себя анализ и обработка звукового сигнала в режиме реального времени.\nТакже было множество проектов в рамках обучения в ВУЗе, фриланс и просто домашние проекты, написание ботов для ТГ с использованием SQL/PostgreSQL для классификации различных данных",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "PyCharm",
+      "level": "advanced",
+      "original": "PyCharm"
+    },
+    {
+      "name": "C/C++",
+      "level": "advanced",
+      "original": "C/C++"
+    },
+    {
+      "name": "SQL",
+      "level": "advanced",
+      "original": "SQL"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "original": "JavaScript"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": "advanced",
+      "original": "CSS"
+    },
+    {
+      "name": "Angular",
+      "level": "advanced",
+      "original": "Angular"
+    },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "original": "GitHub"
+    },
+    {
+      "name": "Bash",
+      "level": "intermediate",
+      "original": "Bash"
+    },
+    {
+      "name": "GitLab",
+      "level": "intermediate",
+      "original": "Gitlab"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "intermediate",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "React",
+      "level": "intermediate",
+      "original": "React"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование (Магистр)",
+  "education": [
+    {
+      "institution": "Нижегородский государственный технический университет им. Р.Е. Алексеева, Нижний Новгород",
+      "details": [
+        "ИРИТ, Информационные системы и технологии"
+      ],
+      "year": 2027,
+      "level": "Высшее образование (Магистр)",
+      "original": "Нижегородский государственный технический университет им. Р.Е. Алексеева, Нижний Новгород\nИРИТ, Информационные системы и технологии\n•\n2027\n•\nВысшее образование (Магистр)"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №277\nРезюме: Python-разработчик",
+    "cover_letter": "Есть pet-проекты, написанные на Python, дипломная работа \"Система автоматического написания гитарной табулатуры\" в бакалавриате была полностью написана на Python. Работа включала в себя анализ и обработка звукового сигнала в режиме реального времени.\nТакже было множество проектов в рамках обучения в ВУЗе, фриланс и просто домашние проекты, написание ботов для ТГ с использованием SQL/PostgreSQL для классификации различных данных",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nPython\nPyCharm\nC/C++\nSQL\nClickhouse\nJavaScript\nTypeScript\nHTML\nCSS\nAngular\nСредний уровень\nGitHub\nBash\nGitlab\nPostgreSQL\nLinux\nReact\nGit",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование (Магистр)\nНижегородский государственный технический университет им. Р.Е. Алексеева, Нижний Новгород\nИРИТ, Информационные системы и технологии\n•\n2027\n•\nВысшее образование (Магистр)",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №277\nРезюме: Python-разработчик\n\nСопроводительное письмо\nЕсть pet-проекты, написанные на Python, дипломная работа \"Система автоматического написания гитарной табулатуры\" в бакалавриате была полностью написана на Python. Работа включала в себя анализ и обработка звукового сигнала в режиме реального времени.\nТакже было множество проектов в рамках обучения в ВУЗе, фриланс и просто домашние проекты, написание ботов для ТГ с использованием SQL/PostgreSQL для классификации различных данных\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nPython\nPyCharm\nC/C++\nSQL\nClickhouse\nJavaScript\nTypeScript\nHTML\nCSS\nAngular\nСредний уровень\nGitHub\nBash\nGitlab\nPostgreSQL\nLinux\nReact\nGit\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование (Магистр)\nНижегородский государственный технический университет им. Р.Е. Алексеева, Нижний Новгород\nИРИТ, Информационные системы и технологии\n•\n2027\n•\nВысшее образование (Магистр)\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

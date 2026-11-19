@@ -1,0 +1,205 @@
+{
+  "candidate_id": 83,
+  "resume_title": "Python Backend Developer (FastAPI)",
+  "cover_letter": null,
+  "experience_total_months": 55,
+  "similar_experience_months": 39,
+  "work_experience": [
+    {
+      "start_date": "2026-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 10,
+      "organization": "Организация 1",
+      "position": "Backend Engineer, LLM/RAG",
+      "employer_details": [
+        "Москваyandex.ru/jobs/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Работаю backend-разработчиком в группе Яндекс Нейросаппорта - RAG-агента на базе Alice AI LLM, дообученного на инструкциях поддержки более чем 50 сервисов Яндекса. Продукт используется во внутренних сервисах и внешних on-premise; в опубликованных кейсах он снижал среднее время обработки обращений до 15%.\nРазрабатываю API, микросервисы и инфраструктурные компоненты RAG-платформы. Занимаюсь обработкой и оценкой диалогов, развитием пайплайнов AI-агентов, интеграциями через MCP, а также повышением наблюдаемости и безопасностью изменений в production.\nКлючевые результаты:\n- С нуля разработал систему offline A/B-сравнения RAG-трейсов на базе LLM-as-a-judge. Система сравнивает тысячи запросов из production-трафика, выполняет поэтапный diff результатов и формирует детализированные HTML-отчёты. Во время срочной замены генеративной модели выявила существенные регрессии примерно в 30% клиентских конфигураций до выката на пользователей.\n- Спроектировал устойчивый к перезапускам data pipeline, который инкрементально извлекает обновлённые диалоги Нейросаппорта из YT-таблицы со 100+ млн сообщений и отправляет их батчами на LLM-автоскоринг. Реализовал хранение прогресса по каждому чату, идемпотентную обработку и восстановление после сбоев без повторной обработки неизменившихся диалогов.\nСтек: Python 3.12, Go, FastAPI, PostgreSQL, pgvector, S3, Redis, Celery, YTsaurus, Kubernetes, MCP.\n----- ENG VERSION -----\nDeveloping backend infrastructure for Yandex Neurosupport, an Alice AI–powered RAG agent trained on support knowledge from 50+ Yandex services. Published deployments report up to 15% lower average handling time.\n- Built an LLM-as-a-judge system to compare thousands of production RAG traces, catching regressions in 30% of client configurations before an urgent model rollout.\n- Designed a retry-safe data pipeline that incrementally extracts updated Neurosupport dialogs from a 100M+ message YT source table and batches them for LLM autoscoring, with per-chat checkpoints for crash recovery.\n- Replaced hardcoded agent loops with a YAML-configured runtime and MCP services, enabling independent ML releases and configurable on-premise deployments.",
+      "original": "Янв 2026 -\nсейчас\n10 мес\nОрганизация 1\nМоскваyandex.ru/jobs/\nИнформационные технологии, системная интеграция, интернет\nBackend Engineer, LLM/RAG\nРаботаю backend-разработчиком в группе Яндекс Нейросаппорта - RAG-агента на базе Alice AI LLM, дообученного на инструкциях поддержки более чем 50 сервисов Яндекса. Продукт используется во внутренних сервисах и внешних on-premise; в опубликованных кейсах он снижал среднее время обработки обращений до 15%.\nРазрабатываю API, микросервисы и инфраструктурные компоненты RAG-платформы. Занимаюсь обработкой и оценкой диалогов, развитием пайплайнов AI-агентов, интеграциями через MCP, а также повышением наблюдаемости и безопасностью изменений в production.\nКлючевые результаты:\n- С нуля разработал систему offline A/B-сравнения RAG-трейсов на базе LLM-as-a-judge. Система сравнивает тысячи запросов из production-трафика, выполняет поэтапный diff результатов и формирует детализированные HTML-отчёты. Во время срочной замены генеративной модели выявила существенные регрессии примерно в 30% клиентских конфигураций до выката на пользователей.\n- Спроектировал устойчивый к перезапускам data pipeline, который инкрементально извлекает обновлённые диалоги Нейросаппорта из YT-таблицы со 100+ млн сообщений и отправляет их батчами на LLM-автоскоринг. Реализовал хранение прогресса по каждому чату, идемпотентную обработку и восстановление после сбоев без повторной обработки неизменившихся диалогов.\nСтек: Python 3.12, Go, FastAPI, PostgreSQL, pgvector, S3, Redis, Celery, YTsaurus, Kubernetes, MCP.\n----- ENG VERSION -----\nDeveloping backend infrastructure for Yandex Neurosupport, an Alice AI–powered RAG agent trained on support knowledge from 50+ Yandex services. Published deployments report up to 15% lower average handling time.\n- Built an LLM-as-a-judge system to compare thousands of production RAG traces, catching regressions in 30% of client configurations before an urgent model rollout.\n- Designed a retry-safe data pipeline that incrementally extracts updated Neurosupport dialogs from a 100M+ message YT source table and batches them for LLM autoscoring, with per-chat checkpoints for crash recovery.\n- Replaced hardcoded agent loops with a YAML-configured runtime and MCP services, enabling independent ML releases and configurable on-premise deployments."
+    },
+    {
+      "start_date": "2025-06",
+      "end_date": "2026-01",
+      "is_current": false,
+      "duration_months": 8,
+      "organization": "Организация 2",
+      "position": "Backend Engineer, LLM/RAG Systems",
+      "employer_details": [
+        "Новосибирск",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Работал backend-разработчиком в распределённой AI-команде «Совкомбанк Технологии», развивающей внутреннюю AI-платформу для компаний группы «Совкомбанк».\nРазрабатывал и сопровождал высоконагруженные backend-сервисы для интеграции с LLM, AI-агентов, MCP, RAG, биллинга, rate limiting и проксирования запросов к моделям. Участвовал в проектировании архитектуры, production-релизах и эксплуатации платформы.\nКлючевые результаты:\n- Перестроил синхронный LLM-прокси в асинхронный pipeline на основе outbox pattern. Разделил обработку между несколькими сервисами, связанными статусами и outbox-сообщениями. Увеличил пропускную способность примерно с 300 до 600 chat completions/min, обеспечил обработку пиков до 1 100 RPM и устранил большую часть 499/500 ошибок, возникавших из-за перегрузки и исчерпания пула подключений PostgreSQL.\n- Внедрил динамическое управление QoS для 20+ LLM-моделей. Реализовал reconcile loop, через который processor-ноды применяли изменения per-model concurrency limits в реальном времени. Команда получила возможность регулировать throughput каждой модели через административную панель без перезапуска сервисов.\n- Переработал биллинг и rate limiting асинхронного LLM-пайплайна: заменил простые счётчики запросов моделью token bucket. Решение сгладило всплески нагрузки от крупнейшего потребителя платформы примерно в 2 раза без снижения доступных ему лимитов и ухудшения пользовательского опыта.\nСтек: Python 3.12, FastAPI, PostgreSQL, RabbitMQ, Kafka, S3, Qdrant, Redis, ClickHouse, Prometheus, Kubernetes.\n----- ENG VERSION -----\nDeveloped and maintained Sovcombank Group’s internal AI platform, building backend services for LLM integrations, AI agents, MCP, RAG, billing, rate limiting, and model proxying.\n- Rebuilt a synchronous LLM proxy as an asynchronous outbox pipeline, doubling throughput from ~300 to ~600 completions/min, sustaining 1,100 RPM peaks, and eliminating most overload-related 499/500 errors.\n- Introduced real-time QoS controls for 20+ LLMs, enabling per-model throughput tuning without service restarts.\n- Reworked billing and rate limiting from plain request counters to a token-bucket model inside the asynchronous LLM pipeline. This smoothed burst traffic from the largest client by 2x without reducing their limits or degrading the user experience.",
+      "original": "Июн 2025 -\nЯнв 2026\n8 мес\nОрганизация 2\nНовосибирск\nИнформационные технологии, системная интеграция, интернет\nBackend Engineer, LLM/RAG Systems\nРаботал backend-разработчиком в распределённой AI-команде «Совкомбанк Технологии», развивающей внутреннюю AI-платформу для компаний группы «Совкомбанк».\nРазрабатывал и сопровождал высоконагруженные backend-сервисы для интеграции с LLM, AI-агентов, MCP, RAG, биллинга, rate limiting и проксирования запросов к моделям. Участвовал в проектировании архитектуры, production-релизах и эксплуатации платформы.\nКлючевые результаты:\n- Перестроил синхронный LLM-прокси в асинхронный pipeline на основе outbox pattern. Разделил обработку между несколькими сервисами, связанными статусами и outbox-сообщениями. Увеличил пропускную способность примерно с 300 до 600 chat completions/min, обеспечил обработку пиков до 1 100 RPM и устранил большую часть 499/500 ошибок, возникавших из-за перегрузки и исчерпания пула подключений PostgreSQL.\n- Внедрил динамическое управление QoS для 20+ LLM-моделей. Реализовал reconcile loop, через который processor-ноды применяли изменения per-model concurrency limits в реальном времени. Команда получила возможность регулировать throughput каждой модели через административную панель без перезапуска сервисов.\n- Переработал биллинг и rate limiting асинхронного LLM-пайплайна: заменил простые счётчики запросов моделью token bucket. Решение сгладило всплески нагрузки от крупнейшего потребителя платформы примерно в 2 раза без снижения доступных ему лимитов и ухудшения пользовательского опыта.\nСтек: Python 3.12, FastAPI, PostgreSQL, RabbitMQ, Kafka, S3, Qdrant, Redis, ClickHouse, Prometheus, Kubernetes.\n----- ENG VERSION -----\nDeveloped and maintained Sovcombank Group’s internal AI platform, building backend services for LLM integrations, AI agents, MCP, RAG, billing, rate limiting, and model proxying.\n- Rebuilt a synchronous LLM proxy as an asynchronous outbox pipeline, doubling throughput from ~300 to ~600 completions/min, sustaining 1,100 RPM peaks, and eliminating most overload-related 499/500 errors.\n- Introduced real-time QoS controls for 20+ LLMs, enabling per-model throughput tuning without service restarts.\n- Reworked billing and rate limiting from plain request counters to a token-bucket model inside the asynchronous LLM pipeline. This smoothed burst traffic from the largest client by 2x without reducing their limits or degrading the user experience."
+    },
+    {
+      "start_date": "2024-02",
+      "end_date": "2025-06",
+      "is_current": false,
+      "duration_months": 17,
+      "organization": "Организация 3",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Новосибирскledas.com/ru/",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Работал в Ledas над заказной разработкой внутренней ERP-платформы для Fuji - сети из 20+ ресторанов и delivery kitchens. Система состояла из основного монолита и связанных с ним микросервисов, взаимодействующих через REST API и RabbitMQ. Совмещал backend-разработку с обязанностями тимлида.\nКлючевые результаты:\n- Руководил разработкой и поставкой SLA, CRM, Telegram-бота, файлового сервиса и базы знаний с командой из 7 человек. Участвовал в backend-разработке, планировании, демонстрациях, найме и выводе модулей в production.\n- Спроектировал и разработал файловый микросервис, управляющий полным жизненным циклом файлов через presigned S3 URLs - от загрузки до очистки. Сервис публиковал в RabbitMQ события об удалении неподтверждённых файлов, на которые реагировали другие модули системы, включая базу знаний.\nСтек: Python 3.11, FastAPI, SQLAlchemy, PostgreSQL, RabbitMQ, Celery, Redis, S3, Kubernetes, Docker, Vue 3.\n----- ENG VERSION -----\nLed backend development of an internal ERP platform for Fuji, a client operating a network of 20+ restaurants and delivery kitchens, focusing on business modules and integrations.\n- Built a file management microservice that handled the full file lifecycle through presigned S3 URLs, from upload to cleanup. It also published RabbitMQ events for unconfirmed file deletion, allowing other modules, such as the knowledge base, to react to file lifecycle changes.\n- Led delivery of SLA, CRM, Telegram bot, file management, and knowledge base modules with a 7-person team, working across backend development, planning, demos, hiring, and production rollout.",
+      "original": "Фев 2024 -\nИюн 2025\n1 год 5 мес\nОрганизация 3\nНовосибирскledas.com/ru/\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРаботал в Ledas над заказной разработкой внутренней ERP-платформы для Fuji - сети из 20+ ресторанов и delivery kitchens. Система состояла из основного монолита и связанных с ним микросервисов, взаимодействующих через REST API и RabbitMQ. Совмещал backend-разработку с обязанностями тимлида.\nКлючевые результаты:\n- Руководил разработкой и поставкой SLA, CRM, Telegram-бота, файлового сервиса и базы знаний с командой из 7 человек. Участвовал в backend-разработке, планировании, демонстрациях, найме и выводе модулей в production.\n- Спроектировал и разработал файловый микросервис, управляющий полным жизненным циклом файлов через presigned S3 URLs - от загрузки до очистки. Сервис публиковал в RabbitMQ события об удалении неподтверждённых файлов, на которые реагировали другие модули системы, включая базу знаний.\nСтек: Python 3.11, FastAPI, SQLAlchemy, PostgreSQL, RabbitMQ, Celery, Redis, S3, Kubernetes, Docker, Vue 3.\n----- ENG VERSION -----\nLed backend development of an internal ERP platform for Fuji, a client operating a network of 20+ restaurants and delivery kitchens, focusing on business modules and integrations.\n- Built a file management microservice that handled the full file lifecycle through presigned S3 URLs, from upload to cleanup. It also published RabbitMQ events for unconfirmed file deletion, allowing other modules, such as the knowledge base, to react to file lifecycle changes.\n- Led delivery of SLA, CRM, Telegram bot, file management, and knowledge base modules with a 7-person team, working across backend development, planning, demos, hiring, and production rollout."
+    },
+    {
+      "start_date": "2022-04",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 23,
+      "organization": "Организация 4",
+      "position": "Python Backend Developer",
+      "employer_details": [
+        "Новосибирск",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Работал над Python backend-сервисами для геоинженерного приложения, используемого при сопровождении бурения скважин. Отвечал за обработку геологических данных, преобразование поверхностей, вычислительную логику и интеграцию с legacy .NET-клиентом. Разрабатывал несколько микросервисов в команде из 9 человек, включая двух Python-разработчиков.\nКлючевые результаты:\n- Разработал API-конвертер геологоразведочных данных: реализовал парсинг слабо документированного формата GRDECL и преобразование данных в формат десктопного приложения.\n- Интегрировал backend API с legacy .NET-клиентом, параллельно рефакторя связанный код, и реализовал алгоритм выравнивания геологических поверхностей на базе FastTree.\nСтек: Python 3.11, FastAPI, SQLAlchemy, PostgreSQL, Docker, .NET.\n----- ENG VERSION -----\nDeveloped Python backend services for a geospatial engineering application used in well drilling support.\n- Built an API converter for geological data, parsing the poorly documented GRDECL format and preparing it for the desktop client.\n- Integrated backend APIs with a legacy .NET desktop client, refactored related code, and implemented FastTree-based surface alignment logic.",
+      "original": "Апр 2022 -\nФев 2024\n1 год 11 мес\nОрганизация 4\nНовосибирск\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРаботал над Python backend-сервисами для геоинженерного приложения, используемого при сопровождении бурения скважин. Отвечал за обработку геологических данных, преобразование поверхностей, вычислительную логику и интеграцию с legacy .NET-клиентом. Разрабатывал несколько микросервисов в команде из 9 человек, включая двух Python-разработчиков.\nКлючевые результаты:\n- Разработал API-конвертер геологоразведочных данных: реализовал парсинг слабо документированного формата GRDECL и преобразование данных в формат десктопного приложения.\n- Интегрировал backend API с legacy .NET-клиентом, параллельно рефакторя связанный код, и реализовал алгоритм выравнивания геологических поверхностей на базе FastTree.\nСтек: Python 3.11, FastAPI, SQLAlchemy, PostgreSQL, Docker, .NET.\n----- ENG VERSION -----\nDeveloped Python backend services for a geospatial engineering application used in well drilling support.\n- Built an API converter for geological data, parsing the poorly documented GRDECL format and preparing it for the desktop client.\n- Integrated backend APIs with a legacy .NET desktop client, refactored related code, and implemented FastTree-based surface alignment logic."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "TypeScript",
+      "level": "advanced",
+      "original": "TypeScript"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "advanced",
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Docker",
+      "level": "advanced",
+      "original": "Docker"
+    },
+    {
+      "name": "Go",
+      "level": "advanced",
+      "original": "Go"
+    },
+    {
+      "name": "Celery",
+      "level": "advanced",
+      "original": "Celery"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": "advanced",
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "Vue.js",
+      "level": "advanced",
+      "original": "Vue.js"
+    },
+    {
+      "name": "Redis",
+      "level": "advanced",
+      "original": "Redis"
+    },
+    {
+      "name": "FastAPI",
+      "level": "advanced",
+      "original": "FastAPI"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "original": "Kubernetes"
+    },
+    {
+      "name": "gRPC",
+      "level": "advanced",
+      "original": "gRPC"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "advanced",
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "Sentry",
+      "level": "advanced",
+      "original": "Sentry"
+    },
+    {
+      "name": "Helm",
+      "level": "advanced",
+      "original": "Helm"
+    },
+    {
+      "name": "Prometheus",
+      "level": "advanced",
+      "original": "Prometheus"
+    },
+    {
+      "name": "Qdrant",
+      "level": "advanced",
+      "original": "Qdrant"
+    },
+    {
+      "name": "Clickhouse",
+      "level": "advanced",
+      "original": "Clickhouse"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "Backend-инженер с 4+ годами опыта на Python и Go, специализируюсь на production-системах для LLM/RAG: высоконагруженных микросервисах, асинхронных пайплайнах, AI-агентах и MCP-интеграциях. Участвую в проектировании архитектуры и code review, руководил поставкой модулей с командой из 7 человек.\n23 years old | 4+ years of professional experience as Backend Engineer | Wide experience in AI-powered and enterprise systems | English B2, Russian Native\nTelegram: https://t.me/infanasotku\nPhone: +79236804121\nEmail: infanasotku@gmail.com",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Новосибирский государственный университет",
+      "details": [
+        "Механико-математический, Математика. Компьютерные науки"
+      ],
+      "year": 2025,
+      "level": "Высшее образование",
+      "original": "Новосибирский государственный университет\nМеханико-математический, Математика. Компьютерные науки\n•\n2025\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №83\nРезюме: Python Backend Developer (FastAPI)",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 4 года 7 месяцев\nОпыт в похожих должностях:3 года 3 месяца\nЯнв 2026 -\nсейчас\n10 мес\nОрганизация 1\nМоскваyandex.ru/jobs/\nИнформационные технологии, системная интеграция, интернет\nBackend Engineer, LLM/RAG\nРаботаю backend-разработчиком в группе Яндекс Нейросаппорта - RAG-агента на базе Alice AI LLM, дообученного на инструкциях поддержки более чем 50 сервисов Яндекса. Продукт используется во внутренних сервисах и внешних on-premise; в опубликованных кейсах он снижал среднее время обработки обращений до 15%.\nРазрабатываю API, микросервисы и инфраструктурные компоненты RAG-платформы. Занимаюсь обработкой и оценкой диалогов, развитием пайплайнов AI-агентов, интеграциями через MCP, а также повышением наблюдаемости и безопасностью изменений в production.\nКлючевые результаты:\n- С нуля разработал систему offline A/B-сравнения RAG-трейсов на базе LLM-as-a-judge. Система сравнивает тысячи запросов из production-трафика, выполняет поэтапный diff результатов и формирует детализированные HTML-отчёты. Во время срочной замены генеративной модели выявила существенные регрессии примерно в 30% клиентских конфигураций до выката на пользователей.\n- Спроектировал устойчивый к перезапускам data pipeline, который инкрементально извлекает обновлённые диалоги Нейросаппорта из YT-таблицы со 100+ млн сообщений и отправляет их батчами на LLM-автоскоринг. Реализовал хранение прогресса по каждому чату, идемпотентную обработку и восстановление после сбоев без повторной обработки неизменившихся диалогов.\nСтек: Python 3.12, Go, FastAPI, PostgreSQL, pgvector, S3, Redis, Celery, YTsaurus, Kubernetes, MCP.\n----- ENG VERSION -----\nDeveloping backend infrastructure for Yandex Neurosupport, an Alice AI–powered RAG agent trained on support knowledge from 50+ Yandex services. Published deployments report up to 15% lower average handling time.\n- Built an LLM-as-a-judge system to compare thousands of production RAG traces, catching regressions in 30% of client configurations before an urgent model rollout.\n- Designed a retry-safe data pipeline that incrementally extracts updated Neurosupport dialogs from a 100M+ message YT source table and batches them for LLM autoscoring, with per-chat checkpoints for crash recovery.\n- Replaced hardcoded agent loops with a YAML-configured runtime and MCP services, enabling independent ML releases and configurable on-premise deployments.\nИюн 2025 -\nЯнв 2026\n8 мес\nОрганизация 2\nНовосибирск\nИнформационные технологии, системная интеграция, интернет\nBackend Engineer, LLM/RAG Systems\nРаботал backend-разработчиком в распределённой AI-команде «Совкомбанк Технологии», развивающей внутреннюю AI-платформу для компаний группы «Совкомбанк».\nРазрабатывал и сопровождал высоконагруженные backend-сервисы для интеграции с LLM, AI-агентов, MCP, RAG, биллинга, rate limiting и проксирования запросов к моделям. Участвовал в проектировании архитектуры, production-релизах и эксплуатации платформы.\nКлючевые результаты:\n- Перестроил синхронный LLM-прокси в асинхронный pipeline на основе outbox pattern. Разделил обработку между несколькими сервисами, связанными статусами и outbox-сообщениями. Увеличил пропускную способность примерно с 300 до 600 chat completions/min, обеспечил обработку пиков до 1 100 RPM и устранил большую часть 499/500 ошибок, возникавших из-за перегрузки и исчерпания пула подключений PostgreSQL.\n- Внедрил динамическое управление QoS для 20+ LLM-моделей. Реализовал reconcile loop, через который processor-ноды применяли изменения per-model concurrency limits в реальном времени. Команда получила возможность регулировать throughput каждой модели через административную панель без перезапуска сервисов.\n- Переработал биллинг и rate limiting асинхронного LLM-пайплайна: заменил простые счётчики запросов моделью token bucket. Решение сгладило всплески нагрузки от крупнейшего потребителя платформы примерно в 2 раза без снижения доступных ему лимитов и ухудшения пользовательского опыта.\nСтек: Python 3.12, FastAPI, PostgreSQL, RabbitMQ, Kafka, S3, Qdrant, Redis, ClickHouse, Prometheus, Kubernetes.\n----- ENG VERSION -----\nDeveloped and maintained Sovcombank Group’s internal AI platform, building backend services for LLM integrations, AI agents, MCP, RAG, billing, rate limiting, and model proxying.\n- Rebuilt a synchronous LLM proxy as an asynchronous outbox pipeline, doubling throughput from ~300 to ~600 completions/min, sustaining 1,100 RPM peaks, and eliminating most overload-related 499/500 errors.\n- Introduced real-time QoS controls for 20+ LLMs, enabling per-model throughput tuning without service restarts.\n- Reworked billing and rate limiting from plain request counters to a token-bucket model inside the asynchronous LLM pipeline. This smoothed burst traffic from the largest client by 2x without reducing their limits or degrading the user experience.\nФев 2024 -\nИюн 2025\n1 год 5 мес\nОрганизация 3\nНовосибирскledas.com/ru/\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРаботал в Ledas над заказной разработкой внутренней ERP-платформы для Fuji - сети из 20+ ресторанов и delivery kitchens. Система состояла из основного монолита и связанных с ним микросервисов, взаимодействующих через REST API и RabbitMQ. Совмещал backend-разработку с обязанностями тимлида.\nКлючевые результаты:\n- Руководил разработкой и поставкой SLA, CRM, Telegram-бота, файлового сервиса и базы знаний с командой из 7 человек. Участвовал в backend-разработке, планировании, демонстрациях, найме и выводе модулей в production.\n- Спроектировал и разработал файловый микросервис, управляющий полным жизненным циклом файлов через presigned S3 URLs - от загрузки до очистки. Сервис публиковал в RabbitMQ события об удалении неподтверждённых файлов, на которые реагировали другие модули системы, включая базу знаний.\nСтек: Python 3.11, FastAPI, SQLAlchemy, PostgreSQL, RabbitMQ, Celery, Redis, S3, Kubernetes, Docker, Vue 3.\n----- ENG VERSION -----\nLed backend development of an internal ERP platform for Fuji, a client operating a network of 20+ restaurants and delivery kitchens, focusing on business modules and integrations.\n- Built a file management microservice that handled the full file lifecycle through presigned S3 URLs, from upload to cleanup. It also published RabbitMQ events for unconfirmed file deletion, allowing other modules, such as the knowledge base, to react to file lifecycle changes.\n- Led delivery of SLA, CRM, Telegram bot, file management, and knowledge base modules with a 7-person team, working across backend development, planning, demos, hiring, and production rollout.\nАпр 2022 -\nФев 2024\n1 год 11 мес\nОрганизация 4\nНовосибирск\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРаботал над Python backend-сервисами для геоинженерного приложения, используемого при сопровождении бурения скважин. Отвечал за обработку геологических данных, преобразование поверхностей, вычислительную логику и интеграцию с legacy .NET-клиентом. Разрабатывал несколько микросервисов в команде из 9 человек, включая двух Python-разработчиков.\nКлючевые результаты:\n- Разработал API-конвертер геологоразведочных данных: реализовал парсинг слабо документированного формата GRDECL и преобразование данных в формат десктопного приложения.\n- Интегрировал backend API с legacy .NET-клиентом, параллельно рефакторя связанный код, и реализовал алгоритм выравнивания геологических поверхностей на базе FastTree.\nСтек: Python 3.11, FastAPI, SQLAlchemy, PostgreSQL, Docker, .NET.\n----- ENG VERSION -----\nDeveloped Python backend services for a geospatial engineering application used in well drilling support.\n- Built an API converter for geological data, parsing the poorly documented GRDECL format and preparing it for the desktop client.\n- Integrated backend APIs with a legacy .NET desktop client, refactored related code, and implemented FastTree-based surface alignment logic.",
+    "skills": "Продвинутый уровень\nPython\nTypeScript\nPostgreSQL\nDocker\nGo\nCelery\nRabbitMQ\nVue.js\nRedis\nFastAPI\nKubernetes\ngRPC\nApache Kafka\nSentry\nHelm\nPrometheus\nQdrant\nClickhouse",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "Backend-инженер с 4+ годами опыта на Python и Go, специализируюсь на production-системах для LLM/RAG: высоконагруженных микросервисах, асинхронных пайплайнах, AI-агентах и MCP-интеграциях. Участвую в проектировании архитектуры и code review, руководил поставкой модулей с командой из 7 человек.\n23 years old | 4+ years of professional experience as Backend Engineer | Wide experience in AI-powered and enterprise systems | English B2, Russian Native\nTelegram: https://t.me/infanasotku\nPhone: +79236804121\nEmail: infanasotku@gmail.com",
+    "education": "Уровень\nВысшее образование\nНовосибирский государственный университет\nМеханико-математический, Математика. Компьютерные науки\n•\n2025\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №83\nРезюме: Python Backend Developer (FastAPI)\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 4 года 7 месяцев\nОпыт в похожих должностях:3 года 3 месяца\nЯнв 2026 -\nсейчас\n10 мес\nОрганизация 1\nМоскваyandex.ru/jobs/\nИнформационные технологии, системная интеграция, интернет\nBackend Engineer, LLM/RAG\nРаботаю backend-разработчиком в группе Яндекс Нейросаппорта - RAG-агента на базе Alice AI LLM, дообученного на инструкциях поддержки более чем 50 сервисов Яндекса. Продукт используется во внутренних сервисах и внешних on-premise; в опубликованных кейсах он снижал среднее время обработки обращений до 15%.\nРазрабатываю API, микросервисы и инфраструктурные компоненты RAG-платформы. Занимаюсь обработкой и оценкой диалогов, развитием пайплайнов AI-агентов, интеграциями через MCP, а также повышением наблюдаемости и безопасностью изменений в production.\nКлючевые результаты:\n- С нуля разработал систему offline A/B-сравнения RAG-трейсов на базе LLM-as-a-judge. Система сравнивает тысячи запросов из production-трафика, выполняет поэтапный diff результатов и формирует детализированные HTML-отчёты. Во время срочной замены генеративной модели выявила существенные регрессии примерно в 30% клиентских конфигураций до выката на пользователей.\n- Спроектировал устойчивый к перезапускам data pipeline, который инкрементально извлекает обновлённые диалоги Нейросаппорта из YT-таблицы со 100+ млн сообщений и отправляет их батчами на LLM-автоскоринг. Реализовал хранение прогресса по каждому чату, идемпотентную обработку и восстановление после сбоев без повторной обработки неизменившихся диалогов.\nСтек: Python 3.12, Go, FastAPI, PostgreSQL, pgvector, S3, Redis, Celery, YTsaurus, Kubernetes, MCP.\n----- ENG VERSION -----\nDeveloping backend infrastructure for Yandex Neurosupport, an Alice AI–powered RAG agent trained on support knowledge from 50+ Yandex services. Published deployments report up to 15% lower average handling time.\n- Built an LLM-as-a-judge system to compare thousands of production RAG traces, catching regressions in 30% of client configurations before an urgent model rollout.\n- Designed a retry-safe data pipeline that incrementally extracts updated Neurosupport dialogs from a 100M+ message YT source table and batches them for LLM autoscoring, with per-chat checkpoints for crash recovery.\n- Replaced hardcoded agent loops with a YAML-configured runtime and MCP services, enabling independent ML releases and configurable on-premise deployments.\nИюн 2025 -\nЯнв 2026\n8 мес\nОрганизация 2\nНовосибирск\nИнформационные технологии, системная интеграция, интернет\nBackend Engineer, LLM/RAG Systems\nРаботал backend-разработчиком в распределённой AI-команде «Совкомбанк Технологии», развивающей внутреннюю AI-платформу для компаний группы «Совкомбанк».\nРазрабатывал и сопровождал высоконагруженные backend-сервисы для интеграции с LLM, AI-агентов, MCP, RAG, биллинга, rate limiting и проксирования запросов к моделям. Участвовал в проектировании архитектуры, production-релизах и эксплуатации платформы.\nКлючевые результаты:\n- Перестроил синхронный LLM-прокси в асинхронный pipeline на основе outbox pattern. Разделил обработку между несколькими сервисами, связанными статусами и outbox-сообщениями. Увеличил пропускную способность примерно с 300 до 600 chat completions/min, обеспечил обработку пиков до 1 100 RPM и устранил большую часть 499/500 ошибок, возникавших из-за перегрузки и исчерпания пула подключений PostgreSQL.\n- Внедрил динамическое управление QoS для 20+ LLM-моделей. Реализовал reconcile loop, через который processor-ноды применяли изменения per-model concurrency limits в реальном времени. Команда получила возможность регулировать throughput каждой модели через административную панель без перезапуска сервисов.\n- Переработал биллинг и rate limiting асинхронного LLM-пайплайна: заменил простые счётчики запросов моделью token bucket. Решение сгладило всплески нагрузки от крупнейшего потребителя платформы примерно в 2 раза без снижения доступных ему лимитов и ухудшения пользовательского опыта.\nСтек: Python 3.12, FastAPI, PostgreSQL, RabbitMQ, Kafka, S3, Qdrant, Redis, ClickHouse, Prometheus, Kubernetes.\n----- ENG VERSION -----\nDeveloped and maintained Sovcombank Group’s internal AI platform, building backend services for LLM integrations, AI agents, MCP, RAG, billing, rate limiting, and model proxying.\n- Rebuilt a synchronous LLM proxy as an asynchronous outbox pipeline, doubling throughput from ~300 to ~600 completions/min, sustaining 1,100 RPM peaks, and eliminating most overload-related 499/500 errors.\n- Introduced real-time QoS controls for 20+ LLMs, enabling per-model throughput tuning without service restarts.\n- Reworked billing and rate limiting from plain request counters to a token-bucket model inside the asynchronous LLM pipeline. This smoothed burst traffic from the largest client by 2x without reducing their limits or degrading the user experience.\nФев 2024 -\nИюн 2025\n1 год 5 мес\nОрганизация 3\nНовосибирскledas.com/ru/\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРаботал в Ledas над заказной разработкой внутренней ERP-платформы для Fuji - сети из 20+ ресторанов и delivery kitchens. Система состояла из основного монолита и связанных с ним микросервисов, взаимодействующих через REST API и RabbitMQ. Совмещал backend-разработку с обязанностями тимлида.\nКлючевые результаты:\n- Руководил разработкой и поставкой SLA, CRM, Telegram-бота, файлового сервиса и базы знаний с командой из 7 человек. Участвовал в backend-разработке, планировании, демонстрациях, найме и выводе модулей в production.\n- Спроектировал и разработал файловый микросервис, управляющий полным жизненным циклом файлов через presigned S3 URLs - от загрузки до очистки. Сервис публиковал в RabbitMQ события об удалении неподтверждённых файлов, на которые реагировали другие модули системы, включая базу знаний.\nСтек: Python 3.11, FastAPI, SQLAlchemy, PostgreSQL, RabbitMQ, Celery, Redis, S3, Kubernetes, Docker, Vue 3.\n----- ENG VERSION -----\nLed backend development of an internal ERP platform for Fuji, a client operating a network of 20+ restaurants and delivery kitchens, focusing on business modules and integrations.\n- Built a file management microservice that handled the full file lifecycle through presigned S3 URLs, from upload to cleanup. It also published RabbitMQ events for unconfirmed file deletion, allowing other modules, such as the knowledge base, to react to file lifecycle changes.\n- Led delivery of SLA, CRM, Telegram bot, file management, and knowledge base modules with a 7-person team, working across backend development, planning, demos, hiring, and production rollout.\nАпр 2022 -\nФев 2024\n1 год 11 мес\nОрганизация 4\nНовосибирск\nИнформационные технологии, системная интеграция, интернет\nPython Backend Developer\nРаботал над Python backend-сервисами для геоинженерного приложения, используемого при сопровождении бурения скважин. Отвечал за обработку геологических данных, преобразование поверхностей, вычислительную логику и интеграцию с legacy .NET-клиентом. Разрабатывал несколько микросервисов в команде из 9 человек, включая двух Python-разработчиков.\nКлючевые результаты:\n- Разработал API-конвертер геологоразведочных данных: реализовал парсинг слабо документированного формата GRDECL и преобразование данных в формат десктопного приложения.\n- Интегрировал backend API с legacy .NET-клиентом, параллельно рефакторя связанный код, и реализовал алгоритм выравнивания геологических поверхностей на базе FastTree.\nСтек: Python 3.11, FastAPI, SQLAlchemy, PostgreSQL, Docker, .NET.\n----- ENG VERSION -----\nDeveloped Python backend services for a geospatial engineering application used in well drilling support.\n- Built an API converter for geological data, parsing the poorly documented GRDECL format and preparing it for the desktop client.\n- Integrated backend APIs with a legacy .NET desktop client, refactored related code, and implemented FastTree-based surface alignment logic.\n\nНавыки\nПродвинутый уровень\nPython\nTypeScript\nPostgreSQL\nDocker\nGo\nCelery\nRabbitMQ\nVue.js\nRedis\nFastAPI\nKubernetes\ngRPC\nApache Kafka\nSentry\nHelm\nPrometheus\nQdrant\nClickhouse\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nBackend-инженер с 4+ годами опыта на Python и Go, специализируюсь на production-системах для LLM/RAG: высоконагруженных микросервисах, асинхронных пайплайнах, AI-агентах и MCP-интеграциях. Участвую в проектировании архитектуры и code review, руководил поставкой модулей с командой из 7 человек.\n23 years old | 4+ years of professional experience as Backend Engineer | Wide experience in AI-powered and enterprise systems | English B2, Russian Native\nTelegram: https://t.me/infanasotku\nPhone: +79236804121\nEmail: infanasotku@gmail.com\n\nОбразование\nУровень\nВысшее образование\nНовосибирский государственный университет\nМеханико-математический, Математика. Компьютерные науки\n•\n2025\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

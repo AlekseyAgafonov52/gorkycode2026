@@ -1,0 +1,206 @@
+{
+  "candidate_id": 81,
+  "resume_title": "Python full-stack# Developer",
+  "cover_letter": null,
+  "experience_total_months": 43,
+  "similar_experience_months": 43,
+  "work_experience": [
+    {
+      "start_date": "2023-04",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 43,
+      "organization": "Организация 1",
+      "position": "Программист Python",
+      "employer_details": [
+        "fiver.com"
+      ],
+      "description": "Telegram-боты | Веб-скрапинг | Django",
+      "original": "Апр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nfiver.com\nПрограммист Python\nTelegram-боты | Веб-скрапинг | Django"
+    },
+    {
+      "start_date": "2024-10",
+      "end_date": "2025-02",
+      "is_current": false,
+      "duration_months": 5,
+      "organization": "Организация 2",
+      "position": "Python full-stack developer",
+      "employer_details": [
+        "Москва",
+        "СМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование"
+      ],
+      "description": "Я отвечал за полный цикл разработки и сопровождения веб-приложений на Python и Django. В мои обязанности входило:\nПроектирование и реализация backend-логики на Django и Django REST Framework, включая построение API, настройку сериализаторов, представлений и маршрутов.\nРазработка и сопровождение моделей данных с использованием Django ORM, оптимизация запросов, миграции, индексация.\nИнтеграция с внешними сервисами (SMS, email, платёжные шлюзы, сторонние API).\nРеализация frontend-части с использованием JavaScript (чистый JS, иногда с фреймворками) и Django templates.\nУпаковка проекта в Docker-контейнеры, написание Dockerfile и docker-compose конфигураций.\nОрганизация и автоматизация деплоя на сервер (Git, SSH, systemd, crontab).\nНастройка и конфигурация Nginx как обратного прокси-сервера для Django-приложений.\nОбработка логов, мониторинг, устранение ошибок, обеспечение стабильности работы в продакшене.\nРабота с PostgreSQL, Redis, Celery (фоновая обработка задач).\nсайт https://myplinko.site/",
+      "original": "Окт 2024 -\nФев 2025\n5 мес\nОрганизация 2\nМосква\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nPython full-stack developer\nЯ отвечал за полный цикл разработки и сопровождения веб-приложений на Python и Django. В мои обязанности входило:\nПроектирование и реализация backend-логики на Django и Django REST Framework, включая построение API, настройку сериализаторов, представлений и маршрутов.\nРазработка и сопровождение моделей данных с использованием Django ORM, оптимизация запросов, миграции, индексация.\nИнтеграция с внешними сервисами (SMS, email, платёжные шлюзы, сторонние API).\nРеализация frontend-части с использованием JavaScript (чистый JS, иногда с фреймворками) и Django templates.\nУпаковка проекта в Docker-контейнеры, написание Dockerfile и docker-compose конфигураций.\nОрганизация и автоматизация деплоя на сервер (Git, SSH, systemd, crontab).\nНастройка и конфигурация Nginx как обратного прокси-сервера для Django-приложений.\nОбработка логов, мониторинг, устранение ошибок, обеспечение стабильности работы в продакшене.\nРабота с PostgreSQL, Redis, Celery (фоновая обработка задач).\nсайт https://myplinko.site/"
+    },
+    {
+      "start_date": "2023-05",
+      "end_date": "2024-04",
+      "is_current": false,
+      "duration_months": 12,
+      "organization": "Организация 3",
+      "position": "junior pyhon/django developer",
+      "employer_details": [
+        "Санкт-Петербург",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Поддержка и развитие CRM-системы (Trader’s Room)\nРефакторинг кода, исправление багов\nДобавление нового функционала в Django-приложение\nРабота с моделями, сериализаторами, views\nСоздание и обновление REST API\nПоддержка шаблонов и JS-интерфейсов\nНастройка Django admin\nНаписание миграций и unit-тестов",
+      "original": "Май 2023 -\nАпр 2024\n1 год\nОрганизация 3\nСанкт-Петербург\nИнформационные технологии, системная интеграция, интернет\njunior pyhon/django developer\nПоддержка и развитие CRM-системы (Trader’s Room)\nРефакторинг кода, исправление багов\nДобавление нового функционала в Django-приложение\nРабота с моделями, сериализаторами, views\nСоздание и обновление REST API\nПоддержка шаблонов и JS-интерфейсов\nНастройка Django admin\nНаписание миграций и unit-тестов"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "advanced",
+      "original": "Python"
+    },
+    {
+      "name": "ООП",
+      "level": "intermediate",
+      "original": "ООП"
+    },
+    {
+      "name": "API",
+      "level": "basic",
+      "original": "API"
+    },
+    {
+      "name": "SQL",
+      "level": "basic",
+      "original": "SQL"
+    },
+    {
+      "name": "Работоспособность",
+      "level": null,
+      "original": "Работоспособность"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "django"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "MySQL",
+      "level": null,
+      "original": "MySQL"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "HTTP",
+      "level": null,
+      "original": "HTTP"
+    },
+    {
+      "name": "Sass",
+      "level": null,
+      "original": "Sass"
+    },
+    {
+      "name": "Linux",
+      "level": null,
+      "original": "Linux"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": null,
+      "original": "RabbitMQ"
+    },
+    {
+      "name": "pandas",
+      "level": null,
+      "original": "pandas"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    },
+    {
+      "name": "Nginx",
+      "level": null,
+      "original": "Nginx"
+    },
+    {
+      "name": "Docker Compose",
+      "level": null,
+      "original": "Docker-compose"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Армянский",
+      "level": "native",
+      "description": null,
+      "original": "Армянский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    },
+    {
+      "name": "Русский",
+      "level": "C2",
+      "description": "В совершенстве",
+      "original": "Русский — C2 — В совершенстве"
+    }
+  ],
+  "about_me": "💻 Back-end разработка\nмой личный сайт https://sonicliine.com/\nРазработка серверной логики на Python с использованием Django.\nСоздание REST API с авторизацией (JWT), CSRF-защитой и валидацией.\nИнтеграция с внешними API, платёжными системами (Stripe).\nРабота с алгоритмами и структурами данных.\n⚙️ DevOps и автоматизация\nАвтоматизация развёртывания проектов с помощью Docker и Docker Compose.\nНастройка веб-серверов (Nginx), управление SSL-сертификатами (Certbot).\nНаписание shell-скриптов (sh) для автоматизации задач.\nОпыт работы в среде Linux (администрирование, деплой, настройка окружения).\n⚡ Асинхронность и очереди\nРабота с Celery и Redis для обработки фоновых задач и очередей сообщений.\nИспользование asyncio, aiohttp, httpx для асинхронных запросов и API-интеграций.\n🗄️ Базы данных\nPostgreSQL, SQLite — проектирование, оптимизация, SQL-запросы.\nИспользование ORM (Django ORM, SQLAlchemy), работа с транзакциями.\nRedis — использование как NoSQL\n📚 Фреймворки и библиотеки\nDjango, aiogram, Celery, BeautifulSoup, Selenium, pandas, openpyxl.\n🛠 Инструменты и технологии\nGit, GitHub, Docker, Linux, Nginx, Certbot, Pytest, Unittest, AJAX.\nHTML, CSS, JavaScript, Sass — базовая frontend-верстка и интерактивные элементы.\nРабота с системами контроля версий и командной разработкой.\n🤖 Дополнительно\nРазработка Telegram-ботов на aiogram и Telebot.\nСоздание и поддержка интерактивных веб-приложений.\nРазворачивание и сопровождение сайтов на продакшене.\nhttps://github.com/aroxan\nhttps://myplinko.site\n@Plinko_LotoClub_bot\nhttps://t.me/whereismymoneybot\nhttps://t.me/pumpDog_bot",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Армения, Россия",
+    "work_permit": "Беларусь, Другое, Казахстан, Кыргызстан, Россия, Узбекистан",
+    "driving": "Права категории B, D",
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №81\nРезюме: Python full-stack# Developer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Опыт работы: 3 года 7 месяцев\nОпыт в похожих должностях:3 года 7 месяцев\nАпр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nfiver.com\nПрограммист Python\nTelegram-боты | Веб-скрапинг | Django\nОкт 2024 -\nФев 2025\n5 мес\nОрганизация 2\nМосква\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nPython full-stack developer\nЯ отвечал за полный цикл разработки и сопровождения веб-приложений на Python и Django. В мои обязанности входило:\nПроектирование и реализация backend-логики на Django и Django REST Framework, включая построение API, настройку сериализаторов, представлений и маршрутов.\nРазработка и сопровождение моделей данных с использованием Django ORM, оптимизация запросов, миграции, индексация.\nИнтеграция с внешними сервисами (SMS, email, платёжные шлюзы, сторонние API).\nРеализация frontend-части с использованием JavaScript (чистый JS, иногда с фреймворками) и Django templates.\nУпаковка проекта в Docker-контейнеры, написание Dockerfile и docker-compose конфигураций.\nОрганизация и автоматизация деплоя на сервер (Git, SSH, systemd, crontab).\nНастройка и конфигурация Nginx как обратного прокси-сервера для Django-приложений.\nОбработка логов, мониторинг, устранение ошибок, обеспечение стабильности работы в продакшене.\nРабота с PostgreSQL, Redis, Celery (фоновая обработка задач).\nсайт https://myplinko.site/\nМай 2023 -\nАпр 2024\n1 год\nОрганизация 3\nСанкт-Петербург\nИнформационные технологии, системная интеграция, интернет\njunior pyhon/django developer\nПоддержка и развитие CRM-системы (Trader’s Room)\nРефакторинг кода, исправление багов\nДобавление нового функционала в Django-приложение\nРабота с моделями, сериализаторами, views\nСоздание и обновление REST API\nПоддержка шаблонов и JS-интерфейсов\nНастройка Django admin\nНаписание миграций и unit-тестов",
+    "skills": "Продвинутый уровень\nPython\nСредний уровень\nООП\nБазовый уровень\nAPI\nSQL\nУровень не указан\nРаботоспособность\ndjango\nREST\nHTML\nGit\nCSS\nMySQL\nPostgreSQL\nHTTP\nSass\nLinux\nDocker\nRabbitMQ\npandas\nRedis\nNginx\nDocker-compose\nGitHub",
+    "languages": "Родной\nАрмянский\nДругие языки\nАнглийский — A2 — Элементарный\nРусский — C2 — В совершенстве",
+    "about_me": "💻 Back-end разработка\nмой личный сайт https://sonicliine.com/\nРазработка серверной логики на Python с использованием Django.\nСоздание REST API с авторизацией (JWT), CSRF-защитой и валидацией.\nИнтеграция с внешними API, платёжными системами (Stripe).\nРабота с алгоритмами и структурами данных.\n⚙️ DevOps и автоматизация\nАвтоматизация развёртывания проектов с помощью Docker и Docker Compose.\nНастройка веб-серверов (Nginx), управление SSL-сертификатами (Certbot).\nНаписание shell-скриптов (sh) для автоматизации задач.\nОпыт работы в среде Linux (администрирование, деплой, настройка окружения).\n⚡ Асинхронность и очереди\nРабота с Celery и Redis для обработки фоновых задач и очередей сообщений.\nИспользование asyncio, aiohttp, httpx для асинхронных запросов и API-интеграций.\n🗄️ Базы данных\nPostgreSQL, SQLite — проектирование, оптимизация, SQL-запросы.\nИспользование ORM (Django ORM, SQLAlchemy), работа с транзакциями.\nRedis — использование как NoSQL\n📚 Фреймворки и библиотеки\nDjango, aiogram, Celery, BeautifulSoup, Selenium, pandas, openpyxl.\n🛠 Инструменты и технологии\nGit, GitHub, Docker, Linux, Nginx, Certbot, Pytest, Unittest, AJAX.\nHTML, CSS, JavaScript, Sass — базовая frontend-верстка и интерактивные элементы.\nРабота с системами контроля версий и командной разработкой.\n🤖 Дополнительно\nРазработка Telegram-ботов на aiogram и Telebot.\nСоздание и поддержка интерактивных веб-приложений.\nРазворачивание и сопровождение сайтов на продакшене.\nhttps://github.com/aroxan\nhttps://myplinko.site\n@Plinko_LotoClub_bot\nhttps://t.me/whereismymoneybot\nhttps://t.me/pumpDog_bot",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nАрмения, Россия\nРазрешение на работу:\nБеларусь, Другое, Казахстан, Кыргызстан, Россия, Узбекистан\nОпыт вождения:\nПрава категории B, D"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №81\nРезюме: Python full-stack# Developer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nОпыт работы: 3 года 7 месяцев\nОпыт в похожих должностях:3 года 7 месяцев\nАпр 2023 -\nсейчас\n3 года 7 мес\nОрганизация 1\nfiver.com\nПрограммист Python\nTelegram-боты | Веб-скрапинг | Django\nОкт 2024 -\nФев 2025\n5 мес\nОрганизация 2\nМосква\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nPython full-stack developer\nЯ отвечал за полный цикл разработки и сопровождения веб-приложений на Python и Django. В мои обязанности входило:\nПроектирование и реализация backend-логики на Django и Django REST Framework, включая построение API, настройку сериализаторов, представлений и маршрутов.\nРазработка и сопровождение моделей данных с использованием Django ORM, оптимизация запросов, миграции, индексация.\nИнтеграция с внешними сервисами (SMS, email, платёжные шлюзы, сторонние API).\nРеализация frontend-части с использованием JavaScript (чистый JS, иногда с фреймворками) и Django templates.\nУпаковка проекта в Docker-контейнеры, написание Dockerfile и docker-compose конфигураций.\nОрганизация и автоматизация деплоя на сервер (Git, SSH, systemd, crontab).\nНастройка и конфигурация Nginx как обратного прокси-сервера для Django-приложений.\nОбработка логов, мониторинг, устранение ошибок, обеспечение стабильности работы в продакшене.\nРабота с PostgreSQL, Redis, Celery (фоновая обработка задач).\nсайт https://myplinko.site/\nМай 2023 -\nАпр 2024\n1 год\nОрганизация 3\nСанкт-Петербург\nИнформационные технологии, системная интеграция, интернет\njunior pyhon/django developer\nПоддержка и развитие CRM-системы (Trader’s Room)\nРефакторинг кода, исправление багов\nДобавление нового функционала в Django-приложение\nРабота с моделями, сериализаторами, views\nСоздание и обновление REST API\nПоддержка шаблонов и JS-интерфейсов\nНастройка Django admin\nНаписание миграций и unit-тестов\n\nНавыки\nПродвинутый уровень\nPython\nСредний уровень\nООП\nБазовый уровень\nAPI\nSQL\nУровень не указан\nРаботоспособность\ndjango\nREST\nHTML\nGit\nCSS\nMySQL\nPostgreSQL\nHTTP\nSass\nLinux\nDocker\nRabbitMQ\npandas\nRedis\nNginx\nDocker-compose\nGitHub\n\nЯзыки\nРодной\nАрмянский\nДругие языки\nАнглийский — A2 — Элементарный\nРусский — C2 — В совершенстве\n\nОбо мне\n💻 Back-end разработка\nмой личный сайт https://sonicliine.com/\nРазработка серверной логики на Python с использованием Django.\nСоздание REST API с авторизацией (JWT), CSRF-защитой и валидацией.\nИнтеграция с внешними API, платёжными системами (Stripe).\nРабота с алгоритмами и структурами данных.\n⚙️ DevOps и автоматизация\nАвтоматизация развёртывания проектов с помощью Docker и Docker Compose.\nНастройка веб-серверов (Nginx), управление SSL-сертификатами (Certbot).\nНаписание shell-скриптов (sh) для автоматизации задач.\nОпыт работы в среде Linux (администрирование, деплой, настройка окружения).\n⚡ Асинхронность и очереди\nРабота с Celery и Redis для обработки фоновых задач и очередей сообщений.\nИспользование asyncio, aiohttp, httpx для асинхронных запросов и API-интеграций.\n🗄️ Базы данных\nPostgreSQL, SQLite — проектирование, оптимизация, SQL-запросы.\nИспользование ORM (Django ORM, SQLAlchemy), работа с транзакциями.\nRedis — использование как NoSQL\n📚 Фреймворки и библиотеки\nDjango, aiogram, Celery, BeautifulSoup, Selenium, pandas, openpyxl.\n🛠 Инструменты и технологии\nGit, GitHub, Docker, Linux, Nginx, Certbot, Pytest, Unittest, AJAX.\nHTML, CSS, JavaScript, Sass — базовая frontend-верстка и интерактивные элементы.\nРабота с системами контроля версий и командной разработкой.\n🤖 Дополнительно\nРазработка Telegram-ботов на aiogram и Telebot.\nСоздание и поддержка интерактивных веб-приложений.\nРазворачивание и сопровождение сайтов на продакшене.\nhttps://github.com/aroxan\nhttps://myplinko.site\n@Plinko_LotoClub_bot\nhttps://t.me/whereismymoneybot\nhttps://t.me/pumpDog_bot\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nАрмения, Россия\nРазрешение на работу:\nБеларусь, Другое, Казахстан, Кыргызстан, Россия, Узбекистан\nОпыт вождения:\nПрава категории B, D\n"
+}

@@ -1,0 +1,235 @@
+{
+  "candidate_id": 347,
+  "resume_title": "Fullstack QA (Python) / Инженер по тестированию / Тестировщик",
+  "cover_letter": "Более 5 лет коммерческого тестирования.\nТестировал бэкенд, веб и мобильные приложения.\nАвтоматизация на Python\nВнедрил TestIt, что сократило время подготовки тест-кейсов на 40%\nСоздал автотесты на самые используемые кейсы\nТГ @ktprofile",
+  "experience_total_months": 81,
+  "similar_experience_months": 81,
+  "work_experience": [
+    {
+      "start_date": "2021-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 68,
+      "organization": "Организация 1",
+      "position": "AQA Engineer FullStack / Тестировщик",
+      "employer_details": [
+        "Санкт-Петербургwww.firstlinesoftware.com",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Тестирование платежной логики, формирования заказов и интеграции с внешними системами.\nМикросервисная архитектура (Kafka, Docker), REST API\nАвтоматизация на Python\nСтек:\nАвтотесты: Python, PyTest, Selenium, Playwright, Requests, Allure\nИнструменты: Postman, Swagger, Charles, Kibana, Xcode, Android Studio, Jira, DevTools, Confluence, TestIt\nБазы данных: PostgreSQL, MySQL, MongoDB\nИнструменты логирования: ELK (Kibana)\nМетодологии: Scrum, Agile\nОбязанности:\n- Тестирование backend, mobile и web;\n- Написание автотестов для API (PyTest, Requests, Pydantic, Allure);\n- Написание автотестов для Web (PyTest, Selenium, Playwright, Allure);\n- Запуск автотестов в CI/CD (Jenkins);\n- Знание особенностей тестирования мобильных приложений для iOS и Android;\n- Формирование артефактов (самостоятельно или совместно с командой): тест-план, тест-кейсы, отчёт о тестировании релиза, схема зависимостей, актуализация смоук-тестов и регресс-тестов, отчётов о дефектах;\n- Сниффинг трафика с иcпользованием Charles и Fiddler;\n- Тестирование BE через Postman, Swagger;\n- Тестирование клиент-серверной архитектуры;\n- Английский на хорошем уровне, чтение-составление технической документации, участие в стендапах;\nДостижения:\nВнедрил TestIt\nСоздал автотесты на самые используемые кейсы",
+      "original": "Мар 2021 -\nсейчас\n5 лет 8 мес\nОрганизация 1\nСанкт-Петербургwww.firstlinesoftware.com\nИнформационные технологии, системная интеграция, интернет\nAQA Engineer FullStack / Тестировщик\nТестирование платежной логики, формирования заказов и интеграции с внешними системами.\nМикросервисная архитектура (Kafka, Docker), REST API\nАвтоматизация на Python\nСтек:\nАвтотесты: Python, PyTest, Selenium, Playwright, Requests, Allure\nИнструменты: Postman, Swagger, Charles, Kibana, Xcode, Android Studio, Jira, DevTools, Confluence, TestIt\nБазы данных: PostgreSQL, MySQL, MongoDB\nИнструменты логирования: ELK (Kibana)\nМетодологии: Scrum, Agile\nОбязанности:\n- Тестирование backend, mobile и web;\n- Написание автотестов для API (PyTest, Requests, Pydantic, Allure);\n- Написание автотестов для Web (PyTest, Selenium, Playwright, Allure);\n- Запуск автотестов в CI/CD (Jenkins);\n- Знание особенностей тестирования мобильных приложений для iOS и Android;\n- Формирование артефактов (самостоятельно или совместно с командой): тест-план, тест-кейсы, отчёт о тестировании релиза, схема зависимостей, актуализация смоук-тестов и регресс-тестов, отчётов о дефектах;\n- Сниффинг трафика с иcпользованием Charles и Fiddler;\n- Тестирование BE через Postman, Swagger;\n- Тестирование клиент-серверной архитектуры;\n- Английский на хорошем уровне, чтение-составление технической документации, участие в стендапах;\nДостижения:\nВнедрил TestIt\nСоздал автотесты на самые используемые кейсы"
+    },
+    {
+      "start_date": "2020-02",
+      "end_date": "2021-03",
+      "is_current": false,
+      "duration_months": 14,
+      "organization": "Организация 2",
+      "position": "QA engineer / Тестировщик",
+      "employer_details": [
+        "wellyes.ru",
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Тестирование финтех-продуктов (мобильные приложения + веб)\nСтек: Jira, DevTools, Confluence, Bash, phpMyAdmin, gRPC\nОбязанности:\n- Понимание жизненного цикла разработки ПО, техники тест-дизайна;\n- Основы тестирования мобильных приложений;\n- Знание и составление SQL-запросов (DBeaver), HTML, CSS;\n- Тестирование API (Postman, Swagger);\n- Автотесты Cucumber;\n- Использование Jira, DevTools, Confluence, Bash, phpMyAdmin;",
+      "original": "Фев 2020 -\nМар 2021\n1 год 2 мес\nОрганизация 2\nwellyes.ru\nИнформационные технологии, системная интеграция, интернет\nQA engineer / Тестировщик\nТестирование финтех-продуктов (мобильные приложения + веб)\nСтек: Jira, DevTools, Confluence, Bash, phpMyAdmin, gRPC\nОбязанности:\n- Понимание жизненного цикла разработки ПО, техники тест-дизайна;\n- Основы тестирования мобильных приложений;\n- Знание и составление SQL-запросов (DBeaver), HTML, CSS;\n- Тестирование API (Postman, Swagger);\n- Автотесты Cucumber;\n- Использование Jira, DevTools, Confluence, Bash, phpMyAdmin;"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Функциональное тестирование",
+      "level": null,
+      "original": "Функциональное тестирование"
+    },
+    {
+      "name": "Тестирование пользовательского интерфейса",
+      "level": null,
+      "original": "Тестирование пользовательского интерфейса"
+    },
+    {
+      "name": "Test case",
+      "level": null,
+      "original": "Test case"
+    },
+    {
+      "name": "QA",
+      "level": null,
+      "original": "QA"
+    },
+    {
+      "name": "API",
+      "level": null,
+      "original": "API"
+    },
+    {
+      "name": "Postman",
+      "level": null,
+      "original": "Postman"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Confluence",
+      "level": null,
+      "original": "Atlassian Confluence"
+    },
+    {
+      "name": "Ручное тестирование",
+      "level": null,
+      "original": "Ручное тестирование"
+    },
+    {
+      "name": "Scrum",
+      "level": null,
+      "original": "Scrum"
+    },
+    {
+      "name": "SOAP",
+      "level": null,
+      "original": "SOAP"
+    },
+    {
+      "name": "Интеграционное тестирование",
+      "level": null,
+      "original": "Интеграционное тестирование"
+    },
+    {
+      "name": "Тестирование мобильных приложений",
+      "level": null,
+      "original": "Тестирование мобильных приложений"
+    },
+    {
+      "name": "Тестирование",
+      "level": null,
+      "original": "Тестирование"
+    },
+    {
+      "name": "Check-list",
+      "level": null,
+      "original": "Check-list"
+    },
+    {
+      "name": "Agile",
+      "level": null,
+      "original": "Agile"
+    },
+    {
+      "name": "JSON",
+      "level": null,
+      "original": "JSON"
+    },
+    {
+      "name": "Мобильное тестирование",
+      "level": null,
+      "original": "Мобильное тестирование"
+    },
+    {
+      "name": "Manual testing",
+      "level": null,
+      "original": "Manual testing"
+    },
+    {
+      "name": "Swagger",
+      "level": null,
+      "original": "Swagger"
+    },
+    {
+      "name": "REST API",
+      "level": null,
+      "original": "REST API"
+    },
+    {
+      "name": "Нефункциональное тестирование",
+      "level": null,
+      "original": "Нефункциональное тестирование"
+    },
+    {
+      "name": "Регрессионное тестирование",
+      "level": null,
+      "original": "Регрессионное тестирование"
+    },
+    {
+      "name": "Charles Proxy",
+      "level": null,
+      "original": "Charles Proxy"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": null,
+      "original": "Apache Kafka"
+    },
+    {
+      "name": "Kibana",
+      "level": null,
+      "original": "Kibana"
+    },
+    {
+      "name": "Автоматизированное тестирование",
+      "level": null,
+      "original": "Автоматизированное тестирование"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "XPath",
+      "level": null,
+      "original": "XPath"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "C1",
+      "description": "Продвинутый",
+      "original": "Английский — C1 — Продвинутый"
+    }
+  ],
+  "about_me": "Более 5 лет коммерческого тестирования.\nТестировал бэкенд, веб и мобильные приложения.\nАвтоматизация на Python\nВнедрил TestIt, что сократило время подготовки тест-кейсов на 40%\nСоздал автотесты на самые используемые кейсы\nТГ @ktprofile",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Ростовский государственный университет, Ростов-на-Дону",
+      "details": [],
+      "year": 2010,
+      "level": "Высшее образование",
+      "original": "Ростовский государственный университет, Ростов-на-Дону\n2010\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": null,
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №347\nРезюме: Fullstack QA (Python) / Инженер по тестированию / Тестировщик",
+    "cover_letter": "Более 5 лет коммерческого тестирования.\nТестировал бэкенд, веб и мобильные приложения.\nАвтоматизация на Python\nВнедрил TestIt, что сократило время подготовки тест-кейсов на 40%\nСоздал автотесты на самые используемые кейсы\nТГ @ktprofile",
+    "experience": "Опыт работы: 6 лет 9 месяцев\nОпыт в похожих должностях:6 лет 9 месяцев\nМар 2021 -\nсейчас\n5 лет 8 мес\nОрганизация 1\nСанкт-Петербургwww.firstlinesoftware.com\nИнформационные технологии, системная интеграция, интернет\nAQA Engineer FullStack / Тестировщик\nТестирование платежной логики, формирования заказов и интеграции с внешними системами.\nМикросервисная архитектура (Kafka, Docker), REST API\nАвтоматизация на Python\nСтек:\nАвтотесты: Python, PyTest, Selenium, Playwright, Requests, Allure\nИнструменты: Postman, Swagger, Charles, Kibana, Xcode, Android Studio, Jira, DevTools, Confluence, TestIt\nБазы данных: PostgreSQL, MySQL, MongoDB\nИнструменты логирования: ELK (Kibana)\nМетодологии: Scrum, Agile\nОбязанности:\n- Тестирование backend, mobile и web;\n- Написание автотестов для API (PyTest, Requests, Pydantic, Allure);\n- Написание автотестов для Web (PyTest, Selenium, Playwright, Allure);\n- Запуск автотестов в CI/CD (Jenkins);\n- Знание особенностей тестирования мобильных приложений для iOS и Android;\n- Формирование артефактов (самостоятельно или совместно с командой): тест-план, тест-кейсы, отчёт о тестировании релиза, схема зависимостей, актуализация смоук-тестов и регресс-тестов, отчётов о дефектах;\n- Сниффинг трафика с иcпользованием Charles и Fiddler;\n- Тестирование BE через Postman, Swagger;\n- Тестирование клиент-серверной архитектуры;\n- Английский на хорошем уровне, чтение-составление технической документации, участие в стендапах;\nДостижения:\nВнедрил TestIt\nСоздал автотесты на самые используемые кейсы\nФев 2020 -\nМар 2021\n1 год 2 мес\nОрганизация 2\nwellyes.ru\nИнформационные технологии, системная интеграция, интернет\nQA engineer / Тестировщик\nТестирование финтех-продуктов (мобильные приложения + веб)\nСтек: Jira, DevTools, Confluence, Bash, phpMyAdmin, gRPC\nОбязанности:\n- Понимание жизненного цикла разработки ПО, техники тест-дизайна;\n- Основы тестирования мобильных приложений;\n- Знание и составление SQL-запросов (DBeaver), HTML, CSS;\n- Тестирование API (Postman, Swagger);\n- Автотесты Cucumber;\n- Использование Jira, DevTools, Confluence, Bash, phpMyAdmin;",
+    "skills": "Функциональное тестирование\nТестирование пользовательского интерфейса\nTest case\nQA\nAPI\nPostman\nPostgreSQL\nAtlassian Confluence\nРучное тестирование\nScrum\nSOAP\nИнтеграционное тестирование\nТестирование мобильных приложений\nТестирование\nCheck-list\nAgile\nJSON\nМобильное тестирование\nManual testing\nSwagger\nREST API\nНефункциональное тестирование\nРегрессионное тестирование\nCharles Proxy\nApache Kafka\nKibana\nАвтоматизированное тестирование\nGit\nPytest\nXPath",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый",
+    "about_me": "Более 5 лет коммерческого тестирования.\nТестировал бэкенд, веб и мобильные приложения.\nАвтоматизация на Python\nВнедрил TestIt, что сократило время подготовки тест-кейсов на 40%\nСоздал автотесты на самые используемые кейсы\nТГ @ktprofile",
+    "education": "Уровень\nВысшее образование\nРостовский государственный университет, Ростов-на-Дону\n2010\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №347\nРезюме: Fullstack QA (Python) / Инженер по тестированию / Тестировщик\n\nСопроводительное письмо\nБолее 5 лет коммерческого тестирования.\nТестировал бэкенд, веб и мобильные приложения.\nАвтоматизация на Python\nВнедрил TestIt, что сократило время подготовки тест-кейсов на 40%\nСоздал автотесты на самые используемые кейсы\nТГ @ktprofile\n\nОпыт работы\nОпыт работы: 6 лет 9 месяцев\nОпыт в похожих должностях:6 лет 9 месяцев\nМар 2021 -\nсейчас\n5 лет 8 мес\nОрганизация 1\nСанкт-Петербургwww.firstlinesoftware.com\nИнформационные технологии, системная интеграция, интернет\nAQA Engineer FullStack / Тестировщик\nТестирование платежной логики, формирования заказов и интеграции с внешними системами.\nМикросервисная архитектура (Kafka, Docker), REST API\nАвтоматизация на Python\nСтек:\nАвтотесты: Python, PyTest, Selenium, Playwright, Requests, Allure\nИнструменты: Postman, Swagger, Charles, Kibana, Xcode, Android Studio, Jira, DevTools, Confluence, TestIt\nБазы данных: PostgreSQL, MySQL, MongoDB\nИнструменты логирования: ELK (Kibana)\nМетодологии: Scrum, Agile\nОбязанности:\n- Тестирование backend, mobile и web;\n- Написание автотестов для API (PyTest, Requests, Pydantic, Allure);\n- Написание автотестов для Web (PyTest, Selenium, Playwright, Allure);\n- Запуск автотестов в CI/CD (Jenkins);\n- Знание особенностей тестирования мобильных приложений для iOS и Android;\n- Формирование артефактов (самостоятельно или совместно с командой): тест-план, тест-кейсы, отчёт о тестировании релиза, схема зависимостей, актуализация смоук-тестов и регресс-тестов, отчётов о дефектах;\n- Сниффинг трафика с иcпользованием Charles и Fiddler;\n- Тестирование BE через Postman, Swagger;\n- Тестирование клиент-серверной архитектуры;\n- Английский на хорошем уровне, чтение-составление технической документации, участие в стендапах;\nДостижения:\nВнедрил TestIt\nСоздал автотесты на самые используемые кейсы\nФев 2020 -\nМар 2021\n1 год 2 мес\nОрганизация 2\nwellyes.ru\nИнформационные технологии, системная интеграция, интернет\nQA engineer / Тестировщик\nТестирование финтех-продуктов (мобильные приложения + веб)\nСтек: Jira, DevTools, Confluence, Bash, phpMyAdmin, gRPC\nОбязанности:\n- Понимание жизненного цикла разработки ПО, техники тест-дизайна;\n- Основы тестирования мобильных приложений;\n- Знание и составление SQL-запросов (DBeaver), HTML, CSS;\n- Тестирование API (Postman, Swagger);\n- Автотесты Cucumber;\n- Использование Jira, DevTools, Confluence, Bash, phpMyAdmin;\n\nНавыки\nФункциональное тестирование\nТестирование пользовательского интерфейса\nTest case\nQA\nAPI\nPostman\nPostgreSQL\nAtlassian Confluence\nРучное тестирование\nScrum\nSOAP\nИнтеграционное тестирование\nТестирование мобильных приложений\nТестирование\nCheck-list\nAgile\nJSON\nМобильное тестирование\nManual testing\nSwagger\nREST API\nНефункциональное тестирование\nРегрессионное тестирование\nCharles Proxy\nApache Kafka\nKibana\nАвтоматизированное тестирование\nGit\nPytest\nXPath\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — C1 — Продвинутый\n\nОбо мне\nБолее 5 лет коммерческого тестирования.\nТестировал бэкенд, веб и мобильные приложения.\nАвтоматизация на Python\nВнедрил TestIt, что сократило время подготовки тест-кейсов на 40%\nСоздал автотесты на самые используемые кейсы\nТГ @ktprofile\n\nОбразование\nУровень\nВысшее образование\nРостовский государственный университет, Ростов-на-Дону\n2010\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к редким командировкам\nГражданство:\nРоссия\n"
+}

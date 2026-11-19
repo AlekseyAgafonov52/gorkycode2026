@@ -1,0 +1,122 @@
+{
+  "candidate_id": 243,
+  "resume_title": "Python Junior",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Анализ данных",
+      "level": "intermediate",
+      "original": "Анализ данных"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "Английский язык",
+      "level": "intermediate",
+      "original": "Английский язык"
+    },
+    {
+      "name": "SQL",
+      "level": "intermediate",
+      "original": "SQL"
+    },
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "HTML",
+      "level": "intermediate",
+      "original": "HTML"
+    },
+    {
+      "name": "pandas",
+      "level": "intermediate",
+      "original": "pandas"
+    },
+    {
+      "name": "Bs",
+      "level": "intermediate",
+      "original": "Bs"
+    },
+    {
+      "name": "Selenium IDE",
+      "level": "intermediate",
+      "original": "Selenium IDE"
+    },
+    {
+      "name": "Умение разбираться в чужом коде",
+      "level": "intermediate",
+      "original": "Умение разбираться в чужом коде"
+    },
+    {
+      "name": "Фреймворки",
+      "level": "intermediate",
+      "original": "Фреймворки"
+    },
+    {
+      "name": "Программирование",
+      "level": "intermediate",
+      "original": "Программирование"
+    },
+    {
+      "name": "SQLite",
+      "level": "intermediate",
+      "original": "SQLite"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Московский государственный университет им. М.В. Ломоносова, Москва",
+      "details": [
+        "Информационная Безопасность, Комплексная защита объектов информатизации"
+      ],
+      "year": 2014,
+      "level": "Высшее образование",
+      "original": "Московский государственный университет им. М.В. Ломоносова, Москва\nИнформационная Безопасность, Комплексная защита объектов информатизации\n•\n2014\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": "Нет",
+    "medical_book": "Нет"
+  },
+  "original_sections": {
+    "header": "Кандидат №243\nРезюме: Python Junior",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Средний уровень\nАнализ данных\nPython\nDjango Framework\nАнглийский язык\nSQL\nLinux\nHTML\npandas\nBs\nSelenium IDE\nУмение разбираться в чужом коде\nФреймворки\nПрограммирование\nSQLite",
+    "languages": "Родной\nРусский",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nМосковский государственный университет им. М.В. Ломоносова, Москва\nИнформационная Безопасность, Комплексная защита объектов информатизации\n•\n2014\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №243\nРезюме: Python Junior\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nСредний уровень\nАнализ данных\nPython\nDjango Framework\nАнглийский язык\nSQL\nLinux\nHTML\npandas\nBs\nSelenium IDE\nУмение разбираться в чужом коде\nФреймворки\nПрограммирование\nSQLite\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nМосковский государственный университет им. М.В. Ломоносова, Москва\nИнформационная Безопасность, Комплексная защита объектов информатизации\n•\n2014\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\nСамозанятость:\nНет\nМедкнижка:\nНет\n"
+}

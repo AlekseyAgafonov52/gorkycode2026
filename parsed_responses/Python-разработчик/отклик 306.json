@@ -1,0 +1,146 @@
+{
+  "candidate_id": 306,
+  "resume_title": "Python-разработчик",
+  "cover_letter": "здравствуйте. у меня есть опыт работы на python, FastAPI. умею работать с api, docker, celery. также умею работать с postgresql, sqlalchemy\nГотов к переезду.\nGitHub fastapi: https://github.com/1alexvlad/FastAPI-site",
+  "experience_total_months": 14,
+  "similar_experience_months": 14,
+  "work_experience": [
+    {
+      "start_date": "2025-08",
+      "end_date": "2026-09",
+      "is_current": false,
+      "duration_months": 14,
+      "organization": "Организация 1",
+      "position": "Python-разработчик",
+      "employer_details": [
+        "Ногинск (Московская область)"
+      ],
+      "description": "* Разрабатывал высокопроизводительные REST API-эндпоинты на FastAPI с использованием async await\n* Использовал Pydantic-схемы для валидации входящих, исходящих данных, включая вложенные объекты и кастомные валидаторы\n* Реализовал слой бизнес-логики через механизм внедрения зависимостей Depends: выделил сервисы для работы с БД, внешними API и кэшем.\n* Оптимизировал запросы к PostgreSQL: убрал проблему N+1, настраивал запросы с помощью EXPLAIN ANALYZE, проводил нормализацию СУБД.\n* Реализовал гибридную систему аутентификации: JWT (Access + Refresh токены) и Session-based аутентификацию, настроил защиту эндпоинтов через кастомные зависимости в FastAPI\n* Контейнеризовал приложение: писал Multi-stage Dockerfile для уменьшения production-образа, настраивал docker-compose для локальной разработки и CI-сборки",
+      "original": "Авг 2025 -\nСен 2026\n1 год 2 мес\nОрганизация 1\nНогинск (Московская область)\nPython-разработчик\n* Разрабатывал высокопроизводительные REST API-эндпоинты на FastAPI с использованием async await\n* Использовал Pydantic-схемы для валидации входящих, исходящих данных, включая вложенные объекты и кастомные валидаторы\n* Реализовал слой бизнес-логики через механизм внедрения зависимостей Depends: выделил сервисы для работы с БД, внешними API и кэшем.\n* Оптимизировал запросы к PostgreSQL: убрал проблему N+1, настраивал запросы с помощью EXPLAIN ANALYZE, проводил нормализацию СУБД.\n* Реализовал гибридную систему аутентификации: JWT (Access + Refresh токены) и Session-based аутентификацию, настроил защиту эндпоинтов через кастомные зависимости в FastAPI\n* Контейнеризовал приложение: писал Multi-stage Dockerfile для уменьшения production-образа, настраивал docker-compose для локальной разработки и CI-сборки"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "basic",
+      "original": "Python"
+    },
+    {
+      "name": "Django",
+      "level": null,
+      "original": "Django"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": null,
+      "original": "PostgreSQL"
+    },
+    {
+      "name": "Git",
+      "level": null,
+      "original": "Git"
+    },
+    {
+      "name": "Docker",
+      "level": null,
+      "original": "Docker"
+    },
+    {
+      "name": "GitHub",
+      "level": null,
+      "original": "GitHub"
+    },
+    {
+      "name": "Celery",
+      "level": null,
+      "original": "Celery"
+    },
+    {
+      "name": "SQL",
+      "level": null,
+      "original": "SQL"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "FastAPI",
+      "level": null,
+      "original": "FastAPI"
+    },
+    {
+      "name": "Pydantic",
+      "level": null,
+      "original": "Pydantic"
+    },
+    {
+      "name": "SQLAlchemy",
+      "level": null,
+      "original": "SQLAlchemy"
+    },
+    {
+      "name": "Docker Compose",
+      "level": null,
+      "original": "Docker-compose"
+    },
+    {
+      "name": "ООП",
+      "level": null,
+      "original": "ООП"
+    },
+    {
+      "name": "Django REST Framework",
+      "level": null,
+      "original": "Django Rest Framework"
+    },
+    {
+      "name": "Backend",
+      "level": null,
+      "original": "Backend"
+    },
+    {
+      "name": "pytest",
+      "level": null,
+      "original": "Pytest"
+    },
+    {
+      "name": "Redis",
+      "level": null,
+      "original": "Redis"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Стремлюсь к постоянному обучению и улучшению своих навыков, активно изучаю новые технологии и подходы в разработке. Думаю, что моя способность решать сложные задачи и работать в команде будет полезна в успешной реализации проектов.",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №306\nРезюме: Python-разработчик",
+    "cover_letter": "здравствуйте. у меня есть опыт работы на python, FastAPI. умею работать с api, docker, celery. также умею работать с postgresql, sqlalchemy\nГотов к переезду.\nGitHub fastapi: https://github.com/1alexvlad/FastAPI-site",
+    "experience": "Опыт работы: 1 год 2 месяца\nОпыт в похожих должностях:1 год 2 месяца\nАвг 2025 -\nСен 2026\n1 год 2 мес\nОрганизация 1\nНогинск (Московская область)\nPython-разработчик\n* Разрабатывал высокопроизводительные REST API-эндпоинты на FastAPI с использованием async await\n* Использовал Pydantic-схемы для валидации входящих, исходящих данных, включая вложенные объекты и кастомные валидаторы\n* Реализовал слой бизнес-логики через механизм внедрения зависимостей Depends: выделил сервисы для работы с БД, внешними API и кэшем.\n* Оптимизировал запросы к PostgreSQL: убрал проблему N+1, настраивал запросы с помощью EXPLAIN ANALYZE, проводил нормализацию СУБД.\n* Реализовал гибридную систему аутентификации: JWT (Access + Refresh токены) и Session-based аутентификацию, настроил защиту эндпоинтов через кастомные зависимости в FastAPI\n* Контейнеризовал приложение: писал Multi-stage Dockerfile для уменьшения production-образа, настраивал docker-compose для локальной разработки и CI-сборки",
+    "skills": "Базовый уровень\nPython\nУровень не указан\nDjango\nPostgreSQL\nGit\nDocker\nGitHub\nCelery\nSQL\nHTML\nFastAPI\nPydantic\nSQLAlchemy\nDocker-compose\nООП\nDjango Rest Framework\nBackend\nPytest\nRedis",
+    "languages": "Родной\nРусский",
+    "about_me": "Стремлюсь к постоянному обучению и улучшению своих навыков, активно изучаю новые технологии и подходы в разработке. Думаю, что моя способность решать сложные задачи и работать в команде будет полезна в успешной реализации проектов.",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №306\nРезюме: Python-разработчик\n\nСопроводительное письмо\nздравствуйте. у меня есть опыт работы на python, FastAPI. умею работать с api, docker, celery. также умею работать с postgresql, sqlalchemy\nГотов к переезду.\nGitHub fastapi: https://github.com/1alexvlad/FastAPI-site\n\nОпыт работы\nОпыт работы: 1 год 2 месяца\nОпыт в похожих должностях:1 год 2 месяца\nАвг 2025 -\nСен 2026\n1 год 2 мес\nОрганизация 1\nНогинск (Московская область)\nPython-разработчик\n* Разрабатывал высокопроизводительные REST API-эндпоинты на FastAPI с использованием async await\n* Использовал Pydantic-схемы для валидации входящих, исходящих данных, включая вложенные объекты и кастомные валидаторы\n* Реализовал слой бизнес-логики через механизм внедрения зависимостей Depends: выделил сервисы для работы с БД, внешними API и кэшем.\n* Оптимизировал запросы к PostgreSQL: убрал проблему N+1, настраивал запросы с помощью EXPLAIN ANALYZE, проводил нормализацию СУБД.\n* Реализовал гибридную систему аутентификации: JWT (Access + Refresh токены) и Session-based аутентификацию, настроил защиту эндпоинтов через кастомные зависимости в FastAPI\n* Контейнеризовал приложение: писал Multi-stage Dockerfile для уменьшения production-образа, настраивал docker-compose для локальной разработки и CI-сборки\n\nНавыки\nБазовый уровень\nPython\nУровень не указан\nDjango\nPostgreSQL\nGit\nDocker\nGitHub\nCelery\nSQL\nHTML\nFastAPI\nPydantic\nSQLAlchemy\nDocker-compose\nООП\nDjango Rest Framework\nBackend\nPytest\nRedis\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nСтремлюсь к постоянному обучению и улучшению своих навыков, активно изучаю новые технологии и подходы в разработке. Думаю, что моя способность решать сложные задачи и работать в команде будет полезна в успешной реализации проектов.\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

@@ -1,0 +1,137 @@
+{
+  "candidate_id": 115,
+  "resume_title": "Backend-разработчик",
+  "cover_letter": "Мечтаю у вас работать",
+  "experience_total_months": 19,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2024-09",
+      "end_date": "2026-03",
+      "is_current": false,
+      "duration_months": 19,
+      "organization": "Организация 1",
+      "position": "Инженер-программист",
+      "employer_details": [
+        "Пермь"
+      ],
+      "description": "- Основным стеком был C/C++, + stl, занимался миграцией и настройкой промышленных производств на полностью роботизированный процесс\n- Разработка и поддержка серверной части приложения на Golang и Python\n- Написание и оптимизация кода, интеграция с базами данных PostgreSQL\n- Автоматизация процессов роботизированного производства (Python-скрипты + Go-сервисы) — повысил эффективность собственных задач на 60 %, процесс получения данных от заказчика — на 35 %\n- Исправление багов, формализация и алгоритмизация задач, работа в Agile-команде\n- Развёртывание и поддержка приложений",
+      "original": "Сен 2024 -\nМар 2026\n1 год 7 мес\nОрганизация 1\nПермь\nИнженер-программист\n- Основным стеком был C/C++, + stl, занимался миграцией и настройкой промышленных производств на полностью роботизированный процесс\n- Разработка и поддержка серверной части приложения на Golang и Python\n- Написание и оптимизация кода, интеграция с базами данных PostgreSQL\n- Автоматизация процессов роботизированного производства (Python-скрипты + Go-сервисы) — повысил эффективность собственных задач на 60 %, процесс получения данных от заказчика — на 35 %\n- Исправление багов, формализация и алгоритмизация задач, работа в Agile-команде\n- Развёртывание и поддержка приложений"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Linux",
+      "level": "intermediate",
+      "original": "Linux"
+    },
+    {
+      "name": "Python",
+      "level": "intermediate",
+      "original": "Python"
+    },
+    {
+      "name": "Golang",
+      "level": "intermediate",
+      "original": "Golang"
+    },
+    {
+      "name": "Git",
+      "level": "intermediate",
+      "original": "Git"
+    },
+    {
+      "name": "Django",
+      "level": "intermediate",
+      "original": "Django Framework"
+    },
+    {
+      "name": "REST API",
+      "level": "intermediate",
+      "original": "REST API"
+    },
+    {
+      "name": "Go",
+      "level": "intermediate",
+      "original": "Go"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "original": "Docker"
+    },
+    {
+      "name": "CI/CD",
+      "level": "intermediate",
+      "original": "CI/CD"
+    },
+    {
+      "name": "SQLite",
+      "level": "intermediate",
+      "original": "SQLite"
+    },
+    {
+      "name": "Разработка ПО",
+      "level": "intermediate",
+      "original": "Разработка ПО"
+    },
+    {
+      "name": "C/C++",
+      "level": "intermediate",
+      "original": "C/C++"
+    },
+    {
+      "name": "STL",
+      "level": "intermediate",
+      "original": "STL"
+    },
+    {
+      "name": "Lua",
+      "level": "intermediate",
+      "original": "Lua"
+    },
+    {
+      "name": "Roblox",
+      "level": "intermediate",
+      "original": "Roblox"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Backend-разработчик с 1,5 годами коммерческого опыта на Python и Go. Специализируюсь на разработке REST API, WebSocket, распределённых систем и веб-приложений. В коммерческом проекте занимался серверной частью и автоматизацией роботизированного производства, оптимизировал процессы на 60 %.\nПараллельно веду личные проекты:\n• SecureDAG — production-ready P2P-хранилище на Go с клиентским шифрованием и Merkle DAG (S3-совместимый API).\n• TravelTales — полноценное Django-приложение с REST API.\nБыстро обучаюсь, отлично работаю с Docker, PostgreSQL, Agile. Ищу удалённую full-time позицию, где смогу сразу приносить пользу и расти до Middle. Готов выйти на тестовое задание в течение 1–2 дней.\nСтек технологий\n• Языки: Go (production-ready), Python (Django, FastAPI), C/C++ (коммерческий), PHP (базовый)\n• Backend: REST API / WebSocket, HTTP-серверы, S3-совместимые API\n• Базы данных: PostgreSQL, SQLite, BadgerDB\n• DevOps: Docker, Docker Compose, Git, Linux, WSL\n• Распределённые системы: Merkle DAG, P2P (DHT), клиентское шифрование (AES + RSA), репликация\n• Прочее: Agile, основы CI/CD\nКлючевые личные проекты\nSecureDAG | Go | https://github.com/Alyanaky/SecureDAG\nP2P-хранилище с клиентским шифрованием, Merkle DAG для контроля целостности и автоматической репликацией. Реализовал S3-совместимый API (PUT/GET/DELETE), квоты, self-healing, PostgreSQL + BadgerDB, Docker Compose. Production-ready решение для децентрализованного хранения.\nTravelTales | Python + Django | https://github.com/Alyanaky/TravelTales\nВеб-приложение для путешественников: создание постов, комментарии, лайки, поиск по странам и тегам. Полноценный REST API, работа с SQLite/JSON, Docker.\nVEDA OS | C | https://github.com/Alyanaky/VEDA\nМинимальная ОС (~1000 строк кода) для RISC-V на WSL. Реализовал ядро, shell и пользовательские программы.\nЯзыки\nРусский — родной\nАнглийский — B2 (чтение документации и общение без проблем)",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №115\nРезюме: Backend-разработчик",
+    "cover_letter": "Мечтаю у вас работать",
+    "experience": "Опыт работы: 1 год 7 месяцев\nСен 2024 -\nМар 2026\n1 год 7 мес\nОрганизация 1\nПермь\nИнженер-программист\n- Основным стеком был C/C++, + stl, занимался миграцией и настройкой промышленных производств на полностью роботизированный процесс\n- Разработка и поддержка серверной части приложения на Golang и Python\n- Написание и оптимизация кода, интеграция с базами данных PostgreSQL\n- Автоматизация процессов роботизированного производства (Python-скрипты + Go-сервисы) — повысил эффективность собственных задач на 60 %, процесс получения данных от заказчика — на 35 %\n- Исправление багов, формализация и алгоритмизация задач, работа в Agile-команде\n- Развёртывание и поддержка приложений",
+    "skills": "Средний уровень\nLinux\nPython\nGolang\nGit\nDjango Framework\nREST API\nGo\nDocker\nCI/CD\nSQLite\nРазработка ПО\nC/C++\nSTL\nLua\nRoblox",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Backend-разработчик с 1,5 годами коммерческого опыта на Python и Go. Специализируюсь на разработке REST API, WebSocket, распределённых систем и веб-приложений. В коммерческом проекте занимался серверной частью и автоматизацией роботизированного производства, оптимизировал процессы на 60 %.\nПараллельно веду личные проекты:\n• SecureDAG — production-ready P2P-хранилище на Go с клиентским шифрованием и Merkle DAG (S3-совместимый API).\n• TravelTales — полноценное Django-приложение с REST API.\nБыстро обучаюсь, отлично работаю с Docker, PostgreSQL, Agile. Ищу удалённую full-time позицию, где смогу сразу приносить пользу и расти до Middle. Готов выйти на тестовое задание в течение 1–2 дней.\nСтек технологий\n• Языки: Go (production-ready), Python (Django, FastAPI), C/C++ (коммерческий), PHP (базовый)\n• Backend: REST API / WebSocket, HTTP-серверы, S3-совместимые API\n• Базы данных: PostgreSQL, SQLite, BadgerDB\n• DevOps: Docker, Docker Compose, Git, Linux, WSL\n• Распределённые системы: Merkle DAG, P2P (DHT), клиентское шифрование (AES + RSA), репликация\n• Прочее: Agile, основы CI/CD\nКлючевые личные проекты\nSecureDAG | Go | https://github.com/Alyanaky/SecureDAG\nP2P-хранилище с клиентским шифрованием, Merkle DAG для контроля целостности и автоматической репликацией. Реализовал S3-совместимый API (PUT/GET/DELETE), квоты, self-healing, PostgreSQL + BadgerDB, Docker Compose. Production-ready решение для децентрализованного хранения.\nTravelTales | Python + Django | https://github.com/Alyanaky/TravelTales\nВеб-приложение для путешественников: создание постов, комментарии, лайки, поиск по странам и тегам. Полноценный REST API, работа с SQLite/JSON, Docker.\nVEDA OS | C | https://github.com/Alyanaky/VEDA\nМинимальная ОС (~1000 строк кода) для RISC-V на WSL. Реализовал ядро, shell и пользовательские программы.\nЯзыки\nРусский — родной\nАнглийский — B2 (чтение документации и общение без проблем)",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №115\nРезюме: Backend-разработчик\n\nСопроводительное письмо\nМечтаю у вас работать\n\nОпыт работы\nОпыт работы: 1 год 7 месяцев\nСен 2024 -\nМар 2026\n1 год 7 мес\nОрганизация 1\nПермь\nИнженер-программист\n- Основным стеком был C/C++, + stl, занимался миграцией и настройкой промышленных производств на полностью роботизированный процесс\n- Разработка и поддержка серверной части приложения на Golang и Python\n- Написание и оптимизация кода, интеграция с базами данных PostgreSQL\n- Автоматизация процессов роботизированного производства (Python-скрипты + Go-сервисы) — повысил эффективность собственных задач на 60 %, процесс получения данных от заказчика — на 35 %\n- Исправление багов, формализация и алгоритмизация задач, работа в Agile-команде\n- Развёртывание и поддержка приложений\n\nНавыки\nСредний уровень\nLinux\nPython\nGolang\nGit\nDjango Framework\nREST API\nGo\nDocker\nCI/CD\nSQLite\nРазработка ПО\nC/C++\nSTL\nLua\nRoblox\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nBackend-разработчик с 1,5 годами коммерческого опыта на Python и Go. Специализируюсь на разработке REST API, WebSocket, распределённых систем и веб-приложений. В коммерческом проекте занимался серверной частью и автоматизацией роботизированного производства, оптимизировал процессы на 60 %.\nПараллельно веду личные проекты:\n• SecureDAG — production-ready P2P-хранилище на Go с клиентским шифрованием и Merkle DAG (S3-совместимый API).\n• TravelTales — полноценное Django-приложение с REST API.\nБыстро обучаюсь, отлично работаю с Docker, PostgreSQL, Agile. Ищу удалённую full-time позицию, где смогу сразу приносить пользу и расти до Middle. Готов выйти на тестовое задание в течение 1–2 дней.\nСтек технологий\n• Языки: Go (production-ready), Python (Django, FastAPI), C/C++ (коммерческий), PHP (базовый)\n• Backend: REST API / WebSocket, HTTP-серверы, S3-совместимые API\n• Базы данных: PostgreSQL, SQLite, BadgerDB\n• DevOps: Docker, Docker Compose, Git, Linux, WSL\n• Распределённые системы: Merkle DAG, P2P (DHT), клиентское шифрование (AES + RSA), репликация\n• Прочее: Agile, основы CI/CD\nКлючевые личные проекты\nSecureDAG | Go | https://github.com/Alyanaky/SecureDAG\nP2P-хранилище с клиентским шифрованием, Merkle DAG для контроля целостности и автоматической репликацией. Реализовал S3-совместимый API (PUT/GET/DELETE), квоты, self-healing, PostgreSQL + BadgerDB, Docker Compose. Production-ready решение для децентрализованного хранения.\nTravelTales | Python + Django | https://github.com/Alyanaky/TravelTales\nВеб-приложение для путешественников: создание постов, комментарии, лайки, поиск по странам и тегам. Полноценный REST API, работа с SQLite/JSON, Docker.\nVEDA OS | C | https://github.com/Alyanaky/VEDA\nМинимальная ОС (~1000 строк кода) для RISC-V на WSL. Реализовал ядро, shell и пользовательские программы.\nЯзыки\nРусский — родной\nАнглийский — B2 (чтение документации и общение без проблем)\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}
