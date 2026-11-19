@@ -13,6 +13,7 @@ def main() -> None:
         ("Frontend developer", "frontend", "onsite", 1, "Vue.js", "Nuxt", 5),
         ("Junior Python-разработчик", "python", "hybrid", 1, "Python", None, 6),
         ("Junior UX_UI Дизайнер", "designer", "onsite", 0, "Figma", "Photoshop", 5),
+        ("QA Engineer Manual", "qa_manual", "onsite", 1, "Postman", "Java", 5),
     ]
     output = Path(__file__).parent / "examples"
     output.mkdir(exist_ok=True)
@@ -30,6 +31,10 @@ def main() -> None:
             assert result["organization"] == 'АНО "Аналитический центр города Нижнего Новгорода"', result
             assert result["location"] == "Нижний Новгород", result
             assert result["education"] is None, result
+            if name == "qa_manual":
+                assert {"REST API", "Postman", "Swagger", "DevTools", "SQL"} <= set(result["required_skills"]), result
+                assert {"Git", "Pixel Perfect", "Python", "Java"} <= set(result["preferred_skills"]), result
+            assert result["source_text"] == path.read_text(encoding="utf-8-sig"), result
             (output / f"{name}.json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
             print(f"{name}: API 200, format={work_format}, experience={experience}, responsibilities={duties}")
 

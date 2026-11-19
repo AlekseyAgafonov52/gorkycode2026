@@ -50,6 +50,8 @@ TECHNOLOGIES = {
     "FastAPI": r"FastAPI", "Django": r"Django",
     "Yandex DataLens": r"Yandex[. ]DataLens|DataLens",
     "Apache Airflow": r"(?:Apache\s+)?Airflow",
+    "Java": r"Java", "Postman": r"Postman", "Swagger": r"Swagger",
+    "REST API": r"REST\s+API", "Pixel Perfect": r"Pixel\s+Perfect",
 }
 PATTERNS = [(name, re.compile(r"(?<![\w])(?:" + pattern + r")(?![\w])", re.I))
             for name, pattern in TECHNOLOGIES.items()]

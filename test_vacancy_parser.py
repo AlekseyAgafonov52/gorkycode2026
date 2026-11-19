@@ -40,6 +40,17 @@ class ParserTests(unittest.TestCase):
         result = parse_vacancy('Разработчик\nУсловия:\nО компании АНО "Центр" — описание')
         self.assertEqual(result.organization, 'АНО "Центр"')
 
+    def test_qa_required_and_preferred_tools(self):
+        requirement = "Знание HTTP и тестирование REST API через Postman и Swagger"
+        preferred = "Автотесты на Python или Java, инструменты Pixel Perfect"
+        result = parse_vacancy(f"QA Engineer (Manual)\nОпыт 1–3 года\nна месте работодателя\nОбязанности:\nПроверка API через Postman\nТребования:\n{requirement}\nБудет преимуществом:\n{preferred}")
+        self.assertEqual(result.required_skills, ["REST API", "Postman", "Swagger"])
+        self.assertEqual(result.preferred_skills, ["Python", "Java", "Pixel Perfect"])
+        self.assertIn(requirement, result.original_requirements.required)
+        self.assertIn(preferred, result.original_requirements.preferred)
+        self.assertEqual(result.experience_min_years, 1)
+        self.assertEqual(result.work_format, "onsite")
+
     def test_api(self):
         with TestClient(app) as client:
             for text in ("Python Developer", "Требования:\nPython"):
