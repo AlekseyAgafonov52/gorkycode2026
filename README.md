@@ -1,5 +1,7 @@
 # Парсер вакансий
 
+Модуль ТЗ №3 — генерация уточняющих вопросов через YandexGPT: [инструкция и запуск](QUESTION_GENERATOR.md), код `question_generator.py`.
+
 Python 3.10+, Pydantic v2, FastAPI. Работает локально без LLM и внешних сервисов.
 
 ```powershell
