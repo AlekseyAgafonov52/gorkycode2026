@@ -3,12 +3,16 @@ from contextlib import asynccontextmanager
 from threading import Lock
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi.exceptions import RequestValidationError
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from sqlalchemy.exc import SQLAlchemyError
+from pydantic import ValidationError
 from starlette.concurrency import run_in_threadpool
+from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from hr_api.router import router as hr_router
-from hr_api.service import HRService
+from hr_api.service import HRService, ReportNotReadyError
 from response_parser import CandidateResponse, parse_response
 from storage.crud import NotFoundError, StaleCriteriaError
 from vacancy_parser import Vacancy, decode_txt, parse_vacancy
@@ -54,8 +58,10 @@ def create_app(service: HRService | None = None) -> FastAPI:
         if application.state.hr_engine is not None:
             await run_in_threadpool(application.state.hr_engine.dispose)
 
-    application = FastAPI(title="HR platform API", version="2.0.0", lifespan=lifespan,
-        description="Вакансии, отклики, критерии, отчёты и задачи. Сопоставление пока работает как заглушка.")
+    application = FastAPI(title="HR platform API", version="3.0.0", lifespan=lifespan,
+        description="MVP: вакансии, светофор навыков, сохранённые отчёты и вопросы из пула вакансии.")
+    application.add_middleware(CORSMiddleware, allow_origins=["http://localhost:5173"],
+        allow_methods=["GET", "POST", "PATCH", "OPTIONS"], allow_headers=["Content-Type"])
     application.state.hr_service = service
     application.state.hr_engine = None
     application.state.hr_lock = Lock()
@@ -65,22 +71,41 @@ def create_app(service: HRService | None = None) -> FastAPI:
     application.add_api_route("/api/v1/parse/response", parse_response_endpoint, methods=["POST"],
                               response_model=CandidateResponse, tags=["Парсинг"])
 
+    def error_response(status: int, code: str, message: str):
+        return JSONResponse(status_code=status, content={"error": {"code": code, "message": message}})
+
     async def missing_handler(_, error: Exception):
-        return JSONResponse(status_code=404, content={"detail": str(error)})
+        return error_response(404, "not_found", str(error))
 
     async def stale_handler(_, error: Exception):
-        return JSONResponse(status_code=409, content={"detail": str(error)})
+        return error_response(422, "validation_error", str(error))
 
     async def validation_handler(_, error: Exception):
-        return JSONResponse(status_code=422, content={"detail": str(error)})
+        return error_response(422, "validation_error", "Параметры запроса не соответствуют схеме")
 
     async def database_handler(_, _error: Exception):
-        return JSONResponse(status_code=503, content={"detail": "PostgreSQL недоступен или миграции не применены"})
+        return error_response(500, "internal_error", "PostgreSQL недоступен или миграции не применены")
+
+    async def http_handler(_, error: Exception):
+        assert isinstance(error, StarletteHTTPException)
+        code = "not_found" if error.status_code == 404 else "validation_error" if error.status_code < 500 else "internal_error"
+        return error_response(error.status_code, code, str(error.detail))
+
+    async def internal_handler(_, _error: Exception):
+        return error_response(500, "internal_error", "Не удалось выполнить запрос")
+
+    async def not_ready_handler(_, error: Exception):
+        return error_response(500, "internal_error", str(error))
 
     application.add_exception_handler(NotFoundError, missing_handler)
     application.add_exception_handler(StaleCriteriaError, stale_handler)
     application.add_exception_handler(ValueError, validation_handler)
     application.add_exception_handler(SQLAlchemyError, database_handler)
+    application.add_exception_handler(RequestValidationError, validation_handler)
+    application.add_exception_handler(StarletteHTTPException, http_handler)
+    application.add_exception_handler(ReportNotReadyError, not_ready_handler)
+    application.add_exception_handler(Exception, internal_handler)
+    application.add_exception_handler(ValidationError, internal_handler)
     return application
 
 

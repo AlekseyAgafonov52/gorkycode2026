@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 from datetime import datetime
-from typing import Literal
 from uuid import UUID
 
 from pydantic import Field, JsonValue, model_validator
+from contract_models import ContractResponse
 
-from storage.schemas import CriterionRead, Importance, MatchStatus, Schema, TaskStatus, TaskType, VacancyStatus, WorkflowStatus
+from storage.schemas import CriterionRead, Importance, Schema, TaskStatus, TaskType, VacancyStatus
 
 
 class VacancySummary(Schema):
@@ -46,65 +46,13 @@ class CriteriaResult(Schema):
     task_id: UUID | None
 
 
-class ResponseSummary(Schema):
-    id: UUID
-    candidate_name: str | None
-    match_score: float | None = Field(ge=0, le=100)
-    match_status: MatchStatus | None
-    missing_data_count: int | None
-    workflow_status: WorkflowStatus
-    is_archived: bool
-    is_stale: bool
-
-
-class CriterionAnalysis(Schema):
-    criterion_id: UUID
-    name: str
-    importance: Importance
-    status: Literal["matched", "partial", "not_matched", "unknown"]
-    evidence: list[JsonValue]
-    explanation: str | None
-
-
-class QuestionView(Schema):
-    id: UUID
-    criterion_id: UUID | None
-    requirement: str | None
-    question: str
-    expected_answer: str | None
-    follow_up_hint: str | None
-    position: int
-
-
-ReportState = Literal["not_ready", "pending", "processing", "partial", "ready", "stale", "failed"]
-
-
-class ReportView(Schema):
-    report_id: UUID | None
-    response_id: UUID
-    state: ReportState
-    candidate_name: str | None
-    match_score: float | None
-    match_status: MatchStatus | None
-    summary: str | None
-    strengths: list[JsonValue]
-    criteria_analysis: list[CriterionAnalysis]
-    missing_data: list[JsonValue]
-    questions: list[QuestionView]
-    source: dict[str, JsonValue]
-    criteria_version: int
-    is_stale: bool
-
-
-class ResponseDetail(ResponseSummary):
+class ResponseDetail(ContractResponse):
     vacancy_id: UUID
     source_json: dict[str, JsonValue]
     structured_resume: dict[str, JsonValue]
-    criteria_analysis: list[CriterionAnalysis]
-    missing_data: list[JsonValue]
-    report_id: UUID | None
-    report_state: ReportState
     criteria_version: int
+    is_stale: bool
+    is_archived: bool
 
 
 class TaskView(Schema):
@@ -119,10 +67,6 @@ class TaskView(Schema):
     is_stub: bool
     message: str | None
     reused: bool = False
-
-
-class StatusPatch(Schema):
-    workflow_status: WorkflowStatus
 
 
 class ArchivePatch(Schema):

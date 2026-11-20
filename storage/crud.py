@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from typing import TypeVar
 from uuid import UUID
 
-from sqlalchemy import select
+from sqlalchemy import select, update
 from sqlalchemy.orm import Session, selectinload
 
 from .models import AnalysisTask, Base, CriterionEvaluation, MatchResult, Question, Report, Response, Vacancy, VacancyCriterion
@@ -48,7 +48,11 @@ class Repository:
 
     def _lock_response_vacancy(self, response_id: UUID) -> tuple[Response, Vacancy]:
         response = self._get(Response, response_id)
-        return response, self._lock_vacancy(response.vacancy_id)
+        vacancy = self._lock_vacancy(response.vacancy_id)
+        # A concurrent update may have committed while the vacancy lock was
+        # awaited, or this Session may have read the response earlier.
+        self.session.refresh(response)
+        return response, vacancy
 
     @staticmethod
     def _check_version(vacancy: Vacancy, criteria_version: int) -> None:
@@ -92,6 +96,10 @@ class Repository:
 
     def update_vacancy(self, vacancy_id: UUID, data: VacancyUpdate) -> Vacancy:
         row = self._lock_vacancy(vacancy_id)
+        if "source_json" in data.model_fields_set and data.source_json != row.source_json:
+            targets = select(Response.id).where(Response.vacancy_id == vacancy_id)
+            self.session.execute(update(Report).where(Report.response_id.in_(targets))
+                                 .values(contract_json=None, prepared_hash=None))
         for key, value in deepcopy(data.model_dump(exclude_unset=True)).items():
             setattr(row, key, value)
         self.session.flush()
@@ -175,7 +183,11 @@ class Repository:
         return list(self.session.scalars(query.limit(limit).offset(offset)))
 
     def update_response(self, response_id: UUID, data: ResponseUpdate) -> Response:
-        row = self._get(Response, response_id)
+        row, _ = self._lock_response_vacancy(response_id)
+        if any(key in data.model_fields_set and getattr(data, key) != getattr(row, key)
+               for key in ("source_json", "candidate_name")):
+            self.session.execute(update(Report).where(Report.response_id == response_id)
+                                 .values(contract_json=None, prepared_hash=None))
         for key, value in deepcopy(data.model_dump(exclude_unset=True)).items():
             setattr(row, key, value)
         self.session.flush()
@@ -276,6 +288,8 @@ class Repository:
         if row is None:
             row = Report(response_id=response_id)
             self.session.add(row)
+        row.contract_json = None
+        row.prepared_hash = None
         for key, value in deepcopy(data.model_dump(exclude={"questions"})).items():
             setattr(row, key, value)
         row.updated_at = datetime.now(timezone.utc)
@@ -293,6 +307,8 @@ class Repository:
         if row.criteria_version != criteria_version:
             raise StaleCriteriaError("Сначала обновите устаревший отчёт")
         self._check_criteria(response.vacancy_id, [item.criterion_id for item in questions if item.criterion_id is not None])
+        row.contract_json = None
+        row.prepared_hash = None
         row.questions = [Question(**item.model_dump()) for item in questions]
         row.updated_at = datetime.now(timezone.utc)
         self.session.flush()

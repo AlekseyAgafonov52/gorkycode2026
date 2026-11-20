@@ -39,6 +39,8 @@ class Vacancy(Identity, Created, Updated, Base):
     status: Mapped[str] = mapped_column(String(20), server_default=text("'active'"))
     source_json: Mapped[dict[str, JsonValue]] = mapped_column(JSONB, server_default=text("'{}'::jsonb"))
     criteria_version: Mapped[int] = mapped_column(Integer, server_default=text("1"))
+    question_pool: Mapped[list[JsonValue]] = mapped_column(JSONB, server_default=text("'[]'::jsonb"))
+    question_pool_hash: Mapped[str | None] = mapped_column(String(64))
 
     criteria: Mapped[list[VacancyCriterion]] = relationship(back_populates="vacancy", cascade="all, delete-orphan", passive_deletes=True)
     responses: Mapped[list[Response]] = relationship(back_populates="vacancy", cascade="all, delete-orphan", passive_deletes=True)
@@ -64,7 +66,7 @@ class VacancyCriterion(Identity, Created, Base):
 class Response(Identity, Created, Updated, Base):
     __tablename__ = "responses"
     __table_args__ = (
-        CheckConstraint("workflow_status IN ('new', 'reviewed', 'contacted')", name="responses_workflow_status_check"),
+        CheckConstraint("workflow_status IN ('new', 'forwarded', 'not_forwarded')", name="responses_workflow_status_check"),
         Index("idx_responses_vacancy", "vacancy_id"),
         Index("idx_responses_status", "vacancy_id", "workflow_status", "is_archived"),
     )
@@ -72,6 +74,7 @@ class Response(Identity, Created, Updated, Base):
     candidate_name: Mapped[str | None] = mapped_column(String(255))
     source_json: Mapped[dict[str, JsonValue]] = mapped_column(JSONB)
     workflow_status: Mapped[str] = mapped_column(String(20), server_default=text("'new'"))
+    legacy_workflow_status: Mapped[str | None] = mapped_column(String(20))
     is_archived: Mapped[bool] = mapped_column(Boolean, server_default=text("FALSE"))
 
     vacancy: Mapped[Vacancy] = relationship(back_populates="responses")
@@ -148,6 +151,8 @@ class Report(Identity, Created, Updated, Base):
     summary: Mapped[str | None] = mapped_column(Text)
     strengths: Mapped[list[JsonValue]] = mapped_column(JSONB, server_default=text("'[]'::jsonb"))
     structured_resume: Mapped[dict[str, JsonValue]] = mapped_column(JSONB, server_default=text("'{}'::jsonb"))
+    contract_json: Mapped[dict[str, JsonValue] | None] = mapped_column(JSONB)
+    prepared_hash: Mapped[str | None] = mapped_column(String(64))
     criteria_version: Mapped[int] = mapped_column(Integer)
 
     response: Mapped[Response] = relationship(back_populates="report")

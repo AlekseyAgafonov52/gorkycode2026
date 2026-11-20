@@ -12,7 +12,7 @@ from pydantic import BaseModel, ConfigDict, Field, JsonValue, field_validator, m
 
 VacancyStatus = Literal["draft", "active", "closed"]
 Importance = Literal["required", "preferred", "irrelevant"]
-WorkflowStatus = Literal["new", "reviewed", "contacted"]
+WorkflowStatus = Literal["new", "forwarded", "not_forwarded"]
 TaskType = Literal["matching", "questions"]
 TaskStatus = Literal["pending", "processing", "completed", "failed"]
 MatchStatus = Literal["green", "yellow", "red"]

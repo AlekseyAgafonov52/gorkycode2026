@@ -205,8 +205,14 @@ class PostgreSQLStorageTests(unittest.TestCase):
                         continue
                     self.assertTrue(statement.startswith(("CREATE TABLE ", "CREATE INDEX ")))
                     connection.exec_driver_sql(statement)
+                # Original agreed SQL is revision 0001; apply the same additive
+                # MVP migration to compare both paths at the current revision.
+                connection = connection.execution_options(schema_translate_map={None: reference})
+                config = migration_config(connection, reference)
+                command.stamp(config, "0001")
+                command.upgrade(config, "head")
                 inspector = inspect(connection)
-                self.assertEqual(set(inspector.get_table_names(schema=reference)), TABLES)
+                self.assertEqual(set(inspector.get_table_names(schema=reference)), TABLES | {"alembic_version"})
                 for name in TABLES:
                     def columns(schema):
                         return {c["name"]: (str(c["type"]), c["nullable"], c.get("default"))
@@ -286,11 +292,11 @@ class PostgreSQLStorageTests(unittest.TestCase):
     def test_response_workflow_and_archive_are_independent_of_matching(self):
         vacancy, response, criterion = self.seed()
         self.save_analysis(vacancy, response, criterion)
-        self.repo.update_response(response.id, ResponseUpdate(workflow_status="contacted", is_archived=True))
+        self.repo.update_response(response.id, ResponseUpdate(workflow_status="forwarded", is_archived=True))
         saved = self.repo.get_match_result(response.id)
         assert saved is not None
         self.assertEqual(saved.match_status, "yellow")
-        self.assertEqual(len(self.repo.list_responses(vacancy.id, workflow_status="contacted", is_archived=True)), 1)
+        self.assertEqual(len(self.repo.list_responses(vacancy.id, workflow_status="forwarded", is_archived=True)), 1)
         self.assertEqual(self.repo.list_responses(vacancy.id, is_archived=False), [])
         self.repo.update_response(response.id, ResponseUpdate(is_archived=False, candidate_name=None))
         self.assertIsNotNone(self.repo.get_report(response.id))
@@ -445,6 +451,23 @@ class PostgreSQLStorageTests(unittest.TestCase):
             with session_scope(self.factory) as session:
                 Repository(session).delete_vacancy(identifier)
 
+    def test_response_publication_uses_latest_source_after_an_earlier_read(self):
+        with session_scope(self.factory) as session:
+            repo = Repository(session)
+            vacancy_id = repo.create_vacancy(VacancyCreate(title="Concurrent source")).id
+            response_id = repo.create_response(ResponseCreate(vacancy_id=vacancy_id, source_json={"revision": 1})).id
+        try:
+            with session_scope(self.factory) as first:
+                repo = Repository(first)
+                cached = repo.get_response(response_id)
+                with session_scope(self.factory) as second:
+                    Repository(second).update_response(response_id, ResponseUpdate(source_json={"revision": 2}))
+                repo.save_match_result(response_id, MatchResultWrite(criteria_version=1, match_status="red"))
+                self.assertEqual(cached.source_json, {"revision": 2})
+        finally:
+            with session_scope(self.factory) as session:
+                Repository(session).delete_vacancy(vacancy_id)
+
     def test_migration_downgrade_and_upgrade_in_separate_schema(self):
         schema = "hr_storage_" + uuid4().hex
         with self.base_engine.begin() as connection:
@@ -459,6 +482,28 @@ class PostgreSQLStorageTests(unittest.TestCase):
                 self.assertEqual(inspect(connection).get_table_names(schema=schema), ["alembic_version"])
                 command.upgrade(config, "head")
                 self.assertEqual(connection.scalar(text(f'SELECT count(*) FROM "{schema}".vacancies')), 0)
+        finally:
+            assert re.fullmatch(r"hr_storage_[0-9a-f]{32}", schema)
+            with self.base_engine.begin() as connection:
+                connection.execute(DropSchema(schema, cascade=True))
+
+    def test_mvp_migration_preserves_old_status_without_guessing_decision(self):
+        schema = "hr_storage_" + uuid4().hex
+        with self.base_engine.begin() as connection:
+            connection.execute(CreateSchema(schema))
+        try:
+            with self.base_engine.begin() as connection:
+                connection = connection.execution_options(schema_translate_map={None: schema})
+                config = migration_config(connection, schema)
+                command.upgrade(config, "0001")
+                vacancy_id = connection.scalar(text(f'INSERT INTO "{schema}".vacancies (title) VALUES (\'Legacy\') RETURNING id'))
+                connection.execute(text(f'INSERT INTO "{schema}".responses (vacancy_id, source_json, workflow_status) '
+                                        "VALUES (:vacancy, '{}'::jsonb, 'contacted')"), {"vacancy": vacancy_id})
+                command.upgrade(config, "head")
+                row = connection.execute(text(f'SELECT workflow_status, legacy_workflow_status FROM "{schema}".responses')).one()
+                self.assertEqual(tuple(row), ("new", "contacted"))
+                command.downgrade(config, "0001")
+                self.assertEqual(connection.scalar(text(f'SELECT workflow_status FROM "{schema}".responses')), "contacted")
         finally:
             assert re.fullmatch(r"hr_storage_[0-9a-f]{32}", schema)
             with self.base_engine.begin() as connection:
