@@ -13,7 +13,7 @@ from reportlab.pdfbase.ttfonts import TTFError
 from reportlab.platypus.doctemplate import LayoutError
 
 from ranking import TRAFFIC, assess, make_vacancy, prepare_resume_text, rank_applications, read_json
-from report_pdf import percentage, register_fonts, write_atomic, write_pdf
+from report_pdf import percentage, register_fonts, write_atomic, write_pdf, select_technical_questions
 
 
 def collect_applications(sources: list[Path], excluded: set[Path]) -> tuple[list[Path], list[str]]:
@@ -59,11 +59,15 @@ def main() -> int:
     parser.add_argument("--out-dir", type=Path, default=Path("reports"), help="папка для рейтинга и PDF")
     parser.add_argument("--font", type=Path, help="путь к TTF-шрифту с кириллицей")
     parser.add_argument("--bold-font", type=Path, help="путь к полужирному TTF-шрифту")
+    parser.add_argument("--question-bank", type=Path, help="JSON с готовыми техническими вопросами")
     args = parser.parse_args()
 
     try:
         vacancy_data = read_json(args.vacancy)
         vacancy = make_vacancy(vacancy_data)
+        bank = read_json(args.question_bank) if args.question_bank else None
+        if bank is not None:
+            select_technical_questions(bank, vacancy.title, "__validation__")
         register_fonts(args.font, args.bold_font)
         args.out_dir.mkdir(parents=True, exist_ok=True)
         ranking_path = args.out_dir / "ranking.json"
@@ -97,7 +101,9 @@ def main() -> int:
             suffix += 1
         path = args.out_dir / name
         try:
-            write_pdf(path, vacancy, assessment)
+            technical_questions = (select_technical_questions(bank, vacancy.title, assessment.application_id)
+                                   if bank is not None else None)
+            write_pdf(path, vacancy, assessment, technical_questions)
         except (OSError, ValueError, LayoutError) as error:
             print(f"Ошибка отчёта для {application.name}. {error}", file=sys.stderr)
             failed = True
@@ -133,3 +139,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+# RESTORED_OFFLINE_TECHNICAL_QUESTIONS_V1

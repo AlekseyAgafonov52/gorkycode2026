@@ -67,7 +67,7 @@ def assessment_summary(assessment: Assessment) -> list[str]:
     return lines
 
 
-def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment) -> None:
+def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None) -> None:
     ink = "#1A2941"
     muted = "#47566E"
     border = "#D9E2EC"
@@ -157,6 +157,26 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment) -> None:
         ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
         ("LINEBELOW", (0, -1), (-1, -1), 0.5, colors.HexColor(border)),
     ]))
+    if technical_questions:
+        story.extend([Spacer(1, 14),
+                      p("Технические вопросы для интервью", 12, bold=True, keep_with_next=True),
+                      Spacer(1, 6)])
+        for index, item in enumerate(technical_questions, 1):
+            story.extend([
+                Spacer(1, 8),
+                p(f"{index}. {item['question']}", 10, bold=True, keep_with_next=True),
+                Spacer(1, 3),
+                p(f"Навык: {item['skill']}", 8, muted),
+                Spacer(1, 5),
+                p("Эталонный ответ", 8.6, muted, bold=True, keep_with_next=True),
+                p(item["reference_answer"], 9),
+                Spacer(1, 5),
+                p("Альтернативные формулировки", 8.6, muted, bold=True, keep_with_next=True),
+            ])
+            for variant in item["alternative_phrasings"]:
+                story.extend([Spacer(1, 2), p("• " + variant, 8.6, muted)])
+        story.append(Spacer(1, 10))
+
     story.extend([Spacer(1, 8), p("Подтверждено — набранные баллы от полного веса требований. "
                                  "По проверенным — баллы от веса оценённых критериев. Покрытие — доля оценённых "
                                  "критериев по весу. ФИО и контакты проверяются отдельно от оценки вакансии. "
@@ -185,5 +205,44 @@ def write_atomic(path: Path, render: Callable[[Path], None]) -> None:
         temporary_path.unlink(missing_ok=True)
 
 
-def write_pdf(path: Path, vacancy: Vacancy, assessment: Assessment) -> None:
-    write_atomic(path, lambda temporary: make_pdf(temporary, vacancy, assessment))
+def write_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None) -> None:
+    write_atomic(path, lambda temporary: make_pdf(temporary, vacancy, assessment, technical_questions))
+
+
+# RESTORED_OFFLINE_TECHNICAL_QUESTIONS_V1
+def select_technical_questions(bank: dict, title: str, candidate_id: str) -> list[dict]:
+    """Два разных навыка, воспроизводимый выбор без чтения резюме."""
+    import hashlib
+
+    if not isinstance(bank, dict) or bank.get("vacancy_title") != title:
+        raise ValueError("Банк технических вопросов не соответствует вакансии")
+    items = bank.get("questions")
+    if not isinstance(items, list):
+        raise ValueError("В банке нет списка questions")
+    skills: dict[str, list[dict]] = {}
+    for question in items:
+        if not isinstance(question, dict):
+            raise ValueError("Некорректный вопрос в банке")
+        skill = question.get("skill")
+        text = question.get("question")
+        answer = question.get("reference_answer")
+        alternatives = question.get("alternative_phrasings")
+        if (not isinstance(skill, str) or not skill.strip()
+                or not isinstance(text, str) or not text.strip()
+                or not isinstance(answer, str) or not answer.strip()
+                or not isinstance(alternatives, list) or len(alternatives) != 2
+                or any(not isinstance(x, str) or not x.strip() for x in alternatives)):
+            raise ValueError("Неполный вопрос: нужны навык, текст, две формулировки и эталонный ответ")
+        skills.setdefault(skill.strip().casefold(), []).append(question)
+    if len(skills) < 2:
+        raise ValueError("В банке должно быть не меньше двух разных навыков")
+
+    seed = title + "\x00" + candidate_id
+    def order(value: str) -> bytes:
+        return hashlib.sha256((seed + "\x00" + value).encode("utf-8")).digest()
+
+    chosen = []
+    for skill in sorted(skills, key=lambda x: order("skill:" + x))[:2]:
+        chosen.append(min(skills[skill], key=lambda q: order("question:" + skill + ":"
+                             + str(q.get("id", "")) + ":" + q["question"])))
+    return chosen
