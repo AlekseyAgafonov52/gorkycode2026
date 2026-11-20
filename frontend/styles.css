@@ -73,6 +73,7 @@ summary { cursor: pointer; }
   .actions { display: grid; }
   button.act { text-align: left; }
 }
+<<<<<<< Updated upstream
 header .crumb-sep { color: #aaa; margin: 0 -6px; }
 header .crumb { color: inherit; text-decoration: none; }
 header .crumb:hover { text-decoration: underline; }
@@ -86,3 +87,13 @@ header .crumb:hover { text-decoration: underline; }
 .vac-sep { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #999; margin: 0 14px; vertical-align: middle; }
 .vac-sep.hidden { visibility: hidden; }
 .vac-group.closed .vac a, .vac-empty { color: #777; }
+=======
+.closure-badge { color: #44556b; background: #edf1f6; border-radius: 6px; padding: 6px 10px; font-size: 13px; }
+.hiring-banner, .hiring-badge { color: #155e45; background: #e8f6ee; border-radius: 6px; padding: 12px; }
+.hiring-banner { margin: 16px 0; border: 1px solid #acd4bb; }
+.hiring-banner p { margin: 0; }
+.recommendation-form { display: grid; gap: 12px; max-width: 900px; margin: 16px 0; }
+.recommendation-form label { display: grid; gap: 6px; font-weight: 600; }
+.recommendation-form textarea { width: 100%; padding: 10px; border: 1px solid #b7c0cc; border-radius: 6px; font: inherit; font-weight: 400; resize: vertical; }
+.recommendation-form button { justify-self: start; }
+>>>>>>> Stashed changes

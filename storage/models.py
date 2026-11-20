@@ -6,7 +6,7 @@ from decimal import Decimal
 from uuid import UUID
 
 from pydantic import JsonValue
-from sqlalchemy import Boolean, CheckConstraint, DateTime, ForeignKey, Index, Integer, Numeric, String, Text, UniqueConstraint, func, text
+from sqlalchemy import BigInteger, Boolean, CheckConstraint, DateTime, ForeignKey, Index, Integer, Numeric, String, Text, UniqueConstraint, func, text
 from sqlalchemy.dialects.postgresql import JSONB, UUID as PGUUID
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
@@ -37,6 +37,7 @@ class Vacancy(Identity, Created, Updated, Base):
     )
     title: Mapped[str] = mapped_column(String(255))
     status: Mapped[str] = mapped_column(String(20), server_default=text("'active'"))
+    closed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
     source_json: Mapped[dict[str, JsonValue]] = mapped_column(JSONB, server_default=text("'{}'::jsonb"))
     criteria_version: Mapped[int] = mapped_column(Integer, server_default=text("1"))
     question_pool: Mapped[list[JsonValue]] = mapped_column(JSONB, server_default=text("'[]'::jsonb"))
@@ -77,6 +78,14 @@ class Response(Identity, Created, Updated, Base):
     legacy_workflow_status: Mapped[str | None] = mapped_column(String(20))
     is_archived: Mapped[bool] = mapped_column(Boolean, server_default=text("FALSE"))
     is_viewed: Mapped[bool] = mapped_column(Boolean, server_default=text("FALSE"))
+    is_closed: Mapped[bool] = mapped_column(Boolean, server_default=text("FALSE"))
+    closed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    closed_by_telegram_id: Mapped[int | None] = mapped_column(BigInteger)
+    hired_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    hired_by_telegram_id: Mapped[int | None] = mapped_column(BigInteger)
+    recruiter_recommendation: Mapped[dict[str, JsonValue] | None] = mapped_column(JSONB)
+    department_notification_pending: Mapped[bool] = mapped_column(Boolean, server_default=text("FALSE"))
+    department_notification_version: Mapped[int] = mapped_column(Integer, server_default=text("0"))
 
     vacancy: Mapped[Vacancy] = relationship(back_populates="responses")
     tasks: Mapped[list[AnalysisTask]] = relationship(back_populates="response", cascade="all, delete-orphan", passive_deletes=True)

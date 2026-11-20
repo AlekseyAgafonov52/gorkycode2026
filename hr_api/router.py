@@ -4,7 +4,7 @@ from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
-from contract_models import ContractReport, ContractResponse, ContractVacancy, ErrorEnvelope, SourceTextUpdate, ViewedResult, ViewedUpdate, WorkflowResult, WorkflowUpdate
+from contract_models import ContractReport, ContractResponse, ContractVacancy, ErrorEnvelope, RecommendationResult, RecommendationUpdate, SourceTextUpdate, VacancyStatusUpdate, ViewedResult, ViewedUpdate, WorkflowResult, WorkflowUpdate
 from storage.crud import NotFoundError
 
 from storage.database import make_engine, make_session_factory
@@ -61,6 +61,12 @@ def criteria(vacancy_id: UUID, payload: CriteriaPatch, service: Service):
     return service.update_criteria(vacancy_id, payload)
 
 
+@router.patch("/vacancies/{vacancy_id}/status", response_model=VacancyDetail, tags=["Вакансии"],
+              summary="HR закрывает или повторно открывает вакансию")
+def vacancy_status(vacancy_id: UUID, payload: VacancyStatusUpdate, service: Service):
+    return service.update_vacancy_status(vacancy_id, payload.status)
+
+
 @router.get("/vacancies/{vacancy_id}/responses", response_model=list[ContractResponse], tags=["Отклики"])
 def responses(vacancy_id: str, service: Service, match_status: MatchStatus | None = None,
               workflow_status: WorkflowStatus | None = None, is_archived: bool | None = None,
@@ -77,7 +83,13 @@ def response(response_id: UUID, service: Service):
 
 @router.patch("/responses/{response_id}/status", response_model=WorkflowResult, tags=["Отклики"])
 def status(response_id: str, payload: WorkflowUpdate, service: Service):
-    return service.update_status(identifier(response_id), payload.workflow_status)
+    return service.update_status(identifier(response_id), payload.workflow_status, payload.recruiter_recommendation)
+
+
+@router.patch("/responses/{response_id}/department-summary", response_model=RecommendationResult, tags=["Отклики"],
+              summary="Рекомендации рекрутера для департамента")
+def department_summary(response_id: UUID, payload: RecommendationUpdate, service: Service):
+    return service.update_recommendation(response_id, payload.recruiter_recommendation)
 
 
 @router.patch("/responses/{response_id}/viewed", response_model=ViewedResult, tags=["Отклики"],

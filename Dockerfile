@@ -8,11 +8,14 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt \
     && groupadd --system app \
-    && useradd --system --gid app --uid 10001 app
+    && useradd --system --gid app --uid 10001 app \
+    && mkdir -p /var/lib/hr_bot \
+    && chown app:app /var/lib/hr_bot
 
 COPY *.py alembic.ini ./
 COPY storage ./storage
 COPY hr_api ./hr_api
+COPY department_bot ./department_bot
 COPY migrations ./migrations
 COPY sql ./sql
 COPY prompts ./prompts

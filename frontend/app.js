@@ -16,7 +16,7 @@ const app = document.getElementById("app");
 const state = { vacancies: [], filter: "all", vacancyId: null, report: null,
   viewFilter: "all", navigation: 0, controller: null, saving: new Set(),
   reviewing: new Set(), reviewNotices: new Map(), reviewWrites: new Map(),
-  sourceDrafts: new Map(), sourceWrites: new Map(), sourceNotices: new Map() };
+  sourceDrafts: new Map(), sourceWrites: new Map(), sourceNotices: new Map(), recommendationDrafts: new Map(), vacancySaving: new Set() };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g,
   (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
@@ -35,7 +35,9 @@ function applyRecentViewed(item, requestStarted) {
 function applyRecentSource(report, requestStarted) {
   const saved = state.sourceWrites.get(report.id);
   if (saved && saved.at >= requestStarted) {
-    return { ...saved.report, workflow_status: report.workflow_status, is_viewed: report.is_viewed };
+    return { ...saved.report, workflow_status: report.workflow_status, is_viewed: report.is_viewed,
+      is_closed: report.is_closed, closed_at: report.closed_at, hired_at: report.hired_at,
+      recruiter_recommendation: report.recruiter_recommendation };
   }
   if (saved) state.sourceWrites.delete(report.id);
   return report;
@@ -44,7 +46,77 @@ function applyRecentSource(report, requestStarted) {
 function tabs(selectedId) {
   return `<nav class="tabs" aria-label="Вакансии">${state.vacancies.map((vacancy) =>
     `<a class="tab ${vacancy.id === selectedId ? "on" : ""}" ${vacancy.id === selectedId ? 'aria-current="page"' : ""}
-      href="${vacancyLink(vacancy.id)}">${esc(vacancy.title)} · ${vacancy.responses_count}</a>`).join("")}</nav>`;
+      href="${vacancyLink(vacancy.id)}">${esc(vacancy.title)} · ${vacancy.responses_count}${vacancy.status === "closed" ? " · Закрыта" : vacancy.hired_candidates?.length ? " · Найм подтверждён" : ""}</a>`).join("")}</nav>`;
+}
+
+function hiringBanner(vacancy) {
+  const hired = vacancy.hired_candidates || [];
+  if (!hired.length) return "";
+  return `<section class="hiring-banner" role="status"><b>Департамент подтвердил подписание трудового договора</b>
+    <ul>${hired.map((candidate) => `<li><a href="${reportLink(vacancy.id, candidate.id)}">${esc(candidate.candidate_name || "ФИО не указано")}</a></li>`).join("")}</ul>
+    <p>${vacancy.status === "closed" ? "Вакансия закрыта HR." : "Проверьте результат найма и закройте вакансию."}</p></section>`;
+}
+
+function vacancyControl(vacancy) {
+  return `<button class="act" data-vacancy-status="${vacancy.status === "closed" ? "active" : "closed"}" ${state.vacancySaving.has(vacancy.id) ? "disabled" : ""}>${vacancy.status === "closed" ? "Открыть вакансию заново" : "Закрыть вакансию"}</button>`;
+}
+
+const RECOMMENDATION_FIELDS = [["strengths", "Сильные стороны"], ["weaknesses", "Слабые места"], ["interview_focus", "Что проверить на собеседовании"]];
+
+function recommendationForm(report) {
+  const value = state.recommendationDrafts.get(report.id) || report.recruiter_recommendation || {};
+  return `<div class="recommendation-form">${RECOMMENDATION_FIELDS.map(([key, label]) =>
+    `<label>${label}<textarea data-recommendation-field="${key}" maxlength="800" rows="3">${esc(value[key] || "")}</textarea></label>`).join("")}
+    <button class="act" data-action="save-recommendation">Сохранить рекомендации</button></div>`;
+}
+
+function readRecommendation() {
+  const value = Object.fromEntries([...app.querySelectorAll("[data-recommendation-field]")]
+    .map((input) => [input.dataset.recommendationField, input.value.trim()]));
+  if (RECOMMENDATION_FIELDS.some(([key]) => !value[key])) {
+    updateStatusControls("Заполните все три поля рекомендаций перед передачей кандидата.", true);
+    return null;
+  }
+  return value;
+}
+
+async function saveRecommendation() {
+  const report = state.report;
+  if (!report || state.saving.has(report.id)) return;
+  const recommendation = readRecommendation();
+  if (!recommendation) return;
+  state.saving.add(report.id);
+  updateStatusControls();
+  let notice = "Рекомендации сохранены.", failed = false;
+  try {
+    const result = await api.updateRecommendation(report.id, recommendation);
+    report.recruiter_recommendation = result.recruiter_recommendation;
+    state.recommendationDrafts.delete(report.id);
+    if (report.workflow_status === "forwarded") notice += " Бот доставит обновление руководителю.";
+  } catch (error) {
+    notice = error.message;
+    failed = true;
+  } finally {
+    state.saving.delete(report.id);
+    if (state.report?.id === report.id) updateStatusControls(notice, failed);
+  }
+}
+
+async function saveVacancyStatus(status) {
+  const vacancy = state.vacancies.find((item) => item.id === state.vacancyId);
+  if (!vacancy || state.vacancySaving.has(vacancy.id)) return;
+  const action = status === "closed" ? "Закрыть" : "Открыть заново";
+  if (!window.confirm(`${action} вакансию «${vacancy.title}»? Отметки найма кандидатов сохранятся.`)) return;
+  state.vacancySaving.add(vacancy.id);
+  app.querySelectorAll("[data-vacancy-status]").forEach((button) => { button.disabled = true; });
+  try {
+    await api.updateVacancyStatus(vacancy.id, status);
+  } catch (error) {
+    window.alert(error.message);
+  } finally {
+    state.vacancySaving.delete(vacancy.id);
+    if (state.vacancyId === vacancy.id) await route();
+  }
 }
 
 // Страница вакансий: названия строками через точку, сначала открытые, потом закрытые.
@@ -109,10 +181,13 @@ function renderList(vacancy, items) {
       ${item.short_summary ? `<div class="sub">${esc(item.short_summary)}</div>` : ""}
       ${item.workflow_status !== "new" ? `<div class="mark">${esc(STATUS[item.workflow_status])}</div>` : ""}
       <div class="review-badge">${item.is_viewed ? "Просмотрено" : "Не просмотрено"}</div>
+      ${item.hired_at ? '<div class="hiring-badge">Найм закрыт · договор подписан</div>' : item.is_closed ? '<div class="closure-badge">Работа в департаменте завершена</div>' : ""}
     </a>${reviewControls(item)}</article>`).join("");
   app.setAttribute("aria-busy", "false");
   app.innerHTML = `${tabs(vacancy.id)}<div class="bar"><h1>${esc(vacancy.title)}</h1>
-    <span class="grow"></span><button class="act" data-action="refresh">Обновить</button></div>
+    <span class="grow"></span>${vacancyControl(vacancy)}<button class="act" data-action="refresh">Обновить</button></div>
+    ${vacancy.status === "closed" ? '<p class="closure-badge">Вакансия закрыта HR</p>' : ""}
+    ${hiringBanner(vacancy)}
     <div class="chips" aria-label="Фильтр по цвету">${chips}</div>
     <div class="chips" aria-label="Фильтр по просмотру">${viewChips}</div>
     <div class="grid">${cards || '<p role="status">Нет откликов по выбранному фильтру.</p>'}</div>`;
@@ -198,9 +273,13 @@ function renderQuestion(question) {
 
 function renderReport(report, vacancy) {
   app.setAttribute("aria-busy", "false");
-  app.innerHTML = `${tabs(vacancy.id)}<div class="bar"><a href="${vacancyLink(vacancy.id)}">К списку откликов</a></div>
+  app.innerHTML = `${tabs(vacancy.id)}<div class="bar"><a href="${vacancyLink(vacancy.id)}">К списку откликов</a>
+    <span class="grow"></span>${vacancyControl(vacancy)}<button class="act" data-action="refresh">Обновить</button></div>
+    ${hiringBanner(vacancy)}
     <section class="panel">
       <h1>${esc(report.candidate_name || "ФИО не указано")}</h1>
+      ${vacancy.status === "closed" ? '<p class="closure-badge">Вакансия закрыта HR</p>' : ""}
+      ${report.hired_at ? '<p class="hiring-badge">Найм закрыт · трудовой договор подписан</p>' : report.is_closed ? '<p class="closure-badge">Работа с откликом в департаменте завершена</p>' : ""}
       <div class="bar">${dot(report.match_status)}<b>${esc(report.match_label)}</b>
         <span>Совпадение навыков: ${share(report.match_share)}</span></div>
       <div class="contact-list">${renderContacts(report.contacts)}</div>
@@ -217,7 +296,9 @@ function renderReport(report, vacancy) {
     <section class="panel"><h2>Недостающие сведения</h2>${report.missing_data.length
       ? `<ul>${report.missing_data.map((item) => `<li>${esc(item.text)}</li>`).join("")}</ul>`
       : '<p class="muted">Нет уточнений по основным сведениям.</p>'}</section>
-    <section class="panel"><h2>Результат звонка</h2><p>Статус: <b data-current-status></b></p>
+    <section class="panel"><h2>Передача в департамент</h2>
+      <p>Рекомендации рекрутера будут показаны руководителю в Telegram.</p>${recommendationForm(report)}
+      <p>Статус звонка: <b data-current-status></b></p>
       <div class="bar actions">
         <button class="act main" data-workflow="forwarded">Созвонились, передаю</button>
         <button class="act" data-workflow="not_forwarded">Созвонились, не передаю</button>
@@ -330,6 +411,7 @@ function updateStatusControls(notice = "", isError = false) {
   const current = app.querySelector("[data-current-status]");
   if (!current) return;
   const saving = state.saving.has(report.id);
+  app.querySelectorAll("[data-recommendation-field], [data-action='save-recommendation']").forEach((input) => { input.disabled = saving; });
   current.textContent = STATUS[report.workflow_status] || "Статус не указан";
   app.querySelectorAll("[data-workflow]").forEach((button) => {
     const selected = button.dataset.workflow === report.workflow_status;
@@ -345,18 +427,27 @@ function updateStatusControls(notice = "", isError = false) {
 async function saveStatus(status) {
   const report = state.report;
   if (!report || state.saving.has(report.id) || !Object.hasOwn(STATUS, status)) return;
+  let recommendation;
+  if (status === "forwarded") {
+    recommendation = readRecommendation();
+    if (!recommendation) return;
+  }
   state.saving.add(report.id);
   updateStatusControls();
   let notice;
   let failed = false;
   try {
-    const result = await api.updateStatus(report.id, status);
+    const result = await api.updateStatus(report.id, status, recommendation);
     if (result.id !== report.id || !Object.hasOwn(STATUS, result.workflow_status)) {
       throw new Error("Не удалось подтвердить сохранение статуса.");
     }
     report.workflow_status = result.workflow_status;
+    if (recommendation) {
+      report.recruiter_recommendation = recommendation;
+      state.recommendationDrafts.delete(report.id);
+    }
     if (state.report?.id === report.id) state.report.workflow_status = result.workflow_status;
-    notice = "Статус сохранён.";
+    notice = status === "forwarded" ? "Кандидат передан. Бот доставит рекомендации руководителю." : "Статус сохранён.";
   } catch (error) {
     failed = true;
     notice = error.message;
@@ -374,6 +465,10 @@ async function route() {
   state.report = null;
   let vacancyId, responseId;
   try {
+    const vacancies = await api.listVacancies({ signal });
+    if (navigation !== state.navigation) return;
+    if (!Array.isArray(vacancies)) throw new Error("Не удалось прочитать список вакансий.");
+    state.vacancies = vacancies;
     const parts = location.hash.match(/^#\/v\/([^/]+)(?:\/r\/([^/]+))?\/?$/);
     if (!parts) {
       if (!location.hash || location.hash === "#/") {
@@ -445,6 +540,8 @@ app.addEventListener("click", (event) => {
   const button = event.target instanceof Element ? event.target.closest("button") : null;
   if (!button || button.disabled) return;
   if (button.dataset.action === "start") start();
+  else if (button.dataset.action === "save-recommendation") saveRecommendation();
+  else if (button.dataset.vacancyStatus) saveVacancyStatus(button.dataset.vacancyStatus);
   else if (button.dataset.action === "refresh") route();
   else if (button.dataset.action === "edit-source") editSource();
   else if (button.dataset.action === "save-source") saveSource();
@@ -463,6 +560,14 @@ app.addEventListener("click", (event) => {
 });
 
 app.addEventListener("input", (event) => {
+  const input = event.target;
+  if (!(input instanceof HTMLTextAreaElement) || !input.dataset.recommendationField || !state.report) return;
+  const draft = { ...(state.recommendationDrafts.get(state.report.id) || state.report.recruiter_recommendation || {}) };
+  draft[input.dataset.recommendationField] = input.value;
+  state.recommendationDrafts.set(state.report.id, draft);
+});
+
+app.addEventListener("input", (event) => {
   if (!(event.target instanceof HTMLTextAreaElement) || !event.target.matches("[data-source-input]")) return;
   const draft = state.report && state.sourceDrafts.get(state.report.id);
   if (draft) draft.text = event.target.value;
@@ -475,7 +580,7 @@ app.addEventListener("keydown", (event) => {
 });
 
 window.addEventListener("beforeunload", (event) => {
-  if ([...state.sourceDrafts.values()].some((draft) => draft.saving || draft.text !== editorText(draft.originalText))) {
+  if (state.recommendationDrafts.size || [...state.sourceDrafts.values()].some((draft) => draft.saving || draft.text !== editorText(draft.originalText))) {
     event.preventDefault();
     event.returnValue = "";
   }

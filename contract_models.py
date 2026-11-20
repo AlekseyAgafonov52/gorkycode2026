@@ -1,6 +1,7 @@
 """Public MVP contracts, shared by parsers, matching, question pools and API."""
 from __future__ import annotations
 
+from datetime import datetime
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, PrivateAttr, field_validator, model_validator
@@ -117,6 +118,25 @@ class MatchResult(ContractModel):
     missing_data: list[MissingField]
 
 
+class RecruiterRecommendation(ContractModel):
+    strengths: str = Field(min_length=1, max_length=800, strict=True)
+    weaknesses: str = Field(min_length=1, max_length=800, strict=True)
+    interview_focus: str = Field(min_length=1, max_length=800, strict=True)
+
+    @field_validator("strengths", "weaknesses", "interview_focus")
+    @classmethod
+    def nonblank(cls, value: str) -> str:
+        if not value.strip() or "\x00" in value:
+            raise ValueError("Заполните рекомендацию рекрутера")
+        return value.strip()
+
+
+class HiredCandidate(ContractModel):
+    id: str
+    candidate_name: str | None
+    hired_at: datetime
+
+
 class ContractReport(ContractModel):
     id: str
     vacancy_id: str
@@ -132,6 +152,10 @@ class ContractReport(ContractModel):
     short_summary: str | None = None
     workflow_status: Workflow
     is_viewed: bool = Field(default=False, strict=True)
+    is_closed: bool = Field(default=False, strict=True)
+    closed_at: datetime | None = None
+    hired_at: datetime | None = None
+    recruiter_recommendation: RecruiterRecommendation | None = None
     source_text: str
 
 
@@ -143,20 +167,39 @@ class ContractResponse(ContractModel):
     short_summary: str | None = None
     workflow_status: Workflow
     is_viewed: bool = Field(default=False, strict=True)
+    is_closed: bool = Field(default=False, strict=True)
+    closed_at: datetime | None = None
+    hired_at: datetime | None = None
 
 
 class ContractVacancy(ContractModel):
     id: str
     title: str
     responses_count: int
+    status: Literal["draft", "active", "closed"] = "active"
+    hired_candidates: list[HiredCandidate] = Field(default_factory=list)
 
 
 class WorkflowUpdate(ContractModel):
     workflow_status: Workflow
+    recruiter_recommendation: RecruiterRecommendation | None = None
 
 
-class WorkflowResult(WorkflowUpdate):
+class WorkflowResult(ContractModel):
     id: str
+    workflow_status: Workflow
+
+
+class RecommendationUpdate(ContractModel):
+    recruiter_recommendation: RecruiterRecommendation
+
+
+class RecommendationResult(RecommendationUpdate):
+    id: str
+
+
+class VacancyStatusUpdate(ContractModel):
+    status: Literal["active", "closed"]
 
 
 class ViewedUpdate(ContractModel):

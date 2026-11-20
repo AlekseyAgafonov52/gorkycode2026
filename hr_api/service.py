@@ -8,7 +8,7 @@ from sqlalchemy import case, func, select, update
 from sqlalchemy.orm import Session, selectinload, sessionmaker
 
 from candidate_analysis import resume_from_json
-from contract_models import ContractReport, ContractResponse, ContractVacancy, PoolQuestion, SourceTextUpdate, ViewedResult, WorkflowResult
+from contract_models import ContractReport, ContractResponse, ContractVacancy, HiredCandidate, PoolQuestion, RecommendationResult, RecruiterRecommendation, SourceTextUpdate, ViewedResult, WorkflowResult
 from question_pool import PoolBuilder, pool_hash, validate_pool
 from response_parser import parse_response
 from storage.crud import NotFoundError, Repository
@@ -59,9 +59,14 @@ class HRService:
 
     def list_vacancies(self) -> list[ContractVacancy]:
         with self.factory.begin() as session:
+            hired: dict[UUID, list[HiredCandidate]] = {}
+            for response in session.scalars(select(Response).where(Response.hired_at.is_not(None)).order_by(Response.hired_at, Response.id)):
+                hired.setdefault(response.vacancy_id, []).append(HiredCandidate.model_validate({
+                    "id": str(response.id), "candidate_name": response.candidate_name, "hired_at": response.hired_at}))
             query = (select(Vacancy, func.count(Response.id)).outerjoin(Response)
                      .group_by(Vacancy.id).order_by(Vacancy.created_at, Vacancy.id))
-            return [ContractVacancy(id=str(row.id), title=row.title, responses_count=count)
+            return [ContractVacancy(id=str(row.id), title=row.title, responses_count=count, status=row.status,
+                                   hired_candidates=hired.get(row.id, []))
                     for row, count in session.execute(query)]
 
     def vacancy(self, identifier: UUID) -> VacancyDetail:
@@ -70,7 +75,22 @@ class HRService:
             count = session.scalar(select(func.count()).select_from(Response).where(Response.vacancy_id == identifier))
             return VacancyDetail.model_validate({"id": row.id, "title": row.title, "status": row.status,
                 "responses_count": count, "source_json": row.source_json, "criteria_version": row.criteria_version,
-                "criteria": [CriterionRead.model_validate(c) for c in row.criteria]})
+                "criteria": [CriterionRead.model_validate(c) for c in row.criteria],
+                "hired_candidates": [HiredCandidate.model_validate({"id": str(r.id), "candidate_name": r.candidate_name,
+                    "hired_at": r.hired_at}) for r in row.responses if r.hired_at is not None]})
+
+    def update_vacancy_status(self, identifier: UUID, status: str) -> VacancyDetail:
+        if status not in ("active", "closed"):
+            raise ValueError("Неизвестный статус вакансии")
+        with self.factory.begin() as session:
+            row = Repository(session)._lock_vacancy(identifier)
+            if row.status == "draft":
+                raise ValueError("Черновик вакансии недоступен для закрытия")
+            if row.status != status:
+                row.status = status
+                row.closed_at = datetime.now(timezone.utc) if status == "closed" else None
+                session.flush()
+        return self.vacancy(identifier)
 
     def update_criteria(self, identifier: UUID, data: CriteriaPatch) -> CriteriaResult:
         with self.factory.begin() as session:
@@ -105,6 +125,8 @@ class HRService:
         source = response.source_json.get("source_text")
         return ContractReport.model_validate({**report.contract_json,
             "workflow_status": response.workflow_status, "is_viewed": response.is_viewed,
+            "is_closed": response.is_closed, "closed_at": response.closed_at,
+            "hired_at": response.hired_at, "recruiter_recommendation": response.recruiter_recommendation,
             "source_text": source if isinstance(source, str) else ""})
 
     @classmethod
@@ -152,9 +174,38 @@ class HRService:
             row = Repository(session).update_response(identifier, data)
             return self._summary(row)
 
-    def update_status(self, identifier: UUID, status: str) -> WorkflowResult:
+    @staticmethod
+    def _recommendation(row: Response, recommendation: RecruiterRecommendation) -> bool:
+        data = recommendation.model_dump(mode="json")
+        changed = row.recruiter_recommendation != data
+        row.recruiter_recommendation = data
+        return changed
+
+    @staticmethod
+    def _notify_department(row: Response) -> None:
+        row.department_notification_pending = True
+        row.department_notification_version += 1
+
+    def update_recommendation(self, identifier: UUID, recommendation: RecruiterRecommendation) -> RecommendationResult:
         with self.factory.begin() as session:
-            row = Repository(session).update_response(identifier, ResponseUpdate.model_validate({"workflow_status": status}))
+            row, _ = Repository(session)._lock_response_vacancy(identifier)
+            if self._recommendation(row, recommendation) and row.workflow_status == "forwarded":
+                self._notify_department(row)
+            session.flush()
+            return RecommendationResult(id=str(row.id), recruiter_recommendation=recommendation)
+
+    def update_status(self, identifier: UUID, status: str,
+                      recommendation: RecruiterRecommendation | None = None) -> WorkflowResult:
+        data = ResponseUpdate.model_validate({"workflow_status": status})
+        with self.factory.begin() as session:
+            row, _ = Repository(session)._lock_response_vacancy(identifier)
+            changed = recommendation is not None and self._recommendation(row, recommendation)
+            if status == "forwarded" and (row.workflow_status != status or changed):
+                self._notify_department(row)
+            if status != "forwarded":
+                row.department_notification_pending = False
+            row.workflow_status = data.workflow_status or "new"
+            session.flush()
             return WorkflowResult.model_validate({"id": str(row.id), "workflow_status": row.workflow_status})
 
     def update_viewed(self, identifier: UUID, is_viewed: bool) -> ViewedResult:

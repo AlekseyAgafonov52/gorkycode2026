@@ -14,6 +14,7 @@ from sqlalchemy import delete, func, select
 from sqlalchemy.schema import CreateSchema, DropSchema
 
 from contract_models import ContractReport, MAX_SOURCE_TEXT_CHARS, PoolQuestion, SourceTextUpdate
+from department_bot.service import DepartmentService
 from hr_api.import_data import import_folder
 from hr_api.demo_data import create_demo
 from hr_api.schemas import CriteriaPatch
@@ -44,9 +45,9 @@ class FakePoolBuilder:
 
 
 class HRContractTests(unittest.TestCase):
-    def test_all_fifteen_routes_in_openapi_without_database_access(self):
+    def test_all_seventeen_routes_in_openapi_without_database_access(self):
         paths = create_app().openapi()["paths"]
-        self.assertEqual(sum(len(methods) for methods in paths.values()), 15)
+        self.assertEqual(sum(len(methods) for methods in paths.values()), 17)
         for path in ("/api/v1/vacancies", "/api/v1/vacancies/{vacancy_id}/criteria",
                      "/api/v1/vacancies/{vacancy_id}/match", "/api/v1/tasks/{task_id}",
                      "/api/v1/responses/{response_id}/report", "/api/v1/responses/{response_id}/questions/generate",
@@ -132,7 +133,7 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual(self.client.get(self.report_url()).json(), original)
         self.assertEqual(len(self.provider.calls), 1)
         self.assertEqual(self.client.get("/api/v1/vacancies").json(),
-            [{"id": str(self.vacancy_id), "title": "Frontend developer", "responses_count": 3}])
+            [{"id": str(self.vacancy_id), "title": "Frontend developer", "responses_count": 3, "status": "active", "hired_candidates": []}])
 
     def test_colors_depend_on_skills_without_identity_gate(self):
         self.prepare()
@@ -141,7 +142,7 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual([r["match_share"] for r in rows], [1, .5, .25])
         self.assertEqual(rows[-1]["id"], str(self.ids[1]))
         self.assertIsNone(rows[-1]["candidate_name"])
-        self.assertEqual(set(rows[0]), {"id", "candidate_name", "match_status", "match_share", "short_summary", "workflow_status", "is_viewed"})
+        self.assertEqual(set(rows[0]), {"id", "candidate_name", "match_status", "match_share", "short_summary", "workflow_status", "is_viewed", "is_closed", "closed_at", "hired_at"})
         # Anonymous candidates with sufficient skills receive the same green status.
         with self.factory.begin() as session:
             row = session.get(Response, self.ids[1])
@@ -407,6 +408,70 @@ class HRAPITests(unittest.TestCase):
             self.assertEqual(fresh.get(self.report_url()).json(), report)
         self.assertEqual(self.prepare(), 0)
         self.assertEqual(len(self.provider.calls), 1)
+
+    def test_department_closure_is_visible_without_regeneration_and_survives_source_edit(self):
+        self.prepare()
+        self.service.update_status(self.ids[0], "forwarded")
+        department = DepartmentService(self.factory, frozenset({12345}), "test-only-secret")
+        with self.factory.begin() as session:
+            cached = Repository(session).get_response(self.ids[0]).report
+            assert cached is not None
+            before_cache = cached.contract_json
+        _, token = department.confirmation(12345, "r", self.ids[0], True, hiring=True)
+        department.confirm(12345, token)
+        vacancy = self.client.get("/api/v1/vacancies").json()[0]
+        self.assertEqual(vacancy["status"], "active")
+        self.assertEqual(vacancy["hired_candidates"][0]["id"], str(self.ids[0]))
+        self.assertEqual(vacancy["hired_candidates"][0]["candidate_name"], "Демо Кандидат 1")
+        closed = self.client.patch(f"/api/v1/vacancies/{self.vacancy_id}/status", json={"status": "closed"})
+        self.assertEqual(closed.status_code, 200)
+        report = self.client.get(self.report_url()).json()
+        self.assertTrue(report["is_closed"])
+        self.assertIsNotNone(report["hired_at"])
+        self.assertIsNotNone(report["closed_at"])
+        rows = self.client.get(self.responses_url()).json()
+        self.assertTrue(next(row for row in rows if row["id"] == str(self.ids[0]))["is_closed"])
+        self.assertEqual(self.client.get("/api/v1/vacancies").json()[0]["status"], "closed")
+        with self.factory.begin() as session:
+            cached = Repository(session).get_response(self.ids[0]).report
+            assert cached is not None
+            self.assertEqual(cached.contract_json, before_cache)
+        self.provider.fail = True
+        updated = self.client.patch(f"/api/v1/responses/{self.ids[0]}/source-text", json={
+            "source_text": "Резюме: Разработчик\nНавыки\nSQL"})
+        self.assertEqual(updated.status_code, 200)
+        self.assertTrue(updated.json()["is_closed"])
+        self.assertEqual(updated.json()["closed_at"], report["closed_at"])
+        self.assertEqual(updated.json()["hired_at"], report["hired_at"])
+        self.assertEqual(updated.json()["workflow_status"], "forwarded")
+        self.assertEqual(len(self.provider.calls), 1)
+
+    def test_recruiter_summary_forward_and_update_queue_notifications_without_regeneration(self):
+        self.prepare()
+        recommendation = {"strengths": "SQL на практике", "weaknesses": "Мало опыта с Git", "interview_focus": "Работу с ветками"}
+        url = f"/api/v1/responses/{self.ids[0]}"
+        forwarded = self.client.patch(url + "/status", json={"workflow_status": "forwarded", "recruiter_recommendation": recommendation})
+        self.assertEqual(forwarded.status_code, 200)
+        self.assertEqual(self.client.get(self.report_url()).json()["recruiter_recommendation"], recommendation)
+        with self.factory.begin() as session:
+            row = Repository(session).get_response(self.ids[0])
+            self.assertTrue(row.department_notification_pending)
+            version = row.department_notification_version
+            self.assertEqual(version, 1)
+        department = DepartmentService(self.factory, frozenset({12345}), "test-only-secret")
+        department.acknowledge_notification(12345, self.ids[0], version)
+        self.client.patch(url + "/status", json={"workflow_status": "forwarded", "recruiter_recommendation": recommendation})
+        self.assertEqual(department.pending_notifications(12345), [])
+        recommendation["interview_focus"] = "Git и code review"
+        updated = self.client.patch(url + "/department-summary", json={"recruiter_recommendation": recommendation})
+        self.assertEqual(updated.status_code, 200)
+        department.acknowledge_notification(12345, self.ids[0], version)
+        self.assertEqual(len(department.pending_notifications(12345)), 1)
+        self.client.patch(url + "/status", json={"workflow_status": "not_forwarded"})
+        self.assertEqual(department.pending_notifications(12345), [])
+        self.assertEqual(len(self.provider.calls), 1)
+        for data in ({}, {"strengths": " ", "weaknesses": "x", "interview_focus": "x"}, {**recommendation, "strengths": "x" * 801}):
+            self.assertEqual(self.client.patch(url + "/department-summary", json={"recruiter_recommendation": data}).status_code, 422)
 
     def test_edit_source_does_not_keep_removed_identity_contacts_or_skills(self):
         self.prepare()

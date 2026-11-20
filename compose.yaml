@@ -88,5 +88,24 @@ services:
         condition: service_completed_successfully
     restart: unless-stopped
 
+  telegram-bot:
+    <<: *backend
+    profiles: ["telegram"]
+    command: ["python", "-m", "department_bot"]
+    environment:
+      <<: *database-environment
+      TELEGRAM_OFFSET_FILE: /var/lib/hr_bot/offset.json
+    volumes:
+      - ./.env:/app/.env:ro
+      - telegram_state:/var/lib/hr_bot
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    stop_grace_period: 45s
+    restart: unless-stopped
+
 volumes:
   postgres_data:
+  telegram_state:

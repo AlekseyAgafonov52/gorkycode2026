@@ -156,6 +156,7 @@ class VacancyRead(Schema):
     id: UUID
     title: str
     status: VacancyStatus
+    closed_at: datetime | None
     source_json: dict[str, JsonValue]
     criteria_version: int
     criteria: list[CriterionRead]
@@ -165,6 +166,12 @@ class VacancyRead(Schema):
 
 class ResponseRead(ResponseCreate):
     id: UUID
+    is_closed: bool
+    closed_at: datetime | None
+    closed_by_telegram_id: int | None
+    hired_at: datetime | None
+    hired_by_telegram_id: int | None
+    recruiter_recommendation: dict[str, JsonValue] | None
     created_at: datetime
     updated_at: datetime
 

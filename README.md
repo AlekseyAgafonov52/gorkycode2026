@@ -4,6 +4,8 @@
 
 Основные операции платформы: [HR API и импорт вакансий/откликов](HR_API.md). Swagger: http://localhost:8000/docs.
 
+Передача рекомендаций HR, подтверждение найма руководителем и закрытие вакансии HR: [Telegram-бот департамента](DEPARTMENT_BOT.md).
+
 Интерфейс HR подключён к этому API: вакансии, отклики, JSON-отчёты и сохранение результата звонка в PostgreSQL.
 Запуск всей связки: `docker compose up -d --build`, затем http://localhost:5173/.
 Настройки и отдельный запуск: [frontend/README.md](frontend/README.md).

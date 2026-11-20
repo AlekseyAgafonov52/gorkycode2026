@@ -4,7 +4,7 @@ from datetime import datetime
 from uuid import UUID
 
 from pydantic import Field, JsonValue, model_validator
-from contract_models import ContractResponse
+from contract_models import ContractResponse, HiredCandidate
 
 from storage.schemas import CriterionRead, Importance, Schema, TaskStatus, TaskType, VacancyStatus
 
@@ -14,6 +14,7 @@ class VacancySummary(Schema):
     title: str
     status: VacancyStatus
     responses_count: int
+    hired_candidates: list[HiredCandidate] = Field(default_factory=list)
 
 
 class VacancyDetail(VacancySummary):

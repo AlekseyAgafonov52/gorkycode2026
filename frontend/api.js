@@ -70,10 +70,17 @@ export function createApi({ apiBaseUrl = "/api/v1", requestTimeoutMs = 30000 } =
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ is_viewed: isViewed }),
     }),
-    updateStatus: (responseId, workflowStatus) => request(`/responses/${encodeURIComponent(responseId)}/status`, {
+    updateRecommendation: (responseId, recommendation) => request(`/responses/${encodeURIComponent(responseId)}/department-summary`, {
+      method: "PATCH", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ recruiter_recommendation: recommendation }),
+    }),
+    updateVacancyStatus: (vacancyId, status) => request(`/vacancies/${encodeURIComponent(vacancyId)}/status`, {
+      method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ status }),
+    }),
+    updateStatus: (responseId, workflowStatus, recommendation) => request(`/responses/${encodeURIComponent(responseId)}/status`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ workflow_status: workflowStatus }),
+      body: JSON.stringify({ workflow_status: workflowStatus, recruiter_recommendation: recommendation }),
     }),
   };
 }

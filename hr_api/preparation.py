@@ -153,6 +153,6 @@ class ReportPreparer:
             "match_share": result.match_share, "summary": result.summary, "skills": rows,
             "missing_data": [{**item.model_dump(), "id": next(ids)} for item in result.missing_data],
             "workflow_status": response.workflow_status, "is_viewed": response.is_viewed, "source_text": resume._source_text})
-        report.contract_json = contract.model_dump(mode="json", exclude={"source_text", "workflow_status", "is_viewed"})
+        report.contract_json = contract.model_dump(mode="json", exclude={"source_text", "workflow_status", "is_viewed", "is_closed", "closed_at", "hired_at", "recruiter_recommendation"})
         report.prepared_hash = prepared_hash
         return True
