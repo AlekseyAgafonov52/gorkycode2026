@@ -1,0 +1,151 @@
+{
+  "candidate_id": 174,
+  "resume_title": "UX/UI Designer",
+  "cover_letter": "Здравствуйте, очень заинтересовала ваша вакансия! Готов выполнить тестовое задание, при его наличии. Ссылка на Behance: https://www.behance.net/caf2fa23",
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "UX",
+      "level": null,
+      "original": "UX"
+    },
+    {
+      "name": "UI",
+      "level": null,
+      "original": "UI"
+    },
+    {
+      "name": "Mobile design",
+      "level": null,
+      "original": "Mobile design"
+    },
+    {
+      "name": "Web Design",
+      "level": null,
+      "original": "Web Design"
+    },
+    {
+      "name": "Prototyping",
+      "level": null,
+      "original": "Prototyping"
+    },
+    {
+      "name": "Working with the design system",
+      "level": null,
+      "original": "Working with the design system"
+    },
+    {
+      "name": "Impact map",
+      "level": null,
+      "original": "Impact map"
+    },
+    {
+      "name": "Idea matrix",
+      "level": null,
+      "original": "Idea matrix"
+    },
+    {
+      "name": "Information architecture",
+      "level": null,
+      "original": "Information architecture"
+    },
+    {
+      "name": "Empact mapping",
+      "level": null,
+      "original": "Empact mapping"
+    },
+    {
+      "name": "Interview",
+      "level": null,
+      "original": "Interview"
+    },
+    {
+      "name": "Autolayout",
+      "level": null,
+      "original": "Autolayout"
+    },
+    {
+      "name": "Components",
+      "level": null,
+      "original": "Components"
+    },
+    {
+      "name": "CJM",
+      "level": null,
+      "original": "CJM"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "A2",
+      "description": "Элементарный",
+      "original": "Английский — A2 — Элементарный"
+    }
+  ],
+  "about_me": "Два года фриланса + работая в компании на другой должности, выполнял разного рода задачи UX/UI дизайнера (инфографика, учавствовал в разработке дизайна для приложения и веб интерфейса)",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Teachmeskills",
+      "details": [
+        "UX/UI Designer, UX/UI Designer"
+      ],
+      "year": 2023,
+      "level": "Высшее образование",
+      "original": "Teachmeskills\nUX/UI Designer, UX/UI Designer\n•\n2023\n•\nВысшее образование"
+    },
+    {
+      "institution": "Белорусско-российский университет, Могилев",
+      "details": [
+        "Экономический, Финансы и кредит"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "Белорусско-российский университет, Могилев\nЭкономический, Финансы и кредит\n•\n2022\n•\nВысшее образование"
+    },
+    {
+      "institution": "Могилевская городская детская художественная школа",
+      "details": [
+        "Изобразительное искусство, Изобразительное"
+      ],
+      "year": 2016,
+      "level": "Высшее образование",
+      "original": "Могилевская городская детская художественная школа\nИзобразительное искусство, Изобразительное\n•\n2016\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Беларусь",
+    "work_permit": "Беларусь, Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №174\nРезюме: UX/UI Designer",
+    "cover_letter": "Здравствуйте, очень заинтересовала ваша вакансия! Готов выполнить тестовое задание, при его наличии. Ссылка на Behance: https://www.behance.net/caf2fa23",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Figma\nUX\nUI\nMobile design\nWeb Design\nPrototyping\nWorking with the design system\nImpact map\nIdea matrix\nInformation architecture\nEmpact mapping\nInterview\nAutolayout\nComponents\nCJM",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный",
+    "about_me": "Два года фриланса + работая в компании на другой должности, выполнял разного рода задачи UX/UI дизайнера (инфографика, учавствовал в разработке дизайна для приложения и веб интерфейса)",
+    "education": "Уровень\nВысшее образование\nTeachmeskills\nUX/UI Designer, UX/UI Designer\n•\n2023\n•\nВысшее образование\nБелорусско-российский университет, Могилев\nЭкономический, Финансы и кредит\n•\n2022\n•\nВысшее образование\nМогилевская городская детская художественная школа\nИзобразительное искусство, Изобразительное\n•\n2016\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь, Россия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №174\nРезюме: UX/UI Designer\n\nСопроводительное письмо\nЗдравствуйте, очень заинтересовала ваша вакансия! Готов выполнить тестовое задание, при его наличии. Ссылка на Behance: https://www.behance.net/caf2fa23\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nFigma\nUX\nUI\nMobile design\nWeb Design\nPrototyping\nWorking with the design system\nImpact map\nIdea matrix\nInformation architecture\nEmpact mapping\nInterview\nAutolayout\nComponents\nCJM\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — A2 — Элементарный\n\nОбо мне\nДва года фриланса + работая в компании на другой должности, выполнял разного рода задачи UX/UI дизайнера (инфографика, учавствовал в разработке дизайна для приложения и веб интерфейса)\n\nОбразование\nУровень\nВысшее образование\nTeachmeskills\nUX/UI Designer, UX/UI Designer\n•\n2023\n•\nВысшее образование\nБелорусско-российский университет, Могилев\nЭкономический, Финансы и кредит\n•\n2022\n•\nВысшее образование\nМогилевская городская детская художественная школа\nИзобразительное искусство, Изобразительное\n•\n2016\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь, Россия\n"
+}

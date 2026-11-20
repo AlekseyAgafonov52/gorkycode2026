@@ -1,0 +1,102 @@
+{
+  "candidate_id": 8,
+  "resume_title": "UX/UI, product designer",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "UI",
+      "level": "intermediate",
+      "original": "UI"
+    },
+    {
+      "name": "UX",
+      "level": "intermediate",
+      "original": "UX"
+    },
+    {
+      "name": "UX-исследования",
+      "level": "intermediate",
+      "original": "UX-исследования"
+    },
+    {
+      "name": "Прототипирование",
+      "level": "intermediate",
+      "original": "Прототипирование"
+    },
+    {
+      "name": "User Interface",
+      "level": "intermediate",
+      "original": "User Interface"
+    },
+    {
+      "name": "A/B тесты",
+      "level": "intermediate",
+      "original": "A/B тесты"
+    },
+    {
+      "name": "User Flow",
+      "level": "intermediate",
+      "original": "User Flow"
+    },
+    {
+      "name": "Miro",
+      "level": "intermediate",
+      "original": "Miro"
+    },
+    {
+      "name": "User Experience",
+      "level": "intermediate",
+      "original": "User Experience"
+    },
+    {
+      "name": "Английский язык",
+      "level": "basic",
+      "original": "Английский язык"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Ссылка на портфолио: https://kremkaz.github.io/portfolio",
+  "education_level": "Среднее специальное образование",
+  "education": [
+    {
+      "institution": "Нижегородский государственный архитектурно-строительный университет, Нижний Новгород",
+      "details": [
+        "Дизайн по отраслям, Дизайн"
+      ],
+      "year": 2027,
+      "level": "Среднее специальное образование",
+      "original": "Нижегородский государственный архитектурно-строительный университет, Нижний Новгород\nДизайн по отраслям, Дизайн\n•\n2027\n•\nСреднее специальное образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не более часа",
+    "business_trips": "Готова к редким командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №8\nРезюме: UX/UI, product designer",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Средний уровень\nUI\nUX\nUX-исследования\nПрототипирование\nUser Interface\nA/B тесты\nUser Flow\nMiro\nUser Experience\nБазовый уровень\nАнглийский язык",
+    "languages": "Родной\nРусский",
+    "about_me": "Ссылка на портфолио: https://kremkaz.github.io/portfolio",
+    "education": "Уровень\nСреднее специальное образование\nНижегородский государственный архитектурно-строительный университет, Нижний Новгород\nДизайн по отраслям, Дизайн\n•\n2027\n•\nСреднее специальное образование",
+    "additional": "Желательное время в пути до работы:\nНе более часа\nКомандировки:\nГотова к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №8\nРезюме: UX/UI, product designer\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nСредний уровень\nUI\nUX\nUX-исследования\nПрототипирование\nUser Interface\nA/B тесты\nUser Flow\nMiro\nUser Experience\nБазовый уровень\nАнглийский язык\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nСсылка на портфолио: https://kremkaz.github.io/portfolio\n\nОбразование\nУровень\nСреднее специальное образование\nНижегородский государственный архитектурно-строительный университет, Нижний Новгород\nДизайн по отраслям, Дизайн\n•\n2027\n•\nСреднее специальное образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе более часа\nКомандировки:\nГотова к редким командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

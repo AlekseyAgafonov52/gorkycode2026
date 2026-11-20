@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ux_ui_design",
+    "title_aliases": ["дизайнер интерфейсов", "дизайнер пользовательских интерфейсов", "ux/ui дизайнер", "ui/ux дизайнер", "ux ui дизайнер", "ui ux дизайнер", "ux-дизайнер", "ui-дизайнер", "ux дизайнер", "ui дизайнер", "дизайнер ux/ui", "дизайнер ui/ux", "ux/ui designer", "ui/ux designer", "ux ui designer", "ui ux designer", "ux designer", "ui designer", "user experience designer", "user interface designer"],
+    "related_titles": ["ui/ux", "ux/ui", "графический дизайнер", "веб-дизайнер", "web designer", "продуктовый дизайнер", "product designer", "ux-исследователь", "ux researcher"],
+    "signals": ["figma", "adobe xd", "ux/ui", "ui/ux", "ux-дизайн", "ui-дизайн", "ux-исследования", "ux исследования", "ux research", "исследование пользовательского опыта", "проектирование интерфейсов", "проектирование пользовательских интерфейсов", "дизайн интерфейсов", "прототипирование интерфейсов", "прототипы интерфейсов", "макеты интерфейсов", "дизайн-система", "design system", "wireframe", "wireframes", "usability testing", "юзабилити-тестирование", "user flow", "user journey map"]
+  },
+  {
+    "id": "finance",
+    "title_aliases": ["экономист", "economist", "бухгалтер", "accountant", "финансовый аналитик", "financial analyst", "финансовый контролер", "финансовый контролёр", "financial controller", "аудитор", "auditor"],
+    "related_titles": ["специалист по финансам", "бюджетный аналитик", "budget analyst", "налоговый консультант", "tax consultant"],
+    "signals": ["бухгалтерский учет", "бухгалтерский учёт", "бюджетирование", "финансовое моделирование", "управленческий учет", "управленческий учёт", "финансовая отчетность", "финансовая отчётность", "1с бухгалтерия", "мсфо", "ifrs", "accounts payable", "accounts receivable"]
+  },
+  {
+    "id": "frontend",
+    "title_aliases": ["frontend", "front-end", "front end", "фронтенд", "фронтэнд", "фронт-енд", "фронт-энд"],
+    "related_titles": ["веб-разработчик", "web developer", "fullstack", "full-stack", "full stack", "фулстек", "фуллстек", "ui инженер", "ui engineer"],
+    "signals": ["vue", "vue.js", "react", "react.js", "angular", "svelte", "pinia", "next.js", "nuxt", "storybook", "верстка интерфейсов", "вёрстка интерфейсов", "разработка ui-компонентов", "frontend development"]
+  },
+  {
+    "id": "backend",
+    "title_aliases": ["backend", "back-end", "back end", "бэкенд", "бекенд", "бэкэнд", "бэк-энд", "бек-енд"],
+    "related_titles": ["веб-разработчик", "web developer", "fullstack", "full-stack", "full stack", "фулстек", "фуллстек", "инженер по интеграциям"],
+    "signals": ["fastapi", "django", "spring boot", "express.js", "nestjs", "asp.net core", "серверная разработка", "реализация rest api", "проектирование api", "grpc"]
+  },
+  {
+    "id": "fullstack",
+    "title_aliases": ["fullstack", "full-stack", "full stack", "фулстек", "фуллстек", "фул-стек", "фулл-стек"],
+    "related_titles": ["веб-разработчик", "web developer", "frontend", "фронтенд", "backend", "бэкенд"],
+    "signals": ["разработка клиентской и серверной части", "разработка фронтенда и бэкенда", "client and server development", "front-end and back-end development"]
+  },
+  {
+    "id": "qa",
+    "title_aliases": ["тестировщик", "тестировщик программного обеспечения", "инженер по тестированию", "qa engineer", "qa tester", "software tester", "software test engineer", "sdet", "инженер по автоматизации тестирования"],
+    "related_titles": ["qa", "специалист по контролю качества", "quality assurance engineer"],
+    "signals": ["тестирование программного обеспечения", "регрессионное тестирование", "тест-кейсы", "тест-дизайн", "баг-репорт", "selenium", "playwright", "pytest", "test cases", "software testing"]
+  },
+  {
+    "id": "data_analytics",
+    "title_aliases": ["аналитик данных", "data analyst", "bi-аналитик", "bi аналитик", "bi analyst", "data scientist", "дата-сайентист"],
+    "related_titles": ["бизнес-аналитик", "business analyst", "продуктовый аналитик", "product analyst", "инженер данных", "data engineer", "статистик", "statistician"],
+    "signals": ["power bi", "tableau", "qlik sense", "looker studio", "витрины данных", "когортный анализ", "a/b-тестирование", "data visualization", "pandas", "scikit-learn"]
+  },
+  {
+    "id": "recruiting",
+    "title_aliases": ["рекрутер", "recruiter", "специалист по подбору персонала", "talent acquisition specialist", "talent acquisition recruiter", "talent sourcer"],
+    "related_titles": ["hr-менеджер", "hr manager", "менеджер по персоналу", "hr generalist", "hr business partner"],
+    "signals": ["подбор персонала", "поиск кандидатов", "активный поиск кандидатов", "оценка кандидатов", "интервью по компетенциям", "закрытие вакансий", "булев поиск", "talent sourcing", "candidate screening", "applicant tracking system"]
+  },
+  {
+    "id": "graphic_design",
+    "title_aliases": ["графический дизайнер", "графдизайнер", "graphic designer", "дизайнер полиграфии", "дизайнер по полиграфии", "иллюстратор", "illustrator"],
+    "related_titles": ["веб-дизайнер", "web designer", "дизайнер интерфейсов", "ui designer", "ux/ui дизайнер", "бренд-дизайнер", "brand designer"],
+    "signals": ["adobe illustrator", "adobe photoshop", "photoshop", "adobe indesign", "coreldraw", "верстка полиграфии", "вёрстка полиграфии", "макеты для печати", "векторная графика", "фирменный стиль", "типографика"]
+  },
+  {
+    "id": "project_management",
+    "title_aliases": ["руководитель проектов", "менеджер проектов", "руководитель проекта", "менеджер проекта", "project manager", "it project manager", "delivery manager"],
+    "related_titles": ["координатор проектов", "project coordinator", "менеджер продукта", "product manager", "scrum master", "скрам-мастер"],
+    "signals": ["управление проектами", "проектное управление", "планирование спринтов", "график проекта", "критический путь", "управление рисками проекта", "stakeholder management", "project delivery", "project planning", "project charter"]
+  },
+  {
+    "id": "customer_support",
+    "title_aliases": ["специалист технической поддержки", "специалист службы поддержки", "оператор службы поддержки", "специалист поддержки пользователей", "инженер по технической поддержке", "technical support specialist", "customer support specialist", "helpdesk technician", "help desk specialist"],
+    "related_titles": ["менеджер по работе с клиентами", "customer success manager", "customer service representative", "оператор контакт-центра"],
+    "signals": ["обработка обращений пользователей", "обработка клиентских обращений", "линия техподдержки", "техническая поддержка пользователей", "service desk", "support tickets", "zendesk", "freshdesk", "ticket escalation"]
+  },
+  {
+    "id": "content_marketing",
+    "title_aliases": ["контент-маркетолог", "content marketer", "content marketing manager", "контент-менеджер", "content manager", "smm-менеджер", "smm специалист", "social media manager"],
+    "related_titles": ["редактор", "копирайтер", "copywriter", "pr-менеджер", "pr manager", "менеджер по маркетингу", "marketing manager"],
+    "signals": ["контент-план", "контентная стратегия", "контент-стратегия", "ведение соцсетей", "ведение социальных сетей", "social media strategy", "editorial calendar", "content strategy", "community management"]
+  },
+  {
+    "id": "nursing",
+    "title_aliases": ["медицинская сестра", "медицинский брат", "медсестра", "медбрат", "процедурная медсестра", "registered nurse", "staff nurse", "nurse practitioner"],
+    "related_titles": ["фельдшер", "санитар", "санитарка", "парамедик", "paramedic", "nursing assistant"],
+    "signals": ["сестринское дело", "сестринский уход", "медицинские манипуляции", "работа в процедурном кабинете", "постановка капельниц", "внутривенные инъекции", "patient care", "nursing care", "patient monitoring"]
+  },
+  {
+    "id": "warehouse",
+    "title_aliases": ["кладовщик", "комплектовщик склада", "оператор склада", "работник склада", "складской оператор", "warehouse associate", "warehouse operator", "warehouse clerk", "order picker"],
+    "related_titles": ["комплектовщик", "логист", "специалист по логистике", "inventory specialist", "оператор погрузчика", "forklift operator"],
+    "signals": ["приемка товара", "приёмка товара", "комплектация заказов", "складской учет", "складской учёт", "складская инвентаризация", "wms", "терминал сбора данных", "order picking", "inventory control"]
+  }
+]
