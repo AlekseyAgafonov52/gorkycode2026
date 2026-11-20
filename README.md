@@ -1,5 +1,9 @@
 # Парсер вакансий
 
+Развёртывание приложения и PostgreSQL: [Docker Compose](DEPLOYMENT.md). Модели, миграции и CRUD: [слой хранения](DATABASE.md).
+
+Основные операции платформы: [HR API и импорт вакансий/откликов](HR_API.md). Swagger: http://localhost:8000/docs.
+
 Модуль ТЗ №3 — генерация уточняющих вопросов через YandexGPT: [инструкция и запуск](QUESTION_GENERATOR.md), код `question_generator.py`.
 
 Проверка одного готового отклика: `.\.venv\Scripts\python.exe check_candidate.py frontend 1`. Основной источник — `job_vacancy.txt` в папке откликов, дополнительный — только раздел «Обязанности» из `job_instruction.docx`. Результат сохраняется в подпапку `questions` в JSON и Markdown.

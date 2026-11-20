@@ -1,0 +1,13 @@
+.git
+.env
+.env.*
+!.env.example
+.venv
+.local
+.ruff_cache
+**/__pycache__
+**/*.pyc
+parsed_responses
+vacansies
+examples
+*.log
