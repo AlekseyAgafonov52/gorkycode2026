@@ -73,3 +73,16 @@ summary { cursor: pointer; }
   .actions { display: grid; }
   button.act { text-align: left; }
 }
+header .crumb-sep { color: #aaa; margin: 0 -6px; }
+header .crumb { color: inherit; text-decoration: none; }
+header .crumb:hover { text-decoration: underline; }
+.vac-group { max-width: 1000px; margin: 24px auto 48px; }
+.vac-group h2 { text-align: center; font-weight: 500; font-size: 20px; margin: 0 0 10px; }
+.vac-group hr { border: 0; border-top: 1px solid #ccc; margin: 0 0 18px; }
+.vac-rows { line-height: 2.2; }
+.vac { white-space: nowrap; }
+.vac a { color: #222; text-decoration: none; }
+.vac a:hover { text-decoration: underline; }
+.vac-sep { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #999; margin: 0 14px; vertical-align: middle; }
+.vac-sep.hidden { visibility: hidden; }
+.vac-group.closed .vac a, .vac-empty { color: #777; }

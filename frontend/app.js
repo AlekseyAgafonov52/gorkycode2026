@@ -47,6 +47,35 @@ function tabs(selectedId) {
       href="${vacancyLink(vacancy.id)}">${esc(vacancy.title)} · ${vacancy.responses_count}</a>`).join("")}</nav>`;
 }
 
+// Страница вакансий: названия строками через точку, сначала открытые, потом закрытые.
+// Бэк пока не отдаёт статус вакансии, поэтому без поля status вакансия считается открытой.
+function renderVacancies() {
+  const open = state.vacancies.filter((vacancy) => vacancy.status !== "closed");
+  const closed = state.vacancies.filter((vacancy) => vacancy.status === "closed");
+  const rows = (list) => list.length
+    ? list.map((vacancy, i) => `<span class="vac"><a href="${vacancyLink(vacancy.id)}">${esc(vacancy.title)}</a>${
+      i < list.length - 1 ? '<span class="vac-sep" aria-hidden="true"></span>' : ""}</span> `).join("")
+    : '<span class="vac-empty">Пока нет</span>';
+  const group = (title, list, extra = "") => `<section class="vac-group ${extra}"><h2>${title}</h2><hr>
+    <div class="vac-rows">${rows(list)}</div></section>`;
+  app.setAttribute("aria-busy", "false");
+  app.innerHTML = group("Открытые вакансии", open) + group("Закрытые вакансии", closed, "closed");
+  hideLineEndDots();
+}
+
+// Точка нужна только между вакансиями в одной строке: в конце строки прячем её.
+function hideLineEndDots() {
+  app.querySelectorAll(".vac-rows").forEach((rows) => {
+    const items = [...rows.querySelectorAll(".vac")];
+    items.forEach((item, i) => {
+      const dot = item.querySelector(".vac-sep");
+      if (!dot) return;
+      dot.classList.toggle("hidden", Boolean(items[i + 1]) && items[i + 1].offsetTop > item.offsetTop);
+    });
+  });
+}
+window.addEventListener("resize", hideLineEndDots);
+
 function message(title, text, action = "refresh") {
   app.setAttribute("aria-busy", "false");
   app.innerHTML = `${tabs(state.vacancyId)}<section class="msg" role="status"><h1>${esc(title)}</h1>
@@ -347,8 +376,10 @@ async function route() {
   try {
     const parts = location.hash.match(/^#\/v\/([^/]+)(?:\/r\/([^/]+))?\/?$/);
     if (!parts) {
-      if (!location.hash && state.vacancies.length) {
-        location.replace(vacancyLink(state.vacancies[0].id));
+      if (!location.hash || location.hash === "#/") {
+        state.vacancyId = null;
+        renderVacancies();
+        window.scrollTo(0, 0);
         return;
       }
       throw new Error("Страница не найдена. Выберите вакансию.");
