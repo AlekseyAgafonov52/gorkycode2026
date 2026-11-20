@@ -1,0 +1,997 @@
+{
+  "vacancy_id": null,
+  "vacancy_title": "Frontend developer",
+  "best_report": "report-72.pdf",
+  "applications": [
+    {
+      "rank": 1,
+      "application_id": "72",
+      "color": "yellow",
+      "confirmed": 94.82758620689656,
+      "score": 94.82758620689656,
+      "coverage": 100.0,
+      "lexical_score": 0.168006,
+      "report": "report-72.pdf"
+    },
+    {
+      "rank": 2,
+      "application_id": "40",
+      "color": "yellow",
+      "confirmed": 68.96551724137932,
+      "score": 86.95652173913044,
+      "coverage": 79.3103448275862,
+      "lexical_score": 0.047341,
+      "report": "report-40.pdf"
+    },
+    {
+      "rank": 3,
+      "application_id": "90",
+      "color": "yellow",
+      "confirmed": 67.24137931034483,
+      "score": 88.63636363636364,
+      "coverage": 75.86206896551724,
+      "lexical_score": 0.08536,
+      "report": "report-90.pdf"
+    },
+    {
+      "rank": 4,
+      "application_id": "24",
+      "color": "yellow",
+      "confirmed": 67.24137931034483,
+      "score": 92.85714285714286,
+      "coverage": 72.41379310344827,
+      "lexical_score": 0.061433,
+      "report": "report-24.pdf"
+    },
+    {
+      "rank": 5,
+      "application_id": "55",
+      "color": "yellow",
+      "confirmed": 67.24137931034483,
+      "score": 92.85714285714286,
+      "coverage": 72.41379310344827,
+      "lexical_score": 0.041195,
+      "report": "report-55.pdf"
+    },
+    {
+      "rank": 6,
+      "application_id": "14",
+      "color": "yellow",
+      "confirmed": 65.51724137931035,
+      "score": 95.0,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.071052,
+      "report": "report-14.pdf"
+    },
+    {
+      "rank": 7,
+      "application_id": "37",
+      "color": "yellow",
+      "confirmed": 65.51724137931035,
+      "score": 95.0,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.068677,
+      "report": "report-37.pdf"
+    },
+    {
+      "rank": 8,
+      "application_id": "66",
+      "color": "yellow",
+      "confirmed": 65.51724137931035,
+      "score": 95.0,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.051916,
+      "report": "report-66.pdf"
+    },
+    {
+      "rank": 9,
+      "application_id": "26",
+      "color": "yellow",
+      "confirmed": 63.793103448275865,
+      "score": 92.5,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.109081,
+      "report": "report-26.pdf"
+    },
+    {
+      "rank": 10,
+      "application_id": "21",
+      "color": "yellow",
+      "confirmed": 63.793103448275865,
+      "score": 92.5,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.066444,
+      "report": "report-21.pdf"
+    },
+    {
+      "rank": 11,
+      "application_id": "25",
+      "color": "yellow",
+      "confirmed": 63.793103448275865,
+      "score": 92.5,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.05908,
+      "report": "report-25.pdf"
+    },
+    {
+      "rank": 12,
+      "application_id": "28",
+      "color": "yellow",
+      "confirmed": 63.793103448275865,
+      "score": 92.5,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.052044,
+      "report": "report-28.pdf"
+    },
+    {
+      "rank": 13,
+      "application_id": "15",
+      "color": "yellow",
+      "confirmed": 63.793103448275865,
+      "score": 92.5,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.045934,
+      "report": "report-15.pdf"
+    },
+    {
+      "rank": 14,
+      "application_id": "46",
+      "color": "yellow",
+      "confirmed": 63.793103448275865,
+      "score": 92.5,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.043466,
+      "report": "report-46.pdf"
+    },
+    {
+      "rank": 15,
+      "application_id": "35",
+      "color": "yellow",
+      "confirmed": 63.793103448275865,
+      "score": 92.5,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.039853,
+      "report": "report-35.pdf"
+    },
+    {
+      "rank": 16,
+      "application_id": "65",
+      "color": "yellow",
+      "confirmed": 63.793103448275865,
+      "score": 92.5,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.033619,
+      "report": "report-65.pdf"
+    },
+    {
+      "rank": 17,
+      "application_id": "23",
+      "color": "yellow",
+      "confirmed": 62.06896551724138,
+      "score": 81.81818181818181,
+      "coverage": 75.86206896551724,
+      "lexical_score": 0.095445,
+      "report": "report-23.pdf"
+    },
+    {
+      "rank": 18,
+      "application_id": "89",
+      "color": "yellow",
+      "confirmed": 62.06896551724138,
+      "score": 94.73684210526316,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.074406,
+      "report": "report-89.pdf"
+    },
+    {
+      "rank": 19,
+      "application_id": "97",
+      "color": "yellow",
+      "confirmed": 62.06896551724138,
+      "score": 94.73684210526316,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.04943,
+      "report": "report-97.pdf"
+    },
+    {
+      "rank": 20,
+      "application_id": "9",
+      "color": "yellow",
+      "confirmed": 62.06896551724138,
+      "score": 94.73684210526316,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.04574,
+      "report": "report-9.pdf"
+    },
+    {
+      "rank": 21,
+      "application_id": "44",
+      "color": "yellow",
+      "confirmed": 62.06896551724138,
+      "score": 90.0,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.04453,
+      "report": "report-44.pdf"
+    },
+    {
+      "rank": 22,
+      "application_id": "4",
+      "color": "yellow",
+      "confirmed": 62.06896551724138,
+      "score": 94.73684210526316,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.030857,
+      "report": "report-4.pdf"
+    },
+    {
+      "rank": 23,
+      "application_id": "73",
+      "color": "yellow",
+      "confirmed": 60.3448275862069,
+      "score": 92.10526315789474,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.050917,
+      "report": "report-73.pdf"
+    },
+    {
+      "rank": 24,
+      "application_id": "53",
+      "color": "yellow",
+      "confirmed": 60.3448275862069,
+      "score": 92.10526315789474,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.048987,
+      "report": "report-53.pdf"
+    },
+    {
+      "rank": 25,
+      "application_id": "10",
+      "color": "yellow",
+      "confirmed": 60.3448275862069,
+      "score": 97.22222222222223,
+      "coverage": 62.06896551724138,
+      "lexical_score": 0.048688,
+      "report": "report-10.pdf"
+    },
+    {
+      "rank": 26,
+      "application_id": "47",
+      "color": "yellow",
+      "confirmed": 60.3448275862069,
+      "score": 92.10526315789474,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.040068,
+      "report": "report-47.pdf"
+    },
+    {
+      "rank": 27,
+      "application_id": "32",
+      "color": "yellow",
+      "confirmed": 60.3448275862069,
+      "score": 92.10526315789474,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.026451,
+      "report": "report-32.pdf"
+    },
+    {
+      "rank": 28,
+      "application_id": "16",
+      "color": "yellow",
+      "confirmed": 60.3448275862069,
+      "score": 92.10526315789474,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.018124,
+      "report": "report-16.pdf"
+    },
+    {
+      "rank": 29,
+      "application_id": "58",
+      "color": "yellow",
+      "confirmed": 58.62068965517241,
+      "score": 85.0,
+      "coverage": 68.96551724137932,
+      "lexical_score": 0.067458,
+      "report": "report-58.pdf"
+    },
+    {
+      "rank": 30,
+      "application_id": "12",
+      "color": "yellow",
+      "confirmed": 58.62068965517241,
+      "score": 94.44444444444444,
+      "coverage": 62.06896551724138,
+      "lexical_score": 0.037448,
+      "report": "report-12.pdf"
+    },
+    {
+      "rank": 31,
+      "application_id": "27",
+      "color": "yellow",
+      "confirmed": 58.62068965517241,
+      "score": 94.44444444444444,
+      "coverage": 62.06896551724138,
+      "lexical_score": 0.037149,
+      "report": "report-27.pdf"
+    },
+    {
+      "rank": 32,
+      "application_id": "70",
+      "color": "yellow",
+      "confirmed": 56.89655172413793,
+      "score": 91.66666666666667,
+      "coverage": 62.06896551724138,
+      "lexical_score": 0.066185,
+      "report": "report-70.pdf"
+    },
+    {
+      "rank": 33,
+      "application_id": "1",
+      "color": "yellow",
+      "confirmed": 56.89655172413793,
+      "score": 91.66666666666667,
+      "coverage": 62.06896551724138,
+      "lexical_score": 0.056717,
+      "report": "report-1.pdf"
+    },
+    {
+      "rank": 34,
+      "application_id": "31",
+      "color": "yellow",
+      "confirmed": 56.89655172413793,
+      "score": 97.05882352941177,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.043578,
+      "report": "report-31.pdf"
+    },
+    {
+      "rank": 35,
+      "application_id": "48",
+      "color": "yellow",
+      "confirmed": 56.89655172413793,
+      "score": 86.84210526315789,
+      "coverage": 65.51724137931035,
+      "lexical_score": 0.037259,
+      "report": "report-48.pdf"
+    },
+    {
+      "rank": 36,
+      "application_id": "20",
+      "color": "yellow",
+      "confirmed": 55.172413793103445,
+      "score": 88.88888888888889,
+      "coverage": 62.06896551724138,
+      "lexical_score": 0.043348,
+      "report": "report-20.pdf"
+    },
+    {
+      "rank": 37,
+      "application_id": "17",
+      "color": "yellow",
+      "confirmed": 55.172413793103445,
+      "score": 94.11764705882354,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.038178,
+      "report": "report-17.pdf"
+    },
+    {
+      "rank": 38,
+      "application_id": "11",
+      "color": "yellow",
+      "confirmed": 55.172413793103445,
+      "score": 94.11764705882354,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.035358,
+      "report": "report-11.pdf"
+    },
+    {
+      "rank": 39,
+      "application_id": "63",
+      "color": "yellow",
+      "confirmed": 55.172413793103445,
+      "score": 94.11764705882354,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.030328,
+      "report": "report-63.pdf"
+    },
+    {
+      "rank": 40,
+      "application_id": "43",
+      "color": "yellow",
+      "confirmed": 53.44827586206897,
+      "score": 86.11111111111111,
+      "coverage": 62.06896551724138,
+      "lexical_score": 0.149747,
+      "report": "report-43.pdf"
+    },
+    {
+      "rank": 41,
+      "application_id": "71",
+      "color": "yellow",
+      "confirmed": 53.44827586206897,
+      "score": 91.17647058823529,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.044862,
+      "report": "report-71.pdf"
+    },
+    {
+      "rank": 42,
+      "application_id": "60",
+      "color": "yellow",
+      "confirmed": 53.44827586206897,
+      "score": 91.17647058823529,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.04185,
+      "report": "report-60.pdf"
+    },
+    {
+      "rank": 43,
+      "application_id": "39",
+      "color": "yellow",
+      "confirmed": 53.44827586206897,
+      "score": 91.17647058823529,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.037452,
+      "report": "report-39.pdf"
+    },
+    {
+      "rank": 44,
+      "application_id": "61",
+      "color": "yellow",
+      "confirmed": 53.44827586206897,
+      "score": 91.17647058823529,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.028115,
+      "report": "report-61.pdf"
+    },
+    {
+      "rank": 45,
+      "application_id": "78",
+      "color": "yellow",
+      "confirmed": 53.44827586206897,
+      "score": 91.17647058823529,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.026433,
+      "report": "report-78.pdf"
+    },
+    {
+      "rank": 46,
+      "application_id": "22",
+      "color": "yellow",
+      "confirmed": 51.724137931034484,
+      "score": 93.75,
+      "coverage": 55.172413793103445,
+      "lexical_score": 0.083885,
+      "report": "report-22.pdf"
+    },
+    {
+      "rank": 47,
+      "application_id": "95",
+      "color": "yellow",
+      "confirmed": 51.724137931034484,
+      "score": 83.33333333333333,
+      "coverage": 62.06896551724138,
+      "lexical_score": 0.051286,
+      "report": "report-95.pdf"
+    },
+    {
+      "rank": 48,
+      "application_id": "5",
+      "color": "yellow",
+      "confirmed": 51.724137931034484,
+      "score": 88.23529411764706,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.040853,
+      "report": "report-5.pdf"
+    },
+    {
+      "rank": 49,
+      "application_id": "85",
+      "color": "yellow",
+      "confirmed": 51.724137931034484,
+      "score": 93.75,
+      "coverage": 55.172413793103445,
+      "lexical_score": 0.035339,
+      "report": "report-85.pdf"
+    },
+    {
+      "rank": 50,
+      "application_id": "8",
+      "color": "yellow",
+      "confirmed": 51.724137931034484,
+      "score": 93.75,
+      "coverage": 55.172413793103445,
+      "lexical_score": 0.021251,
+      "report": "report-8.pdf"
+    },
+    {
+      "rank": 51,
+      "application_id": "79",
+      "color": "yellow",
+      "confirmed": 51.724137931034484,
+      "score": 93.75,
+      "coverage": 55.172413793103445,
+      "lexical_score": 0.007968,
+      "report": "report-79.pdf"
+    },
+    {
+      "rank": 52,
+      "application_id": "51",
+      "color": "yellow",
+      "confirmed": 50.0,
+      "score": 85.29411764705883,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.06142,
+      "report": "report-51.pdf"
+    },
+    {
+      "rank": 53,
+      "application_id": "67",
+      "color": "yellow",
+      "confirmed": 50.0,
+      "score": 96.66666666666667,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.050226,
+      "report": "report-67.pdf"
+    },
+    {
+      "rank": 54,
+      "application_id": "87",
+      "color": "yellow",
+      "confirmed": 50.0,
+      "score": 90.625,
+      "coverage": 55.172413793103445,
+      "lexical_score": 0.047306,
+      "report": "report-87.pdf"
+    },
+    {
+      "rank": 55,
+      "application_id": "3",
+      "color": "yellow",
+      "confirmed": 50.0,
+      "score": 90.625,
+      "coverage": 55.172413793103445,
+      "lexical_score": 0.033117,
+      "report": "report-3.pdf"
+    },
+    {
+      "rank": 56,
+      "application_id": "69",
+      "color": "yellow",
+      "confirmed": 50.0,
+      "score": 85.29411764705883,
+      "coverage": 58.62068965517241,
+      "lexical_score": 0.028675,
+      "report": "report-69.pdf"
+    },
+    {
+      "rank": 57,
+      "application_id": "59",
+      "color": "yellow",
+      "confirmed": 48.275862068965516,
+      "score": 93.33333333333333,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.047997,
+      "report": "report-59.pdf"
+    },
+    {
+      "rank": 58,
+      "application_id": "19",
+      "color": "yellow",
+      "confirmed": 48.275862068965516,
+      "score": 93.33333333333333,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.026587,
+      "report": "report-19.pdf"
+    },
+    {
+      "rank": 59,
+      "application_id": "77",
+      "color": "yellow",
+      "confirmed": 46.55172413793103,
+      "score": 90.0,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.045717,
+      "report": "report-77.pdf"
+    },
+    {
+      "rank": 60,
+      "application_id": "68",
+      "color": "yellow",
+      "confirmed": 46.55172413793103,
+      "score": 90.0,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.037948,
+      "report": "report-68.pdf"
+    },
+    {
+      "rank": 61,
+      "application_id": "50",
+      "color": "yellow",
+      "confirmed": 46.55172413793103,
+      "score": 90.0,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.037817,
+      "report": "report-50.pdf"
+    },
+    {
+      "rank": 62,
+      "application_id": "54",
+      "color": "yellow",
+      "confirmed": 46.55172413793103,
+      "score": 90.0,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.036637,
+      "report": "report-54.pdf"
+    },
+    {
+      "rank": 63,
+      "application_id": "45",
+      "color": "yellow",
+      "confirmed": 46.55172413793103,
+      "score": 90.0,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.034678,
+      "report": "report-45.pdf"
+    },
+    {
+      "rank": 64,
+      "application_id": "74",
+      "color": "yellow",
+      "confirmed": 46.55172413793103,
+      "score": 90.0,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.028213,
+      "report": "report-74.pdf"
+    },
+    {
+      "rank": 65,
+      "application_id": "57",
+      "color": "yellow",
+      "confirmed": 46.55172413793103,
+      "score": 90.0,
+      "coverage": 51.724137931034484,
+      "lexical_score": 0.01211,
+      "report": "report-57.pdf"
+    },
+    {
+      "rank": 66,
+      "application_id": "52",
+      "color": "yellow",
+      "confirmed": 44.827586206896555,
+      "score": 92.85714285714286,
+      "coverage": 48.275862068965516,
+      "lexical_score": 0.038172,
+      "report": "report-52.pdf"
+    },
+    {
+      "rank": 67,
+      "application_id": "42",
+      "color": "yellow",
+      "confirmed": 44.827586206896555,
+      "score": 92.85714285714286,
+      "coverage": 48.275862068965516,
+      "lexical_score": 0.03784,
+      "report": "report-42.pdf"
+    },
+    {
+      "rank": 68,
+      "application_id": "94",
+      "color": "yellow",
+      "confirmed": 44.827586206896555,
+      "score": 92.85714285714286,
+      "coverage": 48.275862068965516,
+      "lexical_score": 0.035867,
+      "report": "report-94.pdf"
+    },
+    {
+      "rank": 69,
+      "application_id": "62",
+      "color": "yellow",
+      "confirmed": 44.827586206896555,
+      "score": 92.85714285714286,
+      "coverage": 48.275862068965516,
+      "lexical_score": 0.030059,
+      "report": "report-62.pdf"
+    },
+    {
+      "rank": 70,
+      "application_id": "98",
+      "color": "yellow",
+      "confirmed": 44.827586206896555,
+      "score": 92.85714285714286,
+      "coverage": 48.275862068965516,
+      "lexical_score": 0.023143,
+      "report": "report-98.pdf"
+    },
+    {
+      "rank": 71,
+      "application_id": "49",
+      "color": "yellow",
+      "confirmed": 43.10344827586207,
+      "score": 89.28571428571429,
+      "coverage": 48.275862068965516,
+      "lexical_score": 0.031293,
+      "report": "report-49.pdf"
+    },
+    {
+      "rank": 72,
+      "application_id": "36",
+      "color": "yellow",
+      "confirmed": 41.37931034482759,
+      "score": 92.3076923076923,
+      "coverage": 44.827586206896555,
+      "lexical_score": 0.03801,
+      "report": "report-36.pdf"
+    },
+    {
+      "rank": 73,
+      "application_id": "6",
+      "color": "yellow",
+      "confirmed": 41.37931034482759,
+      "score": 100.0,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.027394,
+      "report": "report-6.pdf"
+    },
+    {
+      "rank": 74,
+      "application_id": "33",
+      "color": "yellow",
+      "confirmed": 41.37931034482759,
+      "score": 92.3076923076923,
+      "coverage": 44.827586206896555,
+      "lexical_score": 0.021667,
+      "report": "report-33.pdf"
+    },
+    {
+      "rank": 75,
+      "application_id": "81",
+      "color": "yellow",
+      "confirmed": 39.6551724137931,
+      "score": 88.46153846153847,
+      "coverage": 44.827586206896555,
+      "lexical_score": 0.031642,
+      "report": "report-81.pdf"
+    },
+    {
+      "rank": 76,
+      "application_id": "56",
+      "color": "yellow",
+      "confirmed": 39.6551724137931,
+      "score": 88.46153846153847,
+      "coverage": 44.827586206896555,
+      "lexical_score": 0.029547,
+      "report": "report-56.pdf"
+    },
+    {
+      "rank": 77,
+      "application_id": "75",
+      "color": "yellow",
+      "confirmed": 39.6551724137931,
+      "score": 88.46153846153847,
+      "coverage": 44.827586206896555,
+      "lexical_score": 0.029039,
+      "report": "report-75.pdf"
+    },
+    {
+      "rank": 78,
+      "application_id": "83",
+      "color": "yellow",
+      "confirmed": 39.6551724137931,
+      "score": 88.46153846153847,
+      "coverage": 44.827586206896555,
+      "lexical_score": 0.028938,
+      "report": "report-83.pdf"
+    },
+    {
+      "rank": 79,
+      "application_id": "13",
+      "color": "yellow",
+      "confirmed": 39.6551724137931,
+      "score": 95.83333333333333,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.025943,
+      "report": "report-13.pdf"
+    },
+    {
+      "rank": 80,
+      "application_id": "64",
+      "color": "yellow",
+      "confirmed": 39.6551724137931,
+      "score": 88.46153846153847,
+      "coverage": 44.827586206896555,
+      "lexical_score": 0.007356,
+      "report": "report-64.pdf"
+    },
+    {
+      "rank": 81,
+      "application_id": "30",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.054218,
+      "report": "report-30.pdf"
+    },
+    {
+      "rank": 82,
+      "application_id": "84",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.041967,
+      "report": "report-84.pdf"
+    },
+    {
+      "rank": 83,
+      "application_id": "7",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.034215,
+      "report": "report-7.pdf"
+    },
+    {
+      "rank": 84,
+      "application_id": "18",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.034143,
+      "report": "report-18.pdf"
+    },
+    {
+      "rank": 85,
+      "application_id": "92",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.033755,
+      "report": "report-92.pdf"
+    },
+    {
+      "rank": 86,
+      "application_id": "96",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.031273,
+      "report": "report-96.pdf"
+    },
+    {
+      "rank": 87,
+      "application_id": "38",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.024374,
+      "report": "report-38.pdf"
+    },
+    {
+      "rank": 88,
+      "application_id": "41",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.017306,
+      "report": "report-41.pdf"
+    },
+    {
+      "rank": 89,
+      "application_id": "86",
+      "color": "yellow",
+      "confirmed": 37.93103448275862,
+      "score": 91.66666666666667,
+      "coverage": 41.37931034482759,
+      "lexical_score": 0.011696,
+      "report": "report-86.pdf"
+    },
+    {
+      "rank": 90,
+      "application_id": "29",
+      "color": "yellow",
+      "confirmed": 32.758620689655174,
+      "score": 86.36363636363636,
+      "coverage": 37.93103448275862,
+      "lexical_score": 0.039806,
+      "report": "report-29.pdf"
+    },
+    {
+      "rank": 91,
+      "application_id": "91",
+      "color": "yellow",
+      "confirmed": 31.03448275862069,
+      "score": 90.0,
+      "coverage": 34.48275862068966,
+      "lexical_score": 0.031576,
+      "report": "report-91.pdf"
+    },
+    {
+      "rank": 92,
+      "application_id": "34",
+      "color": "yellow",
+      "confirmed": 27.586206896551722,
+      "score": 100.0,
+      "coverage": 27.586206896551722,
+      "lexical_score": 0.021632,
+      "report": "report-34.pdf"
+    },
+    {
+      "rank": 93,
+      "application_id": "82",
+      "color": "yellow",
+      "confirmed": 27.586206896551722,
+      "score": 80.0,
+      "coverage": 34.48275862068966,
+      "lexical_score": 0.01842,
+      "report": "report-82.pdf"
+    },
+    {
+      "rank": 94,
+      "application_id": "80",
+      "color": "yellow",
+      "confirmed": 27.586206896551722,
+      "score": 100.0,
+      "coverage": 27.586206896551722,
+      "lexical_score": 0.01036,
+      "report": "report-80.pdf"
+    },
+    {
+      "rank": 95,
+      "application_id": "93",
+      "color": "yellow",
+      "confirmed": 22.413793103448278,
+      "score": 72.22222222222223,
+      "coverage": 31.03448275862069,
+      "lexical_score": 0.032501,
+      "report": "report-93.pdf"
+    },
+    {
+      "rank": 96,
+      "application_id": "99",
+      "color": "yellow",
+      "confirmed": 17.24137931034483,
+      "score": 83.33333333333333,
+      "coverage": 20.689655172413794,
+      "lexical_score": 0.005857,
+      "report": "report-99.pdf"
+    },
+    {
+      "rank": 97,
+      "application_id": "76",
+      "color": "yellow",
+      "confirmed": 12.068965517241379,
+      "score": 70.0,
+      "coverage": 17.24137931034483,
+      "lexical_score": 0.016166,
+      "report": "report-76.pdf"
+    },
+    {
+      "rank": 98,
+      "application_id": "2",
+      "color": "yellow",
+      "confirmed": 8.620689655172415,
+      "score": 83.33333333333333,
+      "coverage": 10.344827586206897,
+      "lexical_score": 0.01341,
+      "report": "report-2.pdf"
+    },
+    {
+      "rank": 99,
+      "application_id": "88",
+      "color": "yellow",
+      "confirmed": 0.0,
+      "score": null,
+      "coverage": 0.0,
+      "lexical_score": 0.0,
+      "report": "report-88.pdf"
+    }
+  ]
+}
