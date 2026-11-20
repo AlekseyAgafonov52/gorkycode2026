@@ -23,6 +23,7 @@ from dotenv import dotenv_values
 from lxml.etree import XMLSyntaxError
 from pydantic import BaseModel, ConfigDict, Field, JsonValue, SecretStr, TypeAdapter, ValidationError, field_validator, model_validator
 
+from candidate_context import extract_candidate_skills
 from question_prompts import PROMPT_PROFILES, build_prompts
 from job_sources import extract_instruction_duties, load_vacancy_text
 
@@ -325,7 +326,9 @@ def prepare_input(instruction_text: str, candidate: CandidateInput | dict, *, va
     # Check Python values before JSON serialization can turn NaN/Infinity into null.
     candidate_data = JSON_OBJECT.validate_python(record.model_dump())
     json.dumps(candidate_data, ensure_ascii=False, allow_nan=False)
-    return {"vacancy": vacancy_text.strip(), "job_instruction_duties": duties, "candidate": candidate_data}
+    return {"vacancy": vacancy_text.strip(), "job_instruction_duties": duties,
+            "candidate_id": str(record.candidate_id),
+            "candidate": {"skills": extract_candidate_skills(candidate_data)}}
 
 
 def generate_questions(instruction_text: str, candidate: CandidateInput | dict, *,
@@ -346,7 +349,7 @@ def generate_questions(instruction_text: str, candidate: CandidateInput | dict, 
         with YandexGPTClient(YandexGPTSettings.from_env()) as owned:
             return generate_questions(instruction_text, candidate, vacancy_text=vacancy_text, client=owned, max_attempts=max_attempts,
                                       prompt_profile=prompt_profile, on_progress=on_progress)
-    candidate_id = str(data["candidate"]["candidate_id"])
+    candidate_id = data["candidate_id"]
     issues, previous = [], None
     for attempt in range(max_attempts):
         if on_progress:
@@ -359,7 +362,7 @@ def generate_questions(instruction_text: str, candidate: CandidateInput | dict, 
             issues = ["Ответ не соответствует JSON Schema; верни только корректный JSON"]
             continue
         if draft.candidate_id != candidate_id:
-            issues = ["Изменён candidate_id; используй номер из JSON кандидата"]
+            issues = ["Изменён candidate_id; используй переданный candidate_id"]
             continue
         if len(draft.questions) < 3:
             raise InsufficientGapsError("Найдено меньше трёх обоснованных вопросов; результат не дополнен выдуманными пробелами")
@@ -424,16 +427,18 @@ def main() -> int:
                         help="Область и роль для генерации и проверки вопросов")
     args = parser.parse_args()
     try:
-        data = prepare_input(extract_docx_text(args.instruction), load_candidate_json(args.candidate),
-                             vacancy_text=load_vacancy_text(args.vacancy))
+        instruction = extract_docx_text(args.instruction)
+        candidate = load_candidate_json(args.candidate)
+        vacancy = load_vacancy_text(args.vacancy)
         if args.prepare_only:
+            data = prepare_input(instruction, candidate, vacancy_text=vacancy)
             prompts = build_prompts(args.prompt_profile)
             serialized = json.dumps({**data, "prompt_profile": prompts.profile, "domain": prompts.domain,
                                      "system_prompts": {"generation": prompts.generation, "review": prompts.review}},
                                     ensure_ascii=False, indent=2, allow_nan=False)
         else:
-            result = generate_questions(data["job_instruction_duties"], data["candidate"],
-                                        vacancy_text=data["vacancy"], prompt_profile=args.prompt_profile)
+            result = generate_questions(instruction, candidate,
+                                        vacancy_text=vacancy, prompt_profile=args.prompt_profile)
             serialized = result.model_dump_json(indent=2)
         if args.output:
             args.output.parent.mkdir(parents=True, exist_ok=True)
