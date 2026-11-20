@@ -63,6 +63,7 @@ services:
       - ./.env:/app/.env:ro
       - ./parsed_responses:/app/parsed_responses
       - ./vacansies:/app/vacansies:ro
+      - ./otchet_offline/reports:/app/otchet_offline/reports:ro
     depends_on:
       db:
         condition: service_healthy

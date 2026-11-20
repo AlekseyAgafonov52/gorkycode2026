@@ -4,6 +4,7 @@ from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
+from fastapi.responses import FileResponse
 from contract_models import ContractReport, ContractResponse, ContractVacancy, ErrorEnvelope, RecommendationResult, RecommendationUpdate, SourceTextUpdate, VacancyStatusUpdate, ViewedResult, ViewedUpdate, WorkflowResult, WorkflowUpdate
 from storage.crud import NotFoundError
 
@@ -125,6 +126,15 @@ def task(task_id: UUID, service: Service):
 @router.get("/responses/{response_id}/report", response_model=ContractReport, tags=["Отчёты"])
 def report(response_id: str, service: Service):
     return service.report(identifier(response_id))
+
+
+@router.get("/responses/{response_id}/report/pdf", response_class=FileResponse, tags=["Отчёты"],
+            responses={200: {"content": {"application/pdf": {}}}}, summary="Сохранённый PDF-отчёт по отклику")
+def report_pdf(response_id: str, service: Service, download: bool = False):
+    path = service.pdf_report_path(identifier(response_id))
+    return FileResponse(path, media_type="application/pdf", filename=path.name,
+        content_disposition_type="attachment" if download else "inline",
+        headers={"Cache-Control": "private, no-cache", "X-Content-Type-Options": "nosniff"})
 
 
 @router.post("/responses/{response_id}/questions/generate", response_model=TaskView, status_code=202, tags=["Отчёты"],

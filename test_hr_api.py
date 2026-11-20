@@ -19,6 +19,7 @@ from hr_api.import_data import import_folder
 from hr_api.demo_data import create_demo
 from hr_api.schemas import CriteriaPatch
 from hr_api.service import HRService
+from hr_api.pdf_reports import INDEX_NAME, PdfEntry, PdfIndex, PdfReports, source_digest
 from main import create_app
 from storage.database import DatabaseSettings, make_engine, make_session_factory
 from storage.crud import Repository
@@ -45,9 +46,9 @@ class FakePoolBuilder:
 
 
 class HRContractTests(unittest.TestCase):
-    def test_all_seventeen_routes_in_openapi_without_database_access(self):
+    def test_all_eighteen_routes_in_openapi_without_database_access(self):
         paths = create_app().openapi()["paths"]
-        self.assertEqual(sum(len(methods) for methods in paths.values()), 17)
+        self.assertEqual(sum(len(methods) for methods in paths.values()), 18)
         for path in ("/api/v1/vacancies", "/api/v1/vacancies/{vacancy_id}/criteria",
                      "/api/v1/vacancies/{vacancy_id}/match", "/api/v1/tasks/{task_id}",
                      "/api/v1/responses/{response_id}/report", "/api/v1/responses/{response_id}/questions/generate",
@@ -134,6 +135,42 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual(len(self.provider.calls), 1)
         self.assertEqual(self.client.get("/api/v1/vacancies").json(),
             [{"id": str(self.vacancy_id), "title": "Frontend developer", "responses_count": 3, "status": "active", "hired_candidates": []}])
+
+    def test_pdf_report_is_scoped_streamed_and_marks_changed_source(self):
+        self.prepare()
+        root = self.folder / "pdf"
+        root.mkdir()
+        pdf = b"%PDF-1.4\nSynthetic report for API delivery tests\n%%EOF\n"
+        (root / "report-1.pdf").write_bytes(pdf)
+        with self.factory.begin() as session:
+            original = Repository(session).get_response(self.ids[0]).source_json
+        index = PdfIndex(source_key=self.key, vacancy_title="Frontend developer", entries=[
+            PdfEntry(candidate_id="1", filename="report-1.pdf", source_sha256=source_digest(original))])
+        (root / INDEX_NAME).write_text(index.model_dump_json(), encoding="utf-8")
+        self.service.pdf_reports = PdfReports(root)
+        report = self.client.get(self.report_url()).json()
+        self.assertEqual(report["pdf_report"], {"filename": "report-1.pdf", "is_stale": False})
+        self.assertIsNone(self.client.get(self.report_url(2)).json()["pdf_report"])
+        url = self.report_url() + "/pdf"
+        streamed = self.client.get(url)
+        self.assertEqual(streamed.status_code, 200)
+        self.assertEqual(streamed.headers["content-type"], "application/pdf")
+        self.assertIn("inline", streamed.headers["content-disposition"])
+        self.assertEqual(streamed.content, pdf)
+        self.assertIn("attachment", self.client.get(url + "?download=true").headers["content-disposition"])
+        ranged = self.client.get(url, headers={"Range": "bytes=0-4"})
+        self.assertEqual(ranged.status_code, 206)
+        self.assertEqual(ranged.content, b"%PDF-")
+        for path in (self.report_url(2) + "/pdf", f"/api/v1/responses/{uuid4()}/report/pdf", "/api/v1/responses/not-a-uuid/report/pdf"):
+            missing = self.client.get(path)
+            self.assertEqual(missing.status_code, 404)
+            self.assertEqual(missing.json()["error"]["code"], "not_found")
+        changed = self.client.patch(f"/api/v1/responses/{self.ids[0]}/source-text", json={
+            "source_text": "Резюме: Новая версия\nНавыки\nGit"})
+        self.assertEqual(changed.status_code, 200)
+        self.assertTrue(changed.json()["pdf_report"]["is_stale"])
+        self.assertEqual(self.client.get(url).content, pdf)
+        self.assertEqual(len(self.provider.calls), 1)
 
     def test_colors_depend_on_skills_without_identity_gate(self):
         self.prepare()

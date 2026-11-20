@@ -15,6 +15,7 @@ from storage.crud import NotFoundError, Repository
 from storage.models import AnalysisTask, MatchResult, Response, Vacancy
 from storage.schemas import CriterionRead, CriterionUpdate, ResponseUpdate, TaskCreate
 from .preparation import ReportPreparer, vacancy_input
+from .pdf_reports import PdfReports
 from .schemas import CriteriaPatch, CriteriaResult, ResponseDetail, TaskView, VacancyDetail
 
 
@@ -27,9 +28,11 @@ class SourceTextConflictError(RuntimeError):
 
 
 class HRService:
-    def __init__(self, factory: sessionmaker[Session], pool_builder: PoolBuilder | None = None):
+    def __init__(self, factory: sessionmaker[Session], pool_builder: PoolBuilder | None = None,
+                 pdf_reports: PdfReports | None = None):
         self.factory = factory
         self.preparer = ReportPreparer(factory, pool_builder)
+        self.pdf_reports = pdf_reports or PdfReports()
 
     @staticmethod
     def _task_view(task: AnalysisTask, *, reused: bool = False) -> TaskView:
@@ -115,8 +118,7 @@ class HRService:
             return CriteriaResult(vacancy_id=identifier, criteria_version=vacancy.criteria_version,
                 criteria=[CriterionRead.model_validate(c) for c in repo.list_criteria(identifier)], changed=changed, task_id=task_id)
 
-    @staticmethod
-    def _report(response: Response) -> ContractReport:
+    def _report(self, response: Response, *, include_pdf: bool = True) -> ContractReport:
         report = response.report
         if report is None or report.contract_json is None:
             raise ReportNotReadyError("Отчёт ещё не подготовлен; запустите импорт или обработку вакансии")
@@ -127,11 +129,11 @@ class HRService:
             "workflow_status": response.workflow_status, "is_viewed": response.is_viewed,
             "is_closed": response.is_closed, "closed_at": response.closed_at,
             "hired_at": response.hired_at, "recruiter_recommendation": response.recruiter_recommendation,
+            "pdf_report": self.pdf_reports.info(response.id, response.vacancy_id, response.source_json) if include_pdf else None,
             "source_text": source if isinstance(source, str) else ""})
 
-    @classmethod
-    def _summary(cls, response: Response) -> ContractResponse:
-        report = cls._report(response)
+    def _summary(self, response: Response) -> ContractResponse:
+        report = self._report(response, include_pdf=False)
         return ContractResponse.model_validate(report.model_dump(include=set(ContractResponse.model_fields)))
 
     def list_responses(self, vacancy_id: UUID, *, match_status: str | None = None,
@@ -158,6 +160,14 @@ class HRService:
     def report(self, identifier: UUID) -> ContractReport:
         with self.factory.begin() as session:
             return self._report(Repository(session).get_response(identifier))
+
+    def pdf_report_path(self, identifier: UUID):
+        with self.factory.begin() as session:
+            response = Repository(session).get_response(identifier)
+            path = self.pdf_reports.path(response.id, response.vacancy_id)
+            if path is None:
+                raise NotFoundError("PDF-отчёт для этого отклика не найден")
+            return path
 
     def response(self, identifier: UUID) -> ResponseDetail:
         with self.factory.begin() as session:

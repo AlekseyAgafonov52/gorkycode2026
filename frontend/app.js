@@ -271,6 +271,19 @@ function renderQuestion(question) {
     ${question.follow_up_hint ? `<p class="muted">${esc(question.follow_up_hint)}</p>` : ""}</li>`;
 }
 
+function renderPdfReport(report) {
+  if (!report.pdf_report) return "";
+  const url = esc(api.pdfReportUrl(report.id));
+  const download = esc(api.pdfReportUrl(report.id, true));
+  return `<section class="panel pdf-panel" aria-label="PDF-отчёт по отклику">
+    <div class="bar"><h2>PDF-отчёт</h2><span class="grow"></span>
+      <a class="act" href="${url}" target="_blank" rel="noopener noreferrer">Открыть PDF</a>
+      <a class="act" href="${download}">Скачать PDF</a></div>
+    ${report.pdf_report.is_stale ? '<p class="pdf-stale" role="status">Текст резюме изменён после создания PDF. В документе сохранена предыдущая версия отчёта.</p>' : ""}
+    <iframe class="pdf-viewer" src="${url}#view=FitH" title="PDF-отчёт по текущему отклику" loading="lazy"></iframe>
+    <p class="muted">Если документ не отображается, откройте или скачайте PDF по кнопкам выше.</p></section>`;
+}
+
 function renderReport(report, vacancy) {
   app.setAttribute("aria-busy", "false");
   app.innerHTML = `${tabs(vacancy.id)}<div class="bar"><a href="${vacancyLink(vacancy.id)}">К списку откликов</a>
@@ -287,6 +300,7 @@ function renderReport(report, vacancy) {
       ${reviewControls(report)}
     </section>
     <section class="panel"><h2>Итог</h2><ul class="summary-lines">${report.summary.map((line) => `<li>${esc(line)}</li>`).join("")}</ul></section>
+    ${renderPdfReport(report)}
     <section class="panel"><h2>Навыки и вопросы</h2>${report.skills.map((skill) => `<article class="skill">
       <div class="skill-heading">${dot(skill.relevance)}<h3>${esc(skill.skill)}</h3>
         <span class="level">${esc(LEVELS[skill.resume_level] || "Уровень не указан")}</span></div>

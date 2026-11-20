@@ -137,6 +137,11 @@ class HiredCandidate(ContractModel):
     hired_at: datetime
 
 
+class PdfReportInfo(ContractModel):
+    filename: str
+    is_stale: bool = False
+
+
 class ContractReport(ContractModel):
     id: str
     vacancy_id: str
@@ -156,6 +161,7 @@ class ContractReport(ContractModel):
     closed_at: datetime | None = None
     hired_at: datetime | None = None
     recruiter_recommendation: RecruiterRecommendation | None = None
+    pdf_report: PdfReportInfo | None = None
     source_text: str
 
 
