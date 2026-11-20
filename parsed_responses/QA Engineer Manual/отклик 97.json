@@ -1,5 +1,6 @@
 {
   "candidate_id": 97,
+  "candidate_name": "Цветкова Софья Викторовна",
   "resume_title": "Data engineer / Data quality/",
   "cover_letter": "Здравствуйте! Прошу рассмотреть мою кандидатуру на данную позицию.\nВы можете связаться со мной в удобное время по телефону или в мессенджерах.\nБуду рад любой обратной связи, а также тестовым заданиям!\nС уважением,\nКирилл.\nМои пет проекты\nhttps://gitlab.com/Ska22/etl-fraud - построение витрины данных и поиск мошенников\nhttps://gitlab.com/Ska22/earthshake- etl процесс,c построением ежедневного отчета с визуализацией в grafana и отметкой точек на карте\nhttps://gitlab.com/Ska22/etl-postgres_grafana_airflow - построение etl процесса с использование airflow+ postrgesql+ grafana в docker\nСсылки на профили:\n• Stepik: https://stepik.org/users/99895012\nКонтактные данные:\n• Тел.: +7-(960)-272-43-21\nhttps://gitlab.com/Ska22/\nХочу работать в вашей команде )",
   "experience_total_months": 32,

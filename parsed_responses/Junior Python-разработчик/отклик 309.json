@@ -1,5 +1,6 @@
 {
   "candidate_id": 309,
+  "candidate_name": "Журавлёв Сергей Викторович",
   "resume_title": "Data Engineer",
   "cover_letter": "Добрый день!\nИмею опыт работы в качестве ETL разработчика. Применяю на практике такие навыки как:\n- Python\n- SQL\n- БД Greenplum\n- Apache Airflow\n- GIT\nТакже имею высшее профильное образование",
   "experience_total_months": 25,

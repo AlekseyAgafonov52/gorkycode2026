@@ -357,13 +357,29 @@ class DepartmentDatabaseTests(unittest.TestCase):
     def test_vacancy_close_and_reopen_do_not_close_or_reopen_responses(self):
         with self.assertRaises(ValueError):
             self.service.confirmation(ACTOR, "v", self.vacancy_id, True)
-        hr = HRService(self.factory)
-        hr.update_vacancy_status(self.vacancy_id, "closed")
+        controller = BotController(self.service, RecordingTelegram())
+        _, vacancy_rows = controller.route(ACTOR, f"v:{self.vacancy_id.hex}")
+        action = next(btn["callback_data"] for row in vacancy_rows for btn in row if btn["text"] == "Найм завершён")
+        _, response_rows = controller.route(ACTOR, f"r:{self.response_id.hex}")
+        self.assertNotIn(action, [btn["callback_data"] for row in response_rows for btn in row])
+        with self.assertRaises(AccessDeniedError):
+            controller.route(ACTOR + 1, action)
+        self.assertEqual(self.service.vacancies(ACTOR, False).total, 1)
+        text, rows = controller.route(ACTOR, action)
+        self.assertIn("Статус: Закрыта", text)
+        self.assertNotIn(action, [btn["callback_data"] for row in rows for btn in row])
+        self.assertNotIn("Подтвердить", str(rows))
         self.assertEqual(self.service.vacancies(ACTOR, False).total, 0)
         self.assertEqual(self.service.vacancies(ACTOR, True).total, 1)
-        self.assertFalse(self.service.get(ACTOR, "r", self.response_id).is_closed)
+        closed_at = self.service.get(ACTOR, "v", self.vacancy_id).closed_at
+        self.assertIsNotNone(closed_at)
+        controller.route(ACTOR, action)
+        self.assertEqual(self.service.get(ACTOR, "v", self.vacancy_id).closed_at, closed_at)
+        response = self.service.get(ACTOR, "r", self.response_id)
+        self.assertFalse(response.is_closed)
+        self.assertIsNone(response.hired_at)
         self.change("r", self.response_id, True)
-        hr.update_vacancy_status(self.vacancy_id, "active")
+        HRService(self.factory).update_vacancy_status(self.vacancy_id, "active")
         self.assertTrue(self.service.get(ACTOR, "r", self.response_id).is_closed)
 
     def test_hire_is_candidate_specific_does_not_close_vacancy_and_can_be_corrected(self):

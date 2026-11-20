@@ -1,5 +1,6 @@
 {
   "candidate_id": 277,
+  "candidate_name": "Уварова Марина Дмитриевна",
   "resume_title": "Frontend-разработчик",
   "cover_letter": "Здравствуйте! Я Frontend-разработчик на React с коммерческим опытом более 4 лет. Работал над системой контроля состояния оборудования и телематической платформой для мониторинга транспорта в реальном времени.\nВаша компания меня заинтересовала.\nИмею экспертизу: TypeScript, React, Redux/Redux Toolkit, RTK-Query/React-Query, React Hook Form/Formik, Material UI, Webpack, Jest, WebSocket, Socket.io, Git, FSD, HTML, JavaScript.\nБуду рад пообщаться!",
   "experience_total_months": 70,

@@ -1,5 +1,6 @@
 {
   "candidate_id": 306,
+  "candidate_name": "Зорин Артём Сергеевич",
   "resume_title": "Python-разработчик",
   "cover_letter": "здравствуйте. у меня есть опыт работы на python, FastAPI. умею работать с api, docker, celery. также умею работать с postgresql, sqlalchemy\nГотов к переезду.\nGitHub fastapi: https://github.com/1alexvlad/FastAPI-site",
   "experience_total_months": 14,

@@ -1,5 +1,6 @@
 {
   "candidate_id": 373,
+  "candidate_name": "Уваров Никита Игоревич",
   "resume_title": "Python-разработчик(Python/Django)",
   "cover_letter": "Здравствуйте, работаю с Django больше года, есть опыт с DRF и JS, занимался версткой HTML/CSS, в том числе на Django templates. Работал с моделями и представлениями, использовал CBV и DRF ViewSet/APIView, оптимизировал запросы к PostgreSQL, писал тесты на Pytest и unittest. Готов к релокации, если всех все устроит)",
   "experience_total_months": 37,

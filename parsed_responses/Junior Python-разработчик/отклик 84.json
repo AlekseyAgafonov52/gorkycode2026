@@ -1,5 +1,6 @@
 {
   "candidate_id": 84,
+  "candidate_name": "Ельникова Алёна Михайловна",
   "resume_title": "Python-разработчик",
   "cover_letter": "Добрый день!\nЯ Python Backend Developer с 5+ годами коммерческого опыта. Работал в продуктовых командах разного масштаба: от стартапов до крупных интернет-компаний. Проектировал и разрабатывал highload-системы, микросервисную архитектуру, интеграции с внешними сервисами и внутренние платформы. Параллельно вел менторинг разработчиков и выстраивал процессы внутри команды.\nСтек: Python, PostgreSQL, FastAPI, Docker, Redis, Git, Pytest, SQLAlchemy, REST API, Linux, Celery, Kafka и др.\nБуду рад знакомству.\nTelegram: @grponom",
   "experience_total_months": 75,

@@ -1,5 +1,6 @@
 {
   "candidate_id": 180,
+  "candidate_name": "Журавлёва Дарья Михайловна",
   "resume_title": "Python-разработчик",
   "cover_letter": "Здравствуйте!\nУ меня более 6 лет опыта backend-разработки на Python (FastAPI, Flask), работал с PostgreSQL, Redis, RabbitMQ, Kafka, Docker и AWS. Есть опыт разработки микросервисов, систем обработки данных и интеграции с оборудованием.\nБуду рад подробнее рассказать о своём опыте и обсудить возможность сотрудничества.",
   "experience_total_months": 73,

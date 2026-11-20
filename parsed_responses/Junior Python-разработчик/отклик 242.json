@@ -1,5 +1,6 @@
 {
   "candidate_id": 242,
+  "candidate_name": "Новикова Ирина Дмитриевна",
   "resume_title": "Python-разработчик",
   "cover_letter": "Здравствуйте!\nМой опыт:\nPython (более 1 года коммерческой разработки)\nFastAPI, asyncio, Pydantic\nPostgreSQL, SQLAlchemy, SQL-запросы\nPandas (базово)\nGit, Linux, Docker\nОпыт работы с API\nЕсть ли возможность полностью удаленной работы (не из Нижнего Новгорода)?\nСпасибо!",
   "experience_total_months": 13,

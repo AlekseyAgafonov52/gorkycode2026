@@ -581,6 +581,19 @@
     "source_text": {
       "title": "Source Text",
       "type": "string"
+    },
+    "candidate_name": {
+      "anyOf": [
+        {
+          "maxLength": 255,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Candidate Name"
     }
   },
   "required": [

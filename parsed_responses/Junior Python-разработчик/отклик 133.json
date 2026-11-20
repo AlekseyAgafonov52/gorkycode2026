@@ -1,5 +1,6 @@
 {
   "candidate_id": 133,
+  "candidate_name": "Ветлугин Даниил Михайлович",
   "resume_title": "Python Backend-разработчик",
   "cover_letter": "Здравствуйте! Меня заинтересовала вакансия Python-разработчика в вашей компании. Кратко по стеку: Python (асинхронный код), микросервисная архитектура, Kafka, Kubernetes (развертывание, CI/CD, Helm), облака, FastAPI/Django. Резюме и GitHub с реальными кейсами приложил. Буду рад обсудить детали.\nАртур\ntg: @shatyrinar\nphone: +79958908993",
   "experience_total_months": 56,

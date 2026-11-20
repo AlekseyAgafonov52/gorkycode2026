@@ -1,5 +1,6 @@
 {
   "candidate_id": 147,
+  "candidate_name": "Ивлева Елена Андреевна",
   "resume_title": "Python разработчик",
   "cover_letter": "Здравствуйте! Являюсь Python разработчиком. Разрабатываю backend системы для различных веб-приложений на языке программирования Python.\nТехнические навыки:\n- Django, DRF, FastAPI\n- REST API\n- PostgreSQL, SQLite3\n- SQLAlchemy\n- Git\n- Telebot, aiogram\n- ООП\n- pytest\n- Владею такими языками программирования как: C#, C++, C.\nИз своих качеств могу выделить: коммуникабельность, умение работать в команде, нацеленность на результат, упорство.\nGitHub - https://github.com/matrix232",
   "experience_total_months": 39,

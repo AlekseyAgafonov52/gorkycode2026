@@ -63,7 +63,11 @@ def verify(root: Path, output: Path) -> dict:
                     counts["unknown_experience"] += 1
                 response = client.post("/api/v1/parse/response", files={"file": (source.name, raw, "text/plain")})
                 assert response.status_code == 200, f"API failed: {source}: {response.status_code}"
-                assert response.json() == candidate.model_dump(), f"API differs from batch: {source}"
+                # A saved demo name is independent of the parsed source text.
+                api_data = CandidateResponse.model_validate(response.json())
+                assert api_data.model_dump(exclude={"candidate_name"}) == candidate.model_dump(exclude={"candidate_name"}), (
+                    f"API differs from batch: {source}"
+                )
                 counts["files"] += 1
                 counts["api_success"] += 1
                 counts["work_entries"] += len(candidate.work_experience)
