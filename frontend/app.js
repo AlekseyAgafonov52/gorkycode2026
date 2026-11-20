@@ -61,7 +61,7 @@ function vacancyControl(vacancy) {
   return `<button class="act" data-vacancy-status="${vacancy.status === "closed" ? "active" : "closed"}" ${state.vacancySaving.has(vacancy.id) ? "disabled" : ""}>${vacancy.status === "closed" ? "Открыть вакансию заново" : "Закрыть вакансию"}</button>`;
 }
 
-const RECOMMENDATION_FIELDS = [["strengths", "Сильные стороны"], ["weaknesses", "Слабые места"], ["interview_focus", "Что проверить на собеседовании"]];
+const RECOMMENDATION_FIELDS = [["strengths", "Сильные стороны"], ["weaknesses", "Слабые места"], ["interview_focus", "Что проверить на собеседовании (необязательно)"]];
 
 function recommendationForm(report) {
   const value = state.recommendationDrafts.get(report.id) || report.recruiter_recommendation || {};
@@ -73,8 +73,8 @@ function recommendationForm(report) {
 function readRecommendation() {
   const value = Object.fromEntries([...app.querySelectorAll("[data-recommendation-field]")]
     .map((input) => [input.dataset.recommendationField, input.value.trim()]));
-  if (RECOMMENDATION_FIELDS.some(([key]) => !value[key])) {
-    updateStatusControls("Заполните все три поля рекомендаций перед передачей кандидата.", true);
+  if (!value.strengths || !value.weaknesses) {
+    updateStatusControls("Заполните сильные и слабые стороны перед передачей кандидата.", true);
     return null;
   }
   return value;
@@ -461,7 +461,7 @@ async function saveStatus(status) {
       state.recommendationDrafts.delete(report.id);
     }
     if (state.report?.id === report.id) state.report.workflow_status = result.workflow_status;
-    notice = status === "forwarded" ? "Кандидат передан. Бот доставит рекомендации руководителю." : "Статус сохранён.";
+    notice = status === "forwarded" ? "Кандидат передан. Бот доставит руководителю рекомендации, отчёт и исходное резюме." : "Статус сохранён.";
   } catch (error) {
     failed = true;
     notice = error.message;

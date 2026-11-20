@@ -86,6 +86,7 @@ class Response(Identity, Created, Updated, Base):
     recruiter_recommendation: Mapped[dict[str, JsonValue] | None] = mapped_column(JSONB)
     department_notification_pending: Mapped[bool] = mapped_column(Boolean, server_default=text("FALSE"))
     department_notification_version: Mapped[int] = mapped_column(Integer, server_default=text("0"))
+    department_delivery_state: Mapped[dict[str, JsonValue]] = mapped_column(JSONB, server_default=text("'{}'::jsonb"))
 
     vacancy: Mapped[Vacancy] = relationship(back_populates="responses")
     tasks: Mapped[list[AnalysisTask]] = relationship(back_populates="response", cascade="all, delete-orphan", passive_deletes=True)

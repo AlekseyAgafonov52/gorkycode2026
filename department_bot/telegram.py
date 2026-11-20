@@ -2,8 +2,10 @@
 from __future__ import annotations
 
 import logging
+import time
 
 import httpx
+from .materials import MAX_DOCUMENT_BYTES
 
 
 class TelegramError(RuntimeError):
@@ -20,13 +22,23 @@ class TelegramClient:
             logging.getLogger(name).setLevel(logging.CRITICAL)
         self._client = httpx.Client(base_url=f"https://api.telegram.org/bot{token}/",
                                     timeout=httpx.Timeout(40, connect=10), transport=transport)
+        self._next_send: dict[int, float] = {}
 
     def close(self):
         self._client.close()
 
     def call(self, method: str, **data):
+        return self._request(method, data)
+
+    def _request(self, method: str, data: dict, files: dict | None = None):
         try:
-            response = self._client.post(method, json=data)
+            if method in ("sendMessage", "sendDocument"):
+                chat_id = int(data["chat_id"])
+                delay = self._next_send.get(chat_id, 0) - time.monotonic()
+                if delay > 0:
+                    time.sleep(delay)
+                self._next_send[chat_id] = time.monotonic() + 1.05
+            response = self._client.post(method, data=data, files=files) if files else self._client.post(method, json=data)
             result = response.json()
             if not isinstance(result, dict):
                 raise ValueError
@@ -54,3 +66,9 @@ class TelegramClient:
         if text:
             data.update(text=text[:180], show_alert=True)
         return self.call("answerCallbackQuery", **data)
+
+    def document(self, chat_id: int, filename: str, content: bytes, mime_type: str, caption: str):
+        if not content or len(content) > MAX_DOCUMENT_BYTES:
+            raise ValueError("Недопустимый размер документа")
+        data = {"chat_id": str(chat_id), "caption": caption.encode("utf-16-le")[:1800].decode("utf-16-le", errors="ignore")}
+        return self._request("sendDocument", data, files={"document": (filename, content, mime_type)})

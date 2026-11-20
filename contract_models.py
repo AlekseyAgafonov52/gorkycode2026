@@ -121,14 +121,21 @@ class MatchResult(ContractModel):
 class RecruiterRecommendation(ContractModel):
     strengths: str = Field(min_length=1, max_length=800, strict=True)
     weaknesses: str = Field(min_length=1, max_length=800, strict=True)
-    interview_focus: str = Field(min_length=1, max_length=800, strict=True)
+    interview_focus: str | None = Field(default=None, max_length=800, strict=True)
 
-    @field_validator("strengths", "weaknesses", "interview_focus")
+    @field_validator("strengths", "weaknesses")
     @classmethod
     def nonblank(cls, value: str) -> str:
         if not value.strip() or "\x00" in value:
             raise ValueError("Заполните рекомендацию рекрутера")
         return value.strip()
+
+    @field_validator("interview_focus")
+    @classmethod
+    def optional_focus(cls, value: str | None) -> str | None:
+        if value is not None and "\x00" in value:
+            raise ValueError("Недопустимый символ в рекомендации")
+        return value.strip() or None if value is not None else None
 
 
 class HiredCandidate(ContractModel):

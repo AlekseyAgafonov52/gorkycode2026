@@ -99,6 +99,7 @@ services:
     volumes:
       - ./.env:/app/.env:ro
       - telegram_state:/var/lib/hr_bot
+      - ./otchet_offline/reports:/app/otchet_offline/reports:ro
     depends_on:
       db:
         condition: service_healthy

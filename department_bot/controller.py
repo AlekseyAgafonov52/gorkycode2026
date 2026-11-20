@@ -10,6 +10,7 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from storage.crud import NotFoundError
 from .service import AccessDeniedError, ConfirmationExpiredError, DepartmentService, Item, PAGE_SIZE, Page
+from .materials import MaterialsNotReadyError
 
 logger = logging.getLogger(__name__)
 
@@ -17,6 +18,7 @@ logger = logging.getLogger(__name__)
 class BotTransport(Protocol):
     def screen(self, chat_id: int, text: str, rows: list[list[dict]], message_id: int | None = None): ...
     def answer(self, callback_id: str, text: str | None = None): ...
+    def document(self, chat_id: int, filename: str, content: bytes, mime_type: str, caption: str): ...
 
 
 def button(text: str, data: str) -> dict:
@@ -88,6 +90,12 @@ class BotController:
             return f"{title}: {page.total}\nВыберите вакансию." if page.total else f"{title}: нет записей.", rows
         if parts[0] in ("v", "r") and len(parts) == 2:
             return self.card(parts[0], self.service.get(actor, parts[0], UUID(parts[1])))
+        if parts[0] == "files" and len(parts) == 2:
+            identifier = UUID(parts[1])
+            if not self.send_materials(actor, identifier):
+                raise MaterialsNotReadyError()
+            text, rows = self.card("r", self.service.get(actor, "r", identifier))
+            return text + "\n\nОтчёт и исходное резюме отправлены в этот чат.", rows
         if parts[0] == "rl" and len(parts) == 4:
             vacancy_id = UUID(parts[1])
             closed, number = self._list_args(parts[2], parts[3])
@@ -119,17 +127,44 @@ class BotController:
         actors = sorted(self.service.manager_ids)
         if not actors:
             return
-        for item, vacancy_title, version in self.service.pending_notifications(actors[0]):
+        for item, _, version in self.service.pending_notifications(actors[0]):
             for actor in actors:
-                # A forwarded response can have been recalled by HR since selection.
                 try:
-                    current = self.service.get(actor, "r", item.id)
+                    if not self.send_materials(actor, item.id, version=version, include_card=True):
+                        break
                 except NotFoundError:
                     break
-                text, _ = self.card("r", current)
-                self.client.screen(actor, f"HR передал кандидата или обновил рекомендации\nВакансия: {vacancy_title[:150]}\n\n{text}",
+                except MaterialsNotReadyError:
+                    logger.info("Department materials are not ready or the HR transfer was recalled")
+                    self.service.defer_notification(actor, item.id, version)
+                    break
+            else:
+                self.service.acknowledge_notification(actors[0], item.id, version)
+
+    def send_materials(self, actor: int, identifier: UUID, *, version: int | None = None, include_card: bool = False) -> bool:
+        materials = self.service.materials(actor, identifier, version=version)
+        item = materials.item
+        stages = []
+        if include_card:
+            stages.append("card")
+        stages.extend(("report", "resume"))
+        for stage in stages:
+            if stage in materials.completed:
+                continue
+            # Recheck HR's decision/version before each outbound file, not just selection.
+            current = self.service.materials(actor, identifier, version=materials.version)
+            if stage == "card":
+                text, _ = self.card("r", current.item)
+                self.client.screen(actor, f"HR передал кандидата или обновил материалы\nВакансия: {materials.vacancy_title[:150]}\n\n{text}",
                                    [[button("Открыть кандидата", f"r:{item.id.hex}")]])
-            self.service.acknowledge_notification(actors[0], item.id, version)
+            else:
+                document = materials.report if stage == "report" else materials.resume
+                title = "Отчёт по отклику" if stage == "report" else "Исходное резюме кандидата"
+                self.client.document(actor, document.filename, document.content, document.mime_type,
+                                     f"{title}\n{label(item)}\nВакансия: {materials.vacancy_title[:150]}\nID: {item.id}")
+            if not self.service.mark_delivered(actor, identifier, materials.version, stage):
+                return False
+        return True
 
     @staticmethod
     def _list_args(closed: str, number: str) -> tuple[bool, int]:
@@ -163,10 +198,13 @@ class BotController:
         else:
             if item.recommendation:
                 text += (f"\n\nРекомендации рекрутера\nСильные стороны: {item.recommendation.strengths}"
-                         f"\nСлабые места: {item.recommendation.weaknesses}"
-                         f"\nПроверить на собеседовании: {item.recommendation.interview_focus}")
+                         f"\nСлабые места: {item.recommendation.weaknesses}")
+                if item.recommendation.interview_focus:
+                    text += f"\nПроверить на собеседовании: {item.recommendation.interview_focus}"
             else:
                 text += "\n\nРекомендации рекрутера пока не заполнены."
+            if item.recommendation:
+                rows.append([button("Отчёт и исходное резюме", f"files:{item.id.hex}")])
             rows.append([button("Снять отметку найма" if item.hired_at else "Найм закрыт", f"hire:{item.id.hex}:{int(not item.hired_at)}")])
             if not item.hired_at:
                 rows.append([button("Вернуть в работу" if item.is_closed else "Завершить работу с откликом",

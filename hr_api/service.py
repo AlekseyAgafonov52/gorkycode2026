@@ -195,6 +195,7 @@ class HRService:
     def _notify_department(row: Response) -> None:
         row.department_notification_pending = True
         row.department_notification_version += 1
+        row.department_delivery_state = {}
 
     def update_recommendation(self, identifier: UUID, recommendation: RecruiterRecommendation) -> RecommendationResult:
         with self.factory.begin() as session:
@@ -214,6 +215,7 @@ class HRService:
                 self._notify_department(row)
             if status != "forwarded":
                 row.department_notification_pending = False
+                row.department_delivery_state = {}
             row.workflow_status = data.workflow_status or "new"
             session.flush()
             return WorkflowResult.model_validate({"id": str(row.id), "workflow_status": row.workflow_status})
@@ -250,6 +252,8 @@ class HRService:
                 source["full_name"] = resume.candidate_name
             repo.update_response(identifier, ResponseUpdate(source_json=source, candidate_name=resume.candidate_name))
             self.preparer.prepare_response_in_session(session, identifier, pool, expected_hash)
+            if response.workflow_status == "forwarded" and response.recruiter_recommendation is not None:
+                self._notify_department(response)
             return self._report(response)
 
     def request_match(self, identifier: UUID) -> TaskView:

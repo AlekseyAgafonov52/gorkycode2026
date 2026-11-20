@@ -496,6 +496,8 @@ class HRAPITests(unittest.TestCase):
             version = row.department_notification_version
             self.assertEqual(version, 1)
         department = DepartmentService(self.factory, frozenset({12345}), "test-only-secret")
+        for stage in ("card", "report", "resume"):
+            department.mark_delivered(12345, self.ids[0], version, stage)
         department.acknowledge_notification(12345, self.ids[0], version)
         self.client.patch(url + "/status", json={"workflow_status": "forwarded", "recruiter_recommendation": recommendation})
         self.assertEqual(department.pending_notifications(12345), [])
@@ -509,6 +511,10 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual(len(self.provider.calls), 1)
         for data in ({}, {"strengths": " ", "weaknesses": "x", "interview_focus": "x"}, {**recommendation, "strengths": "x" * 801}):
             self.assertEqual(self.client.patch(url + "/department-summary", json={"recruiter_recommendation": data}).status_code, 422)
+        minimal = self.client.patch(url + "/status", json={"workflow_status": "forwarded",
+            "recruiter_recommendation": {"strengths": "Python", "weaknesses": "SQL"}})
+        self.assertEqual(minimal.status_code, 200)
+        self.assertIsNone(self.client.get(self.report_url()).json()["recruiter_recommendation"]["interview_focus"])
 
     def test_edit_source_does_not_keep_removed_identity_contacts_or_skills(self):
         self.prepare()

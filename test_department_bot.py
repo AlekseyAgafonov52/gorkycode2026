@@ -7,7 +7,7 @@ import tempfile
 import threading
 import unittest
 from unittest.mock import Mock, patch
-from uuid import uuid4
+from uuid import NAMESPACE_URL, uuid4, uuid5
 
 from alembic import command
 import httpx
@@ -19,11 +19,13 @@ from department_bot.controller import BotController, button
 from department_bot.service import AccessDeniedError, ConfirmationExpiredError, DepartmentService, Item
 from department_bot.settings import BotSettings
 from department_bot.telegram import TelegramClient, TelegramError
+from department_bot.materials import MaterialsNotReadyError
 from hr_api.service import HRService
-from contract_models import RecruiterRecommendation
+from hr_api.pdf_reports import INDEX_NAME, PdfEntry, PdfIndex, PdfReports, source_digest
+from contract_models import Contacts, ContractReport, RecruiterRecommendation
 from storage.crud import NotFoundError, Repository
 from storage.database import DatabaseSettings, make_engine, make_session_factory
-from storage.models import Vacancy
+from storage.models import Report, Response, Vacancy
 from storage.schemas import ResponseCreate, ResponseUpdate, VacancyCreate
 from test_storage import migration_config
 
@@ -35,12 +37,16 @@ class RecordingTelegram:
     def __init__(self):
         self.screens = []
         self.answers = []
+        self.documents = []
 
     def screen(self, chat_id, text, rows, message_id=None):
         self.screens.append((chat_id, text, rows, message_id))
 
     def answer(self, callback_id, text=None):
         self.answers.append((callback_id, text))
+
+    def document(self, chat_id, filename, content, mime_type, caption):
+        self.documents.append((chat_id, filename, content, mime_type, caption))
 
 
 def message(text="/start", actor=ACTOR, chat_type="private"):
@@ -54,6 +60,35 @@ def callback(data, actor=ACTOR):
 
 
 class BotUnitTests(unittest.TestCase):
+    def test_document_is_uploaded_as_multipart_without_truncating_raw_text(self):
+        requests = []
+        raw = ("Резюме\r\n" + "Навыки Python <script>\n" * 2000).encode("utf-8")
+
+        def transport(request):
+            requests.append(request)
+            return httpx.Response(200, json={"ok": True, "result": {"message_id": 1}})
+
+        client = TelegramClient(SECRET, transport=httpx.MockTransport(transport))
+        try:
+            client.document(ACTOR, "resume-test.txt", raw, "text/plain; charset=utf-8", "Исходное резюме")
+            self.assertIn("multipart/form-data", requests[0].headers["Content-Type"])
+            self.assertIn(raw, requests[0].content)
+            self.assertIn(b'filename="resume-test.txt"', requests[0].content)
+            self.assertTrue(requests[0].url.path.endswith("sendDocument"))
+        finally:
+            client.close()
+
+    def test_document_errors_hide_credentials_and_are_retriable(self):
+        client = TelegramClient(SECRET, transport=httpx.MockTransport(lambda _: httpx.Response(
+            429, json={"ok": False, "description": SECRET, "parameters": {"retry_after": 3}})))
+        try:
+            with self.assertRaises(TelegramError) as failure:
+                client.document(ACTOR, "x.txt", b"private resume", "text/plain", "Resume")
+            self.assertNotIn(SECRET, str(failure.exception))
+            self.assertEqual(failure.exception.retry_after, 3)
+        finally:
+            client.close()
+
     def test_settings_literal_file_override_and_hidden_token(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / ".env"
@@ -200,6 +235,11 @@ class DepartmentDatabaseTests(unittest.TestCase):
                 workflow_status="forwarded", is_viewed=True, is_archived=True)).id
             self.hidden_id = repo.create_response(ResponseCreate(vacancy_id=self.vacancy_id,
                 candidate_name="PRIVATE_NOT_FORWARDED", source_json={})).id
+            contract = ContractReport(id=str(self.response_id), vacancy_id=str(self.vacancy_id),
+                candidate_name="Демо Кандидат", contacts=Contacts(), match_status="green", match_label="Подходит",
+                match_share=1, summary=("Python подтверждён", "Опыт указан", "Образование указано"),
+                skills=[], missing_data=[], workflow_status="forwarded", source_text="PRIVATE_RESUME")
+            session.add(Report(response_id=self.response_id, criteria_version=1, contract_json=contract.model_dump(mode="json")))
 
     def tearDown(self):
         with self.factory.begin() as session:
@@ -288,6 +328,8 @@ class DepartmentDatabaseTests(unittest.TestCase):
         controller = BotController(self.service, telegram)
         controller.deliver_pending()
         self.assertEqual(len(telegram.screens), 1)
+        self.assertEqual(len(telegram.documents), 2)
+        self.assertEqual(telegram.documents[1][2], b"PRIVATE_RESUME")
         self.assertIn("Сильные стороны: SQL", telegram.screens[0][1])
         self.assertIn("Слабые места: Git", telegram.screens[0][1])
         self.assertIn("Ветки Git", telegram.screens[0][1])
@@ -303,6 +345,140 @@ class DepartmentDatabaseTests(unittest.TestCase):
             BotController(self.service, failed).deliver_pending()
         self.assertEqual(len(self.service.pending_notifications(ACTOR)), 1)
         controller.deliver_pending()
+        self.assertEqual(self.service.pending_notifications(ACTOR), [])
+
+    def test_materials_require_hr_approval_and_recommendations(self):
+        with self.assertRaises(MaterialsNotReadyError):
+            self.service.materials(ACTOR, self.response_id)
+        with self.factory.begin() as session:
+            row = Repository(session).get_response(self.response_id)
+            row.department_notification_pending = True
+        self.assertEqual(self.service.pending_notifications(ACTOR), [])
+        self.assertEqual(RecordingTelegram().documents, [])
+        recommendation = RecruiterRecommendation(strengths="SQL", weaknesses="Git", interview_focus="Практика")
+        hr = HRService(self.factory)
+        hr.update_recommendation(self.hidden_id, recommendation)
+        with self.assertRaises(NotFoundError):
+            self.service.materials(ACTOR, self.hidden_id)
+        with self.assertRaises(AccessDeniedError):
+            self.service.materials(ACTOR + 1, self.response_id)
+
+    def test_partial_delivery_resumes_after_restart_and_repeated_calls_do_not_duplicate(self):
+        recommendation = RecruiterRecommendation(strengths="Python", weaknesses="SQL", interview_focus="Практика")
+        HRService(self.factory).update_recommendation(self.response_id, recommendation)
+        telegram = RecordingTelegram()
+        original = telegram.document
+
+        def fail_on_resume(chat_id, filename, content, mime_type, caption):
+            if filename.startswith("resume-"):
+                raise TelegramError(503)
+            original(chat_id, filename, content, mime_type, caption)
+
+        telegram.document = fail_on_resume
+        with self.assertRaises(TelegramError):
+            BotController(self.service, telegram).deliver_pending()
+        self.assertEqual(len(telegram.screens), 1)
+        self.assertEqual(len(telegram.documents), 1)
+        self.assertEqual(len(self.service.pending_notifications(ACTOR)), 1)
+        restarted = DepartmentService(self.factory, frozenset({ACTOR}), SECRET)
+        continued = RecordingTelegram()
+        BotController(restarted, continued).deliver_pending()
+        self.assertEqual(continued.screens, [])
+        self.assertEqual(len(continued.documents), 1)
+        self.assertTrue(continued.documents[0][1].startswith("resume-"))
+        self.assertEqual(restarted.pending_notifications(ACTOR), [])
+        BotController(restarted, continued).deliver_pending()
+        BotController(restarted, continued).handle(callback(f"files:{self.response_id.hex}"))
+        self.assertEqual(len(continued.documents), 1)
+
+    def test_current_report_txt_and_full_raw_resume_are_sent_without_model_calls(self):
+        raw = "Резюме\r\n" + "Очень длинный исходный текст\n" * 1000
+        with self.factory.begin() as session:
+            row = Repository(session).get_response(self.response_id)
+            row.source_json = {**row.source_json, "source_text": raw}
+        hr = HRService(self.factory)
+        hr.update_recommendation(self.response_id, RecruiterRecommendation(strengths="Python", weaknesses="SQL", interview_focus="Практика"))
+        telegram = RecordingTelegram()
+        BotController(self.service, telegram).deliver_pending()
+        self.assertEqual(len(telegram.documents), 2)
+        report, resume = telegram.documents
+        self.assertTrue(report[1].endswith(".txt"))
+        self.assertIn("Python подтверждён", report[2].decode("utf-8"))
+        self.assertIn("Сильные стороны: Python", report[2].decode("utf-8"))
+        self.assertEqual(resume[2], raw.encode("utf-8"))
+
+    def test_only_strengths_and_weaknesses_are_required_to_send_materials(self):
+        HRService(self.factory).update_recommendation(self.response_id,
+            RecruiterRecommendation(strengths="Python", weaknesses="SQL"))
+        telegram = RecordingTelegram()
+        BotController(self.service, telegram).deliver_pending()
+        self.assertEqual(len(telegram.documents), 2)
+        self.assertNotIn("None", telegram.screens[0][1])
+        self.assertNotIn("None", telegram.documents[0][2].decode("utf-8"))
+        self.assertEqual(self.service.pending_notifications(ACTOR), [])
+
+    def test_pdf_is_sent_for_matching_resume_and_stale_pdf_uses_current_report(self):
+        key = "bot-pdf-test"
+        vacancy_id = uuid5(NAMESPACE_URL, "hr-platform/vacancies/" + key)
+        response_id = uuid5(NAMESPACE_URL, f"hr-platform/responses/{key}/1")
+        source = {"candidate_id": 1, "source_text": "PDF candidate original"}
+        with self.factory.begin() as session:
+            session.add(Vacancy(id=vacancy_id, title="PDF vacancy", source_json={}))
+            session.flush()
+            session.add(Response(id=response_id, vacancy_id=vacancy_id, source_json=source, workflow_status="forwarded",
+                recruiter_recommendation={"strengths": "Python", "weaknesses": "SQL", "interview_focus": "Практика"}))
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            pdf = b"%PDF-1.4\nSynthetic\n%%EOF"
+            (root / "report-1.pdf").write_bytes(pdf)
+            index = PdfIndex(source_key=key, vacancy_title="PDF vacancy", entries=[
+                PdfEntry(candidate_id="1", filename="report-1.pdf", source_sha256=source_digest(source))])
+            (root / INDEX_NAME).write_text(index.model_dump_json(), encoding="utf-8")
+            service = DepartmentService(self.factory, frozenset({ACTOR}), SECRET, PdfReports(root))
+            materials = service.materials(ACTOR, response_id)
+            self.assertEqual(materials.report.content, pdf)
+            self.assertEqual(materials.report.mime_type, "application/pdf")
+            with self.factory.begin() as session:
+                row = Repository(session).get_response(response_id)
+                row.source_json = {**source, "source_text": "Edited"}
+                template = Repository(session).get_response(self.response_id).report
+                assert template is not None and template.contract_json is not None
+                session.add(Report(response_id=response_id, criteria_version=1, contract_json={
+                    **template.contract_json, "id": str(response_id), "vacancy_id": str(vacancy_id)}))
+            refreshed = service.materials(ACTOR, response_id)
+            self.assertTrue(refreshed.report.filename.endswith(".txt"))
+            self.assertEqual(refreshed.resume.content, b"Edited")
+
+    def test_missing_report_or_raw_resume_does_not_acknowledge_delivery(self):
+        HRService(self.factory).update_recommendation(self.response_id,
+            RecruiterRecommendation(strengths="Python", weaknesses="SQL", interview_focus="Практика"))
+        with self.factory.begin() as session:
+            report = Repository(session).get_response(self.response_id).report
+            assert report is not None
+            report.contract_json = None
+        telegram = RecordingTelegram()
+        BotController(self.service, telegram).deliver_pending()
+        self.assertEqual(telegram.documents, [])
+        self.service.acknowledge_notification(ACTOR, self.response_id, 1)
+        with self.factory.begin() as session:
+            self.assertTrue(Repository(session).get_response(self.response_id).department_notification_pending)
+        with patch("department_bot.service.time.time", return_value=9999999999):
+            self.assertEqual(len(self.service.pending_notifications(ACTOR)), 1)
+
+    def test_revoke_after_first_file_stops_remaining_materials(self):
+        hr = HRService(self.factory)
+        hr.update_recommendation(self.response_id, RecruiterRecommendation(strengths="Python", weaknesses="SQL", interview_focus="Практика"))
+        telegram = RecordingTelegram()
+        original = telegram.document
+
+        def revoke(chat_id, filename, content, mime_type, caption):
+            original(chat_id, filename, content, mime_type, caption)
+            hr.update_status(self.response_id, "not_forwarded")
+
+        telegram.document = revoke
+        BotController(self.service, telegram).deliver_pending()
+        self.assertEqual(len(telegram.documents), 1)
+        self.assertTrue(telegram.documents[0][1].startswith("report-"))
         self.assertEqual(self.service.pending_notifications(ACTOR), [])
 
     def test_confirmation_replay_tampering_other_actor_expiry_and_changed_record(self):

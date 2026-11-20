@@ -9,12 +9,14 @@ import hmac
 import time
 from uuid import UUID
 
-from sqlalchemy import func, select, update
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session, sessionmaker
 
-from contract_models import RecruiterRecommendation
+from contract_models import ContractReport, RecruiterRecommendation
+from hr_api.pdf_reports import PdfReports
 from storage.crud import NotFoundError, Repository
 from storage.models import Response, Vacancy
+from .materials import DELIVERY_STAGES, Document, MaterialsNotReadyError, pdf_document, report_text
 
 PAGE_SIZE = 6
 
@@ -46,15 +48,27 @@ class Page:
     page: int
 
 
+@dataclass(frozen=True)
+class Materials:
+    item: Item
+    vacancy_title: str
+    version: int
+    report: Document
+    resume: Document
+    completed: frozenset[str]
+
+
 def _b64(value: bytes) -> str:
     return base64.urlsafe_b64encode(value).decode("ascii").rstrip("=")
 
 
 class DepartmentService:
-    def __init__(self, factory: sessionmaker[Session], manager_ids: frozenset[int], secret: str):
+    def __init__(self, factory: sessionmaker[Session], manager_ids: frozenset[int], secret: str,
+                 pdf_reports: PdfReports | None = None):
         self.factory = factory
         self.manager_ids = manager_ids
         self._key = secret.encode()
+        self.pdf_reports = pdf_reports or PdfReports()
 
     def authorize(self, actor: int) -> None:
         if actor not in self.manager_ids:
@@ -171,12 +185,81 @@ class DepartmentService:
         with self.factory.begin() as session:
             rows = session.execute(select(Response, Vacancy.title).join(Vacancy).where(
                 Response.department_notification_pending.is_(True), Response.workflow_status == "forwarded",
+                Response.recruiter_recommendation.is_not(None),
+                func.coalesce(Response.department_delivery_state["retry_at"].as_float(), 0) <= time.time(),
                 Vacancy.status != "draft").order_by(Response.updated_at, Response.id).limit(10))
             return [(self._item(row), title, row.department_notification_version) for row, title in rows]
 
     def acknowledge_notification(self, actor: int, identifier: UUID, version: int) -> None:
         self.authorize(actor)
         with self.factory.begin() as session:
-            session.execute(update(Response).where(Response.id == identifier,
-                Response.department_notification_version == version).values(
-                    department_notification_pending=False, updated_at=Response.updated_at))
+            row, _ = Repository(session)._lock_response_vacancy(identifier)
+            if row.department_notification_version == version and all(
+                    self._completed(row, recipient, version) == DELIVERY_STAGES for recipient in self.manager_ids):
+                self._delivery_update(session, row, department_notification_pending=False)
+
+    def defer_notification(self, actor: int, identifier: UUID, version: int) -> None:
+        self.authorize(actor)
+        with self.factory.begin() as session:
+            row, _ = Repository(session)._lock_response_vacancy(identifier)
+            if row.department_notification_version == version and row.department_notification_pending:
+                self._delivery_update(session, row, department_delivery_state={
+                    **row.department_delivery_state, "retry_at": time.time() + 60})
+
+    @staticmethod
+    def _delivery_update(session: Session, row: Response, **values) -> None:
+        from sqlalchemy import update
+        # A receipt must not invalidate the manager's hiring confirmation button.
+        session.execute(update(Response).where(Response.id == row.id).values(**values, updated_at=Response.updated_at))
+
+    @staticmethod
+    def _completed(row: Response, actor: int, version: int) -> frozenset[str]:
+        state = row.department_delivery_state
+        if state.get("version") != version:
+            return frozenset()
+        recipients = state.get("recipients")
+        if not isinstance(recipients, dict):
+            return frozenset()
+        stages = recipients.get(str(actor))
+        return frozenset(stage for stage in stages if isinstance(stage, str) and stage in DELIVERY_STAGES) if isinstance(stages, list) else frozenset()
+
+    def mark_delivered(self, actor: int, identifier: UUID, version: int, stage: str) -> bool:
+        self.authorize(actor)
+        if stage not in DELIVERY_STAGES:
+            raise ValueError("Неизвестный этап доставки")
+        with self.factory.begin() as session:
+            row = self._target(Repository(session), "r", identifier, lock=True)
+            assert isinstance(row, Response)
+            if row.department_notification_version != version or row.recruiter_recommendation is None:
+                return False
+            recipients = {str(recipient): sorted(self._completed(row, recipient, version)) for recipient in self.manager_ids}
+            recipients[str(actor)] = sorted(self._completed(row, actor, version) | {stage})
+            state = {"version": version, "recipients": recipients}
+            self._delivery_update(session, row, department_delivery_state=state)
+            return True
+
+    def materials(self, actor: int, identifier: UUID, *, version: int | None = None) -> Materials:
+        self.authorize(actor)
+        with self.factory.begin() as session:
+            row = self._target(Repository(session), "r", identifier, lock=True)
+            assert isinstance(row, Response)
+            if row.recruiter_recommendation is None or version is not None and version != row.department_notification_version:
+                raise MaterialsNotReadyError()
+            item = self._item(row)
+            raw = row.source_json.get("source_text")
+            if not isinstance(raw, str) or not raw.strip():
+                raise MaterialsNotReadyError()
+            resume = Document(f"resume-{row.id}.txt", raw.encode("utf-8"), "text/plain; charset=utf-8")
+            info = self.pdf_reports.info(row.id, row.vacancy_id, row.source_json)
+            path = self.pdf_reports.path(row.id, row.vacancy_id) if info is not None and not info.is_stale else None
+            if path is not None:
+                report = pdf_document(path, f"report-{row.id}.pdf")
+            else:
+                saved = row.report
+                if saved is None or saved.contract_json is None or saved.criteria_version != row.vacancy.criteria_version:
+                    raise MaterialsNotReadyError()
+                structured = ContractReport.model_validate({**saved.contract_json, "source_text": raw,
+                    "workflow_status": row.workflow_status, "recruiter_recommendation": row.recruiter_recommendation})
+                report = Document(f"report-{row.id}.txt", report_text(structured, row.vacancy.title).encode("utf-8"), "text/plain; charset=utf-8")
+            return Materials(item, row.vacancy.title, row.department_notification_version, report, resume,
+                             self._completed(row, actor, row.department_notification_version))
