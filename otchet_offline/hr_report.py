@@ -76,6 +76,7 @@ def main() -> int:
         parser.exit(2, f"Ошибка подготовки. {error}\n")
 
     entries = []
+    experience_by_path: dict[Path, int | None] = {}
     applications, input_errors = collect_applications(args.applications, excluded)
     for error in input_errors:
         print(error, file=sys.stderr)
@@ -83,6 +84,8 @@ def main() -> int:
     for application in applications:
         try:
             resume = read_json(application)
+            months = resume.get("experience_total_months")
+            experience_by_path[application.resolve()] = (months if type(months) is int and months >= 0 else None)
             prepared = prepare_resume_text(resume)
             assessment = assess(vacancy, resume, application.stem, prepared=prepared)
             entries.append((application, assessment, prepared.passages))
@@ -103,7 +106,8 @@ def main() -> int:
         try:
             technical_questions = (select_technical_questions(bank, vacancy.title, assessment.application_id)
                                    if bank is not None else None)
-            write_pdf(path, vacancy, assessment, technical_questions)
+            write_pdf(path, vacancy, assessment, technical_questions,
+                      experience_by_path.get(application.resolve()))
         except (OSError, ValueError, LayoutError) as error:
             print(f"Ошибка отчёта для {application.name}. {error}", file=sys.stderr)
             failed = True
@@ -141,3 +145,5 @@ if __name__ == "__main__":
     raise SystemExit(main())
 
 # RESTORED_OFFLINE_TECHNICAL_QUESTIONS_V1
+
+# PDF_LAYOUT_EXPERIENCE_FIRST_V1

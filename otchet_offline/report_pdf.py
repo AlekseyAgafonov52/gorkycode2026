@@ -67,7 +67,7 @@ def assessment_summary(assessment: Assessment) -> list[str]:
     return lines
 
 
-def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None) -> None:
+def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None, experience_months: int | None = None) -> None:
     ink = "#1A2941"
     muted = "#47566E"
     border = "#D9E2EC"
@@ -85,6 +85,18 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
         story.append(p(identity, 8.6, muted))
     if assessment.resume_title:
         story.extend([Spacer(1, 7), p(f"Резюме «{assessment.resume_title}»", 8.8, muted)])
+    # Общий стаж из поля отклика; не путать с подтверждённым профильным стажем.
+    if isinstance(experience_months, int) and not isinstance(experience_months, bool) and experience_months >= 0:
+        years, months = divmod(experience_months, 12)
+        if years and months:
+            experience_label = f"{years} г. {months} мес."
+        elif years:
+            experience_label = f"{years} г."
+        else:
+            experience_label = f"{months} мес."
+    else:
+        experience_label = "Не указан"
+    story.extend([Spacer(1, 7), p(f"Общий опыт работы: {experience_label}", 9, ink, bold=True)])
 
     summary = Table([
         [p(label, 10, accent, bold=True), p("Подтверждено", 8.4, muted), p("По проверенным", 8.4, muted), p("Покрытие", 8.4, muted)],
@@ -101,36 +113,26 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
     ])
     story.extend([Spacer(1, 12), summary, Spacer(1, 12)])
 
-    question_order = {"application": 0, "condition": 1, "profile": 2, "required": 3, "preferred": 4, "interview": 5}
-    pending = sorted((item for item in assessment.findings if item.question),
-                     key=lambda item: (question_order[item.criterion.priority], item.status != "mismatch"))
-    mandatory = dict.fromkeys(item.question for item in pending if item.criterion.priority in
-                              ("application", "condition", "profile", "required"))
-    story.append(p("Обязательные уточнения", 11.5, bold=True, keep_with_next=True))
-    if mandatory:
-        for index, question in enumerate(mandatory, 1):
-            story.extend([Spacer(1, 3), p(f"{index}. {question}", 9)])
-        story.append(Spacer(1, 12))
-    else:
-        story.extend([p("По доступным данным обязательных уточнений нет.", 9, muted), Spacer(1, 12)])
-
     if lines := assessment_summary(assessment):
         story.append(p("Краткая оценка", 11.5, bold=True, keep_with_next=True))
         for line in lines:
             story.append(p(line, 9))
         story.append(Spacer(1, 10))
 
-    optional = dict.fromkeys(item.question for item in pending if item.question not in mandatory)
-    if optional:
-        story.append(p("Дополнительные уточнения", 11.5, bold=True, keep_with_next=True))
-        for question in optional:
-            story.append(p(question, 9))
-        story.append(Spacer(1, 10))
-
+    # PDF_STATUS_TEXT_COLORS_V1
+    # Цветной только текст в колонке «Результат».
+    status_text_colors = {
+        "mismatch": "#E00000",
+        "partial": "#E07800",
+        "unknown": "#C49A00",
+        "met": "#008A36",
+    }
     story.extend([p("Проверка требований", 11.5, bold=True), Spacer(1, 4)])
     rows = [[p("Критерий", 8.6, "#FFFFFF", True), p("Результат", 8.6, "#FFFFFF", True),
              p("Основание по данным отклика", 8.6, "#FFFFFF", True)]]
-    for item in assessment.findings:
+    # Сначала расхождения (включая частичные), затем недостаточно данных, затем совпадения.
+    status_order = {"mismatch": 0, "partial": 1, "unknown": 2, "met": 3}
+    for item in sorted(assessment.findings, key=lambda finding: status_order.get(finding.status, 4)):
         criterion = item.criterion
         priority = PRIORITY_LABEL[criterion.priority]
         if criterion.weight:
@@ -146,7 +148,7 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
         if criterion.kind == "application_data" and item.status == "met":
             status_label = "Указаны"
         rows.append([[p(criterion.name, 8.5, bold=True), p(priority, 7, muted)],
-                     p(status_label, 8, STATUS_INK[item.status], True), details])
+                     p(status_label, 8, status_text_colors[item.status], True), details])
     story.append(LongTable(rows, colWidths=[width * 0.30, width * 0.17, width * 0.53], repeatRows=1, style=[
         ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor(ink)),
         ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#F6F8FB")]),
@@ -157,6 +159,19 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
         ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
         ("LINEBELOW", (0, -1), (-1, -1), 0.5, colors.HexColor(border)),
     ]))
+    question_order = {"application": 0, "condition": 1, "profile": 2, "required": 3, "preferred": 4, "interview": 5}
+    pending = sorted((item for item in assessment.findings if item.question),
+                     key=lambda item: (question_order[item.criterion.priority], item.status != "mismatch"))
+    mandatory = dict.fromkeys(item.question for item in pending if item.criterion.priority in
+                              ("application", "condition", "profile", "required"))
+    story.append(p("Обязательные уточнения", 11.5, bold=True, keep_with_next=True))
+    if mandatory:
+        for index, question in enumerate(mandatory, 1):
+            story.extend([Spacer(1, 3), p(f"{index}. {question}", 9)])
+        story.append(Spacer(1, 12))
+    else:
+        story.extend([p("По доступным данным обязательных уточнений нет.", 9, muted), Spacer(1, 12)])
+
     if technical_questions:
         story.extend([Spacer(1, 14),
                       p("Технические вопросы для интервью", 12, bold=True, keep_with_next=True),
@@ -175,6 +190,13 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
             ])
             for variant in item["alternative_phrasings"]:
                 story.extend([Spacer(1, 2), p("• " + variant, 8.6, muted)])
+        story.append(Spacer(1, 10))
+
+    optional = dict.fromkeys(item.question for item in pending if item.question not in mandatory)
+    if optional:
+        story.append(p("Дополнительные уточнения", 11.5, bold=True, keep_with_next=True))
+        for question in optional:
+            story.append(p(question, 9))
         story.append(Spacer(1, 10))
 
     story.extend([Spacer(1, 8), p("Подтверждено — набранные баллы от полного веса требований. "
@@ -205,8 +227,8 @@ def write_atomic(path: Path, render: Callable[[Path], None]) -> None:
         temporary_path.unlink(missing_ok=True)
 
 
-def write_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None) -> None:
-    write_atomic(path, lambda temporary: make_pdf(temporary, vacancy, assessment, technical_questions))
+def write_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None, experience_months: int | None = None) -> None:
+    write_atomic(path, lambda temporary: make_pdf(temporary, vacancy, assessment, technical_questions, experience_months))
 
 
 # RESTORED_OFFLINE_TECHNICAL_QUESTIONS_V1
@@ -246,3 +268,5 @@ def select_technical_questions(bank: dict, title: str, candidate_id: str) -> lis
         chosen.append(min(skills[skill], key=lambda q: order("question:" + skill + ":"
                              + str(q.get("id", "")) + ":" + q["question"])))
     return chosen
+
+# PDF_LAYOUT_EXPERIENCE_FIRST_V1
