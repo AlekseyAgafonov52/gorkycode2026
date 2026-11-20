@@ -60,6 +60,11 @@ export function createApi({ apiBaseUrl = "/api/v1", requestTimeoutMs = 30000 } =
       }
     },
     getReport: (responseId, options) => request(`/responses/${encodeURIComponent(responseId)}/report`, options),
+    updateSourceText: (responseId, sourceText, expectedSourceText) => request(`/responses/${encodeURIComponent(responseId)}/source-text`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ source_text: sourceText, expected_source_text: expectedSourceText }),
+    }),
     updateViewed: (responseId, isViewed) => request(`/responses/${encodeURIComponent(responseId)}/viewed`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },

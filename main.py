@@ -12,7 +12,7 @@ from starlette.concurrency import run_in_threadpool
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from hr_api.router import router as hr_router
-from hr_api.service import HRService, ReportNotReadyError
+from hr_api.service import HRService, ReportNotReadyError, SourceTextConflictError
 from response_parser import CandidateResponse, parse_response
 from storage.crud import NotFoundError, StaleCriteriaError
 from vacancy_parser import Vacancy, decode_txt, parse_vacancy
@@ -97,6 +97,9 @@ def create_app(service: HRService | None = None) -> FastAPI:
     async def not_ready_handler(_, error: Exception):
         return error_response(500, "internal_error", str(error))
 
+    async def conflict_handler(_, error: Exception):
+        return error_response(409, "conflict", str(error))
+
     application.add_exception_handler(NotFoundError, missing_handler)
     application.add_exception_handler(StaleCriteriaError, stale_handler)
     application.add_exception_handler(ValueError, validation_handler)
@@ -104,6 +107,7 @@ def create_app(service: HRService | None = None) -> FastAPI:
     application.add_exception_handler(RequestValidationError, validation_handler)
     application.add_exception_handler(StarletteHTTPException, http_handler)
     application.add_exception_handler(ReportNotReadyError, not_ready_handler)
+    application.add_exception_handler(SourceTextConflictError, conflict_handler)
     application.add_exception_handler(Exception, internal_handler)
     application.add_exception_handler(ValidationError, internal_handler)
     return application

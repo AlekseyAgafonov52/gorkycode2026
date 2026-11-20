@@ -7,16 +7,22 @@ from uuid import UUID
 from sqlalchemy import case, func, select, update
 from sqlalchemy.orm import Session, selectinload, sessionmaker
 
-from contract_models import ContractReport, ContractResponse, ContractVacancy, ViewedResult, WorkflowResult
-from question_pool import PoolBuilder
+from candidate_analysis import resume_from_json
+from contract_models import ContractReport, ContractResponse, ContractVacancy, PoolQuestion, SourceTextUpdate, ViewedResult, WorkflowResult
+from question_pool import PoolBuilder, pool_hash, validate_pool
+from response_parser import parse_response
 from storage.crud import NotFoundError, Repository
 from storage.models import AnalysisTask, MatchResult, Response, Vacancy
 from storage.schemas import CriterionRead, CriterionUpdate, ResponseUpdate, TaskCreate
-from .preparation import ReportPreparer
+from .preparation import ReportPreparer, vacancy_input
 from .schemas import CriteriaPatch, CriteriaResult, ResponseDetail, TaskView, VacancyDetail
 
 
 class ReportNotReadyError(RuntimeError):
+    pass
+
+
+class SourceTextConflictError(RuntimeError):
     pass
 
 
@@ -155,6 +161,35 @@ class HRService:
         with self.factory.begin() as session:
             row = Repository(session).update_response(identifier, ResponseUpdate(is_viewed=is_viewed))
             return ViewedResult(id=str(row.id), is_viewed=row.is_viewed)
+
+    def update_source_text(self, identifier: UUID, data: SourceTextUpdate) -> ContractReport:
+        parsed = parse_response(data.source_text).model_dump(mode="json")
+        resume = resume_from_json(parsed)
+        if resume.candidate_name is not None and len(resume.candidate_name) > 255:
+            raise ValueError("ФИО в тексте превышает допустимую длину")
+        with self.factory.begin() as session:
+            repo = Repository(session)
+            response, vacancy = repo._lock_response_vacancy(identifier)
+            current = response.source_json.get("source_text", "")
+            if data.expected_source_text is not None and current != data.expected_source_text:
+                raise SourceTextConflictError("Резюме уже изменено. Обновите страницу перед сохранением; ваш текст можно скопировать из редактора.")
+            if current == data.source_text:
+                return self._report(response)
+            vacancy_text, skills = vacancy_input(vacancy)
+            expected_hash = pool_hash(vacancy_text, skills)
+            if vacancy.question_pool_hash != expected_hash:
+                raise SourceTextConflictError("Сначала подготовьте актуальный пул вопросов вакансии, затем сохраните текст резюме.")
+            pool = validate_pool([PoolQuestion.model_validate(item) for item in vacancy.question_pool], skills)
+            source = {**response.source_json, **parsed,
+                      "candidate_name": resume.candidate_name, "contacts": resume.contacts.model_dump(mode="json")}
+            # Record identifiers remain stable when the editable header is changed.
+            if response.source_json.get("candidate_id") is not None:
+                source["candidate_id"] = response.source_json["candidate_id"]
+            if "full_name" in source:
+                source["full_name"] = resume.candidate_name
+            repo.update_response(identifier, ResponseUpdate(source_json=source, candidate_name=resume.candidate_name))
+            self.preparer.prepare_response_in_session(session, identifier, pool, expected_hash)
+            return self._report(response)
 
     def request_match(self, identifier: UUID) -> TaskView:
         with self.factory.begin() as session:

@@ -13,7 +13,7 @@ from fastapi.testclient import TestClient
 from sqlalchemy import delete, func, select
 from sqlalchemy.schema import CreateSchema, DropSchema
 
-from contract_models import ContractReport, PoolQuestion
+from contract_models import ContractReport, MAX_SOURCE_TEXT_CHARS, PoolQuestion, SourceTextUpdate
 from hr_api.import_data import import_folder
 from hr_api.demo_data import create_demo
 from hr_api.schemas import CriteriaPatch
@@ -44,13 +44,13 @@ class FakePoolBuilder:
 
 
 class HRContractTests(unittest.TestCase):
-    def test_all_fourteen_routes_in_openapi_without_database_access(self):
+    def test_all_fifteen_routes_in_openapi_without_database_access(self):
         paths = create_app().openapi()["paths"]
-        self.assertEqual(sum(len(methods) for methods in paths.values()), 14)
+        self.assertEqual(sum(len(methods) for methods in paths.values()), 15)
         for path in ("/api/v1/vacancies", "/api/v1/vacancies/{vacancy_id}/criteria",
                      "/api/v1/vacancies/{vacancy_id}/match", "/api/v1/tasks/{task_id}",
                      "/api/v1/responses/{response_id}/report", "/api/v1/responses/{response_id}/questions/generate",
-                     "/api/v1/responses/{response_id}/viewed"):
+                     "/api/v1/responses/{response_id}/viewed", "/api/v1/responses/{response_id}/source-text"):
             self.assertIn(path, paths)
 
     def test_cors_allows_local_frontend_and_uniform_errors(self):
@@ -376,6 +376,101 @@ class HRAPITests(unittest.TestCase):
             self.assertEqual(response.status_code, 404)
             self.assertEqual(response.json()["error"]["code"], "not_found")
         self.assertEqual(self.provider.calls, [])
+
+    def test_edit_source_reparses_and_updates_report_without_model_calls(self):
+        self.prepare()
+        self.service.update_status(self.ids[0], "forwarded")
+        self.service.update_viewed(self.ids[0], True)
+        before = self.service.report(self.ids[0])
+        raw = ("Кандидат №999\r\nФИО: Тестовый Кандидат\r\nРезюме: Разработчик\r\n"
+               "Email: changed@example.com\r\nНавыки\r\nПродвинутый уровень\r\nSQL\r\n")
+        self.provider.fail = True
+        response = self.client.patch(f"/api/v1/responses/{self.ids[0]}/source-text", json={
+            "source_text": raw, "expected_source_text": before.source_text})
+        self.assertEqual(response.status_code, 200)
+        report = response.json()
+        self.assertEqual(report["source_text"], raw)
+        self.assertEqual(report["candidate_name"], "Тестовый Кандидат")
+        self.assertEqual(report["contacts"]["email"], "changed@example.com")
+        self.assertEqual(report["match_share"], .25)
+        self.assertEqual(report["workflow_status"], "forwarded")
+        self.assertTrue(report["is_viewed"])
+        with self.factory.begin() as session:
+            saved = Repository(session).get_response(self.ids[0])
+            self.assertEqual(saved.source_json["candidate_id"], 1)
+            skills = saved.source_json["skills"]
+            assert isinstance(skills, list)
+            self.assertEqual([item["name"] for item in skills if isinstance(item, dict)], ["SQL"])
+        self.assertEqual(self.client.get(self.report_url()).json(), report)
+        import_folder(self.factory, self.folder, self.key)
+        with TestClient(create_app(HRService(self.factory, self.provider))) as fresh:
+            self.assertEqual(fresh.get(self.report_url()).json(), report)
+        self.assertEqual(self.prepare(), 0)
+        self.assertEqual(len(self.provider.calls), 1)
+
+    def test_edit_source_does_not_keep_removed_identity_contacts_or_skills(self):
+        self.prepare()
+        with self.factory.begin() as session:
+            row = Repository(session).get_response(self.ids[0])
+            row.source_json = {**row.source_json, "full_name": "Old Name", "custom_metadata": {"keep": True}}
+        raw = "Кандидат №1\nРезюме: Разработчик\nНавыки\nБазовый уровень\nGit\n"
+        response = self.client.patch(f"/api/v1/responses/{self.ids[0]}/source-text", json={"source_text": raw})
+        self.assertEqual(response.status_code, 200)
+        report = response.json()
+        self.assertIsNone(report["candidate_name"])
+        self.assertIsNone(report["contacts"]["email"])
+        with self.factory.begin() as session:
+            row = Repository(session).get_response(self.ids[0])
+            self.assertIsNone(row.candidate_name)
+            self.assertIsNone(row.source_json["full_name"])
+            self.assertEqual(row.source_json["custom_metadata"], {"keep": True})
+            skills = row.source_json["skills"]
+            assert isinstance(skills, list)
+            self.assertEqual([item["name"] for item in skills if isinstance(item, dict)], ["Git"])
+
+    def test_edit_source_rejects_stale_text_and_preserves_latest_edit(self):
+        self.prepare()
+        before = self.service.report(self.ids[0])
+        url = f"/api/v1/responses/{self.ids[0]}/source-text"
+        first = self.client.patch(url, json={"source_text": "Резюме: Новый текст\nНавыки\nSQL", "expected_source_text": before.source_text})
+        self.assertEqual(first.status_code, 200)
+        second = self.client.patch(url, json={"source_text": "Another edit", "expected_source_text": before.source_text})
+        self.assertEqual(second.status_code, 409)
+        self.assertEqual(second.json()["error"]["code"], "conflict")
+        self.assertEqual(self.client.get(self.report_url()).json(), first.json())
+
+    def test_edit_source_is_idempotent_and_rolls_back_if_analysis_fails(self):
+        self.prepare()
+        before = self.service.report(self.ids[0])
+        data = SourceTextUpdate(source_text=before.source_text)
+        self.assertEqual(self.service.update_source_text(self.ids[0], data), before)
+        with self.factory.begin() as session:
+            original_json = Repository(session).get_response(self.ids[0]).source_json
+        with patch.object(self.service.preparer, "prepare_response_in_session", side_effect=RuntimeError("analysis failed")):
+            with self.assertRaises(RuntimeError):
+                self.service.update_source_text(self.ids[0], SourceTextUpdate(source_text="Резюме: New\nНавыки\nGit"))
+        self.assertEqual(self.service.report(self.ids[0]), before)
+        with self.factory.begin() as session:
+            self.assertEqual(Repository(session).get_response(self.ids[0]).source_json, original_json)
+        self.assertEqual(len(self.provider.calls), 1)
+
+    def test_edit_source_validates_text_unknown_response_and_cached_pool(self):
+        self.prepare()
+        url = f"/api/v1/responses/{self.ids[0]}/source-text"
+        before = self.service.report(self.ids[0])
+        for value in (None, 123, "", " \r\n", "text\x00binary", "a" * (MAX_SOURCE_TEXT_CHARS + 1)):
+            response = self.client.patch(url, json={"source_text": value})
+            self.assertEqual(response.status_code, 422)
+        for identifier in ("nope", str(uuid4())):
+            response = self.client.patch(f"/api/v1/responses/{identifier}/source-text", json={"source_text": "Updated resume"})
+            self.assertEqual(response.status_code, 404)
+        with self.factory.begin() as session:
+            row = Repository(session).get_vacancy(self.vacancy_id)
+            row.question_pool_hash = None
+        response = self.client.patch(url, json={"source_text": "Updated resume"})
+        self.assertEqual(response.status_code, 409)
+        self.assertEqual(self.service.report(self.ids[0]), before)
+        self.assertEqual(len(self.provider.calls), 1)
 
 
 if __name__ == "__main__":

@@ -16,7 +16,7 @@ class ContractModel(BaseModel):
 
 
 class ErrorDetail(ContractModel):
-    code: Literal["not_found", "validation_error", "internal_error"]
+    code: Literal["not_found", "validation_error", "internal_error", "conflict"]
     message: str
 
 
@@ -165,3 +165,18 @@ class ViewedUpdate(ContractModel):
 
 class ViewedResult(ViewedUpdate):
     id: str
+
+
+MAX_SOURCE_TEXT_CHARS = 2 * 1024 * 1024
+
+
+class SourceTextUpdate(ContractModel):
+    source_text: str = Field(strict=True, min_length=1, max_length=MAX_SOURCE_TEXT_CHARS)
+    expected_source_text: str | None = Field(default=None, strict=True, max_length=MAX_SOURCE_TEXT_CHARS)
+
+    @field_validator("source_text")
+    @classmethod
+    def valid_text(cls, value: str) -> str:
+        if not value.strip() or "\x00" in value:
+            raise ValueError("Текст резюме должен быть непустым и не содержать нулевых символов")
+        return value

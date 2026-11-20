@@ -15,7 +15,8 @@ const api = createApi(window.HR_CONFIG);
 const app = document.getElementById("app");
 const state = { vacancies: [], filter: "all", vacancyId: null, report: null,
   viewFilter: "all", navigation: 0, controller: null, saving: new Set(),
-  reviewing: new Set(), reviewNotices: new Map(), reviewWrites: new Map() };
+  reviewing: new Set(), reviewNotices: new Map(), reviewWrites: new Map(),
+  sourceDrafts: new Map(), sourceWrites: new Map(), sourceNotices: new Map() };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g,
   (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
@@ -24,10 +25,20 @@ const share = (value) => new Intl.NumberFormat("ru-RU", { style: "percent", maxi
 const vacancyLink = (id) => `#/v/${encodeURIComponent(id)}`;
 const reportLink = (vacancyId, id) => `${vacancyLink(vacancyId)}/r/${encodeURIComponent(id)}`;
 const dot = (color) => `<span class="dot ${colorOf(color)}" role="img" aria-label="${esc(COLORS[color]?.label || "Цвет не определён")}"></span>`;
+const editorText = (value) => value.replace(/\r\n?/g, "\n");
 
 function applyRecentViewed(item, requestStarted) {
   const saved = state.reviewWrites.get(item.id);
   if (saved && saved.at >= requestStarted) item.is_viewed = saved.value;
+}
+
+function applyRecentSource(report, requestStarted) {
+  const saved = state.sourceWrites.get(report.id);
+  if (saved && saved.at >= requestStarted) {
+    return { ...saved.report, workflow_status: report.workflow_status, is_viewed: report.is_viewed };
+  }
+  if (saved) state.sourceWrites.delete(report.id);
+  return report;
 }
 
 function tabs(selectedId) {
@@ -183,9 +194,105 @@ function renderReport(report, vacancy) {
         <button class="act" data-workflow="not_forwarded">Созвонились, не передаю</button>
         <button class="act" data-workflow="new">Сбросить отметку</button>
       </div><p class="notice" data-save-notice role="status" aria-live="polite"></p></section>
-    <section class="panel"><h2>Исходный текст резюме</h2><pre class="source" data-source></pre></section>`;
+    <section class="panel" data-source-panel>
+      <div class="source-heading"><h2>Исходный текст резюме</h2>
+        <button class="icon-button" type="button" data-action="edit-source" title="Редактировать текст резюме"
+          aria-label="Редактировать текст резюме" aria-controls="source-editor" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 3a2.1 2.1 0 0 1 3 3L8 17l-4 1 1-4Z"/><path d="m14 5 3 3M4 22h16"/>
+          </svg></button></div>
+      <pre class="source" data-source></pre>
+      <div id="source-editor" class="source-editor" data-source-editor hidden>
+        <label for="source-text-input" class="muted">Текст резюме</label>
+        <textarea id="source-text-input" class="source-input" data-source-input rows="18" maxlength="2097152" spellcheck="false"></textarea>
+        <p class="muted">После сохранения данные отчёта обновятся.</p>
+        <div class="bar"><button class="act main" type="button" data-action="save-source">Сохранить</button>
+          <button class="act" type="button" data-action="cancel-source">Отмена</button></div>
+      </div><p class="notice" data-source-notice role="status" aria-live="polite"></p>
+    </section>`;
   app.querySelector("[data-source]").textContent = report.source_text;
+  renderSourceEditor();
   updateStatusControls();
+}
+
+function renderSourceEditor() {
+  const report = state.report;
+  const editor = app.querySelector("[data-source-editor]");
+  if (!report || !editor) return;
+  const draft = state.sourceDrafts.get(report.id);
+  app.querySelector("[data-source]").hidden = Boolean(draft);
+  editor.hidden = !draft;
+  const pencil = app.querySelector('[data-action="edit-source"]');
+  pencil.hidden = Boolean(draft);
+  pencil.setAttribute("aria-expanded", String(Boolean(draft)));
+  const input = app.querySelector("[data-source-input]");
+  if (draft && input.value !== draft.text) input.value = draft.text;
+  input.readOnly = Boolean(draft?.saving);
+  editor.querySelectorAll("button").forEach((button) => { button.disabled = Boolean(draft?.saving); });
+  const output = app.querySelector("[data-source-notice]");
+  output.textContent = draft?.saving ? "Сохраняем текст и обновляем отчёт…" : draft?.error || state.sourceNotices.get(report.id) || "";
+  output.className = `notice ${draft?.error ? "error" : !draft && output.textContent ? "success" : ""}`;
+}
+
+function editSource() {
+  const report = state.report;
+  if (!report) return;
+  if (!state.sourceDrafts.has(report.id)) {
+    state.sourceDrafts.set(report.id, { id: report.id, originalText: report.source_text, text: editorText(report.source_text), saving: false, error: "" });
+  }
+  state.sourceNotices.delete(report.id);
+  renderSourceEditor();
+  app.querySelector("[data-source-input]").focus();
+}
+
+function cancelSource() {
+  const report = state.report;
+  if (!report || state.sourceDrafts.get(report.id)?.saving) return;
+  state.sourceDrafts.delete(report.id);
+  state.sourceNotices.delete(report.id);
+  renderSourceEditor();
+  app.querySelector('[data-action="edit-source"]').focus();
+}
+
+async function saveSource() {
+  const report = state.report;
+  const draft = report && state.sourceDrafts.get(report.id);
+  if (!draft || draft.saving) return;
+  draft.text = app.querySelector("[data-source-input]").value;
+  if (!draft.text.trim()) {
+    draft.error = "Введите непустой текст резюме.";
+    renderSourceEditor();
+    return;
+  }
+  if (draft.text === editorText(draft.originalText)) {
+    cancelSource();
+    return;
+  }
+  const requestStarted = performance.now();
+  draft.saving = true;
+  draft.error = "";
+  renderSourceEditor();
+  try {
+    const updated = await api.updateSourceText(draft.id, draft.text, draft.originalText);
+    if (updated.id !== draft.id || updated.source_text !== draft.text) throw new Error("Не удалось подтвердить сохранение текста.");
+    applyRecentViewed(updated, requestStarted);
+    state.sourceWrites.set(draft.id, { report: updated, at: performance.now() });
+    state.sourceDrafts.delete(draft.id);
+    state.sourceNotices.set(draft.id, "Текст сохранён. Отчёт обновлён.");
+    if (state.report?.id === draft.id) {
+      state.report = updated;
+      const vacancy = state.vacancies.find((item) => item.id === updated.vacancy_id);
+      renderReport(updated, vacancy);
+      app.querySelector("[data-source-panel]").scrollIntoView({ block: "start" });
+      app.querySelector('[data-action="edit-source"]').focus({ preventScroll: true });
+    } else if (!state.report && state.items?.some((item) => item.id === draft.id)) {
+      await route();
+    }
+  } catch (error) {
+    draft.saving = false;
+    draft.error = error.message;
+    if (state.report?.id === draft.id) renderSourceEditor();
+  }
 }
 
 function updateStatusControls(notice = "", isError = false) {
@@ -266,9 +373,10 @@ async function route() {
     loading(responseId ? "Загрузка отчёта…" : "Загрузка откликов…");
     const requestStarted = performance.now();
     if (responseId) {
-      const report = await api.getReport(responseId, { signal });
+      let report = await api.getReport(responseId, { signal });
       if (navigation !== state.navigation) return;
       if (report.vacancy_id !== vacancyId) throw new Error("Отклик относится к другой вакансии.");
+      report = applyRecentSource(report, requestStarted);
       applyRecentViewed(report, requestStarted);
       state.report = report;
       renderReport(report, vacancy);
@@ -307,6 +415,9 @@ app.addEventListener("click", (event) => {
   if (!button || button.disabled) return;
   if (button.dataset.action === "start") start();
   else if (button.dataset.action === "refresh") route();
+  else if (button.dataset.action === "edit-source") editSource();
+  else if (button.dataset.action === "save-source") saveSource();
+  else if (button.dataset.action === "cancel-source") cancelSource();
   else if (button.dataset.filter) {
     state.filter = button.dataset.filter;
     const vacancy = state.vacancies.find((item) => item.id === state.vacancyId);
@@ -318,6 +429,25 @@ app.addEventListener("click", (event) => {
   } else if (button.dataset.viewed !== undefined && button.dataset.responseId) {
     saveViewed(button.dataset.responseId, button.dataset.viewed === "true");
   } else if (button.dataset.workflow) saveStatus(button.dataset.workflow);
+});
+
+app.addEventListener("input", (event) => {
+  if (!(event.target instanceof HTMLTextAreaElement) || !event.target.matches("[data-source-input]")) return;
+  const draft = state.report && state.sourceDrafts.get(state.report.id);
+  if (draft) draft.text = event.target.value;
+});
+
+app.addEventListener("keydown", (event) => {
+  if (!(event.target instanceof HTMLTextAreaElement) || !event.target.matches("[data-source-input]")) return;
+  if (event.key === "Enter" && (event.ctrlKey || event.metaKey)) { event.preventDefault(); saveSource(); }
+  else if (event.key === "Escape") { event.preventDefault(); cancelSource(); }
+});
+
+window.addEventListener("beforeunload", (event) => {
+  if ([...state.sourceDrafts.values()].some((draft) => draft.saving || draft.text !== editorText(draft.originalText))) {
+    event.preventDefault();
+    event.returnValue = "";
+  }
 });
 
 start();

@@ -59,6 +59,12 @@ summary { cursor: pointer; }
 .notice.error { color: #a32222; }
 .notice.success { color: #18653c; }
 .source { white-space: pre-wrap; overflow-wrap: anywhere; font: 14px/1.6 ui-monospace, monospace; margin: 0; }
+.source-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.source-heading h2 { margin: 0; }
+.icon-button { display: inline-grid; place-items: center; width: 36px; height: 36px; flex-shrink: 0; padding: 6px; border: 1px solid #aaa; border-radius: 6px; background: #fff; color: #333; cursor: pointer; }
+.icon-button:hover { background: #f2f2f2; }
+.icon-button[hidden] { display: none; }
+.source-input { display: block; width: 100%; min-height: 320px; margin-top: 6px; padding: 12px; border: 1px solid #888; border-radius: 6px; resize: vertical; font: 16px/1.6 ui-monospace, monospace; }
 .summary-lines { margin: 0; }
 @media (max-width: 600px) {
   header, main { padding: 12px; }

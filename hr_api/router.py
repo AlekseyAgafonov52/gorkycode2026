@@ -4,7 +4,7 @@ from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
-from contract_models import ContractReport, ContractResponse, ContractVacancy, ErrorEnvelope, ViewedResult, ViewedUpdate, WorkflowResult, WorkflowUpdate
+from contract_models import ContractReport, ContractResponse, ContractVacancy, ErrorEnvelope, SourceTextUpdate, ViewedResult, ViewedUpdate, WorkflowResult, WorkflowUpdate
 from storage.crud import NotFoundError
 
 from storage.database import make_engine, make_session_factory
@@ -18,6 +18,7 @@ from .service import HRService
 
 router = APIRouter(prefix="/api/v1", responses={
     404: {"model": ErrorEnvelope, "description": "Объект не найден"},
+    409: {"model": ErrorEnvelope, "description": "Данные изменились или пул вопросов не подготовлен"},
     422: {"model": ErrorEnvelope, "description": "Ошибка валидации"},
     500: {"model": ErrorEnvelope, "description": "Внутренняя ошибка"},
 })
@@ -83,6 +84,13 @@ def status(response_id: str, payload: WorkflowUpdate, service: Service):
               summary="Отметить отклик просмотренным или непросмотренным")
 def viewed(response_id: str, payload: ViewedUpdate, service: Service):
     return service.update_viewed(identifier(response_id), payload.is_viewed)
+
+
+@router.patch("/responses/{response_id}/source-text", response_model=ContractReport, tags=["Отклики"],
+              summary="Изменить исходный текст резюме",
+              description="Сохраняет текст, повторно извлекает поля и атомарно обновляет отчёт из сохранённого пула. YandexGPT не вызывается.")
+def source_text(response_id: str, payload: SourceTextUpdate, service: Service):
+    return service.update_source_text(identifier(response_id), payload)
 
 
 @router.patch("/responses/{response_id}/archive", response_model=ContractResponse, tags=["Отклики"])
