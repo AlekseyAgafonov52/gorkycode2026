@@ -2,16 +2,18 @@
 from __future__ import annotations
 
 import logging
+import json
 import time
 
 import httpx
-from .materials import MAX_DOCUMENT_BYTES
+from .materials import Document
 
 
 class TelegramError(RuntimeError):
-    def __init__(self, code: int = 0, retry_after: int = 5):
-        super().__init__(f"Telegram API недоступен (код {code})")
+    def __init__(self, code: int = 0, retry_after: int = 5, *, reason: str = "api_error"):
+        super().__init__(f"Telegram API недоступен (код {code}; {reason})")
         self.code = code
+        self.reason = reason
         self.retry_after = max(1, min(retry_after, 300))
 
 
@@ -32,14 +34,17 @@ class TelegramClient:
 
     def _request(self, method: str, data: dict, files: dict | None = None):
         try:
-            if method in ("sendMessage", "sendDocument"):
+            if method in ("sendMessage", "sendRichMessage"):
                 chat_id = int(data["chat_id"])
                 delay = self._next_send.get(chat_id, 0) - time.monotonic()
                 if delay > 0:
                     time.sleep(delay)
                 self._next_send[chat_id] = time.monotonic() + 1.05
             response = self._client.post(method, data=data, files=files) if files else self._client.post(method, json=data)
-            result = response.json()
+            try:
+                result = response.json()
+            except ValueError:
+                raise TelegramError(response.status_code if not response.is_success else 0, reason="invalid_response") from None
             if not isinstance(result, dict):
                 raise ValueError
             if not response.is_success or result.get("ok") is not True:
@@ -51,8 +56,14 @@ class TelegramClient:
             return result.get("result")
         except TelegramError:
             raise
-        except (httpx.HTTPError, ValueError, TypeError, AttributeError):
-            raise TelegramError() from None
+        except httpx.HTTPError as error:
+            reasons = {httpx.ConnectTimeout: "connect_timeout", httpx.ReadTimeout: "read_timeout",
+                       httpx.WriteTimeout: "write_timeout", httpx.PoolTimeout: "pool_timeout",
+                       httpx.ConnectError: "connect_error", httpx.ProxyError: "proxy_error"}
+            reason = next((value for kind, value in reasons.items() if isinstance(error, kind)), "network_error")
+            raise TelegramError(reason=reason) from None
+        except (ValueError, TypeError, AttributeError):
+            raise TelegramError(reason="invalid_response") from None
 
     def screen(self, chat_id: int, text: str, rows: list[list[dict]], message_id: int | None = None):
         safe_text = text.encode("utf-16-le")[:7800].decode("utf-16-le", errors="ignore")
@@ -67,8 +78,16 @@ class TelegramClient:
             data.update(text=text[:180], show_alert=True)
         return self.call("answerCallbackQuery", **data)
 
-    def document(self, chat_id: int, filename: str, content: bytes, mime_type: str, caption: str):
-        if not content or len(content) > MAX_DOCUMENT_BYTES:
-            raise ValueError("Недопустимый размер документа")
-        data = {"chat_id": str(chat_id), "caption": caption.encode("utf-16-le")[:1800].decode("utf-16-le", errors="ignore")}
-        return self._request("sendDocument", data, files={"document": (filename, content, mime_type)})
+    def packet(self, chat_id: int, text: str, documents: tuple[Document, Document], rows: list[list[dict]]):
+        # Rich messages support multiple files and full HR recommendations in ONE Message.
+        # Plain text blocks prevent candidate/recruiter text from becoming markup.
+        blocks: list[dict] = [{"type": "paragraph", "text": text}]
+        files = {}
+        for number, document in enumerate(documents):
+            name = f"file{number}"
+            blocks.append({"type": "document", "document": {"type": "document", "media": f"attach://{name}"}})
+            files[name] = (document.filename, document.content, document.mime_type)
+        data = {"chat_id": str(chat_id),
+                "rich_message": json.dumps({"blocks": blocks, "skip_entity_detection": True}, ensure_ascii=False),
+                "reply_markup": json.dumps({"inline_keyboard": rows}, ensure_ascii=False)}
+        return self._request("sendRichMessage", data, files=files)

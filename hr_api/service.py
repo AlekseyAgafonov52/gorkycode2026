@@ -252,7 +252,7 @@ class HRService:
                 source["full_name"] = resume.candidate_name
             repo.update_response(identifier, ResponseUpdate(source_json=source, candidate_name=resume.candidate_name))
             self.preparer.prepare_response_in_session(session, identifier, pool, expected_hash)
-            if response.workflow_status == "forwarded" and response.recruiter_recommendation is not None:
+            if response.workflow_status == "forwarded":
                 self._notify_department(response)
             return self._report(response)
 

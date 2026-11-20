@@ -16,7 +16,7 @@ from contract_models import ContractReport, RecruiterRecommendation
 from hr_api.pdf_reports import PdfReports
 from storage.crud import NotFoundError, Repository
 from storage.models import Response, Vacancy
-from .materials import DELIVERY_STAGES, Document, MaterialsNotReadyError, pdf_document, report_text
+from .materials import DELIVERY_STAGES, Document, MaterialsNotReadyError, pdf_document, report_text, resume_text
 
 PAGE_SIZE = 6
 
@@ -185,7 +185,6 @@ class DepartmentService:
         with self.factory.begin() as session:
             rows = session.execute(select(Response, Vacancy.title).join(Vacancy).where(
                 Response.department_notification_pending.is_(True), Response.workflow_status == "forwarded",
-                Response.recruiter_recommendation.is_not(None),
                 func.coalesce(Response.department_delivery_state["retry_at"].as_float(), 0) <= time.time(),
                 Vacancy.status != "draft").order_by(Response.updated_at, Response.id).limit(10))
             return [(self._item(row), title, row.department_notification_version) for row, title in rows]
@@ -221,6 +220,9 @@ class DepartmentService:
         if not isinstance(recipients, dict):
             return frozenset()
         stages = recipients.get(str(actor))
+        # Fully delivered packets from the previous three-message format remain done.
+        if isinstance(stages, list) and {"card", "report", "resume"}.issubset(stages):
+            return DELIVERY_STAGES
         return frozenset(stage for stage in stages if isinstance(stage, str) and stage in DELIVERY_STAGES) if isinstance(stages, list) else frozenset()
 
     def mark_delivered(self, actor: int, identifier: UUID, version: int, stage: str) -> bool:
@@ -230,7 +232,7 @@ class DepartmentService:
         with self.factory.begin() as session:
             row = self._target(Repository(session), "r", identifier, lock=True)
             assert isinstance(row, Response)
-            if row.department_notification_version != version or row.recruiter_recommendation is None:
+            if row.department_notification_version != version:
                 return False
             recipients = {str(recipient): sorted(self._completed(row, recipient, version)) for recipient in self.manager_ids}
             recipients[str(actor)] = sorted(self._completed(row, actor, version) | {stage})
@@ -243,23 +245,23 @@ class DepartmentService:
         with self.factory.begin() as session:
             row = self._target(Repository(session), "r", identifier, lock=True)
             assert isinstance(row, Response)
-            if row.recruiter_recommendation is None or version is not None and version != row.department_notification_version:
+            if version is not None and version != row.department_notification_version:
                 raise MaterialsNotReadyError()
             item = self._item(row)
             raw = row.source_json.get("source_text")
             if not isinstance(raw, str) or not raw.strip():
                 raise MaterialsNotReadyError()
-            resume = Document(f"resume-{row.id}.txt", raw.encode("utf-8"), "text/plain; charset=utf-8")
+            resume = Document("Резюме.txt", resume_text(raw).encode("utf-8"), "text/plain; charset=utf-8")
             info = self.pdf_reports.info(row.id, row.vacancy_id, row.source_json)
             path = self.pdf_reports.path(row.id, row.vacancy_id) if info is not None and not info.is_stale else None
             if path is not None:
-                report = pdf_document(path, f"report-{row.id}.pdf")
+                report = pdf_document(path, "Отчёт.pdf")
             else:
                 saved = row.report
                 if saved is None or saved.contract_json is None or saved.criteria_version != row.vacancy.criteria_version:
                     raise MaterialsNotReadyError()
                 structured = ContractReport.model_validate({**saved.contract_json, "source_text": raw,
                     "workflow_status": row.workflow_status, "recruiter_recommendation": row.recruiter_recommendation})
-                report = Document(f"report-{row.id}.txt", report_text(structured, row.vacancy.title).encode("utf-8"), "text/plain; charset=utf-8")
+                report = Document("Отчёт.txt", report_text(structured, row.vacancy.title).encode("utf-8"), "text/plain; charset=utf-8")
             return Materials(item, row.vacancy.title, row.department_notification_version, report, resume,
                              self._completed(row, actor, row.department_notification_version))

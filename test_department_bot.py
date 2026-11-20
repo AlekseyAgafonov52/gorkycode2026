@@ -11,15 +11,18 @@ from uuid import NAMESPACE_URL, uuid4, uuid5
 
 from alembic import command
 import httpx
+import pymupdf
+from email.parser import BytesParser
+from email.policy import default as email_policy
 from sqlalchemy import delete
 from sqlalchemy.schema import CreateSchema, DropSchema
 
-from department_bot.__main__ import Cursor, poll
+from department_bot.__main__ import Cursor, connect, poll
 from department_bot.controller import BotController, button
 from department_bot.service import AccessDeniedError, ConfirmationExpiredError, DepartmentService, Item
 from department_bot.settings import BotSettings
 from department_bot.telegram import TelegramClient, TelegramError
-from department_bot.materials import MaterialsNotReadyError
+from department_bot.materials import Document, resume_text
 from hr_api.service import HRService
 from hr_api.pdf_reports import INDEX_NAME, PdfEntry, PdfIndex, PdfReports, source_digest
 from contract_models import Contacts, ContractReport, RecruiterRecommendation
@@ -38,6 +41,7 @@ class RecordingTelegram:
         self.screens = []
         self.answers = []
         self.documents = []
+        self.packets = []
 
     def screen(self, chat_id, text, rows, message_id=None):
         self.screens.append((chat_id, text, rows, message_id))
@@ -45,8 +49,9 @@ class RecordingTelegram:
     def answer(self, callback_id, text=None):
         self.answers.append((callback_id, text))
 
-    def document(self, chat_id, filename, content, mime_type, caption):
-        self.documents.append((chat_id, filename, content, mime_type, caption))
+    def packet(self, chat_id, text, documents, rows):
+        self.packets.append((chat_id, text, documents, rows))
+        self.documents.extend((chat_id, item.filename, item.content, item.mime_type, text) for item in documents)
 
 
 def message(text="/start", actor=ACTOR, chat_type="private"):
@@ -60,7 +65,7 @@ def callback(data, actor=ACTOR):
 
 
 class BotUnitTests(unittest.TestCase):
-    def test_document_is_uploaded_as_multipart_without_truncating_raw_text(self):
+    def test_two_documents_and_full_recommendations_are_uploaded_in_one_message(self):
         requests = []
         raw = ("Резюме\r\n" + "Навыки Python <script>\n" * 2000).encode("utf-8")
 
@@ -70,11 +75,23 @@ class BotUnitTests(unittest.TestCase):
 
         client = TelegramClient(SECRET, transport=httpx.MockTransport(transport))
         try:
-            client.document(ACTOR, "resume-test.txt", raw, "text/plain; charset=utf-8", "Исходное резюме")
+            recommendations = "Сильные стороны: Python\n" + "Полная рекомендация\n" * 100
+            client.packet(ACTOR, recommendations, (Document("Отчёт.txt", b"Stored report", "text/plain"),
+                Document("Резюме.txt", raw, "text/plain; charset=utf-8")), [])
+            self.assertEqual(len(requests), 1)
             self.assertIn("multipart/form-data", requests[0].headers["Content-Type"])
             self.assertIn(raw, requests[0].content)
-            self.assertIn(b'filename="resume-test.txt"', requests[0].content)
-            self.assertTrue(requests[0].url.path.endswith("sendDocument"))
+            self.assertIn('filename="Резюме.txt"'.encode(), requests[0].content)
+            self.assertTrue(requests[0].url.path.endswith("sendRichMessage"))
+            parsed = BytesParser(policy=email_policy).parsebytes(
+                f"Content-Type: {requests[0].headers['Content-Type']}\r\n\r\n".encode() + requests[0].content)
+            fields = {part.get_param("name", header="content-disposition"): part.get_payload(decode=True) for part in parsed.iter_parts()}
+            rich_bytes = fields["rich_message"]
+            assert isinstance(rich_bytes, (str, bytes, bytearray))
+            rich = json.loads(rich_bytes)
+            self.assertEqual(rich["blocks"][0]["text"], recommendations)
+            self.assertEqual([block["type"] for block in rich["blocks"]], ["paragraph", "document", "document"])
+            self.assertEqual(fields["file1"], raw)
         finally:
             client.close()
 
@@ -83,11 +100,27 @@ class BotUnitTests(unittest.TestCase):
             429, json={"ok": False, "description": SECRET, "parameters": {"retry_after": 3}})))
         try:
             with self.assertRaises(TelegramError) as failure:
-                client.document(ACTOR, "x.txt", b"private resume", "text/plain", "Resume")
+                client.packet(ACTOR, "Materials", (Document("report.txt", b"private report", "text/plain"),
+                    Document("resume.txt", b"private resume", "text/plain")), [])
             self.assertNotIn(SECRET, str(failure.exception))
             self.assertEqual(failure.exception.retry_after, 3)
         finally:
             client.close()
+
+    def test_export_identifier_is_removed_without_changing_resume_content(self):
+        raw = "Кандидат №123\r\nФИО: Тестовый Кандидат\r\nID проекта: ABC123\r\nPython\r\n"
+        self.assertEqual(resume_text(raw), raw.split("\r\n", 1)[1])
+
+    def test_opening_a_card_preserves_rich_message_attachments(self):
+        service, telegram = Mock(), RecordingTelegram()
+        item = Item(uuid4(), "Кандидат", False, "1", uuid4())
+        service.get.return_value = item
+        update = callback(f"r:{item.id.hex}")
+        update["callback_query"]["message"]["rich_message"] = {"blocks": []}
+        BotController(service, telegram).handle(update)
+        self.assertIsNone(telegram.screens[0][3])
+        self.assertNotIn(str(item.id), telegram.screens[0][1])
+        self.assertNotIn("ID:", telegram.screens[0][1])
 
     def test_settings_literal_file_override_and_hidden_token(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -135,7 +168,7 @@ class BotUnitTests(unittest.TestCase):
         for transport, code, delay in (
             (broken, 0, 5),
             (lambda _: httpx.Response(429, json={"ok": False, "description": SECRET, "parameters": {"retry_after": 12}}), 429, 12),
-            (lambda _: httpx.Response(503, text=SECRET), 0, 5),
+            (lambda _: httpx.Response(503, text=SECRET), 503, 5),
         ):
             client = TelegramClient(SECRET, transport=httpx.MockTransport(transport))
             try:
@@ -203,6 +236,38 @@ class BotUnitTests(unittest.TestCase):
             controller.handle.side_effect = handle
             poll(client, controller, cursor, stop)
             self.assertEqual(Cursor(path, 42).offset, 10)
+
+    def test_startup_waits_through_provider_outage_and_then_connects(self):
+        client, stop = Mock(), Mock()
+        stop.is_set.return_value = False
+        client.call.side_effect = [TelegramError(502), TelegramError(reason="read_timeout"), {"id": 123}, {"url": ""}]
+        self.assertEqual(connect(client, stop), 123)
+        self.assertEqual([call.args[0] for call in stop.wait.call_args_list], [2, 4])
+        self.assertEqual(client.call.call_args_list[-1].args[0], "getWebhookInfo")
+
+    def test_startup_rejects_invalid_token_and_can_stop_without_requests(self):
+        client, stop = Mock(), Mock()
+        stop.is_set.return_value = False
+        client.call.side_effect = TelegramError(401)
+        with self.assertRaises(TelegramError):
+            connect(client, stop)
+        stop.wait.assert_not_called()
+        client.reset_mock()
+        stop.is_set.return_value = True
+        self.assertIsNone(connect(client, stop))
+        client.call.assert_not_called()
+
+    def test_network_failures_report_safe_reason_without_token(self):
+        def transport(_):
+            raise httpx.ReadTimeout(SECRET)
+        client = TelegramClient(SECRET, transport=httpx.MockTransport(transport))
+        try:
+            with self.assertRaises(TelegramError) as failure:
+                client.call("getMe")
+            self.assertEqual(failure.exception.reason, "read_timeout")
+            self.assertNotIn(SECRET, str(failure.exception))
+        finally:
+            client.close()
 
 
 @unittest.skipUnless(os.environ.get("TEST_DATABASE_URL"), "Set TEST_DATABASE_URL for department PostgreSQL tests")
@@ -327,34 +392,38 @@ class DepartmentDatabaseTests(unittest.TestCase):
         telegram = RecordingTelegram()
         controller = BotController(self.service, telegram)
         controller.deliver_pending()
-        self.assertEqual(len(telegram.screens), 1)
+        self.assertEqual(len(telegram.packets), 1)
+        self.assertEqual(telegram.screens, [])
         self.assertEqual(len(telegram.documents), 2)
         self.assertEqual(telegram.documents[1][2], b"PRIVATE_RESUME")
-        self.assertIn("Сильные стороны: SQL", telegram.screens[0][1])
-        self.assertIn("Слабые места: Git", telegram.screens[0][1])
-        self.assertIn("Ветки Git", telegram.screens[0][1])
+        self.assertIn("Сильные стороны: SQL", telegram.packets[0][1])
+        self.assertIn("Слабые места: Git", telegram.packets[0][1])
+        self.assertIn("Ветки Git", telegram.packets[0][1])
+        self.assertNotIn(str(self.response_id), telegram.packets[0][1])
         controller.deliver_pending()
-        self.assertEqual(len(telegram.screens), 1)
+        self.assertEqual(len(telegram.packets), 1)
         # A delivery acknowledgment must not invalidate a hiring confirmation.
         self.service.confirm(ACTOR, confirmation)
         recommendation.weaknesses = "Недостаточно примеров Git"
         hr.update_recommendation(self.response_id, recommendation)
         failed = Mock()
-        failed.screen.side_effect = TelegramError()
+        failed.packet.side_effect = TelegramError()
         with self.assertRaises(TelegramError):
             BotController(self.service, failed).deliver_pending()
         self.assertEqual(len(self.service.pending_notifications(ACTOR)), 1)
         controller.deliver_pending()
         self.assertEqual(self.service.pending_notifications(ACTOR), [])
 
-    def test_materials_require_hr_approval_and_recommendations(self):
-        with self.assertRaises(MaterialsNotReadyError):
-            self.service.materials(ACTOR, self.response_id)
+    def test_materials_require_hr_approval_but_allow_missing_recommendations(self):
+        self.assertIsNone(self.service.materials(ACTOR, self.response_id).item.recommendation)
         with self.factory.begin() as session:
             row = Repository(session).get_response(self.response_id)
             row.department_notification_pending = True
+        telegram = RecordingTelegram()
+        BotController(self.service, telegram).deliver_pending()
+        self.assertEqual(len(telegram.documents), 2)
+        self.assertNotIn("None", telegram.packets[0][1])
         self.assertEqual(self.service.pending_notifications(ACTOR), [])
-        self.assertEqual(RecordingTelegram().documents, [])
         recommendation = RecruiterRecommendation(strengths="SQL", weaknesses="Git", interview_focus="Практика")
         hr = HRService(self.factory)
         hr.update_recommendation(self.hidden_id, recommendation)
@@ -363,33 +432,29 @@ class DepartmentDatabaseTests(unittest.TestCase):
         with self.assertRaises(AccessDeniedError):
             self.service.materials(ACTOR + 1, self.response_id)
 
-    def test_partial_delivery_resumes_after_restart_and_repeated_calls_do_not_duplicate(self):
+    def test_failed_packet_is_retried_after_restart_and_repeated_calls_do_not_duplicate(self):
         recommendation = RecruiterRecommendation(strengths="Python", weaknesses="SQL", interview_focus="Практика")
         HRService(self.factory).update_recommendation(self.response_id, recommendation)
         telegram = RecordingTelegram()
-        original = telegram.document
-
-        def fail_on_resume(chat_id, filename, content, mime_type, caption):
-            if filename.startswith("resume-"):
-                raise TelegramError(503)
-            original(chat_id, filename, content, mime_type, caption)
-
-        telegram.document = fail_on_resume
+        failed = Mock()
+        failed.packet.side_effect = TelegramError(503)
         with self.assertRaises(TelegramError):
-            BotController(self.service, telegram).deliver_pending()
-        self.assertEqual(len(telegram.screens), 1)
-        self.assertEqual(len(telegram.documents), 1)
+            BotController(self.service, failed).deliver_pending()
+        self.assertEqual(telegram.screens, [])
+        self.assertEqual(telegram.documents, [])
         self.assertEqual(len(self.service.pending_notifications(ACTOR)), 1)
         restarted = DepartmentService(self.factory, frozenset({ACTOR}), SECRET)
         continued = RecordingTelegram()
         BotController(restarted, continued).deliver_pending()
         self.assertEqual(continued.screens, [])
-        self.assertEqual(len(continued.documents), 1)
-        self.assertTrue(continued.documents[0][1].startswith("resume-"))
+        self.assertEqual(len(continued.packets), 1)
+        self.assertEqual(len(continued.documents), 2)
+        self.assertEqual(continued.documents[1][1], "Резюме.txt")
         self.assertEqual(restarted.pending_notifications(ACTOR), [])
         BotController(restarted, continued).deliver_pending()
         BotController(restarted, continued).handle(callback(f"files:{self.response_id.hex}"))
-        self.assertEqual(len(continued.documents), 1)
+        self.assertEqual(len(continued.packets), 1)
+        self.assertEqual(len(continued.documents), 2)
 
     def test_current_report_txt_and_full_raw_resume_are_sent_without_model_calls(self):
         raw = "Резюме\r\n" + "Очень длинный исходный текст\n" * 1000
@@ -407,15 +472,29 @@ class DepartmentDatabaseTests(unittest.TestCase):
         self.assertIn("Сильные стороны: Python", report[2].decode("utf-8"))
         self.assertEqual(resume[2], raw.encode("utf-8"))
 
-    def test_only_strengths_and_weaknesses_are_required_to_send_materials(self):
+    def test_materials_can_include_only_strengths_and_weaknesses(self):
         HRService(self.factory).update_recommendation(self.response_id,
             RecruiterRecommendation(strengths="Python", weaknesses="SQL"))
         telegram = RecordingTelegram()
         BotController(self.service, telegram).deliver_pending()
         self.assertEqual(len(telegram.documents), 2)
-        self.assertNotIn("None", telegram.screens[0][1])
+        self.assertNotIn("None", telegram.packets[0][1])
         self.assertNotIn("None", telegram.documents[0][2].decode("utf-8"))
         self.assertEqual(self.service.pending_notifications(ACTOR), [])
+
+    def test_empty_or_partial_optional_comments_do_not_block_documents(self):
+        hr = HRService(self.factory)
+        for recommendation in (RecruiterRecommendation(), RecruiterRecommendation(weaknesses="Мало опыта SQL")):
+            hr.update_recommendation(self.response_id, recommendation)
+            telegram = RecordingTelegram()
+            BotController(self.service, telegram).deliver_pending()
+            self.assertEqual(len(telegram.documents), 2)
+            self.assertNotIn("None", telegram.packets[0][1])
+            report = telegram.documents[0][2].decode("utf-8")
+            self.assertNotIn("None", report)
+            self.assertNotIn("Сильные стороны:", telegram.packets[0][1])
+            if recommendation.weaknesses:
+                self.assertIn(recommendation.weaknesses, report)
 
     def test_pdf_is_sent_for_matching_resume_and_stale_pdf_uses_current_report(self):
         key = "bot-pdf-test"
@@ -429,14 +508,25 @@ class DepartmentDatabaseTests(unittest.TestCase):
                 recruiter_recommendation={"strengths": "Python", "weaknesses": "SQL", "interview_focus": "Практика"}))
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            pdf = b"%PDF-1.4\nSynthetic\n%%EOF"
+            with pymupdf.open() as generated:
+                page = generated.new_page()
+                page.insert_text((40, 40), "Candidate ID: 123")
+                page.insert_text((40, 80), "Stored assessment")
+                generated.set_metadata({"title": "Candidate 123"})
+                pdf = generated.tobytes()
             (root / "report-1.pdf").write_bytes(pdf)
             index = PdfIndex(source_key=key, vacancy_title="PDF vacancy", entries=[
                 PdfEntry(candidate_id="1", filename="report-1.pdf", source_sha256=source_digest(source))])
             (root / INDEX_NAME).write_text(index.model_dump_json(), encoding="utf-8")
             service = DepartmentService(self.factory, frozenset({ACTOR}), SECRET, PdfReports(root))
             materials = service.materials(ACTOR, response_id)
-            self.assertEqual(materials.report.content, pdf)
+            self.assertNotEqual(materials.report.content, pdf)
+            self.assertEqual((root / "report-1.pdf").read_bytes(), pdf)
+            with pymupdf.open(stream=materials.report.content, filetype="pdf") as cleaned:
+                self.assertNotIn("123", cleaned[0].get_text())
+                self.assertNotIn("Candidate ID", cleaned[0].get_text())
+                self.assertIn("Stored assessment", cleaned[0].get_text())
+                self.assertNotIn("123", (cleaned.metadata or {})["title"])
             self.assertEqual(materials.report.mime_type, "application/pdf")
             with self.factory.begin() as session:
                 row = Repository(session).get_response(response_id)
@@ -465,20 +555,28 @@ class DepartmentDatabaseTests(unittest.TestCase):
         with patch("department_bot.service.time.time", return_value=9999999999):
             self.assertEqual(len(self.service.pending_notifications(ACTOR)), 1)
 
-    def test_revoke_after_first_file_stops_remaining_materials(self):
+    def test_revoke_after_selection_stops_the_entire_packet(self):
         hr = HRService(self.factory)
         hr.update_recommendation(self.response_id, RecruiterRecommendation(strengths="Python", weaknesses="SQL", interview_focus="Практика"))
         telegram = RecordingTelegram()
-        original = telegram.document
+        selected = self.service.pending_notifications(ACTOR)
+        hr.update_status(self.response_id, "not_forwarded")
+        with patch.object(self.service, "pending_notifications", return_value=selected):
+            BotController(self.service, telegram).deliver_pending()
+        self.assertEqual(telegram.packets, [])
+        self.assertEqual(telegram.documents, [])
+        self.assertEqual(self.service.pending_notifications(ACTOR), [])
 
-        def revoke(chat_id, filename, content, mime_type, caption):
-            original(chat_id, filename, content, mime_type, caption)
-            hr.update_status(self.response_id, "not_forwarded")
-
-        telegram.document = revoke
+    def test_legacy_completed_delivery_is_not_resent_in_the_new_format(self):
+        HRService(self.factory).update_recommendation(self.response_id,
+            RecruiterRecommendation(strengths="Python", weaknesses="SQL"))
+        with self.factory.begin() as session:
+            row = Repository(session).get_response(self.response_id)
+            row.department_delivery_state = {"version": row.department_notification_version,
+                "recipients": {str(ACTOR): ["card", "report", "resume"]}}
+        telegram = RecordingTelegram()
         BotController(self.service, telegram).deliver_pending()
-        self.assertEqual(len(telegram.documents), 1)
-        self.assertTrue(telegram.documents[0][1].startswith("report-"))
+        self.assertEqual(telegram.packets, [])
         self.assertEqual(self.service.pending_notifications(ACTOR), [])
 
     def test_confirmation_replay_tampering_other_actor_expiry_and_changed_record(self):

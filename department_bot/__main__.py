@@ -20,6 +20,29 @@ from .telegram import TelegramClient, TelegramError
 logger = logging.getLogger(__name__)
 
 
+def connect(client: TelegramClient, stop: threading.Event) -> int | None:
+    """Keep startup alive during Telegram outages without clearing queued updates."""
+    attempt = 0
+    while not stop.is_set():
+        try:
+            identity = client.call("getMe")
+            if not isinstance(identity, dict) or type(identity.get("id")) is not int:
+                raise ValueError("Telegram не подтвердил идентификатор бота")
+            webhook = client.call("getWebhookInfo")
+            if not isinstance(webhook, dict) or webhook.get("url"):
+                raise ValueError("У бота установлен webhook. Отключите его перед запуском long polling.")
+            return identity["id"]
+        except TelegramError as error:
+            if error.code not in (0, 429) and error.code < 500:
+                raise
+            attempt += 1
+            delay = max(min(2 ** min(attempt, 5), 30), error.retry_after if error.code == 429 else 0)
+            logger.warning("Telegram connection unavailable (code %s, reason %s); retrying in %s seconds. HR queue is preserved.",
+                           error.code, error.reason, delay)
+            stop.wait(delay)
+    return None
+
+
 class Cursor:
     def __init__(self, path: Path, bot_id: int):
         self.path, self.bot_id = path, bot_id
@@ -70,7 +93,7 @@ def poll(client: TelegramClient, controller: BotController, cursor: Cursor, stop
         except TelegramError as error:
             if error.code in (401, 404, 409):
                 raise ValueError("Проверьте токен и отсутствие второго процесса Telegram-бота/webhook") from None
-            logger.warning("Telegram temporary failure (code %s); retrying", error.code)
+            logger.warning("Telegram temporary failure (code %s, reason %s); retrying", error.code, error.reason)
             stop.wait(error.retry_after)
 
 
@@ -92,13 +115,9 @@ def main() -> int:
             signal.signal(name, lambda *_: stop.set())
         token = settings.token.get_secret_value()
         client = TelegramClient(token)
-        identity = client.call("getMe")
-        if not isinstance(identity, dict) or type(identity.get("id")) is not int:
-            raise ValueError("Telegram не подтвердил идентификатор бота")
-        bot_id = identity["id"]
-        webhook = client.call("getWebhookInfo")
-        if not isinstance(webhook, dict) or webhook.get("url"):
-            raise ValueError("У бота установлен webhook. Отключите его перед запуском long polling.")
+        bot_id = connect(client, stop)
+        if bot_id is None:
+            return 0
         cursor = Cursor(settings.offset_file, bot_id)
         engine = make_engine(db)
         with engine.connect() as lock:
@@ -121,7 +140,7 @@ def main() -> int:
         logger.error("%s", error)
         return 1
     except TelegramError as error:
-        logger.error("Telegram startup failed (code %s)", error.code)
+        logger.error("Telegram startup failed (code %s, reason %s)", error.code, error.reason)
         return 1
     except Exception:
         # Never include exception repr/traceback: connection errors may contain credentials.

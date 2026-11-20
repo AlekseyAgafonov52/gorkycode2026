@@ -10,7 +10,7 @@ from sqlalchemy.exc import SQLAlchemyError
 
 from storage.crud import NotFoundError
 from .service import AccessDeniedError, ConfirmationExpiredError, DepartmentService, Item, PAGE_SIZE, Page
-from .materials import MaterialsNotReadyError
+from .materials import Document, MaterialsNotReadyError
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 class BotTransport(Protocol):
     def screen(self, chat_id: int, text: str, rows: list[list[dict]], message_id: int | None = None): ...
     def answer(self, callback_id: str, text: str | None = None): ...
-    def document(self, chat_id: int, filename: str, content: bytes, mime_type: str, caption: str): ...
+    def packet(self, chat_id: int, text: str, documents: tuple[Document, Document], rows: list[list[dict]]): ...
 
 
 def button(text: str, data: str) -> dict:
@@ -73,7 +73,9 @@ class BotController:
             # DB errors can contain SQL parameters and candidate data.
             logger.error("Database operation failed while processing a Telegram update")
             text, rows = "Не удалось сохранить или загрузить данные. Попробуйте снова.", [[button("К вакансиям", "vl:0:0")]]
-        self.client.screen(actor, text, rows, message.get("message_id") if callback else None)
+        # Keep the two attachments when opening a card from the rich notification.
+        message_id = message.get("message_id") if callback and not message.get("rich_message") else None
+        self.client.screen(actor, text, rows, message_id)
 
     def route(self, actor: int, data: str) -> tuple[str, list[list[dict]]]:
         if data.startswith("!"):
@@ -130,7 +132,7 @@ class BotController:
         for item, _, version in self.service.pending_notifications(actors[0]):
             for actor in actors:
                 try:
-                    if not self.send_materials(actor, item.id, version=version, include_card=True):
+                    if not self.send_materials(actor, item.id, version=version):
                         break
                 except NotFoundError:
                     break
@@ -141,30 +143,15 @@ class BotController:
             else:
                 self.service.acknowledge_notification(actors[0], item.id, version)
 
-    def send_materials(self, actor: int, identifier: UUID, *, version: int | None = None, include_card: bool = False) -> bool:
+    def send_materials(self, actor: int, identifier: UUID, *, version: int | None = None) -> bool:
         materials = self.service.materials(actor, identifier, version=version)
         item = materials.item
-        stages = []
-        if include_card:
-            stages.append("card")
-        stages.extend(("report", "resume"))
-        for stage in stages:
-            if stage in materials.completed:
-                continue
-            # Recheck HR's decision/version before each outbound file, not just selection.
-            current = self.service.materials(actor, identifier, version=materials.version)
-            if stage == "card":
-                text, _ = self.card("r", current.item)
-                self.client.screen(actor, f"HR передал кандидата или обновил материалы\nВакансия: {materials.vacancy_title[:150]}\n\n{text}",
-                                   [[button("Открыть кандидата", f"r:{item.id.hex}")]])
-            else:
-                document = materials.report if stage == "report" else materials.resume
-                title = "Отчёт по отклику" if stage == "report" else "Исходное резюме кандидата"
-                self.client.document(actor, document.filename, document.content, document.mime_type,
-                                     f"{title}\n{label(item)}\nВакансия: {materials.vacancy_title[:150]}\nID: {item.id}")
-            if not self.service.mark_delivered(actor, identifier, materials.version, stage):
-                return False
-        return True
+        if "packet" in materials.completed:
+            return True
+        text, _ = self.card("r", item)
+        self.client.packet(actor, f"HR передал кандидата или обновил материалы\nВакансия: {materials.vacancy_title[:150]}\n\n{text}",
+                           (materials.report, materials.resume), [[button("Открыть кандидата", f"r:{item.id.hex}")]])
+        return self.service.mark_delivered(actor, identifier, materials.version, "packet")
 
     @staticmethod
     def _list_args(closed: str, number: str) -> tuple[bool, int]:
@@ -185,10 +172,10 @@ class BotController:
     def card(kind: str, item: Item) -> tuple[str, list[list[dict]]]:
         noun = "Вакансия" if kind == "v" else "Отклик"
         status = "Закрыта" if kind == "v" else "Работа завершена"
-        status = status if item.is_closed else "В работе"
+        status = status if item.is_closed else "активна"
         if item.hired_at:
             status = "Найм закрыт — трудовой договор подписан"
-        text = f"{noun}: {label(item)}\nID: {item.id}\nСтатус: {status}"
+        text = f"{noun}: {label(item)}\nСтатус: {status}"
         if item.closed_at:
             text += f"\nЗакрытие: {item.closed_at.astimezone(timezone.utc).strftime('%d.%m.%Y %H:%M UTC')}"
         rows = []
@@ -196,15 +183,16 @@ class BotController:
             rows.append([button("Переданные отклики", f"rl:{item.id.hex}:0:0")])
             text += "\nО закрытии вакансии после найма заботится HR на платформе."
         else:
-            if item.recommendation:
-                text += (f"\n\nРекомендации рекрутера\nСильные стороны: {item.recommendation.strengths}"
-                         f"\nСлабые места: {item.recommendation.weaknesses}")
-                if item.recommendation.interview_focus:
-                    text += f"\nПроверить на собеседовании: {item.recommendation.interview_focus}"
+            recommendation = item.recommendation
+            notes = [] if recommendation is None else [
+                ("Сильные стороны", recommendation.strengths), ("Слабые места", recommendation.weaknesses),
+                ("Проверить на собеседовании", recommendation.interview_focus)]
+            filled = [f"{label}: {value}" for label, value in notes if value]
+            if filled:
+                text += "\n\nРекомендации рекрутера\n" + "\n".join(filled)
             else:
                 text += "\n\nРекомендации рекрутера пока не заполнены."
-            if item.recommendation:
-                rows.append([button("Отчёт и исходное резюме", f"files:{item.id.hex}")])
+            rows.append([button("Отчёт и исходное резюме", f"files:{item.id.hex}")])
             rows.append([button("Снять отметку найма" if item.hired_at else "Найм закрыт", f"hire:{item.id.hex}:{int(not item.hired_at)}")])
             if not item.hired_at:
                 rows.append([button("Вернуть в работу" if item.is_closed else "Завершить работу с откликом",
