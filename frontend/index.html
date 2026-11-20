@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Подбор</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.4 system-ui, sans-serif; background: #f2f2f2; color: #222; }
+  header { display: flex; align-items: center; gap: 16px; padding: 12px 24px; background: #fff; border-bottom: 1px solid #ddd; }
+  header b { font-size: 18px; }
+  main { padding: 16px 24px; }
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid #ccc; margin-bottom: 12px; flex-wrap: wrap; }
+  .tab { padding: 8px 14px; border: 0; background: none; cursor: pointer; font: inherit; color: #555; border-bottom: 2px solid transparent; }
+  .tab.on { color: #000; font-weight: 600; border-bottom-color: #333; }
+  .chips { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
+  .chip { padding: 5px 12px; border: 1px solid #ccc; border-radius: 16px; background: #fff; cursor: pointer; font: inherit; }
+  .chip.on { border-color: #333; font-weight: 600; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .card { position: relative; padding: 12px 30px 12px 12px; background: #fff; border: 1px solid #ddd; border-radius: 8px; cursor: pointer; }
+  .card:hover { border-color: #888; }
+  .card .name { font-weight: 600; }
+  .card .sub { color: #555; font-size: 14px; }
+  .card .mark { margin-top: 4px; font-size: 13px; color: #777; }
+  .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; }
+  .card .dot { position: absolute; top: 14px; right: 12px; }
+  .green { background: #2fa36b; } .yellow { background: #e6b422; } .red { background: #d9534f; } .grey { background: #aaa; }
+  .bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+  .bar .grow { flex: 1; }
+  button.act { padding: 8px 14px; border: 1px solid #888; border-radius: 6px; background: #fff; cursor: pointer; font: inherit; }
+  button.act.main { background: #333; color: #fff; border-color: #333; }
+  a { color: #225; }
+  iframe { width: 100%; height: calc(100vh - 150px); border: 1px solid #ccc; background: #fff; }
+  .msg { padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 8px; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<header><b>Подбор</b><span>Вакансии</span></header>
+<main id="app">Загрузка…</main>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
