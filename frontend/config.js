@@ -1,13 +1,7 @@
-// Откуда фронт берёт данные. Одна строка — одна вакансия (одна вкладка).
-// ranking — путь к ranking.json, который делает otchet_offline/hr_report.py.
-//   PDF-отчёты ищутся в той же папке, что и ranking.json.
-// applications — папка с JSON откликов (необязательно), оттуда берётся должность из резюме.
-// Пути считаются от папки frontend.
+// В Docker запросы /api/v1 проксируются к FastAPI через nginx.
+// При отдельном статическом сервере укажите http://localhost:8000/api/v1.
+// В этом файле только публичные настройки, ключи YandexGPT остаются на backend.
 window.HR_CONFIG = {
-  vacancies: [
-    {
-      ranking: "../otchet_offline/reports/ranking.json",
-      applications: "../otchet_offline/applications",
-    },
-  ],
+  apiBaseUrl: "/api/v1",
+  requestTimeoutMs: 30000,
 };

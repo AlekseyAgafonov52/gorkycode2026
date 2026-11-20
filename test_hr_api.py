@@ -6,6 +6,7 @@ import unittest
 from collections.abc import Callable
 from pathlib import Path
 from uuid import NAMESPACE_URL, UUID, uuid4, uuid5
+from unittest.mock import patch
 
 from alembic import command
 from fastapi.testclient import TestClient
@@ -43,12 +44,13 @@ class FakePoolBuilder:
 
 
 class HRContractTests(unittest.TestCase):
-    def test_all_thirteen_routes_in_openapi_without_database_access(self):
+    def test_all_fourteen_routes_in_openapi_without_database_access(self):
         paths = create_app().openapi()["paths"]
-        self.assertEqual(sum(len(methods) for methods in paths.values()), 13)
+        self.assertEqual(sum(len(methods) for methods in paths.values()), 14)
         for path in ("/api/v1/vacancies", "/api/v1/vacancies/{vacancy_id}/criteria",
                      "/api/v1/vacancies/{vacancy_id}/match", "/api/v1/tasks/{task_id}",
-                     "/api/v1/responses/{response_id}/report", "/api/v1/responses/{response_id}/questions/generate"):
+                     "/api/v1/responses/{response_id}/report", "/api/v1/responses/{response_id}/questions/generate",
+                     "/api/v1/responses/{response_id}/viewed"):
             self.assertIn(path, paths)
 
     def test_cors_allows_local_frontend_and_uniform_errors(self):
@@ -132,23 +134,25 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual(self.client.get("/api/v1/vacancies").json(),
             [{"id": str(self.vacancy_id), "title": "Frontend developer", "responses_count": 3}])
 
-    def test_t3_t4_t5_colors_shares_and_order(self):
+    def test_colors_depend_on_skills_without_identity_gate(self):
         self.prepare()
         rows = self.client.get(self.responses_url()).json()
-        self.assertEqual([r["match_status"] for r in rows], ["green", "yellow", "red"])
+        self.assertEqual([r["match_status"] for r in rows], ["green", "yellow", "yellow"])
         self.assertEqual([r["match_share"] for r in rows], [1, .5, .25])
         self.assertEqual(rows[-1]["id"], str(self.ids[1]))
         self.assertIsNone(rows[-1]["candidate_name"])
-        self.assertEqual(set(rows[0]), {"id", "candidate_name", "match_status", "match_share", "short_summary", "workflow_status"})
-        # Even a perfect skill share cannot lift an anonymous candidate above yellow.
+        self.assertEqual(set(rows[0]), {"id", "candidate_name", "match_status", "match_share", "short_summary", "workflow_status", "is_viewed"})
+        # Anonymous candidates with sufficient skills receive the same green status.
         with self.factory.begin() as session:
             row = session.get(Response, self.ids[1])
             assert row is not None
             row.source_json = {**row.source_json, "skills": ["JavaScript", "Vue 3", "SQL", "Git"]}
         self.prepare()
         rows = self.client.get(self.responses_url()).json()
-        self.assertEqual([r["match_status"] for r in rows], ["green", "yellow", "red"])
-        self.assertEqual(rows[-1]["match_share"], 1)
+        self.assertEqual([r["match_status"] for r in rows], ["green", "green", "yellow"])
+        anonymous = next(row for row in rows if row["id"] == str(self.ids[1]))
+        self.assertEqual(anonymous["match_share"], 1)
+        self.assertEqual(anonymous["match_status"], "green")
 
     def test_t6_t7_t8_t9_t10_complete_cached_report(self):
         self.prepare()
@@ -255,13 +259,14 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual(response.status_code, 500)
         self.assertEqual(response.json()["error"]["code"], "internal_error")
 
-    def test_archive_is_explicit_and_red_visible_by_default(self):
+    def test_archive_is_explicit_and_anonymous_candidates_are_visible(self):
         self.prepare()
         self.assertEqual(len(self.client.get(self.responses_url()).json()), 3)
         self.client.patch(f"/api/v1/responses/{self.ids[1]}/archive", json={"is_archived": True})
         self.assertEqual(len(self.client.get(self.responses_url()).json()), 3)
         self.assertEqual(len(self.client.get(self.responses_url(), params={"is_archived": False}).json()), 2)
-        self.assertEqual(len(self.client.get(self.responses_url(), params={"match_status": "red"}).json()), 1)
+        self.assertEqual(len(self.client.get(self.responses_url(), params={"match_status": "yellow"}).json()), 2)
+        self.assertEqual(self.client.get(self.responses_url(), params={"match_status": "red"}).json(), [])
 
     def test_raw_txt_import_supported_and_source_is_unchanged(self):
         raw = "Кандидат №4\r\nФИО: Демо Четыре\r\nРезюме: Разработчик\r\nКонтакт: demo4@example.com\r\nНавыки\r\nSQL\r\n"
@@ -285,7 +290,7 @@ class HRAPITests(unittest.TestCase):
         vacancy_id = uuid5(NAMESPACE_URL, "hr-platform/vacancies/" + key)
         self.service.preparer.prepare_vacancy(vacancy_id)
         reports = [self.service.report(uuid5(NAMESPACE_URL, f"hr-platform/responses/{key}/{n}")) for n in (1, 2, 3)]
-        self.assertEqual(reports[1].match_status, "red")
+        self.assertEqual(reports[1].match_status, "yellow")
         for number in (1, 3):
             report = reports[number-1]
             self.assertNotEqual(report.match_status, "red")
@@ -304,6 +309,73 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual(self.prepare(), 1)
         self.assertEqual(self.service.report(self.ids[0]).match_share, .25)
         self.assertEqual(len(self.provider.calls), 1)
+
+    def test_old_identity_statuses_refresh_without_changing_questions(self):
+        with patch("hr_api.preparation.PREPARATION_VERSION", 1):
+            self.prepare()
+        before = [self.service.report(identifier).model_dump(mode="json") for identifier in self.ids]
+        with self.factory.begin() as session:
+            for report in session.scalars(select(Report)):
+                assert report.contract_json is not None
+                report.contract_json = {**report.contract_json, "match_status": "red", "match_label": "Нет ФИО или контактов"}
+            for saved in session.scalars(select(MatchResult)):
+                saved.match_status = "red"
+        self.provider.fail = True
+        self.assertEqual(self.prepare(), 3)
+        for identifier, expected in zip(self.ids, before):
+            self.assertEqual(self.service.report(identifier).model_dump(mode="json"), expected)
+        self.assertEqual(self.prepare(), 0)
+        self.assertEqual(len(self.provider.calls), 1)
+        self.assertEqual([r["match_status"] for r in self.client.get(self.responses_url()).json()], ["green", "yellow", "yellow"])
+
+    def test_viewed_is_manual_persistent_and_independent_of_workflow_and_matching(self):
+        self.prepare()
+        before = self.service.report(self.ids[0]).model_dump(mode="json")
+        self.assertFalse(before["is_viewed"])
+        self.assertFalse(self.client.get(self.report_url()).json()["is_viewed"])
+        with self.factory.begin() as session:
+            report = Repository(session).get_report(self.ids[0])
+            assert report is not None
+            cached_hash = report.prepared_hash
+        url = f"/api/v1/responses/{self.ids[0]}/viewed"
+        updated = self.client.patch(url, json={"is_viewed": True})
+        self.assertEqual(updated.status_code, 200)
+        self.assertEqual(updated.json(), {"id": str(self.ids[0]), "is_viewed": True})
+        self.assertEqual(self.service.report(self.ids[0]).model_dump(mode="json"), {**before, "is_viewed": True})
+        with self.factory.begin() as session:
+            report = Repository(session).get_report(self.ids[0])
+            assert report is not None
+            self.assertEqual(report.prepared_hash, cached_hash)
+        viewed = self.client.get(self.responses_url(), params={"is_viewed": "true"}).json()
+        self.assertEqual([row["id"] for row in viewed], [str(self.ids[0])])
+        self.assertEqual(len(self.client.get(self.responses_url(), params={"is_viewed": "false"}).json()), 2)
+        self.client.patch(f"/api/v1/responses/{self.ids[0]}/status", json={"workflow_status": "forwarded"})
+        self.assertTrue(self.service.report(self.ids[0]).is_viewed)
+        import_folder(self.factory, self.folder, self.key)
+        self.assertEqual(self.prepare(), 0)
+        with TestClient(create_app(HRService(self.factory, self.provider))) as fresh:
+            report = fresh.get(self.report_url()).json()
+            self.assertTrue(report["is_viewed"])
+            self.assertEqual(report["workflow_status"], "forwarded")
+        self.assertEqual(self.client.patch(url, json={"is_viewed": False}).status_code, 200)
+        report = self.service.report(self.ids[0])
+        self.assertFalse(report.is_viewed)
+        self.assertEqual(report.workflow_status, "forwarded")
+        self.assertEqual(len(self.provider.calls), 1)
+
+    def test_viewed_validates_boolean_and_not_found_without_requiring_report(self):
+        url = f"/api/v1/responses/{self.ids[0]}/viewed"
+        for value in ("true", "false", 1, 0, None):
+            response = self.client.patch(url, json={"is_viewed": value})
+            self.assertEqual(response.status_code, 422)
+            self.assertEqual(response.json()["error"]["code"], "validation_error")
+        self.assertEqual(self.client.patch(url, json={}).status_code, 422)
+        self.assertEqual(self.client.patch(url, json={"is_viewed": True}).status_code, 200)
+        for identifier in ("nope", str(uuid4())):
+            response = self.client.patch(f"/api/v1/responses/{identifier}/viewed", json={"is_viewed": False})
+            self.assertEqual(response.status_code, 404)
+            self.assertEqual(response.json()["error"]["code"], "not_found")
+        self.assertEqual(self.provider.calls, [])
 
 
 if __name__ == "__main__":

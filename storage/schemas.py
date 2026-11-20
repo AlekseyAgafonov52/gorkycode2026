@@ -78,6 +78,7 @@ class ResponseCreate(Schema):
     source_json: dict[str, JsonValue]
     workflow_status: WorkflowStatus = "new"
     is_archived: bool = Field(default=False, strict=True)
+    is_viewed: bool = Field(default=False, strict=True)
 
 
 class ResponseUpdate(Patch):
@@ -86,6 +87,7 @@ class ResponseUpdate(Patch):
     source_json: dict[str, JsonValue] | None = None
     workflow_status: WorkflowStatus | None = None
     is_archived: bool | None = Field(default=None, strict=True)
+    is_viewed: bool | None = Field(default=None, strict=True)
 
 
 class TaskCreate(Schema):

@@ -76,6 +76,7 @@ class Response(Identity, Created, Updated, Base):
     workflow_status: Mapped[str] = mapped_column(String(20), server_default=text("'new'"))
     legacy_workflow_status: Mapped[str | None] = mapped_column(String(20))
     is_archived: Mapped[bool] = mapped_column(Boolean, server_default=text("FALSE"))
+    is_viewed: Mapped[bool] = mapped_column(Boolean, server_default=text("FALSE"))
 
     vacancy: Mapped[Vacancy] = relationship(back_populates="responses")
     tasks: Mapped[list[AnalysisTask]] = relationship(back_populates="response", cascade="all, delete-orphan", passive_deletes=True)

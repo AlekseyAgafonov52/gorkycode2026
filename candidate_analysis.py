@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import re
 from collections.abc import Mapping
+from typing import Literal
 
 from pydantic import JsonValue
 
@@ -13,6 +14,11 @@ from vacancy_parser import parse_vacancy
 
 GREEN_THRESHOLD = 0.7
 LEVEL_NAMES = {"advanced": "продвинутом", "intermediate": "среднем", "basic": "базовом"}
+
+
+def match_status_from_share(share: float) -> Literal["green", "yellow"]:
+    """Identity and contact completeness do not affect skill matching."""
+    return "green" if share >= GREEN_THRESHOLD else "yellow"
 
 
 def canonical_skill(value: str) -> str:
@@ -148,8 +154,7 @@ def match(resume: ResumeData, vacancy_skills: list[str]) -> MatchResult:
                                                 "explanation": explanation, "questions": questions}))
     share = sum(skill.relevance != "red" for skill in skills) / len(skills) if skills else 0.0
     contacts = resume.contacts
-    status = "red" if not (resume.candidate_name or "").strip() or not any((contacts.phone, contacts.email, contacts.telegram)) else (
-        "green" if share >= GREEN_THRESHOLD else "yellow")
+    status = match_status_from_share(share)
     missing = [skill.skill for skill in skills if skill.relevance == "red"]
     first = (f"В резюме нет {len(missing)} из {len(skills)} навыков вакансии: {', '.join(missing)}."
              if missing else f"В резюме найдены все навыки вакансии: {len(skills)} из {len(skills)}.")

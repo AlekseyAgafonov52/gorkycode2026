@@ -13,6 +13,22 @@ x-backend: &backend
   init: true
 
 services:
+  frontend:
+    image: hr-platform-frontend:local
+    build:
+      context: ./frontend
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-5173}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+    restart: unless-stopped
+
   db:
     image: postgres:17-bookworm
     environment:

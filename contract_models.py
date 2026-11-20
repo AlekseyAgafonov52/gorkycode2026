@@ -131,6 +131,7 @@ class ContractReport(ContractModel):
     ai_text_level: Literal["low", "medium", "high"] | None = None
     short_summary: str | None = None
     workflow_status: Workflow
+    is_viewed: bool = Field(default=False, strict=True)
     source_text: str
 
 
@@ -141,6 +142,7 @@ class ContractResponse(ContractModel):
     match_share: float = Field(ge=0, le=1)
     short_summary: str | None = None
     workflow_status: Workflow
+    is_viewed: bool = Field(default=False, strict=True)
 
 
 class ContractVacancy(ContractModel):
@@ -154,4 +156,12 @@ class WorkflowUpdate(ContractModel):
 
 
 class WorkflowResult(WorkflowUpdate):
+    id: str
+
+
+class ViewedUpdate(ContractModel):
+    is_viewed: bool = Field(strict=True)
+
+
+class ViewedResult(ViewedUpdate):
     id: str

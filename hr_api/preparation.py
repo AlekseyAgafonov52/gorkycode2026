@@ -9,15 +9,15 @@ from uuid import UUID
 from sqlalchemy import select, text
 from sqlalchemy.orm import Session, sessionmaker
 
-from candidate_analysis import GREEN_THRESHOLD, canonical_skill, extract_vacancy_skills, match, resume_from_json
+from candidate_analysis import GREEN_THRESHOLD, canonical_skill, extract_vacancy_skills, match, match_status_from_share, resume_from_json
 from contract_models import ContractReport, DraftQuestion, PoolQuestion
 from question_pool import PoolBuilder, build_question_pool, pick_questions, pool_hash, validate_pool
 from storage.crud import Repository, StaleCriteriaError
 from storage.models import Response, Vacancy
 from storage.schemas import EvaluationWrite, MatchResultWrite, QuestionCreate, ReportWrite
 
-LABELS = {"green": "Подходит", "yellow": "Частично подходит", "red": "Нет ФИО или контактов"}
-PREPARATION_VERSION = 1
+LABELS = {"green": "Подходит", "yellow": "Частично подходит"}
+PREPARATION_VERSION = 2
 
 
 def fingerprint(value) -> str:
@@ -91,12 +91,25 @@ class ReportPreparer:
             vacancy_text, skills = vacancy_input(vacancy)
             if pool_hash(vacancy_text, skills) != expected_pool_hash or vacancy.question_pool_hash != expected_pool_hash:
                 raise StaleCriteriaError("Пул вопросов устарел")
-            prepared_hash = fingerprint([PREPARATION_VERSION, GREEN_THRESHOLD, response.source_json,
-                                        response.candidate_name, skills, vacancy.criteria_version,
-                                        [item.model_dump() for item in pool]])
+            inputs = [GREEN_THRESHOLD, response.source_json, response.candidate_name, skills,
+                      vacancy.criteria_version, [item.model_dump() for item in pool]]
+            prepared_hash = fingerprint([PREPARATION_VERSION, *inputs])
             existing = repo.get_report(identifier)
             if existing is not None and existing.prepared_hash == prepared_hash and existing.contract_json is not None:
                 return False
+            # Version 2 only removes the identity/contact gate. Preserve selected
+            # questions and their IDs when all other preparation inputs match v1.
+            if (PREPARATION_VERSION == 2 and existing is not None and existing.contract_json is not None
+                    and existing.prepared_hash == fingerprint([1, *inputs])):
+                saved_match = repo.get_match_result(identifier)
+                saved_share = existing.contract_json.get("match_share")
+                if (saved_match is not None and saved_match.criteria_version == vacancy.criteria_version
+                        and isinstance(saved_share, (int, float)) and not isinstance(saved_share, bool)):
+                    status = match_status_from_share(saved_share)
+                    existing.contract_json = {**existing.contract_json, "match_status": status, "match_label": LABELS[status]}
+                    existing.prepared_hash = prepared_hash
+                    saved_match.match_status = status
+                    return True
             resume = resume_from_json(response.source_json)
             if response.candidate_name:
                 resume.candidate_name = response.candidate_name
@@ -135,7 +148,7 @@ class ReportPreparer:
                 "match_status": result.match_status, "match_label": LABELS[result.match_status],
                 "match_share": result.match_share, "summary": result.summary, "skills": rows,
                 "missing_data": [{**item.model_dump(), "id": next(ids)} for item in result.missing_data],
-                "workflow_status": response.workflow_status, "source_text": resume._source_text})
-            report.contract_json = contract.model_dump(mode="json", exclude={"source_text", "workflow_status"})
+                "workflow_status": response.workflow_status, "is_viewed": response.is_viewed, "source_text": resume._source_text})
+            report.contract_json = contract.model_dump(mode="json", exclude={"source_text", "workflow_status", "is_viewed"})
             report.prepared_hash = prepared_hash
             return True

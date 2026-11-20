@@ -169,6 +169,7 @@ class Repository:
 
     def list_responses(self, vacancy_id: UUID, *, workflow_status: WorkflowStatus | None = None,
                        is_archived: bool | None = None, match_status: MatchStatus | None = None,
+                       is_viewed: bool | None = None,
                        limit: int = 100, offset: int = 0) -> list[Response]:
         self._page(limit, offset)
         self._get(Vacancy, vacancy_id)
@@ -177,6 +178,8 @@ class Repository:
             query = query.where(Response.workflow_status == workflow_status)
         if is_archived is not None:
             query = query.where(Response.is_archived == is_archived)
+        if is_viewed is not None:
+            query = query.where(Response.is_viewed == is_viewed)
         if match_status is not None:
             query = query.where(MatchResult.match_status == match_status)
         query = query.order_by(MatchResult.match_score.desc().nullslast(), Response.created_at, Response.id)

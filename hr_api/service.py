@@ -7,7 +7,7 @@ from uuid import UUID
 from sqlalchemy import case, func, select, update
 from sqlalchemy.orm import Session, selectinload, sessionmaker
 
-from contract_models import ContractReport, ContractResponse, ContractVacancy, WorkflowResult
+from contract_models import ContractReport, ContractResponse, ContractVacancy, ViewedResult, WorkflowResult
 from question_pool import PoolBuilder
 from storage.crud import NotFoundError, Repository
 from storage.models import AnalysisTask, MatchResult, Response, Vacancy
@@ -98,7 +98,8 @@ class HRService:
             raise ReportNotReadyError("Критерии обновлены; дождитесь подготовки актуального отчёта")
         source = response.source_json.get("source_text")
         return ContractReport.model_validate({**report.contract_json,
-            "workflow_status": response.workflow_status, "source_text": source if isinstance(source, str) else ""})
+            "workflow_status": response.workflow_status, "is_viewed": response.is_viewed,
+            "source_text": source if isinstance(source, str) else ""})
 
     @classmethod
     def _summary(cls, response: Response) -> ContractResponse:
@@ -107,6 +108,7 @@ class HRService:
 
     def list_responses(self, vacancy_id: UUID, *, match_status: str | None = None,
                        workflow_status: str | None = None, is_archived: bool | None = None,
+                       is_viewed: bool | None = None,
                        limit: int = 1000, offset: int = 0) -> list[ContractResponse]:
         with self.factory.begin() as session:
             Repository(session).get_vacancy(vacancy_id)
@@ -116,6 +118,8 @@ class HRService:
                 query = query.where(Response.is_archived == is_archived)
             if workflow_status is not None:
                 query = query.where(Response.workflow_status == workflow_status)
+            if is_viewed is not None:
+                query = query.where(Response.is_viewed == is_viewed)
             if match_status is not None:
                 query = query.where(MatchResult.match_status == match_status)
             priority = case((MatchResult.match_status == "green", 0), (MatchResult.match_status == "yellow", 1), else_=2)
@@ -146,6 +150,11 @@ class HRService:
         with self.factory.begin() as session:
             row = Repository(session).update_response(identifier, ResponseUpdate.model_validate({"workflow_status": status}))
             return WorkflowResult.model_validate({"id": str(row.id), "workflow_status": row.workflow_status})
+
+    def update_viewed(self, identifier: UUID, is_viewed: bool) -> ViewedResult:
+        with self.factory.begin() as session:
+            row = Repository(session).update_response(identifier, ResponseUpdate(is_viewed=is_viewed))
+            return ViewedResult(id=str(row.id), is_viewed=row.is_viewed)
 
     def request_match(self, identifier: UUID) -> TaskView:
         with self.factory.begin() as session:

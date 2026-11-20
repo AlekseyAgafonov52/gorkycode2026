@@ -4,6 +4,10 @@
 
 Основные операции платформы: [HR API и импорт вакансий/откликов](HR_API.md). Swagger: http://localhost:8000/docs.
 
+Интерфейс HR подключён к этому API: вакансии, отклики, JSON-отчёты и сохранение результата звонка в PostgreSQL.
+Запуск всей связки: `docker compose up -d --build`, затем http://localhost:5173/.
+Настройки и отдельный запуск: [frontend/README.md](frontend/README.md).
+
 Backend адаптирован под контракт MVP: светофор и доля навыков, отчёт с тремя строками итога,
 шаблонные вопросы по пропускам, пул вопросов YandexGPT на вакансию и сохранённый выбор для каждого отклика.
 Основные схемы — `contract_models.py`, сопоставление — `candidate_analysis.py`, пул — `question_pool.py`,

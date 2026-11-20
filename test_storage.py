@@ -500,8 +500,8 @@ class PostgreSQLStorageTests(unittest.TestCase):
                 connection.execute(text(f'INSERT INTO "{schema}".responses (vacancy_id, source_json, workflow_status) '
                                         "VALUES (:vacancy, '{}'::jsonb, 'contacted')"), {"vacancy": vacancy_id})
                 command.upgrade(config, "head")
-                row = connection.execute(text(f'SELECT workflow_status, legacy_workflow_status FROM "{schema}".responses')).one()
-                self.assertEqual(tuple(row), ("new", "contacted"))
+                row = connection.execute(text(f'SELECT workflow_status, legacy_workflow_status, is_viewed FROM "{schema}".responses')).one()
+                self.assertEqual(tuple(row), ("new", "contacted", False))
                 command.downgrade(config, "0001")
                 self.assertEqual(connection.scalar(text(f'SELECT workflow_status FROM "{schema}".responses')), "contacted")
         finally:

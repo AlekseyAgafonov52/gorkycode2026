@@ -4,7 +4,7 @@ from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
-from contract_models import ContractReport, ContractResponse, ContractVacancy, ErrorEnvelope, WorkflowResult, WorkflowUpdate
+from contract_models import ContractReport, ContractResponse, ContractVacancy, ErrorEnvelope, ViewedResult, ViewedUpdate, WorkflowResult, WorkflowUpdate
 from storage.crud import NotFoundError
 
 from storage.database import make_engine, make_session_factory
@@ -63,9 +63,10 @@ def criteria(vacancy_id: UUID, payload: CriteriaPatch, service: Service):
 @router.get("/vacancies/{vacancy_id}/responses", response_model=list[ContractResponse], tags=["Отклики"])
 def responses(vacancy_id: str, service: Service, match_status: MatchStatus | None = None,
               workflow_status: WorkflowStatus | None = None, is_archived: bool | None = None,
+              is_viewed: bool | None = None,
               limit: int = Query(default=1000, ge=1, le=1000), offset: int = Query(default=0, ge=0)):
     return service.list_responses(identifier(vacancy_id), match_status=match_status, workflow_status=workflow_status,
-                                   is_archived=is_archived, limit=limit, offset=offset)
+                                   is_archived=is_archived, is_viewed=is_viewed, limit=limit, offset=offset)
 
 
 @router.get("/responses/{response_id}", response_model=ResponseDetail, tags=["Отклики"])
@@ -76,6 +77,12 @@ def response(response_id: UUID, service: Service):
 @router.patch("/responses/{response_id}/status", response_model=WorkflowResult, tags=["Отклики"])
 def status(response_id: str, payload: WorkflowUpdate, service: Service):
     return service.update_status(identifier(response_id), payload.workflow_status)
+
+
+@router.patch("/responses/{response_id}/viewed", response_model=ViewedResult, tags=["Отклики"],
+              summary="Отметить отклик просмотренным или непросмотренным")
+def viewed(response_id: str, payload: ViewedUpdate, service: Service):
+    return service.update_viewed(identifier(response_id), payload.is_viewed)
 
 
 @router.patch("/responses/{response_id}/archive", response_model=ContractResponse, tags=["Отклики"])

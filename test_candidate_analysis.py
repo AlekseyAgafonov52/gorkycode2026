@@ -27,12 +27,15 @@ class CandidateAnalysisTests(unittest.TestCase):
         self.assertEqual(len(result.summary), 3)
         self.assertIn("2 из 5", result.summary[0])
 
-    def test_red_identity_gate_ignores_other_links(self):
-        for name, contacts in ((None, Contacts(email="demo@example.com")),
-                               ("Демо", Contacts(other=["https://example.com"]))):
-            result = match(ResumeData(candidate_name=name, contacts=contacts, skills=[ResumeSkill(name="SQL")]), ["SQL"])
-            self.assertEqual(result.match_status, "red")
-            self.assertEqual(result.match_share, 1)
+    def test_identity_and_contacts_do_not_affect_skill_matching(self):
+        for name, contacts in ((None, Contacts()), (None, Contacts(email="demo@example.com")),
+                               ("Демо", Contacts()), ("Демо", Contacts(other=["https://example.com"]))):
+            resume = ResumeData(candidate_name=name, contacts=contacts, skills=[ResumeSkill(name="SQL")])
+            self.assertEqual(match(resume, ["SQL"]).match_status, "green")
+            self.assertEqual(match(resume, ["SQL", "Git"]).match_status, "yellow")
+            self.assertEqual(match(resume, ["SQL"]).match_share, 1)
+        missing = {item.field for item in match(ResumeData(), ["SQL"]).missing_data}
+        self.assertTrue({"candidate_name", "phone", "email", "telegram"} <= missing)
 
     def test_threshold_and_unknown_level(self):
         resume = ResumeData(candidate_name="Демо", contacts=Contacts(telegram="@demo"), skills=[ResumeSkill(name="SQL")])
@@ -40,7 +43,7 @@ class CandidateAnalysisTests(unittest.TestCase):
         self.assertIsNone(match(resume, ["SQL"]).skills[0].resume_level)
         self.assertEqual(match(resume, []).match_share, 0)
         resume.candidate_name = "  "
-        self.assertEqual(match(resume, ["SQL"]).match_status, "red")
+        self.assertEqual(match(resume, ["SQL"]).match_status, "green")
         self.assertIsNone(Contacts(email="  ").email)
 
     def test_parse_extracts_only_explicit_identity_and_contacts(self):
