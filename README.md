@@ -2,6 +2,22 @@
 
 Модуль ТЗ №3 — генерация уточняющих вопросов через YandexGPT: [инструкция и запуск](QUESTION_GENERATOR.md), код `question_generator.py`.
 
+Проверка одного готового отклика: `.\.venv\Scripts\python.exe check_candidate.py frontend 1`. Основной источник — `job_vacancy.txt` в папке откликов, дополнительный — только раздел «Обязанности» из `job_instruction.docx`. Результат сохраняется в подпапку `questions` в JSON и Markdown.
+
+Для пяти IT-ролей автоматически выбираются разные профили промптов из `prompts/questions/it/`. Общие правила генерации и проверки — `prompts/questions/generation.txt` и `review.txt`. Офлайн-просмотр выбранных текстов: `check_candidate.py --all --prepare-only`, файлы `questions/prompts_1.json`.
+
+Для разработки и проверки всех модулей используйте отдельное окружение проекта:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+.\.venv\Scripts\python.exe -m unittest -v
+.\.venv\Scripts\ruff.exe check .
+.\.venv\Scripts\pyright.exe
+```
+
+В VS Code выберите интерпретатор `.venv\Scripts\python.exe` через `Python: Select Interpreter`. Настройки анализаторов находятся в `pyproject.toml`; проверяются и модули, и тесты.
+
 Python 3.10+, Pydantic v2, FastAPI. Работает локально без LLM и внешних сервисов.
 
 ```powershell

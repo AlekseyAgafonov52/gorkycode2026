@@ -35,6 +35,9 @@ def verify(root: Path, output: Path) -> dict:
                 sections = candidate.original_sections
                 assert all(getattr(sections, name) is not None for name in type(sections).model_fields), source
                 assert not any("Не найден раздел" in w for w in candidate.warnings), source
+                assert sections.experience is not None, source
+                assert sections.skills is not None, source
+                assert sections.education is not None, source
                 jobs_in_source = re.findall(r"(?m)^Организация\s+\d+\s*$", sections.experience)
                 for marker in jobs_in_source:
                     assert any(marker.strip() in job.original for job in candidate.work_experience), f"Lost employer: {source}"
@@ -48,6 +51,7 @@ def verify(root: Path, output: Path) -> dict:
                 assert [skill.original for skill in candidate.skills] == expected_skills, f"Lost skills: {source}"
                 for job in candidate.work_experience:
                     assert job.original in sections.experience, source
+                    assert job.organization is not None, source
                     assert job.organization in job.original, source
                     assert job.position is None or job.position in job.original, source
                 for entry in candidate.education:

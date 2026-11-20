@@ -102,11 +102,17 @@ def parse_vacancy(text: str) -> Vacancy:
              for line in text.lstrip("\ufeff").splitlines()]
     lines = [line for line in lines if line and line != "·"]
     section = None
+    format_section = False
+    format_lines: list[str] = []
     for index, line in enumerate(lines):
         heading = _section(line)
         if heading:
             section = heading
+            format_section = heading == "ignore" and bool(re.match(r"условия|мы предлагаем|benefits", line, re.I))
             continue
+        line_preferred = bool(re.search(r"желательно|будет плюсом|будет преимуществом", line, re.I))
+        if section is None or format_section or re.match(r"^(?:формат(?: работы)?|work format)\s*:", line, re.I):
+            format_lines.append(line)
         field = re.match(r"^(название вакансии|должность|вакансия|title|организация|компания|работодатель|organization|город|местоположение|локация|location)\s*:\s*(.+)$", line, re.I)
         if field:
             key, value = field.groups()
@@ -124,7 +130,7 @@ def parse_vacancy(text: str) -> Vacancy:
         organization = re.search(r'(?:АНО|ООО|АО|ПАО|ИП)\s+["«][^"»]+["»]', line)
         if organization and vacancy.organization is None:
             vacancy.organization = organization.group()
-        if re.search(r"(?:опыт|experience)", line, re.I):
+        if section in (None, "required", "additional") and not line_preferred and re.search(r"(?:опыт|experience)", line, re.I):
             match = re.search(r"(?:от\s*)?(\d+(?:[.,]\d+)?)\s*(?:[–—-]\s*\d+\s*)?(лет|год\w*|месяц\w*|years?|months?)", line, re.I)
             if match:
                 years = float(match[1].replace(",", ".")) / (12 if re.match(r"месяц|month", match[2], re.I) else 1)
@@ -137,7 +143,7 @@ def parse_vacancy(text: str) -> Vacancy:
         if section == "responsibilities":
             _append(vacancy.responsibilities, line)
         elif section in ("required", "preferred", "keys"):
-            preferred = section == "preferred" or bool(re.search(r"желательно|будет плюсом|будет преимуществом", line, re.I))
+            preferred = section == "preferred" or line_preferred
             originals = vacancy.original_requirements.preferred if preferred else vacancy.original_requirements.required
             _append(originals, line)
             skills = _technologies(line)
@@ -152,8 +158,7 @@ def parse_vacancy(text: str) -> Vacancy:
         if section == "education" or (section in ("required", "preferred", None) and re.search(r"(?:высшее|среднее|профильное|техническое)\s+образование|степень бакалавра|degree", line, re.I)):
             _append(vacancy.original_requirements.education, line)
     vacancy.education = "; ".join(vacancy.original_requirements.education) or None
-    # Look only in explicit format/conditions lines, never in required experience.
-    format_lines = [line for line in lines if re.search(r"формат|на месте работодателя|работа в офисе|удал[её]нн|гибрид|remote|onsite|hybrid", line, re.I)]
+    # Header, conditions and explicitly labeled format fields are collected above.
     formats = " ".join(format_lines)
     if re.search(r"гибрид|hybrid", formats, re.I):
         vacancy.work_format = "hybrid"

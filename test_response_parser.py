@@ -90,6 +90,7 @@ class ResponseParserTests(unittest.TestCase):
         result = parse_response(export(experience="Опыт работы: 1 месяц\nЯнв 2025 - Фев 2025\n1 мес\nОрганизация 1\nНеобычное занятие\nОписание"))
         job = result.work_experience[0]
         self.assertIsNone(job.position)
+        assert job.description is not None
         self.assertIn("Необычное занятие", job.description)
         self.assertTrue(result.warnings)
 
@@ -108,6 +109,7 @@ class ResponseParserTests(unittest.TestCase):
         result = parse_response(export(experience=experience, skills="Продвинутый уровень\nFigma", about="Настоящий раздел обо мне"))
         self.assertEqual([skill.name for skill in result.skills], ["Figma"])
         self.assertEqual(result.about_me, "Настоящий раздел обо мне")
+        assert result.work_experience[0].description is not None
         self.assertIn("Навыки\nFigma Expert", result.work_experience[0].description)
         self.assertEqual(result.warnings, [])
 
@@ -166,6 +168,7 @@ class ResponseParserTests(unittest.TestCase):
         result = parse_response(text)
         self.assertEqual(result.source_text, text)
         self.assertEqual(result.original_sections.cover_letter, "Произвольное письмо\r\nВторая строка")
+        assert result.original_sections.education is not None
         self.assertIn(result.education[0].original, result.original_sections.education)
         restored = CandidateResponse.model_validate_json(result.model_dump_json())
         self.assertEqual(restored, result)

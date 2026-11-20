@@ -51,6 +51,22 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(result.experience_min_years, 1)
         self.assertEqual(result.work_format, "onsite")
 
+    def test_preferred_and_benefit_experience_is_not_mandatory(self):
+        for heading in ("Будет преимуществом:", "Условия:"):
+            with self.subTest(heading=heading):
+                result = parse_vacancy(f"Разработчик\nТребования:\nPython\n{heading}\nОпыт работы с SQL от 3 лет")
+                self.assertIsNone(result.experience_min_years)
+        result = parse_vacancy("Разработчик\nОпыт 1–3 года\nБудет преимуществом:\nОпыт работы от 5 лет")
+        self.assertEqual(result.experience_min_years, 1)
+
+    def test_experience_with_remote_teams_is_not_work_format(self):
+        result = parse_vacancy("Разработчик\nТребования:\nОпыт удалённой работы\nУсловия:\nРабота в офисе")
+        self.assertEqual(result.work_format, "onsite")
+        result = parse_vacancy("Разработчик\nТребования:\nОпыт удалённой работы")
+        self.assertIsNone(result.work_format)
+        result = parse_vacancy("Разработчик\nТребования:\nPython\nФормат работы: гибрид")
+        self.assertEqual(result.work_format, "hybrid")
+
     def test_api(self):
         with TestClient(app) as client:
             for text in ("Python Developer", "Требования:\nPython"):

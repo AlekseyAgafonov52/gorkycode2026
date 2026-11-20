@@ -24,9 +24,13 @@ class Skill(Schema):
     original: str
 
 
+LanguageLevel = Literal["native", "A1", "A2", "B1", "B2", "C1", "C2"]
+CEFR_LEVELS: dict[str, LanguageLevel] = {"A1": "A1", "A2": "A2", "B1": "B1", "B2": "B2", "C1": "C1", "C2": "C2"}
+
+
 class Language(Schema):
     name: str
-    level: Literal["native", "A1", "A2", "B1", "B2", "C1", "C2"] | None = None
+    level: LanguageLevel | None = None
     description: str | None = None
     original: str
 
@@ -269,7 +273,7 @@ def _languages(text: str | None) -> list[Language]:
         if MISSING.fullmatch(line):
             continue
         parts = re.split(r"\s+[—–-]\s+", line, maxsplit=2)
-        level = parts[1] if len(parts) > 1 and re.fullmatch(r"[ABC][12]", parts[1]) else None
+        level = CEFR_LEVELS.get(parts[1]) if len(parts) > 1 else None
         result.append(Language(name=parts[0], level="native" if native else level,
                                description=parts[2] if len(parts) > 2 else None, original=line))
     return result
@@ -309,7 +313,8 @@ def _iso_date(text: str) -> str | None:
 
 
 def _work(text: str | None, warnings: list[str]) -> list[WorkExperience]:
-    if not _nullable(text):
+    text = _nullable(text)
+    if text is None:
         return []
     periods = list(PERIOD.finditer(text))
     result = []

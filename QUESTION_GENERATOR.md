@@ -1,30 +1,122 @@
 # Уточняющие вопросы для HR
 
-`question_generator.py` — независимый модуль для ТЗ №3. Требуется Python 3.10+, Pydantic v2, python-docx и httpx. Модуль не импортирует Resume Parser, не вызывает его функции и не читает TXT-резюме. Вход — должностная инструкция DOCX и уже готовый JSON кандидата.
+`question_generator.py` — независимый модуль для ТЗ №3. Требуется Python 3.10+, Pydantic v2, python-docx, httpx и python-dotenv. Модуль не импортирует Resume Parser, не вызывает его функции и не читает TXT-резюме. Вход — вакансия TXT/JSON, должностная инструкция DOCX и уже готовый JSON кандидата.
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-## Настройка YandexGPT
+## Проверка одного отклика из проекта
 
-В окружении процесса задайте `YANDEX_FOLDER_ID` и один способ авторизации: `YANDEX_API_KEY` либо `YANDEX_IAM_TOKEN`. Ключи не передаются через аргументы командной строки и не сохраняются в результатах. Файл `.env` автоматически не читается.
+Пять DOCX и пять текстов вакансий скопированы в соответствующие папки `parsed_responses` под именами `job_instruction.docx` и `job_vacancy.txt`. Они находятся рядом с JSON откликов; исходные файлы на диске `D:` не перемещались.
+
+Из корня проекта выполните:
 
 ```powershell
-$env:YANDEX_FOLDER_ID = "идентификатор-каталога"
-# Задайте YANDEX_API_KEY через настройки секретов вашего окружения.
+.\.venv\Scripts\python.exe check_candidate.py frontend 1
 ```
+
+Команда читает `job_vacancy.txt`, `job_instruction.docx` и `отклик 1.json` из `parsed_responses/Frontend developer`, выделяет из DOCX только раздел «Обязанности», вызывает YandexGPT и сохраняет два файла:
+
+- `parsed_responses/Frontend developer/questions/отклик 1.json` — фиксированный JSON с вопросами, требованиями и причинами.
+- `parsed_responses/Frontend developer/questions/отклик 1.md` — тот же отчёт для чтения HR-специалистом.
+
+Повторный запуск перезаписывает отчёт при успешной генерации. В консоли выводятся этапы генерации и проверки. При ошибке новый успешный отчёт не создаётся; код завершения — `1`.
+
+| Короткое имя | Папка откликов |
+| --- | --- |
+| `frontend` | `Frontend developer` |
+| `junior-python` | `Junior Python-разработчик` |
+| `designer` | `Junior UX_UI Дизайнер` |
+| `python` | `Python-разработчик` |
+| `qa` | `QA Engineer Manual` |
+
+Номер после имени — номер JSON-отклика в выбранной папке. Например, `frontend 2` выбирает `отклик 2.json`. Необходимая инструкция определяется автоматически; номер в JSON проверяется до сетевого запроса.
+
+Для этих пяти команд автоматически выбирается область `it` и профиль указанной роли. Модель по-прежнему определяется настройкой `YANDEX_MODEL_URI` из `.env`; выбор роли её не меняет.
+
+### Какие источники попадают в модель
+
+Вход содержит три основных поля:
+
+- `vacancy` — полный текст вакансии, основной источник обязательных и желательных требований.
+- `job_instruction_duties` — только раздел «Обязанности» из ДИ, дополнительный контекст рабочих задач.
+- `candidate` — готовый JSON-отклик кандидата.
+
+Общие положения, критерии оценки, права, ответственность, замещение и отдельный раздел квалификационных требований ДИ в запрос не включаются. Оглавление пропускается. Если раздел обязанностей не найден, пуст или неоднозначен, программа завершает работу с ошибкой до API; полного DOCX в качестве запасного варианта нет.
+
+При расхождениях приоритет у вакансии. Желательные навыки не становятся обязательными. Обязанности ДИ дополняют описание работы, а не создают дополнительные квалификационные барьеры. Цитата `requirement` может быть из вакансии либо из выбранного раздела; в обоих случаях локально проверяется её наличие в источнике.
+
+Некоторые списки знаний (включая SQL и C++ в Frontend-ДИ) находятся внутри самого раздела «Обязанности». Они остаются в выбранном блоке, но приоритет вопросов определяется актуальной вакансией. Имена технологий не удаляются из исходника автоматически.
+
+Для вакансии JSON используется непустой `source_text`, если он есть; иначе текст собирается из заполненных полей вакансии с сохранением разделения обязательных и желательных навыков. `source_text` и структурированные поля вакансии одновременно не дублируются. TXT поддерживает UTF-8/BOM, UTF-16/BOM и Windows-1251.
+
+Проверить чтение всех пяти инструкций и откликов №1 **без API**:
+
+```powershell
+.\.venv\Scripts\python.exe check_candidate.py --all --prepare-only
+```
+
+В каждой папке появятся `questions/input_1.json` с вакансией, выделенными обязанностями, данными кандидата и идентификатором профиля и `questions/prompts_1.json` с текстами двух собранных системных промптов. Это локальная подготовка, а не готовый отчёт. Просмотр текущих промптов не подтверждает, что ранее созданный отчёт был сгенерирован именно с ними. Флаг `--all` выбирает все пять профилей; добавляйте `--prepare-only`, если нужна только локальная проверка файлов. При обычном запуске источники и JSON выбранного кандидата передаются в YandexGPT.
+
+## Промпты по области и роли
+
+Промпты вынесены из Python-кода в UTF-8 TXT-файлы. Для запроса собираются общие правила, контекст IT и ровно один профиль роли. Оба этапа — генерация и проверка — используют один и тот же выбранный профиль.
+
+| Что редактировать | Файл |
+| --- | --- |
+| Общие правила генерации | [prompts/questions/generation.txt](prompts/questions/generation.txt) |
+| Общие правила проверки | [prompts/questions/review.txt](prompts/questions/review.txt) |
+| Общий контекст IT | [prompts/questions/it/common.txt](prompts/questions/it/common.txt) |
+| Frontend | [prompts/questions/it/frontend.txt](prompts/questions/it/frontend.txt) |
+| Junior Python / аналитика данных | [prompts/questions/it/junior-python.txt](prompts/questions/it/junior-python.txt) |
+| UX/UI | [prompts/questions/it/designer.txt](prompts/questions/it/designer.txt) |
+| Инженер по аналитике и большим данным | [prompts/questions/it/python.txt](prompts/questions/it/python.txt) |
+| QA Manual | [prompts/questions/it/qa.txt](prompts/questions/it/qa.txt) |
+
+Изменения файлов читаются при следующем вызове генератора; пересборка и изменение Python-кода для правки формулировок не нужны. Пустой или отсутствующий файл выбранного профиля вызывает ошибку до обращения к API.
+
+Общие правила требуют конкретного нераскрытого аспекта опыта и запрещают формальные просьбы «подтвердить уровень», общие вопросы «умеете ли», теоретический экзамен и дробление одного перечня технологий ради числа вопросов. В причине уточнения нужно учитывать уже известные связанные факты кандидата. Профиль задаёт фокус, но не добавляет требований в источники; основной ориентир — вакансия.
+
+При прямом запуске независимого модуля профиль задаётся явно:
+
+```powershell
+.\.venv\Scripts\python.exe question_generator.py "parsed_responses\Frontend developer\job_instruction.docx" "parsed_responses\Frontend developer\отклик 1.json" --vacancy "parsed_responses\Frontend developer\job_vacancy.txt" --prompt-profile frontend --output "generated_questions\frontend_1.json"
+```
+
+Без `--prompt-profile` независимый модуль использует `general`: только общие правила, без предположений об отрасли. Для пяти текущих вакансий удобнее `check_candidate.py`: он автоматически выбирает подходящий профиль.
+
+В Python: `generate_questions(instruction_text, candidate_dict, vacancy_text=vacancy_text, prompt_profile="qa")` или `generate_questions_from_files(instruction_path, candidate_path, vacancy_path=vacancy_path, prompt_profile="frontend")`. Сборщик и реестр профилей находятся в `question_prompts.py`; выбор раздела обязанностей и чтение вакансии — в `job_sources.py`. Для новой области создайте её `common.txt` и TXT роли, затем зарегистрируйте роль с нужной областью в `PROMPT_PROFILES`.
+
+Разделение промптов не добавляет обращений к модели: сохраняются генерация и проверка, с возможной повторной попыткой. В запрос передаётся только выбранный профиль. Полный JSON кандидата пока передаётся как раньше; устранение дублирования его полей — отдельная оптимизация.
+
+## Настройка YandexGPT
+
+Заполните файл `.env` рядом с `question_generator.py`. Он загружается автоматически независимо от текущей папки запуска. В проекте уже создан пустой файл; `.env.example` содержит шаблон для нового окружения. `.env` и его локальные варианты исключены из Git, шаблон `.env.example` можно коммитить.
+
+```dotenv
+YANDEX_FOLDER_ID=идентификатор-каталога
+YANDEX_API_KEY="ваш-API-ключ"
+```
+
+Вместо `YANDEX_API_KEY` можно задать `YANDEX_IAM_TOKEN`: заполните только один способ авторизации. Переменные окружения процесса имеют приоритет над файлом. Если ранее задавали настройки через `$env:...`, очистите их перед переходом на файл:
+
+```powershell
+Remove-Item Env:YANDEX_FOLDER_ID, Env:YANDEX_API_KEY, Env:YANDEX_IAM_TOKEN, Env:YANDEX_MODEL_URI -ErrorAction SilentlyContinue
+```
+
+Значения из файла не копируются в окружение процесса. Подстановка `${...}` отключена, чтобы ключи читались буквально. Для другого файла в Python используйте `YandexGPTSettings.from_env(env_file="путь/.env")`; `env_file=None` включает чтение только окружения. Ключи не передаются через аргументы командной строки и не сохраняются в результатах.
 
 По умолчанию используется `gpt://<folder_id>/yandexgpt-5.1`. Для другой версии задайте `YANDEX_MODEL_URI`; модель должна принадлежать тому же каталогу и поддерживать JSON Schema. Нужен доступ к выбранной модели. Эти настройки относятся к Yandex Cloud API, а не к пользовательской подписке Алисы.
 
-Реализован REST-вызов `https://ai.api.cloud.yandex.net/foundationModels/v1/completion` с `jsonSchema`, `temperature=0`, API-ключом или IAM-токеном. Заголовок `x-data-logging-enabled: false` отключает логирование содержимого запроса на стороне сервиса. Инструкция и данные кандидата передаются в YandexGPT при обычном запуске; режим `--prepare-only` не выполняет сетевых запросов.
+Реализован REST-вызов `https://ai.api.cloud.yandex.net/foundationModels/v1/completion` с `jsonSchema`, `temperature=0`, API-ключом или IAM-токеном. Заголовок `x-data-logging-enabled: false` отключает логирование содержимого запроса на стороне сервиса. Вакансия, обязанности ДИ и данные кандидата передаются в YandexGPT при обычном запуске; режим `--prepare-only` не выполняет сетевых запросов.
 
 Источники для настройки: [REST API и JSON Schema](https://aistudio.yandex.ru/ru/docs/ai-studio/text-generation/api-ref/TextGeneration/completion), [аутентификация](https://aistudio.yandex.ru/ru/docs/ai-studio/api-ref/authentication), [URI моделей](https://aistudio.yandex.ru/ru/docs/ai-studio/concepts/generation/models), [отключение логирования](https://aistudio.yandex.ru/ru/docs/ai-studio/operations/disable-logging).
 
 ## Запуск
 
 ```powershell
-python question_generator.py "D:\Кадры\Frontend developer\Разработчик клиентского ПО.docx" "parsed_responses\Frontend developer\отклик 1.json" --output "generated_questions\frontend_1.json"
+python question_generator.py "D:\Кадры\Frontend developer\Разработчик клиентского ПО.docx" "parsed_responses\Frontend developer\отклик 1.json" --vacancy "parsed_responses\Frontend developer\job_vacancy.txt" --prompt-profile frontend --output "generated_questions\frontend_1.json"
 ```
 
 Результат всегда имеет структуру:
@@ -34,7 +126,7 @@ python question_generator.py "D:\Кадры\Frontend developer\Разработ�
   "candidate_id": "1",
   "questions": [
     {
-      "requirement": "дословная цитата требования из инструкции",
+      "requirement": "дословная цитата из вакансии или раздела обязанностей ДИ",
       "question": "Уточняющий вопрос?",
       "reason": "Какого конкретно сведения недостаточно"
     }
@@ -47,7 +139,7 @@ python question_generator.py "D:\Кадры\Frontend developer\Разработ�
 Проверить чтение файлов без ключа и без API:
 
 ```powershell
-python question_generator.py "D:\Кадры\Frontend developer\Разработчик клиентского ПО.docx" "parsed_responses\Frontend developer\отклик 1.json" --prepare-only --output "examples\question_generation_input.json"
+python question_generator.py "D:\Кадры\Frontend developer\Разработчик клиентского ПО.docx" "parsed_responses\Frontend developer\отклик 1.json" --vacancy "parsed_responses\Frontend developer\job_vacancy.txt" --prompt-profile frontend --prepare-only --output "examples\question_generation_input.json"
 ```
 
 `examples/question_generation_input.json` содержит подготовленные реальные входные данные, а не сгенерированные вопросы и не подтверждение вызова YandexGPT.
@@ -60,11 +152,13 @@ from question_generator import generate_questions_from_files
 result = generate_questions_from_files(
     "Разработчик клиентского ПО.docx",
     "отклик 1.json",
+    vacancy_path="Вакансия.txt",
+    prompt_profile="frontend",
 )
 print(result.model_dump_json(indent=2))
 ```
 
-Для уже загруженного JSON доступны `generate_questions(instruction_text, candidate_dict)` и `prepare_input(instruction_text, candidate_dict)`. Входной объект требует непустой `candidate_id`; остальные поля сохраняются как JSON без повторного разбора резюме. Поддерживаются и текущая схема Resume Parser, и другие структуры JSON с этим идентификатором. Внутренние поля `source_text` и `original_sections` передаются как часть готовых данных, без повторного вызова парсера.
+Для готового словаря доступны `generate_questions(instruction_text, candidate_dict, vacancy_text=vacancy_text)` и `prepare_input(instruction_text, candidate_dict, vacancy_text=vacancy_text)`. `vacancy_text` обязателен. Даже при передаче полного текста DOCX в `instruction_text` на подготовке входа остаётся только раздел обязанностей. JSON требует непустой `candidate_id`; остальные поля сохраняются без повторного парсинга резюме.
 
 Настройки и HTTP-клиент можно передать явно:
 
@@ -73,14 +167,14 @@ from question_generator import YandexGPTClient, YandexGPTSettings, generate_ques
 
 settings = YandexGPTSettings.from_env()
 with YandexGPTClient(settings) as client:
-    result = generate_questions(instruction_text, candidate_dict, client=client)
+    result = generate_questions(instruction_text, candidate_dict, vacancy_text=vacancy_text, client=client)
 ```
 
 ## Проверки вопросов
 
 1. Из DOCX извлекаются параграфы и таблицы в порядке документа, включая вложенные таблицы. Объединённые ячейки не дублируются. Сканированные изображения не распознаются; колонтитулы и текстовые поля фигур не извлекаются.
-2. YandexGPT получает полную инструкцию и готовые данные кандидата. Промпт требует учитывать навыки, описания работ, письмо, образование и исходные формулировки; выделять пробелы только по требованиям инструкции; не считать отсутствие сведений отсутствием навыка.
-3. Локально проверяются JSON, число вопросов, неизменность номера кандидата, дубли формулировок и наличие цитаты `requirement` в инструкции с нормализацией регистра, Unicode и пробелов.
+2. Из прочитанного DOCX локально выделяется только раздел обязанностей. Оба обращения к YandexGPT получают вакансию, выделенный раздел и готовые данные кандидата. Приоритет у вакансии; недостаток сведений не считается отсутствием навыка.
+3. Проверяются JSON, число вопросов, номер кандидата, дубли и наличие цитаты `requirement` в вакансии либо обязанностях с учётом регистра, пробелов и «е»/«ё». Цитата из другого раздела полного DOCX не принимается. В результат подставляется точная цитата источника.
 4. Отдельный вызов YandexGPT проверяет каждый вопрос: есть ли уже ответ в отклике, корректна ли причина, подтверждено ли требование, нет ли смыслового повтора и относится ли вопрос к работе.
 5. Если проверка находит проблему, генератор делает ещё одну попытку с замечаниями. По умолчанию это максимум четыре логических обращения к модели: генерация → проверка → исправленная генерация → проверка. Модуль возвращает только результат, прошедший обе проверки.
 
@@ -104,4 +198,4 @@ python -m unittest -v
 
 Тесты используют `httpx.MockTransport`, без ключа, оплаты и сетевых вызовов. Покрываются чтение DOCX с таблицами, готовый JSON, контракт запросов YandexGPT, исправление вопроса с уже известным ответом про СУБД, ложные требования и причины, дубли, число вопросов, неверные идентификаторы и неполная проверка, HTTP-ошибки, тайм-ауты и обрезанные ответы.
 
-На предоставленной инструкции и JSON Frontend-кандидата №1 проверена подготовка входа. Живой вызов YandexGPT не выполнен: в окружении отсутствуют ключ/токен и идентификатор каталога. Синтетические ответы тестов не выдаются за результат работы сервиса.
+На пяти вакансиях, инструкциях и JSON кандидатов №1 проверена подготовка входов. Сохранённый реальный отчёт Frontend-кандидата №1 был получен прежней версией по полной ДИ. После перехода на вакансию и обязанности живые запросы не выполнялись, готовые отчёты не перезаписывались. Для оценки качества нужен отдельный запуск. Синтетические ответы тестов не выдаются за результат работы сервиса.

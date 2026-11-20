@@ -6,12 +6,42 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
+from typing import Literal, TypedDict
 
 from response_parser import CandidateResponse, parse_response_file
 
 
-def parse_directories(inputs: list[Path], output: Path) -> dict:
-    files = set()
+class FolderResult(TypedDict):
+    total: int
+    parsed: int
+    failed: int
+
+
+class FileResult(TypedDict, total=False):
+    source: str
+    output: str
+    status: Literal["ok", "error"]
+    candidate_id: int | None
+    work_entries: int
+    skills: int
+    languages: int
+    education_entries: int
+    warnings: list[str]
+    error: str
+
+
+class BatchReport(TypedDict):
+    files_total: int
+    parsed: int
+    failed: int
+    with_warnings: int
+    warning_counts: dict[str, int]
+    folders: dict[str, FolderResult]
+    files: list[FileResult]
+
+
+def parse_directories(inputs: list[Path], output: Path) -> BatchReport:
+    files: set[Path] = set()
     for folder in inputs:
         if not folder.is_dir():
             raise ValueError(f"Не найдена папка: {folder}")
@@ -19,18 +49,18 @@ def parse_directories(inputs: list[Path], output: Path) -> dict:
                      if p.is_file() and re.fullmatch(r"отклик\s+\d+\.txt", p.name, re.I))
     if not files:
         raise ValueError("В указанных папках не найдены файлы 'отклик N.txt'")
-    files = sorted(files, key=lambda p: (str(p.parent), int(re.search(r"\d+", p.stem)[0])))
+    ordered_files = sorted(files, key=lambda p: (str(p.parent), int(p.stem.split()[-1])))
     # Candidate numbers restart in each vacancy folder; never flatten them.
-    destinations = [output / p.parent.name / f"{p.stem}.json" for p in files]
+    destinations = [output / p.parent.name / f"{p.stem}.json" for p in ordered_files]
     if len({str(p.resolve()).casefold() for p in destinations}) != len(files):
         raise ValueError("Имена входных папок совпадают; выберите разные каталоги результата")
-    report = {"files_total": len(files), "parsed": 0, "failed": 0,
+    report: BatchReport = {"files_total": len(files), "parsed": 0, "failed": 0,
               "with_warnings": 0, "warning_counts": {}, "folders": {}, "files": []}
-    warnings = Counter()
-    for path, destination in zip(files, destinations):
+    warnings: Counter[str] = Counter()
+    for path, destination in zip(ordered_files, destinations):
         group = report["folders"].setdefault(path.parent.name, {"total": 0, "parsed": 0, "failed": 0})
         group["total"] += 1
-        item = {"source": str(path), "output": str(destination), "status": "error"}
+        item: FileResult = {"source": str(path), "output": str(destination), "status": "error"}
         try:
             candidate = parse_response_file(path)
             destination.parent.mkdir(parents=True, exist_ok=True)
