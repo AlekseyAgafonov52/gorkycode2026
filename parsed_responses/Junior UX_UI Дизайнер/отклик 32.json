@@ -1,0 +1,130 @@
+{
+  "candidate_id": 32,
+  "candidate_name": "Чернова Татьяна Сергеевна",
+  "resume_title": "web, UI/UX дизайнер",
+  "cover_letter": "Добрый день, прикрепляю ссылку на мое резюме в ноушене с примерами работ - https://brainy-clownfish-a0f.notion.site/6821351ca581488a83eca7e1ecc089a1?pvs=4",
+  "experience_total_months": 34,
+  "similar_experience_months": 30,
+  "work_experience": [
+    {
+      "start_date": "2024-05",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 30,
+      "organization": "Организация 1",
+      "position": "Веб-дизайнер",
+      "employer_details": [
+        "Москва"
+      ],
+      "description": "Создание сайтов\nИсследования\nПроверка гипотез\nверстка на Tilda",
+      "original": "Май 2024 -\nсейчас\n2 года 6 мес\nОрганизация 1\nМосква\nВеб-дизайнер\nСоздание сайтов\nИсследования\nПроверка гипотез\nверстка на Tilda"
+    },
+    {
+      "start_date": "2023-07",
+      "end_date": "2023-10",
+      "is_current": false,
+      "duration_months": 4,
+      "organization": "Организация 2",
+      "position": "Дизайнер",
+      "employer_details": [
+        "Информационные технологии, системная интеграция, интернет"
+      ],
+      "description": "Разрабатываю дизайн сайтов",
+      "original": "Июл 2023 -\nОкт 2023\n4 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nДизайнер\nРазрабатываю дизайн сайтов"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Английский язык",
+      "level": "intermediate",
+      "original": "Английский язык"
+    },
+    {
+      "name": "Ответственность",
+      "level": null,
+      "original": "Ответственность"
+    },
+    {
+      "name": "UX",
+      "level": null,
+      "original": "UX"
+    },
+    {
+      "name": "UI",
+      "level": null,
+      "original": "UI"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "Web-дизайн",
+      "level": null,
+      "original": "Web-дизайн"
+    },
+    {
+      "name": "Дизайн интерфейсов",
+      "level": null,
+      "original": "Дизайн интерфейсов"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": null,
+      "original": "Adobe Photoshop"
+    },
+    {
+      "name": "UI Kit",
+      "level": null,
+      "original": "UI Kit"
+    },
+    {
+      "name": "UX-исследования",
+      "level": null,
+      "original": "UX-исследования"
+    },
+    {
+      "name": "User Flow",
+      "level": null,
+      "original": "User Flow"
+    },
+    {
+      "name": "Tilda",
+      "level": null,
+      "original": "Tilda"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    }
+  ],
+  "about_me": "Привет! Меня зовут Нина. Я сделала сфое портфолио в виде сайта на тильде - переходи и смотри http://designer-nina.tilda.ws",
+  "education_level": "Среднее образование",
+  "education": [],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готова к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №32\nРезюме: web, UI/UX дизайнер",
+    "cover_letter": "Добрый день, прикрепляю ссылку на мое резюме в ноушене с примерами работ - https://brainy-clownfish-a0f.notion.site/6821351ca581488a83eca7e1ecc089a1?pvs=4",
+    "experience": "Опыт работы: 2 года 10 месяцев\nОпыт в похожих должностях:2 года 6 месяцев\nМай 2024 -\nсейчас\n2 года 6 мес\nОрганизация 1\nМосква\nВеб-дизайнер\nСоздание сайтов\nИсследования\nПроверка гипотез\nверстка на Tilda\nИюл 2023 -\nОкт 2023\n4 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nДизайнер\nРазрабатываю дизайн сайтов",
+    "skills": "Средний уровень\nАнглийский язык\nУровень не указан\nОтветственность\nUX\nUI\nFigma\nWeb-дизайн\nДизайн интерфейсов\nAdobe Photoshop\nUI Kit\nUX-исследования\nUser Flow\nTilda",
+    "languages": "Родной\nРусский",
+    "about_me": "Привет! Меня зовут Нина. Я сделала сфое портфолио в виде сайта на тильде - переходи и смотри http://designer-nina.tilda.ws",
+    "education": "Уровень\nСреднее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №32\nРезюме: web, UI/UX дизайнер\n\nСопроводительное письмо\nДобрый день, прикрепляю ссылку на мое резюме в ноушене с примерами работ - https://brainy-clownfish-a0f.notion.site/6821351ca581488a83eca7e1ecc089a1?pvs=4\n\nОпыт работы\nОпыт работы: 2 года 10 месяцев\nОпыт в похожих должностях:2 года 6 месяцев\nМай 2024 -\nсейчас\n2 года 6 мес\nОрганизация 1\nМосква\nВеб-дизайнер\nСоздание сайтов\nИсследования\nПроверка гипотез\nверстка на Tilda\nИюл 2023 -\nОкт 2023\n4 мес\nОрганизация 2\nИнформационные технологии, системная интеграция, интернет\nДизайнер\nРазрабатываю дизайн сайтов\n\nНавыки\nСредний уровень\nАнглийский язык\nУровень не указан\nОтветственность\nUX\nUI\nFigma\nWeb-дизайн\nДизайн интерфейсов\nAdobe Photoshop\nUI Kit\nUX-исследования\nUser Flow\nTilda\n\nЯзыки\nРодной\nРусский\n\nОбо мне\nПривет! Меня зовут Нина. Я сделала сфое портфолио в виде сайта на тильде - переходи и смотри http://designer-nina.tilda.ws\n\nОбразование\nУровень\nСреднее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

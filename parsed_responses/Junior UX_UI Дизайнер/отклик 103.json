@@ -1,0 +1,232 @@
+{
+  "candidate_id": 103,
+  "candidate_name": "Лесков Борис Игоревич",
+  "resume_title": "UX/UI Designer",
+  "cover_letter": "CV: https://drive.google.com/file/d/1V3WxGhhwbW63vaLKaAG6w02VKFKP5-bF/view?usp=sharing\nPortfolio: https://www.behance.net/tanushagrin",
+  "experience_total_months": 32,
+  "similar_experience_months": 32,
+  "work_experience": [
+    {
+      "start_date": "2024-05",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 30,
+      "organization": "Организация 1",
+      "position": "UX\\UI Designer",
+      "employer_details": [],
+      "description": "Спроектировала User Flow для мобильной игры.\nРазработала пользовательский интерфейс для игры, включая создание интуитивно понятных меню, экранов настроек, панелей инструментов и других элементов управления.\nСоздала интерактивный прототип игры.",
+      "original": "Май 2024 -\nсейчас\n2 года 6 мес\nОрганизация 1\nUX\\UI Designer\nСпроектировала User Flow для мобильной игры.\nРазработала пользовательский интерфейс для игры, включая создание интуитивно понятных меню, экранов настроек, панелей инструментов и других элементов управления.\nСоздала интерактивный прототип игры."
+    },
+    {
+      "start_date": "2023-12",
+      "end_date": "2024-01",
+      "is_current": false,
+      "duration_months": 2,
+      "organization": "Организация 2",
+      "position": "UX/UI Designer (Стажер)",
+      "employer_details": [],
+      "description": "Улучшила дизайн экранов мобильного приложения.\nАнимировала визуальные элементы: загрузка, персонажи, достижения и т.д.\nПрорабатывала экраны онбординга.\nСоздала интерактивный прототип некоторых частей приложения.",
+      "original": "Дек 2023 -\nЯнв 2024\n2 мес\nОрганизация 2\nUX/UI Designer (Стажер)\nУлучшила дизайн экранов мобильного приложения.\nАнимировала визуальные элементы: загрузка, персонажи, достижения и т.д.\nПрорабатывала экраны онбординга.\nСоздала интерактивный прототип некоторых частей приложения."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Figma",
+      "level": "intermediate",
+      "original": "Figma"
+    },
+    {
+      "name": "Miro",
+      "level": "intermediate",
+      "original": "Miro"
+    },
+    {
+      "name": "Проектирование пользовательских интерфейсов",
+      "level": null,
+      "original": "Проектирование пользовательских интерфейсов"
+    },
+    {
+      "name": "Прототипирование",
+      "level": null,
+      "original": "Прототипирование"
+    },
+    {
+      "name": "Usability",
+      "level": null,
+      "original": "Usability"
+    },
+    {
+      "name": "Дизайн интерфейсов",
+      "level": null,
+      "original": "Дизайн интерфейсов"
+    },
+    {
+      "name": "HTML",
+      "level": null,
+      "original": "HTML"
+    },
+    {
+      "name": "CSS",
+      "level": null,
+      "original": "CSS"
+    },
+    {
+      "name": "Material Design",
+      "level": null,
+      "original": "Material Design"
+    },
+    {
+      "name": "Use Case Analysis",
+      "level": null,
+      "original": "Use Case Analysis"
+    },
+    {
+      "name": "Notion",
+      "level": null,
+      "original": "Notion"
+    },
+    {
+      "name": "Persona",
+      "level": null,
+      "original": "Persona"
+    },
+    {
+      "name": "UI Kit",
+      "level": null,
+      "original": "UI Kit"
+    },
+    {
+      "name": "Information Architecture",
+      "level": null,
+      "original": "Information Architecture"
+    },
+    {
+      "name": "User Flow",
+      "level": null,
+      "original": "User Flow"
+    },
+    {
+      "name": "Wireframing",
+      "level": null,
+      "original": "Wireframing"
+    },
+    {
+      "name": "Атомарный дизайн",
+      "level": null,
+      "original": "Атомарный дизайн"
+    },
+    {
+      "name": "Дизайн мобильных приложений",
+      "level": null,
+      "original": "Дизайн мобильных приложений"
+    },
+    {
+      "name": "CJM",
+      "level": null,
+      "original": "CJM"
+    },
+    {
+      "name": "UX-исследования",
+      "level": null,
+      "original": "UX-исследования"
+    },
+    {
+      "name": "Проектирование взаимодействия",
+      "level": null,
+      "original": "Проектирование взаимодействия"
+    },
+    {
+      "name": "Human Interface Guidelines",
+      "level": null,
+      "original": "Human Interface Guidelines"
+    },
+    {
+      "name": "Empathy map",
+      "level": null,
+      "original": "Empathy map"
+    },
+    {
+      "name": "UI/UX",
+      "level": null,
+      "original": "UI/UX"
+    },
+    {
+      "name": "Тестирование пользовательского интерфейса",
+      "level": null,
+      "original": "Тестирование пользовательского интерфейса"
+    },
+    {
+      "name": "Интерактивный дизайн",
+      "level": null,
+      "original": "Интерактивный дизайн"
+    },
+    {
+      "name": "Blender",
+      "level": null,
+      "original": "Blender"
+    },
+    {
+      "name": "Tilda",
+      "level": null,
+      "original": "Tilda"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": null,
+      "original": "Adobe Illustrator"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": null,
+      "original": "Adobe Photoshop"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": "Привет! Ищу работу в качестве UX/UI дизайнера.\nДизайнер c глубокими знаниями принципов проектирования UX/UI. Непрерывно улучшаю свои навыки, чтобы обеспечить наилучший пользовательский опыт. Ищу работу для реализации уникальных и значимых проектов.\nСсылка на портфолио: https://www.behance.net/tanushagrin",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Белорусский государственный университет, Минск",
+      "details": [
+        "Факультет радиофизики и компьютерных технологий, Радиофизика"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Белорусский государственный университет, Минск\nФакультет радиофизики и компьютерных технологий, Радиофизика\n•\n2024\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готова к командировкам",
+    "citizenship": "Беларусь",
+    "work_permit": "Беларусь",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №103\nРезюме: UX/UI Designer",
+    "cover_letter": "CV: https://drive.google.com/file/d/1V3WxGhhwbW63vaLKaAG6w02VKFKP5-bF/view?usp=sharing\nPortfolio: https://www.behance.net/tanushagrin",
+    "experience": "Опыт работы: 2 года 8 месяцев\nОпыт в похожих должностях:2 года 8 месяцев\nМай 2024 -\nсейчас\n2 года 6 мес\nОрганизация 1\nUX\\UI Designer\nСпроектировала User Flow для мобильной игры.\nРазработала пользовательский интерфейс для игры, включая создание интуитивно понятных меню, экранов настроек, панелей инструментов и других элементов управления.\nСоздала интерактивный прототип игры.\nДек 2023 -\nЯнв 2024\n2 мес\nОрганизация 2\nUX/UI Designer (Стажер)\nУлучшила дизайн экранов мобильного приложения.\nАнимировала визуальные элементы: загрузка, персонажи, достижения и т.д.\nПрорабатывала экраны онбординга.\nСоздала интерактивный прототип некоторых частей приложения.",
+    "skills": "Средний уровень\nFigma\nMiro\nУровень не указан\nПроектирование пользовательских интерфейсов\nПрототипирование\nUsability\nДизайн интерфейсов\nHTML\nCSS\nMaterial Design\nUse Case Analysis\nNotion\nPersona\nUI Kit\nInformation Architecture\nUser Flow\nWireframing\nАтомарный дизайн\nДизайн мобильных приложений\nCJM\nUX-исследования\nПроектирование взаимодействия\nHuman Interface Guidelines\nEmpathy map\nUI/UX\nТестирование пользовательского интерфейса\nИнтерактивный дизайн\nBlender\nTilda\nAdobe Illustrator\nAdobe Photoshop",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Привет! Ищу работу в качестве UX/UI дизайнера.\nДизайнер c глубокими знаниями принципов проектирования UX/UI. Непрерывно улучшаю свои навыки, чтобы обеспечить наилучший пользовательский опыт. Ищу работу для реализации уникальных и значимых проектов.\nСсылка на портфолио: https://www.behance.net/tanushagrin",
+    "education": "Уровень\nВысшее образование\nБелорусский государственный университет, Минск\nФакультет радиофизики и компьютерных технологий, Радиофизика\n•\n2024\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №103\nРезюме: UX/UI Designer\n\nСопроводительное письмо\nCV: https://drive.google.com/file/d/1V3WxGhhwbW63vaLKaAG6w02VKFKP5-bF/view?usp=sharing\nPortfolio: https://www.behance.net/tanushagrin\n\nОпыт работы\nОпыт работы: 2 года 8 месяцев\nОпыт в похожих должностях:2 года 8 месяцев\nМай 2024 -\nсейчас\n2 года 6 мес\nОрганизация 1\nUX\\UI Designer\nСпроектировала User Flow для мобильной игры.\nРазработала пользовательский интерфейс для игры, включая создание интуитивно понятных меню, экранов настроек, панелей инструментов и других элементов управления.\nСоздала интерактивный прототип игры.\nДек 2023 -\nЯнв 2024\n2 мес\nОрганизация 2\nUX/UI Designer (Стажер)\nУлучшила дизайн экранов мобильного приложения.\nАнимировала визуальные элементы: загрузка, персонажи, достижения и т.д.\nПрорабатывала экраны онбординга.\nСоздала интерактивный прототип некоторых частей приложения.\n\nНавыки\nСредний уровень\nFigma\nMiro\nУровень не указан\nПроектирование пользовательских интерфейсов\nПрототипирование\nUsability\nДизайн интерфейсов\nHTML\nCSS\nMaterial Design\nUse Case Analysis\nNotion\nPersona\nUI Kit\nInformation Architecture\nUser Flow\nWireframing\nАтомарный дизайн\nДизайн мобильных приложений\nCJM\nUX-исследования\nПроектирование взаимодействия\nHuman Interface Guidelines\nEmpathy map\nUI/UX\nТестирование пользовательского интерфейса\nИнтерактивный дизайн\nBlender\nTilda\nAdobe Illustrator\nAdobe Photoshop\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nПривет! Ищу работу в качестве UX/UI дизайнера.\nДизайнер c глубокими знаниями принципов проектирования UX/UI. Непрерывно улучшаю свои навыки, чтобы обеспечить наилучший пользовательский опыт. Ищу работу для реализации уникальных и значимых проектов.\nСсылка на портфолио: https://www.behance.net/tanushagrin\n\nОбразование\nУровень\nВысшее образование\nБелорусский государственный университет, Минск\nФакультет радиофизики и компьютерных технологий, Радиофизика\n•\n2024\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь\n"
+}

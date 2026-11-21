@@ -131,3 +131,21 @@ button.act.responses-refresh:hover { background: #f7f7f7; }
   .report-progress { grid-column: 1 / -1; grid-row: 2; }
   .pdf-viewer { height: calc(100dvh - 156px); }
 }
+
+.upload-zone {
+  display: grid;
+  width: 100%;
+  gap: 4px;
+  padding: 20px;
+  border: 2px dashed #8493a6;
+  border-radius: 8px;
+  background: #fff;
+  color: #243447;
+  text-align: left;
+  cursor: pointer;
+}
+.upload-zone span { color: #475569; font-size: 14px; }
+.vac-group ~ .upload-zone { max-width: 1000px; margin-inline: auto; }
+.candidate-groups + .upload-zone { margin-top: 24px; }
+.upload-zone:hover, .upload-zone.dragging { border-color: #416893; background: #eff5fb; }
+.upload-zone.dragging { outline: 2px solid #416893; }

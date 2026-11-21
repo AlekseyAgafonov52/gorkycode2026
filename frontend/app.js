@@ -161,6 +161,19 @@ function readRecommendation() {
 }
 
 // Страница вакансий: названия строками через точку, сначала открытые, потом закрытые.
+let vacanciesRequested = false;
+const responsesRequested = new Set();
+
+function uploadButton(action, title, hint) {
+  return `<button type="button" class="upload-zone" data-upload="${action}">
+    <strong>${title}</strong><span>${hint}</span></button>`;
+}
+
+function renderVacanciesPage(content = "", busy = false) {
+  app.setAttribute("aria-busy", String(busy));
+  app.innerHTML = content + uploadButton("vacancies", "Загрузить вакансию", "Нажмите или перетащите файл вакансии.");
+}
+
 function renderVacancies() {
   const open = state.vacancies.filter((vacancy) => vacancy.status !== "closed");
   const closed = state.vacancies.filter((vacancy) => vacancy.status === "closed");
@@ -170,8 +183,10 @@ function renderVacancies() {
     : '<span class="vac-empty">Пока нет</span>';
   const group = (title, list, extra = "") => `<section class="vac-group ${extra}"><h2>${title}</h2><hr>
     <div class="vac-rows">${rows(list)}</div></section>`;
-  app.setAttribute("aria-busy", "false");
-  app.innerHTML = group("Открытые вакансии", open) + group("Закрытые вакансии", closed, "closed");
+  const content = state.vacancies.length
+    ? group("Открытые вакансии", open) + group("Закрытые вакансии", closed, "closed")
+    : '<p role="status">В базе пока нет вакансий.</p>';
+  renderVacanciesPage(content);
   hideLineEndDots();
 }
 
@@ -226,6 +241,12 @@ function renderList(vacancy, items) {
       <h2 id="match-group-${key}">${label}</h2><hr>
       ${groups[key].length ? `<div class="candidate-grid">${groups[key].map(card).join("")}</div>` : '<p class="candidate-group-empty">Нет откликов</p>'}
     </section>`).join("");
+  state.items = items;
+  const content = items.length ? sections : '<p role="status">Нет откликов.</p>';
+  renderResponsesPage(vacancy, `<div class="candidate-groups">${content}</div>`);
+}
+
+function renderResponsesPage(vacancy, content = "") {
   app.setAttribute("aria-busy", "false");
   app.innerHTML = `<div class="responses-page">
     <div class="responses-heading">
@@ -239,12 +260,11 @@ function renderList(vacancy, items) {
         </button>
         <span class="vacancy-state">(${vacancy.status === "closed" ? "вакансия закрыта" : "вакансия открыта"})</span>
       </div>
-      <button type="button" class="act responses-refresh" data-action="refresh">Обновить</button>
     </div>
     ${hiringBanner(vacancy)}
-    <div class="candidate-groups">${items.length ? sections : '<p role="status">Нет откликов.</p>'}</div>
+    ${content}
+    ${uploadButton("responses", "Загрузить отклики", "Нажмите или перетащите файлы откликов.")}
   </div>`;
-  state.items = items;
 }
 
 function renderPdfReport(report) {
@@ -567,23 +587,29 @@ async function route() {
   const { signal } = state.controller;
   state.report = null;
   state.items = null;
+  const home = !location.hash || location.hash === "#/";
   let vacancyId, responseId;
   try {
+    if (home) {
+      state.vacancyId = null;
+      vacancyCrumb.textContent = "";
+      if (!vacanciesRequested) {
+        renderVacanciesPage();
+        return;
+      }
+      renderVacanciesPage('<p role="status">Загрузка вакансий…</p>', true);
+    }
     const vacancies = await api.listVacancies({ signal });
     if (navigation !== state.navigation) return;
     if (!Array.isArray(vacancies)) throw new Error("Не удалось прочитать список вакансий.");
     state.vacancies = vacancies;
-    const parts = location.hash.match(/^#\/v\/([^/]+)(?:\/r\/([^/]+)(\/pdf)?)?\/?$/);
-    if (!parts) {
-      if (!location.hash || location.hash === "#/") {
-        state.vacancyId = null;
-        vacancyCrumb.textContent = "";
-        renderVacancies();
-        window.scrollTo(0, 0);
-        return;
-      }
-      throw new Error("Страница не найдена. Выберите вакансию.");
+    if (home) {
+      renderVacancies();
+      window.scrollTo(0, 0);
+      return;
     }
+    const parts = location.hash.match(/^#\/v\/([^/]+)(?:\/r\/([^/]+)(\/pdf)?)?\/?$/);
+    if (!parts) throw new Error("Страница не найдена. Выберите вакансию.");
     vacancyId = decodeURIComponent(parts[1]);
     responseId = parts[2] ? decodeURIComponent(parts[2]) : null;
     const legacyReportUrl = Boolean(parts[3]);
@@ -601,7 +627,13 @@ async function route() {
     vacancyCrumb.textContent = vacancy.title;
     vacancyCrumb.href = vacancyLink(vacancy.id);
     state.vacancyId = vacancyId;
-    loading(responseId ? "Загрузка отчёта…" : "Загрузка откликов…");
+    vacanciesRequested = true;
+    if (!responseId && !responsesRequested.has(vacancyId)) {
+      renderResponsesPage(vacancy);
+      window.scrollTo(0, 0);
+      return;
+    }
+    if (responseId) loading("Загрузка отчёта…");
     const requestStarted = performance.now();
     if (responseId) {
       let report = await api.getReport(responseId, { signal });
@@ -618,7 +650,16 @@ async function route() {
       loadPdfPreview(report.id, signal);
       markViewed(report);
     } else {
-      const items = await api.listResponses(vacancyId, { signal });
+      renderResponsesPage(vacancy, '<p role="status">Загрузка откликов…</p>');
+      let items;
+      try {
+        items = await api.listResponses(vacancyId, { signal });
+      } catch (error) {
+        if (!signal.aborted && navigation === state.navigation) {
+          renderResponsesPage(vacancy, `<p role="alert">${esc(error.message)}</p>`);
+        }
+        return;
+      }
       if (navigation !== state.navigation) return;
       items.forEach((item) => applyRecentResponseUpdates(item, requestStarted));
       renderList(vacancy, items);
@@ -626,31 +667,47 @@ async function route() {
     window.scrollTo(0, 0);
   } catch (error) {
     if (signal.aborted || navigation !== state.navigation) return;
-    message("Не удалось загрузить данные", error.message);
+    if (home) renderVacanciesPage(`<p role="alert">${esc(error.message)}</p>`);
+    else message("Не удалось загрузить данные", error.message);
   }
 }
 
-async function start() {
-  loading("Загрузка вакансий…");
-  try {
-    const vacancies = await api.listVacancies();
-    if (!Array.isArray(vacancies)) throw new Error("Не удалось прочитать список вакансий.");
-    state.vacancies = vacancies;
-    if (!vacancies.length) {
-      message("Вакансий пока нет", "После загрузки вакансий они появятся здесь.", "start");
-      return;
-    }
-    window.onhashchange = route;
-    await route();
-  } catch (error) {
-    message("Не удалось загрузить вакансии", error.message, "start");
-  }
+function activateUpload(action) {
+  if (action === "vacancies") vacanciesRequested = true;
+  if (action === "responses") responsesRequested.add(state.vacancyId);
+  return route();
 }
+
+function fileZone(event) {
+  if (!event.dataTransfer?.types.includes("Files")) return null;
+  return event.target instanceof Element ? event.target.closest("[data-upload]") : null;
+}
+
+app.addEventListener("dragover", (event) => {
+  const zone = fileZone(event);
+  if (!zone) return;
+  event.preventDefault();
+  event.dataTransfer.dropEffect = "copy";
+  zone.classList.add("dragging");
+});
+
+app.addEventListener("dragleave", (event) => {
+  const zone = event.target instanceof Element && event.target.closest("[data-upload]");
+  if (zone && !zone.contains(event.relatedTarget)) zone.classList.remove("dragging");
+});
+
+app.addEventListener("drop", (event) => {
+  const zone = fileZone(event);
+  if (!zone) return;
+  event.preventDefault();
+  zone.classList.remove("dragging");
+  if (event.dataTransfer.files.length) activateUpload(zone.dataset.upload);
+});
 
 app.addEventListener("click", (event) => {
   const button = event.target instanceof Element ? event.target.closest("button") : null;
   if (!button || button.disabled) return;
-  if (button.dataset.action === "start") start();
+  if (button.dataset.upload) activateUpload(button.dataset.upload);
   else if (button.dataset.action === "send-resume") sendResume();
   else if (button.dataset.action === "advance-status") advanceStatus(button);
   else if (button.dataset.workflowChoice) chooseStatus(button);
@@ -713,4 +770,5 @@ window.addEventListener("beforeunload", (event) => {
   }
 });
 
-start();
+window.addEventListener("hashchange", route);
+route();

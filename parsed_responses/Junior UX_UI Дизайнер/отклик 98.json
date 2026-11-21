@@ -1,0 +1,250 @@
+{
+  "candidate_id": 98,
+  "candidate_name": "Долинин Иван Михайлович",
+  "resume_title": "UX/UI дизайнер",
+  "cover_letter": "https://www.figma.com/file/v0bjN3mNl6A1GulkoeCBtu/ZEUS?type=design&node-id=3%3A5&mode=design&t=0SxAqkXAMl8JOU1t-1\nhttps://www.figma.com/file/0FLMgdzcJY2tt3Nmngpt4a/MONALIZI-ACADEMY?type=design&node-id=0%3A1&mode=design&t=xm2fxnp5q2Q2fjnH-1\nhttps://www.figma.com/file/0CfidBW6U0am6ad7aYXSGG/VERSACE?type=design&node-id=0%3A1&mode=design&t=d1kfnGtTMJndbrJf-1",
+  "experience_total_months": 44,
+  "similar_experience_months": null,
+  "work_experience": [
+    {
+      "start_date": "2023-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 44,
+      "organization": "Организация 1",
+      "position": "Фриланс",
+      "employer_details": [],
+      "description": "Фриланс",
+      "original": "Мар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nФриланс\nФриланс"
+    }
+  ],
+  "skills": [
+    {
+      "name": "UX",
+      "level": null,
+      "original": "UX"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "UI",
+      "level": null,
+      "original": "UI"
+    },
+    {
+      "name": "Дизайн интерфейсов",
+      "level": null,
+      "original": "Дизайн интерфейсов"
+    },
+    {
+      "name": "Проектирование пользовательских интерфейсов",
+      "level": null,
+      "original": "Проектирование пользовательских интерфейсов"
+    },
+    {
+      "name": "Design",
+      "level": null,
+      "original": "Design"
+    },
+    {
+      "name": "Web-дизайн",
+      "level": null,
+      "original": "Web-дизайн"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": null,
+      "original": "Adobe Photoshop"
+    },
+    {
+      "name": "Прототипирование",
+      "level": null,
+      "original": "Прототипирование"
+    },
+    {
+      "name": "Веб-дизайн",
+      "level": null,
+      "original": "Веб-дизайн"
+    },
+    {
+      "name": "Дизайн",
+      "level": null,
+      "original": "Дизайн"
+    },
+    {
+      "name": "Usability",
+      "level": null,
+      "original": "Usability"
+    },
+    {
+      "name": "UI/UX",
+      "level": null,
+      "original": "UI/UX"
+    },
+    {
+      "name": "Web Design",
+      "level": null,
+      "original": "Web Design"
+    },
+    {
+      "name": "Тестирование пользовательского интерфейса",
+      "level": null,
+      "original": "Тестирование пользовательского интерфейса"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": null,
+      "original": "Adobe Illustrator"
+    },
+    {
+      "name": "CJM",
+      "level": null,
+      "original": "CJM"
+    },
+    {
+      "name": "Дизайн-мышление",
+      "level": null,
+      "original": "Дизайн-мышление"
+    },
+    {
+      "name": "Разработка нового продукта",
+      "level": null,
+      "original": "Разработка нового продукта"
+    },
+    {
+      "name": "IT",
+      "level": null,
+      "original": "IT"
+    },
+    {
+      "name": "Работа в команде",
+      "level": null,
+      "original": "Работа в команде"
+    },
+    {
+      "name": "Продуктовый дизайн",
+      "level": null,
+      "original": "Продуктовый дизайн"
+    },
+    {
+      "name": "Аналитическое мышление",
+      "level": null,
+      "original": "Аналитическое мышление"
+    },
+    {
+      "name": "Торговая площадка",
+      "level": null,
+      "original": "Торговая площадка"
+    },
+    {
+      "name": "Графический дизайн",
+      "level": null,
+      "original": "Графический дизайн"
+    },
+    {
+      "name": "JTBD",
+      "level": null,
+      "original": "JTBD"
+    },
+    {
+      "name": "Исследования",
+      "level": null,
+      "original": "Исследования"
+    },
+    {
+      "name": "Дизайн система",
+      "level": null,
+      "original": "Дизайн система"
+    },
+    {
+      "name": "Userflow",
+      "level": null,
+      "original": "Userflow"
+    },
+    {
+      "name": "Дизайн мобильных приложений",
+      "level": null,
+      "original": "Дизайн мобильных приложений"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    },
+    {
+      "name": "Испанский",
+      "level": "A1",
+      "description": "Начальный",
+      "original": "Испанский — A1 — Начальный"
+    }
+  ],
+  "about_me": "• Работаю в Figma; Tilda; Photoshop\n• Разработал 15 сайтов и 5 лонгридов\n• Делал баннеры и посты в соцсетях\n• Владею Auto Layout\n• Создаю адаптивы, Mockups, Low-Fi и Hi-Fi wireframe\n• Обладаю определённой визуальной насмотренностью\n• Знаю как управлять вниманием пользователя",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Российская академия народного хозяйства и государственной службы при Президенте РФ, Москва",
+      "details": [
+        "Экономический факультет, Финансовый контроль и государственный аудит"
+      ],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Российская академия народного хозяйства и государственной службы при Президенте РФ, Москва\nЭкономический факультет, Финансовый контроль и государственный аудит\n•\n2024\n•\nВысшее образование"
+    },
+    {
+      "institution": "Курсы UX/UI дизайна BLHN",
+      "details": [],
+      "year": 2024,
+      "level": "Высшее образование",
+      "original": "Курсы UX/UI дизайна BLHN\n2024\n•\nВысшее образование"
+    },
+    {
+      "institution": "Курсы UX/UI дизайна Alexey Bychkov",
+      "details": [],
+      "year": 2023,
+      "level": "Высшее образование",
+      "original": "Курсы UX/UI дизайна Alexey Bychkov\n2023\n•\nВысшее образование"
+    },
+    {
+      "institution": "Московский государственный строительный университет, Москва",
+      "details": [
+        "Стандартизация и метрология, Стандартизация и сертификация (инженер)"
+      ],
+      "year": 2022,
+      "level": "Высшее образование",
+      "original": "Московский государственный строительный университет, Москва\nСтандартизация и метрология, Стандартизация и сертификация (инженер)\n•\n2022\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Не готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №98\nРезюме: UX/UI дизайнер",
+    "cover_letter": "https://www.figma.com/file/v0bjN3mNl6A1GulkoeCBtu/ZEUS?type=design&node-id=3%3A5&mode=design&t=0SxAqkXAMl8JOU1t-1\nhttps://www.figma.com/file/0FLMgdzcJY2tt3Nmngpt4a/MONALIZI-ACADEMY?type=design&node-id=0%3A1&mode=design&t=xm2fxnp5q2Q2fjnH-1\nhttps://www.figma.com/file/0CfidBW6U0am6ad7aYXSGG/VERSACE?type=design&node-id=0%3A1&mode=design&t=d1kfnGtTMJndbrJf-1",
+    "experience": "Опыт работы: 3 года 8 месяцев\nМар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nФриланс\nФриланс",
+    "skills": "UX\nFigma\nUI\nДизайн интерфейсов\nПроектирование пользовательских интерфейсов\nDesign\nWeb-дизайн\nAdobe Photoshop\nПрототипирование\nВеб-дизайн\nДизайн\nUsability\nUI/UX\nWeb Design\nТестирование пользовательского интерфейса\nAdobe Illustrator\nCJM\nДизайн-мышление\nРазработка нового продукта\nIT\nРабота в команде\nПродуктовый дизайн\nАналитическое мышление\nТорговая площадка\nГрафический дизайн\nJTBD\nИсследования\nДизайн система\nUserflow\nДизайн мобильных приложений",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний\nИспанский — A1 — Начальный",
+    "about_me": "• Работаю в Figma; Tilda; Photoshop\n• Разработал 15 сайтов и 5 лонгридов\n• Делал баннеры и посты в соцсетях\n• Владею Auto Layout\n• Создаю адаптивы, Mockups, Low-Fi и Hi-Fi wireframe\n• Обладаю определённой визуальной насмотренностью\n• Знаю как управлять вниманием пользователя",
+    "education": "Уровень\nВысшее образование\nРоссийская академия народного хозяйства и государственной службы при Президенте РФ, Москва\nЭкономический факультет, Финансовый контроль и государственный аудит\n•\n2024\n•\nВысшее образование\nКурсы UX/UI дизайна BLHN\n2024\n•\nВысшее образование\nКурсы UX/UI дизайна Alexey Bychkov\n2023\n•\nВысшее образование\nМосковский государственный строительный университет, Москва\nСтандартизация и метрология, Стандартизация и сертификация (инженер)\n•\n2022\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №98\nРезюме: UX/UI дизайнер\n\nСопроводительное письмо\nhttps://www.figma.com/file/v0bjN3mNl6A1GulkoeCBtu/ZEUS?type=design&node-id=3%3A5&mode=design&t=0SxAqkXAMl8JOU1t-1\nhttps://www.figma.com/file/0FLMgdzcJY2tt3Nmngpt4a/MONALIZI-ACADEMY?type=design&node-id=0%3A1&mode=design&t=xm2fxnp5q2Q2fjnH-1\nhttps://www.figma.com/file/0CfidBW6U0am6ad7aYXSGG/VERSACE?type=design&node-id=0%3A1&mode=design&t=d1kfnGtTMJndbrJf-1\n\nОпыт работы\nОпыт работы: 3 года 8 месяцев\nМар 2023 -\nсейчас\n3 года 8 мес\nОрганизация 1\nФриланс\nФриланс\n\nНавыки\nUX\nFigma\nUI\nДизайн интерфейсов\nПроектирование пользовательских интерфейсов\nDesign\nWeb-дизайн\nAdobe Photoshop\nПрототипирование\nВеб-дизайн\nДизайн\nUsability\nUI/UX\nWeb Design\nТестирование пользовательского интерфейса\nAdobe Illustrator\nCJM\nДизайн-мышление\nРазработка нового продукта\nIT\nРабота в команде\nПродуктовый дизайн\nАналитическое мышление\nТорговая площадка\nГрафический дизайн\nJTBD\nИсследования\nДизайн система\nUserflow\nДизайн мобильных приложений\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\nИспанский — A1 — Начальный\n\nОбо мне\n• Работаю в Figma; Tilda; Photoshop\n• Разработал 15 сайтов и 5 лонгридов\n• Делал баннеры и посты в соцсетях\n• Владею Auto Layout\n• Создаю адаптивы, Mockups, Low-Fi и Hi-Fi wireframe\n• Обладаю определённой визуальной насмотренностью\n• Знаю как управлять вниманием пользователя\n\nОбразование\nУровень\nВысшее образование\nРоссийская академия народного хозяйства и государственной службы при Президенте РФ, Москва\nЭкономический факультет, Финансовый контроль и государственный аудит\n•\n2024\n•\nВысшее образование\nКурсы UX/UI дизайна BLHN\n2024\n•\nВысшее образование\nКурсы UX/UI дизайна Alexey Bychkov\n2023\n•\nВысшее образование\nМосковский государственный строительный университет, Москва\nСтандартизация и метрология, Стандартизация и сертификация (инженер)\n•\n2022\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nНе готов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

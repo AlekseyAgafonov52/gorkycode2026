@@ -1,0 +1,149 @@
+{
+  "candidate_id": 10,
+  "candidate_name": "Чернова Валерия Павловна",
+  "resume_title": "UX/UI-дизайнер",
+  "cover_letter": null,
+  "experience_total_months": null,
+  "similar_experience_months": null,
+  "work_experience": [],
+  "skills": [
+    {
+      "name": "Figma",
+      "level": "advanced",
+      "original": "Figma"
+    },
+    {
+      "name": "ChatGPT",
+      "level": "advanced",
+      "original": "ChatGPT"
+    },
+    {
+      "name": "AI-инструменты",
+      "level": "advanced",
+      "original": "AI-инструменты"
+    },
+    {
+      "name": "UX/UI дизайн",
+      "level": "intermediate",
+      "original": "UX/UI дизайн"
+    },
+    {
+      "name": "Product Design",
+      "level": "intermediate",
+      "original": "Product Design"
+    },
+    {
+      "name": "Прототипирование",
+      "level": "intermediate",
+      "original": "Прототипирование"
+    },
+    {
+      "name": "Веб-дизайн",
+      "level": "intermediate",
+      "original": "Веб-дизайн"
+    },
+    {
+      "name": "Мобильный дизайн",
+      "level": "intermediate",
+      "original": "Мобильный дизайн"
+    },
+    {
+      "name": "User Flow",
+      "level": "intermediate",
+      "original": "User Flow"
+    },
+    {
+      "name": "Дизайн-системы",
+      "level": "intermediate",
+      "original": "Дизайн-системы"
+    },
+    {
+      "name": "Адаптивный дизайн",
+      "level": "intermediate",
+      "original": "Адаптивный дизайн"
+    },
+    {
+      "name": "UI Kit",
+      "level": "intermediate",
+      "original": "UI Kit"
+    },
+    {
+      "name": "Графический дизайн",
+      "level": "intermediate",
+      "original": "Графический дизайн"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": "intermediate",
+      "original": "Adobe Illustrator"
+    },
+    {
+      "name": "Работа с референсами",
+      "level": "intermediate",
+      "original": "Работа с референсами"
+    },
+    {
+      "name": "Анализ пользовательских сценариев",
+      "level": "intermediate",
+      "original": "Анализ пользовательских сценариев"
+    },
+    {
+      "name": "Векторная графика",
+      "level": "basic",
+      "original": "Векторная графика"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": "basic",
+      "original": "Adobe Photoshop"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B1",
+      "description": "Средний",
+      "original": "Английский — B1 — Средний"
+    }
+  ],
+  "about_me": null,
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Филиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород",
+      "details": [
+        "ИМиКН, Бизнес-информатика"
+      ],
+      "year": 2026,
+      "level": "Высшее образование",
+      "original": "Филиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nИМиКН, Бизнес-информатика\n•\n2026\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готов к командировкам",
+    "citizenship": "Россия",
+    "work_permit": "Россия",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №10\nРезюме: UX/UI-дизайнер",
+    "cover_letter": "Не указано в доступной версии резюме.",
+    "experience": "Не указано в доступной версии резюме.",
+    "skills": "Продвинутый уровень\nFigma\nChatGPT\nAI-инструменты\nСредний уровень\nUX/UI дизайн\nProduct Design\nПрототипирование\nВеб-дизайн\nМобильный дизайн\nUser Flow\nДизайн-системы\nАдаптивный дизайн\nUI Kit\nГрафический дизайн\nAdobe Illustrator\nРабота с референсами\nАнализ пользовательских сценариев\nБазовый уровень\nВекторная графика\nAdobe Photoshop",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B1 — Средний",
+    "about_me": "Не указано в доступной версии резюме.",
+    "education": "Уровень\nВысшее образование\nФилиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nИМиКН, Бизнес-информатика\n•\n2026\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №10\nРезюме: UX/UI-дизайнер\n\nСопроводительное письмо\nНе указано в доступной версии резюме.\n\nОпыт работы\nНе указано в доступной версии резюме.\n\nНавыки\nПродвинутый уровень\nFigma\nChatGPT\nAI-инструменты\nСредний уровень\nUX/UI дизайн\nProduct Design\nПрототипирование\nВеб-дизайн\nМобильный дизайн\nUser Flow\nДизайн-системы\nАдаптивный дизайн\nUI Kit\nГрафический дизайн\nAdobe Illustrator\nРабота с референсами\nАнализ пользовательских сценариев\nБазовый уровень\nВекторная графика\nAdobe Photoshop\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B1 — Средний\n\nОбо мне\nНе указано в доступной версии резюме.\n\nОбразование\nУровень\nВысшее образование\nФилиал Национального исследовательского университета \"Высшая школа экономики\", Нижний Новгород\nИМиКН, Бизнес-информатика\n•\n2026\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотов к командировкам\nГражданство:\nРоссия\nРазрешение на работу:\nРоссия\n"
+}

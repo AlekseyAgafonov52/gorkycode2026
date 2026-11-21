@@ -69,6 +69,10 @@ class PdfReports:
             found = self._lookup_in(root, response_id, vacancy_id)
             if found is not None:
                 return found
+        if DEFAULT_REPORTS in self.roots:
+            directory = DEFAULT_REPORTS / str(vacancy_id)
+            if directory.resolve().is_relative_to(DEFAULT_REPORTS.resolve()):
+                return self._lookup_in(directory, response_id, vacancy_id)
         return None
 
     @staticmethod

@@ -1,0 +1,261 @@
+{
+  "candidate_id": 112,
+  "candidate_name": "Ветлугин Иван Павлович",
+  "resume_title": "UX/UI дизайнер",
+  "cover_letter": "Здравствуйте!\nМеня зовут Мария, я UI/UX дизайнер.\nИскренне заинтересована в позиции UI/UX дизайнера в вашей компании. Мои ключевые навыки и опыт:\n- Владение Figma, Illustrator и Photoshop: эффективно воплощаю идеи в визуальные концепции и создаю привлекательные интерфейсы.\n- Опыт UX исследований: создаю продукты, удовлетворяющие потребности пользователей и улучшающие показатели продукта.\n- Опыт разработки дизайна сайтов и мобильных приложений: опыт в создании дизайнов для различных платформ гарантирует доступность и универсальность продукта. Опыт в создании лендингов, интернет-магазинов, сайтов-визиток, мобильных приложений.\n- Высшее экономическое образование: имею понимание того, как бизнес-процессы влияют на пользовательский опыт, что позволяет мне создавать дизайны, соответствующие бизнес-целям.\nГотова выполнить тестовое задание. Портфолио прилагаю: https://www.figma.com/proto/tMCOFpwdvTXihaa5LyjGuu/MK-CV?page-id=96%3A334&type=design&node-id=702-50&viewport=303%2C1053%2C0.15&t=KrELiIZR0QYMlNRq-9&scaling=scale-down&starting-point-node-id=702%3A50&show-proto-sidebar=1\nСпасибо за внимание и надеюсь на возможность встретиться лично!\nС уважением, Мария",
+  "experience_total_months": 86,
+  "similar_experience_months": 9,
+  "work_experience": [
+    {
+      "start_date": "2026-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 9,
+      "organization": "Организация 1",
+      "position": "UX/UI-designer",
+      "employer_details": [
+        "celadonsoft.com"
+      ],
+      "description": "Managed up to 3 projects simultaneously, designed web and mobile interfaces for MVP products across finance, food delivery, e-commerce, content platforms, and other domains.\nDesigned complex features and user flows from scratch, including admin dashboards, stock management, employee workflows, registration and document-upload flows, order tracking, and status timelines.\nCreated responsive designs for desktop, tablet, and mobile, as well as iOS and PWA products, defining breakpoints and adapting components across platforms.\nConducted desk and competitor research, analyzed existing products, clarified requirements, and proposed UX improvements to reduce iterations and improve usability.",
+      "original": "Фев 2026 -\nсейчас\n9 мес\nОрганизация 1\nceladonsoft.com\nUX/UI-designer\nManaged up to 3 projects simultaneously, designed web and mobile interfaces for MVP products across finance, food delivery, e-commerce, content platforms, and other domains.\nDesigned complex features and user flows from scratch, including admin dashboards, stock management, employee workflows, registration and document-upload flows, order tracking, and status timelines.\nCreated responsive designs for desktop, tablet, and mobile, as well as iOS and PWA products, defining breakpoints and adapting components across platforms.\nConducted desk and competitor research, analyzed existing products, clarified requirements, and proposed UX improvements to reduce iterations and improve usability."
+    },
+    {
+      "start_date": "2024-02",
+      "end_date": "2026-02",
+      "is_current": false,
+      "duration_months": 25,
+      "organization": "Организация 2",
+      "position": "Financial manager",
+      "employer_details": [],
+      "description": "Effectively organized work, improved cooperation with partners, minimizing payment delays by 25%.\nSuccessfully replaced the head of department during his absence.\nCreated a repository of documents and project instructions in Notion, optimizing information storage and access.",
+      "original": "Фев 2024 -\nФев 2026\n2 года 1 мес\nОрганизация 2\nFinancial manager\nEffectively organized work, improved cooperation with partners, minimizing payment delays by 25%.\nSuccessfully replaced the head of department during his absence.\nCreated a repository of documents and project instructions in Notion, optimizing information storage and access."
+    },
+    {
+      "start_date": "2022-08",
+      "end_date": "2024-02",
+      "is_current": false,
+      "duration_months": 19,
+      "organization": "Организация 3",
+      "position": "Lead economist",
+      "employer_details": [
+        "Минск"
+      ],
+      "description": "Optimized and automated cost calculations,\nwhich accelerated the company's processes by 30%.",
+      "original": "Авг 2022 -\nФев 2024\n1 год 7 мес\nОрганизация 3\nМинск\nLead economist\nOptimized and automated cost calculations,\nwhich accelerated the company's processes by 30%."
+    },
+    {
+      "start_date": "2019-09",
+      "end_date": "2022-08",
+      "is_current": false,
+      "duration_months": 36,
+      "organization": "Организация 4",
+      "position": "Management Accounting Economist",
+      "employer_details": [
+        "Минск",
+        "СМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование"
+      ],
+      "description": "Developed the company's budget, conducted deviation analysis and plan factor analysis, as a result of which she ensured that the budget corresponded to real indicators and increased the financial transparency of the company. Developed 5+ dashboards in Power BI and automated more than 7+ analytical reports, optimizing data analysis processes and accelerated decision-making by 40%",
+      "original": "Сен 2019 -\nАвг 2022\n3 года\nОрганизация 4\nМинск\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nManagement Accounting Economist\nDeveloped the company's budget, conducted deviation analysis and plan factor analysis, as a result of which she ensured that the budget corresponded to real indicators and increased the financial transparency of the company. Developed 5+ dashboards in Power BI and automated more than 7+ analytical reports, optimizing data analysis processes and accelerated decision-making by 40%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "UX Research",
+      "level": null,
+      "original": "UX Research"
+    },
+    {
+      "name": "UI design",
+      "level": null,
+      "original": "UI design"
+    },
+    {
+      "name": "Figma",
+      "level": null,
+      "original": "Figma"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": null,
+      "original": "Adobe Photoshop"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": null,
+      "original": "Adobe Illustrator"
+    },
+    {
+      "name": "Wireframing",
+      "level": null,
+      "original": "Wireframing"
+    },
+    {
+      "name": "Prototyping",
+      "level": null,
+      "original": "Prototyping"
+    },
+    {
+      "name": "Miro",
+      "level": null,
+      "original": "Miro"
+    },
+    {
+      "name": "Notion",
+      "level": null,
+      "original": "Notion"
+    },
+    {
+      "name": "UX copy",
+      "level": null,
+      "original": "UX copy"
+    },
+    {
+      "name": "User flows",
+      "level": null,
+      "original": "User flows"
+    },
+    {
+      "name": "Competitive Analysis",
+      "level": null,
+      "original": "Competitive Analysis"
+    },
+    {
+      "name": "Information Architecture",
+      "level": null,
+      "original": "Information Architecture"
+    },
+    {
+      "name": "Empathy Mapping",
+      "level": null,
+      "original": "Empathy Mapping"
+    },
+    {
+      "name": "Jobs To Be Done",
+      "level": null,
+      "original": "Jobs To Be Done"
+    },
+    {
+      "name": "Design Principles",
+      "level": null,
+      "original": "Design Principles"
+    },
+    {
+      "name": "Layouts",
+      "level": null,
+      "original": "Layouts"
+    },
+    {
+      "name": "Inclusive Design",
+      "level": null,
+      "original": "Inclusive Design"
+    },
+    {
+      "name": "Tilda",
+      "level": null,
+      "original": "Tilda"
+    },
+    {
+      "name": "Adaptive Design",
+      "level": null,
+      "original": "Adaptive Design"
+    },
+    {
+      "name": "Variables",
+      "level": null,
+      "original": "Variables"
+    },
+    {
+      "name": "Components",
+      "level": null,
+      "original": "Components"
+    },
+    {
+      "name": "AutoLayout",
+      "level": null,
+      "original": "AutoLayout"
+    },
+    {
+      "name": "ChatGPT",
+      "level": null,
+      "original": "ChatGPT"
+    },
+    {
+      "name": "Gemini",
+      "level": null,
+      "original": "Gemini"
+    },
+    {
+      "name": "AI",
+      "level": null,
+      "original": "AI"
+    },
+    {
+      "name": "AI tools",
+      "level": null,
+      "original": "AI tools"
+    },
+    {
+      "name": "Business English",
+      "level": null,
+      "original": "Business English"
+    },
+    {
+      "name": "Design Tokens",
+      "level": null,
+      "original": "Design Tokens"
+    },
+    {
+      "name": "Claude",
+      "level": null,
+      "original": "Claude"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Русский",
+      "level": "native",
+      "description": null,
+      "original": "Русский"
+    },
+    {
+      "name": "Английский",
+      "level": "B2",
+      "description": "Средне-продвинутый",
+      "original": "Английский — B2 — Средне-продвинутый"
+    }
+  ],
+  "about_me": "UX/UI designer with a background in finance, skilled in working with data and understanding business needs.\nSystematic thinking and attention to detail enable me to develop solutions that benefit both users and businesses.\nEnglish B2",
+  "education_level": "Высшее образование",
+  "education": [
+    {
+      "institution": "Belarusian State University of Economics, Minsk",
+      "details": [
+        "Economics and Management, Экономика труда"
+      ],
+      "year": 2020,
+      "level": "Высшее образование",
+      "original": "Belarusian State University of Economics, Minsk\nEconomics and Management, Экономика труда\n•\n2020\n•\nВысшее образование"
+    }
+  ],
+  "additional": {
+    "commute": "Не имеет значения",
+    "business_trips": "Готова к командировкам",
+    "citizenship": "Беларусь",
+    "work_permit": "Беларусь",
+    "driving": null,
+    "self_employment": null,
+    "medical_book": null
+  },
+  "original_sections": {
+    "header": "Кандидат №112\nРезюме: UX/UI дизайнер",
+    "cover_letter": "Здравствуйте!\nМеня зовут Мария, я UI/UX дизайнер.\nИскренне заинтересована в позиции UI/UX дизайнера в вашей компании. Мои ключевые навыки и опыт:\n- Владение Figma, Illustrator и Photoshop: эффективно воплощаю идеи в визуальные концепции и создаю привлекательные интерфейсы.\n- Опыт UX исследований: создаю продукты, удовлетворяющие потребности пользователей и улучшающие показатели продукта.\n- Опыт разработки дизайна сайтов и мобильных приложений: опыт в создании дизайнов для различных платформ гарантирует доступность и универсальность продукта. Опыт в создании лендингов, интернет-магазинов, сайтов-визиток, мобильных приложений.\n- Высшее экономическое образование: имею понимание того, как бизнес-процессы влияют на пользовательский опыт, что позволяет мне создавать дизайны, соответствующие бизнес-целям.\nГотова выполнить тестовое задание. Портфолио прилагаю: https://www.figma.com/proto/tMCOFpwdvTXihaa5LyjGuu/MK-CV?page-id=96%3A334&type=design&node-id=702-50&viewport=303%2C1053%2C0.15&t=KrELiIZR0QYMlNRq-9&scaling=scale-down&starting-point-node-id=702%3A50&show-proto-sidebar=1\nСпасибо за внимание и надеюсь на возможность встретиться лично!\nС уважением, Мария",
+    "experience": "Опыт работы: 7 лет 2 месяца\nОпыт в похожих должностях:9 месяцев\nФев 2026 -\nсейчас\n9 мес\nОрганизация 1\nceladonsoft.com\nUX/UI-designer\nManaged up to 3 projects simultaneously, designed web and mobile interfaces for MVP products across finance, food delivery, e-commerce, content platforms, and other domains.\nDesigned complex features and user flows from scratch, including admin dashboards, stock management, employee workflows, registration and document-upload flows, order tracking, and status timelines.\nCreated responsive designs for desktop, tablet, and mobile, as well as iOS and PWA products, defining breakpoints and adapting components across platforms.\nConducted desk and competitor research, analyzed existing products, clarified requirements, and proposed UX improvements to reduce iterations and improve usability.\nФев 2024 -\nФев 2026\n2 года 1 мес\nОрганизация 2\nFinancial manager\nEffectively organized work, improved cooperation with partners, minimizing payment delays by 25%.\nSuccessfully replaced the head of department during his absence.\nCreated a repository of documents and project instructions in Notion, optimizing information storage and access.\nАвг 2022 -\nФев 2024\n1 год 7 мес\nОрганизация 3\nМинск\nLead economist\nOptimized and automated cost calculations,\nwhich accelerated the company's processes by 30%.\nСен 2019 -\nАвг 2022\n3 года\nОрганизация 4\nМинск\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nManagement Accounting Economist\nDeveloped the company's budget, conducted deviation analysis and plan factor analysis, as a result of which she ensured that the budget corresponded to real indicators and increased the financial transparency of the company. Developed 5+ dashboards in Power BI and automated more than 7+ analytical reports, optimizing data analysis processes and accelerated decision-making by 40%",
+    "skills": "UX Research\nUI design\nFigma\nAdobe Photoshop\nAdobe Illustrator\nWireframing\nPrototyping\nMiro\nNotion\nUX copy\nUser flows\nCompetitive Analysis\nInformation Architecture\nEmpathy Mapping\nJobs To Be Done\nDesign Principles\nLayouts\nInclusive Design\nTilda\nAdaptive Design\nVariables\nComponents\nAutoLayout\nChatGPT\nGemini\nAI\nAI tools\nBusiness English\nDesign Tokens\nClaude",
+    "languages": "Родной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый",
+    "about_me": "UX/UI designer with a background in finance, skilled in working with data and understanding business needs.\nSystematic thinking and attention to detail enable me to develop solutions that benefit both users and businesses.\nEnglish B2",
+    "education": "Уровень\nВысшее образование\nBelarusian State University of Economics, Minsk\nEconomics and Management, Экономика труда\n•\n2020\n•\nВысшее образование",
+    "additional": "Желательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь"
+  },
+  "warnings": [],
+  "source_text": "Кандидат №112\nРезюме: UX/UI дизайнер\n\nСопроводительное письмо\nЗдравствуйте!\nМеня зовут Мария, я UI/UX дизайнер.\nИскренне заинтересована в позиции UI/UX дизайнера в вашей компании. Мои ключевые навыки и опыт:\n- Владение Figma, Illustrator и Photoshop: эффективно воплощаю идеи в визуальные концепции и создаю привлекательные интерфейсы.\n- Опыт UX исследований: создаю продукты, удовлетворяющие потребности пользователей и улучшающие показатели продукта.\n- Опыт разработки дизайна сайтов и мобильных приложений: опыт в создании дизайнов для различных платформ гарантирует доступность и универсальность продукта. Опыт в создании лендингов, интернет-магазинов, сайтов-визиток, мобильных приложений.\n- Высшее экономическое образование: имею понимание того, как бизнес-процессы влияют на пользовательский опыт, что позволяет мне создавать дизайны, соответствующие бизнес-целям.\nГотова выполнить тестовое задание. Портфолио прилагаю: https://www.figma.com/proto/tMCOFpwdvTXihaa5LyjGuu/MK-CV?page-id=96%3A334&type=design&node-id=702-50&viewport=303%2C1053%2C0.15&t=KrELiIZR0QYMlNRq-9&scaling=scale-down&starting-point-node-id=702%3A50&show-proto-sidebar=1\nСпасибо за внимание и надеюсь на возможность встретиться лично!\nС уважением, Мария\n\nОпыт работы\nОпыт работы: 7 лет 2 месяца\nОпыт в похожих должностях:9 месяцев\nФев 2026 -\nсейчас\n9 мес\nОрганизация 1\nceladonsoft.com\nUX/UI-designer\nManaged up to 3 projects simultaneously, designed web and mobile interfaces for MVP products across finance, food delivery, e-commerce, content platforms, and other domains.\nDesigned complex features and user flows from scratch, including admin dashboards, stock management, employee workflows, registration and document-upload flows, order tracking, and status timelines.\nCreated responsive designs for desktop, tablet, and mobile, as well as iOS and PWA products, defining breakpoints and adapting components across platforms.\nConducted desk and competitor research, analyzed existing products, clarified requirements, and proposed UX improvements to reduce iterations and improve usability.\nФев 2024 -\nФев 2026\n2 года 1 мес\nОрганизация 2\nFinancial manager\nEffectively organized work, improved cooperation with partners, minimizing payment delays by 25%.\nSuccessfully replaced the head of department during his absence.\nCreated a repository of documents and project instructions in Notion, optimizing information storage and access.\nАвг 2022 -\nФев 2024\n1 год 7 мес\nОрганизация 3\nМинск\nLead economist\nOptimized and automated cost calculations,\nwhich accelerated the company's processes by 30%.\nСен 2019 -\nАвг 2022\n3 года\nОрганизация 4\nМинск\nСМИ, маркетинг, реклама, BTL, PR, дизайн, продюсирование\nManagement Accounting Economist\nDeveloped the company's budget, conducted deviation analysis and plan factor analysis, as a result of which she ensured that the budget corresponded to real indicators and increased the financial transparency of the company. Developed 5+ dashboards in Power BI and automated more than 7+ analytical reports, optimizing data analysis processes and accelerated decision-making by 40%\n\nНавыки\nUX Research\nUI design\nFigma\nAdobe Photoshop\nAdobe Illustrator\nWireframing\nPrototyping\nMiro\nNotion\nUX copy\nUser flows\nCompetitive Analysis\nInformation Architecture\nEmpathy Mapping\nJobs To Be Done\nDesign Principles\nLayouts\nInclusive Design\nTilda\nAdaptive Design\nVariables\nComponents\nAutoLayout\nChatGPT\nGemini\nAI\nAI tools\nBusiness English\nDesign Tokens\nClaude\n\nЯзыки\nРодной\nРусский\nДругие языки\nАнглийский — B2 — Средне-продвинутый\n\nОбо мне\nUX/UI designer with a background in finance, skilled in working with data and understanding business needs.\nSystematic thinking and attention to detail enable me to develop solutions that benefit both users and businesses.\nEnglish B2\n\nОбразование\nУровень\nВысшее образование\nBelarusian State University of Economics, Minsk\nEconomics and Management, Экономика труда\n•\n2020\n•\nВысшее образование\n\nДополнительно\nЖелательное время в пути до работы:\nНе имеет значения\nКомандировки:\nГотова к командировкам\nГражданство:\nБеларусь\nРазрешение на работу:\nБеларусь\n"
+}
