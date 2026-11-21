@@ -142,7 +142,9 @@ class HRService:
         structured = response.report.structured_resume
         months = (structured["experience_months"] if "experience_months" in structured
                   else resume_from_json(response.source_json).experience_months)
+        contacts = report.contacts
         return ContractResponse.model_validate({**report.model_dump(include=set(ContractResponse.model_fields)),
+                                                "has_contacts": any((contacts.phone, contacts.email, contacts.telegram)),
                                                 "experience_months": months})
 
     def list_responses(self, vacancy_id: UUID, *, match_status: str | None = None,

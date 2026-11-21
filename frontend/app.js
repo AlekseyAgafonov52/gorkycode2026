@@ -142,10 +142,10 @@ function hiringBanner(vacancy) {
 }
 
 const RECOMMENDATION_FIELDS = [
-  ["strengths", "Сильные стороны (необязательно)"],
-  ["weaknesses", "Слабые места (необязательно)"],
-  ["interview_focus", "Что проверить на собеседовании (необязательно)"],
-  ["notes", "Заметки (необязательно)"],
+  ["strengths", "Сильные стороны"],
+  ["weaknesses", "Слабые места"],
+  ["interview_focus", "Что проверить на собеседовании"],
+  ["notes", "Заметки"],
 ];
 
 function recommendationForm(report) {
@@ -203,8 +203,12 @@ function renderList(vacancy, items) {
   vacancy.responses_count = items.length;
   const groups = { green: [], yellow: [], red: [] };
   for (const item of items) {
-    const group = item.candidate_name?.trim() ? item.match_status : "red";
+    const group = item.candidate_name?.trim() && item.has_contacts ? item.match_status : "red";
     groups[group].push(item);
+  }
+  for (const group of Object.values(groups)) {
+    group.sort((first, second) =>
+      Number(first.workflow_status === "forwarded") - Number(second.workflow_status === "forwarded"));
   }
   const card = (item) => {
     const status = responseStatus(item);
@@ -331,7 +335,7 @@ function renderReport(report, vacancy) {
       <h1 data-candidate-name>${esc(report.candidate_name || "ФИО не указано")}</h1>
       ${vacancy.status === "closed" ? '<p class="closure-badge">Вакансия закрыта HR</p>' : ""}
       ${report.hired_at ? '<p class="hiring-badge">Найм закрыт · трудовой договор подписан</p>' : report.is_closed ? '<p class="closure-badge">Работа с откликом в департаменте завершена</p>' : ""}
-      <p>Рекомендации рекрутера будут показаны руководителю в Telegram.</p>${recommendationForm(report)}
+      <p>Рекомендации рекрутера будут переданы в департамент.</p>${recommendationForm(report)}
       <p class="notice" data-save-notice role="status" aria-live="polite"></p>
     </section>
     <section class="panel" id="report-panel-resume" role="tabpanel" aria-labelledby="report-tab-resume" tabindex="0" data-source-panel hidden>
@@ -538,7 +542,7 @@ async function saveWorkflow(status, recommendation) {
     if (transfer) {
       fields.recruiter_recommendation = recommendation;
       state.recommendationDrafts.delete(report.id);
-      notice = "Резюме и отзыв переданы на отправку в Telegram.";
+      notice = "Резюме и отзыв переданы на отправку в департамент.";
     } else {
       state.changedStatuses.add(report.id);
       if (status === "reviewed") markViewed(report);

@@ -8,7 +8,7 @@ CORS разрешает `http://localhost:5173`. Идентификаторы �
 | Метод и путь | Ответ |
 | --- | --- |
 | `GET /vacancies` | `[{id, title, responses_count}]` |
-| `GET /vacancies/{id}/responses` | `[{id, candidate_name, match_status, match_share, short_summary, workflow_status}]` |
+| `GET /vacancies/{id}/responses` | `[{id, candidate_name, has_contacts, match_status, match_share, short_summary, workflow_status}]` |
 | `GET /responses/{id}/report` | Сохранённый отчёт по схеме `ContractReport` |
 | `PATCH /responses/{id}/status` | `{id, workflow_status}` |
 | `PATCH /responses/{id}/viewed` | `{id, is_viewed}` — ручная отметка просмотра HR |
@@ -47,6 +47,7 @@ GET списка поддерживает фильтр `?is_viewed=true` / `fals
 
 - Итоговый цвет `green` при доле совпадения >= `GREEN_THRESHOLD` (единственная константа, 0.7), иначе `yellow`.
 - Отсутствие ФИО и контактов не влияет на оценку. Эти пропуски остаются в `missing_data` как уточнения.
+- В списке откликов `has_contacts` показывает наличие телефона, email или Telegram. Фронтенд использует этот признак вместе с ФИО для раздела «Отсутствуют необходимые данные».
 - Явный навык без уровня, со средним или продвинутым уровнем — `green`; базовый уровень или косвенное упоминание — `yellow`; отсутствие — `red`.
 - Доля = число навыков с цветом не red / число навыков вакансии. При пустом списке — 0.
 - Явные теги «Ключевые навыки» имеют приоритет; при их отсутствии используются требования. VueJS и Vue 3 приводятся к Vue.js.

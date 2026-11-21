@@ -205,7 +205,11 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual([r["match_share"] for r in rows], [1, .5, .25])
         self.assertEqual(rows[-1]["id"], str(self.ids[1]))
         self.assertIsNone(rows[-1]["candidate_name"])
-        self.assertEqual(set(rows[0]), {"id", "candidate_name", "experience_months", "match_status", "match_share", "short_summary", "workflow_status", "is_viewed", "is_closed", "closed_at", "hired_at"})
+        self.assertEqual(set(rows[0]), {"id", "candidate_name", "has_contacts", "experience_months", "match_status",
+                                        "match_share", "short_summary", "workflow_status", "is_viewed", "is_closed",
+                                        "closed_at", "hired_at"})
+        self.assertTrue(rows[0]["has_contacts"])
+        self.assertFalse(rows[-1]["has_contacts"])
         self.assertEqual(rows[0]["experience_months"], 61)
         self.assertIsNone(rows[-1]["experience_months"])
         # Anonymous candidates with sufficient skills receive the same green status.
@@ -213,12 +217,19 @@ class HRAPITests(unittest.TestCase):
             row = session.get(Response, self.ids[1])
             assert row is not None
             row.source_json = {**row.source_json, "skills": ["JavaScript", "Vue 3", "SQL", "Git"]}
+            named = session.get(Response, self.ids[0])
+            assert named is not None
+            named.source_json = {**named.source_json, "contacts": {"phone": " ", "other": ["https://example.com/portfolio"]}}
         self.prepare()
         rows = self.client.get(self.responses_url()).json()
         self.assertEqual([r["match_status"] for r in rows], ["green", "green", "yellow"])
         anonymous = next(row for row in rows if row["id"] == str(self.ids[1]))
         self.assertEqual(anonymous["match_share"], 1)
         self.assertEqual(anonymous["match_status"], "green")
+        without_contact = next(row for row in rows if row["id"] == str(self.ids[0]))
+        self.assertTrue(without_contact["candidate_name"])
+        self.assertFalse(without_contact["has_contacts"])
+        self.assertEqual(without_contact["match_share"], 1)
 
     def test_t6_t7_t8_t9_t10_complete_cached_report(self):
         self.prepare()
@@ -590,6 +601,9 @@ class HRAPITests(unittest.TestCase):
         report = response.json()
         self.assertIsNone(report["candidate_name"])
         self.assertIsNone(report["contacts"]["email"])
+        updated = next(row for row in self.client.get(self.responses_url()).json()
+                       if row["id"] == str(self.ids[0]))
+        self.assertFalse(updated["has_contacts"])
         with self.factory.begin() as session:
             row = Repository(session).get_response(self.ids[0])
             self.assertIsNone(row.candidate_name)

@@ -170,6 +170,7 @@ class ContractReport(ContractModel):
 class ContractResponse(ContractModel):
     id: str
     candidate_name: str | None
+    has_contacts: bool
     experience_months: int | None = Field(default=None, ge=0)
     match_status: Color
     match_share: float = Field(ge=0, le=1)
