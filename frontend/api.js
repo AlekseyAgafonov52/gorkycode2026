@@ -60,7 +60,7 @@ export function createApi({ apiBaseUrl = "/api/v1", requestTimeoutMs = 30000 } =
       }
     },
     getReport: (responseId, options) => request(`/responses/${encodeURIComponent(responseId)}/report`, options),
-    pdfReportUrl: (responseId, download = false) => `${base}/responses/${encodeURIComponent(responseId)}/report/pdf${download ? "?download=true" : ""}`,
+    offlineReportUrl: (responseId) => `${base}/responses/${encodeURIComponent(responseId)}/report/html`,
     updateSourceText: (responseId, sourceText, expectedSourceText) => request(`/responses/${encodeURIComponent(responseId)}/source-text`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },

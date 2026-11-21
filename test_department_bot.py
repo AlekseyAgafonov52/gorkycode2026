@@ -500,7 +500,7 @@ class DepartmentDatabaseTests(unittest.TestCase):
 
     def test_empty_or_partial_optional_comments_do_not_block_documents(self):
         hr = HRService(self.factory)
-        for recommendation in (RecruiterRecommendation(), RecruiterRecommendation(weaknesses="Мало опыта SQL")):
+        for recommendation in (RecruiterRecommendation(), RecruiterRecommendation(notes="Удобно после 16:00")):
             hr.update_recommendation(self.response_id, recommendation)
             telegram = RecordingTelegram()
             BotController(self.service, telegram).deliver_pending()
@@ -509,8 +509,10 @@ class DepartmentDatabaseTests(unittest.TestCase):
             report = telegram.documents[0][2].decode("utf-8")
             self.assertNotIn("None", report)
             self.assertNotIn("Сильные стороны:", telegram.packets[0][1])
-            if recommendation.weaknesses:
-                self.assertIn(recommendation.weaknesses, report)
+            if recommendation.notes:
+                note = f"Заметки: {recommendation.notes}"
+                self.assertIn(note, telegram.packets[0][1])
+                self.assertIn(note, report)
 
     def test_pdf_is_sent_for_matching_resume_and_stale_pdf_uses_current_report(self):
         key = "bot-pdf-test"

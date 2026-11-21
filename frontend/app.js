@@ -15,7 +15,7 @@ const api = createApi(window.HR_CONFIG);
 const app = document.getElementById("app");
 const state = { vacancies: [], filter: "all", vacancyId: null, report: null,
   viewFilter: "all", navigation: 0, controller: null, saving: new Set(),
-  reviewing: new Set(), reviewNotices: new Map(), reviewWrites: new Map(),
+  reviewing: new Set(), reviewErrors: new Set(), reviewWrites: new Map(),
   sourceDrafts: new Map(), sourceWrites: new Map(), sourceNotices: new Map(), recommendationDrafts: new Map(), vacancySaving: new Set() };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g,
@@ -61,7 +61,12 @@ function vacancyControl(vacancy) {
   return `<button class="act" data-vacancy-status="${vacancy.status === "closed" ? "active" : "closed"}" ${state.vacancySaving.has(vacancy.id) ? "disabled" : ""}>${vacancy.status === "closed" ? "Открыть вакансию заново" : "Закрыть вакансию"}</button>`;
 }
 
-const RECOMMENDATION_FIELDS = [["strengths", "Сильные стороны (необязательно)"], ["weaknesses", "Слабые места (необязательно)"], ["interview_focus", "Что проверить на собеседовании (необязательно)"]];
+const RECOMMENDATION_FIELDS = [
+  ["strengths", "Сильные стороны"],
+  ["weaknesses", "Слабые места"],
+  ["interview_focus", "Что проверить на собеседовании"],
+  ["notes", "Заметки"],
+];
 
 function recommendationForm(report) {
   const value = state.recommendationDrafts.get(report.id) || report.recruiter_recommendation || {};
@@ -176,7 +181,7 @@ function renderList(vacancy, items) {
       ${item.workflow_status !== "new" ? `<div class="mark">${esc(STATUS[item.workflow_status])}</div>` : ""}
       <div class="review-badge">${item.is_viewed ? "Просмотрено" : "Не просмотрено"}</div>
       ${item.hired_at ? '<div class="hiring-badge">Найм закрыт · договор подписан</div>' : item.is_closed ? '<div class="closure-badge">Работа в департаменте завершена</div>' : ""}
-    </a>${reviewControls(item)}</article>`).join("");
+    </a></article>`).join("");
   app.setAttribute("aria-busy", "false");
   app.innerHTML = `${tabs(vacancy.id)}<div class="bar"><h1>${esc(vacancy.title)}</h1>
     <span class="grow"></span>${vacancyControl(vacancy)}<button class="act" data-action="refresh">Обновить</button></div>
@@ -188,52 +193,45 @@ function renderList(vacancy, items) {
   state.items = items;
 }
 
-function reviewControls(item) {
-  const pending = state.reviewing.has(item.id);
-  const notice = state.reviewNotices.get(item.id);
-  return `<div class="review-block" data-review-block="${esc(item.id)}">
-    <div class="review-controls" role="group" aria-label="Просмотр отклика">
-      ${[[true, "Просмотрено"], [false, "Не просмотрено"]].map(([value, label]) =>
-        `<button class="act ${item.is_viewed === value ? "selected" : ""}" data-response-id="${esc(item.id)}" data-viewed="${value}"
-          aria-pressed="${item.is_viewed === value}" ${pending ? "disabled" : ""}>${label}</button>`).join("")}
-    </div><p class="review-notice ${notice?.error ? "error" : ""}" role="status" aria-live="polite">${pending ? "Сохраняем…" : esc(notice?.text || "")}</p>
-  </div>`;
+function reportReviewText(report) {
+  if (report.is_viewed) return "Просмотрено";
+  if (state.reviewing.has(report.id)) return "Отмечаем просмотр…";
+  if (state.reviewErrors.has(report.id)) return "Не удалось отметить просмотр. Обновите карточку.";
+  return "Не просмотрено";
 }
 
-function refreshReviewControls(identifier) {
+function refreshReviewBadge(identifier) {
   const current = state.report?.id === identifier ? state.report : state.items?.find((item) => item.id === identifier);
   if (!current) return;
   if (state.report?.id === identifier) {
-    const block = app.querySelector(`[data-review-block="${identifier}"]`);
-    if (block) block.outerHTML = reviewControls(current);
     const badge = app.querySelector("[data-report-viewed]");
-    if (badge) badge.textContent = current.is_viewed ? "Просмотрено" : "Не просмотрено";
+    if (badge) badge.textContent = reportReviewText(current);
   } else if (!state.report && app.querySelector(".grid")) {
     const vacancy = state.vacancies.find((item) => item.id === state.vacancyId);
     if (vacancy && state.items) renderList(vacancy, state.items);
   }
 }
 
-async function saveViewed(identifier, viewed) {
-  if (state.reviewing.has(identifier)) return;
+async function markViewed(report) {
+  const identifier = report.id;
+  if (report.is_viewed || state.reviewing.has(identifier)) return;
   state.reviewing.add(identifier);
-  state.reviewNotices.delete(identifier);
-  refreshReviewControls(identifier);
+  state.reviewErrors.delete(identifier);
+  refreshReviewBadge(identifier);
   try {
-    const result = await api.updateViewed(identifier, viewed);
-    if (result.id !== identifier || typeof result.is_viewed !== "boolean") {
+    const result = await api.updateViewed(identifier, true);
+    if (result.id !== identifier || result.is_viewed !== true) {
       throw new Error("Не удалось подтвердить отметку просмотра.");
     }
-    state.reviewWrites.set(identifier, { value: result.is_viewed, at: performance.now() });
-    if (state.report?.id === identifier) state.report.is_viewed = result.is_viewed;
+    state.reviewWrites.set(identifier, { value: true, at: performance.now() });
+    if (state.report?.id === identifier) state.report.is_viewed = true;
     const item = state.items?.find((item) => item.id === identifier);
-    if (item) item.is_viewed = result.is_viewed;
-    state.reviewNotices.set(identifier, { text: "Отметка сохранена.", error: false });
-  } catch (error) {
-    state.reviewNotices.set(identifier, { text: error.message, error: true });
+    if (item) item.is_viewed = true;
+  } catch {
+    state.reviewErrors.add(identifier);
   } finally {
     state.reviewing.delete(identifier);
-    refreshReviewControls(identifier);
+    refreshReviewBadge(identifier);
   }
 }
 
@@ -265,23 +263,11 @@ function renderQuestion(question) {
     ${question.follow_up_hint ? `<p class="muted">${esc(question.follow_up_hint)}</p>` : ""}</li>`;
 }
 
-function renderPdfReport(report) {
-  if (!report.pdf_report) return "";
-  const url = esc(api.pdfReportUrl(report.id));
-  const download = esc(api.pdfReportUrl(report.id, true));
-  return `<section class="panel pdf-panel" aria-label="PDF-отчёт по отклику">
-    <div class="bar"><h2>PDF-отчёт</h2><span class="grow"></span>
-      <a class="act" href="${url}" target="_blank" rel="noopener noreferrer">Открыть PDF</a>
-      <a class="act" href="${download}">Скачать PDF</a></div>
-    ${report.pdf_report.is_stale ? '<p class="pdf-stale" role="status">Текст резюме изменён после создания PDF. В документе сохранена предыдущая версия отчёта.</p>' : ""}
-    <iframe class="pdf-viewer" src="${url}#view=FitH" title="PDF-отчёт по текущему отклику" loading="lazy"></iframe>
-    <p class="muted">Если документ не отображается, откройте или скачайте PDF по кнопкам выше.</p></section>`;
-}
-
 function renderReport(report, vacancy) {
   app.setAttribute("aria-busy", "false");
   app.innerHTML = `${tabs(vacancy.id)}<div class="bar"><a href="${vacancyLink(vacancy.id)}">К списку откликов</a>
-    <span class="grow"></span>${vacancyControl(vacancy)}<button class="act" data-action="refresh">Обновить</button></div>
+    <span class="grow"></span>${report.pdf_report ? `<a href="${esc(api.offlineReportUrl(report.id))}">Офлайн-отчёт</a>` : ""}
+    ${vacancyControl(vacancy)}<button class="act" data-action="refresh">Обновить</button></div>
     ${hiringBanner(vacancy)}
     <section class="panel">
       <h1>${esc(report.candidate_name || "ФИО не указано")}</h1>
@@ -290,11 +276,9 @@ function renderReport(report, vacancy) {
       <div class="bar">${dot(report.match_status)}<b>${esc(report.match_label)}</b>
         <span>Совпадение навыков: ${share(report.match_share)}</span></div>
       <div class="contact-list">${renderContacts(report.contacts)}</div>
-      <p class="review-badge" data-report-viewed>${report.is_viewed ? "Просмотрено" : "Не просмотрено"}</p>
-      ${reviewControls(report)}
+      <p class="review-badge" data-report-viewed role="status">${reportReviewText(report)}</p>
     </section>
     <section class="panel"><h2>Итог</h2><ul class="summary-lines">${report.summary.map((line) => `<li>${esc(line)}</li>`).join("")}</ul></section>
-    ${renderPdfReport(report)}
     <section class="panel"><h2>Навыки и вопросы</h2>${report.skills.map((skill) => `<article class="skill">
       <div class="skill-heading">${dot(skill.relevance)}<h3>${esc(skill.skill)}</h3>
         <span class="level">${esc(LEVELS[skill.resume_level] || "Уровень не указан")}</span></div>
@@ -476,7 +460,7 @@ async function route() {
     if (navigation !== state.navigation) return;
     if (!Array.isArray(vacancies)) throw new Error("Не удалось прочитать список вакансий.");
     state.vacancies = vacancies;
-    const parts = location.hash.match(/^#\/v\/([^/]+)(?:\/r\/([^/]+))?\/?$/);
+    const parts = location.hash.match(/^#\/v\/([^/]+)(?:\/r\/([^/]+)(\/pdf)?)?\/?$/);
     if (!parts) {
       if (!location.hash || location.hash === "#/") {
         state.vacancyId = null;
@@ -488,11 +472,13 @@ async function route() {
     }
     vacancyId = decodeURIComponent(parts[1]);
     responseId = parts[2] ? decodeURIComponent(parts[2]) : null;
+    const legacyReportUrl = Boolean(parts[3]);
     // Existing bookmarks in the prototype used a numeric vacancy tab index.
     if (!state.vacancies.some((v) => v.id === vacancyId) && /^\d+$/.test(vacancyId)) {
       const legacy = state.vacancies[Number(vacancyId)];
       if (legacy) {
-        location.replace(responseId ? reportLink(legacy.id, responseId) : vacancyLink(legacy.id));
+        const target = responseId ? reportLink(legacy.id, responseId) : vacancyLink(legacy.id);
+        location.replace(legacyReportUrl ? `${target}/pdf` : target);
         return;
       }
     }
@@ -509,10 +495,15 @@ async function route() {
       let report = await api.getReport(responseId, { signal });
       if (navigation !== state.navigation) return;
       if (report.vacancy_id !== vacancyId) throw new Error("Отклик относится к другой вакансии.");
+      if (legacyReportUrl && report.pdf_report) {
+        location.replace(api.offlineReportUrl(report.id));
+        return;
+      }
       report = applyRecentSource(report, requestStarted);
       applyRecentViewed(report, requestStarted);
       state.report = report;
       renderReport(report, vacancy);
+      void markViewed(report);
     } else {
       const items = await api.listResponses(vacancyId, { signal });
       if (navigation !== state.navigation) return;
@@ -561,8 +552,6 @@ app.addEventListener("click", (event) => {
     state.viewFilter = button.dataset.viewFilter;
     const vacancy = state.vacancies.find((item) => item.id === state.vacancyId);
     if (vacancy && state.items) renderList(vacancy, state.items);
-  } else if (button.dataset.viewed !== undefined && button.dataset.responseId) {
-    saveViewed(button.dataset.responseId, button.dataset.viewed === "true");
   } else if (button.dataset.workflow) saveStatus(button.dataset.workflow);
 });
 

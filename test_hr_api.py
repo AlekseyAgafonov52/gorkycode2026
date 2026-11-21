@@ -46,13 +46,14 @@ class FakePoolBuilder:
 
 
 class HRContractTests(unittest.TestCase):
-    def test_all_eighteen_routes_in_openapi_without_database_access(self):
+    def test_all_nineteen_routes_in_openapi_without_database_access(self):
         paths = create_app().openapi()["paths"]
-        self.assertEqual(sum(len(methods) for methods in paths.values()), 18)
+        self.assertEqual(sum(len(methods) for methods in paths.values()), 19)
         for path in ("/api/v1/vacancies", "/api/v1/vacancies/{vacancy_id}/criteria",
                      "/api/v1/vacancies/{vacancy_id}/match", "/api/v1/tasks/{task_id}",
                      "/api/v1/responses/{response_id}/report", "/api/v1/responses/{response_id}/questions/generate",
-                     "/api/v1/responses/{response_id}/viewed", "/api/v1/responses/{response_id}/source-text"):
+                     "/api/v1/responses/{response_id}/viewed", "/api/v1/responses/{response_id}/source-text",
+                     "/api/v1/responses/{response_id}/report/html"):
             self.assertIn(path, paths)
 
     def test_cors_allows_local_frontend_and_uniform_errors(self):
@@ -137,10 +138,16 @@ class HRAPITests(unittest.TestCase):
             [{"id": str(self.vacancy_id), "title": "Frontend developer", "responses_count": 3, "status": "active", "hired_candidates": []}])
 
     def test_pdf_report_is_scoped_streamed_and_marks_changed_source(self):
+        import pymupdf
+
         self.prepare()
         root = self.folder / "pdf"
         root.mkdir()
-        pdf = b"%PDF-1.4\nSynthetic report for API delivery tests\n%%EOF\n"
+        with pymupdf.open() as document:
+            page = document.new_page()
+            page.insert_text((44, 60), "Offline assessment", fontsize=20, fontname="hebo")
+            page.insert_text((44, 90), 'Resume excerpt <script>alert(1)</script>')
+            pdf = document.tobytes()
         (root / "report-1.pdf").write_bytes(pdf)
         with self.factory.begin() as session:
             original = Repository(session).get_response(self.ids[0]).source_json
@@ -161,6 +168,15 @@ class HRAPITests(unittest.TestCase):
         ranged = self.client.get(url, headers={"Range": "bytes=0-4"})
         self.assertEqual(ranged.status_code, 206)
         self.assertEqual(ranged.content, b"%PDF-")
+        html_url = self.report_url() + "/html"
+        html = self.client.get(html_url)
+        self.assertEqual(html.status_code, 200)
+        self.assertEqual(html.headers["content-type"], "text/html; charset=utf-8")
+        self.assertIn('<!doctype html>', html.text)
+        self.assertIn('>Offline assessment</h1>', html.text)
+        self.assertIn('Resume excerpt &lt;script&gt;alert(1)&lt;/script&gt;', html.text)
+        self.assertNotIn("<iframe", html.text)
+        self.assertEqual(self.client.get(self.report_url(2) + "/html").status_code, 404)
         for path in (self.report_url(2) + "/pdf", f"/api/v1/responses/{uuid4()}/report/pdf", "/api/v1/responses/not-a-uuid/report/pdf"):
             missing = self.client.get(path)
             self.assertEqual(missing.status_code, 404)
@@ -169,6 +185,7 @@ class HRAPITests(unittest.TestCase):
             "source_text": "Резюме: Новая версия\nНавыки\nGit"})
         self.assertEqual(changed.status_code, 200)
         self.assertTrue(changed.json()["pdf_report"]["is_stale"])
+        self.assertIn('class="stale"', self.client.get(html_url).text)
         self.assertEqual(self.client.get(url).content, pdf)
         self.assertEqual(len(self.provider.calls), 1)
 
@@ -489,7 +506,7 @@ class HRAPITests(unittest.TestCase):
         url = f"/api/v1/responses/{self.ids[0]}"
         forwarded = self.client.patch(url + "/status", json={"workflow_status": "forwarded", "recruiter_recommendation": recommendation})
         self.assertEqual(forwarded.status_code, 200)
-        self.assertEqual(self.client.get(self.report_url()).json()["recruiter_recommendation"], recommendation)
+        self.assertEqual(self.client.get(self.report_url()).json()["recruiter_recommendation"], {**recommendation, "notes": None})
         with self.factory.begin() as session:
             row = Repository(session).get_response(self.ids[0])
             self.assertTrue(row.department_notification_pending)
@@ -498,11 +515,14 @@ class HRAPITests(unittest.TestCase):
         department = DepartmentService(self.factory, frozenset({12345}), "test-only-secret")
         department.mark_delivered(12345, self.ids[0], version, "packet")
         department.acknowledge_notification(12345, self.ids[0], version)
+        with self.factory.begin() as session:
+            Repository(session).get_response(self.ids[0]).recruiter_recommendation = dict(recommendation)
         self.client.patch(url + "/status", json={"workflow_status": "forwarded", "recruiter_recommendation": recommendation})
         self.assertEqual(department.pending_notifications(12345), [])
-        recommendation["interview_focus"] = "Git и code review"
+        recommendation["notes"] = "Уточнить доступность на следующей неделе."
         updated = self.client.patch(url + "/department-summary", json={"recruiter_recommendation": recommendation})
         self.assertEqual(updated.status_code, 200)
+        self.assertEqual(self.client.get(self.report_url()).json()["recruiter_recommendation"], recommendation)
         department.acknowledge_notification(12345, self.ids[0], version)
         self.assertEqual(len(department.pending_notifications(12345)), 1)
         self.client.patch(url + "/status", json={"workflow_status": "not_forwarded"})
@@ -518,7 +538,7 @@ class HRAPITests(unittest.TestCase):
     def test_forward_and_clear_recommendations_with_all_fields_optional(self):
         self.prepare()
         url = f"/api/v1/responses/{self.ids[0]}"
-        empty = {"strengths": None, "weaknesses": None, "interview_focus": None}
+        empty = {"strengths": None, "weaknesses": None, "interview_focus": None, "notes": None}
         for recommendation in ({}, {"strengths": ""}, {"weaknesses": None},
                                {"strengths": "  ", "weaknesses": "\r\n", "interview_focus": ""}):
             response = self.client.patch(url + "/status", json={"workflow_status": "forwarded",
@@ -527,9 +547,9 @@ class HRAPITests(unittest.TestCase):
             report = self.client.get(self.report_url()).json()
             self.assertEqual(report["workflow_status"], "forwarded")
             self.assertEqual(report["recruiter_recommendation"], empty)
-        saved = self.client.patch(url + "/department-summary", json={"recruiter_recommendation": {"strengths": " Python "}})
+        saved = self.client.patch(url + "/department-summary", json={"recruiter_recommendation": {"notes": " Удобно после 16:00 "}})
         self.assertEqual(saved.status_code, 200)
-        self.assertEqual(saved.json()["recruiter_recommendation"], {**empty, "strengths": "Python"})
+        self.assertEqual(saved.json()["recruiter_recommendation"], {**empty, "notes": "Удобно после 16:00"})
         cleared = self.client.patch(url + "/department-summary", json={"recruiter_recommendation": {}})
         self.assertEqual(cleared.status_code, 200)
         self.assertEqual(cleared.json()["recruiter_recommendation"], empty)

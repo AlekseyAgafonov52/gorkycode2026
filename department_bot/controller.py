@@ -185,7 +185,7 @@ class BotController:
             recommendation = item.recommendation
             notes = [] if recommendation is None else [
                 ("Сильные стороны", recommendation.strengths), ("Слабые места", recommendation.weaknesses),
-                ("Проверить на собеседовании", recommendation.interview_focus)]
+                ("Проверить на собеседовании", recommendation.interview_focus), ("Заметки", recommendation.notes)]
             filled = [f"{label}: {value}" for label, value in notes if value]
             if filled:
                 text += "\n\nРекомендации рекрутера\n" + "\n".join(filled)

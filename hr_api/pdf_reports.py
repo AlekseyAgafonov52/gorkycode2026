@@ -14,6 +14,7 @@ from pydantic import BaseModel, ConfigDict, Field, model_validator
 from contract_models import PdfReportInfo
 
 DEFAULT_REPORTS = Path(__file__).resolve().parent.parent / "otchet_offline" / "reports"
+REPORT_COLLECTIONS = ("reports_designer", "reports_frontend", "reports_python")
 INDEX_NAME = "platform-index.json"
 logger = logging.getLogger(__name__)
 
@@ -58,19 +59,29 @@ def _read_index(path: Path, mtime: int, size: int) -> tuple[UUID | None, dict[UU
 
 
 class PdfReports:
-    def __init__(self, root: Path = DEFAULT_REPORTS):
-        self.root = root
+    def __init__(self, root: Path | None = None):
+        self.roots = (root,) if root is not None else (
+            *(DEFAULT_REPORTS.with_name(name) for name in REPORT_COLLECTIONS), DEFAULT_REPORTS,
+        )
 
     def _lookup(self, response_id: UUID, vacancy_id: UUID) -> tuple[Path, PdfEntry] | None:
+        for root in self.roots:
+            found = self._lookup_in(root, response_id, vacancy_id)
+            if found is not None:
+                return found
+        return None
+
+    @staticmethod
+    def _lookup_in(root: Path, response_id: UUID, vacancy_id: UUID) -> tuple[Path, PdfEntry] | None:
         try:
-            index = self.root / INDEX_NAME
+            index = root / INDEX_NAME
             stat = index.stat()
             expected_vacancy, entries = _read_index(index.resolve(), stat.st_mtime_ns, stat.st_size)
             entry = entries.get(response_id)
             if expected_vacancy != vacancy_id or entry is None:
                 return None
-            path = (self.root / entry.filename).resolve()
-            if not path.is_relative_to(self.root.resolve()) or not path.is_file():
+            path = (root / entry.filename).resolve()
+            if not path.is_relative_to(root.resolve()) or not path.is_file():
                 return None
             with path.open("rb") as source:
                 if source.read(5) != b"%PDF-":
@@ -80,11 +91,15 @@ class PdfReports:
             return None
 
     def info(self, response_id: UUID, vacancy_id: UUID, source: dict) -> PdfReportInfo | None:
+        found = self.document(response_id, vacancy_id, source)
+        return found[1] if found is not None else None
+
+    def document(self, response_id: UUID, vacancy_id: UUID, source: dict) -> tuple[Path, PdfReportInfo] | None:
         found = self._lookup(response_id, vacancy_id)
         if found is None:
             return None
         path, entry = found
-        return PdfReportInfo(filename=path.name, is_stale=entry.source_sha256 != source_digest(source))
+        return path, PdfReportInfo(filename=path.name, is_stale=entry.source_sha256 != source_digest(source))
 
     def path(self, response_id: UUID, vacancy_id: UUID) -> Path | None:
         found = self._lookup(response_id, vacancy_id)

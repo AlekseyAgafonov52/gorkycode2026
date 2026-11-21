@@ -16,6 +16,7 @@ from storage.models import AnalysisTask, MatchResult, Response, Vacancy
 from storage.schemas import CriterionRead, CriterionUpdate, ResponseUpdate, TaskCreate
 from .preparation import ReportPreparer, vacancy_input
 from .pdf_reports import PdfReports
+from .report_html import render_report_html
 from .schemas import CriteriaPatch, CriteriaResult, ResponseDetail, TaskView, VacancyDetail
 
 
@@ -169,6 +170,16 @@ class HRService:
                 raise NotFoundError("PDF-отчёт для этого отклика не найден")
             return path
 
+    def offline_report_html(self, identifier: UUID) -> str:
+        with self.factory.begin() as session:
+            response = Repository(session).get_response(identifier)
+            vacancy_id = response.vacancy_id
+            document = self.pdf_reports.document(response.id, vacancy_id, response.source_json)
+        if document is None:
+            raise NotFoundError("Офлайн-отчёт для этого отклика не найден")
+        path, info = document
+        return render_report_html(path, back_url=f"/#/v/{vacancy_id}/r/{identifier}", is_stale=info.is_stale)
+
     def response(self, identifier: UUID) -> ResponseDetail:
         with self.factory.begin() as session:
             row = Repository(session).get_response(identifier)
@@ -186,10 +197,11 @@ class HRService:
 
     @staticmethod
     def _recommendation(row: Response, recommendation: RecruiterRecommendation) -> bool:
-        data = recommendation.model_dump(mode="json")
-        changed = row.recruiter_recommendation != data
-        row.recruiter_recommendation = data
-        return changed
+        saved = row.recruiter_recommendation
+        if saved is not None and RecruiterRecommendation.model_validate(saved) == recommendation:
+            return False
+        row.recruiter_recommendation = recommendation.model_dump(mode="json")
+        return True
 
     @staticmethod
     def _notify_department(row: Response) -> None:

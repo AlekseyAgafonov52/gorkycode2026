@@ -8,7 +8,7 @@ from pathlib import Path
 from .pdf_reports import DEFAULT_REPORTS, INDEX_NAME, PdfEntry, PdfIndex, source_digest
 
 
-def build_index(key: str, reports: Path, applications: Path) -> PdfIndex:
+def build_index(key: str, reports: Path, applications: Path, *, filename_prefix: str | None = None) -> PdfIndex:
     ranking = json.loads((reports / "ranking.json").read_text(encoding="utf-8-sig"))
     sources = {}
     for path in applications.glob("*.json"):
@@ -22,7 +22,8 @@ def build_index(key: str, reports: Path, applications: Path) -> PdfIndex:
         candidate_id = str(item["application_id"])
         if candidate_id not in sources:
             raise ValueError("В рейтинге найден кандидат без исходного JSON")
-        entry = PdfEntry(candidate_id=candidate_id, filename=item["report"],
+        filename = item["report"] if filename_prefix is None else f"{filename_prefix}{candidate_id}.pdf"
+        entry = PdfEntry(candidate_id=candidate_id, filename=filename,
                          source_sha256=source_digest(sources[candidate_id]))
         path = (reports / entry.filename).resolve()
         if not path.is_relative_to(reports.resolve()):
@@ -39,8 +40,9 @@ def main():
     parser.add_argument("--key", required=True, help="Тот же постоянный ключ, что в hr_api.import_data")
     parser.add_argument("--reports", type=Path, default=DEFAULT_REPORTS)
     parser.add_argument("--applications", type=Path, default=DEFAULT_REPORTS.parent / "applications")
+    parser.add_argument("--filename-prefix", help="Префикс PDF, если файлы переименованы в <префикс><номер>.pdf")
     args = parser.parse_args()
-    index = build_index(args.key, args.reports, args.applications)
+    index = build_index(args.key, args.reports, args.applications, filename_prefix=args.filename_prefix)
     path = args.reports / INDEX_NAME
     temporary = path.with_suffix(".tmp")
     temporary.write_text(index.model_dump_json(indent=2) + "\n", encoding="utf-8")
