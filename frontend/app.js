@@ -23,7 +23,7 @@ const previewStatus = preview.querySelector(".preview-status");
 let previewRequest;
 const state = { vacancies: [], vacancyId: null, report: null,
   navigation: 0, controller: null, saving: new Set(),
-  statusChoices: new Map(), changedStatuses: new Set(),
+  statusChoices: new Map(), changedStatuses: new Set(), markingViewed: new Set(),
   sourceDrafts: new Map(), sourceWrites: new Map(), sourceNotices: new Map(), recommendationDrafts: new Map() };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g,
@@ -89,6 +89,20 @@ function responseStatus(item) {
   return item.is_viewed ? "reviewed" : null;
 }
 
+async function markViewed(report) {
+  if (report.is_viewed || state.markingViewed.has(report.id)) return;
+  state.markingViewed.add(report.id);
+  try {
+    const result = await api.updateViewed(report.id, true);
+    if (result.id !== report.id || result.is_viewed !== true) throw new Error("Сервер не подтвердил отметку");
+    if (state.report?.id === report.id) state.report.is_viewed = true;
+  } catch (error) {
+    console.warn("Не удалось сохранить отметку просмотра.", error);
+  } finally {
+    state.markingViewed.delete(report.id);
+  }
+}
+
 function applyRecentSource(report, requestStarted) {
   const saved = state.sourceWrites.get(report.id);
   if (saved && saved.at >= requestStarted) {
@@ -108,7 +122,12 @@ function hiringBanner(vacancy) {
     <p>${vacancy.status === "closed" ? "Вакансия закрыта HR." : "Проверьте результат найма и закройте вакансию."}</p></section>`;
 }
 
-const RECOMMENDATION_FIELDS = [["strengths", "Сильные стороны (необязательно)"], ["weaknesses", "Слабые места (необязательно)"], ["interview_focus", "Что проверить на собеседовании (необязательно)"]];
+const RECOMMENDATION_FIELDS = [
+  ["strengths", "Сильные стороны (необязательно)"],
+  ["weaknesses", "Слабые места (необязательно)"],
+  ["interview_focus", "Что проверить на собеседовании (необязательно)"],
+  ["notes", "Заметки (необязательно)"],
+];
 
 function recommendationForm(report) {
   const value = state.recommendationDrafts.get(report.id) || report.recruiter_recommendation || {};
@@ -232,10 +251,13 @@ async function loadPdfPreview(id, signal) {
     if (signal.aborted || !viewer.isConnected) return;
     const status = viewer.querySelector(".pdf-status");
     status.textContent = "Не удалось открыть предпросмотр. ";
+    const html = document.createElement("a");
+    html.href = api.offlineReportUrl(id);
+    html.textContent = "Открыть HTML-версию";
     const download = document.createElement("a");
     download.href = api.pdfReportUrl(id, true);
     download.textContent = "Скачать PDF";
-    status.append(download);
+    status.append(html, " · ", download);
   }
 }
 
@@ -502,7 +524,7 @@ async function route() {
     if (navigation !== state.navigation) return;
     if (!Array.isArray(vacancies)) throw new Error("Не удалось прочитать список вакансий.");
     state.vacancies = vacancies;
-    const parts = location.hash.match(/^#\/v\/([^/]+)(?:\/r\/([^/]+))?\/?$/);
+    const parts = location.hash.match(/^#\/v\/([^/]+)(?:\/r\/([^/]+)(\/pdf)?)?\/?$/);
     if (!parts) {
       if (!location.hash || location.hash === "#/") {
         state.vacancyId = null;
@@ -515,11 +537,13 @@ async function route() {
     }
     vacancyId = decodeURIComponent(parts[1]);
     responseId = parts[2] ? decodeURIComponent(parts[2]) : null;
+    const legacyReportUrl = Boolean(parts[3]);
     // Existing bookmarks in the prototype used a numeric vacancy tab index.
     if (!state.vacancies.some((v) => v.id === vacancyId) && /^\d+$/.test(vacancyId)) {
       const legacy = state.vacancies[Number(vacancyId)];
       if (legacy) {
-        location.replace(responseId ? reportLink(legacy.id, responseId) : vacancyLink(legacy.id));
+        const target = responseId ? reportLink(legacy.id, responseId) : vacancyLink(legacy.id);
+        location.replace(legacyReportUrl ? `${target}/pdf` : target);
         return;
       }
     }
@@ -534,11 +558,16 @@ async function route() {
       let report = await api.getReport(responseId, { signal });
       if (navigation !== state.navigation) return;
       if (report.vacancy_id !== vacancyId) throw new Error("Отклик относится к другой вакансии.");
+      if (legacyReportUrl && report.pdf_report) {
+        location.replace(api.offlineReportUrl(report.id));
+        return;
+      }
       report = applyRecentSource(report, requestStarted);
       if (!responseStatus(report)) state.statusChoices.set(report.id, "reviewed");
       state.report = report;
       renderReport(report, vacancy);
       loadPdfPreview(report.id, signal);
+      markViewed(report);
     } else {
       const items = await api.listResponses(vacancyId, { signal });
       if (navigation !== state.navigation) return;

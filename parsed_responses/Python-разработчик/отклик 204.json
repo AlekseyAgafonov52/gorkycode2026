@@ -1,5 +1,6 @@
 {
   "candidate_id": 204,
+  "candidate_name": "Цветков Сергей Игоревич",
   "resume_title": "Backend-разработчик",
   "cover_letter": "Здравствуйте, у меня есть опыт командной работы над проектом с ИИ, oauth2 ..(3 человека), git ,Dev OPS(Git Hub Action, bash ), python 3, C++/C Celery,Redis, DRF, aiogram, FastAPi, docker compose, Postgre, Linux. Мой гит хаб https://github.com/KonstantinLjapin. Telegram @maxaradjabrain",
   "experience_total_months": 50,

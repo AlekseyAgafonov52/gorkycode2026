@@ -1,5 +1,6 @@
 {
   "candidate_id": 429,
+  "candidate_name": "Тихонова Юлия Андреевна",
   "resume_title": "Backend Developer (Python, Djanog, FastAPI, Flask)",
   "cover_letter": "Здравствуйте!\nЯ python backend разработчик с 5 летним стажем. Работал в компаниях Akvelon и EPAM, где участвовал в разработке бекенд приложений, а также разработке пайплайнов для обработки данных. Работал с докер контейнерами, облаками(aws, gcp), бекенд фреймворками(Flask, Django, также изучал FastAPI), SQL, инструментами обработки данных(Spark, Apache Beam).\nРаботал в командах по agile методикам, знаком с такими инструментами как Jira, Trello, Confluence.\nБуду рад узнать больше о вашем стеке, процессах и команде разработке.",
   "experience_total_months": 72,

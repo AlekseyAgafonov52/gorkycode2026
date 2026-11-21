@@ -118,6 +118,16 @@ class DepartmentService:
             query = select(Vacancy).where(Vacancy.status == ("closed" if closed else "active"))
             return self._page(session, query, Vacancy, page)
 
+    def close_vacancy(self, actor: int, vacancy_id: UUID) -> Item:
+        self.authorize(actor)
+        with self.factory.begin() as session:
+            vacancy = self._vacancy(Repository(session), vacancy_id, lock=True)
+            if vacancy.status != "closed":
+                vacancy.status = "closed"
+                vacancy.closed_at = datetime.now(timezone.utc)
+                session.flush()
+            return self._item(vacancy)
+
     def responses(self, actor: int, vacancy_id: UUID, closed: bool, page: int = 0) -> Page:
         self.authorize(actor)
         with self.factory.begin() as session:
@@ -137,7 +147,7 @@ class DepartmentService:
 
     def confirmation(self, actor: int, kind: str, identifier: UUID, closed: bool, *, hiring: bool = False) -> tuple[Item, str]:
         if kind != "r":
-            raise ValueError("Вакансию закрывает HR на платформе после сигнала о найме")
+            raise ValueError("Для закрытия вакансии нажмите «Найм завершён» в её карточке.")
         item = self.get(actor, kind, identifier)
         action = ("H" if closed else "h") if hiring else ("R" if closed else "r")
         payload = f"{action}.{_b64(identifier.bytes)}.{int(time.time()) + 600}"

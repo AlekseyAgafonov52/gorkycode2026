@@ -92,6 +92,8 @@ class BotController:
             return f"{title}: {page.total}\nВыберите вакансию." if page.total else f"{title}: нет записей.", rows
         if parts[0] in ("v", "r") and len(parts) == 2:
             return self.card(parts[0], self.service.get(actor, parts[0], UUID(parts[1])))
+        if parts[0] == "close-vacancy" and len(parts) == 2:
+            return self.card("v", self.service.close_vacancy(actor, UUID(parts[1])))
         if parts[0] == "files" and len(parts) == 2:
             identifier = UUID(parts[1])
             if not self.send_materials(actor, identifier):
@@ -106,9 +108,9 @@ class BotController:
             title = "Закрытые отклики" if closed else "Отклики в работе"
             rows = [[button(label(item), f"r:{item.id.hex}")] for item in page.items]
             rows += self.pager(page, lambda n: f"rl:{vacancy_id.hex}:{int(closed)}:{n}")
-            rows.extend([[button("В работе", f"rl:{vacancy_id.hex}:0:0"), button("Закрытые", f"rl:{vacancy_id.hex}:1:0")],
+            rows.extend([[button("Закрытые", f"rl:{vacancy_id.hex}:1:0")],
                          [button("К вакансии", f"v:{vacancy_id.hex}")]])
-            return f"{label(vacancy)}\n{title}: {page.total}\nЗдесь только отклики, переданные HR в департамент.", rows
+            return f"{label(vacancy)}\n{title}: {page.total}", rows
         if parts[0] == "ask" and len(parts) == 4 and parts[1] in ("v", "r") and parts[3] in ("0", "1"):
             kind, closed = parts[1], parts[3] == "1"
             item, token = self.service.confirmation(actor, kind, UUID(parts[2]), closed)
@@ -117,12 +119,6 @@ class BotController:
             note = "\nЗакрытие вакансии не закрывает её отклики." if kind == "v" else "\nЗакрытие означает завершение работы с откликом независимо от результата."
             return f"{action} {noun}?\n{label(item)}{note}", [
                 [button(f"Подтвердить: {action.lower()}", token)], [button("Отмена", f"{kind}:{item.id.hex}")]]
-        if parts[0] == "hire" and len(parts) == 3 and parts[2] in ("0", "1"):
-            hired = parts[2] == "1"
-            item, token = self.service.confirmation(actor, "r", UUID(parts[1]), hired, hiring=True)
-            question = "Подтверждаете, что с этим кандидатом подписан трудовой договор?" if hired else "Снять ошибочную отметку найма?"
-            return f"{question}\n{label(item)}\nHR увидит результат на платформе и самостоятельно закроет вакансию.", [
-                [button("Подтвердить", token)], [button("Отмена", f"r:{item.id.hex}")]]
         raise ValueError("Кнопка устарела. Откройте список вакансий заново.")
 
     def deliver_pending(self) -> None:
@@ -171,8 +167,10 @@ class BotController:
     @staticmethod
     def card(kind: str, item: Item) -> tuple[str, list[list[dict]]]:
         noun = "Вакансия" if kind == "v" else "Отклик"
-        status = "Закрыта" if kind == "v" else "Работа завершена"
-        status = status if item.is_closed else "активна"
+        if kind == "v":
+            status = "Закрыта" if item.is_closed else "Активна"
+        else:
+            status = "Работа завершена" if item.is_closed else "В работе"
         if item.hired_at:
             status = "Найм закрыт — трудовой договор подписан"
         text = f"{noun}: {label(item)}\nСтатус: {status}"
@@ -181,19 +179,19 @@ class BotController:
         rows = []
         if kind == "v":
             rows.append([button("Переданные отклики", f"rl:{item.id.hex}:0:0")])
-            text += "\nО закрытии вакансии после найма заботится HR на платформе."
+            if not item.is_closed:
+                rows.append([button("Найм завершён", f"close-vacancy:{item.id.hex}")])
         else:
             recommendation = item.recommendation
             notes = [] if recommendation is None else [
                 ("Сильные стороны", recommendation.strengths), ("Слабые места", recommendation.weaknesses),
-                ("Проверить на собеседовании", recommendation.interview_focus)]
+                ("Проверить на собеседовании", recommendation.interview_focus), ("Заметки", recommendation.notes)]
             filled = [f"{label}: {value}" for label, value in notes if value]
             if filled:
                 text += "\n\nРекомендации рекрутера\n" + "\n".join(filled)
             else:
                 text += "\n\nРекомендации рекрутера пока не заполнены."
             rows.append([button("Отчёт и исходное резюме", f"files:{item.id.hex}")])
-            rows.append([button("Снять отметку найма" if item.hired_at else "Найм закрыт", f"hire:{item.id.hex}:{int(not item.hired_at)}")])
             if not item.hired_at:
                 rows.append([button("Вернуть в работу" if item.is_closed else "Завершить работу с откликом",
                                     f"ask:r:{item.id.hex}:{int(not item.is_closed)}")])

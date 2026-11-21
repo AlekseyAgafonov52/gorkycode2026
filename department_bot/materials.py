@@ -40,7 +40,7 @@ def report_text(report: ContractReport, vacancy_title: str) -> str:
     lines.extend(contacts.other)
     if recommendation := report.recruiter_recommendation:
         notes = [("Сильные стороны", recommendation.strengths), ("Слабые места", recommendation.weaknesses),
-                 ("Проверить на собеседовании", recommendation.interview_focus)]
+                 ("Проверить на собеседовании", recommendation.interview_focus), ("Заметки", recommendation.notes)]
         filled = [f"{label}: {value}" for label, value in notes if value]
         if filled:
             lines.extend(["", "Рекомендации рекрутера", *filled])

@@ -1,5 +1,6 @@
 {
   "candidate_id": 151,
+  "candidate_name": "Лескова Марина Игоревна",
   "resume_title": "Python-разработчик",
   "cover_letter": "Опыт работы более 5 лет на позиции Python Developer в сферах EnergyTech и LegalTech. Мои специальности включают разработку масштабируемых и надежных веб-приложений на Python с использованием фреймворков FastAPI и Django, фокусируюсь на стабильности, скорости и поддерживаемости. Разработал платформу для плагинов, AI/LLM-агента поддержки, личный кабинет компании в сфере выработки и поставки электроэнергии и тепла с MAU более 800000 и систему электронного документооборота для оптимизации и автоматизации бизнес-процессов.\nСтек: Python, FastAPI, Django, Django Rest Framework, REST API, SQL, SQLAlchemy, PostgreSQL, MySQL, MongoDB, Elasticsearch, Redis, RabbitMQ, Kafka, Celery, Linux, Docker, Docker-Compose, Kubernetes, Git, GitLab CI, GitHub Actions, CI/CD, Prometheus, Grafana, AI, LLM, RAG.\nКонтакты:\ntelegram: https://t.me/ivank_develop\nтел. +79950422361\nпочта: ivan-k.dev@yandex.ru",
   "experience_total_months": 72,

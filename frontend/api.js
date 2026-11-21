@@ -62,6 +62,7 @@ export function createApi({ apiBaseUrl = "/api/v1", requestTimeoutMs = 30000 } =
       }
     },
     getReport: (responseId, options) => request(`/responses/${encodeURIComponent(responseId)}/report`, options),
+    offlineReportUrl: (responseId) => `${base}/responses/${encodeURIComponent(responseId)}/report/html`,
     pdfReportUrl: (id, download = false) => `${base}${pdfPath(id)}${download ? "?download=true" : ""}`,
     getPdfPreview: (id, options) => request(`${pdfPath(id)}/preview`, options),
     pdfPreviewPageUrl: (id, page) => `${base}${pdfPath(id)}/preview?page=${page}`,

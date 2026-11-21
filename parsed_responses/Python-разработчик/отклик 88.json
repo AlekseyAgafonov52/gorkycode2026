@@ -1,5 +1,6 @@
 {
   "candidate_id": 88,
+  "candidate_name": "Лескова Софья Андреевна",
   "resume_title": "Python-разработчик",
   "cover_letter": "Здравствуйте!\nПрошу рассмотреть моё резюме на роль Python разработчика в вашу компанию.\nОпыт работы: 3 года.\nОсновной стэк: Python, FastAPI, TypeScript, React, Next.js, SQL, Git, Linux, Docker, Kubernetes, Aiogram.\nGithub - https://github.com/schr1k\nТг - https://t.me/schr1k_work",
   "experience_total_months": 34,

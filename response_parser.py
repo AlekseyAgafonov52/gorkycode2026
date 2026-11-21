@@ -79,6 +79,7 @@ class OriginalSections(Schema):
 
 class CandidateResponse(Schema):
     candidate_id: int | None = Field(default=None, ge=1)
+    candidate_name: str | None = Field(default=None, max_length=255)
     resume_title: str | None = None
     cover_letter: str | None = None
     experience_total_months: int | None = Field(default=None, ge=0)

@@ -1,5 +1,6 @@
 {
   "candidate_id": 82,
+  "candidate_name": "Лебедева Дарья Михайловна",
   "resume_title": "Инженер по тестированию ПО (QA Engineer)",
   "cover_letter": "QA Engineer с 3+ годами опыта в тестировании web и mobile приложений\nКлючевые компетенции:\n- От анализа требований до мониторинга prod (SLA 99.9%)\n- Опыт запуска проектов с нуля (5+ продуктов)\n- Единственный тестировщик в 3 проектах (полный ownership)\n- 50+ Bash-скриптов\n- Python (pytest) на базовом уровне\n- CI/CD: GitLab Pipelines\n- Security-first подход:\n- 100+ OWASP-проверок (SQLi, XSS, CSRF)\n- Аудит по PCI DSS и ФЗ-152\n- Банковские API (ISO 8583, PSP)\n- 1С/SAP (SOAP)\n- Образовательные системы (LTI, SCORM)\nТехнологический стек:\nPostman, Kibana (KQL), JMeter, Docker,\nKubernetes, Grafana, RabbitMQ/Kafka, Python, Pytest, Android Studio/Xcode, CharlesProxy, SQL, Jira, Confluence, Swagger, Bash, Linux, Prometheus, Sentry, AWX, Figma, DevTools\nАнглийский: Техническая документация (чтение/составление)",
   "experience_total_months": 49,

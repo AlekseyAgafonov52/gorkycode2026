@@ -1,0 +1,502 @@
+{
+  "version": 1,
+  "source_key": "frontend",
+  "vacancy_title": "Frontend developer",
+  "entries": [
+    {
+      "candidate_id": "72",
+      "filename": "Report_frontend_72.pdf",
+      "source_sha256": "d97473b5029c7822dbd92cff8ee7a942569b64800df11483e156321d25121065"
+    },
+    {
+      "candidate_id": "40",
+      "filename": "Report_frontend_40.pdf",
+      "source_sha256": "9c96690af557c036abcb233f37f6804985f4a10f6a5dc3f4c322d64fb1277dad"
+    },
+    {
+      "candidate_id": "90",
+      "filename": "Report_frontend_90.pdf",
+      "source_sha256": "080dd43a180e74bf6ef0c4df2d478d45392fc23f06521d49843954744657864c"
+    },
+    {
+      "candidate_id": "24",
+      "filename": "Report_frontend_24.pdf",
+      "source_sha256": "82639526cdbe7d8408eb21f61497542b9ea99c2d33836394bcda4809132e7052"
+    },
+    {
+      "candidate_id": "55",
+      "filename": "Report_frontend_55.pdf",
+      "source_sha256": "742a2ab8d27c878350fb7369b6024d61071d253c3eb8014d64524ae059992837"
+    },
+    {
+      "candidate_id": "14",
+      "filename": "Report_frontend_14.pdf",
+      "source_sha256": "72ef4d6af0e0f87ddfb5344e5e7b7aae512ab2962289de6387dcd366b81f9ad5"
+    },
+    {
+      "candidate_id": "37",
+      "filename": "Report_frontend_37.pdf",
+      "source_sha256": "8e4bad3b0e51ade3db11c3b92d7bcd14e32bc8c0c0ed982f121a3443a553b328"
+    },
+    {
+      "candidate_id": "66",
+      "filename": "Report_frontend_66.pdf",
+      "source_sha256": "52305c897c6186fdc9c246d46a01fb00ff3d3b0ceca6e549ff235b93f0fda9b6"
+    },
+    {
+      "candidate_id": "26",
+      "filename": "Report_frontend_26.pdf",
+      "source_sha256": "e6ce873eb4595136ff988eb5d5c84758f66503aad983a291039da70b71ddf4bf"
+    },
+    {
+      "candidate_id": "21",
+      "filename": "Report_frontend_21.pdf",
+      "source_sha256": "9e4e609f170b663df40179d2446fa20069ad6923771887fd94a8873abe6164fb"
+    },
+    {
+      "candidate_id": "25",
+      "filename": "Report_frontend_25.pdf",
+      "source_sha256": "6eb5fbf4119dddf20e66d373e9d8549193f3dd17ecf3239449cb1c8e31f612da"
+    },
+    {
+      "candidate_id": "28",
+      "filename": "Report_frontend_28.pdf",
+      "source_sha256": "7f0308ee401e7b5c3561fb7c8b8e3443b55e0b8ef73c781eaa480b99cd7d8c5b"
+    },
+    {
+      "candidate_id": "15",
+      "filename": "Report_frontend_15.pdf",
+      "source_sha256": "38d54a7a4e6a83f4315c6a54be25772c8ce61a34e207513e542f0d8a1dc05daf"
+    },
+    {
+      "candidate_id": "46",
+      "filename": "Report_frontend_46.pdf",
+      "source_sha256": "22f9de4edceb6752473875eb17b4e9830b717851d897abd884dbb374f68a1d94"
+    },
+    {
+      "candidate_id": "35",
+      "filename": "Report_frontend_35.pdf",
+      "source_sha256": "52476d40a16b72afc5f2dbef103074c47028e25e970a793a7f69d8d37761e9da"
+    },
+    {
+      "candidate_id": "65",
+      "filename": "Report_frontend_65.pdf",
+      "source_sha256": "172d386a789cc1c1a7f42c3d6bd5e284c9a5be89bb570f05af65438f25e56793"
+    },
+    {
+      "candidate_id": "23",
+      "filename": "Report_frontend_23.pdf",
+      "source_sha256": "6ce19f5b515363a4e5d0ee740a71bdbfb041999526951ea6afdc8bc3e644a5b4"
+    },
+    {
+      "candidate_id": "89",
+      "filename": "Report_frontend_89.pdf",
+      "source_sha256": "776d747aa8f7bcf65d174751621083589a0b82b6abea7094a2a0f3318395c0e7"
+    },
+    {
+      "candidate_id": "97",
+      "filename": "Report_frontend_97.pdf",
+      "source_sha256": "8a105622013cfe26e6a340ff3d6866fa382e4bfefadacdbe459970d71422a3d5"
+    },
+    {
+      "candidate_id": "9",
+      "filename": "Report_frontend_9.pdf",
+      "source_sha256": "441e1393fefe1d449f99cd2b48e55f204dc1ebbd0184b832063dacf2ff3f0ab6"
+    },
+    {
+      "candidate_id": "44",
+      "filename": "Report_frontend_44.pdf",
+      "source_sha256": "7574b475fc26cbab8b536c92d5c01317e76ecadce493bff0907489a4aecacac0"
+    },
+    {
+      "candidate_id": "4",
+      "filename": "Report_frontend_4.pdf",
+      "source_sha256": "8f9736241004d4d0935650e52394234d817c0a0b2019b9880636bd729b5e958d"
+    },
+    {
+      "candidate_id": "73",
+      "filename": "Report_frontend_73.pdf",
+      "source_sha256": "1390e2fac1623956f3a1bbd700b97736f1f1ec98202ac0c6a61c846a40b31365"
+    },
+    {
+      "candidate_id": "53",
+      "filename": "Report_frontend_53.pdf",
+      "source_sha256": "ed5529096282c02f608674ae4deacc193b59062cf98946d525bdb8758c41d4af"
+    },
+    {
+      "candidate_id": "10",
+      "filename": "Report_frontend_10.pdf",
+      "source_sha256": "070708e2b61c815c49479358e4ef1648a78ce1f6253c28a8b019cbfe9b9afb99"
+    },
+    {
+      "candidate_id": "47",
+      "filename": "Report_frontend_47.pdf",
+      "source_sha256": "04ed2988394e6c881aa08e02a0b272a4438c44b1613833b7e4c141a5b992ef7a"
+    },
+    {
+      "candidate_id": "32",
+      "filename": "Report_frontend_32.pdf",
+      "source_sha256": "268b9a7a0caba3592e129b127b25c67930e247099c69c8edfaf0c02d7b82c81b"
+    },
+    {
+      "candidate_id": "16",
+      "filename": "Report_frontend_16.pdf",
+      "source_sha256": "d46577e36ea30a7391fd2f49c8312339135d6ab1d2cbbc093e46c407fd4eff04"
+    },
+    {
+      "candidate_id": "58",
+      "filename": "Report_frontend_58.pdf",
+      "source_sha256": "e42d55d6c586d0001758c7df0c0362d827f683be381753c3c7a4d280bbe82f28"
+    },
+    {
+      "candidate_id": "12",
+      "filename": "Report_frontend_12.pdf",
+      "source_sha256": "61592baabc04ba87b534a756b3984066c679f9fb0b8362a9880a43b61d3f12fe"
+    },
+    {
+      "candidate_id": "27",
+      "filename": "Report_frontend_27.pdf",
+      "source_sha256": "1d86d8baa4208549009b8b4a12893fdb10219b46b0743b0814b9717625657df8"
+    },
+    {
+      "candidate_id": "70",
+      "filename": "Report_frontend_70.pdf",
+      "source_sha256": "707bdc4671c60eed53418d5404c9c2915b79229e82be0ef418495e8c85e03d1a"
+    },
+    {
+      "candidate_id": "1",
+      "filename": "Report_frontend_1.pdf",
+      "source_sha256": "f26ae835eeda7e0ab6f05201b984f52585b4aceed90ca58e891f048d171f2a3b"
+    },
+    {
+      "candidate_id": "31",
+      "filename": "Report_frontend_31.pdf",
+      "source_sha256": "66d5014d10a8b2974e45c71da6956c7a3e4df50b28442cf891b61e87dd874929"
+    },
+    {
+      "candidate_id": "48",
+      "filename": "Report_frontend_48.pdf",
+      "source_sha256": "b454cf77ef5619d2fda9752e81bd317f4007c0656245d9fa45de9e11bf5dfd93"
+    },
+    {
+      "candidate_id": "20",
+      "filename": "Report_frontend_20.pdf",
+      "source_sha256": "09d71776d323b8bf6726188fca022c5820a883cccf9ee03e02886bb9df0a386a"
+    },
+    {
+      "candidate_id": "17",
+      "filename": "Report_frontend_17.pdf",
+      "source_sha256": "860a0057ff9b08347894d9a8ec9a5f2c70b6a1022914cf3e1b10c9382ffc8e93"
+    },
+    {
+      "candidate_id": "11",
+      "filename": "Report_frontend_11.pdf",
+      "source_sha256": "bba42f310316bf245322a7f4893dfdb45c1b38d3ed4f8e729463aa2954028108"
+    },
+    {
+      "candidate_id": "63",
+      "filename": "Report_frontend_63.pdf",
+      "source_sha256": "88227cb5b518fe20fd822d1610b67b181989199994a622392b2de8f329fa9121"
+    },
+    {
+      "candidate_id": "43",
+      "filename": "Report_frontend_43.pdf",
+      "source_sha256": "03d99fe519ba62f75eb74f5b5173e540a83a175a33da02dd3918994722e9f36e"
+    },
+    {
+      "candidate_id": "71",
+      "filename": "Report_frontend_71.pdf",
+      "source_sha256": "6a75d987e394cf19c311f2fc3e5576afa7fb2815c557731543a31c7e8b657fd8"
+    },
+    {
+      "candidate_id": "60",
+      "filename": "Report_frontend_60.pdf",
+      "source_sha256": "11f8dbfe96c7b7df703df4dc3cc5567d307b1480d2e07b9f9f298a83d4744a8a"
+    },
+    {
+      "candidate_id": "39",
+      "filename": "Report_frontend_39.pdf",
+      "source_sha256": "2028efebc1a244b73d155858634b57c8118e8fd8e5c9dbe3af357fd73c417761"
+    },
+    {
+      "candidate_id": "61",
+      "filename": "Report_frontend_61.pdf",
+      "source_sha256": "c4a85971acabe2bf0dd9b2a51c2d487d4ae7d74cf970493c1bf90c637bfe86d7"
+    },
+    {
+      "candidate_id": "78",
+      "filename": "Report_frontend_78.pdf",
+      "source_sha256": "4812085151aee874655d32a1b3be8782b58a5f8f62d99a47a0b98ead99a8f0e0"
+    },
+    {
+      "candidate_id": "22",
+      "filename": "Report_frontend_22.pdf",
+      "source_sha256": "c47090f39cb14b72c4c8960bd93dcc3179421acdd7190c6773bee36cb031284c"
+    },
+    {
+      "candidate_id": "95",
+      "filename": "Report_frontend_95.pdf",
+      "source_sha256": "fdf27b7d31ced57b1e0ed5a0ac8ef96c4dc3568ce11bceae23d166942a801d6c"
+    },
+    {
+      "candidate_id": "5",
+      "filename": "Report_frontend_5.pdf",
+      "source_sha256": "6fc1fb04b7b4710c3998d49d9d5504126e7cb177d42ceed644b16c376fa38352"
+    },
+    {
+      "candidate_id": "85",
+      "filename": "Report_frontend_85.pdf",
+      "source_sha256": "89bd8173192052929ec714ab65d03682afd815f8adfaa8eafe7646e32e734106"
+    },
+    {
+      "candidate_id": "8",
+      "filename": "Report_frontend_8.pdf",
+      "source_sha256": "8da5036434bf0b04908cca6def5127daf1a34474d8c29f66399d66554a333240"
+    },
+    {
+      "candidate_id": "79",
+      "filename": "Report_frontend_79.pdf",
+      "source_sha256": "566bf2aa3303897257d2881364dde4bfa8e92346db6f82fd93febf3133521f6f"
+    },
+    {
+      "candidate_id": "51",
+      "filename": "Report_frontend_51.pdf",
+      "source_sha256": "57173cb408f9f18182cf2519a9b583bd0ee54af78735f8c3c8a1e753dffbc23b"
+    },
+    {
+      "candidate_id": "67",
+      "filename": "Report_frontend_67.pdf",
+      "source_sha256": "904404fc4f8112e01f883cf6a5d55e67179d2f2dccc2ba66baf514720a8bdd13"
+    },
+    {
+      "candidate_id": "87",
+      "filename": "Report_frontend_87.pdf",
+      "source_sha256": "28771d3275828b01c8d6828f62c30a1a54b916ecf3991f9aeea2ace9cb339ba6"
+    },
+    {
+      "candidate_id": "3",
+      "filename": "Report_frontend_3.pdf",
+      "source_sha256": "fe9ce694bb5a7e9fcedb76c20b1f5ff15b7d86dce50eda4e0e5e676de8bd0da6"
+    },
+    {
+      "candidate_id": "69",
+      "filename": "Report_frontend_69.pdf",
+      "source_sha256": "a77b66c08694583758ddb51d6bb9cc9748bc45da1e6b31b2c45adf9e5ff65538"
+    },
+    {
+      "candidate_id": "59",
+      "filename": "Report_frontend_59.pdf",
+      "source_sha256": "248a9d55e039d73381ac1e0939648cb9f7970410bc2404189d6c174b1e694156"
+    },
+    {
+      "candidate_id": "19",
+      "filename": "Report_frontend_19.pdf",
+      "source_sha256": "1041e76c3cb5bef83d7730defa4e1f72855e55239f6042af3bca60073fcd3715"
+    },
+    {
+      "candidate_id": "77",
+      "filename": "Report_frontend_77.pdf",
+      "source_sha256": "d6eb0aa8259afbe2716a5c708cd3e558d28796b982c8390ff1684ad97f08bc86"
+    },
+    {
+      "candidate_id": "68",
+      "filename": "Report_frontend_68.pdf",
+      "source_sha256": "27b0570013fbeb3ec2e1447df0c9f71f091af9705d9128c825e242c616d11981"
+    },
+    {
+      "candidate_id": "50",
+      "filename": "Report_frontend_50.pdf",
+      "source_sha256": "86d891dfc1c579fbabbbea318f2d887ae2db1697f59a3cc753343ddc666772a7"
+    },
+    {
+      "candidate_id": "54",
+      "filename": "Report_frontend_54.pdf",
+      "source_sha256": "fa346a939bde434b0e26c0e32f49e7d881a8f8b5c1594158be6671d1dddeaf5c"
+    },
+    {
+      "candidate_id": "45",
+      "filename": "Report_frontend_45.pdf",
+      "source_sha256": "3e0e6016af95946c102c1eca61a4edbdc9b848827e8b4f870d3223b3dfa709a8"
+    },
+    {
+      "candidate_id": "74",
+      "filename": "Report_frontend_74.pdf",
+      "source_sha256": "6adaf4005b1b668e0a91971e72a84e9b794b59193cb7d78c142eab060bdee1b7"
+    },
+    {
+      "candidate_id": "57",
+      "filename": "Report_frontend_57.pdf",
+      "source_sha256": "d96760491c1bb387b4e11a52cf0462dd4269d3bb6eba0fb6f9972ca8de89cb36"
+    },
+    {
+      "candidate_id": "52",
+      "filename": "Report_frontend_52.pdf",
+      "source_sha256": "10758496c907b907674ea1a09bfd53ff8bf38287479e0558dd8f15eb75e5e38a"
+    },
+    {
+      "candidate_id": "42",
+      "filename": "Report_frontend_42.pdf",
+      "source_sha256": "0b512b574af513c42c76094ed17a45584bc1ae0d911ca8eb3917b0991932fcea"
+    },
+    {
+      "candidate_id": "94",
+      "filename": "Report_frontend_94.pdf",
+      "source_sha256": "473add75027e7fae930765c5359b41665c0a21756f3e8c6dca76783b805a8c2a"
+    },
+    {
+      "candidate_id": "62",
+      "filename": "Report_frontend_62.pdf",
+      "source_sha256": "acd716e5bafca442c7105f42b367bd2c9fe8613d835980d9eeb0e3b5fe4c7afe"
+    },
+    {
+      "candidate_id": "98",
+      "filename": "Report_frontend_98.pdf",
+      "source_sha256": "9916cf8b3eac7d3eca57d49ab21552cd0feab6d8169ae7ecf5dfaf8b29398ca9"
+    },
+    {
+      "candidate_id": "49",
+      "filename": "Report_frontend_49.pdf",
+      "source_sha256": "58d2361494fbcc77389048e2ef579d06adf517e1c0d408a0679db2f698179ebf"
+    },
+    {
+      "candidate_id": "36",
+      "filename": "Report_frontend_36.pdf",
+      "source_sha256": "a35d999c53f5d340403f6bb7aa8e22fdfc6e8d51dd5db413fc370c40898ba28c"
+    },
+    {
+      "candidate_id": "6",
+      "filename": "Report_frontend_6.pdf",
+      "source_sha256": "282ebcf848ff1146586aace0d882a4557dbf22d515a1b5259f0e9ea78e6aec5f"
+    },
+    {
+      "candidate_id": "33",
+      "filename": "Report_frontend_33.pdf",
+      "source_sha256": "e59c60ffdfce9a55c2b78d9edd5b4dfac5f30d8626965c623f11d02453af65f3"
+    },
+    {
+      "candidate_id": "81",
+      "filename": "Report_frontend_81.pdf",
+      "source_sha256": "4fb618d8a4870fb597983109aa372ffaefdde0c9d3574abc9614424a4c3d341a"
+    },
+    {
+      "candidate_id": "56",
+      "filename": "Report_frontend_56.pdf",
+      "source_sha256": "a0e7130c22208f9ed12bb13d5cbe00f0b0701dab3f14e0d0dfdb2865fbf7d595"
+    },
+    {
+      "candidate_id": "75",
+      "filename": "Report_frontend_75.pdf",
+      "source_sha256": "96068147ae53c87c331ee58f45e32811da144482a726c796dafd3440272eba69"
+    },
+    {
+      "candidate_id": "83",
+      "filename": "Report_frontend_83.pdf",
+      "source_sha256": "0773507a0a6ffb12ece492da44fcd29514506e6cce2137c5ede2dee0bf006342"
+    },
+    {
+      "candidate_id": "13",
+      "filename": "Report_frontend_13.pdf",
+      "source_sha256": "3a013787cf8b0a1cf870af70d844b2660b3e23f267b211fb39f6cbc17a41037f"
+    },
+    {
+      "candidate_id": "64",
+      "filename": "Report_frontend_64.pdf",
+      "source_sha256": "d23383e0b71fbb1e805ee76ad303bbc335ced1a05d7e488813fa6b0f54904830"
+    },
+    {
+      "candidate_id": "30",
+      "filename": "Report_frontend_30.pdf",
+      "source_sha256": "f19b07e5c0371f21044a0e72e0a93156e098f56d0cbea8835a675d9c795f01a9"
+    },
+    {
+      "candidate_id": "84",
+      "filename": "Report_frontend_84.pdf",
+      "source_sha256": "1867dabbfa49f02bc6d0a5cb799bd27a2f5156a1d8e47e42e6bd9d9f303215da"
+    },
+    {
+      "candidate_id": "7",
+      "filename": "Report_frontend_7.pdf",
+      "source_sha256": "650829ec0dbb2ea2344ce094ee3a613ec66782ae6441dbb01fa188607a08795f"
+    },
+    {
+      "candidate_id": "18",
+      "filename": "Report_frontend_18.pdf",
+      "source_sha256": "680c146d4fa9b9cb885b904c95b095707c6dab768a8371768f981bb732632d75"
+    },
+    {
+      "candidate_id": "92",
+      "filename": "Report_frontend_92.pdf",
+      "source_sha256": "f8ea0d41dca1bc41e0901f348d6ecfd2a488d67625709c03116b526b20143acc"
+    },
+    {
+      "candidate_id": "96",
+      "filename": "Report_frontend_96.pdf",
+      "source_sha256": "eece4d8d8b6f8675570176bc9d183f807e2200f4e5f9c64a2799a3131116a42e"
+    },
+    {
+      "candidate_id": "38",
+      "filename": "Report_frontend_38.pdf",
+      "source_sha256": "5c8e78ba7102f501cd93791df31d3652b7f46b11e094832ce4e5417b3496d96e"
+    },
+    {
+      "candidate_id": "41",
+      "filename": "Report_frontend_41.pdf",
+      "source_sha256": "fdde806c83f0c3e6cd84b0dfcf167e77ebffb2084788a5ffcacaf54b3b987679"
+    },
+    {
+      "candidate_id": "86",
+      "filename": "Report_frontend_86.pdf",
+      "source_sha256": "c77e70cb7486ea986805c5569af973f50dc37fbbc8a50968357fe9876a3d887d"
+    },
+    {
+      "candidate_id": "29",
+      "filename": "Report_frontend_29.pdf",
+      "source_sha256": "248456e1581e5e9b35336eaaa9221588ae10aa38dd265cd204f5a64fe1accec9"
+    },
+    {
+      "candidate_id": "91",
+      "filename": "Report_frontend_91.pdf",
+      "source_sha256": "6cd2d66a679774bb4b22a070d16e037b439a0d865c4abfe5d46baef2e572cd0e"
+    },
+    {
+      "candidate_id": "34",
+      "filename": "Report_frontend_34.pdf",
+      "source_sha256": "a7787d20d79e3a116eb5ac208a932de581dd07eeec7498a0cf26daf903d87b38"
+    },
+    {
+      "candidate_id": "82",
+      "filename": "Report_frontend_82.pdf",
+      "source_sha256": "d5648f613dc019257992692cec7d493fbb154fbba49d7d19218026454d2a7bb0"
+    },
+    {
+      "candidate_id": "80",
+      "filename": "Report_frontend_80.pdf",
+      "source_sha256": "d5442e29158fafb6f9e9c96762cdde4ea987b06c5b842ef98ae22c4bf01029af"
+    },
+    {
+      "candidate_id": "93",
+      "filename": "Report_frontend_93.pdf",
+      "source_sha256": "25da196268e1ca498cb1a1ce57715e1bc6f915b6614aa94c3de67409d7875316"
+    },
+    {
+      "candidate_id": "99",
+      "filename": "Report_frontend_99.pdf",
+      "source_sha256": "c07f44ae65ad6341e361a85f32fbdd7c30f3df2dc8310fb875543ab97d9da972"
+    },
+    {
+      "candidate_id": "76",
+      "filename": "Report_frontend_76.pdf",
+      "source_sha256": "958dfde741979c227121098c86420836f10756e6aee567d7eb2e253a443e9e07"
+    },
+    {
+      "candidate_id": "2",
+      "filename": "Report_frontend_2.pdf",
+      "source_sha256": "de0d8e44debbfca564b7ab34ece75db3caaf22f376888793418d72328e2c5544"
+    },
+    {
+      "candidate_id": "88",
+      "filename": "Report_frontend_88.pdf",
+      "source_sha256": "435e760489820b9ef7ac272cb1784299b2748ef72e3ed4d4172a4e610282a3bf"
+    }
+  ]
+}

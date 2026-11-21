@@ -1,5 +1,6 @@
 {
   "candidate_id": 358,
+  "candidate_name": "Садовников Иван Андреевич",
   "resume_title": "Python разработчик",
   "cover_letter": "Здравствуйте!\nМеня заинтересовала ваша вакансия. Я Python-разработчик с опытом создания и поддержки веб-сервисов на Django REST Framework и FastAPI. Работал с PostgreSQL, Redis, Celery, Docker и Git, MinIO S3, разрабатывал REST API, настраивал взаимодействие микросервисов и очередей задач.\nГотов обсудить любые вопросы!",
   "experience_total_months": 50,

@@ -1,5 +1,6 @@
 {
   "candidate_id": 26,
+  "candidate_name": "Новиков Глеб Михайлович",
   "resume_title": "Специалист разработчик",
   "cover_letter": "https://github.com/Iko1703\nОсновной фокус — backend-разработка на Java.\nИспользовал:\nJava 17\nSpring Boot (Web, Data JPA)\nREST API, JSON\nPostgreSQL / MS SQL\nHibernate / JPA\nGit\nMaven / Gradle\nбазовый опыт React + TypeScript\nТакже есть опыт работы с SQL, проектированием БД и написанием backend-логики, занимался ML и скрапингом на python\nДа, использовал cursor и в вс коде в пайчарме нейронки\nИнтересно глубже понять работу систем, архитектуру сервисов, вопросы производительности и надежности backend-инфраструктуры.",
   "experience_total_months": 20,

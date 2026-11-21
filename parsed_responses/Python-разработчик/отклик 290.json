@@ -1,5 +1,6 @@
 {
   "candidate_id": 290,
+  "candidate_name": "Новиков Глеб Павлович",
   "resume_title": "Data Engineer (PostgreSQL, Airflow, ETL, DWH, Clickhouse)",
   "cover_letter": "Добрый день!\nМеня заинтересовала вакансия Data Engineer в вашей компании, так как я люблю работать с данными и имею опыт в построении аналитических решений.\nКраткое содержание:\n- опыт работы: 3 года\n- основные компетенции: Python, SQL, NoSQL\n- опыт работы с базами данных: PostgreSQL, MongoDB, ClickHouse, BigQuery\n- есть опыт с Airflow, Docker, Hadoop, DWH, Git\n- есть опыт работы в написание ETL-процессов\n- знаком с Spark, Kafka, dbt\nФормат работы: Удалённо\nТГ для связи: @Saneshca\nС уважением, Александр.",
   "experience_total_months": 46,

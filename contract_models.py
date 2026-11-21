@@ -122,8 +122,9 @@ class RecruiterRecommendation(ContractModel):
     strengths: str | None = Field(default=None, max_length=800, strict=True)
     weaknesses: str | None = Field(default=None, max_length=800, strict=True)
     interview_focus: str | None = Field(default=None, max_length=800, strict=True)
+    notes: str | None = Field(default=None, max_length=800, strict=True)
 
-    @field_validator("strengths", "weaknesses", "interview_focus")
+    @field_validator("strengths", "weaknesses", "interview_focus", "notes")
     @classmethod
     def optional_text(cls, value: str | None) -> str | None:
         if value is not None and "\x00" in value:
