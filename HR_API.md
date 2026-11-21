@@ -14,7 +14,7 @@ CORS разрешает `http://localhost:5173`. Идентификаторы �
 | `PATCH /responses/{id}/viewed` | `{id, is_viewed}` — ручная отметка просмотра HR |
 | `PATCH /responses/{id}/source-text` | Отредактировать текст и получить обновлённый `ContractReport` |
 
-Статус обработки: `new`, `forwarded`, `not_forwarded`. Например:
+Фронтенд отправляет `call_pending` для статуса «Созвониться», `not_forwarded` для «Созвонились» и `forwarded` при передаче в департамент. Сброс промежуточного статуса использует `new`. Например:
 
 ```json
 {"workflow_status": "forwarded"}

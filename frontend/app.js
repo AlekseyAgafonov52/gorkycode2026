@@ -22,8 +22,8 @@ const previewText = preview.querySelector(".preview-text");
 const previewStatus = preview.querySelector(".preview-status");
 let previewRequest;
 const state = { vacancies: [], vacancyId: null, report: null,
-  navigation: 0, controller: null, saving: new Set(),
-  statusChoices: new Map(), changedStatuses: new Set(), markingViewed: new Set(),
+  navigation: 0, controller: null, saving: new Map(),
+  workflowWrites: new Map(), viewedWrites: new Map(), changedStatuses: new Set(), markingViewed: new Set(),
   sourceDrafts: new Map(), sourceWrites: new Map(), sourceNotices: new Map(), recommendationDrafts: new Map() };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g,
@@ -83,10 +83,29 @@ preview.addEventListener("click", (event) => {
 });
 
 function responseStatus(item) {
-  const local = state.statusChoices.get(item.id);
-  if (local) return local;
   if (Object.hasOwn(STATUS, item.workflow_status)) return item.workflow_status;
-  return item.is_viewed ? "reviewed" : null;
+  return item.is_viewed || state.report?.id === item.id ? "reviewed" : null;
+}
+
+function rememberResponseUpdate(writes, id, fields) {
+  writes.set(id, { fields, at: performance.now() });
+  if (state.report?.id === id) Object.assign(state.report, fields);
+  const item = state.items?.find((entry) => entry.id === id);
+  if (item) {
+    Object.assign(item, fields);
+    const vacancy = state.vacancies.find((entry) => entry.id === state.vacancyId);
+    if (vacancy) renderList(vacancy, state.items);
+  }
+}
+
+function applyRecentResponseUpdates(item, requestStarted) {
+  for (const writes of [state.viewedWrites, state.workflowWrites]) {
+    const saved = writes.get(item.id);
+    if (!saved) continue;
+    if (saved.at >= requestStarted) Object.assign(item, saved.fields);
+    else writes.delete(item.id);
+  }
+  return item;
 }
 
 async function markViewed(report) {
@@ -95,7 +114,7 @@ async function markViewed(report) {
   try {
     const result = await api.updateViewed(report.id, true);
     if (result.id !== report.id || result.is_viewed !== true) throw new Error("Сервер не подтвердил отметку");
-    if (state.report?.id === report.id) state.report.is_viewed = true;
+    rememberResponseUpdate(state.viewedWrites, report.id, { is_viewed: true });
   } catch (error) {
     console.warn("Не удалось сохранить отметку просмотра.", error);
   } finally {
@@ -229,12 +248,30 @@ function renderPdfReport(report) {
     </div>`;
 }
 
+function showPdfPreviewError(viewer, id) {
+  const status = document.createElement("p");
+  status.className = "pdf-status";
+  status.setAttribute("role", "status");
+  const html = document.createElement("a");
+  html.href = api.offlineReportUrl(id);
+  html.textContent = "Открыть HTML-версию";
+  const download = document.createElement("a");
+  download.href = api.pdfReportUrl(id, true);
+  download.textContent = "Скачать PDF";
+  status.append("Не удалось открыть предпросмотр. ", html, " · ", download);
+  viewer.replaceChildren(status);
+}
+
 async function loadPdfPreview(id, signal) {
   const viewer = app.querySelector("[data-pdf-viewer]");
   if (!viewer) return;
   try {
     const { pages } = await api.getPdfPreview(id, { signal });
     if (signal.aborted || !viewer.isConnected) return;
+    if (!Array.isArray(pages) || !pages.length) {
+      showPdfPreviewError(viewer, id);
+      return;
+    }
     viewer.replaceChildren(...pages.map(({ width, height }, index) => {
       const image = document.createElement("img");
       const page = index + 1;
@@ -244,20 +281,14 @@ async function loadPdfPreview(id, signal) {
       image.height = Math.round(height);
       image.loading = index === 0 ? "eager" : "lazy";
       image.decoding = "async";
+      image.addEventListener("error", () => {
+        if (!signal.aborted && image.isConnected) showPdfPreviewError(viewer, id);
+      }, { once: true });
       image.src = api.pdfPreviewPageUrl(id, page);
       return image;
     }));
-  } catch (error) {
-    if (signal.aborted || !viewer.isConnected) return;
-    const status = viewer.querySelector(".pdf-status");
-    status.textContent = "Не удалось открыть предпросмотр. ";
-    const html = document.createElement("a");
-    html.href = api.offlineReportUrl(id);
-    html.textContent = "Открыть HTML-версию";
-    const download = document.createElement("a");
-    download.href = api.pdfReportUrl(id, true);
-    download.textContent = "Скачать PDF";
-    status.append(html, " · ", download);
+  } catch {
+    if (!signal.aborted && viewer.isConnected) showPdfPreviewError(viewer, id);
   }
 }
 
@@ -289,11 +320,12 @@ function renderReport(report, vacancy) {
         </details>
       </div>
     </div>
+    <p class="notice error" data-workflow-error role="status" hidden></p>
     <section id="report-panel-pdf" role="tabpanel" aria-labelledby="report-tab-pdf" tabindex="0">
       ${renderPdfReport(report)}
     </section>
     <section class="panel" id="report-panel-review" role="tabpanel" aria-labelledby="report-tab-review" tabindex="0" hidden>
-      <h1>${esc(report.candidate_name || "ФИО не указано")}</h1>
+      <h1 data-candidate-name>${esc(report.candidate_name || "ФИО не указано")}</h1>
       ${vacancy.status === "closed" ? '<p class="closure-badge">Вакансия закрыта HR</p>' : ""}
       ${report.hired_at ? '<p class="hiring-badge">Найм закрыт · трудовой договор подписан</p>' : report.is_closed ? '<p class="closure-badge">Работа с откликом в департаменте завершена</p>' : ""}
       <p>Рекомендации рекрутера будут показаны руководителю в Telegram.</p>${recommendationForm(report)}
@@ -386,15 +418,18 @@ async function saveSource() {
   draft.saving = true;
   draft.error = "";
   renderSourceEditor();
+  const requestStarted = performance.now();
   try {
     const updated = await api.updateSourceText(draft.id, draft.text, draft.originalText);
     if (updated.id !== draft.id || updated.source_text !== draft.text) throw new Error("Не удалось подтвердить сохранение текста.");
+    applyRecentResponseUpdates(updated, requestStarted);
     state.sourceWrites.set(draft.id, { report: updated, at: performance.now() });
     state.sourceDrafts.delete(draft.id);
     state.sourceNotices.set(draft.id, "Текст сохранён. Отчёт обновлён.");
     if (state.report?.id === draft.id) {
       state.report = updated;
       app.querySelector("[data-source]").textContent = updated.source_text;
+      app.querySelector("[data-candidate-name]").textContent = updated.candidate_name || "ФИО не указано";
       app.querySelector("[data-pdf-stale]")?.toggleAttribute("hidden", !updated.pdf_report?.is_stale);
       renderSourceEditor();
       if (!app.querySelector("[data-source-panel]").hidden) {
@@ -426,7 +461,7 @@ function updateNextAction() {
   button.disabled = state.saving.has(report.id);
 }
 
-function updateStatusControls(notice = "", isError = false) {
+function updateStatusControls({ notice = "", error = false, transfer = false } = {}) {
   const report = state.report;
   if (!report) return;
   const current = app.querySelector("[data-current-status]");
@@ -441,18 +476,13 @@ function updateStatusControls(notice = "", isError = false) {
   });
   app.querySelectorAll("[data-recommendation-field], [data-action='send-resume']").forEach((input) => { input.disabled = saving; });
   const output = app.querySelector("[data-save-notice]");
-  output.textContent = saving ? "Отправляем…" : notice;
-  output.classList.toggle("error", isError);
-  output.classList.toggle("success", !isError && Boolean(notice));
+  output.textContent = state.saving.get(report.id) === "forwarded" ? "Отправляем…" : transfer ? notice : "";
+  output.classList.toggle("error", transfer && error);
+  output.classList.toggle("success", transfer && !error && Boolean(notice));
+  const workflowError = app.querySelector("[data-workflow-error]");
+  workflowError.hidden = transfer || !error;
+  workflowError.textContent = workflowError.hidden ? "" : notice;
   updateNextAction();
-}
-
-function setResponseStatus(status) {
-  const report = state.report;
-  if (!report || state.saving.has(report.id)) return;
-  if (status !== responseStatus(report)) state.changedStatuses.add(report.id);
-  state.statusChoices.set(report.id, status);
-  updateStatusControls();
 }
 
 function chooseStatus(button) {
@@ -461,12 +491,14 @@ function chooseStatus(button) {
   const menu = button.closest("details");
   menu.open = false;
   const status = button.dataset.workflowChoice;
-  if (status === "forwarded" && responseStatus(report) !== "forwarded") {
-    selectReportTab(app.querySelector("#report-tab-review"));
-    app.querySelector('[data-action="send-resume"]').focus();
+  if (status === "forwarded") {
+    if (responseStatus(report) !== "forwarded") {
+      selectReportTab(app.querySelector("#report-tab-review"));
+      app.querySelector('[data-action="send-resume"]').focus();
+    }
     return;
   }
-  setResponseStatus(status);
+  saveWorkflow(status);
   menu.querySelector("summary").focus();
 }
 
@@ -476,36 +508,45 @@ function advanceStatus(button) {
     sendResume();
     return;
   }
-  setResponseStatus(button.dataset.nextStatus);
+  saveWorkflow(button.dataset.nextStatus);
   app.querySelector(".report-status summary").focus();
 }
 
-async function sendResume() {
+function sendResume() {
+  return saveWorkflow("forwarded", readRecommendation());
+}
+
+async function saveWorkflow(status, recommendation) {
   const report = state.report;
   if (!report || state.saving.has(report.id)) return;
-  const recommendation = readRecommendation();
-  state.saving.add(report.id);
+  const transfer = status === "forwarded";
+  if (!transfer && status === responseStatus(report)) return;
+  const next = status === "reviewed" ? "new" : status;
+  state.saving.set(report.id, status);
   updateStatusControls();
-  let notice;
-  let failed = false;
+  let notice = "";
+  let error = false;
   try {
-    const result = await api.updateStatus(report.id, "forwarded", recommendation);
-    if (result.id !== report.id || result.workflow_status !== "forwarded") {
-      throw new Error("Не удалось подтвердить отправку резюме.");
+    const result = await api.updateStatus(report.id, next, recommendation);
+    if (result.id !== report.id || result.workflow_status !== next) {
+      throw new Error(transfer ? "Не удалось подтвердить отправку резюме." : "Не удалось подтвердить изменение статуса.");
     }
-    state.statusChoices.set(report.id, result.workflow_status);
-    state.recommendationDrafts.delete(report.id);
-    if (state.report?.id === report.id) {
-      state.report.workflow_status = result.workflow_status;
-      state.report.recruiter_recommendation = recommendation;
+    const fields = { workflow_status: result.workflow_status };
+    if (transfer) {
+      fields.recruiter_recommendation = recommendation;
+      state.recommendationDrafts.delete(report.id);
+      notice = "Резюме и отзыв переданы на отправку в Telegram.";
+    } else {
+      state.changedStatuses.add(report.id);
+      if (status === "reviewed") markViewed(report);
     }
-    notice = "Резюме и отзыв переданы на отправку в Telegram.";
-  } catch (error) {
-    failed = true;
-    notice = error.message;
+    rememberResponseUpdate(state.workflowWrites, report.id, fields);
+  } catch (failure) {
+    error = true;
+    notice = failure.message;
   } finally {
     state.saving.delete(report.id);
-    if (state.report?.id === report.id) updateStatusControls(notice, failed);
+    if (state.report?.id === report.id) updateStatusControls({ notice, error, transfer });
   }
 }
 
@@ -518,6 +559,7 @@ async function route() {
   state.controller = new AbortController();
   const { signal } = state.controller;
   state.report = null;
+  state.items = null;
   let vacancyId, responseId;
   try {
     const vacancies = await api.listVacancies({ signal });
@@ -563,7 +605,7 @@ async function route() {
         return;
       }
       report = applyRecentSource(report, requestStarted);
-      if (!responseStatus(report)) state.statusChoices.set(report.id, "reviewed");
+      applyRecentResponseUpdates(report, requestStarted);
       state.report = report;
       renderReport(report, vacancy);
       loadPdfPreview(report.id, signal);
@@ -571,6 +613,7 @@ async function route() {
     } else {
       const items = await api.listResponses(vacancyId, { signal });
       if (navigation !== state.navigation) return;
+      items.forEach((item) => applyRecentResponseUpdates(item, requestStarted));
       renderList(vacancy, items);
     }
     window.scrollTo(0, 0);

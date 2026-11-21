@@ -9,7 +9,7 @@ from pydantic import BaseModel, ConfigDict, Field, PrivateAttr, field_validator,
 
 Color = Literal["green", "yellow", "red"]
 Level = Literal["advanced", "intermediate", "basic"]
-Workflow = Literal["new", "forwarded", "not_forwarded"]
+Workflow = Literal["new", "call_pending", "forwarded", "not_forwarded"]
 
 
 class ContractModel(BaseModel):

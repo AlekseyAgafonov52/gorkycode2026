@@ -67,7 +67,8 @@ class VacancyCriterion(Identity, Created, Base):
 class Response(Identity, Created, Updated, Base):
     __tablename__ = "responses"
     __table_args__ = (
-        CheckConstraint("workflow_status IN ('new', 'forwarded', 'not_forwarded')", name="responses_workflow_status_check"),
+        CheckConstraint("workflow_status IN ('new', 'call_pending', 'forwarded', 'not_forwarded')",
+                        name="responses_workflow_status_check"),
         Index("idx_responses_vacancy", "vacancy_id"),
         Index("idx_responses_status", "vacancy_id", "workflow_status", "is_archived"),
     )

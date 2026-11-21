@@ -262,6 +262,17 @@ class HRAPITests(unittest.TestCase):
     def test_t12_status_persists_in_fresh_service_and_reimport(self):
         self.prepare()
         url = f"/api/v1/responses/{self.ids[0]}/status"
+        for status in ("call_pending", "not_forwarded"):
+            response = self.client.patch(url, json={"workflow_status": status})
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.json(), {"id": str(self.ids[0]), "workflow_status": status})
+            with TestClient(create_app(HRService(self.factory, self.provider))) as fresh:
+                self.assertEqual(fresh.get(self.report_url()).json()["workflow_status"], status)
+                self.assertEqual(len(fresh.get(self.responses_url(), params={"workflow_status": status}).json()), 1)
+            with self.factory.begin() as session:
+                saved = Repository(session).get_response(self.ids[0])
+                self.assertFalse(saved.department_notification_pending)
+                self.assertFalse(saved.is_viewed)
         response = self.client.patch(url, json={"workflow_status": "forwarded"})
         self.assertEqual(response.json(), {"id": str(self.ids[0]), "workflow_status": "forwarded"})
         import_folder(self.factory, self.folder, self.key)
