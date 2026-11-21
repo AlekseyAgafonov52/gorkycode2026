@@ -202,12 +202,15 @@ function loading(text) {
 function renderList(vacancy, items) {
   vacancy.responses_count = items.length;
   const groups = { green: [], yellow: [], red: [] };
-  for (const item of items) groups[item.match_status].push(item);
+  for (const item of items) {
+    const group = item.candidate_name?.trim() ? item.match_status : "red";
+    groups[group].push(item);
+  }
   const card = (item) => {
     const status = responseStatus(item);
     const label = status ? STATUS[status] : "Новое";
     return `<a class="candidate-card" data-card-status="${status ?? "unviewed"}" href="${reportLink(vacancy.id, item.id)}">
-      <span class="candidate-name">${esc(item.candidate_name || "ФИО не указано")}</span>
+      <span class="candidate-name">${esc(item.candidate_name?.trim() || "ФИО не указано")}</span>
       <span class="candidate-meta">
         <span class="candidate-experience">${experienceLabel(item.experience_months)}</span>
         ${status === "reviewed" ? `<span class="sr-only">${STATUS.reviewed}</span>`

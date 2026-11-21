@@ -128,3 +128,38 @@ def find_application_data(resume: dict) -> tuple[tuple[str, ...], str | None]:
         if not contact_path and any(_in_text(match[0]) for match in CONTACT_LINE.finditer(source)):
             contact_path = "/source_text"
     return name_paths, contact_path
+
+
+def report_identity(resume: dict) -> tuple[str | None, tuple[str, ...]]:
+    """Return a display name and direct contacts for the PDF header."""
+    name_paths, _ = find_application_data(resume)
+    names = []
+    for path in name_paths:
+        value = resume
+        for key in path.removeprefix("/").split("/"):
+            value = value[key]
+        text = _text(value)
+        if key.casefold() in FULL_NAME_FIELDS | FIRST_NAME_FIELDS | LAST_NAME_FIELDS:
+            names.append(text)
+        else:
+            match = next((match for pattern in (NAME_LABEL, NAME_INTRO) for match in pattern.finditer(text)
+                          if _name(match[1])), None)
+            if match:
+                names.append(match[1].strip())
+
+    structured = resume.get("contacts")
+    sections = (resume, structured) if isinstance(structured, dict) else (resume,)
+    direct = []
+    for section in sections:
+        for key, value in section.items():
+            kind = CONTACT_FIELDS.get(key.casefold())
+            contact = _text(value)
+            if ((kind == "phone" and _phone(contact))
+                    or (kind == "email" and EMAIL.fullmatch(contact))
+                    or (kind == "messenger" and HANDLE.fullmatch(contact))):
+                direct.append("@" + contact.lstrip("@") if kind == "messenger" else contact)
+    text = URL.sub("", "\n".join(_text(resume.get(key)) for key in ("source_text", "cover_letter", "about_me")))
+    direct.extend(match[0] for match in EMAIL.finditer(text))
+    direct.extend(match[0] for match in PHONE.finditer(text) if _phone(match[0]))
+    direct.extend("@" + match[1] for match in HANDLE_LABEL.finditer(text))
+    return " ".join(names) or None, tuple(dict.fromkeys(direct))

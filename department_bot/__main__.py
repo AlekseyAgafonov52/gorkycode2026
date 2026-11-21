@@ -70,7 +70,9 @@ class Cursor:
 def poll(client: TelegramClient, controller: BotController, cursor: Cursor, stop: threading.Event):
     while not stop.is_set():
         try:
+            operation = "deliver_pending"
             controller.deliver_pending()
+            operation = "getUpdates"
             updates = client.call("getUpdates", offset=cursor.offset, timeout=25, limit=20,
                                   allowed_updates=["message", "callback_query"])
             if not isinstance(updates, list):
@@ -83,6 +85,7 @@ def poll(client: TelegramClient, controller: BotController, cursor: Cursor, stop
                 if cursor.offset is not None and update["update_id"] < cursor.offset:
                     continue
                 try:
+                    operation = "handle_update"
                     controller.handle(update)
                 except TelegramError as error:
                     if error.code not in (400, 403):
@@ -91,8 +94,10 @@ def poll(client: TelegramClient, controller: BotController, cursor: Cursor, stop
                     logger.warning("Telegram message could not be delivered (code %s)", error.code)
                 cursor.save(update["update_id"] + 1)
         except TelegramError as error:
+            if error.code == 409 and operation == "getUpdates":
+                raise ValueError("Telegram API 409 на getUpdates: проверьте, запущен ли другой экземпляр бота или установлен webhook") from None
             if error.code in (401, 404, 409):
-                raise ValueError("Проверьте токен и отсутствие второго процесса Telegram-бота/webhook") from None
+                raise ValueError(f"Telegram API {error.code} на {operation}") from None
             logger.warning("Telegram temporary failure (code %s, reason %s); retrying", error.code, error.reason)
             stop.wait(error.retry_after)
 

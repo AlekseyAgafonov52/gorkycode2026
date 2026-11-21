@@ -16,7 +16,13 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import LongTable, Paragraph, SimpleDocTemplate, Spacer, Table
 
-from ranking import PRIORITY_LABEL, STATUS_INK, STATUS_LABEL, TRAFFIC, Assessment, InputError, Vacancy
+from application_data import MESSENGER_LINK, URL
+from ranking import PRIORITY_LABEL, STATUS_LABEL, TRAFFIC, Assessment, InputError, Vacancy
+
+BARE_PROFILE_URL = re.compile(
+    r"(?i)(?<![\w@.])(?:behance\.net|dribbble\.com|github\.com|gitlab\.com|"
+    r"linkedin\.com|figma\.com|instagram\.com|vk\.com)/[^\s<>]+"
+)
 
 
 def register_fonts(regular: Path | None, bold: Path | None) -> None:
@@ -45,8 +51,11 @@ def percentage(value: float | None) -> str:
 
 
 def pdf_paragraph(text: str, size: float = 9.2, color: str = "#1A2941", bold: bool = False,
-                  keep_with_next: bool = False) -> Paragraph:
+                  keep_with_next: bool = False, label: str = "") -> Paragraph:
+    text = BARE_PROFILE_URL.sub("", MESSENGER_LINK.sub("", URL.sub("", text)))
     safe = escape(re.sub(r"[\x00-\x08\x0b-\x1f]", "", text))
+    if label:
+        safe = f"<b>{escape(label)}</b> {safe}"
     return Paragraph(safe, ParagraphStyle("Report", fontName="HR-Bold" if bold else "HR",
                                           fontSize=size, leading=size * 1.34, textColor=colors.HexColor(color),
                                           keepWithNext=keep_with_next))
@@ -67,11 +76,13 @@ def assessment_summary(assessment: Assessment) -> list[str]:
     return lines
 
 
-def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None, experience_months: int | None = None) -> None:
+def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None,
+             experience_months: int | None = None, *, candidate_name: str | None = None,
+             contacts: tuple[str, ...] = ()) -> None:
     ink = "#1A2941"
     muted = "#47566E"
     border = "#D9E2EC"
-    label, accent, tint = TRAFFIC[assessment.color]
+    _, accent, tint = TRAFFIC[assessment.color]
 
     p = pdf_paragraph
 
@@ -79,12 +90,15 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
                             title=f"Отчёт по отклику {assessment.application_id} · {vacancy.title}", author="HR")
     width = doc.width - 12  # Внутренние отступы рамки Platypus.
     identity = " · ".join(filter(None, (vacancy.organization, vacancy.location)))
-    story = [p(f"Отчёт по отклику № {assessment.application_id}", 20, bold=True),
-             Spacer(1, 4), p(vacancy.title, 12, bold=True)]
+    header_style = {"size": 9, "color": ink}
+    story = [Spacer(1, 6),
+             p(candidate_name or "не указано", label="ФИО:", **header_style),
+             p(" · ".join(contacts) or "не указаны", label="Контакты:", **header_style),
+             Spacer(1, 6), p(vacancy.title, label="Вакансия:", **header_style)]
     if identity:
-        story.append(p(identity, 8.6, muted))
+        story.append(p(identity, **header_style))
     if assessment.resume_title:
-        story.extend([Spacer(1, 7), p(f"Резюме «{assessment.resume_title}»", 8.8, muted)])
+        story.extend([Spacer(1, 7), p(f"«{assessment.resume_title}»", label="Резюме", **header_style)])
     # Общий стаж из поля отклика; не путать с подтверждённым профильным стажем.
     if isinstance(experience_months, int) and not isinstance(experience_months, bool) and experience_months >= 0:
         years, months = divmod(experience_months, 12)
@@ -96,13 +110,15 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
             experience_label = f"{months} мес."
     else:
         experience_label = "Не указан"
-    story.extend([Spacer(1, 7), p(f"Общий опыт работы: {experience_label}", 9, ink, bold=True)])
+    story.append(p(experience_label, label="Общий опыт работы:", **header_style))
 
+    skills = [finding for finding in assessment.findings if finding.criterion.kind == "skill"]
+    pending_skills = sum(finding.status != "met" for finding in skills)
     summary = Table([
-        [p(label, 10, accent, bold=True), p("Подтверждено", 8.4, muted), p("По проверенным", 8.4, muted), p("Покрытие", 8.4, muted)],
-        [p(assessment.reason, 8.8, accent), p(percentage(assessment.confirmed), 14, bold=True),
-         p(percentage(assessment.score), 14, bold=True), p(percentage(assessment.coverage), 14, bold=True)],
-    ], colWidths=[width * 0.49, width * 0.17, width * 0.17, width * 0.17], style=[
+        [p(f"{pending_skills} из {len(skills)}", 22, accent, bold=True),
+         p(percentage(assessment.confirmed), 22, bold=True)],
+        [p("навыков ждут подтверждения", 8.8, accent), p("соответствия", 8.8, muted)],
+    ], colWidths=[width * 0.49, width * 0.17], hAlign="LEFT", style=[
         ("BACKGROUND", (0, 0), (0, -1), colors.HexColor(tint)),
         ("BACKGROUND", (1, 0), (-1, -1), colors.HexColor("#F0F4F9")),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
@@ -199,11 +215,6 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
             story.append(p(question, 9))
         story.append(Spacer(1, 10))
 
-    story.extend([Spacer(1, 8), p("Подтверждено — набранные баллы от полного веса требований. "
-                                 "По проверенным — баллы от веса оценённых критериев. Покрытие — доля оценённых "
-                                 "критериев по весу. ФИО и контакты проверяются отдельно от оценки вакансии. "
-                                 "Решение по отклику принимает HR.", 8, muted)])
-
     def footer(canvas, document):
         canvas.saveState()
         canvas.setStrokeColor(colors.HexColor(border))
@@ -214,7 +225,18 @@ def make_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_que
         canvas.drawRightString(A4[0] - 44, 20, str(document.page))
         canvas.restoreState()
 
-    doc.build(story, onFirstPage=footer, onLaterPages=footer)
+    def first_page(canvas, document):
+        heading = f"Отчёт по отклику № {assessment.application_id}"
+        heading_size = 14
+        size = min(heading_size, heading_size * width / canvas.stringWidth(heading, "HR-Bold", heading_size))
+        canvas.saveState()
+        canvas.setFont("HR-Bold", size)
+        canvas.setFillColor(colors.HexColor(ink))
+        canvas.drawString(44, A4[1] - 36, heading)
+        canvas.restoreState()
+        footer(canvas, document)
+
+    doc.build(story, onFirstPage=first_page, onLaterPages=footer)
 
 
 def write_atomic(path: Path, render: Callable[[Path], None]) -> None:
@@ -227,8 +249,11 @@ def write_atomic(path: Path, render: Callable[[Path], None]) -> None:
         temporary_path.unlink(missing_ok=True)
 
 
-def write_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None, experience_months: int | None = None) -> None:
-    write_atomic(path, lambda temporary: make_pdf(temporary, vacancy, assessment, technical_questions, experience_months))
+def write_pdf(path: Path, vacancy: Vacancy, assessment: Assessment, technical_questions: list[dict] | None = None,
+              experience_months: int | None = None, *, candidate_name: str | None = None,
+              contacts: tuple[str, ...] = ()) -> None:
+    write_atomic(path, lambda temporary: make_pdf(temporary, vacancy, assessment, technical_questions,
+                                                 experience_months, candidate_name=candidate_name, contacts=contacts))
 
 
 # RESTORED_OFFLINE_TECHNICAL_QUESTIONS_V1

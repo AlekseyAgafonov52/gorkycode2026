@@ -12,6 +12,7 @@ from pathlib import Path
 from reportlab.pdfbase.ttfonts import TTFError
 from reportlab.platypus.doctemplate import LayoutError
 
+from application_data import report_identity
 from ranking import TRAFFIC, assess, make_vacancy, prepare_resume_text, rank_applications, read_json
 from report_pdf import percentage, register_fonts, write_atomic, write_pdf, select_technical_questions
 
@@ -77,6 +78,7 @@ def main() -> int:
 
     entries = []
     experience_by_path: dict[Path, int | None] = {}
+    identity_by_path: dict[Path, tuple[str | None, tuple[str, ...]]] = {}
     applications, input_errors = collect_applications(args.applications, excluded)
     for error in input_errors:
         print(error, file=sys.stderr)
@@ -86,6 +88,7 @@ def main() -> int:
             resume = read_json(application)
             months = resume.get("experience_total_months")
             experience_by_path[application.resolve()] = (months if type(months) is int and months >= 0 else None)
+            identity_by_path[application.resolve()] = report_identity(resume)
             prepared = prepare_resume_text(resume)
             assessment = assess(vacancy, resume, application.stem, prepared=prepared)
             entries.append((application, assessment, prepared.passages))
@@ -106,8 +109,9 @@ def main() -> int:
         try:
             technical_questions = (select_technical_questions(bank, vacancy.title, assessment.application_id)
                                    if bank is not None else None)
+            candidate_name, contacts = identity_by_path[application.resolve()]
             write_pdf(path, vacancy, assessment, technical_questions,
-                      experience_by_path.get(application.resolve()))
+                      experience_by_path.get(application.resolve()), candidate_name=candidate_name, contacts=contacts)
         except (OSError, ValueError, LayoutError) as error:
             print(f"Ошибка отчёта для {application.name}. {error}", file=sys.stderr)
             failed = True

@@ -13,6 +13,7 @@ import pymupdf
 @dataclass(frozen=True)
 class Line:
     text: str
+    html: str
     x: float
     y: float
     size: float
@@ -26,25 +27,30 @@ def _lines(page: pymupdf.Page) -> list[Line]:
         for line in block["lines"]:
             spans = line["spans"]
             first = spans[0]
-            text = "".join(span["text"] for span in spans).replace("\x00", "")
-            lines.append(Line(text, *first["origin"], first["size"], first["color"],
-                              bool(first["flags"] & pymupdf.TEXT_FONT_BOLD)))
+            runs = [(span["text"].replace("\x00", ""), bool(span["flags"] & pymupdf.TEXT_FONT_BOLD))
+                    for span in spans]
+            bold = all(weight for _, weight in runs)
+            text = "".join(value for value, _ in runs)
+            html = "".join(f"<strong>{escape(value)}</strong>" if weight and not bold else escape(value)
+                           for value, weight in runs)
+            lines.append(Line(text, html, *first["origin"], first["size"], first["color"], bold))
     return lines
 
 
-def _paragraphs(lines: list[Line], *, headings: bool = False) -> str:
+def _paragraphs(lines: list[Line], *, headings: bool = False, preserve_line_breaks: bool = False) -> str:
     paragraphs = []
+    separator = "<br>" if preserve_line_breaks else " "
     for (size, color, bold), group in groupby(lines, key=lambda line: (line.size, line.color, line.bold)):
         previous_y = None
         chunks: list[list[str]] = []
         for line in group:
             if previous_y is None or not 0 < line.y - previous_y <= 1.4 * size:
                 chunks.append([])
-            chunks[-1].append(escape(line.text))
+            chunks[-1].append(line.html)
             previous_y = line.y
         tag = "p"
         if headings and bold:
-            if size >= 20:
+            if size >= 20 or " ".join(chunks[0][0].split()).startswith("Отчёт по отклику №"):
                 tag = "h1"
             elif size >= 11.5:
                 tag = "h2"
@@ -52,7 +58,7 @@ def _paragraphs(lines: list[Line], *, headings: bool = False) -> str:
                 tag = "h3"
         weight = 700 if bold else 400
         style = f'font-size:{size * 1.5:.2f}px;color:#{color:06x};font-weight:{weight}'
-        paragraphs.extend(f'<{tag} style="{style}">{" ".join(chunk)}</{tag}>' for chunk in chunks)
+        paragraphs.extend(f'<{tag} style="{style}">{separator.join(chunk)}</{tag}>' for chunk in chunks)
     return "".join(paragraphs)
 
 
@@ -66,12 +72,12 @@ def _columns(lines: list[Line], starts: list[float]) -> list[list[Line]]:
 
 def _summary(lines: list[Line], fills: list[dict]) -> str:
     starts = sorted({round(line.x, 1) for line in lines})
-    if len(starts) != 4:
+    if len(starts) not in (2, 4):
         return _paragraphs(lines)
     cards = _columns(lines, starts)
     background = "#" + "".join(f"{round(channel * 255):02x}" for channel in fills[0]["fill"])
     return (
-        '<section class="summary" aria-label="Сводка по оценке">'
+        f'<section class="summary summary-{len(cards)}" aria-label="Сводка по оценке">'
         f'<div style="background:{background}">{_paragraphs(cards[0])}</div>'
         + "".join(f"<div>{_paragraphs(card)}</div>" for card in cards[1:])
         + "</section>"
@@ -115,7 +121,8 @@ def _page(page: pymupdf.Page) -> str:
     if len(fills) >= 2:
         left, right = (fill["rect"] for fill in fills[:2])
         if abs(left.x1 - right.x0) < 0.1 and abs(left.y0 - right.y0) < 0.1 and abs(left.y1 - right.y1) < 0.1:
-            parts.append(_paragraphs([line for line in remaining if line.y < left.y0], headings=True))
+            parts.append(_paragraphs([line for line in remaining if line.y < left.y0],
+                                     headings=True, preserve_line_breaks=True))
             parts.append(_summary([line for line in remaining if left.y0 <= line.y < left.y1], fills))
             remaining = [line for line in remaining if line.y >= left.y1]
     for index, fill in enumerate(fills):
@@ -144,6 +151,7 @@ nav a { color: #1a2941; background: white; border: 1px solid #b8c7d9; border-rad
 h1, h2, h3, p { margin: 0 0 .45em; overflow-wrap: anywhere; }
 h2, h3 { margin-top: 1em; }
 .summary { display: grid; grid-template-columns: 2.9fr repeat(3, 1fr); gap: 2px; margin: 1em 0; }
+.summary-2 { grid-template-columns: 2.9fr 1fr; }
 .summary div { background: #f0f4f9; padding: 10px; min-width: 0; }
 table { border-collapse: collapse; width: 100%; table-layout: fixed; }
 th, td { text-align: left; vertical-align: top; padding: 8px; }
@@ -155,8 +163,9 @@ footer { display: flex; justify-content: space-between; border-top: 1px solid #d
 .stale { background: #fff4d9; margin-bottom: 16px; padding: 12px; }
 @media (max-width: 620px) {
     main { padding: 8px; }
-    .summary { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-    .summary div:first-child { grid-column: 1 / -1; }
+    .summary-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .summary-4 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .summary-4 div:first-child { grid-column: 1 / -1; }
     th, td { padding: 5px; }
     th:nth-child(2) { width: 25%; }
 }
