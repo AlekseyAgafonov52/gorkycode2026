@@ -79,39 +79,31 @@ class BotController:
 
     def route(self, actor: int, data: str) -> tuple[str, list[list[dict]]]:
         if data.startswith("!"):
-            kind, item = self.service.confirm(actor, data)
-            return self.card(kind, item)
+            _, item = self.service.confirm(actor, data)
+            return self.response_card(item)
         parts = data.split(":")
         if parts[0] == "vl" and len(parts) == 3:
             closed, number = self._list_args(parts[1], parts[2])
             page = self.service.vacancies(actor, closed, number)
             title = "Закрытые вакансии" if closed else "Текущие вакансии"
-            rows = [[button(label(item), f"v:{item.id.hex}")] for item in page.items]
+            rows = [[button(label(item), f"rl:{item.id.hex}:0:0")] for item in page.items]
             rows += self.pager(page, lambda n: f"vl:{int(closed)}:{n}")
-            rows.append([button("Текущие", "vl:0:0"), button("Закрытые", "vl:1:0")])
+            rows.append([button("Открытые" if closed else "Закрытые", f"vl:{int(not closed)}:0")])
             return f"{title}: {page.total}\nВыберите вакансию." if page.total else f"{title}: нет записей.", rows
-        if parts[0] in ("v", "r") and len(parts) == 2:
-            return self.card(parts[0], self.service.get(actor, parts[0], UUID(parts[1])))
-        if parts[0] == "close-vacancy" and len(parts) == 2:
-            # Refresh the keyboard on messages sent before this action was removed.
-            return self.card("v", self.service.get(actor, "v", UUID(parts[1])))
+        if parts[0] in ("v", "close-vacancy") and len(parts) == 2:
+            return self.response_list(actor, UUID(parts[1]), False, 0)
+        if parts[0] == "r" and len(parts) == 2:
+            return self.response_card(self.service.get(actor, "r", UUID(parts[1])))
         if parts[0] == "files" and len(parts) == 2:
             identifier = UUID(parts[1])
             if not self.send_materials(actor, identifier):
                 raise MaterialsNotReadyError()
-            text, rows = self.card("r", self.service.get(actor, "r", identifier))
+            text, rows = self.response_card(self.service.get(actor, "r", identifier))
             return text + "\n\nОтчёт и исходное резюме отправлены в этот чат.", rows
         if parts[0] == "rl" and len(parts) == 4:
             vacancy_id = UUID(parts[1])
             closed, number = self._list_args(parts[2], parts[3])
-            vacancy = self.service.get(actor, "v", vacancy_id)
-            page = self.service.responses(actor, vacancy_id, closed, number)
-            title = "Закрытые отклики" if closed else "Отклики в работе"
-            rows = [[button(label(item), f"r:{item.id.hex}")] for item in page.items]
-            rows += self.pager(page, lambda n: f"rl:{vacancy_id.hex}:{int(closed)}:{n}")
-            rows.extend([[button("Открытые" if closed else "Закрытые", f"rl:{vacancy_id.hex}:{int(not closed)}:0")],
-                         [button("К вакансии", f"v:{vacancy_id.hex}")]])
-            return f"{label(vacancy)}\n{title}: {page.total}", rows
+            return self.response_list(actor, vacancy_id, closed, number)
         if parts[0] == "ask" and len(parts) == 4 and parts[1] in ("v", "r") and parts[3] in ("0", "1"):
             kind, closed = parts[1], parts[3] == "1"
             item, token = self.service.confirmation(actor, kind, UUID(parts[2]), closed)
@@ -121,6 +113,16 @@ class BotController:
             return f"{action} {noun}?\n{label(item)}{note}", [
                 [button(f"Подтвердить: {action.lower()}", token)], [button("Отмена", f"{kind}:{item.id.hex}")]]
         raise ValueError("Кнопка устарела. Откройте список вакансий заново.")
+
+    def response_list(self, actor: int, vacancy_id: UUID, closed: bool, number: int) -> tuple[str, list[list[dict]]]:
+        vacancy = self.service.get(actor, "v", vacancy_id)
+        page = self.service.responses(actor, vacancy_id, closed, number)
+        title = "Закрытые отклики" if closed else "Отклики в работе"
+        rows = [[button(label(item), f"r:{item.id.hex}")] for item in page.items]
+        rows += self.pager(page, lambda n: f"rl:{vacancy_id.hex}:{int(closed)}:{n}")
+        rows.extend([[button("Открытые" if closed else "Закрытые", f"rl:{vacancy_id.hex}:{int(not closed)}:0")],
+                     [button("К вакансиям", f"vl:{int(vacancy.is_closed)}:0")]])
+        return f"{label(vacancy)}\n{title}: {page.total}", rows
 
     def deliver_pending(self) -> None:
         actors = sorted(self.service.manager_ids)
@@ -145,7 +147,7 @@ class BotController:
         item = materials.item
         if "packet" in materials.completed:
             return True
-        text, _ = self.card("r", item)
+        text, _ = self.response_card(item)
         self.client.packet(actor, f"HR передал кандидата или обновил материалы\nВакансия: {materials.vacancy_title[:150]}\n\n{text}",
                            (materials.report, materials.resume), [[button("Открыть кандидата", f"r:{item.id.hex}")]])
         return self.service.mark_delivered(actor, identifier, materials.version, "packet")
@@ -166,36 +168,26 @@ class BotController:
         return [row] if row else []
 
     @staticmethod
-    def card(kind: str, item: Item) -> tuple[str, list[list[dict]]]:
-        noun = "Вакансия" if kind == "v" else "Отклик"
-        if kind == "v":
-            status = "Закрыта" if item.is_closed else "Активна"
-        else:
-            status = "Работа завершена" if item.is_closed else "В работе"
+    def response_card(item: Item) -> tuple[str, list[list[dict]]]:
+        status = "Работа завершена" if item.is_closed else "В работе"
         if item.hired_at:
             status = "Найм закрыт — трудовой договор подписан"
-        text = f"{noun}: {label(item)}\nСтатус: {status}"
+        text = f"Отклик: {label(item)}\nСтатус: {status}"
         if item.closed_at:
             text += f"\nЗакрытие: {item.closed_at.astimezone(timezone.utc).strftime('%d.%m.%Y %H:%M UTC')}"
-        rows = []
-        if kind == "v":
-            rows.append([button("Переданные отклики", f"rl:{item.id.hex}:0:0")])
+        recommendation = item.recommendation
+        notes = [] if recommendation is None else [
+            ("Сильные стороны", recommendation.strengths), ("Слабые места", recommendation.weaknesses),
+            ("Проверить на собеседовании", recommendation.interview_focus), ("Заметки", recommendation.notes)]
+        filled = [f"{label}: {value}" for label, value in notes if value]
+        if filled:
+            text += "\n\nРекомендации рекрутера\n" + "\n".join(filled)
         else:
-            recommendation = item.recommendation
-            notes = [] if recommendation is None else [
-                ("Сильные стороны", recommendation.strengths), ("Слабые места", recommendation.weaknesses),
-                ("Проверить на собеседовании", recommendation.interview_focus), ("Заметки", recommendation.notes)]
-            filled = [f"{label}: {value}" for label, value in notes if value]
-            if filled:
-                text += "\n\nРекомендации рекрутера\n" + "\n".join(filled)
-            else:
-                text += "\n\nРекомендации рекрутера пока не заполнены."
-            rows.append([button("Отчёт и исходное резюме", f"files:{item.id.hex}")])
-            if not item.hired_at:
-                rows.append([button("Вернуть в работу" if item.is_closed else "Завершить работу с откликом",
-                                    f"ask:r:{item.id.hex}:{int(not item.is_closed)}")])
-        if kind == "v":
-            rows.append([button("К вакансиям", "vl:0:0")])
-        elif item.vacancy_id is not None:
+            text += "\n\nРекомендации рекрутера пока не заполнены."
+        rows = [[button("Отчёт и исходное резюме", f"files:{item.id.hex}")]]
+        if not item.hired_at:
+            rows.append([button("Вернуть в работу" if item.is_closed else "Завершить работу с откликом",
+                                f"ask:r:{item.id.hex}:{int(not item.is_closed)}")])
+        if item.vacancy_id is not None:
             rows.append([button("К откликам", f"rl:{item.vacancy_id.hex}:{int(item.is_closed)}:0")])
         return text, rows
