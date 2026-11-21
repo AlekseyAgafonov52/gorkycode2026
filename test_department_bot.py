@@ -209,7 +209,7 @@ class BotUnitTests(unittest.TestCase):
         controller.handle(callback(f"ask:r:{item.id.hex}:1"))
         service.confirm.assert_not_called()
         self.assertEqual(len(telegram.answers), 1)
-        self.assertIn("независимо от результата", telegram.screens[-1][1])
+        self.assertEqual(telegram.screens[-1][1], "Закрыть отклик?\n<b>Кандидат</b>")
         for row in telegram.screens[-1][2]:
             for value in row:
                 self.assertLessEqual(len(value["callback_data"].encode()), 64)
@@ -668,6 +668,7 @@ class DepartmentDatabaseTests(unittest.TestCase):
         self.assertNotIn("PRIVATE_NOT_FORWARDED", rendered)
         self.assertNotIn("PRIVATE_RESUME", rendered)
         controller.handle(callback(f"ask:r:{self.response_id.hex}:1"))
+        self.assertEqual(telegram.screens[-1][1].splitlines(), ["Закрыть отклик?", "Демо Кандидат"])
         self.assertFalse(self.service.get(ACTOR, "r", self.response_id).is_closed)
         confirm_button = telegram.screens[-1][2][0][0]["callback_data"]
         cancel_button = telegram.screens[-1][2][1][0]["callback_data"]

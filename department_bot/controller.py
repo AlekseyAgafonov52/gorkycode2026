@@ -109,8 +109,7 @@ class BotController:
             item, token = self.service.confirmation(actor, kind, UUID(parts[2]), closed)
             noun = "вакансию" if kind == "v" else "отклик"
             action = "Закрыть" if closed else "Открыть заново"
-            note = "\nЗакрытие вакансии не закрывает её отклики." if kind == "v" else "\nЗакрытие означает завершение работы с откликом независимо от результата."
-            return f"{action} {noun}?\n{label(item)}{note}", [
+            return f"{action} {noun}?\n{label(item)}", [
                 [button(f"Подтвердить: {action.lower()}", token)], [button("Отмена", f"{kind}:{item.id.hex}")]]
         raise ValueError("Кнопка устарела. Откройте список вакансий заново.")
 
