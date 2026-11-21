@@ -93,7 +93,8 @@ class BotController:
         if parts[0] in ("v", "r") and len(parts) == 2:
             return self.card(parts[0], self.service.get(actor, parts[0], UUID(parts[1])))
         if parts[0] == "close-vacancy" and len(parts) == 2:
-            return self.card("v", self.service.close_vacancy(actor, UUID(parts[1])))
+            # Refresh the keyboard on messages sent before this action was removed.
+            return self.card("v", self.service.get(actor, "v", UUID(parts[1])))
         if parts[0] == "files" and len(parts) == 2:
             identifier = UUID(parts[1])
             if not self.send_materials(actor, identifier):
@@ -108,7 +109,7 @@ class BotController:
             title = "Закрытые отклики" if closed else "Отклики в работе"
             rows = [[button(label(item), f"r:{item.id.hex}")] for item in page.items]
             rows += self.pager(page, lambda n: f"rl:{vacancy_id.hex}:{int(closed)}:{n}")
-            rows.extend([[button("Закрытые", f"rl:{vacancy_id.hex}:1:0")],
+            rows.extend([[button("Открытые" if closed else "Закрытые", f"rl:{vacancy_id.hex}:{int(not closed)}:0")],
                          [button("К вакансии", f"v:{vacancy_id.hex}")]])
             return f"{label(vacancy)}\n{title}: {page.total}", rows
         if parts[0] == "ask" and len(parts) == 4 and parts[1] in ("v", "r") and parts[3] in ("0", "1"):
@@ -179,8 +180,6 @@ class BotController:
         rows = []
         if kind == "v":
             rows.append([button("Переданные отклики", f"rl:{item.id.hex}:0:0")])
-            if not item.is_closed:
-                rows.append([button("Найм завершён", f"close-vacancy:{item.id.hex}")])
         else:
             recommendation = item.recommendation
             notes = [] if recommendation is None else [
