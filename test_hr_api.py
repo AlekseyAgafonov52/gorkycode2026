@@ -8,6 +8,7 @@ from pathlib import Path
 from uuid import NAMESPACE_URL, UUID, uuid4, uuid5
 from unittest.mock import patch
 
+import pymupdf
 from alembic import command
 from fastapi.testclient import TestClient
 from sqlalchemy import delete, func, select
@@ -46,12 +47,13 @@ class FakePoolBuilder:
 
 
 class HRContractTests(unittest.TestCase):
-    def test_all_eighteen_routes_in_openapi_without_database_access(self):
+    def test_all_routes_in_openapi_without_database_access(self):
         paths = create_app().openapi()["paths"]
-        self.assertEqual(sum(len(methods) for methods in paths.values()), 18)
+        self.assertEqual(sum(len(methods) for methods in paths.values()), 19)
         for path in ("/api/v1/vacancies", "/api/v1/vacancies/{vacancy_id}/criteria",
                      "/api/v1/vacancies/{vacancy_id}/match", "/api/v1/tasks/{task_id}",
-                     "/api/v1/responses/{response_id}/report", "/api/v1/responses/{response_id}/questions/generate",
+                     "/api/v1/responses/{response_id}/report", "/api/v1/responses/{response_id}/report/pdf/preview",
+                     "/api/v1/responses/{response_id}/questions/generate",
                      "/api/v1/responses/{response_id}/viewed", "/api/v1/responses/{response_id}/source-text"):
             self.assertIn(path, paths)
 
@@ -103,6 +105,8 @@ class HRAPITests(unittest.TestCase):
             source = f"Кандидат №{number}\r\nРезюме: Frontend developer\r\nPRIVATE_RESUME_TEXT\r\n"
             data = {"candidate_id": number, "skills": [{"name": name, "level": "advanced"} for name in skills],
                     "source_text": source}
+            if number == 1:
+                data["experience_total_months"] = 61
             if number != 2:
                 # Explicitly synthetic identities; original organizer data is never modified.
                 data.update(candidate_name=f"Демо Кандидат {number}", contacts={"email": f"demo{number}@example.com"})
@@ -140,7 +144,10 @@ class HRAPITests(unittest.TestCase):
         self.prepare()
         root = self.folder / "pdf"
         root.mkdir()
-        pdf = b"%PDF-1.4\nSynthetic report for API delivery tests\n%%EOF\n"
+        with pymupdf.open() as document:
+            document.new_page(width=300, height=400)
+            document.new_page(width=400, height=300)
+            pdf = document.tobytes()
         (root / "report-1.pdf").write_bytes(pdf)
         with self.factory.begin() as session:
             original = Repository(session).get_response(self.ids[0]).source_json
@@ -161,6 +168,12 @@ class HRAPITests(unittest.TestCase):
         ranged = self.client.get(url, headers={"Range": "bytes=0-4"})
         self.assertEqual(ranged.status_code, 206)
         self.assertEqual(ranged.content, b"%PDF-")
+        preview = self.client.get(url + "/preview")
+        self.assertEqual(preview.json(), {"pages": [{"width": 300, "height": 400}, {"width": 400, "height": 300}]})
+        page = self.client.get(url + "/preview?page=2")
+        self.assertEqual(page.headers["content-type"], "image/png")
+        self.assertTrue(page.content.startswith(b"\x89PNG\r\n\x1a\n"))
+        self.assertEqual(self.client.get(url + "/preview?page=3").status_code, 404)
         for path in (self.report_url(2) + "/pdf", f"/api/v1/responses/{uuid4()}/report/pdf", "/api/v1/responses/not-a-uuid/report/pdf"):
             missing = self.client.get(path)
             self.assertEqual(missing.status_code, 404)
@@ -179,7 +192,9 @@ class HRAPITests(unittest.TestCase):
         self.assertEqual([r["match_share"] for r in rows], [1, .5, .25])
         self.assertEqual(rows[-1]["id"], str(self.ids[1]))
         self.assertIsNone(rows[-1]["candidate_name"])
-        self.assertEqual(set(rows[0]), {"id", "candidate_name", "match_status", "match_share", "short_summary", "workflow_status", "is_viewed", "is_closed", "closed_at", "hired_at"})
+        self.assertEqual(set(rows[0]), {"id", "candidate_name", "experience_months", "match_status", "match_share", "short_summary", "workflow_status", "is_viewed", "is_closed", "closed_at", "hired_at"})
+        self.assertEqual(rows[0]["experience_months"], 61)
+        self.assertIsNone(rows[-1]["experience_months"])
         # Anonymous candidates with sufficient skills receive the same green status.
         with self.factory.begin() as session:
             row = session.get(Response, self.ids[1])
@@ -199,6 +214,7 @@ class HRAPITests(unittest.TestCase):
         report = first.json()
         ContractReport.model_validate(report)
         self.assertEqual(set(report), set(ContractReport.model_fields))
+        self.assertEqual(report["candidate_number"], "3")
         self.assertEqual(report["source_text"], self.raw[3])
         self.assertEqual(len(report["summary"]), 3)
         self.assertIn("2 из 4", report["summary"][0])

@@ -1,35 +1,92 @@
 ﻿import { createApi } from "./api.js";
 
-const COLORS = {
-  green: { label: "Подходит" },
-  yellow: { label: "Частично подходит" },
-  red: { label: "Навык не указан" },
+const MATCH_GROUPS = {
+  green: "Высокое соответствие",
+  yellow: "Среднее соответствие",
+  red: "Отсутствуют необходимые данные",
 };
 const STATUS = {
-  new: "Новый",
-  forwarded: "Созвонились, передаю",
-  not_forwarded: "Созвонились, не передаю",
+  reviewed: "Просмотрено",
+  call_pending: "Созвониться",
+  not_forwarded: "Созвонились",
+  forwarded: "Отправлено",
 };
-const LEVELS = { advanced: "Продвинутый", intermediate: "Средний", basic: "Базовый" };
+const REPORT_TABS = [["pdf", "Отчёт"], ["review", "Отзыв"], ["resume", "Резюме"]];
 const api = createApi(window.HR_CONFIG);
 const app = document.getElementById("app");
-const state = { vacancies: [], filter: "all", vacancyId: null, report: null,
-  viewFilter: "all", navigation: 0, controller: null, saving: new Set(),
-  reviewing: new Set(), reviewNotices: new Map(), reviewWrites: new Map(),
-  sourceDrafts: new Map(), sourceWrites: new Map(), sourceNotices: new Map(), recommendationDrafts: new Map(), vacancySaving: new Set() };
+const vacancyCrumb = document.getElementById("vacancy-crumb");
+const responseCrumb = document.getElementById("response-crumb");
+const preview = document.getElementById("vacancy-preview");
+const previewContent = preview.querySelector(".preview-content");
+const previewText = preview.querySelector(".preview-text");
+const previewStatus = preview.querySelector(".preview-status");
+let previewRequest;
+const state = { vacancies: [], vacancyId: null, report: null,
+  navigation: 0, controller: null, saving: new Set(),
+  statusChoices: new Map(), changedStatuses: new Set(),
+  sourceDrafts: new Map(), sourceWrites: new Map(), sourceNotices: new Map(), recommendationDrafts: new Map() };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g,
   (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
-const colorOf = (value) => Object.hasOwn(COLORS, value) ? value : "grey";
-const share = (value) => new Intl.NumberFormat("ru-RU", { style: "percent", maximumFractionDigits: 1 }).format(value);
 const vacancyLink = (id) => `#/v/${encodeURIComponent(id)}`;
 const reportLink = (vacancyId, id) => `${vacancyLink(vacancyId)}/r/${encodeURIComponent(id)}`;
-const dot = (color) => `<span class="dot ${colorOf(color)}" role="img" aria-label="${esc(COLORS[color]?.label || "Цвет не определён")}"></span>`;
 const editorText = (value) => value.replace(/\r\n?/g, "\n");
+const yearsFormat = new Intl.NumberFormat("ru-RU", { style: "unit", unit: "year", unitDisplay: "long" });
 
-function applyRecentViewed(item, requestStarted) {
-  const saved = state.reviewWrites.get(item.id);
-  if (saved && saved.at >= requestStarted) item.is_viewed = saved.value;
+function experienceLabel(months) {
+  if (!Number.isInteger(months) || months < 0) return "Опыт не указан";
+  if (months === 0) return "Без опыта";
+  if (months < 12) return "Меньше года опыта";
+  return `${yearsFormat.format(Math.floor(months / 12))} опыта`;
+}
+
+async function showVacancyPreview() {
+  if (preview.open) return;
+  const request = new AbortController();
+  previewRequest = request;
+  previewText.textContent = "";
+  previewStatus.textContent = "Загрузка файла вакансии…";
+  preview.showModal();
+  previewContent.scrollTop = 0;
+  try {
+    const vacancy = await api.getVacancy(state.vacancyId, { signal: request.signal });
+    if (request.signal.aborted) return;
+    const text = vacancy?.source_json?.source_text;
+    if (typeof text === "string" && text.trim()) {
+      previewText.textContent = text;
+      previewStatus.textContent = "";
+    } else {
+      previewStatus.textContent = "Исходный текст вакансии недоступен.";
+    }
+  } catch (error) {
+    if (!request.signal.aborted) previewStatus.textContent = error.message;
+  }
+}
+
+function closeVacancyPreview() {
+  if (!preview.open) return;
+  previewRequest?.abort();
+  preview.close();
+}
+
+preview.querySelector(".preview-close").addEventListener("click", closeVacancyPreview);
+preview.addEventListener("cancel", (event) => {
+  event.preventDefault();
+  closeVacancyPreview();
+});
+let pressedBackdrop = false;
+preview.addEventListener("pointerdown", (event) => {
+  pressedBackdrop = event.target === preview;
+});
+preview.addEventListener("click", (event) => {
+  if (pressedBackdrop && event.target === preview) closeVacancyPreview();
+});
+
+function responseStatus(item) {
+  const local = state.statusChoices.get(item.id);
+  if (local) return local;
+  if (Object.hasOwn(STATUS, item.workflow_status)) return item.workflow_status;
+  return item.is_viewed ? "reviewed" : null;
 }
 
 function applyRecentSource(report, requestStarted) {
@@ -43,12 +100,6 @@ function applyRecentSource(report, requestStarted) {
   return report;
 }
 
-function tabs(selectedId) {
-  return `<nav class="tabs" aria-label="Вакансии">${state.vacancies.map((vacancy) =>
-    `<a class="tab ${vacancy.id === selectedId ? "on" : ""}" ${vacancy.id === selectedId ? 'aria-current="page"' : ""}
-      href="${vacancyLink(vacancy.id)}">${esc(vacancy.title)} · ${vacancy.responses_count}${vacancy.status === "closed" ? " · Закрыта" : vacancy.hired_candidates?.length ? " · Найм подтверждён" : ""}</a>`).join("")}</nav>`;
-}
-
 function hiringBanner(vacancy) {
   const hired = vacancy.hired_candidates || [];
   if (!hired.length) return "";
@@ -57,17 +108,13 @@ function hiringBanner(vacancy) {
     <p>${vacancy.status === "closed" ? "Вакансия закрыта HR." : "Проверьте результат найма и закройте вакансию."}</p></section>`;
 }
 
-function vacancyControl(vacancy) {
-  return `<button class="act" data-vacancy-status="${vacancy.status === "closed" ? "active" : "closed"}" ${state.vacancySaving.has(vacancy.id) ? "disabled" : ""}>${vacancy.status === "closed" ? "Открыть вакансию заново" : "Закрыть вакансию"}</button>`;
-}
-
 const RECOMMENDATION_FIELDS = [["strengths", "Сильные стороны (необязательно)"], ["weaknesses", "Слабые места (необязательно)"], ["interview_focus", "Что проверить на собеседовании (необязательно)"]];
 
 function recommendationForm(report) {
   const value = state.recommendationDrafts.get(report.id) || report.recruiter_recommendation || {};
   return `<div class="recommendation-form">${RECOMMENDATION_FIELDS.map(([key, label]) =>
     `<label>${label}<textarea data-recommendation-field="${key}" maxlength="800" rows="3">${esc(value[key] || "")}</textarea></label>`).join("")}
-    <button class="act" data-action="save-recommendation">Сохранить рекомендации</button></div>`;
+    <button class="act main" type="button" data-action="send-resume">Отправить резюме с отзывом</button></div>`;
 }
 
 function readRecommendation() {
@@ -75,46 +122,7 @@ function readRecommendation() {
     .map((input) => [input.dataset.recommendationField, input.value.trim() || null]));
 }
 
-async function saveRecommendation() {
-  const report = state.report;
-  if (!report || state.saving.has(report.id)) return;
-  const recommendation = readRecommendation();
-  state.saving.add(report.id);
-  updateStatusControls();
-  let notice = "Рекомендации сохранены.", failed = false;
-  try {
-    const result = await api.updateRecommendation(report.id, recommendation);
-    report.recruiter_recommendation = result.recruiter_recommendation;
-    state.recommendationDrafts.delete(report.id);
-    if (report.workflow_status === "forwarded") notice += " Бот доставит обновление руководителю.";
-  } catch (error) {
-    notice = error.message;
-    failed = true;
-  } finally {
-    state.saving.delete(report.id);
-    if (state.report?.id === report.id) updateStatusControls(notice, failed);
-  }
-}
-
-async function saveVacancyStatus(status) {
-  const vacancy = state.vacancies.find((item) => item.id === state.vacancyId);
-  if (!vacancy || state.vacancySaving.has(vacancy.id)) return;
-  const action = status === "closed" ? "Закрыть" : "Открыть заново";
-  if (!window.confirm(`${action} вакансию «${vacancy.title}»? Отметки найма кандидатов сохранятся.`)) return;
-  state.vacancySaving.add(vacancy.id);
-  app.querySelectorAll("[data-vacancy-status]").forEach((button) => { button.disabled = true; });
-  try {
-    await api.updateVacancyStatus(vacancy.id, status);
-  } catch (error) {
-    window.alert(error.message);
-  } finally {
-    state.vacancySaving.delete(vacancy.id);
-    if (state.vacancyId === vacancy.id) await route();
-  }
-}
-
 // Страница вакансий: названия строками через точку, сначала открытые, потом закрытые.
-// Бэк пока не отдаёт статус вакансии, поэтому без поля status вакансия считается открытой.
 function renderVacancies() {
   const open = state.vacancies.filter((vacancy) => vacancy.status !== "closed");
   const closed = state.vacancies.filter((vacancy) => vacancy.status === "closed");
@@ -144,175 +152,132 @@ window.addEventListener("resize", hideLineEndDots);
 
 function message(title, text, action = "refresh") {
   app.setAttribute("aria-busy", "false");
-  app.innerHTML = `${tabs(state.vacancyId)}<section class="msg" role="status"><h1>${esc(title)}</h1>
+  app.innerHTML = `<section class="msg" role="status"><h1>${esc(title)}</h1>
     <p>${esc(text)}</p><button class="act" data-action="${action}">Повторить</button></section>`;
 }
 
 function loading(text) {
   app.setAttribute("aria-busy", "true");
-  app.innerHTML = `${tabs(state.vacancyId)}<p role="status">${esc(text)}</p>`;
+  app.innerHTML = `<p role="status">${esc(text)}</p>`;
 }
 
 function renderList(vacancy, items) {
   vacancy.responses_count = items.length;
-  const counts = { all: items.length, green: 0, yellow: 0, red: 0 };
-  for (const item of items) counts[item.match_status]++;
-  const viewedCount = items.filter((item) => item.is_viewed).length;
-  const viewCounts = { all: items.length, viewed: viewedCount, unviewed: items.length - viewedCount };
-  const shown = items.filter((item) => (state.filter === "all" || item.match_status === state.filter)
-    && (state.viewFilter === "all" || item.is_viewed === (state.viewFilter === "viewed")));
-  const chips = [["all", "Все"], ["green", COLORS.green.label], ["yellow", COLORS.yellow.label]]
-    .map(([key, label]) => `<button class="chip ${state.filter === key ? "on" : ""}" data-filter="${key}"
-      aria-pressed="${state.filter === key}">${key === "all" ? "" : dot(key) + " "}${esc(label)} ${counts[key]}</button>`).join("");
-  const viewChips = [["all", "Все"], ["unviewed", "Не просмотрено"], ["viewed", "Просмотрено"]]
-    .map(([key, label]) => `<button class="chip ${state.viewFilter === key ? "on" : ""}" data-view-filter="${key}"
-      aria-pressed="${state.viewFilter === key}">${label} ${viewCounts[key]}</button>`).join("");
-  const cards = shown.map((item) => `<article class="card" data-card-id="${esc(item.id)}">
-    <a class="card-link" href="${reportLink(vacancy.id, item.id)}">
-      ${dot(item.match_status)}
-      <div class="name">${esc(item.candidate_name || "ФИО не указано")}</div>
-      <div class="sub">Совпадение навыков: ${share(item.match_share)}</div>
-      ${item.short_summary ? `<div class="sub">${esc(item.short_summary)}</div>` : ""}
-      ${item.workflow_status !== "new" ? `<div class="mark">${esc(STATUS[item.workflow_status])}</div>` : ""}
-      <div class="review-badge">${item.is_viewed ? "Просмотрено" : "Не просмотрено"}</div>
-      ${item.hired_at ? '<div class="hiring-badge">Найм закрыт · договор подписан</div>' : item.is_closed ? '<div class="closure-badge">Работа в департаменте завершена</div>' : ""}
-    </a>${reviewControls(item)}</article>`).join("");
+  const groups = { green: [], yellow: [], red: [] };
+  for (const item of items) groups[item.match_status].push(item);
+  const card = (item) => {
+    const status = responseStatus(item);
+    const label = status ? STATUS[status] : "Новое";
+    return `<a class="candidate-card" data-card-status="${status ?? "unviewed"}" href="${reportLink(vacancy.id, item.id)}">
+      <span class="candidate-name">${esc(item.candidate_name || "ФИО не указано")}</span>
+      <span class="candidate-meta">
+        <span class="candidate-experience">${experienceLabel(item.experience_months)}</span>
+        ${status === "reviewed" ? `<span class="sr-only">${STATUS.reviewed}</span>`
+          : `<span class="candidate-status" data-status-label="${status ?? "unviewed"}">${esc(label)}</span>`}
+      </span>
+    </a>`;
+  };
+  const sections = Object.entries(MATCH_GROUPS).map(([key, label]) => `<section class="candidate-group" aria-labelledby="match-group-${key}">
+      <h2 id="match-group-${key}">${label}</h2><hr>
+      ${groups[key].length ? `<div class="candidate-grid">${groups[key].map(card).join("")}</div>` : '<p class="candidate-group-empty">Нет откликов</p>'}
+    </section>`).join("");
   app.setAttribute("aria-busy", "false");
-  app.innerHTML = `${tabs(vacancy.id)}<div class="bar"><h1>${esc(vacancy.title)}</h1>
-    <span class="grow"></span>${vacancyControl(vacancy)}<button class="act" data-action="refresh">Обновить</button></div>
-    ${vacancy.status === "closed" ? '<p class="closure-badge">Вакансия закрыта HR</p>' : ""}
+  app.innerHTML = `<div class="responses-page">
+    <div class="responses-heading">
+      <div class="vacancy-heading">
+        <h1>${esc(vacancy.title)}</h1>
+        <button type="button" class="icon-button vacancy-file" data-action="preview-vacancy"
+          aria-label="Предпросмотр файла вакансии" aria-haspopup="dialog" aria-controls="vacancy-preview" title="Предпросмотр файла вакансии">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 3h8l4 4v14H6z M14 3v5h4 M9 12h6 M9 16h6"/>
+          </svg>
+        </button>
+        <span class="vacancy-state">(${vacancy.status === "closed" ? "вакансия закрыта" : "вакансия открыта"})</span>
+      </div>
+      <button type="button" class="act responses-refresh" data-action="refresh">Обновить</button>
+    </div>
     ${hiringBanner(vacancy)}
-    <div class="chips" aria-label="Фильтр по цвету">${chips}</div>
-    <div class="chips" aria-label="Фильтр по просмотру">${viewChips}</div>
-    <div class="grid">${cards || '<p role="status">Нет откликов по выбранному фильтру.</p>'}</div>`;
+    <div class="candidate-groups">${items.length ? sections : '<p role="status">Нет откликов.</p>'}</div>
+  </div>`;
   state.items = items;
 }
 
-function reviewControls(item) {
-  const pending = state.reviewing.has(item.id);
-  const notice = state.reviewNotices.get(item.id);
-  return `<div class="review-block" data-review-block="${esc(item.id)}">
-    <div class="review-controls" role="group" aria-label="Просмотр отклика">
-      ${[[true, "Просмотрено"], [false, "Не просмотрено"]].map(([value, label]) =>
-        `<button class="act ${item.is_viewed === value ? "selected" : ""}" data-response-id="${esc(item.id)}" data-viewed="${value}"
-          aria-pressed="${item.is_viewed === value}" ${pending ? "disabled" : ""}>${label}</button>`).join("")}
-    </div><p class="review-notice ${notice?.error ? "error" : ""}" role="status" aria-live="polite">${pending ? "Сохраняем…" : esc(notice?.text || "")}</p>
-  </div>`;
-}
-
-function refreshReviewControls(identifier) {
-  const current = state.report?.id === identifier ? state.report : state.items?.find((item) => item.id === identifier);
-  if (!current) return;
-  if (state.report?.id === identifier) {
-    const block = app.querySelector(`[data-review-block="${identifier}"]`);
-    if (block) block.outerHTML = reviewControls(current);
-    const badge = app.querySelector("[data-report-viewed]");
-    if (badge) badge.textContent = current.is_viewed ? "Просмотрено" : "Не просмотрено";
-  } else if (!state.report && app.querySelector(".grid")) {
-    const vacancy = state.vacancies.find((item) => item.id === state.vacancyId);
-    if (vacancy && state.items) renderList(vacancy, state.items);
-  }
-}
-
-async function saveViewed(identifier, viewed) {
-  if (state.reviewing.has(identifier)) return;
-  state.reviewing.add(identifier);
-  state.reviewNotices.delete(identifier);
-  refreshReviewControls(identifier);
-  try {
-    const result = await api.updateViewed(identifier, viewed);
-    if (result.id !== identifier || typeof result.is_viewed !== "boolean") {
-      throw new Error("Не удалось подтвердить отметку просмотра.");
-    }
-    state.reviewWrites.set(identifier, { value: result.is_viewed, at: performance.now() });
-    if (state.report?.id === identifier) state.report.is_viewed = result.is_viewed;
-    const item = state.items?.find((item) => item.id === identifier);
-    if (item) item.is_viewed = result.is_viewed;
-    state.reviewNotices.set(identifier, { text: "Отметка сохранена.", error: false });
-  } catch (error) {
-    state.reviewNotices.set(identifier, { text: error.message, error: true });
-  } finally {
-    state.reviewing.delete(identifier);
-    refreshReviewControls(identifier);
-  }
-}
-
-function contactLink(label, value, href) {
-  return value ? `<span>${esc(label)}: <a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(value)}</a></span>` : "";
-}
-
-function renderContacts(contacts) {
-  const other = contacts.other.map((value) => {
-    try {
-      const url = new URL(value);
-      if (["https:", "http:"].includes(url.protocol)) return contactLink("Ссылка", value, url.href);
-    } catch { /* A non-URL contact is displayed as plain text. */ }
-    return `<span>${esc(value)}</span>`;
-  });
-  const content = [
-    contactLink("Телефон", contacts.phone, `tel:${encodeURIComponent(contacts.phone || "")}`),
-    contactLink("Email", contacts.email, `mailto:${encodeURIComponent(contacts.email || "")}`),
-    contactLink("Telegram", contacts.telegram, `https://t.me/${encodeURIComponent((contacts.telegram || "").replace(/^@/, ""))}`),
-    ...other,
-  ].filter(Boolean).join("");
-  return content || '<span class="muted">Контакты не указаны</span>';
-}
-
-function renderQuestion(question) {
-  return `<li><span class="question-kind">${question.kind === "missing" ? "Уточнение опыта" : "Вопрос по навыку"}</span>
-    <div>${esc(question.question)}</div>
-    ${question.expected_answer ? `<details><summary>Ориентир ответа</summary><p class="expected">${esc(question.expected_answer)}</p></details>` : ""}
-    ${question.follow_up_hint ? `<p class="muted">${esc(question.follow_up_hint)}</p>` : ""}</li>`;
-}
-
 function renderPdfReport(report) {
-  if (!report.pdf_report) return "";
-  const url = esc(api.pdfReportUrl(report.id));
-  const download = esc(api.pdfReportUrl(report.id, true));
-  return `<section class="panel pdf-panel" aria-label="PDF-отчёт по отклику">
-    <div class="bar"><h2>PDF-отчёт</h2><span class="grow"></span>
-      <a class="act" href="${url}" target="_blank" rel="noopener noreferrer">Открыть PDF</a>
-      <a class="act" href="${download}">Скачать PDF</a></div>
-    ${report.pdf_report.is_stale ? '<p class="pdf-stale" role="status">Текст резюме изменён после создания PDF. В документе сохранена предыдущая версия отчёта.</p>' : ""}
-    <iframe class="pdf-viewer" src="${url}#view=FitH" title="PDF-отчёт по текущему отклику" loading="lazy"></iframe>
-    <p class="muted">Если документ не отображается, откройте или скачайте PDF по кнопкам выше.</p></section>`;
+  if (!report.pdf_report) return '<p class="panel" role="status">PDF-отчёт для этого отклика пока недоступен.</p>';
+  return `<p class="pdf-stale" data-pdf-stale role="status" ${report.pdf_report.is_stale ? "" : "hidden"}>Текст резюме изменён после создания PDF.</p>
+    <div class="pdf-viewer" data-pdf-viewer role="region" aria-label="Страницы PDF-отчёта" tabindex="0">
+      <p class="pdf-status" role="status">Загрузка PDF…</p>
+    </div>`;
+}
+
+async function loadPdfPreview(id, signal) {
+  const viewer = app.querySelector("[data-pdf-viewer]");
+  if (!viewer) return;
+  try {
+    const { pages } = await api.getPdfPreview(id, { signal });
+    if (signal.aborted || !viewer.isConnected) return;
+    viewer.replaceChildren(...pages.map(({ width, height }, index) => {
+      const image = document.createElement("img");
+      const page = index + 1;
+      image.className = "pdf-page";
+      image.alt = `Страница ${page} PDF-отчёта`;
+      image.width = Math.round(width);
+      image.height = Math.round(height);
+      image.loading = index === 0 ? "eager" : "lazy";
+      image.decoding = "async";
+      image.src = api.pdfPreviewPageUrl(id, page);
+      return image;
+    }));
+  } catch (error) {
+    if (signal.aborted || !viewer.isConnected) return;
+    const status = viewer.querySelector(".pdf-status");
+    status.textContent = "Не удалось открыть предпросмотр. ";
+    const download = document.createElement("a");
+    download.href = api.pdfReportUrl(id, true);
+    download.textContent = "Скачать PDF";
+    status.append(download);
+  }
 }
 
 function renderReport(report, vacancy) {
   app.setAttribute("aria-busy", "false");
-  app.innerHTML = `${tabs(vacancy.id)}<div class="bar"><a href="${vacancyLink(vacancy.id)}">К списку откликов</a>
-    <span class="grow"></span>${vacancyControl(vacancy)}<button class="act" data-action="refresh">Обновить</button></div>
-    ${hiringBanner(vacancy)}
-    <section class="panel">
+  vacancyCrumb.removeAttribute("aria-current");
+  responseCrumb.textContent = report.candidate_number ? `Отчёт по отклику № ${report.candidate_number}` : "Отчёт по отклику";
+  responseCrumb.href = reportLink(vacancy.id, report.id);
+  app.innerHTML = `<div class="report-page">
+    <div class="report-toolbar">
+      <a class="icon-button report-back" href="${vacancyLink(vacancy.id)}" aria-label="Назад к списку откликов" title="Назад к списку откликов">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m12 5-7 7 7 7 M5 12h14"/>
+        </svg>
+      </a>
+      <div class="report-tabs" role="tablist" aria-label="Отклик">
+        ${REPORT_TABS.map(([key, label], index) => `<button type="button" id="report-tab-${key}" role="tab" data-report-tab="${key}"
+          aria-selected="${index === 0}" aria-controls="report-panel-${key}" tabindex="${index === 0 ? 0 : -1}">${label}</button>`).join("")}
+      </div>
+      <div class="report-progress">
+        <button type="button" class="act report-next-action" data-action="advance-status" hidden></button>
+        <details class="report-status">
+          <summary><span class="sr-only">Статус отклика</span><span data-current-status></span>
+            <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg>
+          </summary>
+          <div class="report-status-options" role="group" aria-label="Статусы отклика">
+            ${Object.entries(STATUS).map(([value, label]) => `<button type="button" data-workflow-choice="${value}">${esc(label)}</button>`).join("")}
+          </div>
+        </details>
+      </div>
+    </div>
+    <section id="report-panel-pdf" role="tabpanel" aria-labelledby="report-tab-pdf" tabindex="0">
+      ${renderPdfReport(report)}
+    </section>
+    <section class="panel" id="report-panel-review" role="tabpanel" aria-labelledby="report-tab-review" tabindex="0" hidden>
       <h1>${esc(report.candidate_name || "ФИО не указано")}</h1>
       ${vacancy.status === "closed" ? '<p class="closure-badge">Вакансия закрыта HR</p>' : ""}
       ${report.hired_at ? '<p class="hiring-badge">Найм закрыт · трудовой договор подписан</p>' : report.is_closed ? '<p class="closure-badge">Работа с откликом в департаменте завершена</p>' : ""}
-      <div class="bar">${dot(report.match_status)}<b>${esc(report.match_label)}</b>
-        <span>Совпадение навыков: ${share(report.match_share)}</span></div>
-      <div class="contact-list">${renderContacts(report.contacts)}</div>
-      <p class="review-badge" data-report-viewed>${report.is_viewed ? "Просмотрено" : "Не просмотрено"}</p>
-      ${reviewControls(report)}
-    </section>
-    <section class="panel"><h2>Итог</h2><ul class="summary-lines">${report.summary.map((line) => `<li>${esc(line)}</li>`).join("")}</ul></section>
-    ${renderPdfReport(report)}
-    <section class="panel"><h2>Навыки и вопросы</h2>${report.skills.map((skill) => `<article class="skill">
-      <div class="skill-heading">${dot(skill.relevance)}<h3>${esc(skill.skill)}</h3>
-        <span class="level">${esc(LEVELS[skill.resume_level] || "Уровень не указан")}</span></div>
-      <p>${esc(skill.explanation)}</p>
-      ${skill.questions.length ? `<ol class="questions">${skill.questions.map(renderQuestion).join("")}</ol>` : ""}
-    </article>`).join("") || '<p class="muted">Навыки вакансии не указаны.</p>'}</section>
-    <section class="panel"><h2>Недостающие сведения</h2>${report.missing_data.length
-      ? `<ul>${report.missing_data.map((item) => `<li>${esc(item.text)}</li>`).join("")}</ul>`
-      : '<p class="muted">Нет уточнений по основным сведениям.</p>'}</section>
-    <section class="panel"><h2>Передача в департамент</h2>
       <p>Рекомендации рекрутера будут показаны руководителю в Telegram.</p>${recommendationForm(report)}
-      <p>Статус звонка: <b data-current-status></b></p>
-      <div class="bar actions">
-        <button class="act main" data-workflow="forwarded">Созвонились, передаю</button>
-        <button class="act" data-workflow="not_forwarded">Созвонились, не передаю</button>
-        <button class="act" data-workflow="new">Сбросить отметку</button>
-      </div><p class="notice" data-save-notice role="status" aria-live="polite"></p></section>
-    <section class="panel" data-source-panel>
+      <p class="notice" data-save-notice role="status" aria-live="polite"></p>
+    </section>
+    <section class="panel" id="report-panel-resume" role="tabpanel" aria-labelledby="report-tab-resume" tabindex="0" data-source-panel hidden>
       <div class="source-heading"><h2>Исходный текст резюме</h2>
         <button class="icon-button" type="button" data-action="edit-source" title="Редактировать текст резюме"
           aria-label="Редактировать текст резюме" aria-controls="source-editor" aria-expanded="false">
@@ -327,10 +292,20 @@ function renderReport(report, vacancy) {
         <div class="bar"><button class="act main" type="button" data-action="save-source">Сохранить</button>
           <button class="act" type="button" data-action="cancel-source">Отмена</button></div>
       </div><p class="notice" data-source-notice role="status" aria-live="polite"></p>
-    </section>`;
+    </section>
+  </div>`;
   app.querySelector("[data-source]").textContent = report.source_text;
   renderSourceEditor();
   updateStatusControls();
+}
+
+function selectReportTab(selectedTab) {
+  app.querySelectorAll("[data-report-tab]").forEach((tab) => {
+    const selected = tab === selectedTab;
+    tab.setAttribute("aria-selected", String(selected));
+    tab.tabIndex = selected ? 0 : -1;
+    document.getElementById(tab.getAttribute("aria-controls")).hidden = !selected;
+  });
 }
 
 function renderSourceEditor() {
@@ -386,23 +361,23 @@ async function saveSource() {
     cancelSource();
     return;
   }
-  const requestStarted = performance.now();
   draft.saving = true;
   draft.error = "";
   renderSourceEditor();
   try {
     const updated = await api.updateSourceText(draft.id, draft.text, draft.originalText);
     if (updated.id !== draft.id || updated.source_text !== draft.text) throw new Error("Не удалось подтвердить сохранение текста.");
-    applyRecentViewed(updated, requestStarted);
     state.sourceWrites.set(draft.id, { report: updated, at: performance.now() });
     state.sourceDrafts.delete(draft.id);
     state.sourceNotices.set(draft.id, "Текст сохранён. Отчёт обновлён.");
     if (state.report?.id === draft.id) {
       state.report = updated;
-      const vacancy = state.vacancies.find((item) => item.id === updated.vacancy_id);
-      renderReport(updated, vacancy);
-      app.querySelector("[data-source-panel]").scrollIntoView({ block: "start" });
-      app.querySelector('[data-action="edit-source"]').focus({ preventScroll: true });
+      app.querySelector("[data-source]").textContent = updated.source_text;
+      app.querySelector("[data-pdf-stale]")?.toggleAttribute("hidden", !updated.pdf_report?.is_stale);
+      renderSourceEditor();
+      if (!app.querySelector("[data-source-panel]").hidden) {
+        app.querySelector('[data-action="edit-source"]').focus({ preventScroll: true });
+      }
     } else if (!state.report && state.items?.some((item) => item.id === draft.id)) {
       await route();
     }
@@ -413,48 +388,96 @@ async function saveSource() {
   }
 }
 
+function updateNextAction() {
+  const report = state.report;
+  const button = app.querySelector('[data-action="advance-status"]');
+  if (!report || !button) return;
+  const status = responseStatus(report);
+  let nextStatus;
+  if (status === "not_forwarded") nextStatus = "forwarded";
+  else if (status === "call_pending" || (status === "reviewed" && Object.values(readRecommendation()).some(Boolean))) nextStatus = "not_forwarded";
+  else if (status === "reviewed" && !state.changedStatuses.has(report.id)) nextStatus = "call_pending";
+  button.hidden = !nextStatus;
+  if (!nextStatus) return;
+  button.dataset.nextStatus = nextStatus;
+  button.textContent = nextStatus === "forwarded" ? "Отправить резюме" : STATUS[nextStatus];
+  button.disabled = state.saving.has(report.id);
+}
+
 function updateStatusControls(notice = "", isError = false) {
   const report = state.report;
   if (!report) return;
   const current = app.querySelector("[data-current-status]");
   if (!current) return;
   const saving = state.saving.has(report.id);
-  app.querySelectorAll("[data-recommendation-field], [data-action='save-recommendation']").forEach((input) => { input.disabled = saving; });
-  current.textContent = STATUS[report.workflow_status] || "Статус не указан";
-  app.querySelectorAll("[data-workflow]").forEach((button) => {
-    const selected = button.dataset.workflow === report.workflow_status;
-    button.disabled = saving;
-    button.classList.toggle("selected", selected);
-    button.setAttribute("aria-pressed", String(selected));
+  const status = responseStatus(report);
+  current.textContent = STATUS[status];
+  current.dataset.currentStatus = status;
+  app.querySelectorAll("[data-workflow-choice]").forEach((option) => {
+    option.disabled = saving;
+    option.setAttribute("aria-pressed", String(option.dataset.workflowChoice === status));
   });
+  app.querySelectorAll("[data-recommendation-field], [data-action='send-resume']").forEach((input) => { input.disabled = saving; });
   const output = app.querySelector("[data-save-notice]");
-  output.textContent = saving ? "Сохраняем…" : notice;
-  output.className = `notice ${isError ? "error" : notice ? "success" : ""}`;
+  output.textContent = saving ? "Отправляем…" : notice;
+  output.classList.toggle("error", isError);
+  output.classList.toggle("success", !isError && Boolean(notice));
+  updateNextAction();
 }
 
-async function saveStatus(status) {
+function setResponseStatus(status) {
   const report = state.report;
-  if (!report || state.saving.has(report.id) || !Object.hasOwn(STATUS, status)) return;
-  let recommendation;
-  if (status === "forwarded") {
-    recommendation = readRecommendation();
+  if (!report || state.saving.has(report.id)) return;
+  if (status !== responseStatus(report)) state.changedStatuses.add(report.id);
+  state.statusChoices.set(report.id, status);
+  updateStatusControls();
+}
+
+function chooseStatus(button) {
+  const report = state.report;
+  if (!report) return;
+  const menu = button.closest("details");
+  menu.open = false;
+  const status = button.dataset.workflowChoice;
+  if (status === "forwarded" && responseStatus(report) !== "forwarded") {
+    selectReportTab(app.querySelector("#report-tab-review"));
+    app.querySelector('[data-action="send-resume"]').focus();
+    return;
   }
+  setResponseStatus(status);
+  menu.querySelector("summary").focus();
+}
+
+function advanceStatus(button) {
+  if (button.dataset.nextStatus === "forwarded") {
+    selectReportTab(app.querySelector("#report-tab-review"));
+    sendResume();
+    return;
+  }
+  setResponseStatus(button.dataset.nextStatus);
+  app.querySelector(".report-status summary").focus();
+}
+
+async function sendResume() {
+  const report = state.report;
+  if (!report || state.saving.has(report.id)) return;
+  const recommendation = readRecommendation();
   state.saving.add(report.id);
   updateStatusControls();
   let notice;
   let failed = false;
   try {
-    const result = await api.updateStatus(report.id, status, recommendation);
-    if (result.id !== report.id || !Object.hasOwn(STATUS, result.workflow_status)) {
-      throw new Error("Не удалось подтвердить сохранение статуса.");
+    const result = await api.updateStatus(report.id, "forwarded", recommendation);
+    if (result.id !== report.id || result.workflow_status !== "forwarded") {
+      throw new Error("Не удалось подтвердить отправку резюме.");
     }
-    report.workflow_status = result.workflow_status;
-    if (recommendation) {
-      report.recruiter_recommendation = recommendation;
-      state.recommendationDrafts.delete(report.id);
+    state.statusChoices.set(report.id, result.workflow_status);
+    state.recommendationDrafts.delete(report.id);
+    if (state.report?.id === report.id) {
+      state.report.workflow_status = result.workflow_status;
+      state.report.recruiter_recommendation = recommendation;
     }
-    if (state.report?.id === report.id) state.report.workflow_status = result.workflow_status;
-    notice = status === "forwarded" ? "Передача сохранена. Отчёт и резюме поставлены в очередь Telegram." : "Статус сохранён.";
+    notice = "Резюме и отзыв переданы на отправку в Telegram.";
   } catch (error) {
     failed = true;
     notice = error.message;
@@ -465,6 +488,9 @@ async function saveStatus(status) {
 }
 
 async function route() {
+  closeVacancyPreview();
+  responseCrumb.textContent = "";
+  vacancyCrumb.setAttribute("aria-current", "page");
   const navigation = ++state.navigation;
   state.controller?.abort();
   state.controller = new AbortController();
@@ -480,6 +506,7 @@ async function route() {
     if (!parts) {
       if (!location.hash || location.hash === "#/") {
         state.vacancyId = null;
+        vacancyCrumb.textContent = "";
         renderVacancies();
         window.scrollTo(0, 0);
         return;
@@ -498,10 +525,8 @@ async function route() {
     }
     const vacancy = state.vacancies.find((item) => item.id === vacancyId);
     if (!vacancy) throw new Error("Вакансия не найдена. Выберите другую вакансию.");
-    if (state.vacancyId !== vacancyId) {
-      state.filter = "all";
-      state.viewFilter = "all";
-    }
+    vacancyCrumb.textContent = vacancy.title;
+    vacancyCrumb.href = vacancyLink(vacancy.id);
     state.vacancyId = vacancyId;
     loading(responseId ? "Загрузка отчёта…" : "Загрузка откликов…");
     const requestStarted = performance.now();
@@ -510,13 +535,13 @@ async function route() {
       if (navigation !== state.navigation) return;
       if (report.vacancy_id !== vacancyId) throw new Error("Отклик относится к другой вакансии.");
       report = applyRecentSource(report, requestStarted);
-      applyRecentViewed(report, requestStarted);
+      if (!responseStatus(report)) state.statusChoices.set(report.id, "reviewed");
       state.report = report;
       renderReport(report, vacancy);
+      loadPdfPreview(report.id, signal);
     } else {
       const items = await api.listResponses(vacancyId, { signal });
       if (navigation !== state.navigation) return;
-      items.forEach((item) => applyRecentViewed(item, requestStarted));
       renderList(vacancy, items);
     }
     window.scrollTo(0, 0);
@@ -547,23 +572,20 @@ app.addEventListener("click", (event) => {
   const button = event.target instanceof Element ? event.target.closest("button") : null;
   if (!button || button.disabled) return;
   if (button.dataset.action === "start") start();
-  else if (button.dataset.action === "save-recommendation") saveRecommendation();
-  else if (button.dataset.vacancyStatus) saveVacancyStatus(button.dataset.vacancyStatus);
+  else if (button.dataset.action === "send-resume") sendResume();
+  else if (button.dataset.action === "advance-status") advanceStatus(button);
+  else if (button.dataset.workflowChoice) chooseStatus(button);
   else if (button.dataset.action === "refresh") route();
+  else if (button.dataset.reportTab) selectReportTab(button);
+  else if (button.dataset.action === "preview-vacancy") showVacancyPreview();
   else if (button.dataset.action === "edit-source") editSource();
   else if (button.dataset.action === "save-source") saveSource();
   else if (button.dataset.action === "cancel-source") cancelSource();
-  else if (button.dataset.filter) {
-    state.filter = button.dataset.filter;
-    const vacancy = state.vacancies.find((item) => item.id === state.vacancyId);
-    if (vacancy && state.items) renderList(vacancy, state.items);
-  } else if (button.dataset.viewFilter) {
-    state.viewFilter = button.dataset.viewFilter;
-    const vacancy = state.vacancies.find((item) => item.id === state.vacancyId);
-    if (vacancy && state.items) renderList(vacancy, state.items);
-  } else if (button.dataset.viewed !== undefined && button.dataset.responseId) {
-    saveViewed(button.dataset.responseId, button.dataset.viewed === "true");
-  } else if (button.dataset.workflow) saveStatus(button.dataset.workflow);
+});
+
+document.addEventListener("click", (event) => {
+  const menu = app.querySelector(".report-status[open]");
+  if (menu && !menu.contains(event.target)) menu.open = false;
 });
 
 app.addEventListener("input", (event) => {
@@ -572,6 +594,7 @@ app.addEventListener("input", (event) => {
   const draft = { ...(state.recommendationDrafts.get(state.report.id) || state.report.recruiter_recommendation || {}) };
   draft[input.dataset.recommendationField] = input.value;
   state.recommendationDrafts.set(state.report.id, draft);
+  updateNextAction();
 });
 
 app.addEventListener("input", (event) => {
@@ -581,6 +604,24 @@ app.addEventListener("input", (event) => {
 });
 
 app.addEventListener("keydown", (event) => {
+  const menu = event.target instanceof Element && event.target.closest(".report-status[open]");
+  if (menu && event.key === "Escape") {
+    menu.open = false;
+    menu.querySelector("summary").focus();
+    return;
+  }
+  if (event.target instanceof HTMLButtonElement && event.target.dataset.reportTab) {
+    const tabs = [...event.target.parentElement.querySelectorAll("[data-report-tab]")];
+    const index = tabs.indexOf(event.target);
+    const nextIndices = { ArrowLeft: (index + tabs.length - 1) % tabs.length,
+      ArrowRight: (index + 1) % tabs.length, Home: 0, End: tabs.length - 1 };
+    if (!Object.hasOwn(nextIndices, event.key)) return;
+    event.preventDefault();
+    const nextTab = tabs[nextIndices[event.key]];
+    selectReportTab(nextTab);
+    nextTab.focus();
+    return;
+  }
   if (!(event.target instanceof HTMLTextAreaElement) || !event.target.matches("[data-source-input]")) return;
   if (event.key === "Enter" && (event.ctrlKey || event.metaKey)) { event.preventDefault(); saveSource(); }
   else if (event.key === "Escape") { event.preventDefault(); cancelSource(); }

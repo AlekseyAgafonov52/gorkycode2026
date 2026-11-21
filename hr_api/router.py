@@ -3,8 +3,9 @@ from __future__ import annotations
 from typing import Annotated
 from uuid import UUID
 
+import pymupdf
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse, Response
 from contract_models import ContractReport, ContractResponse, ContractVacancy, ErrorEnvelope, RecommendationResult, RecommendationUpdate, SourceTextUpdate, VacancyStatusUpdate, ViewedResult, ViewedUpdate, WorkflowResult, WorkflowUpdate
 from storage.crud import NotFoundError
 
@@ -135,6 +136,27 @@ def report_pdf(response_id: str, service: Service, download: bool = False):
     return FileResponse(path, media_type="application/pdf", filename=path.name,
         content_disposition_type="attachment" if download else "inline",
         headers={"Cache-Control": "private, no-cache", "X-Content-Type-Options": "nosniff"})
+
+
+@router.get("/responses/{response_id}/report/pdf/preview", response_class=JSONResponse, tags=["Отчёты"],
+            responses={200: {"content": {"image/png": {}}}}, summary="Размеры страниц PDF или изображение выбранной страницы")
+def report_pdf_preview(response_id: str, service: Service, page: Annotated[int | None, Query(ge=1)] = None):
+    path = service.pdf_report_path(identifier(response_id))
+    headers = {"Cache-Control": "private, no-cache", "X-Content-Type-Options": "nosniff"}
+    try:
+        with pymupdf.open(path) as pdf:
+            if pdf.needs_pass or not pdf.page_count:
+                raise HTTPException(422, "Предпросмотр этого PDF недоступен")
+            if page is None:
+                return JSONResponse({"pages": [{"width": p.rect.width, "height": p.rect.height} for p in pdf]}, headers=headers)
+            if page > pdf.page_count:
+                raise NotFoundError("Страница PDF не найдена")
+            pdf_page = pdf[page - 1]
+            zoom = min(2, 1700 / max(pdf_page.rect.width, pdf_page.rect.height))
+            image = pdf_page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), alpha=False)
+            return Response(image.tobytes("png"), media_type="image/png", headers=headers)
+    except (OSError, pymupdf.FileDataError):
+        raise HTTPException(422, "Предпросмотр этого PDF недоступен") from None
 
 
 @router.post("/responses/{response_id}/questions/generate", response_model=TaskView, status_code=202, tags=["Отчёты"],

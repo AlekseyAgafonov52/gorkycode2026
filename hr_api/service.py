@@ -125,7 +125,10 @@ class HRService:
         if report.criteria_version != response.vacancy.criteria_version:
             raise ReportNotReadyError("Критерии обновлены; дождитесь подготовки актуального отчёта")
         source = response.source_json.get("source_text")
+        number = str(response.source_json.get("candidate_id", ""))
+        candidate_number = number if number.isascii() and number.isdecimal() and len(number) <= 20 else None
         return ContractReport.model_validate({**report.contract_json,
+            "candidate_number": candidate_number,
             "workflow_status": response.workflow_status, "is_viewed": response.is_viewed,
             "is_closed": response.is_closed, "closed_at": response.closed_at,
             "hired_at": response.hired_at, "recruiter_recommendation": response.recruiter_recommendation,
@@ -134,7 +137,12 @@ class HRService:
 
     def _summary(self, response: Response) -> ContractResponse:
         report = self._report(response, include_pdf=False)
-        return ContractResponse.model_validate(report.model_dump(include=set(ContractResponse.model_fields)))
+        assert response.report is not None
+        structured = response.report.structured_resume
+        months = (structured["experience_months"] if "experience_months" in structured
+                  else resume_from_json(response.source_json).experience_months)
+        return ContractResponse.model_validate({**report.model_dump(include=set(ContractResponse.model_fields)),
+                                                "experience_months": months})
 
     def list_responses(self, vacancy_id: UUID, *, match_status: str | None = None,
                        workflow_status: str | None = None, is_archived: bool | None = None,

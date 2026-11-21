@@ -45,6 +45,32 @@ class OfflinePdfTests(unittest.TestCase):
     def test_json_key_order_does_not_make_pdf_stale(self):
         self.assertEqual(source_digest(self.source), source_digest(dict(reversed(list(self.source.items())))))
 
+    def test_packaged_pdfs_are_scoped_to_the_imported_vacancy(self):
+        from check_candidate import PROFILES
+
+        applications = self.root / "parsed_responses"
+        pdfs = PdfReports(self.root / "reports", applications=applications)
+        for profile in ("designer", "frontend"):
+            folder = self.root / f"reports_{profile}"
+            folder.mkdir()
+            (folder / f"Report_{profile}_1.pdf").write_bytes(b"%PDF-1.4\nSynthetic PDF\n%%EOF")
+        originals = applications / PROFILES["designer"]
+        originals.mkdir(parents=True)
+        (originals / "отклик 1.json").write_text(json.dumps(self.source), encoding="utf-8")
+
+        info = pdfs.info(self.response, self.vacancy, self.source)
+        assert info is not None
+        self.assertEqual(info.filename, "Report_designer_1.pdf")
+        self.assertFalse(info.is_stale)
+        edited = pdfs.info(self.response, self.vacancy, {**self.source, "source_text": "Edited"})
+        assert edited is not None
+        self.assertTrue(edited.is_stale)
+        frontend_vacancy = uuid5(NAMESPACE_URL, "hr-platform/vacancies/frontend")
+        frontend_response = uuid5(NAMESPACE_URL, "hr-platform/responses/frontend/1")
+        self.assertIsNone(pdfs.path(self.response, frontend_vacancy))
+        self.assertEqual(pdfs.path(frontend_response, frontend_vacancy),
+                         self.root / "reports_frontend" / "Report_frontend_1.pdf")
+
     def test_missing_corrupt_index_or_file_never_breaks_report(self):
         path = self.root / "report-1.pdf"
         path.write_bytes(b"<html>not a PDF</html>")

@@ -7,8 +7,20 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header><b>HR-платформа</b><span class="crumb-sep">/</span><a class="crumb" href="#/">Вакансии</a></header>
+<header>
+  <b>HR-платформа</b><span class="crumb-sep" aria-hidden="true">/</span><a class="crumb" href="#/">Вакансии</a>
+  <span class="crumb-sep vacancy-crumb" aria-hidden="true">/</span><a class="crumb vacancy-crumb" id="vacancy-crumb" aria-current="page"></a>
+  <span class="crumb-sep response-crumb" aria-hidden="true">/</span><a class="crumb response-crumb" id="response-crumb" aria-current="page"></a>
+</header>
 <main id="app" aria-busy="true">Загрузка…</main>
+<dialog class="vacancy-preview" id="vacancy-preview" aria-labelledby="vacancy-preview-title">
+  <button type="button" class="preview-close" aria-label="Закрыть предпросмотр" autofocus>×</button>
+  <div class="preview-content" tabindex="0">
+    <h2 id="vacancy-preview-title">job_vacancy.txt</h2>
+    <p class="preview-status" role="status"></p>
+    <p class="preview-text"></p>
+  </div>
+</dialog>
 <script src="config.js"></script>
 <script type="module" src="app.js"></script>
 </body>

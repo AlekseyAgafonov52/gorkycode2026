@@ -145,6 +145,7 @@ class PdfReportInfo(ContractModel):
 class ContractReport(ContractModel):
     id: str
     vacancy_id: str
+    candidate_number: str | None = Field(default=None, pattern=r"^[0-9]{1,20}$")
     candidate_name: str | None
     contacts: Contacts
     match_status: Color
@@ -168,6 +169,7 @@ class ContractReport(ContractModel):
 class ContractResponse(ContractModel):
     id: str
     candidate_name: str | None
+    experience_months: int | None = Field(default=None, ge=0)
     match_status: Color
     match_share: float = Field(ge=0, le=1)
     short_summary: str | None = None

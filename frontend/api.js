@@ -10,6 +10,7 @@ export class ApiError extends Error {
 
 export function createApi({ apiBaseUrl = "/api/v1", requestTimeoutMs = 30000 } = {}) {
   const base = apiBaseUrl.replace(/\/+$/, "");
+  const pdfPath = (id) => `/responses/${encodeURIComponent(id)}/report/pdf`;
 
   async function request(path, { signal, ...options } = {}) {
     const controller = new AbortController();
@@ -49,6 +50,7 @@ export function createApi({ apiBaseUrl = "/api/v1", requestTimeoutMs = 30000 } =
 
   return {
     listVacancies: (options) => request("/vacancies", options),
+    getVacancy: (id, options) => request(`/vacancies/${encodeURIComponent(id)}`, options),
     async listResponses(vacancyId, options) {
       const items = [];
       const limit = 1000;
@@ -60,7 +62,9 @@ export function createApi({ apiBaseUrl = "/api/v1", requestTimeoutMs = 30000 } =
       }
     },
     getReport: (responseId, options) => request(`/responses/${encodeURIComponent(responseId)}/report`, options),
-    pdfReportUrl: (responseId, download = false) => `${base}/responses/${encodeURIComponent(responseId)}/report/pdf${download ? "?download=true" : ""}`,
+    pdfReportUrl: (id, download = false) => `${base}${pdfPath(id)}${download ? "?download=true" : ""}`,
+    getPdfPreview: (id, options) => request(`${pdfPath(id)}/preview`, options),
+    pdfPreviewPageUrl: (id, page) => `${base}${pdfPath(id)}/preview?page=${page}`,
     updateSourceText: (responseId, sourceText, expectedSourceText) => request(`/responses/${encodeURIComponent(responseId)}/source-text`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },

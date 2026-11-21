@@ -64,6 +64,9 @@ services:
       - ./parsed_responses:/app/parsed_responses
       - ./vacansies:/app/vacansies:ro
       - ./otchet_offline/reports:/app/otchet_offline/reports:ro
+      - ./otchet_offline/reports_designer:/app/otchet_offline/reports_designer:ro
+      - ./otchet_offline/reports_frontend:/app/otchet_offline/reports_frontend:ro
+      - ./otchet_offline/reports_python:/app/otchet_offline/reports_python:ro
     depends_on:
       db:
         condition: service_healthy
